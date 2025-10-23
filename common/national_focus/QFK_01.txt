@@ -11,6 +11,7 @@ focus_tree = {
 	shared_focus = QFK_01_FS_00_A
 	shared_focus = QFK_01_FS_00_B
 	shared_focus = QFK_01_FS_00_C
+	shared_focus = QFK_01_FW_00
 	default = no
     continuous_focus_position = { x = 1823 y = 1400 }
 	initial_show_position = { x = 2000 y = 0 }
@@ -18,14 +19,13 @@ focus_tree = {
     shared_focus = {
 		id = QFK_01_FS_00_A
 		icon = GFX_focus_goals_QFK_01_FS_00_A
+		dynamic = yes 
 		cost = 20
 		x = -16
 		y = 0
 		relative_position_id = QFK_01_FS_00_B
 		allow_branch = {
-			NOT = {
-				has_completed_focus = QFK_01_FS_05
-			}
+			NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
 		}
 		completion_reward = {
 			add_political_power = 50
@@ -34,21 +34,27 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_00_B
 		icon = GFX_focus_goals_QFK_01_FS_00_B
+		dynamic = yes 
 		cost = 20
 		x = 21
 		y = 2
+		offset = {
+			trigger = {
+				NOT = { has_country_flag = QFK_01_FS_05_CanView }
+			}
+			y = 1
+		}
 		available = {
 			has_completed_focus = QFK_01_FS_00_A
 		}
 		allow_branch = {
-			NOT = {
-				has_completed_focus = QFK_01_FS_05
-			}
+			NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
 		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_00_C
 		icon = GFX_focus_goals_QFK_01_FS_00_C
+		dynamic = yes 
 		cost = 20
 		x = 16
 		y = 0
@@ -57,14 +63,13 @@ focus_tree = {
 			has_completed_focus = QFK_01_FS_01_A_I
 		}
 		allow_branch = {
-			NOT = {
-				has_completed_focus = QFK_01_FS_05
-			}
+			NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
 		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_01_A_O
 		icon = GFX_focus_goals_QFK_01_FS_01_A_O
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_A
@@ -89,6 +94,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_A_O_L
 		icon = GFX_focus_goals_QFK_01_FS_02_A_O_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_A_O
@@ -100,6 +106,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_A_O_R
 		icon = GFX_focus_goals_QFK_01_FS_02_A_O_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_A_O
@@ -120,6 +127,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_A_O_L
 		icon = GFX_focus_goals_QFK_01_FS_03_A_O_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_A_O_L
@@ -140,6 +148,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_A_O_R
 		icon = GFX_focus_goals_QFK_01_FS_03_A_O_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_A_O_R
@@ -165,6 +174,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_04_A_O
 		icon = GFX_focus_goals_QFK_01_FS_04_A_O
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_03_A_O_L
@@ -186,6 +196,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_01_A_I
 		icon = GFX_focus_goals_QFK_01_FS_01_A_I
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_A
@@ -200,6 +211,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_01_C_O
 		icon = GFX_focus_goals_QFK_01_FS_01_C_O
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_C
@@ -214,6 +226,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_C_O_L
 		icon = GFX_focus_goals_QFK_01_FS_02_C_O_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_C_I
@@ -226,6 +239,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_C_O_R
 		icon = GFX_focus_goals_QFK_01_FS_02_C_O_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_C_O
@@ -237,6 +251,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_C_O_L
 		icon = GFX_focus_goals_QFK_01_FS_03_C_O_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_C_O_L
@@ -248,6 +263,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_C_O_R
 		icon = GFX_focus_goals_QFK_01_FS_03_C_O_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_C_O_R
@@ -259,6 +275,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_04_C_O
 		icon = GFX_focus_goals_QFK_01_FS_04_C_O
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_03_C_O_L
@@ -274,6 +291,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_01_C_I
 		icon = GFX_focus_goals_QFK_01_FS_01_C_I
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_C
@@ -288,6 +306,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_01_B_L
 		icon = GFX_focus_goals_QFK_01_FS_01_B_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_B
@@ -299,6 +318,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_01_B_R
 		icon = GFX_focus_goals_QFK_01_FS_01_B_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_B
@@ -310,6 +330,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_B_L
 		icon = GFX_focus_goals_QFK_01_FS_02_B_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_B_L
@@ -321,6 +342,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_B_R
 		icon = GFX_focus_goals_QFK_01_FS_02_B_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_B_R
@@ -332,6 +354,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_B_C
 		icon = GFX_focus_goals_QFK_01_FS_02_B_C
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_00_B
@@ -350,6 +373,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_L
 		icon = GFX_focus_goals_QFK_01_FS_03_B_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_B_L
@@ -361,6 +385,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_R
 		icon = GFX_focus_goals_QFK_01_FS_03_B_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_B_R
@@ -372,6 +397,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_04_B_C
 		icon = GFX_focus_goals_QFK_01_FS_04_B_C
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_03_B_L
@@ -384,6 +410,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_B_O_L
 		icon = GFX_focus_goals_QFK_01_FS_02_B_O_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_B_L
@@ -398,6 +425,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_O_L_L
 		icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_A_O_R
@@ -409,6 +437,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_O_L_R
 		icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_B_O_L
@@ -427,6 +456,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_04_B_O_L
 		icon = GFX_focus_goals_QFK_01_FS_04_B_O_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_03_B_O_L_L
@@ -460,6 +490,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_02_B_O_R
 		icon = GFX_focus_goals_QFK_01_FS_02_B_O_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_01_C_I
@@ -471,6 +502,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_O_R_L
 		icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_L
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_B_R
@@ -482,6 +514,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_O_R_R
 		icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_02_B_O_R
@@ -493,6 +526,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_04_B_O_R
 		icon = GFX_focus_goals_QFK_01_FS_04_B_O_R
+		dynamic = yes 
 		cost = 20
 		prerequisite = {
 			focus = QFK_01_FS_03_B_O_R_L
@@ -510,6 +544,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_05
 		icon = GFX_focus_goals_QFK_01_FS_05
+		dynamic = yes 
 		cost = 20
 		x = 0
 		y = 10
@@ -524,15 +559,197 @@ focus_tree = {
 			focus = QFK_01_FS_04_C_O
 		}
 		relative_position_id = QFK_01_FS_00_B
+		allow_branch = {
+			has_country_flag = QFK_01_FS_05_CanView
+			NOT = {
+				has_country_flag = QFK_completed_QFK_01_FS_05
+			}
+		}
 		completion_reward = {
+			set_country_flag = QFK_completed_QFK_01_FS_05
 			hidden_effect = {
 				declare_war_on = {
 				    target = SHD
 				    type = faithWar_SHDI10_wargoal_focus
 			    }
+				mark_focus_tree_layout_dirty = yes
+				complete_national_focus = {
+                    focus = QFK_01_FW_00
+				    use_side_message = yes
+			    }
 			}
-			mark_focus_tree_layout_dirty = yes
 			custom_effect_tooltip = "QFK_01_FS_05_TT"
 		}
 		will_lead_to_war_with = SHD
+	}
+	shared_focus = {
+		id = QFK_01_FW_00
+		icon = GFX_focus_goals_QFK_01_FW_00
+		dynamic = yes 
+		cost = 20
+		x = 21
+		y = 2
+		allow_branch = {
+			has_country_flag = QFK_completed_QFK_01_FS_05
+		}
+		completion_reward = {
+			custom_effect_tooltip = "QFK_01_FS_05_TT"
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FW_01_A
+		icon = GFX_focus_goals_QFK_01_FW_01_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_00
+		}
+		mutually_exclusive = {
+			focus = QFK_01_FW_01_B
+		}
+		x = -2
+		y = 2
+		offset = {
+			trigger = {
+				has_country_flag = QFK_completed_QFK_01_FW_01_A
+			}
+			x = 2
+		}
+		relative_position_id = QFK_01_FW_00
+		allow_branch = {
+			has_country_flag = QFK_completed_QFK_01_FS_05
+			NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_B }
+			NOT = { has_country_flag = QFK_01_FW_01_C_canView }
+		}
+		completion_reward = {
+			set_country_flag = QFK_completed_QFK_01_FW_01_A
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FW_01_B
+		icon = GFX_focus_goals_QFK_01_FW_01_B
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_00
+		}
+		mutually_exclusive = {
+			focus = QFK_01_FW_01_A
+		}
+		x = 2
+		y = 2
+		offset = {
+			trigger = {
+				has_country_flag = QFK_completed_QFK_01_FW_01_B
+			}
+			x = -2
+		}
+		relative_position_id = QFK_01_FW_00
+		allow_branch = {
+			has_country_flag = QFK_completed_QFK_01_FS_05
+			NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_A }
+			NOT = { has_country_flag = QFK_01_FW_01_C_canView }
+		}
+		completion_reward = {
+			set_country_flag = QFK_completed_QFK_01_FW_01_B
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FW_02_A
+		icon = GFX_focus_goals_QFK_01_FW_02_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_01_A
+		}
+		x = 0
+		y = 2
+		relative_position_id = QFK_01_FW_01_A
+		allow_branch = {
+			has_country_flag = QFK_completed_QFK_01_FS_05
+			has_country_flag = QFK_completed_QFK_01_FW_01_A
+			NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_B }
+			NOT = { has_country_flag = QFK_01_FW_01_C_canView }
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FW_03_A_L
+		icon = GFX_focus_goals_QFK_01_FW_03_A_L
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_02_A
+		}
+		x = -2
+		y = 1
+		relative_position_id = QFK_01_FW_02_A
+	}
+	shared_focus = {
+		id = QFK_01_FW_03_A_R
+		icon = GFX_focus_goals_QFK_01_FW_03_A_R
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_02_A
+		}
+		x = 2
+		y = 1
+		relative_position_id = QFK_01_FW_02_A
+	}
+	shared_focus = {
+		id = QFK_01_FW_04_A_L
+		icon = GFX_focus_goals_QFK_01_FW_04_A_L
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_03_A_L
+		}
+		x = -2
+		y = 2
+		relative_position_id = QFK_01_FW_02_A
+	}
+	shared_focus = {
+		id = QFK_01_FW_04_A_R
+		icon = GFX_focus_goals_QFK_01_FW_04_A_R
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_03_A_R
+		}
+		x = 2
+		y = 2
+		relative_position_id = QFK_01_FW_02_A
+	}
+	shared_focus = {
+		id = QFK_01_FW_05_A
+		icon = GFX_focus_goals_QFK_01_FW_05_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_04_A_L
+		}
+		prerequisite = {
+			focus = QFK_01_FW_04_A_R
+		}
+		x = 0
+		y = 4
+		relative_position_id = QFK_01_FW_02_A
+	}
+	shared_focus = {
+		id = QFK_01_FW_06_A
+		icon = GFX_focus_goals_QFK_01_FW_06_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = QFK_01_FW_05_A
+		}
+		x = 0
+		y = 2
+		relative_position_id = QFK_01_FW_05_A
 	}

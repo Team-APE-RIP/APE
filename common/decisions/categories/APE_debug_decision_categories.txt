@@ -5,7 +5,7 @@ DEBUG_FOCUS_decisions = {
 	}
 	visible = {
 		is_debug  = yes
-		has_global_flag = DEBUGFOCUS
+		# has_global_flag = DEBUGFOCUS
 	}
 	visible_when_empty = yes
 	priority = 10000

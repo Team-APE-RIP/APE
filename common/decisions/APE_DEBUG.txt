@@ -5,6 +5,30 @@ DEBUG_FOCUS_decisions = {
 		available = {hidden_trigger ={is_debug=yes NOT={has_focus_tree=ZZZ_00}}}
 		complete_effect = {hidden_effect = {load_focus_tree={tree = ZZZ_00 keep_completed = yes}mark_focus_tree_layout_dirty = yes}}
 	}
+	
+	SHOW_QFK_01_FS_05 = {
+		icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no allowed = {original_tag=QFK} visible = { NOT = { has_country_flag = QFK_01_FS_05_CanView }}
+		available = {hidden_trigger ={is_debug=yes NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }}}
+		complete_effect = {hidden_effect = {set_country_flag = QFK_01_FS_05_CanView mark_focus_tree_layout_dirty = yes}}
+	}
+	
+	HIDE_QFK_01_FS_05 = {
+		icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no allowed = {original_tag=QFK} visible = { has_country_flag = QFK_01_FS_05_CanView }
+		available = {hidden_trigger ={is_debug=yes NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }}}
+		complete_effect = {hidden_effect = {clr_country_flag = QFK_01_FS_05_CanView mark_focus_tree_layout_dirty = yes}}
+	}
+	
+	SHOW_QFK_01_FW_00_A = {
+		icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no allowed = {original_tag=QFK} visible = { NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }}
+		available = {hidden_trigger ={is_debug=yes }}
+		complete_effect = {hidden_effect = {set_country_flag = QFK_completed_QFK_01_FS_05 mark_focus_tree_layout_dirty = yes complete_national_focus = { focus = QFK_01_FW_00 use_side_message = yes }}}
+	}
+	
+	HIDE_QFK_01_FW_00_A = {
+		icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no allowed = {original_tag=QFK} visible = { has_country_flag = QFK_completed_QFK_01_FS_05 }
+		available = {hidden_trigger ={is_debug=yes }}
+		complete_effect = {hidden_effect = {clr_country_flag = QFK_completed_QFK_01_FS_05 mark_focus_tree_layout_dirty = yes}}
+	}
 }
 
 DEBUG_EVENT_decisions = {

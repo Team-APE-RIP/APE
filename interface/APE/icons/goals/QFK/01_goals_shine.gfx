@@ -1087,5 +1087,325 @@ spriteTypes = {
         legacy_lazy_load = no
         transparencecheck = yes
     }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_00_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_00.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_00.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_00.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_01_A_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_01_A.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_01_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_01_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_01_B_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_01_B.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_01_B.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_01_B.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_02_A_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_02_A.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_02_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_02_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_03_A_L_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_03_A_L.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_03_A_L.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_03_A_L.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_03_A_R_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_03_A_R.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_03_A_R.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_03_A_R.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_04_A_L_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_04_A_L.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_04_A_L.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_04_A_L.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_04_A_R_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_04_A_R.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_04_A_R.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_04_A_R.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_05_A_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_05_A.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_05_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_05_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
+###############################################################################################
+    SpriteType = {
+        name = "GFX_focus_goals_QFK_01_FW_06_A_shine"
+        texturefile = "gfx/icons/goals/QFK/QFK_01_FW_06_A.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_06_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/QFK_01_FW_06_A.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+        transparencecheck = yes
+    }
 }
 

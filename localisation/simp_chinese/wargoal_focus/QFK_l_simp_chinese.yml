@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ faithWar_SHDI10_wargoal_focus: "发起§Y信仰之战§!"
+ faithWar_SHDI10_wargoal_focus_desc: "向$TARGET|Y$发起§Y信仰之战§!"
+ faithWar_SHDI10_wargoal_focus_short_desc: "设定此战争目标可以在战争胜利后强制同化其信仰甚至兼并。"
+ faithWar_SHDI10_war: "$ORDER$$FIRST$信仰之战"

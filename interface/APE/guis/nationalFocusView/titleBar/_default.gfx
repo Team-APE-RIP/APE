@@ -1,0 +1,62 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_focus_unavailable"
+		textureFile = "gfx/interface/focusview/titlebar/_default/focus_unavailable_bg.dds"
+        transparencecheck = yes
+	}
+	SpriteType = {
+		name = "GFX_focus_completed"
+		texturefile = "gfx/interface/focusview/titlebar/_default/focus_completed_bg.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"	
+		animation = {
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_completed_mask.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_completed_texture.dds"
+			animationrotation = 0.0
+			animationlooping = yes
+			animationtime = 26.0
+			animationdelay = 0.0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+        transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_focus_can_start"
+		textureFile = "gfx/interface/focusview/titlebar/_default/focus_can_start_bg.dds"
+        transparencecheck = yes
+	}
+	SpriteType = {
+		name = "GFX_focus_current"
+		texturefile = "gfx/interface/focusview/titlebar/_default/focus_can_start_bg.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"	
+		animation = {
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_ongoing_mask2.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_ongoing_texture.dds"
+			animationrotation = -90.0
+			animationlooping = yes
+			animationtime = 20.0
+			animationdelay = 0.2
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_ongoing_mask4.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_ongoing_texture.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 15.0
+			animationdelay = 0.2
+			animationblendmode = "add"
+			animationtype = "rotating_ccw"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+        transparencecheck = yes
+	}
+}
