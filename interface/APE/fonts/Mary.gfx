@@ -1,0 +1,19 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "Mary20"
+		fontfiles = { 
+			"gfx/fonts/Mary/Mary20_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "Mary36"
+		fontfiles = { 
+			"gfx/fonts/Mary/Mary36_0"	
+			"gfx/fonts/Mary/Mary36_1"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+}

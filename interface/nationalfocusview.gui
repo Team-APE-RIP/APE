@@ -14,7 +14,8 @@ guiTypes = {
 			name = "national_focus_title"
 			position = { x = 45 y = 8 }
 			textureFile = ""
-			font = "hoi_36header"
+			# font = "hoi_36header"
+			font = "Mary36"
 			borderSize = {x = 0 y = 0}
 			text = "NATIONAL_FOCUS_TITLE"
 			maxWidth = 500
@@ -121,7 +122,7 @@ guiTypes = {
 			name = "tree"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
-			margin = { top = 0 left = 0 bottom = 0 right = 0 }
+			margin = { top = 0 left = -29 bottom = 0 right = 0 }
 			drag_scroll = { left middle }
 			verticalScrollbar = "bottom_horizontal_slider_air"
 			horizontalScrollbar = "bottom_horizontal_slider_air"
@@ -193,15 +194,15 @@ guiTypes = {
 				containerWindowType = {
 					name = "continuous_focus_window"
 					position = { x=0 y=0 }
-					size = { width = 770 height = 380 }
+					size = { width = 1 height = 1 }
 					margin = { top = 13 left = 0 bottom = 13 right = 13}
 					drag_scroll = { left middle }
-					clipping = no
+					clipping = yes
 					
-					background = {
-						name = "Background"
-						quadTextureSprite ="GFX_tiled_window_thin_border2"
-					}
+					#background = {
+						#name = "Background"
+						#quadTextureSprite ="GFX_tiled_window_thin_border2"
+					#}
 					
 					instantTextboxType = {
 						name = "continuous_focus_title"
@@ -229,8 +230,8 @@ guiTypes = {
 					containerWindowType = {
 						name = "focus_progress_window"
 						position = { x=360 y=10 }
-						size = { width=395 height=67 }
-						clipping = no
+						size = { width=1 height=1 }
+						clipping = yes
 
 						background = {
 							name = "Background"
@@ -262,7 +263,7 @@ guiTypes = {
 					containerWindowType = {
 						name = "entries"
 						position = { x=13 y=80 }
-						size = { width=744 height=280 }
+						size = { width=1 height=1 }
 						verticalScrollbar = "right_vertical_slider"
 						clipping = yes
 						
@@ -423,10 +424,10 @@ guiTypes = {
 				#Contains focus_tree_shortcut_item
 			}
 		}
-		
+		# MAYBE BE USED
 		buttonType = {
 			name = "toggle_shortcuts"
-			position = { x = 17 y = -56 }
+			position = { x = 17 y = -5600 }
 			quadTextureSprite ="GFX_production_line_arrow_left"
 			buttonFont = "Main_14_black"
 			orientation = lower_left

@@ -1,0 +1,19 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "Zhitong36"
+		fontfiles = { 
+			"gfx/fonts/Zhitong/Zhitong36_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "Zhitong54"
+		fontfiles = { 
+			"gfx/fonts/Zhitong/Zhitong54_0"	
+			"gfx/fonts/Zhitong/Zhitong54_1"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+}
