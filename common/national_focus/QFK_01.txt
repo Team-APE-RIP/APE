@@ -436,7 +436,13 @@ focus_tree = {
 	}
 	shared_focus = {
 		id = QFK_01_FS_03_B_O_L_R
-		icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_R
+		icon = {
+			trigger = { has_country_flag = CLOSE_ANIME_ICON }
+			value = GFX_focus_goals_QFK_01_FS_03_B_O_L_R
+		}
+		icon = {
+			value = GFX_focus_goals_anime_QFK_01_FS_03_B_O_L_R
+		}
 		dynamic = yes 
 		cost = 20
 		prerequisite = {

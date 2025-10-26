@@ -24,12 +24,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -61,12 +61,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -98,12 +98,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -135,12 +135,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -172,12 +172,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -209,12 +209,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -246,12 +246,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -283,12 +283,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -320,12 +320,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -357,12 +357,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -394,12 +394,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -431,12 +431,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -468,12 +468,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -505,12 +505,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -542,12 +542,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -579,12 +579,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -616,12 +616,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -653,12 +653,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -690,12 +690,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -727,12 +727,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -764,12 +764,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -801,12 +801,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -838,12 +838,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -875,12 +875,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -912,12 +912,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -949,12 +949,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -986,12 +986,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -1023,12 +1023,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -1060,12 +1060,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -1097,12 +1097,12 @@ ideologies = {
 		}
 		can_collaborate = yes
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
 		}
 		ai_neutral = yes
 		can_be_boosted = no
