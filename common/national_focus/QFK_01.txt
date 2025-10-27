@@ -1,4 +1,5 @@
 #!gfx:interface\APE\icons\goals\QFK\01_goals.gfx
+#!gfx:interface\APE\icons\goals\QFK\01_goals_anime.gfx
 focus_tree = {
 	id = QFK_01
 	country = {
@@ -437,7 +438,7 @@ focus_tree = {
 	shared_focus = {
 		id = QFK_01_FS_03_B_O_L_R
 		icon = {
-			trigger = { has_country_flag = CLOSE_ANIME_ICON }
+			trigger = { anime_focus_icon = no }
 			value = GFX_focus_goals_QFK_01_FS_03_B_O_L_R
 		}
 		icon = {

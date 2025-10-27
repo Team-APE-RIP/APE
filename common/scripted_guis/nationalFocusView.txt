@@ -1,0 +1,37 @@
+scripted_gui = {
+	nfvT_window = {
+		context_type = player_context
+		window_name = "nfvT_window"
+		parent_window_name = "nfvT_container"
+		visible = {
+		    always = yes
+		}
+		effects = {
+		    nfvT_animeIcon_button_click = {
+			    if = {
+					limit = { 
+						anime_focus_icon = yes
+					}
+					set_variable = {
+						ROOT.nfvT_animeIconFrame = 1
+					}
+				}
+				else = {
+					set_variable = {
+						ROOT.nfvT_animeIconFrame = 2
+					}
+				}
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+		properties = {
+			nfvT_animeIcon_button = {
+				frame = ROOT.nfvT_animeIconFrame
+			}
+			nfvT_title_bg = {
+				image = "GFX_nfvT_title_bg_[THIS.nfvTTitleBgNUM]"
+			}
+		}
+	}
+}
+

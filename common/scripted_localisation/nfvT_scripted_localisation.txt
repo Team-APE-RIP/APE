@@ -1,0 +1,12 @@
+defined_text = {
+	name = nfvT_animeIcon_button_YN
+	text = {
+		trigger = {
+			anime_focus_icon = no
+		}
+		localization_key = "nfvT_animeIcon_button_Y"
+	}
+	text = {
+		localization_key = "nfvT_animeIcon_button_N"
+	}
+}

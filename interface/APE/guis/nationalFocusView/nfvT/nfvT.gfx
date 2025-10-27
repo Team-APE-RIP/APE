@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_nfvT_title_bg_0"
+		textureFile = "gfx/interface/focusview/T/title_bg_0.png"
+        transparencecheck = yes
+	}
+}

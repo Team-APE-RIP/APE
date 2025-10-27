@@ -1,0 +1,5 @@
+anime_focus_icon = {
+    check_variable = {
+		ROOT.nfvT_animeIconFrame = 2
+	}
+}
