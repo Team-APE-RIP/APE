@@ -1,5 +1,27 @@
 spriteTypes = {
     frameAnimatedSpriteType = {
+        name = "GFX_focus_goals_anime_QFK_01_FS_01_A_O"
+        texturefile = "gfx/icons/goals/QFK/anime/QFK_01_FS_01_A_O.png"
+        noOfFrames = 60
+        animation_rate_fps = 12
+		looping = yes play_on_show = yes pause_on_loop = 0 transparencecheck = yes
+    }
+	SpriteType = {
+        name = "GFX_focus_goals_anime_QFK_01_FS_01_A_O_shine"
+        texturefile = "gfx/icons/goals/QFK/anime/QFK_01_FS_01_A_O.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/anime/QFK_01_FS_01_A_O.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" animationrotation = -90.0  animationlooping = no animationtime = 0.75 animationdelay = 0 animationblendmode = "add" animationtype = "scrolling" animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 2.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/icons/goals/QFK/anime/QFK_01_FS_01_A_O.png"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"  animationrotation = 90.0 animationlooping = no animationtime = 0.75 animationdelay = 0 animationblendmode = "add" animationtype = "scrolling" animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no transparencecheck = yes
+    }
+	######################################################################################################################################################
+    frameAnimatedSpriteType = {
         name = "GFX_focus_goals_anime_QFK_01_FS_03_B_O_L_R"
         texturefile = "gfx/icons/goals/QFK/anime/QFK_01_FS_03_B_O_L_R.png"
         noOfFrames = 60
@@ -20,5 +42,6 @@ spriteTypes = {
         }
         legacy_lazy_load = no transparencecheck = yes
     }
+	######################################################################################################################################################
 }
 

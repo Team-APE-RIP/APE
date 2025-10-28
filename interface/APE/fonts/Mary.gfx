@@ -16,4 +16,13 @@ bitmapfonts = {
 	    color = 0xffffffff
 		border_color = 0x00000000
 	}
+	bitmapfont = {
+		name = "MaryRS36"
+		fontfiles = { 
+			"gfx/fonts/Mary/MaryRS36_0"	
+			"gfx/fonts/Mary/MaryRS36_1"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
 }

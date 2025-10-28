@@ -23,7 +23,7 @@ guiTypes = {
 			position = { x = 20 y = 4 }
 			textureFile = ""
 			# font = "hoi_36header"
-			font = "Mary36"
+			font = "MaryRS36"
 			borderSize = {x = 0 y = 0}
 			text = "NATIONAL_FOCUS_TITLE"
 			maxWidth = 500
