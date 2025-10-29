@@ -1,0 +1,10 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "Mujica80"
+		fontfiles = { 
+			"gfx/fonts/Mujica/Mujica80_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+}
