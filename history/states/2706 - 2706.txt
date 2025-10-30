@@ -1,0 +1,18 @@
+state = {
+	id = 2706
+	name = "STATE_2706"
+	history = {
+		owner = NAL
+		add_core_of = NAL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+        12030 19589 10084
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
