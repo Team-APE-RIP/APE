@@ -51,7 +51,8 @@ bitmapfonts = {
 		name = "loadscreen_tip"
 #		path = "gfx/fonts/hoi_24header"
 		fontfiles = { 
-			"gfx/fonts/hoi_24header"		
+			"gfx/fonts/Mary/MaryRS36_0"	
+			"gfx/fonts/Mary/MaryRS36_1"		
 #			"gfx/fonts/hoi_20bs"
 #			"gfx/fonts/hoi_20bs_cryllic"
 		}		
@@ -80,7 +81,8 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "loadscreen_tip"
 		fontfiles = {
-			"gfx/fonts/japanese/hoi_24header"
+			"gfx/fonts/Mary/MaryRS36_0"	
+			"gfx/fonts/Mary/MaryRS36_1"
 		}
 		languages = { "l_japanese" }
 	}
@@ -88,10 +90,8 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "loadscreen_tip"
 		fontfiles = {
-			"gfx/fonts/chinese/hoi_24header_1of4"
-			"gfx/fonts/chinese/hoi_24header_2of4"
-			"gfx/fonts/chinese/hoi_24header_3of4"
-			"gfx/fonts/chinese/hoi_24header_4of4"
+			"gfx/fonts/Mary/MaryRS36_0"	
+			"gfx/fonts/Mary/MaryRS36_1"
 		}
 		languages = { "l_simp_chinese" }
 	}

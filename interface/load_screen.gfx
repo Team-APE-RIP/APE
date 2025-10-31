@@ -33,13 +33,18 @@ spriteTypes = {
 
 	progressbartype = {
 		name = "GFX_loadingstatus_progress"
-		color = { 0.0 0.5 0.0 }
-		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx//interface//LoadingScreen_Progress_2.dds"
-		textureFile2 = "gfx//interface//LoadingScreen_Progress_1.dds"
+		color = { 0.0 0.1 0.0 }
+		colortwo = { 0.5 0.0 0.0 }
+		textureFile1 = "gfx//interface//APE_LoadingScreen_Progress_2.png"
+		textureFile2 = "gfx//interface//APE_LoadingScreen_Progress_1.png"
 		size = { x = 934 y = 35 }
 		effectFile = "gfx//FX//progress.lua"
 		horizontal = yes
 		steps = 1000000
+	}
+
+	SpriteType = {
+        name = "GFX_MaryRS36_line_texticon"
+        texturefile = "gfx/fonts/Mary/MaryRS36_line.dds"
 	}
 }

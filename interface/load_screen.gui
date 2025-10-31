@@ -16,14 +16,14 @@ guiTypes = {
 		iconType = {
 			name ="bg_clausewitz_logo"
 			spriteType = "GFX_clausewitz_logo"
-			position = { x= 23 y = -152 }
+			position = { x= 23 y = -15200 }
 			Orientation = "LOWER_LEFT"
 		}		
 		
 		iconType = {
 			name ="bg_pdx_int_logo"
 			spriteType = "GFX_frontend_dev_logo_s"
-			position = { x= -130 y = -158 }
+			position = { x= -130 y = -15800 }
 			Orientation = "LOWER_RIGHT"
 		}	
 				
@@ -77,22 +77,21 @@ guiTypes = {
 			verticalBorder = ""
 			fullScreen = no
 			Orientation = "CENTER_DOWN"
-			
 				
 			iconType = {
 				name ="bg_load_screen"
 				spriteType = "GFX_loadingtip_bg"
-				position = { x= -700 y = -147 }
+				position = { x= -70000 y = -147 }
 			}		
 
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -450 y = -157 }
+				position = { x = -2000 y = -157 }
 				textureFile = ""
 				font = "loadscreen_tip"
 				borderSize = {x = 0 y = 0}
 				text = ""	
-				maxWidth = 900
+				maxWidth = 4000
 				maxHeight =200
 				fixedsize = yes
 				format = centre
