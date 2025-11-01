@@ -13,7 +13,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_loadingstatus_bg"
-		texturefile = "gfx/interface/Loadingscreen_loadingstatus.dds"
+		texturefile = "gfx/interface/APE_Loadingscreen_loadingstatus.png"
 	}
 	
 	spriteType = {
