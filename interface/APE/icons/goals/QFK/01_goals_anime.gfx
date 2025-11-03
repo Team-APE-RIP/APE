@@ -6,7 +6,7 @@ spriteTypes = {
         animation_rate_fps = 12
 		looping = yes play_on_show = yes pause_on_loop = 0 transparencecheck = yes
     }
-	SpriteType = {
+	frameAnimatedSpriteType = {
         name = "GFX_focus_goals_anime_QFK_01_FS_01_A_O_shine"
         texturefile = "gfx/icons/goals/QFK/anime/QFK_01_FS_01_A_O.png"
         effectFile = "gfx/FX/buttonstate.lua"
@@ -18,7 +18,9 @@ spriteTypes = {
             animationmaskfile = "gfx/icons/goals/QFK/anime/QFK_01_FS_01_A_O.png"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"  animationrotation = 90.0 animationlooping = no animationtime = 0.75 animationdelay = 0 animationblendmode = "add" animationtype = "scrolling" animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 }
         }
-        legacy_lazy_load = no transparencecheck = yes
+        noOfFrames = 60
+        animation_rate_fps = 12 
+        looping = yes play_on_show = yes pause_on_loop = 0 transparencecheck = yes legacy_lazy_load = no
     }
 	######################################################################################################################################################
     frameAnimatedSpriteType = {
@@ -28,7 +30,7 @@ spriteTypes = {
         animation_rate_fps = 30 
 		looping = yes play_on_show = yes pause_on_loop = 0 transparencecheck = yes
     }
-	SpriteType = {
+	frameAnimatedSpriteType = {
         name = "GFX_focus_goals_anime_QFK_01_FS_03_B_O_L_R_shine"
         texturefile = "gfx/icons/goals/QFK/anime/QFK_01_FS_03_B_O_L_R.png"
         effectFile = "gfx/FX/buttonstate.lua"
@@ -40,7 +42,9 @@ spriteTypes = {
             animationmaskfile = "gfx/icons/goals/QFK/anime/QFK_01_FS_03_B_O_L_R.png"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"  animationrotation = 90.0 animationlooping = no animationtime = 0.75 animationdelay = 0 animationblendmode = "add" animationtype = "scrolling" animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 }
         }
-        legacy_lazy_load = no transparencecheck = yes
+        noOfFrames = 60
+        animation_rate_fps = 30 
+		looping = yes play_on_show = yes pause_on_loop = 0 transparencecheck = yes legacy_lazy_load = no
     }
 	######################################################################################################################################################
 }

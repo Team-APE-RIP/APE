@@ -339,6 +339,10 @@ GUZ = {
 	color = rgb { 15 90 5 }
 	color_ui = rgb { 15 90 5 }
 }
+HHZ = {
+	color = rgb { 255 5 230 }
+	color_ui = rgb { 255 5 230 }
+}
 HOK = {
 	color = rgb { 66 65 84 }
 	color_ui = rgb { 66 65 84 }
@@ -418,6 +422,10 @@ TIB = {
 WLO = {
 	color = rgb { 205 17 37 }
 	color_ui = rgb { 205 17 37 }
+}
+WTB = {
+	color = rgb { 160 120 30 }
+	color_ui = rgb { 160 120 30 }
 }
 WZS = {
 	color = rgb { 32 9 169 }

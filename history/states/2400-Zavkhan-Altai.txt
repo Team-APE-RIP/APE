@@ -7,9 +7,7 @@ state = {
 			infrastructure = 2
 		}
 		owner = MEN
-		victory_points = {
-			4858 5
-		}
+		
 		victory_points = {
 			19393 5
 		}
