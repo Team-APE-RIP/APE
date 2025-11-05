@@ -25,5 +25,5 @@ state = {
 		# set_state_flag = GDP_regions_austria
 	}
 
-	provinces = { 11666 15822 }
+	provinces = { 11666 }
 }
