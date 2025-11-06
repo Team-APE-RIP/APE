@@ -213,3 +213,25 @@ SE_SE_2 = {
         clear_array = ROOT.SE_SE_2_States
 	}
 }
+SE_SE_3 = {
+	ROOT = {
+	    every_state = {
+			limit = {
+                OR = {
+					region = 7
+					region = 38
+					region = 203
+					region = 205
+				}
+				NOT = {
+					state = 8
+					state = 28
+					state = 1812
+				}
+			}
+			transfer_state_to = ROOT
+			add_core_of = ROOT
+		}
+		set_cosmetic_tag = cosmeticTagDeutschland
+	}
+}

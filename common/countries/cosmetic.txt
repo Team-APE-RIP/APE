@@ -2,3 +2,7 @@ cosmeticTagHRR = {
     color = rgb { 255 207 23 }
     color_ui = rgb { 255 207 23 }
 }
+cosmeticTagDeutschland = {
+    color = rgb { 128 128 128 }
+    color_ui = rgb { 128 128 128 }
+}
