@@ -8,4 +8,4 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup0 = 100
 }
-every_possible_country = { set_variable = { THIS.nfvT_animeIconFrame = 2 } mark_focus_tree_layout_dirty = yes } # Anime focus icon
+every_possible_country = { set_variable = { global.nfvT_animeIconFrame = 2 } mark_focus_tree_layout_dirty = yes } # Anime focus icon

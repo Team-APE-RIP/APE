@@ -1,5 +1,3 @@
 anime_focus_icon = {
-    check_variable = {
-		ROOT.nfvT_animeIconFrame = 2
-	}
+    check_variable = { global.nfvT_animeIconFrame = 2 }
 }

@@ -6,6 +6,13 @@ bitmapfonts = {
 		}
 		color = 0xffffffff
 	}
+	bitmapfont = {
+		name = "Mingmei22rls"
+		fontfiles = {
+            "gfx/fonts/Mingmei/Mingmei22rls_0"
+		}
+		color = 0xffffffff
+	}
     bitmapfont = {
 		name = "Mingmei32bls"
 		fontfiles = {
