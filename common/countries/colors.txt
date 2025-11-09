@@ -387,6 +387,10 @@ NLO = {
 	color = rgb { 130 110 150 }
 	color_ui = rgb { 130 110 150 }
 }
+NUB = {
+	color = rgb { 227 0 27 }
+	color_ui = rgb { 227 0 27 }
+}
 QDN = {
 	color = rgb { 225 60 50 }
 	color_ui = rgb { 225 60 50 }
@@ -398,6 +402,10 @@ QFK = {
 ROV = {
 	color = rgb { 250 200 10 }
 	color_ui = rgb { 250 200 10 }
+}
+RTA = {
+	color = rgb { 190 50 40 }
+	color_ui = rgb { 190 50 40 }
 }
 SHD = {
 	color = rgb { 180 0 0 }
@@ -430,6 +438,10 @@ WLO = {
 WTB = {
 	color = rgb { 160 120 30 }
 	color_ui = rgb { 160 120 30 }
+}
+WZB = {
+	color = rgb { 5 5 5 }
+	color_ui = rgb { 5 5 5 }
 }
 WZS = {
 	color = rgb { 32 9 169 }

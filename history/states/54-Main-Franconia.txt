@@ -6,7 +6,8 @@ state = { #Population Done
 	manpower = 1073917
 
 	history = {
-		owner = ZZZ # GER
+		owner = WZB
+		add_core_of = WZB
 		# add_core_of = GER
 		victory_points = { 9557 10 }
 
@@ -22,6 +23,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		9557 15827 11417 3397
+		9557 15827 
 	}
 }

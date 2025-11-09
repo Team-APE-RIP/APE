@@ -607,7 +607,7 @@ guiTypes = {
 			position = { x=21 y=1 }
 			font = "Mingmei22rls"
 			text = ""
-			maxWidth = 149
+			maxWidth = 500
 			maxHeight = 30
 			format = left
 			alwaystransparent = yes
@@ -635,7 +635,7 @@ guiTypes = {
 			position = { x=25 y=2 }
 			font = "Mingmei22rls"
 			text = ""
-			maxWidth = 149
+			maxWidth = 500
 			maxHeight = 30
 			format = left
 			alwaystransparent = yes

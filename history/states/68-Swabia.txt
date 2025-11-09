@@ -9,7 +9,8 @@ state = { #Population Done
 	state_category = city
 
 	history = {
-		owner = ZZZ # GER
+		owner = RTA
+		add_core_of = RTA
 		buildings = {
 			offices = 1
 			prisons = 2
@@ -22,6 +23,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		708 3705
+		708
 	}
 }
