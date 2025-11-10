@@ -1,0 +1,18 @@
+state = {
+	id = 2743
+	name = "STATE_2743"
+	history = {
+		owner = FAH
+        add_core_of = FAH
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        18133 3524
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

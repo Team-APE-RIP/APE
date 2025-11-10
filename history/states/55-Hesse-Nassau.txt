@@ -3,7 +3,8 @@ state = {
 	name = "STATE_55"
 
 	history = {
-		owner = ZZZ # GER
+		owner = FAH
+		add_core_of = FAH
 		buildings = {
 			offices = 3
 			prisons = 1
@@ -13,6 +14,10 @@ state = {
 			thermoelectric_plant = 3
 			hydroelectric_plant = 3
 			air_base = 2
+			11445 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
 		}
 		victory_points = {
 			6488 30
@@ -27,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-	    6444 6488 9486 11560
+	    6488 11445
 	}
 	manpower = 4036461
 	buildings_max_level_factor = 1.000
