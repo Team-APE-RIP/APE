@@ -1,0 +1,17 @@
+state = {
+	id = 2759
+	name = "STATE_2759"
+	history = {
+		owner = ZZZ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        268 293 15835
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -20007,3 +20007,8 @@
 20006;175;211;3;land;false;mountain;6
 20007;175;211;4;land;false;plains;6
 20008;175;211;5;land;false;forest;1
+20009;175;211;6;land;true;urban;1
+20010;175;211;7;land;true;plains;1
+20011;175;211;8;land;true;plains;1
+20012;175;211;9;land;false;plains;1
+20013;175;211;10;land;true;plains;1

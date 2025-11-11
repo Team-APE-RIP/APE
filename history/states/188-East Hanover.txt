@@ -35,6 +35,6 @@ state = { #Population Done
 		# set_state_flag = GDP_category_city
 	}
 	provinces = {
-		309 6377 3271 3326 374 6349 6325 6263 6298 3395
+		3326 374 6349
 	}
 }

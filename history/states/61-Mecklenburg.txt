@@ -25,6 +25,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		268 293 321 11305 15835
+		321 11305 
 	}
 }

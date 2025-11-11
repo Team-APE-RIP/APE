@@ -589,7 +589,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11986;15897;impassable;-1;3325;2559;3326;2559;;sphere name placement
 19026;19268;impassable;-1;3325;2559;3326;2559;;sphere name placement
 12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-3340;6334;sea;2358;-1;-1;-1;-1;;stettin lagoon
 8241;15278;sea;2236;-1;-1;-1;-1;;stewart island
 161;8753;sea;1211;-1;-1;-1;-1;;stockholm land
 4159;9990;sea;5681;-1;-1;-1;-1;;strait of messina

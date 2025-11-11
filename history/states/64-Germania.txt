@@ -20,7 +20,7 @@ state = { #Population Done
 	}
 
 	provinces = {
-	    9264 11359 9294 11276 11219 375 3367 11444 6521
+	    9264 11359
 	}
 	manpower = 5315477
 	buildings_max_level_factor = 1.000
