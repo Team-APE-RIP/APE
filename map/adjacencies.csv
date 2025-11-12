@@ -1,4 +1,7 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+9388;20010;sea;2358;-1;-1;-1;-1;;ger
+20011;3340;sea;2358;-1;-1;-1;-1;;ger
+20009;6334;sea;2358;-1;-1;-1;-1;;ger
 15874;15873;sea;8791;-1;-1;-1;-1;;papua-biak
 7567;12910;sea;5771;-1;-1;-1;-1;;Adelaide-Kangaroo Island
 6550;8435;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait

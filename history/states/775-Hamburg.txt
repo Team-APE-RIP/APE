@@ -6,7 +6,8 @@ state = {
 	state_category = metropolis
 
 	history = {
-		owner = ZZZ # GER
+		owner = HBG
+		add_core_of = HBG
 		# add_core_of = GER
 
 		victory_points = { 9347 30 }

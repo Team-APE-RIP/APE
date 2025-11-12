@@ -339,6 +339,10 @@ FAH = {
 	color = rgb { 28 59 115 }
 	color_ui = rgb { 28 59 115 }
 }
+FRA = {
+	color = rgb { 0 38 84 }
+	color_ui = rgb { 0 38 84 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -346,6 +350,10 @@ GUX = {
 GUZ = {
 	color = rgb { 15 90 5 }
 	color_ui = rgb { 15 90 5 }
+}
+HBG = {
+	color = rgb { 195 190 178 }
+	color_ui = rgb { 195 190 178 }
 }
 HHZ = {
 	color = rgb { 255 5 230 }
@@ -402,6 +410,10 @@ QDN = {
 QFK = {
 	color = rgb { 200 150 60 }
 	color_ui = rgb { 200 150 60 }
+}
+RHN = {
+	color = rgb { 0 145 54 }
+	color_ui = rgb { 0 145 54 }
 }
 ROV = {
 	color = rgb { 250 200 10 }

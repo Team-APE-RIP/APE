@@ -5,7 +5,8 @@ state = { #Population Done
 	state_category = metropolis
 
 	history = {
-		owner = ZZZ # FRS
+		owner = FRA
+		add_core_of = FRA
 		victory_points = { 9523 50 }
 		buildings = {
 			infrastructure = 7

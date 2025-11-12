@@ -3,7 +3,8 @@ state = { #Population Done
 	name = "STATE_64"
 
 	history = {
-		owner = ZZZ # GER
+		owner = HBG
+		add_core_of = HBG
 		buildings = {
 			schools = 2
 			offices = 2

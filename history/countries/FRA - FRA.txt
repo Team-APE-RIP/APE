@@ -1,0 +1,19 @@
+capital = 786
+set_politics = {
+	ruling_party = IdeologyGroup33
+	last_election = "2000.1.1"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup33 = 100
+}
+set_autonomy = {
+	target = RHN
+	autonomy_state = autonomy_FRA_RHNA
+}
+RHN = {
+    set_popularities = {
+	    IdeologyGroup33= 100
+    }
+}
