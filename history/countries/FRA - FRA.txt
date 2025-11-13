@@ -9,6 +9,15 @@ set_popularities = {
 	IdeologyGroup33 = 100
 }
 set_autonomy = {
+	target = BEL
+	autonomy_state = autonomy_FRA_BELA
+}
+BEL = {
+    set_popularities = {
+	    IdeologyGroup33= 100
+    }
+}
+set_autonomy = {
 	target = RHN
 	autonomy_state = autonomy_FRA_RHNA
 }

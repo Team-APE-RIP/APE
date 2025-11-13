@@ -1,0 +1,18 @@
+state = {
+	id = 2794
+	name = "STATE_2794"
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9444 11407 9418
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

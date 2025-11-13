@@ -6,7 +6,8 @@ state = { #Population Done
 	state_category = large_city
 
 	history = {
-		owner = ZZZ # BRG
+		owner = BEL
+		add_core_of = BEL
 		victory_points = { 516 40 }
 		buildings = {
 			offices = 1

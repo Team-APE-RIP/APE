@@ -3,7 +3,8 @@ state = {
 	name = "STATE_35"
 
 	history = {
-		owner = ZZZ # HOL
+		owner = BEL
+		add_core_of = BEL
 		buildings = {
 			infrastructure = 6
 			hydroelectric_plant = 1
@@ -25,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		3262 6496 6500 15983 18109 11562
+		3262 6496
 	}
 	manpower = 2256734
 	buildings_max_level_factor = 1.000

@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # BRG
+		owner = BEL
+		add_core_of = BEL
 		victory_points = {
 			6598 10
 		}
@@ -58,7 +59,7 @@ state = {
 	}
 
 	provinces = {
-		3576 6446 6560 6598 9574 11419 13068 18111 18116 18118
+		6598 11419 18116
 	}
 	manpower = 3862866
 	buildings_max_level_factor = 1.000

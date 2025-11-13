@@ -18,7 +18,7 @@ state = { #Population Done
 			infrastructure = 5
 			hydroelectric_plant = 1
 		}
-		victory_points = { 6583 7 }
+		victory_points = { 6583 30 }
 		# add_core_of = GER
 		# set_state_flag = GDP_category_large_city
 	}

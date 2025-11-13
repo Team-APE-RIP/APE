@@ -16,6 +16,7 @@ guiTypes = {
 			max_slots_horizontal = 20
 			add_horizontal = no
 		}
+	}
     containerWindowType = {
 		name = "SE_window"
 		size = { width=1080 height=961 }
@@ -178,7 +179,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_18b"
 					borderSize = {x = 0 y = 0}
-					text = "http://ASPF.hoi4/super_events/SE?id=[?APE_SE_ID^i]/0/inbox"
+					text = "http://ASPF.hoi4/super_events/SE?id=[?SE_value]/0/inbox"
 					maxWidth = 500
 					maxHeight = 30
 					format = left
@@ -190,7 +191,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 0}
-					text = "http://ASPF.hoi4/super_events/SE?id=[?APE_SE_ID^i]/0/inbox"
+					text = "http://ASPF.hoi4/super_events/SE?id=[?SE_value]/0/inbox"
 					maxWidth = 1000
 					maxHeight = 30
 					format = left

@@ -1,0 +1,18 @@
+state = {
+	id = 2783
+	name = "STATE_2783"
+	history = {
+		owner = RHN
+		add_core_of = RHN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        6529 678
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -9,7 +9,8 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = ZZZ # GER
+		owner = RHN
+		add_core_of = RHN
 		victory_points = { 678 9 }
 		victory_points = { 6529 5 }
 		victory_points = { 9503 15 }
@@ -29,6 +30,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		549 678 1346 6529 9503
+		9503
 	}
 }

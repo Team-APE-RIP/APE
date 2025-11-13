@@ -15,9 +15,17 @@ BAV = {
 	color = rgb { 0 151 212 }
 	color_ui = rgb { 0 151 212 }
 }
+BEL = {
+	color = rgb { 253 219 37 }
+	color_ui = rgb { 253 219 37 }
+}
 CHI = {
 	color = rgb { 160 10 30 }
 	color_ui = rgb { 160 10 30 }
+}
+CTB = {
+	color = rgb { 231 70 37 }
+	color_ui = rgb { 231 70 37 }
 }
 D01 = {
 	color = rgb { 122 179 97 }
@@ -390,6 +398,10 @@ MAN = {
 MEN = {
 	color = rgb { 100 100 30 }
 	color_ui = rgb { 100 100 30 }
+}
+MLB = {
+	color = rgb { 135 128 185 }
+	color_ui = rgb { 135 128 185 }
 }
 NAL = {
 	color = rgb { 150 40 25 }

@@ -9,30 +9,35 @@ scripted_gui = {
 			NOT = {
 				has_country_flag = minimize_SE
 			}
-			NOT = {
-				has_country_flag = minimize_SE_forever
-			}
 		}
 		effects = {
 		    SE_btn_minimize_click = {
-				set_country_flag = minimize_SE 
+				remove_from_array = {
+                    array = ROOT.APE_SE_ID
+                    index = SE_index
+                }
+				add_to_array = {
+                    array = ROOT.APE_SE_ID_minimize
+                    value = SE_value
+                }
 			}
 			SE_btn_close_click = {
 				remove_from_array = {
                     array = ROOT.APE_SE_ID
-                    index = 0
+                    index = SE_index
                 }
 			}
 		}
 		properties = {
 			SE_image = {
-				image = "GFX_SE_image_[?ROOT.APE_SE_ID^SE_index]"
+				image = "GFX_SE_image_[?SE_value]"
 			}
 		}
 		dynamic_lists = {
 			SE_grid = {
 				array = ROOT.APE_SE_ID
 				entry_container = SE_window
+				change_scope = no
 				value = SE_value
 				index = SE_index
 			}

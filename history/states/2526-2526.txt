@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2526"
 
 	history = {
-		owner = ZZZ # COL
+		owner = MLB
+		add_core_of = MLB
 		buildings = {
 			infrastructure = 2
 			hospitals = 1
@@ -12,6 +13,12 @@ state = {
 			barracks = 1
 			prisons = 1
 			thermoelectric_plant = 2
+			20010 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			20010 15
 		}
 	}
 
