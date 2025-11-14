@@ -6,7 +6,8 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = ZZZ # HOL
+		owner = NTL
+        add_core_of = NTL
 		# add_core_of = HOL
 		victory_points = { 11318 10 }
 		victory_points = { 9309 8 }
@@ -33,6 +34,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		6336 9335 11318 9309 11468 9456 
+		11318 9335 9456
 	}
 }

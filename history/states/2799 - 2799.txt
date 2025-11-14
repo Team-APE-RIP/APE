@@ -1,6 +1,6 @@
 state = {
-	id = 2737
-	name = "STATE_2737"
+	id = 2799
+	name = "STATE_2799"
 	history = {
 		owner = NTL
         add_core_of = NTL
@@ -9,7 +9,7 @@ state = {
 		}
 	}
 	provinces = {
-        9524 13295
+        9498
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

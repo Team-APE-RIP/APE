@@ -1,0 +1,2 @@
+NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "A Pathetic Epoch:Rejuvenation In Purgatory"
+NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "APatheticEpochRejuvenationInPurgatory"

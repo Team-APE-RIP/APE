@@ -411,6 +411,10 @@ NLO = {
 	color = rgb { 130 110 150 }
 	color_ui = rgb { 130 110 150 }
 }
+NTL = {
+	color = rgb { 251 121 111 }
+	color_ui = rgb { 251 121 111 }
+}
 NUB = {
 	color = rgb { 227 0 27 }
 	color_ui = rgb { 227 0 27 }
