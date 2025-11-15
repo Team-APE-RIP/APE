@@ -1,0 +1,21 @@
+state = {
+	id = 2804
+	name = "STATE_2804"
+	history = {
+		owner = BMN
+        add_core_of = BMN
+		buildings = {
+			infrastructure = 3
+			20014 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+        20014
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

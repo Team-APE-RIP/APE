@@ -19,6 +19,10 @@ BEL = {
 	color = rgb { 253 219 37 }
 	color_ui = rgb { 253 219 37 }
 }
+BMN = {
+	color = rgb { 211 0 0 }
+	color_ui = rgb { 211 0 0 }
+}
 CHI = {
 	color = rgb { 160 10 30 }
 	color_ui = rgb { 160 10 30 }
@@ -419,6 +423,10 @@ NUB = {
 	color = rgb { 227 0 27 }
 	color_ui = rgb { 227 0 27 }
 }
+OBK = {
+	color = rgb { 120 80 50 }
+	color_ui = rgb { 120 80 50 }
+}
 QDN = {
 	color = rgb { 225 60 50 }
 	color_ui = rgb { 225 60 50 }
@@ -438,6 +446,10 @@ ROV = {
 RTA = {
 	color = rgb { 190 50 40 }
 	color_ui = rgb { 190 50 40 }
+}
+RUH = {
+	color = rgb { 56 178 112 }
+	color_ui = rgb { 56 178 112 }
 }
 SHD = {
 	color = rgb { 180 0 0 }

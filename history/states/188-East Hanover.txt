@@ -10,7 +10,8 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = ZZZ # GER
+		owner = BMN
+        add_core_of = BMN
 		# add_core_of = GER
 
 		victory_points = { 3326 10 }
@@ -27,10 +28,10 @@ state = { #Population Done
 			dockyard = 2
 
 			6349 = {
-				naval_base = 3
+				
 				coastal_bunker = 2
 			}
-			374 = { coastal_bunker = 2 }
+			374 = { coastal_bunker = 2 naval_base = 3 }
 		}
 		# set_state_flag = GDP_category_city
 	}
