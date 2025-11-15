@@ -7,7 +7,8 @@ state = {
 	state_category = town
 
 	history = {
-		owner = ZZZ # SWI
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
 			infrastructure = 4
 			radar_station = 1
@@ -19,6 +20,6 @@ state = {
 	}
 
 	provinces = {
-		3641 9600 18147 18127 18128
+		18147 9600
 	}
 }

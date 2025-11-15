@@ -7,8 +7,9 @@ state = { #Population Done
 
 
 	history = {
-		owner = ZZZ # SWI
-		victory_points = { 18146 15 }
+		owner = SWS
+        add_core_of = SWS
+		victory_points = { 18146 25 }
 		victory_points = { 9638 10 }
 		victory_points = { 11604 7 }
 		victory_points = { 9620 2 }
@@ -33,6 +34,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		9638 18146 9620 11604 11601 18124 9618
+		18146
 	}
 }

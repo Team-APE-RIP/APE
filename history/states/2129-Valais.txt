@@ -11,7 +11,8 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = ZZZ # SWI
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
 			infrastructure = 4
 			hydroelectric_plant = 2

@@ -3,7 +3,8 @@ state = { #Population Done
 	name = "STATE_33"
 
 	history = {
-		owner = ZZZ # FRS
+		owner = FRA
+		add_core_of = FRA
 		victory_points = { 9525 1 }
 		buildings = {
 			infrastructure = 4

@@ -7,7 +7,8 @@ state = { #Population Done
 	state_category = city
 
 	history = {
-		owner = ZZZ # SWI
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
 			infrastructure = 5
 			barracks = 1
@@ -41,6 +42,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		18145 18125 663 661 11623
+		18125 663
 	}
 }

@@ -11,7 +11,8 @@ state = {
 
 
 	history = {
-		owner = ZZZ # SWI
+		owner = SWS
+        add_core_of = SWS
 		victory_points = { 6666 10 }
 		victory_points = { 11590 10 }
 		victory_points = { 9622 3 }
@@ -38,6 +39,6 @@ state = {
 	}
 
 	provinces = {
-		6666 6683 9622 11590 13124
+		6666 11590
 	}
 }

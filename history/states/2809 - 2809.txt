@@ -1,0 +1,18 @@
+state = {
+	id = 2809
+	name = "STATE_2809"
+	history = {
+		owner = SWS
+        add_core_of = SWS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        6683 9622
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

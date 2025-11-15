@@ -12,7 +12,8 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = ZZZ # FRS
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			schools = 2
 			infrastructure = 4

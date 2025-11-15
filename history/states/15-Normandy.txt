@@ -6,7 +6,8 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = ZZZ # FRS
+		owner = FRA
+		add_core_of = FRA
 		victory_points = { 9434 5 }
 		victory_points = { 11563 10 }
 		victory_points = { 485 1 }

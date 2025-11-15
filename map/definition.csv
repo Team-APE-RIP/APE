@@ -20014,3 +20014,10 @@
 20013;175;211;10;land;true;plains;1
 20014;175;211;11;land;true;marsh;1
 20015;175;211;12;sea;true;ocean;0
+20016;175;211;13;land;false;hills;1
+20017;175;211;14;land;false;valleys;1
+20018;175;211;15;land;false;valleys;1
+20019;175;211;16;land;false;valleys;1
+20020;175;211;17;land;false;mountain;1
+20021;175;211;18;land;false;mountain;1
+20022;175;211;19;land;false;mountain;1

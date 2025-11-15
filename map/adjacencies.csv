@@ -442,6 +442,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9957;10099;sea;5388;-1;-1;-1;-1;;egypt-sinai
 11833;15192;sea;5579;-1;-1;-1;-1;;elba link
 3864;13241;sea;7452;-1;-1;-1;-1;;euboea nw
+18138;3326;sea;20015;-1;-1;-1;-1;;BMN
 6300;16374;sea;2942;-1;-1;-1;-1;;firth of forth
 10219;12151;sea;5414;-1;-1;-1;-1;;flores-south maluku
 11804;13580;impassable;-1;3325;2559;3326;2559;;france name placement
@@ -451,7 +452,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12058;16184;impassable;-1;3325;2559;3326;2559;;greece name placement
 15578;16265;impassable;-1;3325;2559;3326;2559;;greece name placement
 1205;7211;sea;5913;-1;-1;-1;-1;;gulf of patras
-374;3368;sea;3499;-1;-1;-1;-1;;hamburg river thing
 3368;6349;sea;3499;-1;-1;-1;-1;;hamburg river thing
 9458;16327;sea;2895;-1;-1;-1;-1;;hampshire
 1096;19822;sea;8396;-1;-1;-1;-1;;hangzhou bay

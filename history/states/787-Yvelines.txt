@@ -6,7 +6,8 @@ state = { #Population Done
 		9507 9725 15365
 	}
 	history = {
-		owner = ZZZ # FRS
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 6
 			thermoelectric_plant = 3

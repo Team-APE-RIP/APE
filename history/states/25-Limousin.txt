@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # FRS
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
 			hydroelectric_plant = 2
