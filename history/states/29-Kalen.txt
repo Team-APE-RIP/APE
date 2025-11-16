@@ -38,10 +38,6 @@ state = {
 			air_base = 10
 			dockyard = 2
 			thermoelectric_plant = 3
-			11548 = {
-				naval_base = 6
-				coastal_bunker = 3
-			}
 			575 = {
 				coastal_bunker = 3
 				naval_base = 1
@@ -54,7 +50,7 @@ state = {
 	}
 
 	provinces = {
-		575 3536 11483 11548 11606 18110 18112 18115 18117
+		575 18115 11483 18110
 	}
 	manpower = 1873416
 	buildings_max_level_factor = 1.000

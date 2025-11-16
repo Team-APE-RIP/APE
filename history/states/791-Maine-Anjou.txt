@@ -3,7 +3,7 @@ state = { #Population Done
 	name = "STATE_791"
 	state_category = town
 	provinces = {
-		503 527 3495 3523 9478 9867 11613 13371 13364 11463 3509
+		527 3495 3523 9478 9867 11613 13371 13364 11463 3509
 	}
 	history = {
 		owner = FRA

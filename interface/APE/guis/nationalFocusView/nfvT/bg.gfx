@@ -1,0 +1,13 @@
+spriteTypes = {    
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_nfvT_0"
+		size= { x=2560 y=1440 }
+		textureFile = "gfx/interface/focusview/T/title_bg_0.dds"
+		borderSize = { x=1 y=1 }
+		tilingCenter = yes
+		allwaystransparent = yes
+        effectFile = "gfx/FX/APE_bg_cover_large.lua"
+	}
+
+}
