@@ -8,7 +8,8 @@ state = { #Population Done
 	state_category = rural
 
 	history = {
-		owner = ZZZ # DEN
+		owner = DMK
+        add_core_of = DMK
 		buildings = {
 			hospitals = 1
 			barracks = 1

@@ -31,6 +31,10 @@ CTB = {
 	color = rgb { 231 70 37 }
 	color_ui = rgb { 231 70 37 }
 }
+DMK = {
+	color = rgb { 163 91 125 }
+	color_ui = rgb { 163 91 125 }
+}
 DPK = {
 	color = rgb { 190 5 50 }
 	color_ui = rgb { 190 5 50 }
@@ -54,6 +58,10 @@ FAH = {
 FRA = {
 	color = rgb { 0 38 84 }
 	color_ui = rgb { 0 38 84 }
+}
+GDM = {
+	color = rgb { 91 67 84 }
+	color_ui = rgb { 91 67 84 }
 }
 GUX = {
 	color = rgb { 255 120 0 }

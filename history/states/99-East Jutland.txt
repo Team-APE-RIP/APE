@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # DEN
+		owner = DMK
+        add_core_of = DMK
 		# set_state_flag = has_offshore_island
 		victory_points = {
 			6364 10
@@ -31,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		3277 6364 4030
+		6364 4030
 	}
 	manpower = 973487
 	buildings_max_level_factor = 1.000

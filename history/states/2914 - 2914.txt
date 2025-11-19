@@ -1,0 +1,18 @@
+state = {
+	id = 2914
+	name = "STATE_2914"
+	history = {
+		owner = DMK
+        add_core_of = DMK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        3206
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

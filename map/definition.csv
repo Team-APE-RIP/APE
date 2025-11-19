@@ -6419,7 +6419,7 @@
 6418;86;0;141;land;false;plains;1
 6419;86;0;236;sea;true;ocean;0
 6420;86;3;56;land;true;plains;9
-6421;86;3;206;sea;false;ocean;0
+6421;86;3;206;land;true;urban;1
 6422;86;4;232;sea;true;ocean;0
 6423;86;6;21;land;false;plains;9
 6424;86;6;66;land;false;plains;1

@@ -1,0 +1,19 @@
+capital = 2908
+set_politics = {
+	ruling_party = IdeologyGroup16
+	last_election = "2000.1.1"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup16 = 100
+}
+set_autonomy = {
+	target = GDM
+	autonomy_state = autonomy_DMK_GDMA
+}
+GDM = {
+    set_popularities = {
+	    IdeologyGroup16= 100
+    }
+}

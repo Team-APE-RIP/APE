@@ -214,10 +214,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1311;4228;sea;2856;-1;-1;-1;-1;;San Bernardino Strait
 13420;19994;sea;2887;-1;-1;-1;-1;;Sint Maarten-St. Kitts
 3305;8335;sea;2408;-1;-1;-1;-1;;Sjaelland
-5621;6345;sea;2431;-1;-1;-1;-1;;Sjaelland
-3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
-6287;6345;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
-6287;9279;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 211;299;sea;2282;-1;-1;-1;-1;;Småland-Öland
 12148;15300;impassable;-1;3325;2559;3326;2559;;Society-Pitcairn thing
 4306;4608;sea;5666;-1;-1;-1;-1;;Soerbaja-Madura
@@ -652,7 +648,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5382;5407;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 2400;5407;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
-2408;2729;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
+2408;3499;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
 2532;8913;;-1;-1;-1;-1;-1;MAGELLAN_STRAIT;Magellan Strait
 8913;8986;;-1;-1;-1;-1;-1;MAGELLAN_STRAIT;Magellan Strait
 7452;7678;sea;849;-1;-1;-1;-1;MARMARA_CANAL;Marmara
