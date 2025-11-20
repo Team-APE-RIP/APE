@@ -5,7 +5,8 @@ state = {
 		14477
 	}
 	history = {
-		owner = ZZZ # PAD
+		owner = ADR
+		add_core_of = ADR
 		victory_points = {
 			14477 1
 		}

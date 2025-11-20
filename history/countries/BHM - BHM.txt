@@ -1,0 +1,11 @@
+capital = 2916
+set_politics = {
+	ruling_party = IdeologyGroup40
+	last_election = "2049.2.25"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup40 = 100
+}
+#fuckParadox

@@ -1477,5 +1477,42 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+	
+	IdeologyGroup40 = { 
+
+		types = {
+		    IdeologyGroup40_IdelogySubtype0 = {}
+			IdeologyGroup40_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup40_1"
+			"FACTION_NAME_IdeologyGroup40_2"
+			"FACTION_NAME_IdeologyGroup40_3"
+			"FACTION_NAME_IdeologyGroup40_4"
+			"FACTION_NAME_IdeologyGroup40_5"
+		}
+
+		color = { 160 70 0 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
 }

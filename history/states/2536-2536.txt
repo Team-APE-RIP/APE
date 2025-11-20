@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2536"
 
 	history = {
-		owner = ZZZ # COL
+		owner = BHM
+        add_core_of = BHM
 		buildings = {
 			infrastructure = 2
 			hospitals = 1
@@ -16,7 +17,7 @@ state = {
 	}
 
 	provinces = {
-		 469 573 9414 11401 3462 494 11414
+		  9414  3462 494 11414
 	}
 	manpower = 671618
 	buildings_max_level_factor = 1.000

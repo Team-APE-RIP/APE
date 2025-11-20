@@ -26,3 +26,12 @@ RHN = {
 	    IdeologyGroup33= 100
     }
 }
+set_autonomy = {
+	target = ADR
+	autonomy_state = autonomy_FRA_ADRT
+}
+ADR = {
+    set_popularities = {
+	    IdeologyGroup33= 100
+    }
+}

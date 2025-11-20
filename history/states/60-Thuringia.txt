@@ -11,7 +11,8 @@ state = { #Population Done
 	state_category = city
 
 	history = {
-		owner = ZZZ # GER
+		owner = BHM
+        add_core_of = BHM
 
 		buildings = {
 			schools = 2

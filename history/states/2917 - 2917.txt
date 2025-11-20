@@ -1,0 +1,18 @@
+state = {
+	id = 2917
+	name = "STATE_2917"
+	history = {
+		owner = BHM
+        add_core_of = BHM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9541
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
