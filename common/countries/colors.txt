@@ -147,6 +147,10 @@ OBK = {
 	color = rgb { 120 80 50 }
 	color_ui = rgb { 120 80 50 }
 }
+OTC = {
+	color = rgb { 140 204 182 }
+	color_ui = rgb { 140 204 182 }
+}
 QDN = {
 	color = rgb { 225 60 50 }
 	color_ui = rgb { 225 60 50 }

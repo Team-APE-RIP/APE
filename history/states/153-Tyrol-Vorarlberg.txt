@@ -3,7 +3,8 @@ state = {
 	name = "STATE_153"
 
 	history = {
-		owner = ZZZ # GER
+		owner = OTC
+		add_core_of = OTC
 		victory_points = {
 			673 10
 		}
@@ -29,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		673 9633 9636 11618 11634 6678 6680
+		673 9636 6678
 	}
 	manpower = 821637
 	buildings_max_level_factor = 1.000
