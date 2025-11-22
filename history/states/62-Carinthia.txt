@@ -10,7 +10,8 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = ZZZ # GER
+		owner = OTC
+        add_core_of = OTC
 		# add_core_of = GER
 		victory_points = { 3673 7 }
 		victory_points = { 6673 4 }
@@ -35,6 +36,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		671 6673 668 3674 3673 11612 13362
+		668 3674 3673 13362
 	}
 }

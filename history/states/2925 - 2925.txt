@@ -1,0 +1,18 @@
+state = {
+	id = 2925
+	name = "STATE_2925"
+	history = {
+		owner = OTC
+        add_core_of = OTC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9646 653 6687
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
