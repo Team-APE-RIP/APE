@@ -11463,7 +11463,7 @@
 11462;170;84;142;land;false;plains;9
 11463;170;84;197;land;false;plains;1
 11464;170;87;57;land;false;plains;9
-11465;170;87;162;land;true;plains;1
+11465;170;87;162;land;false;plains;1
 11466;170;87;207;land;false;plains;9
 11467;170;90;22;land;false;urban;1
 11468;170;90;172;land;false;hills;1

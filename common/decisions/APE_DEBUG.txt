@@ -1,9 +1,9 @@
 DEBUG_FOCUS_decisions = {
 
-	LOAD_ZZZ_00 = {
+	LOAD_QFK_01 = {
 		icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no allowed = {original_tag=ZZZ}
-		available = {hidden_trigger ={is_debug=yes NOT={has_focus_tree=ZZZ_00}}}
-		complete_effect = {hidden_effect = {load_focus_tree={tree = ZZZ_00 keep_completed = yes}mark_focus_tree_layout_dirty = yes}}
+		available = {hidden_trigger ={is_debug=yes NOT={has_focus_tree=QFK_01}}}
+		complete_effect = {hidden_effect = {load_focus_tree={tree = QFK_01 keep_completed = yes}mark_focus_tree_layout_dirty = yes}}
 	}
 	
 	SHOW_QFK_01_FS_05 = {
