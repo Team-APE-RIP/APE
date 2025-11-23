@@ -29,6 +29,8 @@ DEBUG_FOCUS_decisions = {
 		available = {hidden_trigger ={is_debug=yes }}
 		complete_effect = {hidden_effect = {clr_country_flag = QFK_completed_QFK_01_FS_05 mark_focus_tree_layout_dirty = yes}}
 	}
+	
+	TESTAAAA = { icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no complete_effect = {set_variable={AAAA=-2147483648.99999}}}
 }
 
 DEBUG_EVENT_decisions = {

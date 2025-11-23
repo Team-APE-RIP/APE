@@ -1,0 +1,9 @@
+
+rule_group_manpower = {
+	rules = {
+		manpower_contribution_small
+		manpower_contribution_medium
+		manpower_contribution_high
+	}
+}
+

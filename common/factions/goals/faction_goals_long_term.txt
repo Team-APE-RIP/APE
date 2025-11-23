@@ -1,0 +1,43 @@
+#category = short_term medium_term or long_term
+# ROOT is faction leader, FROM is faction member who opens UI and views goals, completed/cancel/complete_effect do not have FROM scopes
+
+
+######################################################################
+
+###  ##   ##  ### ###  ##  #  #      ## ###  ###  ##  ### ### ###  ##  
+#   #  # #  #  #   #  #  # ## #     #   #  # #   #  #  #  #    #  #  # 
+##  #### #     #   #  #  # # ##      #  ###  ##  #     #  ##   #  #    
+#   #  # #  #  #   #  #  # #  #       # #    #   #  #  #  #    #  #  # 
+#   #  #  ##   #  ###  ##  #  #     ##  #    ###  ##  ### #   ###  ##  
+
+######################################################################
+
+
+ ##  #   # ###  ## 
+#  #  # #   #  #   
+####   #    #   #  
+#  #  # #   #    # 
+#  # #   # ### ##  
+
+
+faction_goal_resource_control = {
+	name = resource_control_goal_name
+	description = resource_control_goal_desc
+	category = long_term
+	group = resources_to_market_icon
+	visible = {
+
+	}
+	available = {
+		
+	}
+	completed = {
+	
+
+	}
+	complete_effect = {
+	}
+	ai_will_do = {
+		base = 1
+	}
+}

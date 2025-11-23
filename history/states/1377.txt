@@ -5,15 +5,19 @@ state = {
 		14476
 	}
 	history = {
-		owner = ZZZ # MOC
+		owner = MNC
+		add_core_of = MNC
 		victory_points = {
-			14476 1
+			14476 20
 		}
 		buildings = {
 			infrastructure = 5
 			offices = 1
+			
+			14476 = {
+				naval_base = 2
+			}
 		}
-		# add_core_of = MOC
 	}
 	manpower = 22500
 	buildings_max_level_factor = 1.000

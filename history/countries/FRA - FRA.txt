@@ -31,7 +31,26 @@ set_autonomy = {
 	autonomy_state = autonomy_FRA_ADRT
 }
 ADR = {
+    set_politics = {
+	    ruling_party = IdeologyGroup16
+	    last_election = "2000.1.1"
+	    elections_allowed = no
+    }
     set_popularities = {
-	    IdeologyGroup33= 100
+	    IdeologyGroup16= 100
+    }
+}
+set_autonomy = {
+	target = MNC
+	autonomy_state = autonomy_FRA_MNCP
+}
+MNC = {
+    set_politics = {
+	    ruling_party = IdeologyGroup16
+	    last_election = "2000.1.1"
+	    elections_allowed = no
+    }
+    set_popularities = {
+	    IdeologyGroup16= 100
     }
 }
