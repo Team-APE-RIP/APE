@@ -7,7 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # ITA
+		owner = ITA
+		add_core_of = ITA
 		victory_points = {
 			11584 15
 		}
@@ -48,7 +49,7 @@ state = {
 	}
 
 	provinces = {
-		603 3604 6656 9582 11584 14644 14645 17997 17999 18000 18001
+		11584 9582 6656
 	}
 	manpower = 3687908
 	buildings_max_level_factor = 1.000

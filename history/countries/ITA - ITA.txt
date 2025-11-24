@@ -1,0 +1,19 @@
+capital = 2947
+set_politics = {
+	ruling_party = IdeologyGroup42
+	last_election = "2000.1.1"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup42 = 100
+}
+set_autonomy = {
+	target = ITB
+	autonomy_state = autonomy_ITA_ITBS
+}
+ITB = {
+    set_popularities = {
+	    IdeologyGroup18= 100
+    }
+}

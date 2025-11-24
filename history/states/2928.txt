@@ -1,0 +1,21 @@
+state = {
+	id = 2928
+	name = "STATE_2928"
+	history = {
+		owner = ITB
+        add_core_of = ITB
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 13585 5 }
+		victory_points = { 13586 1 }
+		victory_points = { 14637 7 }
+	}
+	provinces = {
+        14637 13586 13585
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

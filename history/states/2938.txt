@@ -1,0 +1,18 @@
+state = {
+	id = 2938
+	name = "STATE_2938"
+	history = {
+		owner = ITA
+        add_core_of = ITA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        14643
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

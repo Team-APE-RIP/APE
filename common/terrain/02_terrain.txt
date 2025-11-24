@@ -107,6 +107,8 @@ categories = {
 	}
 	water_southern_sea = {
 		naval_terrain = yes
+		naval_mine_hit_chance = -0.75
+		minimum_seazone_dominance = 200
 		color = { 91 50 255 }
 		movement_cost = 3
 		is_water = yes

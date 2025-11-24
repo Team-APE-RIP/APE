@@ -91,6 +91,14 @@ HOK = {
 	color = rgb { 66 65 84 }
 	color_ui = rgb { 66 65 84 }
 }
+ITA = {
+	color = rgb { 10 245 30 }
+	color_ui = rgb { 10 245 30 }
+}
+ITB = {
+	color = rgb { 165 156 244 }
+	color_ui = rgb { 165 156 244 }
+}
 JAP = {
 	color = rgb { 0 60 200 }
 	color_ui = rgb { 0 60 200 }
@@ -194,6 +202,10 @@ SHX = {
 SIC = {
 	color = rgb { 150 30 230 }
 	color_ui = rgb { 150 30 230 }
+}
+SMN = {
+	color = rgb { 94 182 227 }
+	color_ui = rgb { 94 182 227 }
 }
 SWS = {
 	color = rgb { 218 40 70 }
