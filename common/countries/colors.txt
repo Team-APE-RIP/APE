@@ -219,6 +219,10 @@ TIB = {
 	color = rgb { 230 235 245 }
 	color_ui = rgb { 230 235 245 }
 }
+VCS = {
+	color = rgb { 246 239 42 }
+	color_ui = rgb { 246 239 42 }
+}
 WLO = {
 	color = rgb { 205 17 37 }
 	color_ui = rgb { 205 17 37 }

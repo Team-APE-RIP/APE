@@ -3,7 +3,8 @@ state = {
 	name = "STATE_1324"
 	state_category = town
 	history = {
-		owner = ZZZ # ITA
+		owner = ITA
+		add_core_of = ITA
 		victory_points = { 925 10 }
 		victory_points = { 11861 1 }
 		victory_points = { 14656 3 }
@@ -23,7 +24,7 @@ state = {
 	}
 
 	provinces = {
-		925 967 6926 11790 11861 14656
+		925 14656
 	}
 
 	manpower = 1347169
