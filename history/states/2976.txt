@@ -1,0 +1,18 @@
+state = {
+	id = 2976
+	name = "STATE_2976"
+	history = {
+		owner = ITC
+        add_core_of = ITC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        6843 9784
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

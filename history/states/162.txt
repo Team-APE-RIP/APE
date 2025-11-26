@@ -3,8 +3,8 @@ state = {
 	name = "STATE_162"
 
 	history = {
-		owner = ITA
-		add_core_of = ITA
+		owner = ITF
+        add_core_of = ITF
 		victory_points = {
 			9907 15
 		}

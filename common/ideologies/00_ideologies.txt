@@ -1588,5 +1588,190 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+	
+	IdeologyGroup43 = { 
+
+		types = {
+		    IdeologyGroup43_IdelogySubtype0 = {}
+			IdeologyGroup43_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup43_1"
+			"FACTION_NAME_IdeologyGroup43_2"
+			"FACTION_NAME_IdeologyGroup43_3"
+			"FACTION_NAME_IdeologyGroup43_4"
+			"FACTION_NAME_IdeologyGroup43_5"
+		}
+
+		color = { 160 90 40 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup44 = { 
+
+		types = {
+		    IdeologyGroup44_IdelogySubtype0 = {}
+			IdeologyGroup44_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup44_1"
+			"FACTION_NAME_IdeologyGroup44_2"
+			"FACTION_NAME_IdeologyGroup44_3"
+			"FACTION_NAME_IdeologyGroup44_4"
+			"FACTION_NAME_IdeologyGroup44_5"
+		}
+
+		color = { 190 160 230 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup45 = { 
+
+		types = {
+		    IdeologyGroup45_IdelogySubtype0 = {}
+			IdeologyGroup45_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup45_1"
+			"FACTION_NAME_IdeologyGroup45_2"
+			"FACTION_NAME_IdeologyGroup45_3"
+			"FACTION_NAME_IdeologyGroup45_4"
+			"FACTION_NAME_IdeologyGroup45_5"
+		}
+
+		color = { 200 200 200 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup46 = { 
+
+		types = {
+		    IdeologyGroup46_IdelogySubtype0 = {}
+			IdeologyGroup46_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup46_1"
+			"FACTION_NAME_IdeologyGroup46_2"
+			"FACTION_NAME_IdeologyGroup46_3"
+			"FACTION_NAME_IdeologyGroup46_4"
+			"FACTION_NAME_IdeologyGroup46_5"
+		}
+
+		color = { 35 5 10 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup47 = { 
+
+		types = {
+		    IdeologyGroup47_IdelogySubtype0 = {}
+			IdeologyGroup47_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup47_1"
+			"FACTION_NAME_IdeologyGroup47_2"
+			"FACTION_NAME_IdeologyGroup47_3"
+			"FACTION_NAME_IdeologyGroup47_4"
+			"FACTION_NAME_IdeologyGroup47_5"
+		}
+
+		color = { 250 250 250 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
 }

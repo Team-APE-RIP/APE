@@ -99,6 +99,26 @@ ITB = {
 	color = rgb { 165 156 244 }
 	color_ui = rgb { 165 156 244 }
 }
+ITC = {
+	color = rgb { 1 212 173 }
+	color_ui = rgb { 1 212 173 }
+}
+ITD = {
+	color = rgb { 160 90 40 }
+	color_ui = rgb { 160 90 40 }
+}
+ITE = {
+	color = rgb { 190 160 230 }
+	color_ui = rgb { 190 160 230 }
+}
+ITF = {
+	color = rgb { 200 200 200 }
+	color_ui = rgb { 200 200 200 }
+}
+ITG = {
+	color = rgb { 35 5 10 }
+	color_ui = rgb { 35 5 10 }
+}
 JAP = {
 	color = rgb { 0 60 200 }
 	color_ui = rgb { 0 60 200 }

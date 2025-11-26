@@ -3,7 +3,8 @@ state = {
 	name = "STATE_156"
 
 	history = {
-		owner = ZZZ # ITA
+		owner = ITC
+        add_core_of = ITC
 		victory_points = { 3901 7 }
 		victory_points = { 9990 10 }
 		victory_points = { 12066 7 }
@@ -21,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		3901 9990 10027 12066 12098
+		3901 10027 12066 12098
 	}
 	manpower = 1559578
 	buildings_max_level_factor = 1.000

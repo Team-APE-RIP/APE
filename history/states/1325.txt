@@ -4,7 +4,8 @@ state = {
 	state_category = city
 
 	history = {
-		owner = ZZZ # ITA
+		owner = ITC
+        add_core_of = ITC
 		victory_points = { 9784 15 }
 		victory_points = { 11837 10 }
 		victory_points = { 11998 7 }
@@ -34,7 +35,7 @@ state = {
 	}
 
 	provinces = {
-		883 6843 6939 6979 6980 9784 11837 11998
+		11837
 	}
 	manpower = 3421169
 	buildings_max_level_factor = 1.000

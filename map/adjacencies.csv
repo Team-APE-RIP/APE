@@ -462,7 +462,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9772;9845;impassable;-1;3325;2559;3326;2559;;italy balearic name placement
 7059;13177;impassable;-1;3325;2559;3326;2559;;italy name placement
 6979;10203;impassable;-1;3325;2559;3326;2559;;italy name placement
-6891;11751;impassable;-1;3325;2559;3326;2559;;italy name placement
 11891;15192;impassable;-1;3325;2559;3326;2559;;italy name placement
 1106;10203;impassable;-1;3325;2559;3326;2559;;italy name placement
 957;6944;impassable;-1;3325;2559;3326;2559;;japan name placement
@@ -589,7 +588,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 8241;15278;sea;2236;-1;-1;-1;-1;;stewart island
 161;8753;sea;1211;-1;-1;-1;-1;;stockholm land
-4159;9990;sea;5681;-1;-1;-1;-1;;strait of messina
 4211;19265;sea;5343;-1;-1;-1;-1;;sulawesi
 4349;19266;sea;2124;-1;-1;-1;-1;;sulawesi
 4564;10222;sea;5515;-1;-1;-1;-1;;sulawesi

@@ -17,3 +17,12 @@ ITB = {
 	    IdeologyGroup18= 100
     }
 }
+set_autonomy = {
+	target = ITC
+	autonomy_state = autonomy_ITA_ITCS
+}
+ITC = {
+    set_popularities = {
+	    IdeologyGroup41= 100
+    }
+}
