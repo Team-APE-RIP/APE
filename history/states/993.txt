@@ -5,10 +5,11 @@ state = {
 		steel = 11
 	}
 	provinces = {
-		740 932 3735 6756 15114 15115
+		740 932 3735 6756 15114
 	}
 	history = {
-		owner = ZZZ # IBR
+		owner = EPA
+		add_core_of = EPA
 		victory_points = { 740 15 }
 		victory_points = { 3735 6 }
 		victory_points = { 15114 10 }

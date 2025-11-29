@@ -566,7 +566,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4171;7130;sea;7226;-1;-1;-1;-1;;samos and ikaria
 849;15579;sea;7452;-1;-1;-1;-1;;samothraki east
 15579;16204;sea;7452;-1;-1;-1;-1;;samothraki north
-3838;6891;sea;5579;-1;-1;-1;-1;;sardinia-corsica
 1042;1085;sea;9014;-1;-1;-1;-1;;solomon islands
 10319;12265;sea;5868;-1;-1;-1;-1;;solomon islands
 1085;4252;sea;9052;-1;-1;-1;-1;;solomon islands

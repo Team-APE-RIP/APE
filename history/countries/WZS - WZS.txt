@@ -17,5 +17,4 @@ AOM = {
 	    IdeologyGroup4 = 100
     }
 }
-recruit_character = WZS_MoLisi
 #fuckParadox

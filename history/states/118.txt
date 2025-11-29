@@ -5,7 +5,8 @@ state = { #Population Done
 
 	state_category = town
 	history = {
-		owner = ZZZ # IBR
+		owner = EPA
+		add_core_of = EPA
 		victory_points = { 4135 6 }
 		buildings = {
 			infrastructure = 4

@@ -21,9 +21,6 @@ state = { #Population Done
 			air_base = 5
 			radar_station = 3
 			thermoelectric_plant = 1
-			902 = {
-				naval_base = 3
-			}
 			6891 = {
 				naval_base = 5
 			}
@@ -32,6 +29,6 @@ state = { #Population Done
 		# add_core_of = ITA
 	}
 	provinces = {
-		6891 9772 9863 11755 11824 11874
+		6891 9772 9863 
 	}
 }

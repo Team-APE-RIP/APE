@@ -6,6 +6,9 @@ state = {
         add_core_of = ITA
 		buildings = {
 			infrastructure = 3
+			902 = {
+				naval_base = 3
+			}
 		}
 	}
 	provinces = {
