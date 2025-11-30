@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # IBR
+		owner = PGS
+		add_core_of = PGS
 		victory_points = { 970 5 }
 		victory_points = { 11805 4 }
 		victory_points = { 3861 3 }
@@ -27,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		970 3861 11805
+		3861 11805
 	}
 	manpower = 1031060
 	buildings_max_level_factor = 1.250

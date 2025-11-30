@@ -11,7 +11,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # IBR
+		owner = PGS
+		add_core_of = PGS
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 1

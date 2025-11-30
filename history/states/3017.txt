@@ -1,0 +1,18 @@
+state = {
+	id = 3017
+	name = "STATE_3017"
+	history = {
+		owner = EPA
+		add_core_of = EPA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        12070 3940 11749 9815
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -5,7 +5,7 @@ state = {
 		steel = 11
 	}
 	provinces = {
-		740 932 3735 6756 15114
+		740 3735 
 	}
 	history = {
 		owner = EPA

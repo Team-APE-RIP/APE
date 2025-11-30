@@ -3,7 +3,8 @@ state = {
 	name = "STATE_998"
 
 	history = {
-		owner = ZZZ # IBR
+		owner = PGS
+		add_core_of = PGS
 		# add_core_of = IBR
 		victory_points = {
 			17981 10

@@ -5,7 +5,7 @@ state = {
 		tungsten = 5
 	}
 	provinces = {
-		809 931 985 3930 6902 6948 6954 9925 11798 11851
+		931 6954 11798 11851
 	}
 	history = {
 		owner = EPA

@@ -1,0 +1,18 @@
+state = {
+	id = 3030
+	name = "STATE_3030"
+	history = {
+		owner = PGS
+		add_core_of = PGS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        844 11768 
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -8,7 +8,8 @@ state = {
 		chromium = 23
 	}
 	history = {
-		owner = ZZZ # IBR
+		owner = PGS
+		add_core_of = PGS
 		victory_points = { 9869 4 }
 		victory_points = { 3886 1 }
 		victory_points = { 3926 1 }

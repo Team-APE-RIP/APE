@@ -9,7 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # IBR
+		owner = PGS
+		add_core_of = PGS
 		victory_points = { 15351 30 }
 		buildings = {
 			infrastructure = 6

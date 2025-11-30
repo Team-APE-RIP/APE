@@ -19,16 +19,13 @@ state = {
 			6906 = {
 				naval_base = 5
 			}
-			4098 = {
-				naval_base = 2
-			}
 		}
 		# set_state_flag = state_renamings
 		# add_core_of = IBR
 	}
 
 	provinces = {
-		962 3799 4098 6856 6906 6959 9889
+		6906
 	}
 	manpower = 2207041
 	buildings_max_level_factor = 1.000

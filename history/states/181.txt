@@ -10,7 +10,8 @@ state = { #Population Done
 		uranium = 7
 	}
 	history = {
-		owner = ZZZ # IBR
+		owner = PGS
+		add_core_of = PGS
 		buildings = {
 			barracks = 1
 			infrastructure = 4
