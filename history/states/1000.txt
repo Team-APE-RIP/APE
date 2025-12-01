@@ -2,7 +2,7 @@ state = {
 	id = 1000
 	name = "STATE_1000"
 	provinces = {
-		3846 3886 3926 6986 9869
+		3846 9869
 	}
 	resources = {
 		chromium = 23
