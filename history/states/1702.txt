@@ -8,8 +8,8 @@ state = {
 	state_category = town
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = IPB
+		add_core_of = IPB
 		victory_points = { 3938 4 }
 		victory_points = { 11820 3 }
 		buildings = {

@@ -95,6 +95,26 @@ HOK = {
 	color = rgb { 66 65 84 }
 	color_ui = rgb { 66 65 84 }
 }
+IPA = {
+	color = rgb { 162 89 63 }
+	color_ui = rgb { 162 89 63 }
+}
+IPB = {
+	color = rgb { 169 10 10 }
+	color_ui = rgb { 169 10 10 }
+}
+IPC = {
+	color = rgb { 15 40 5 }
+	color_ui = rgb { 15 40 5 }
+}
+IPD = {
+	color = rgb { 246 221 105 }
+	color_ui = rgb { 246 221 105 }
+}
+IPE = {
+	color = rgb { 217 23 27 }
+	color_ui = rgb { 217 23 27 }
+}
 ITA = {
 	color = rgb { 10 245 30 }
 	color_ui = rgb { 10 245 30 }

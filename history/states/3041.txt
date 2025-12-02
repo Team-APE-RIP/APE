@@ -1,0 +1,18 @@
+state = {
+	id = 3041
+	name = "STATE_3041"
+	history = {
+		owner = IPB
+		add_core_of = IPB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        3938
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

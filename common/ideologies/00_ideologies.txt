@@ -1,5 +1,5 @@
 ideologies = {
-    IdeologyGroup0 = { # 没注册意识形态的用这个或作为占位符
+    IdeologyGroup0 = { # Use this if haven't an ideology or as a placeholder
 
 		types = {
 		    IdeologyGroup0_IdelogySubtype0 = {}
@@ -1753,6 +1753,191 @@ ideologies = {
 		}
 
 		color = { 250 250 250 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup48 = { 
+
+		types = {
+		    IdeologyGroup48_IdelogySubtype0 = {}
+			IdeologyGroup48_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup48_1"
+			"FACTION_NAME_IdeologyGroup48_2"
+			"FACTION_NAME_IdeologyGroup48_3"
+			"FACTION_NAME_IdeologyGroup48_4"
+			"FACTION_NAME_IdeologyGroup48_5"
+		}
+
+		color = { 162 89 63 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup49 = { 
+
+		types = {
+		    IdeologyGroup49_IdelogySubtype0 = {}
+			IdeologyGroup49_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup49_1"
+			"FACTION_NAME_IdeologyGroup49_2"
+			"FACTION_NAME_IdeologyGroup49_3"
+			"FACTION_NAME_IdeologyGroup49_4"
+			"FACTION_NAME_IdeologyGroup49_5"
+		}
+
+		color = { 169 10 10 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup50 = { 
+
+		types = {
+		    IdeologyGroup50_IdelogySubtype0 = {}
+			IdeologyGroup50_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup50_1"
+			"FACTION_NAME_IdeologyGroup50_2"
+			"FACTION_NAME_IdeologyGroup50_3"
+			"FACTION_NAME_IdeologyGroup50_4"
+			"FACTION_NAME_IdeologyGroup50_5"
+		}
+
+		color = { 15 40 5 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup51 = { 
+
+		types = {
+		    IdeologyGroup51_IdelogySubtype0 = {}
+			IdeologyGroup51_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup51_1"
+			"FACTION_NAME_IdeologyGroup51_2"
+			"FACTION_NAME_IdeologyGroup51_3"
+			"FACTION_NAME_IdeologyGroup51_4"
+			"FACTION_NAME_IdeologyGroup51_5"
+		}
+
+		color = { 246 221 105 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup52 = { 
+
+		types = {
+		    IdeologyGroup52_IdelogySubtype0 = {}
+			IdeologyGroup52_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup52_1"
+			"FACTION_NAME_IdeologyGroup52_2"
+			"FACTION_NAME_IdeologyGroup52_3"
+			"FACTION_NAME_IdeologyGroup52_4"
+			"FACTION_NAME_IdeologyGroup52_5"
+		}
+
+		color = { 217 23 27 }
 
 		rules = {
 			can_force_government = no

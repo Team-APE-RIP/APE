@@ -15,6 +15,7 @@ DPK = {
         target = KOR
         type = unifyMotherland_KoreanPeninsula_wargoal_focus
     }
+	add_civil_war_target = KOR
 	set_province_controller = 19914
 	set_province_controller = 15855
 	set_province_controller = 19832

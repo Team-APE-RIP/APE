@@ -1,0 +1,20 @@
+capital = 1004
+set_politics = {
+	ruling_party = IdeologyGroup51
+	last_election = "2000.1.1"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup51 = 100
+}
+declare_war_on = {
+    target = PGS
+    type = revivalWar_IPDPGS_wargoal_focus
+}
+add_civil_war_target = PGS
+set_province_controller = 9765
+set_province_controller = 3866
+set_province_controller = 980
+set_province_controller = 970
+set_province_controller = 15351
