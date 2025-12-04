@@ -18,6 +18,7 @@ guiTypes = {
             background = {
                 name = "nfvT_T_bg_0_bg"
                 quadTextureSprite = "GFX_tiled_nfvT_0"
+                alwaystransparent = yes
             }
         }
         buttonType = {

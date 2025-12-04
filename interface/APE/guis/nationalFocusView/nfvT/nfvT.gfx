@@ -4,4 +4,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/focusview/T/title_bg_0.png"
         transparencecheck = yes
 	}
+	textspriteType = {
+		name = "GFX_button_focus_start_bg"
+		textureFile = "gfx/interface/focusview/focus_can_start_bg.dds"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
 }
