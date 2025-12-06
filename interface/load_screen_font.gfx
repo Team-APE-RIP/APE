@@ -4,9 +4,10 @@ bitmapfonts = {
 		name = "loadscreen_header"
 #		path = "gfx/fonts/hoi_30header"
 		fontfiles = { 
-			"gfx/fonts/Zhitong/Zhitong36_0"	
+#			"gfx/fonts/Zhitong/Zhitong36_0"	
 #			"gfx/fonts/hoi_20bs"
 #			"gfx/fonts/hoi_20bs_cryllic"
+            "gfx/fonts/Mujica/Mujica12_0"	
 		}		
 		color = 0xffffffff
 
@@ -17,31 +18,6 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}
-
-	bitmapfont_override = {
-		name = "loadscreen_header"
-		fontfiles = { 
-			"gfx/fonts/hoi_20bs"
-			"gfx/fonts/hoi_20bs_cryllic"
-		}
-		languages = { "l_russian" "l_polish" } 
-	}
-
-	bitmapfont_override = {
-		name = "loadscreen_header"
-		fontfiles = {
-			"gfx/fonts/japanese/hoi_30header"
-		}
-		languages = { "l_japanese" }
-	}
-
-	bitmapfont_override = {
-		name = "loadscreen_header"
-		fontfiles = {
-			"gfx/fonts/Zhitong/Zhitong36_0"	
-		}
-		languages = { "l_simp_chinese" }
 	}
 
 	bitmapfont = {
