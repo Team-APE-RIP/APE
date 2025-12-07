@@ -2,16 +2,16 @@ state = {
 	id = 2998
 	name = "STATE_2998"
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = MAN
+		# add_core_of = SHT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
 	}
 	provinces = {
-        790 6901 9813 9840
+		6951 19804 846 8771
 	}
-	manpower = 87721
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

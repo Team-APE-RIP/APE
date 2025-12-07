@@ -1,26 +1,30 @@
 state = {
 	id = 1181
 	name = "STATE_1181"
+	manpower = 5340
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		victory_points = {
-			10071 6
-		}
+		owner = ZZZ
+		#add_core_of = JAP
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			radar_station = 1
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			13056 = {
+				naval_base = 1
+			}
+			13054 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = universal_renamings
+		victory_points = {
+			13056 1
+		}
 	}
 
 	provinces = {
-		10071 13983
+		13054 13055 13056 13057
 	}
-	manpower = 424280
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
 }

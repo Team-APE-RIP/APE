@@ -1,65 +1,21 @@
 state = {
 	id = 408
 	name = "STATE_408"
-	resources = {
-		chromium = 16.000
-		tungsten = 10.000
-	}
-
 	history = {
-		owner = MAN
-		# add_claim_by = MAN
-		# add_core_of = SOR
+		owner = HHZ
+		add_core_of = HHZ
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			offices = 1
-			barracks = 1
-			prisons = 1
-			dockyard = 1
-			air_base = 5
+			infrastructure = 3
 		}
 		victory_points = {
-			664 2
+			20008 21
 		}
-		victory_points = {
-			6961 7
-		}
-		victory_points = {
-			9926 5
-		}
-		victory_points = {
-			3977 10
-		}
-		victory_points = {
-			11750 3
-		}
-		victory_points = {
-			3787 4
-		}
-		victory_points = {
-			6684 3
-		}
-		victory_points = {
-			11745 2
-		}
-		victory_points = {
-			11904 1
-		}
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_category_town
-		# set_variable = { china_state_ref = 51 }
-		# set_variable = { china_region_ref = 6 }
-		# set_state_flag = universal_renamings
-		set_resistance = 0
-		set_compliance = 100
 	}
-
 	provinces = {
-		783 6811 3815 3843 810 3977 19911 6989 3787 6838 9926 6961 9895 11750
+        20008
 	}
-	manpower = 857571
-	buildings_max_level_factor = 1.250
-	state_category = rural
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 	local_supplies = 0.000
 }

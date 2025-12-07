@@ -1,29 +1,30 @@
 state = {
 	id = 12
 	name = "STATE_12"
+	resources = {
+		rubber = 4.000
+	}
 
 	history = {
-		owner = ZZZ # OST
+		owner = ZZZ # AZH
 		victory_points = {
-			10493 3
+			16127 7
 		}
 		victory_points = {
-			3388 1
+			18858 1
 		}
 		buildings = {
-			infrastructure = 5
-			schools = 1
+			infrastructure = 2
 		}
-		# add_core_of = OST
-		# set_state_flag = GDP_regions_latvia
-		# set_state_flag = universal_renamings
+		# add_core_of = AZH
+		# add_claim_by = IND
 	}
 
 	provinces = {
-		3298 3388 9317 9501 10493 11302 14598
+		1553 16127 16128 18858 18862
 	}
-	manpower = 245210
+	manpower = 780794
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

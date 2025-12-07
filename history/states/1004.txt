@@ -1,30 +1,25 @@
 state = {
 	id = 1004
 	name = "STATE_1004"
-	history = {
-		owner = IPD
-		add_core_of = IPD
-		victory_points = { 6880 3 }
-		victory_points = { 3790 2 }
-		buildings = {
-			barracks = 1
-			infrastructure = 4
-			3790 = {
-				naval_base = 2
-			}
-			6880 = {
-				naval_base = 2
-			}
-		}
 
-		# add_core_of = IBR
-		# set_state_flag = GDP_regions_portugal
-		# set_state_flag = GDP_category_large_town
+	history = {
+		owner = ZZZ # NRL
+		victory_points = {
+			4859 5
+		}
+		victory_points = {
+			1757 1
+		}
+		# add_core_of = NRL
+
+
 	}
+
 	provinces = {
-		3790 6880
+		96 1729 1757 2923 2972 3336 3415 4692 4733 4761 4859 7809 8886 10536 10564 10607 10635 11261 11328 12517 12545 12643 12687 13064 16869 16870 16871
 	}
-	manpower = 307723
+	manpower = 36350
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
+	local_supplies = 0.000
 }

@@ -1,30 +1,21 @@
 state = {
 	id = 1
 	name = "STATE_1"
-
 	history = {
-		owner = FRA
-        add_core_of = FRA
-		victory_points = { 11804 3 }
-		victory_points = { 11891 3 }
+		owner = MEN
+		# add_core_of = ZZZ
 		buildings = {
-			prisons = 2
-			thermoelectric_plant = 1
-			infrastructure = 3
-			air_base = 1
-			3838 = {
-				naval_base = 3
-			}
+			infrastructure = 1
 		}
-		# add_claim_by = FRS
-		# add_claim_by = FFR
-		# add_core_of = ITA
+        victory_points = {
+            19563 1
+        }
 	}
-
 	provinces = {
-		3838 9851 11804 11891
+		19415 19541 19563 19595
 	}
-	manpower = 278830
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
-	state_category = small_island
+	state_category = pastoral
+	local_supplies = 0.000
 }

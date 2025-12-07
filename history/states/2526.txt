@@ -1,31 +1,45 @@
 state = {
 	id = 2526
 	name = "STATE_2526"
+	resources = {
+		oil = 33.000
+	}
 
 	history = {
-		owner = MLB
-		add_core_of = MLB
+		owner = ZZZ # MEX
 		buildings = {
-			infrastructure = 2
-			hospitals = 1
 			schools = 1
-			offices = 2
-			barracks = 1
+			hospitals = 2
+			offices = 1
 			prisons = 1
-			thermoelectric_plant = 2
-			20010 = {
-				naval_base = 6
-			}
+			infrastructure = 3
+			thermoelectric_plant = 1
+			radar_station = 1
+			air_base = 3
+		}
+
+		# add_core_of = MEX
+		victory_points = {
+			5021 10
 		}
 		victory_points = {
-			20010 15
+			5015 7
+		}
+		victory_points = {
+			2083 5
+		}
+		victory_points = {
+			14527 10
+		}
+		victory_points = {
+			17007 10
 		}
 	}
 
 	provinces = {
-		9388 3340 20010
+		2083 5015 5021 13088 14527 17007 17062 17321
 	}
-	manpower = 2829181
+	manpower = 1214075
 	buildings_max_level_factor = 1.000
 	state_category = city
 	local_supplies = 0.000

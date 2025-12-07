@@ -1,23 +1,18 @@
 state = {
 	id = 1996
 	name = "STATE_1996"
-
 	history = {
-		owner = ZZZ # ENG
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
 			infrastructure = 3
-			hydroelectric_plant = 1
 		}
-		victory_points = { 284 1 }
-		# add_core_of = ENG
-		# set_state_flag = has_offshore_island
-		# set_state_flag = GDP_regions_scotland
 	}
-
 	provinces = {
-		11266 11161 284 3373
+        899 915 11838
 	}
-	manpower = 86260
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

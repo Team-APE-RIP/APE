@@ -1,24 +1,32 @@
 state = {
 	id = 1318
 	name = "STATE_1318"
+	resources = {
+		oil = 2
+		uranium = 2
+	}
 
 	history = {
+		owner = CHI # SHX
+		# add_core_of = SHX
 		victory_points = {
-			12754 10
+			4986 5
 		}
-		owner = ZZZ # IND
+		victory_points = {
+			7659 2
+		}
 		buildings = {
-			infrastructure = 3
-			hydroelectric_plant = 1
+			infrastructure = 2
 		}
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_jammu_kashmir
+
+		# set_variable = { china_state_ref = 38 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		10905 12754 16013 16014 18851 18881 19010 19012
+		16833 4986 16846 7659 3427 6447 19586
 	}
-	manpower = 1360376
+	manpower = 1420638
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

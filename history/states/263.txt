@@ -1,29 +1,23 @@
 state = {
 	id = 263
 	name = "STATE_263"
+	manpower = 225073
+
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # MCW
-		victory_points = {
-			324 5
-		}
-		victory_points = {
-			11309 3
-		}
+		owner = ZZZ # URG
 		buildings = {
 			infrastructure = 2
-			air_base = 2
+			barracks = 1
 		}
-		# add_core_of = MCW
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_town
+		# add_core_of = URG
+		victory_points = { 1626 4 }
+		victory_points = { 1641 3 }
+		victory_points = { 1613 2 }
 	}
 
 	provinces = {
-		324 376 3371 6343 6391 9276 9344 9407 11262 18323 11309
+		1613 1626 1641
 	}
-	manpower = 683088
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -2,26 +2,40 @@ state = {
 	id = 457
 	name = "STATE_457"
 	resources = {
-		uranium = 2.000
+		oil = 16
+		aluminium = 18
+		uranium = 2
 	}
 
 	history = {
-		owner = ZZZ # EGY
+		owner = SHD
+		add_core_of = SHD
 		buildings = {
-			infrastructure = 1
-			12002 = {
-				naval_base = 3
-			}
+			offices = 1
+			thermoelectric_plant = 1
+			infrastructure = 4
 		}
-		# add_core_of = EGY
-		# set_state_flag = state_renamings
+		victory_points = {
+			1069 31
+		}
+		victory_points = {
+			4037 5
+		}
+		victory_points = {
+			12045 5
+		}
+		add_extra_state_shared_building_slots = 2
+
+		# set_variable = { china_state_ref = 12 }
+		# set_variable = { china_region_ref = 1 }
+
 	}
 
 	provinces = {
-		1080 1151 4143 7030 7188 9957 10028 10126 12002 12004 15779 15780 15781 15801
+		1069 4037 10072 12045 19852
 	}
-	manpower = 58832
+	manpower = 6277937
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = large_town
 	local_supplies = 0.000
 }

@@ -1,18 +1,32 @@
 state = {
 	id = 2994
 	name = "STATE_2994"
+	manpower = 5126046
+
+	state_category = metropolis
+
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			air_base = 2
+			10125 = {
+				naval_base = 6
+			}
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			schools = 2
+			offices = 2
+			hospitals = 1
+			prisons = 2
+			barracks = 1
 		}
+		victory_points = { 10125 30 }
+		victory_points = { 15878 10 }
 	}
+
 	provinces = {
-        3899
+		10125 15878
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

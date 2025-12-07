@@ -1,25 +1,28 @@
-state = {
+state = { #Population Done
 	id = 1165
 	name = "STATE_1165"
-
+	manpower = 500656
+	state_category = town
 	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		# set_state_flag = universal_renamings
-		victory_points = {
-			13932 2
-		}
+		victory_points = { 1088 10 }
+		victory_points = { 14685 4 }
+		owner = ZZZ # TUR
 		buildings = {
+			infrastructure = 3
 			barracks = 1
-			infrastructure = 1
+			offices = 1
+			1088 = {
+				naval_base = 2
+			}
 		}
+
+		# add_core_of = TUR
+		# add_claim_by = SYR
+
+
 	}
 
 	provinces = {
-		5786 3109 13916 13925 13932
+		1088 7140 14685
 	}
-	manpower = 197108
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
 }

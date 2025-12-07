@@ -1,18 +1,24 @@
 state = {
 	id = 2752
 	name = "STATE_2752"
-	history = {
-		owner = HBG
-		add_core_of = HBG
-		buildings = {
-			infrastructure = 3
-		}
-	}
 	provinces = {
-        9294 11276
+		6812 6836 
 	}
-	manpower = 87721
+	history = {
+		owner = EPA
+		add_core_of = EPA
+		victory_points = { 6812 4 }
+		victory_points = { 6836 4 }
+		# add_core_of = IBR
+
+		buildings = {
+			barracks = 1
+			hydroelectric_plant = 1
+			infrastructure = 4
+		}
+
+	}
+	manpower = 365468
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

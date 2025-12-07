@@ -3,26 +3,20 @@ state = {
 	name = "STATE_2400"
 
 	history = {
+		owner = ZZZ # NEP
+		victory_points = {
+			4386 1
+		}
 		buildings = {
 			infrastructure = 2
 		}
-		owner = MEN
-		
-		victory_points = {
-			19393 5
-		}
-		victory_points = {
-			12544 5
-		}
-		# set_state_flag = GDP_regions_outer_mongolia
-		# set_variable = { china_state_ref = 57 }
-		# set_variable = { china_region_ref = 7 }
+		# add_core_of = NEP
 	}
 
 	provinces = {
-		12614 19393 19431 10695 4777 19430 19404 19416 19395 12544 7799
+		4386 10910 18837 18864
 	}
-	manpower = 205624
+	manpower = 2020031
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

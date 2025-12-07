@@ -2,33 +2,31 @@ state = {
 	id = 2103
 	name = "STATE_2103"
 	resources = {
-		steel = 6.000
+		chromium = 5.000
 	}
 
 	history = {
-		owner = ZZZ # CHL
-		buildings = {
-			barracks = 1
-			schools = 1
-			offices = 1
-			infrastructure = 4
-			17553 = {
-				naval_base = 2
-			}
-			dockyard = 1
-		}
-		# add_core_of = CHL
+		owner = ZZZ # PAK
 		victory_points = {
-			17553 2
+			12763 10
 		}
-		# set_state_flag = GDP_regions_valparaiso
+		victory_points = {
+			18884 4
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = PAK
+		# add_claim_by = AZH
+		# add_claim_by = IND
+		# add_claim_by = AFG
 	}
 
 	provinces = {
-		17553 15510
+		12763 16004 18884
 	}
-	manpower = 80740
+	manpower = 1490899
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

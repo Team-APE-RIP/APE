@@ -1,38 +1,40 @@
 state = {
 	id = 2362
 	name = "STATE_2362"
-
 	resources = {
-		aluminium = 4
+		oil = 22.000
 	}
 
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		victory_points = { # Calgary
+			14614 15
+		}
+		victory_points = { # Lethbridge
+			1262 4
+		}
+		victory_points = { # Medicine Hat
+			7718 3
+		}
+		victory_points = { # Airdrie
+			3706 1
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			thermoelectric_plant = 3
+			offices = 1
+			radar_station = 1
+			schools = 1
 		}
-		victory_points = {
-			1004 13
-		}
-		victory_points = {
-			6932 3
-		}
-		victory_points = {
-			11931 2
-		}
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_regions_henan_sanyang
-		# set_variable = { china_state_ref = 30 }
-		# set_variable = { china_region_ref = 3 }
-		# set_state_flag = GDP_category_rural
+
 	}
 
 	provinces = {
-		1004 11931 6932 19702 1603 12713 5092 
+		1262 3706 7718 10684 14614 17274
 	}
-	manpower = 4918873
+	manpower = 541884
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

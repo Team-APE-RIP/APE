@@ -1,31 +1,33 @@
 state = {
 	id = 512
 	name = "STATE_512"
-	resources = {
-		oil = 6.000
-	}
 
 	history = {
-		owner = ZZZ # ARG
-		buildings = {
-			offices = 1
-			infrastructure = 2
-			air_base = 1
-		}
-		# add_core_of = ARG
-		# set_state_flag = GDP_category_city
-		# set_state_flag = GDP_regions_santa_cruz
+		owner = ZZZ # NOR
+		# add_core_of = NOR
 		victory_points = {
-			15010 1
+			6115 20
 		}
-		victory_points = { 15015 1 }
+		buildings = {
+			schools = 2
+			prisons = 1
+			barracks = 1
+			hospitals = 1
+			infrastructure = 6
+			thermoelectric_plant = 1
+			offices = 2
+			dockyard = 2
+			6115 = {
+				coastal_bunker = 2
+			}
+		}
 	}
 
 	provinces = {
-		15002 15008 15010 15012 15014 15015 15017 17534 17540 17541
+		6115
 	}
-	manpower = 23320
+	manpower = 475663
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

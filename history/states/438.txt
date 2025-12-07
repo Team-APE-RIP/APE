@@ -1,38 +1,26 @@
 state = {
 	id = 438
 	name = "STATE_438"
-	resources = {
-		rubber = 2.000
-		chromium = 6.000
-	}
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			4315 15
-		}
-		victory_points = {
-			7244 15
-		}
-		victory_points = {
-			12146 5
-		}
-		victory_points = {
-			1412 4
-		}
+		owner = ZZZ # AFG
 		buildings = {
 			infrastructure = 2
 		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_karnataka
+		# add_core_of = AFG
+		# add_core_of = TAJ
+		# add_claim_by = XIN
+		victory_points = {
+			15970 1
+		}
+		# set_variable = { china_state_ref = 43 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		1412 4315 4344 7244 12146 18874
+		4923 8027 10417 12805 14751 15970 18656
 	}
-	manpower = 4955277
+	manpower = 73037
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

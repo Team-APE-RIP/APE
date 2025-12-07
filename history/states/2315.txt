@@ -3,28 +3,22 @@ state = {
 	name = "STATE_2315"
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			barracks = 1
-			radar_station = 3
-			12234 = {
-				naval_base = 1
-			}
+			infrastructure = 4
 		}
-		victory_points = {
-			12234 1
-		}
-		# set_state_flag = GDP_regions_nusa_tenggara
+		victory_points = { 9454 1 }
+
+
 	}
 
 	provinces = {
-		12234 12219
+		9454 19178
 	}
-	manpower = 287986
+	manpower = 321229
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -3,38 +3,21 @@ state = {
 	name = "STATE_1925"
 
 	history = {
-		owner = ZZZ # AZH
-		victory_points = {
-			4516 20
-		}
-		victory_points = {
-			18905 7
-		}
-		add_extra_state_shared_building_slots = 1
+		owner = ZZZ # TNS
+		# add_core_of = TNS
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 2
-			barracks = 2
-			schools = 1
-			prisons = 1
-			offices = 1
-			hospitals = 1
-			anti_air_building = 2
-			air_base = 5
-			4516 = {
-				bunker = 3
-			}
+			infrastructure = 3
+			barracks = 1
+			air_base = 3
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_bihar
+		victory_points = { 6429 2 }
+
 	}
 
 	provinces = {
-		4516 18905
+		476 6429 9423 9435
 	}
-	manpower = 3806500
+	manpower = 705326
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = pastoral
 }

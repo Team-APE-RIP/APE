@@ -1,27 +1,51 @@
 state = {
 	id = 337
 	name = "STATE_337"
-	manpower = 34800
-
-	state_category = small_island
+	resources = {
+		oil = 30
+		aluminium = 25.000
+	}
 
 	history = {
-		owner = ZZZ # FAR
+		owner = ZZZ # USA
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			radar_station = 4
-			air_base = 3
-			13003 = {
-				naval_base = 2
-				coastal_bunker = 2
-				bunker = 1
-			}
+			infrastructure = 4
+			air_base = 2
+			thermoelectric_plant = 1
+			hydroelectric_plant = 1
+			nuclear_reactor = 1
 		}
-		# add_core_of = FAR
-		victory_points = {
-			13003 5
+		# add_core_of = USA
+		victory_points = { # Oklahoma City
+			10798 15
+		}
+		victory_points = { # Tulsa
+			1806 10
+		}
+		victory_points = { # Lawton
+			4919 3
+		}
+		victory_points = { # McAlester
+			6803 1
+		}
+		victory_points = { # Woodward
+			7762 1
+		}
+		victory_points = { # Muskogee
+			1618 1
+		}
+		victory_points = { # Stillwater
+			7904 1
+		}
+		victory_points = { # Norman
+			5103 1
 		}
 	}
-	provinces = { 13003 }
+
+	provinces = {
+		4919 7762 7904 10702 10798 11802 12624 1618 1806 2043 5103 6803 7945 8025 9822 11743
+	}
+	manpower = 2272649
+	buildings_max_level_factor = 1.000
+	state_category = city
 }

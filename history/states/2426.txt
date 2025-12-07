@@ -1,41 +1,21 @@
 state = {
 	id = 2426
-	name = "STATE_2426"
-	resources = {
-		oil = 6.000
-		uranium = 6.000
+	name = "STATE_2426" #South Shetland Islands
+	provinces = {
+		17639 17561 17566
 	}
+	manpower = 1
+
+	state_category = wasteland
 
 	history = {
-		owner = MEN
-		# add_core_of = GAN
-		victory_points = {
-			13250 10
-		}
-		victory_points = {
-			16476 2
-		}
-		victory_points = {
-			4243 1
-		}
+		owner = ZZZ # AAA
+		# add_core_of = AAA
+		# add_core_of = AAC
+		# add_claim_by = ENG
+		victory_points = { 17639 1 }
 		buildings = {
-			infrastructure = 3
-			prisons = 1
-			barracks = 1
-			offices = 1
+			infrastructure = 0
 		}
-		add_extra_state_shared_building_slots = 1
-		# set_variable = { china_state_ref = 40 }
-		# set_variable = { china_region_ref = 5 }
-		# set_state_flag = GDP_category_rural
 	}
-
-
-	provinces = {
-		4243 10724 13250 16476
-	}
-	manpower = 1040774
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

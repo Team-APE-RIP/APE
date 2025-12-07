@@ -1,24 +1,25 @@
 state = {
 	id = 1752
 	name = "STATE_1752"
-
+	manpower = 78
+	state_category = tiny_island
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
-		buildings = {
-			infrastructure = 3
-			schools = 1
-		}
-		victory_points = {
-			17859 1
-		}
-	}
+		owner = ZZZ
+		#add_core_of = JAP
 
-	provinces = {
-		5155 17856 17859
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			19951 = {
+				naval_base = 1
+			}
+		}
+		# set_variable = { china_state_ref = 36 }
+		# set_variable = { china_region_ref = 4 }
 	}
-	manpower = 314235
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	provinces = {
+		19951
+	}
 }

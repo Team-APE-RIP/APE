@@ -3,23 +3,35 @@ state = {
 	name = "STATE_1997"
 
 	history = {
-		owner = ZZZ # ENG
+		owner = NAL
+		add_core_of = NAL
+		# add_core_of = GNG
 		victory_points = {
-			16360 4
+			1120 15
 		}
+		victory_points = {
+			1162 5
+		}
+		victory_points = {
+			1202 3
+		}
+		# set_variable = { china_state_ref = 35 }
+		# set_variable = { china_region_ref = 4 }
+
 		buildings = {
-			infrastructure = 5
+			prisons = 1
+			barracks = 1
+			thermoelectric_plant = 2
 			hydroelectric_plant = 2
+			infrastructure = 3
 		}
-		# add_core_of = ENG
-		# set_state_flag = GDP_regions_scotland
-		# set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
-		159 16354 16355 16360 11306
+		1078 1120 1162 1202 7907 12095
 	}
-	manpower = 245620
+	manpower = 4054798
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
+	local_supplies = 0.000
 }

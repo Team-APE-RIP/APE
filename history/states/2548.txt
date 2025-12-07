@@ -1,36 +1,38 @@
 state = {
 	id = 2548
 	name = "STATE_2548"
+	resources = {
+		steel = 6
+	}
 
 	history = {
-		owner = SIC
-		add_core_of = SIC
-		buildings = {
-			infrastructure = 3
+		owner = CHI # SHX
+		# add_core_of = SHX
+		victory_points = {
+			19581 2
 		}
-        victory_points = {
-            7948 5
-        }
-        victory_points = {
-            11865 5
-        }
-        victory_points = {
-            19535 5
-        }
-        victory_points = {
-            19649 5
-        }
-        victory_points = {
-            19496 5
-        }
+		victory_points = {
+			4469 3
+		}
+		victory_points = {
+			1438 1
+		}
+		victory_points = {
+			13230 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+		# set_variable = { china_state_ref = 14 }
+		# set_variable = { china_region_ref = 1 }
 	}
 
 	provinces = {
-		10144 7948 19649 11865 19535 19496
+		19581 4469 1438 1027 13230 16577 
 	}
-	manpower = 938101
+	manpower = 1476129
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000
-	#impassable = yes
 }

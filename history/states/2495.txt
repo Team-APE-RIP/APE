@@ -1,28 +1,37 @@
 state = {
 	id = 2495
 	name = "STATE_2495"
-	manpower = 12908
-	state_category = small_island
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = MAN
+		# add_claim_by = MAN
+		# add_core_of = SOR
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			barracks = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+			schools = 1
 			offices = 1
-			radar_station = 4
-			7290 = {
-				naval_base = 2
-			}
+			hospitals = 1
 		}
 		victory_points = {
-			7290 1
+			19466 5
 		}
-		# set_state_flag = GDP_category_rural
+		victory_points = {
+			7763 10
+		}
+		set_resistance = 0
+		set_compliance = 100
+		# set_variable = { china_state_ref = 52 }
+		# set_variable = { china_region_ref = 6 }
+
+
 	}
+
 	provinces = {
-		7290
+		7763 12657 19466 19483
 	}
+	manpower = 186397
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

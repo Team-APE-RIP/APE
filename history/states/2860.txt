@@ -1,17 +1,33 @@
 state = {
 	id = 2860
 	name = "STATE_2860"
+
+	resources = {
+		oil = 5
+	}
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
-		buildings = {
-			infrastructure = 3
+		owner = ZZZ # EGY
+		victory_points = {
+			11979 1
 		}
+		buildings = {
+			infrastructure = 2
+			11979 = {
+				naval_base = 2
+			}
+			10099 = {
+				naval_base = 2
+			}
+		}
+		# add_core_of = EGY
+
 	}
+
 	provinces = {
-        17985
+		1112 4161 9947 10002 10099 11922 11979 12073 15767 17980 18587
 	}
-	manpower = 87721
+	manpower = 154968
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

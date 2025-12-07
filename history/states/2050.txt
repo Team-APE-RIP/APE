@@ -1,20 +1,18 @@
 state = {
 	id = 2050
-	name = "STATE_2050" # Marie Byrd Land
-	manpower = 1
-
-	state_category = wasteland
-
-	impassable = yes
-
+	name = "STATE_2050"
 	history = {
-		owner = ZZZ # AAN
+		owner = NLO
+		add_core_of = NLO
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 		}
 	}
-
 	provinces = {
-		17631 17747 17597 17716 17641 17559 17708 17616 17761 17762
+	    12417
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

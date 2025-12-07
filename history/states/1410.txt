@@ -1,39 +1,49 @@
 state = {
 	id = 1410
 	name = "STATE_1410"
+	resources = {
+		aluminium = 36.000
+	}
 
 	history = {
-		owner = ZZZ # MEX
-		# add_core_of = MEX
+		owner = ZZZ # IND
+		victory_points = {
+			10801 20
+		}
+		victory_points = {
+			18825 5
+		}
+		victory_points = {
+			12799 6
+		}
+		victory_points = {
+			18829 2
+		}
+		victory_points = {
+			4883 2
+		}
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			thermoelectric_plant = 1
-			hospitals = 1
-			offices = 1
-			barracks = 1
 			infrastructure = 3
+			thermoelectric_plant = 2
+			offices = 1
+			prisons = 1
+			barracks = 1
+			radar_station = 1
+			10801 = {
+				bunker = 1
+			}
 		}
-		victory_points = {
-			4956 10
-		}
-		victory_points = {
-			14518 2
-		}
-		victory_points = {
-			17107 1
-		}
-		victory_points = {
-			2709 1
-		}
-		victory_points = {
-			17145 1
-		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		1952 2709 4956 14518 14521 17107 17145 17324
+		4883 10801 12799 12854 16077 18829 18942 18825
 	}
-	manpower = 1242662
+	manpower = 4486712
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

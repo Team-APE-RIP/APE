@@ -1,35 +1,23 @@
 state = {
 	id = 662
 	name = "STATE_662"
-	manpower = 603886
-
-	state_category = town
+	resources = {
+		rubber = 2
+	}
 
 	history = {
-		owner = ZZZ # GRE
+		owner = ZZZ # BUR
+		# add_core_of = BUR
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
-			7211 = {
-				naval_base = 2
-			}
-			1173 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		victory_points = {
-			7211 10
-		}
-		victory_points = {
-			1173 3
-		}
-		victory_points = {
-			16185 1
-		}
-		# add_core_of = GRE
 	}
 
 	provinces = {
-		4193 7211 16185 1173
+		1607 19081 7603 2061 19049
 	}
+	manpower = 251192
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
 }

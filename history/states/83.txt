@@ -1,28 +1,39 @@
-state = { # Weird space in name is to prevent conflict with vanilla state file being uncapitalized for some reason
+state = {
 	id = 83
 	name = "STATE_83"
+	resources = {
+		tungsten = 16.000
+		power = 1.000
+	}
 
 	history = {
-		owner = ZZZ # ROM
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 4
-			barracks = 1
-			thermoelectric_plant = 1
-			air_base = 2
-			schools = 1
+			infrastructure = 2
 		}
 		victory_points = {
-			18213 10
+			1110 1
 		}
-		# add_core_of = ROM
-		# set_state_flag = GDP_category_rural
+		victory_points = {
+			9984 5
+		}
+		victory_points = {
+			19577 1
+		}
+		victory_points = {
+			3992 24
+		}
+
+		# set_variable = { china_state_ref = 25 }
+		# set_variable = { china_region_ref = 3 }
 	}
 
 	provinces = {
-		696 6682 6697 9640 18199 18213
+		3992 9984 4038
 	}
-	manpower = 766244
+	manpower = 1749470
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

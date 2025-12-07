@@ -1,27 +1,28 @@
-state = {
+state = { #Population Done
 	id = 2558
 	name = "STATE_2558"
+	manpower = 971484
+
+	state_category = small_island
+
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = ZZZ # IBR
+		victory_points = { 13071 10 }
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			infrastructure = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			radar_station = 2
+			air_base = 2
+			infrastructure = 2
+			13071 = {
+				naval_base = 1
+			}
 		}
-        victory_points = {
-            1089 5
-        }
-        victory_points = {
-            4001 12
-        }
-        victory_points = {
-            7181 5
-        }
+		# add_core_of = IBR
 	}
+
 	provinces = {
-		 4001 7181 1089
+		13071
 	}
-	manpower = 1026811
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

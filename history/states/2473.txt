@@ -3,24 +3,24 @@ state = {
 	name = "STATE_2473"
 
 	history = {
-		owner = WZS
-		add_core_of = WZS
-		victory_points = {
-			994 2
-		}
+		owner = ZZZ # SLG
+		# add_claim_by = FRS
+		# add_core_of = ALG
+		# add_core_of = SLG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			barracks = 1
 		}
-		# set_variable = { china_state_ref = 36 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_hainan
+		victory_points = { 12760 7 }
+		victory_points = { 10045 1 }
+		# add_core_of = ALG
+
 	}
 
 	provinces = {
-		7257 994
+		4018 18047 18031 10045 12020 12760
 	}
-	manpower = 612350
+	manpower = 305246
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

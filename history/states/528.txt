@@ -1,31 +1,41 @@
 state = {
 	id = 528
-	name = "STATE_528" # Kyushu
-	manpower = 1860210
-	state_category = town
-	resources = {
-		#tungsten = 10
-	}
+	name = "STATE_528"
 
 	history = {
-		owner = JAP
-		add_core_of = JAP
-		# set_state_flag = has_offshore_island
-		buildings = {
-			infrastructure = 4
-			hydroelectric_plant = 3
-			air_base = 2
-			4102 = {
-				naval_base = 3
-			}
-			radar_station = 1
-			schools = 1
+		owner = ZZZ # IND
+		add_extra_state_shared_building_slots = 3
+		victory_points = {
+			9975 30
 		}
-		victory_points = { 4102 10 }
-		
+		victory_points = {
+			11952 15
+		}
+		victory_points = {
+			18990 4
+		}
+		victory_points = {
+			7165 4
+		}
+		buildings = {
+			infrastructure = 3
+			hydroelectric_plant = 1
+			thermoelectric_plant = 1
+			barracks = 1
+			offices = 2
+			schools = 1
+			prisons = 1
+		}
+		# add_claim_by = AZH
+		# add_core_of = IND
+
 	}
 
 	provinces = {
-		4102 11949 12032 1183 
+		7165 9975 11952 12092 16068 16069 16070 18990
 	}
+	manpower = 7772041
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

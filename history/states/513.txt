@@ -1,26 +1,31 @@
 state = {
 	id = 513
 	name = "STATE_513"
-
-	history = {
-		owner = ZZZ # SLG
-		# add_claim_by = FRS
-		# add_core_of = ALG
-		# add_core_of = SLG
-		buildings = {
-			infrastructure = 3
-			barracks = 1
-		}
-		victory_points = { 12760 7 }
-		victory_points = { 10045 1 }
-		# add_core_of = ALG
-		# set_state_flag = state_renamings
-	}
-
 	provinces = {
-		4018 18047 18031 10045 12020 12760
+		3456 16016 16015
 	}
-	manpower = 305246
+	history = {
+		owner = ZZZ # IND
+		victory_points = { 3456 35 }
+		victory_points = { 16016 1 }
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 4
+			barracks = 2
+			prisons = 1
+			radar_station = 1
+			air_base = 1
+			3456 = {
+				naval_base = 4
+			}
+			offices = 1
+		}
+		# add_claim_by = AZH
+		# add_core_of = IND
+
+
+	}
+	manpower = 2543742
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_town
 }

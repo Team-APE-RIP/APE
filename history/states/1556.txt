@@ -1,29 +1,32 @@
 state = {
 	id = 1556
 	name = "STATE_1556"
-	resources = {
-		chromium = 4.000
-	}
 
 	history = {
-		owner = ZZZ # CAU
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # OST
+		victory_points = {
+			6342 5
 		}
 		victory_points = {
-			15133 2
+			14599 1
 		}
-		# add_core_of = CAU
-		# set_state_flag = GDP_regions_georgia
-		# set_state_flag = GDP_category_large_town
-		# set_state_flag = universal_renamings
+		victory_points = {
+			14591 1
+		}
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+		}
+		# add_core_of = OST
+
+
 	}
 
 	provinces = {
-		11609 15133 18340
+		265 1250 3255 6342 11358 14586 14591 14599 15686
 	}
-	manpower = 97628
+	manpower = 348161
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -3,24 +3,23 @@ state = {
 	name = "STATE_1664"
 
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = ZZZ # MEX
+		# add_core_of = MEX
 		victory_points = {
-			15318 10
+			4904 4
+		}
+		victory_points = {
+			16911 2
 		}
 		buildings = {
 			infrastructure = 2
-			barracks = 1
-			offices = 1
 		}
 	}
 
 	provinces = {
-		2938 15317 15318 17353
+		4904 14489 14490 14495 16911 17331
 	}
-	manpower = 614726
+	manpower = 199408
 	buildings_max_level_factor = 1.000
 	state_category = rural
 	local_supplies = 0.000

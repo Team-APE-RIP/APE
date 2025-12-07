@@ -1,22 +1,24 @@
 state = {
 	id = 2018
 	name = "STATE_2018"
-	provinces = {
-		17589 17590 17625 17782 17797 17607 16443 17737 17770 17745
-	}
-	manpower = 1
 
-	state_category = wasteland
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17797 1 }
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
 		buildings = {
-			infrastructure = 0
+			infrastructure = 5
+			anti_air_building = 1
 		}
+		victory_points = { 15753 5 }
+		victory_points = { 15752 4 }
+
 	}
 
+	provinces = {
+		15752 15753
+	}
+	manpower = 427905
+	buildings_max_level_factor = 1.000
 }

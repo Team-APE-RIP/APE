@@ -2,23 +2,19 @@ state = {
 	id = 1010
 	name = "STATE_1010"
 
-	resources = {
-		oil = 2
-	}
-
 	history = {
-		owner = ZZZ # TRZ
-		# add_core_of = TRZ
+		owner = ZZZ # HAU
+		# add_core_of = HAU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# set_state_flag = state_renamings
+
 	}
 
 	provinces = {
-		18046 7992 14263 18038 10814
+		7930 14196 14197 14430
 	}
-	manpower = 70942
+	manpower = 377000
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 }

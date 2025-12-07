@@ -1,30 +1,25 @@
-state = {
+state = { #Population Done
 	id = 442
 	name = "STATE_442"
+	resources = {
+		chromium = 5.000 #was 19
+	}
 
 	history = {
-		owner = ZZZ # PAK
+		owner = ZZZ # CRO
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			16003 3
-		}
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# add_claim_by = AFG
-	}
 
-	resources = {
-		chromium = 4
-		uranium = 4
+		# add_core_of = CRO
+
+
 	}
 
 	provinces = {
-		16003 4998
+		9586 3985
 	}
-	manpower = 257129
+	manpower = 72220
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 }

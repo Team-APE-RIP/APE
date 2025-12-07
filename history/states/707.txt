@@ -1,27 +1,46 @@
 state = {
 	id = 707
 	name = "STATE_707"
-	manpower = 404458
-
-	state_category = tiny_island
+	resources = {
+		steel = 6.000
+		tungsten = 10.000
+	}
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # MEX
 		buildings = {
+			barracks = 2
+			offices = 1
 			infrastructure = 2
-			barracks = 1
-			radar_station = 2
-			air_base = 1
-			18820 = {
-				naval_base = 1
-			}
+			thermoelectric_plant = 2
+			air_base = 2
 		}
-		# set_state_flag = state_renamings
-		victory_points = { 18820 1 }
+		# add_core_of = MEX
+		victory_points = {
+			12835 9
+		}
+		victory_points = {
+			7973 10
+		}
+		victory_points = {
+			2060 4
+		}
+		victory_points = {
+			12811 4
+		}
+		victory_points = {
+			16989 1
+		}
+		victory_points = {
+			17058 1
+		}
 	}
 
 	provinces = {
-		18820
+		2060 2104 7973 10746 10800 12811 12835 16989 17058
 	}
+	manpower = 1076037
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

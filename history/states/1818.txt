@@ -3,23 +3,22 @@ state = {
 	name = "STATE_1818"
 
 	history = {
-		owner = KOR
-		add_core_of = KOR
-		# add_core_of = KOR
-		# add_core_of = JAP
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
+			infrastructure = 1
 		}
-		victory_points = { 11977 10 }
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_korea
+		victory_points = {
+			4308 1
+		}
+
 	}
 
 	provinces = {
-		4126 11977 15857
+		4308 19258 10322 19301 19350
 	}
-	manpower = 2269640
+	manpower = 245351
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

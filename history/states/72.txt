@@ -2,30 +2,23 @@ state = {
 	id = 72
 	name = "STATE_72"
 	resources = {
-		aluminium = 5.000
+		oil = 2.000
+		uranium = 4.000
 	}
 
 	history = {
-		owner = BAD
-		add_core_of = BAD
-		victory_points = {
-			3530 25
-		}
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		buildings = {
-			schools = 1
-			infrastructure = 5
-			air_base = 3
-			missile_silo = 1
-			thermoelectric_plant = 2
+			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 1
 	}
 
 	provinces = {
-		3530
+		8109 14065 14081 14084 15209 15902
 	}
-	manpower = 3387298
+	manpower = 527000
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = rural
 	local_supplies = 0.000
 }

@@ -1,18 +1,26 @@
 state = {
 	id = 2962
 	name = "STATE_2962"
+
 	history = {
-		owner = ITE
-        add_core_of = ITE
+		owner = BHM
+        add_core_of = BHM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			hospitals = 1
+			schools = 1
+			offices = 2
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 2
 		}
 	}
+
 	provinces = {
-        9794
+		  9414  3462 494 11414
 	}
-	manpower = 87721
+	manpower = 671618
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

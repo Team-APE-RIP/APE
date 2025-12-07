@@ -2,26 +2,38 @@ state = {
 	id = 1687
 	name = "STATE_1687"
 	resources = {
-		uranium = 1
+		steel = 5.000
 	}
 
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # PRU
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			schools = 1
+			prisons = 1
 		}
-		# add_core_of = PRU
+		# add_core_of = ARG
 		victory_points = {
-			15479 2
+			14956 4
 		}
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			10985 3
+		}
+		victory_points = {
+			12942 2
+		}
+		victory_points = {
+			14968 1
+		}
+
+
 	}
 
 	provinces = {
-		15478 15479
+		10975 10985 12942 14956 14961 14968 14973 15011 17547
 	}
-	manpower = 152747
+	manpower = 1753840
 	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

@@ -3,34 +3,23 @@ state = {
 	name = "STATE_1577"
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # INS
+		# add_core_of = INS
+
 		buildings = {
-			infrastructure = 3
-		}
-		# add_core_of = ARG
-		victory_points = {
-			5184 6
+			infrastructure = 1
 		}
 		victory_points = {
-			14958 1
+			19265 1
 		}
-		victory_points = {
-			15062 1
-		}
-		victory_points = {
-			14957 1
-		}
-		victory_points = {
-			8208 1
-		}
-		# set_state_flag = GDP_regions_cordoba
+
 	}
 
 	provinces = {
-		5184 8208 12998 14957 14958 15062 15063 15069 15095
+		1505 4493 19265 4211
 	}
-	manpower = 461957
+	manpower = 138098
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

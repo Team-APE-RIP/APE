@@ -1,36 +1,32 @@
-state = {
+state = { #Population Done
 	id = 269
 	name = "STATE_269"
 
-	history = {
-		owner = ZZZ # IEA
-		buildings = {
-			infrastructure = 2
-			air_base = 1
-			10833 = {
-				naval_base = 2
-			}
-		}
-		victory_points = {
-			10833 3
-		}
-		victory_points = {
-			14086 5
-		}
-		victory_points = {
-			15546 3
-		}
-		victory_points = {
-			14062 3
-		}
-		# add_core_of = IEA
+	resources = {
+		steel = 8
+		uranium = 14
 	}
 
-	provinces = {
-		1905 5068 8094 10833 10921 12759 12814 14062 14086 14102 15544 15545 15546
+	manpower = 3331824
+	state_category = town
+
+	history = {
+		owner = ZZZ # GER
+		# add_core_of = GER
+
+		
+
+		buildings = {
+			offices = 2
+			hospitals = 1
+			barracks = 2
+			infrastructure = 5
+			air_base = 2
+			thermoelectric_plant = 1
+			enrichment_plant = 1
+			nuclear_reactor = 1
+		}
 	}
-	manpower = 121325
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+
+	provinces = { 6485 3583 3414}
 }

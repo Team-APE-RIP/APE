@@ -3,31 +3,22 @@ state = {
 	name = "STATE_163"
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = {
-			8435 1
-		}
+		owner = ZZZ # ENG
+		victory_points = { 16359 5 }
+		victory_points = { 6270 15 }
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			8435 = {
-				naval_base = 1
-			}
-			6550 = {
-				naval_base = 1
-			}
+			infrastructure = 5
+			offices = 1
+			thermoelectric_plant = 3
+			schools = 1
 		}
-		# add_core_of = TUR
-		# add_core_of = GRE
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_regions_west_thrace
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		4171 6550 8435 15579 16263
+		7239 16359 6270
 	}
-	manpower = 154308
+	manpower = 1406923
 	buildings_max_level_factor = 1.000
-	state_category = small_island
-	local_supplies = 0.000
+	state_category = town
 }

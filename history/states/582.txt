@@ -1,31 +1,20 @@
 state = {
 	id = 582
 	name = "STATE_582"
-	resources = {
-		steel = 18.000
-		tungsten = 16.000
-		oil = 7.000
-	}
 
 	history = {
-		owner = ZZZ # MGN
+		owner = ZZZ # MAD
+		# add_core_of = MAD
 		buildings = {
-			infrastructure = 2
-			thermoelectric_plant = 1
-			barracks = 1
-			prisons = 1
-			offices = 1
+			infrastructure = 1
 		}
-		victory_points = {
-			10256 15
-		}
-		# add_core_of = MGN
 	}
 
 	provinces = {
-		1334 4411 7328 7401 10256
+		8180 12956 13575 15929 15930 19187
 	}
-	manpower = 592000
+	manpower = 124814
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = wasteland
+	local_supplies = 0.000
 }

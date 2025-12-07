@@ -1,23 +1,35 @@
 state = {
 	id = 1678
 	name = "STATE_1678"
-	resources = {
-		oil = 1.000
-	}
 
 	history = {
-		owner = ZZZ # BOL
+		owner = ZZZ # CAN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 6
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			schools = 2
+			hospitals = 1
+			offices = 1
+			1408 = {
+				naval_base = 5
+			}
 		}
-		# add_core_of = BOL
+		# add_core_of = CAN
+		victory_points = { # Vancouver
+			1408 25
+		}
+		victory_points = { # Surrey
+			4428 7
+		}
+
 	}
 
 	provinces = {
-		5188 8225 15340 15358 17530
+		1408 4413 4428
 	}
-	manpower = 346500
+	manpower = 924683
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = city
 	local_supplies = 0.000
 }

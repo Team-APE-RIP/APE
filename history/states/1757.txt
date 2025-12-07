@@ -5,25 +5,21 @@ state = {
 	history = {
 		owner = ZZZ # INS
 		# add_core_of = INS
-		add_extra_state_shared_building_slots = 1
 		buildings = {
-			infrastructure = 4
-			barracks = 1
-			4273 = {
-				naval_base = 1
-			}
-			dockyard = 1
+			infrastructure = 2
 		}
 		victory_points = {
-			4273 5
+			4564 5
 		}
+
+
 	}
 
 	provinces = {
-		4273 19297 19326
+		19334 15723 19267 4564
 	}
-	manpower = 1782529
+	manpower = 254047
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

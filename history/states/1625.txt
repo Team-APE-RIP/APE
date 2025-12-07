@@ -1,28 +1,38 @@
 state = {
 	id = 1625
 	name = "STATE_1625"
+	resources = {
+		steel = 4
+		uranium = 6
+	}
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = {
-			13011 5
-		}
+		owner = ZZZ # SWE
 		buildings = {
-			infrastructure = 5
-			air_base = 10
+			infrastructure = 6
+			thermoelectric_plant = 1
+			prisons = 1
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		# set_demilitarized_zone = yes
-		# set_state_flag = universal_renamings
+		victory_points = {
+			18407 1
+		}
+		victory_points = {
+			18412 1
+		}
+		victory_points = {
+			3375 2
+		}
+		victory_points = {
+			18408 1
+		}
+		# add_core_of = SWE
 	}
 
 	provinces = {
-		551 3533 11732
+		18408 18407 3063 3375 18412 3286 18419 18421 13095
 	}
-	manpower = 696142
+	manpower = 249873
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

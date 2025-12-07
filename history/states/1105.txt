@@ -1,23 +1,31 @@
 state = {
 	id = 1105
 	name = "STATE_1105"
+	resources = {
+		tungsten = 7.000
+		oil = 2.000
+		steel = 2.000
+		uranium = 6.000
+	}
 
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
+		owner = ZZZ # BRY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
-			4954 5
+			13313 1
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			12644 1
+		}
+		# add_core_of = BRY
 	}
 
 	provinces = {
-		4954 14107 15559 17901 17905 17915
+		1761 4716 4835 5719 5724 7736 7854 8273 12506 12575 12644 13308 13313 14460 14461 16963
 	}
-	manpower = 2020005
+	manpower = 109283
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

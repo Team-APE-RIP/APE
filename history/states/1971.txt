@@ -1,20 +1,23 @@
 state = {
-	id = 1971 #Alex the Lion
+	id = 1971
 	name = "STATE_1971"
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # IME
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			barracks = 1
 		}
-		# set_state_flag = state_renamings
+		victory_points = { 15803 5 }
+		# add_core_of = IME
+
 	}
 
 	provinces = {
-		15958
+		14472 15803
 	}
-	manpower = 71253
+
+	manpower = 269388
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
 }

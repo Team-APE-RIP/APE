@@ -1,18 +1,27 @@
 state = {
 	id = 2758
-	name = "STATE_2758"
+	name = "STATE_2758" # Lwow
+
+	manpower = 1034096
+	state_category = rural
+
 	history = {
-		owner = MLB
-		add_core_of = MLB
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
+		## add_core_of = GAC
+
+		victory_points = { 3483 4 }
+		victory_points = { 3562 1 }
+
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			barracks = 1
 		}
+
 	}
+
 	provinces = {
-        15837 3258 15836
+		3483 438 3562 15668
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

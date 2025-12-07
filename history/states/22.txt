@@ -1,46 +1,18 @@
 state = {
 	id = 22
 	name = "STATE_22"
-	resources = {
-		steel = 136.000
-		aluminium = 96.000
-	}
-
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = {
-			9898 10
-		}
-		victory_points = {
-			15202 1
-		}
-		victory_points = {
-			15186 1
-		}
-		victory_points = {
-			15199 1
-		}
-		victory_points = {
-			15217 3
-		}
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 2
-			hydroelectric_plant = 2
-			air_base = 2
-			prisons = 1
-			hospitals = 1
+			infrastructure = 1
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
 	}
-
 	provinces = {
-		9898 15199 6960
+	    12173
 	}
-	manpower = 1043222
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

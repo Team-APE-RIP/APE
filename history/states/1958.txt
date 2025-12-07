@@ -3,25 +3,25 @@ state = {
 	name = "STATE_1958"
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			18893 1
-		}
-		victory_points = {
-			16053 2
-		}
+		owner = ZZZ # ANG
+		# add_core_of = ANG
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			infrastructure = 2
+			radar_station = 1
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
+		victory_points = {
+			13782 1
+		}
+		victory_points = {
+			17924 1
+		}
 	}
 
 	provinces = {
-		16053 18893
+		4735 12391 13736 13738 13760 13761 13762 13782 17924 17935
 	}
-	manpower = 5330953
+	manpower = 271844
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

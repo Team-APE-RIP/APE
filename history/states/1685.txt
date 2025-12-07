@@ -2,22 +2,36 @@ state = {
 	id = 1685
 	name = "STATE_1685"
 
+	resources = {
+		chromium = 30
+	}
 	history = {
-		owner = ZZZ # PRU
+		owner = ZZZ # CUB
 		buildings = {
 			infrastructure = 3
+			air_base = 1
+			barracks = 2
+			offices = 2
+			schools = 1
+			prisons = 1
+			thermoelectric_plant = 2
 		}
-		# add_core_of = PRU
-		victory_points = {
-			17452 2
+		# add_core_of = CUB
+		victory_points = { # Guantanamo
+			7590 5
 		}
-	}
+		victory_points = { # Santiago de Cuba
+			1550 10
+		}
+		victory_points = { # Holguin
+			12347 5
+		}
 
-	provinces = {
-		5190 15472 15475 17448 17452
 	}
-	manpower = 609330
+	provinces = {
+		1550 7590 12347
+	}
+	manpower = 2489721
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	state_category = town
 }

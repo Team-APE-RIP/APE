@@ -1,22 +1,18 @@
 state = {
 	id = 1966
 	name = "STATE_1966"
-	manpower = 261622
-
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # TNS
-		# add_core_of = TNS
+		owner = OTC
+        add_core_of = OTC
 		buildings = {
 			infrastructure = 3
-			schools = 1
 		}
-		victory_points = { 11703 1 }
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		11703 3738 16164
+        9527 6739 3718
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

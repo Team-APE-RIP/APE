@@ -3,52 +3,24 @@ state = {
 	name = "STATE_162"
 
 	history = {
-		owner = ITF
-        add_core_of = ITF
+		owner = ZZZ # MEX
+		# add_core_of = MEX
 		victory_points = {
-			9907 15
+			14505 6
 		}
 		victory_points = {
-			11833 10
-		}
-		victory_points = {
-			6946 8
-		}
-		victory_points = {
-			14650 5
-		}
-		victory_points = {
-			1616 10
-		}
-		victory_points = {
-			6875 5
-		}
-		victory_points = {
-			910 6
-		}
-		victory_points = {
-			9879 7
+			14506 2
 		}
 		buildings = {
-			infrastructure = 6
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			radar_station = 1
-			dockyard = 3
-			air_base = 2
-			schools = 1
-			11833 = {
-				naval_base = 4
-			}
+			infrastructure = 2
 		}
-		# add_core_of = ITA
 	}
 
 	provinces = {
-		9907
+		7913 14505 14506 14514 17323
 	}
-	manpower = 3286367
+	manpower = 1179006
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = town
 	local_supplies = 0.000
 }

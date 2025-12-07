@@ -1,28 +1,24 @@
 state = {
 	id = 507
-	name = "STATE_507" # Magallanes
-	manpower = 85026
-
-	state_category = pastoral
+	name = "STATE_507"
 
 	history = {
-		owner = ZZZ # CHL
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			barracks = 1
-			prisons = 1
-			infrastructure = 2
-			radar_station = 2
-			5215 = { naval_base = 3 }
-			14803 = { naval_base = 1 }
-			air_base = 2
+			infrastructure = 3
 		}
-		# add_core_of = CHL
-		victory_points = { 5215 5 }
-		victory_points = { 14802 1 }
-		# set_state_flag = GDP_regions_magallanes
+		victory_points = {
+			12345 1
+		}
+
 	}
 
 	provinces = {
-		5201 5215 14799 14800 14801 14802 14803
+		10411 10398 12345 19020
 	}
+	manpower = 1044709
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

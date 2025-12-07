@@ -1,29 +1,18 @@
 state = {
 	id = 1896
 	name = "STATE_1896"
-	provinces = {
-		12717
-	}
-	resources = {
-		chromium = 23
-	}
 	history = {
-		owner = ZZZ # PAK
-		victory_points = { 12717 15 }
+		owner = ZZZ # BUR
+		# add_core_of = BUR
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			offices = 1
-			barracks = 1
-			air_base = 3
+			infrastructure = 1
 		}
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# add_claim_by = AFG
-		# set_state_flag = state_renamings
 	}
-	manpower = 2519053
+	provinces = {
+	    12256 7441 13215 19088
+	}
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

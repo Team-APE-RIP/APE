@@ -1,27 +1,18 @@
 state = {
 	id = 1682
 	name = "STATE_1682"
-	resources = {
-	}
-
-	state_category = rural
-
 	history = {
-		owner = ZZZ # PRU
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			schools = 1
-			infrastructure = 3
-			air_base = 1
-		}
-		# add_core_of = PRU
-		victory_points = {
-			15468 2
+			infrastructure = 1
 		}
 	}
-
 	provinces = {
-		8199 15464 15468
+	    19802
 	}
-	manpower = 770165
+	manpower = 87721
 	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 0.000
 }

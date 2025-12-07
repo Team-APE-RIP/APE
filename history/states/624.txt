@@ -1,28 +1,35 @@
-state = { #Population Done
+state = {
 	id = 624
 	name = "STATE_624"
-	provinces = {
-		1372 4228 4377 7307 12279 14717 14727
-	}
-	state_category = pastoral
+
 	history = {
-		owner = ZZZ # UPH
-		# set_state_flag = has_offshore_island
-		buildings = {
-			infrastructure = 3
-			14717 = {
-				naval_base = 1
-			}
+		owner = MAN
+		victory_points = {
+			9759 14
 		}
-		victory_points = { 14717 5 }
-		victory_points = { 4228 5 }
-		victory_points = { 12279 5 }
-		# add_core_of = UPH
-		# add_core_of = PHI
-		# add_core_of = SPH
-		# set_state_flag = GDP_category_large_town
-		# set_state_flag = state_renamings
+		victory_points = {
+			9841 1
+		}
+		victory_points = {
+			11781 3
+		}
+		buildings = {
+			infrastructure = 6
+			barracks = 1
+			offices = 1
+			schools = 1
+			thermoelectric_plant = 1
+		}
+		# add_core_of = MAN
+		# set_variable = { china_state_ref = 48 }
+		# set_variable = { china_region_ref = 6 }
 	}
-	manpower = 2658496
+
+	provinces = {
+		14634 861 800 9841 11781 6905 9866 3888 9803 3949 9759
+	}
+	manpower = 1883419
 	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

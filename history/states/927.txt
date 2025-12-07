@@ -1,23 +1,30 @@
 state = {
 	id = 927
 	name = "STATE_927"
-	provinces = {
-		12884 7316 16008 8005 16007 7273 2041
-	}
+
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_claim_by = TIB
-		# add_core_of = IND
-		victory_points = { 8005 1 }
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_regions_jammu_kashmir
-		# set_variable = { china_state_ref = 22 }
+		victory_points = {
+			7256 3
+		}
+		victory_points = {
+			12274 5
+		}
+		# set_demilitarized_zone = yes
+
+		# set_variable = { china_state_ref = 17 }
 		# set_variable = { china_region_ref = 2 }
 	}
-	manpower = 69735
-	buildings_max_level_factor = 1.000
+
+	provinces = {
+		7256 2091 12274 19865 19814
+	}
+	manpower = 7978492
+	buildings_max_level_factor = 2.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

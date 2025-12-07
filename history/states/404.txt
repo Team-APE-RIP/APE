@@ -1,38 +1,39 @@
 state = {
 	id = 404
 	name = "STATE_404"
-
-	history = {
-		owner = ZZZ # KAZ
-		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 2
-			schools = 1
-			barracks = 1
-			prisons = 1
-			air_base = 3
-		}
-		victory_points = { 1312 3 }
-		victory_points = { 4232 7 }
-		victory_points = { 7425 4 }
-		victory_points = { 4333 20 }
-		victory_points = { 4389 1 }
-		victory_points = { 4250 1 }
-		victory_points = { 12177 1 }
-		victory_points = { 1402 5 }
-		# add_core_of = KAZ
-		# set_state_flag = GDP_category_large_town
-		# set_state_flag = state_renamings
+	resources = {
+		rubber = 2.000
+		chromium = 6.000
 	}
 
-	resources = {
-		steel = 10
+	history = {
+		owner = ZZZ # IND
+		victory_points = {
+			4315 15
+		}
+		victory_points = {
+			7244 15
+		}
+		victory_points = {
+			12146 5
+		}
+		victory_points = {
+			1412 4
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		1243 1312 1375 1382 1402 4232 4250 4277 4333 4389 4595 7335 7354 7392 7407 7425 10179 10220 10275 10277 12121 12152 12177 1239 10290 7405 10161 10292 1287 7350 7332
+		1412 4315 4344 7244 12146 18874
 	}
-	manpower = 1127610
+	manpower = 4955277
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
+	local_supplies = 0.000
 }

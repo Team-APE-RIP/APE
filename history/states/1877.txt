@@ -1,20 +1,24 @@
 state = {
 	id = 1877
 	name = "STATE_1877"
+	manpower = 1995561
+
+	state_category = town
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			hydroelectric_plant = 2
+			schools = 1
+			offices = 1
 		}
+		victory_points = { 15877 15 }
+		victory_points = { 10015 10 }
 	}
 
 	provinces = {
-		8180 12956 13575 15929 15930 19187
+		11908 15877 10100 10015 4069
 	}
-	manpower = 124814
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

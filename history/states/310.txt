@@ -1,35 +1,23 @@
 state = {
 	id = 310
 	name = "STATE_310"
-	resources = {
-		aluminium = 104.000
-	}
-
 	history = {
-		owner = ZZZ # GUC
-		# add_core_of = GUC
-		# add_claim_by = FRS
-		# add_claim_by = FFR
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_core_of = IND
 		buildings = {
-			schools = 1
-			radar_station = 4
-			air_base = 1
-			barracks = 1
-			infrastructure = 1
-			12885 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		victory_points = {
-			12885 1
-		}
+		victory_points = { 16028 5 }
+		victory_points = { 10139 2 }
+		victory_points = { 16029 1 }
+
 	}
 
 	provinces = {
-		4934 12885 17379
+		10139 7903 16028 1107 16029
 	}
-	manpower = 37287
+	manpower = 2440891
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

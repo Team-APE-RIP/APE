@@ -1,25 +1,25 @@
-state = { #Population Done
+state = {
 	id = 311
-	name = "STATE_311"
-	manpower = 54721
+	name = "STATE_311" # Cape Margerie
+	manpower = 1
 
-	state_category = town
+	state_category = wasteland
+
 	history = {
-		owner = ZZZ # BLZ
-		victory_points = { 2077 5 }
-		# add_core_of = BLZ
-		# add_claim_by = GUA
+		owner = ZZZ # AAO
+		# add_core_of = AAO
+		# add_core_of = AAU
+		# add_core_of = AAF
+		victory_points = { 17612 1 }
 		buildings = {
-			offices = 1
-			air_base = 1
-			infrastructure = 3
-			2077 = {
+			infrastructure = 1
+			17612 = {
 				naval_base = 1
 			}
 		}
-		# set_state_flag = GDP_category_large_town
 	}
+
 	provinces = {
-		2077 16165 16166
+		17612
 	}
 }

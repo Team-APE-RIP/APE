@@ -1,29 +1,31 @@
-state = {
+state = { #Population Done
 	id = 2227
 	name = "STATE_2227"
+	manpower = 364955
 
 	resources = {
-		tungsten = 8
+		aluminium = 4
 	}
 
+	state_category = tiny_island
+
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ZZZ # INS
+		# add_core_of = INS
+		victory_points = { 7384 1 }
+		victory_points = { 15703 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			barracks = 1
+			radar_station = 2
+			15703 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			1308 1
-		}
-		# add_core_of = THA
-		# set_state_flag = GDP_regions_south_thailand
+
 	}
 
 	provinces = {
-		12220 4388 1308 19019
+		7384 7396 15703
 	}
-	manpower = 462471
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

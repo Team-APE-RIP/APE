@@ -2,24 +2,25 @@ state = {
 	id = 1913
 	name = "STATE_1913"
 
-
 	history = {
-		owner = ZZZ # IND
-		victory_points = { 16019 15 }
-		victory_points = { 4382 3 }
-		buildings = {
-			infrastructure = 3
-			prisons = 1
+		owner = MEN
+		victory_points = {
+			19677 8
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_sindh
+		buildings = {
+			infrastructure = 2
+		}
+
+		# set_variable = { china_state_ref = 57 }
+		# set_variable = { china_region_ref = 7 }
+
 	}
 
 	provinces = {
-		16019 1971 4382 16021
+		1791 1834 12579 19469 19605 19628 19677
 	}
-	manpower = 889851
+	manpower = 127378
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

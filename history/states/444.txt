@@ -3,20 +3,37 @@ state = {
 	name = "STATE_444"
 
 	history = {
-		owner = ZZZ # KLT
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			thermoelectric_plant = 1
+			air_base = 2
+			radar_station = 1
+			schools = 1
+			offices = 1
+			11600 = {
+				coastal_bunker = 2
+			}
+			655 = {
+				coastal_bunker = 2
+			}
+			6657 = {
+				coastal_bunker = 2
+			}
 		}
-		# add_core_of = KLT
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		victory_points = { 13594 2 }
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		victory_points = {
+			9631 1
+		}
 	}
 
 	provinces = {
-		12774 7917 15990 13594
+		655 6657 9631 11600
 	}
-	manpower = 155564
+	manpower = 408928
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
+	local_supplies = 0.000
 }

@@ -1,29 +1,28 @@
 state = {
 	id = 1745
 	name = "STATE_1745"
-	resources = {
-		rubber = 12
-	}
+	manpower = 886323
+
+	state_category = city
+
+	#resources = {
+	#	chromium = 5
+	#}
 
 	history = {
-		owner = ROV
-		add_core_of = ROV
-		victory_points = {
-			4363 1
-		}
-		victory_points = {
-			1605 1
-		}
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			air_base = 1
+			schools = 1
+			barracks = 1
 		}
+		victory_points = { 11925 10 }
+		victory_points = { 12006 10 }
 	}
 
 	provinces = {
-		1248 1328 1400 4363 7380 10180 
+		12006 11925 15863
 	}
-	manpower = 1551151
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

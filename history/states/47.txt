@@ -3,24 +3,17 @@ state = {
 	name = "STATE_47"
 
 	history = {
-		owner = ZZZ # GRE
-		# set_state_flag = has_offshore_island
-		victory_points = { 3973 8 }
-		victory_points = { 863 5 }
-		victory_points = { 11786 2 }
-		victory_points = { 16188 3 }
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		buildings = {
-			infrastructure = 4
-			radar_station = 1
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = GRE
 	}
 
 	provinces = {
-		863 3864 3973 6930 11786 16188
+		1974 14054 14056 14057
 	}
-	manpower = 750381
+	manpower = 220000
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 }

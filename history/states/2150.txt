@@ -2,25 +2,33 @@ state = {
 	id = 2150
 	name = "STATE_2150"
 
+	resources = {
+		oil = 4
+		chromium = 2
+	}
+
 	history = {
-		owner = ZZZ # LEB
+		owner = XIN
+		# add_core_of = QIN
 		buildings = {
-			infrastructure = 4
-			hospitals = 1
-			barracks = 1
-			11919 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		victory_points = { 11919 3 }
-		victory_points = { 6636 1 }
-		# add_core_of = LEB
-		# set_state_flag = state_renamings
+		victory_points = {
+			19735 1
+		}
+		victory_points = {
+			12815 1
+		}
+		# set_variable = { china_state_ref = 42 }
+		# set_variable = { china_region_ref = 5 }
+
 	}
+
 	provinces = {
-		11919 6636
+		10490 19735 4536 12815 10787 
 	}
-	manpower = 225014
+	manpower = 750152
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

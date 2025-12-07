@@ -1,33 +1,39 @@
 state = {
 	id = 1760
 	name = "STATE_1760"
+	resources = {
+		steel = 10.000
+	}
 
 	history = {
-		owner = ZZZ # ILG
-		# add_claim_by = FRS
-		# add_core_of = ILG
-		# add_core_of = ALG
-		victory_points = { 12051 10 }
-		victory_points = { 10078 6 }
-		victory_points = { 11953 2 }
-		victory_points = { 7065 1 }
+		owner = DPK
+		add_core_of = DPK
+		# add_core_of = KOR
+		# add_core_of = JAP
+		victory_points = {
+			3981 20
+		}
+		victory_points = {
+			3852 5
+		}
 		buildings = {
 			infrastructure = 4
-			thermoelectric_plant = 1
-			barracks = 1
+			thermoelectric_plant = 2
+			3981 = {
+				naval_base = 2
+			}
+			hospitals = 1
 			offices = 1
-			radar_station = 1
-			air_base = 1
-			prisons = 1
 		}
-		# add_core_of = ALG
-		# set_state_flag = universal_renamings
+
+
 	}
 
 	provinces = {
-		7065 10078 11953 12051
+		848 852 906 3803 3852 3904 3981 6928 9899 10083 11878 19615
 	}
-	manpower = 1430527
+	manpower = 2731322
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_town
+	local_supplies = 0.000
 }

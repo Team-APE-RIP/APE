@@ -1,18 +1,33 @@
 state = {
 	id = 2635
 	name = "STATE_2635"
+	resources = {
+		rubber = 6
+		aluminium = 2
+	}
+
 	history = {
-		owner = MEN
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # NRB
+		victory_points = {
+			1208 5
 		}
-		
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			barracks = 1
+			offices = 1
+			synthetic_refinery = 1
+		}
+		# add_core_of = NRB
+
+
 	}
+
 	provinces = {
-	    7676 7717 298
+		1208 19216
 	}
-	manpower = 82871
+	manpower = 260349
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

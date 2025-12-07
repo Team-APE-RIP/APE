@@ -3,30 +3,27 @@ state = {
 	name = "STATE_2354"
 
 	resources = {
-		steel = 6
-		tungsten = 12
+		chromium = 29
+		tungsten = 7
 	}
 
 	history = {
-		owner = QDN
-		add_core_of = NAL
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
 			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
 		}
-		victory_points = {
-			7502 20
-		}
-		
-		# set_state_flag = GDP_regions_hunan
-		# set_variable = { china_state_ref = 28 }
-		# set_variable = { china_region_ref = 3 }
+		victory_points = { 12504 10 }
+		victory_points = { 13804 10 }
+
 	}
 
 	provinces = {
-		19554 7502 
+		12504 13804
 	}
-	manpower = 4445102
+	manpower = 577931
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = town
 }

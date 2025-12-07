@@ -2,21 +2,36 @@ state = {
 	id = 1422
 	name = "STATE_1422"
 
-	manpower = 288485
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # MEX
-		# add_core_of = MEX
-		victory_points = { 10172 10 }
-
+		owner = MAN
+		victory_points = {
+			19455 2
+		}
+		victory_points = {
+			19472 5
+		}
+		victory_points = {
+			14622 1
+		}
+		victory_points = {
+			8268 3
+		}
 		buildings = {
 			infrastructure = 3
-			thermoelectric_plant = 1
+			hospitals = 1
+			air_base = 3
 		}
+
+		# add_core_of = MAN
+		# set_variable = { china_state_ref = 50 }
+		# set_variable = { china_region_ref = 6 }
 	}
 
 	provinces = {
-		10172
+		19472 7832 19463 12618 19851 19479
 	}
+	manpower = 286800
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

@@ -1,26 +1,29 @@
 state = {
 	id = 283
 	name = "STATE_283"
+	resources = {
+		aluminium = 4.000
+		rubber = 36.000
+	}
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
-		victory_points = {
-			19513 7
-		}
+		owner = ZZZ # BRA
 		buildings = {
-			infrastructure = 2
+			air_base = 1
 			radar_station = 2
-			barracks = 2
+			infrastructure = 1
 		}
-		# set_variable = { china_state_ref = 40 }
-		# set_variable = { china_region_ref = 5 }
+		# add_core_of = BRA
+		victory_points = {
+			10934 10
+		}
+
 	}
 
 	provinces = {
-		 7911 19513 19534 19658
+		1979 2198 5083 5214 5216 5232 8185 8254 10934 10960 12919 12965 13083 14788 17430 17434 17435 17437 17438 17441 17473
 	}
-	manpower = 2666408
+	manpower = 850739
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

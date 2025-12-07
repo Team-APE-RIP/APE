@@ -1,24 +1,24 @@
-state = {
+state = { ###POPS DONE
 	id = 2545
 	name = "STATE_2545"
-
+	provinces = {
+		3653 16231
+	}
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = ZZZ # TUR
+		victory_points = { 3653 8 }
 		buildings = {
 			infrastructure = 3
+			air_base = 1
+			radar_station = 1
+			3653 = {
+				naval_base = 7
+			}
 		}
-		victory_points = {
-			12350 5
-		}
+		# add_core_of = GEO
+		# add_core_of = TUR
 	}
-
-	provinces = {
-		12350 1448 4156 7159
-	}
-	manpower = 938101
+	manpower = 317590
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
-	#impassable = yes
+	state_category = town
 }

@@ -1,27 +1,38 @@
 state = {
 	id = 2204
 	name = "STATE_2204"
-	resources = {
-		oil = 8.000
-	}
 
 	history = {
-		owner = ZZZ # TRK
-		buildings = {
-			infrastructure = 1
-			radar_station = 1
+		victory_points = {
+			383 20
 		}
-		victory_points = { 10742 6 }
-		victory_points = { 14759 1 }
-		# add_core_of = TRK
-		# set_state_flag = state_renamings
+		victory_points = {
+			18382 3
+		}
+		owner = ZZZ # SWE
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			radar_station = 1
+			air_base = 5
+			thermoelectric_plant = 3
+			383 = {
+				naval_base = 6
+			}
+			prisons = 1
+			offices = 2
+			hospitals = 1
+			barracks = 1
+			schools = 2
+		}
+		# add_core_of = SWE
 	}
 
 	provinces = {
-		4549 5003 7924 10742 12161 14759 18616 18673 18821
+		171 383 6310 18382
 	}
-	manpower = 322371
+	manpower = 628500
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

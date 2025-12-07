@@ -1,27 +1,20 @@
 state = {
 	id = 1849
 	name = "STATE_1849"
-	manpower = 1091061
-
-	state_category = town
-
-	resources = {
-		chromium = 2
-	}
-
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
-			infrastructure = 3
-			hydroelectric_plant = 2
-			air_base = 1
-			radar_station = 1
+			infrastructure = 2
 		}
-		victory_points = { 1020 10 }
+		victory_points = { 19412 1 }
 	}
-
+		
 	provinces = {
-		15864 1020 7178
+		19389 19412 19423 19403 19410 19422 19392
 	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

@@ -1,22 +1,28 @@
 state = {
 	id = 1270
 	name = "STATE_1270"
+	manpower = 17894
+
+	state_category = tiny_island
+
 	history = {
-		owner = ZZZ # BUL
-		victory_points = { 9771 3 }
-		victory_points = { 965 3 }
+		owner = ZZZ # ENG
+		# add_core_of = ENG
 		buildings = {
-			thermoelectric_plant = 1
-			infrastructure = 5
+			infrastructure = 3
+			6196 = {
+				naval_base = 1
+			}
+			radar_station = 4
+			air_base = 3
 			barracks = 1
+			anti_air_building = 2
 		}
-		# add_core_of = BUL
+		victory_points = { 6196 1 }
+
 	}
 
 	provinces = {
-		793 965 9771 11754
+		6196
 	}
-	manpower = 713295
-	buildings_max_level_factor = 1.000
-	state_category = rural
 }

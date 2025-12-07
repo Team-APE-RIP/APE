@@ -1,23 +1,30 @@
-state = {
+state = { #Population Done
 	id = 1980
 	name = "STATE_1980"
 
 	history = {
-		owner = ZZZ # MNT
-		victory_points = {
-			16198 1
-		}
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 11465 10 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			dockyard = 2
+			thermoelectric_plant = 1
+			11616 = {
+				coastal_bunker = 2
+			}
+			11465 = {
+				coastal_bunker = 2
+			}
 		}
-		# add_core_of = MNT
+		# add_core_of = FRS
+		# add_claim_by = FFR
 	}
 
 	provinces = {
-		937 3922 16198 16199
+		11465 20067 20066 503 
 	}
-	manpower = 212026
+	manpower = 803372
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

@@ -2,21 +2,33 @@ state = {
 	id = 1336
 	name = "STATE_1336"
 
-	state_category = wasteland
-
 	history = {
-		owner = ZZZ # OMA
-		# add_core_of = OMA
+		owner = MEN
 		buildings = {
-			infrastructure = 2
-			13468 = { naval_base = 1 }
+			barracks = 1
+			offices = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			infrastructure = 4
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			19727 20
+		}
+		victory_points = {
+			6904 11
+		}
+
+
+
+		# set_variable = { china_state_ref = 54 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		13468
+		1590 6904 19727
 	}
-	manpower = 17807
+	manpower = 2499090
 	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

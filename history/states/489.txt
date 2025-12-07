@@ -2,33 +2,37 @@ state = {
 	id = 489
 	name = "STATE_489"
 	resources = {
-		oil = 162.000
+		steel = 86.000
 	}
 
 	history = {
-		owner = ZZZ # VEN
-		buildings = {
-			thermoelectric_plant = 2
-			prisons = 3
-			hospitals = 2
-			barracks = 1
-			infrastructure = 4
-			1944 = {
-				naval_base = 5
-			}
-		}
-		# set_state_flag = GDP_category_large_town
-		# add_core_of = VEN
+		owner = RUH
+		add_core_of = RUH
+		# add_core_of = GER
 		victory_points = {
-			1944 20
+			15821 20
 		}
+		victory_points = {
+			3512 20
+		}
+		buildings = {
+			air_base = 5
+			synthetic_refinery = 2
+			thermoelectric_plant = 3
+			hydroelectric_plant = 2
+			offices = 2
+			schools = 2
+			hospitals = 1
+			infrastructure = 7
+		}
+
 	}
 
 	provinces = {
-		1944 1997 7931 8092 12772 17370 17372 17384
+		3512 18143
 	}
-	manpower = 1059732
+	manpower = 2474105
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = metropolis
 	local_supplies = 0.000
 }

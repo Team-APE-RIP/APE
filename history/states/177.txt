@@ -1,32 +1,23 @@
-state = { #Population Done
+state = {
 	id = 177
 	name = "STATE_177"
-	manpower = 445762
-
-	state_category = small_island
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		# add_core_of = IBR
-		victory_points = { 9793 10 }
-		victory_points = { 7114 1 }
-		buildings = {
-			barracks = 1
-			offices = 1
-			thermoelectric_plant = 1
-			infrastructure = 5
-			radar_station = 3
-			air_base = 3
-			9793 = {
-				naval_base = 2
-			}
-			7114 = {
-				naval_base = 1
-			}
+		owner = ZZZ # AFG
+		victory_points = {
+			14753 1
 		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_city
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = AFG
 	}
-	provinces = { 7114 9793 9845 }
+
+	provinces = {
+		12877 14748 14753 18666
+	}
+	manpower = 340577
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

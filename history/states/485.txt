@@ -1,36 +1,41 @@
 state = {
 	id = 485
 	name = "STATE_485"
-	resources = {
-		steel = 3.000
-	}
 
 	history = {
-		owner = ZZZ # MEX
-		victory_points = {
-			14484 4
-		}
-		victory_points = {
-			10832 2
-		}
-		victory_points = {
-			17312 1
-		}
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
-			offices = 2
-			barracks = 1
-			prisons = 1
-			infrastructure = 3
+			infrastructure = 2
+		}
+		victory_points = {
+			1766 10
+		}
+		victory_points = {
+			19399 3
+		}
+		
+		victory_points = {
+			7949 1
+		}
+		victory_points = {
+			2015 5
+		}
+		victory_points = {
+			5087 1
 		}
 		add_extra_state_shared_building_slots = 1
-		# add_core_of = MEX
+		# set_variable = { china_state_ref = 43 }
+		# set_variable = { china_region_ref = 5 }
+
+
 	}
 
 	provinces = {
-		5066 8852 10730 10832 14484 16887 17312 17315
+		1766 2015 5087 7949 12119 19399 19408 19779 19744 19781 19792 4828 19400
 	}
-	manpower = 1406745
+	manpower = 1850572
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

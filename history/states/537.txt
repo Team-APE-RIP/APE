@@ -1,48 +1,25 @@
 state = {
 	id = 537
 	name = "STATE_537"
+
 	resources = {
-		oil = 11.000
+		aluminium = 2
 	}
 
 	history = {
-		owner = MAN
+		owner = ELO
+		add_core_of = ELO
 		buildings = {
-			infrastructure = 4
-			radar_station = 3
-			barracks = 1
-			offices = 1
-			thermoelectric_plant = 1
-			air_base = 3
-			12446 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		victory_points = {
-			12446 10
-		}
-		victory_points = {
-			855 3
-		}
-		victory_points = {
-			1820 2
-		}
-		victory_points = {
-			1755 2
-		}
-		victory_points = {
-			1322 1
-		}
-		# set_state_flag = universal_renamings
-		# set_variable = { china_state_ref = 53 }
-		# set_variable = { china_region_ref = 6 }
+		victory_points = { 1520 1 }
 	}
 
 	provinces = {
-		855 1322 1742 1755 1820 12446 19475 19580
+		1362 1390 1520 10326 4260 9988 19052 
 	}
-	manpower = 506051
+	manpower = 148941
 	buildings_max_level_factor = 1.000
-	state_category = small_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

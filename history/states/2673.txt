@@ -1,17 +1,31 @@
 state = {
 	id = 2673
 	name = "STATE_2673"
+
 	history = {
-		owner = KTL
-		add_core_of = KTL
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_core_of = IND
+		victory_points = {
+			2002 5
 		}
+		victory_points = {
+			16037 2
+		}
+		victory_points = {
+			18895 1
+		}
+		buildings = {
+			radar_station = 1
+			infrastructure = 4
+		}
+
 	}
+
 	provinces = {
-	    4566 10193 4348
+		2002 16037 18895
 	}
-	manpower = 87721
+	manpower = 1993480
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

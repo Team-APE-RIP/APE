@@ -1,29 +1,44 @@
 state = {
 	id = 125
 	name = "STATE_125"
-	manpower = 695138
-	state_category = town
-	history = {
-		owner = ZZZ # ENG
-		victory_points = {
-			322 10
-		}
-		victory_points = {
-			3287 2
-		}
+	resources = {
+		chromium = 24.000
+		steel = 12.000
+	}
 
-		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			barracks = 1
-			hospitals = 1
-			anti_air_building = 1
-			radar_station = 1
+	history = {
+		owner = ZZZ # ALB
+		victory_points = {
+			9874 7
 		}
-		# add_core_of = ENG
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			9849 2
+		}
+		victory_points = {
+			18182 1
+		}
+		victory_points = {
+			6913 2
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			radar_station = 2
+			offices = 1
+			barracks = 1
+			air_base = 3
+			schools = 1
+			hospitals = 1
+		}
+		# add_claim_by = SER
+		# add_core_of = ALB
 	}
+
 	provinces = {
-		3287 322 16334 16364 16365
+		6913 6940 9849 9874 18182
 	}
+	manpower = 632365
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

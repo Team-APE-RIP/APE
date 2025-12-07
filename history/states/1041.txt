@@ -1,20 +1,23 @@
 state = {
 	id = 1041
 	name = "STATE_1041"
+	manpower = 32
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
-		victory_points = { 13657 1 }
+		owner = ZZZ # NZL
+		# add_core_of = NZL
 		buildings = {
 			infrastructure = 1
+			15300 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			15300 1
 		}
 	}
-
 	provinces = {
-		15935 13645 13657
+		15300
 	}
-	manpower = 107224
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
 }

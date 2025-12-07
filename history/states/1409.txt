@@ -1,39 +1,21 @@
 state = {
 	id = 1409
 	name = "STATE_1409"
-	resources = {
-		steel = 22.000
-	}
+	manpower = 167496
+
+	state_category = rural
 
 	history = {
-		owner = ZZZ # MEX
-		# add_core_of = MEX
+		owner = ZZZ # IME
+		victory_points = { 14453 5 }
 		buildings = {
-			barracks = 2
-			hospitals = 1
-			schools = 2
-			prisons = 1
-			offices = 2
-			infrastructure = 4
-			thermoelectric_plant = 3
+			infrastructure = 3
 		}
-		victory_points = {
-			10769 20
-		}
-		victory_points = {
-			14524 1
-		}
-		victory_points = {
-			14526 1
-		}
-		# set_state_flag = GDP_category_large_town
+		# add_core_of = IME
+
 	}
 
 	provinces = {
-		2461 5590 10769 12721 14522 14524 14526 14528
+		14453
 	}
-	manpower = 1278877
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
 }

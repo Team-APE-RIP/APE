@@ -1,4 +1,4 @@
-capital = 962
+capital = 1710
 set_politics = {
 	ruling_party = IdeologyGroup18
 	last_election = "2049.3.25"
@@ -8,8 +8,8 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup18 = 100
 }
-set_capital = { state = 2620 }
-set_capital = { state = 962 }
+set_capital = { state = 2343 }
+set_capital = { state = 1710 }
 DPK = {
     declare_war_on = {
         target = KOR

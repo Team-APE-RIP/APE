@@ -2,14 +2,14 @@ state = {
 	id = 3003
 	name = "STATE_3003"
 	history = {
-		owner = IPB
-		add_core_of = IPB
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-        896 11820 15524
+        6683 9622
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

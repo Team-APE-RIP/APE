@@ -2,31 +2,38 @@ state = {
 	id = 80
 	name = "STATE_80"
 
+	resources = {
+		tungsten = 6
+	}
+
 	history = {
-		owner = ZZZ # ROM
-		# add_core_of = ROM
+		owner = QDN
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
-			thermoelectric_plant = 1
-			offices = 1
-			barracks = 1
-			schools = 1
 		}
 		victory_points = {
-			6761 3
+			12483 5
 		}
 		victory_points = {
-			9548 10
+			10517 9
 		}
-		# set_state_flag = GDP_category_town
-		# set_state_flag = universal_renamings
+		victory_points = {
+			19477 5
+		}
+		victory_points = {
+			19448 13
+		}
+
+		# set_variable = { china_state_ref = 27 }
+		# set_variable = { china_region_ref = 3 }
 	}
 
 	provinces = {
-		577 3407 6584 6761 9548 11689 18162
+		19829 10517 19885 12483 19477 19908 19448
 	}
-	manpower = 1670034
+	manpower = 5012705
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

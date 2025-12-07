@@ -1,27 +1,26 @@
-state = {
+state = { #Population Done
 	id = 1698
 	name = "STATE_1698"
-	resources = {
-	}
+	manpower = 583903
 
 	state_category = rural
 
 	history = {
-		owner = ZZZ # PRU
+		owner = ZZZ # SLO
 		buildings = {
-			barracks = 1
-			schools = 1
-			prisons = 1
-			infrastructure = 2
+			infrastructure = 3
+			air_base = 1
 		}
-		# add_core_of = PRU
-		# set_state_flag = GDP_category_town
-		victory_points = { 15502 2 }
+		# add_core_of = SLO
+		victory_points = { 3581 4 }
+		victory_points = { 6586 1 }
+	}
+
+	resources = {
+		oil = 2
 	}
 
 	provinces = {
-		15502 15506 15507
+		3581 6604 6586
 	}
-	manpower = 67800
-	buildings_max_level_factor = 1.000
 }

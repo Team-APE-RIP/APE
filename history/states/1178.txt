@@ -2,18 +2,32 @@ state = {
 	id = 1178
 	name = "STATE_1178"
 
-	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		# set_state_flag = universal_renamings
+	resources = {
+		power = 2
+	}
 
-		victory_points = { 6027 4 }
+	history = {
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
+		victory_points = {
+			11399 4
+		}
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			offices = 1
+			barracks = 1
+		}
+
+
 	}
 
 	provinces = {
-		2154 6027 13956 13961 13972 13984
+		6580 9494 9558 11399 19166
 	}
-	manpower = 846682
+	manpower = 415310
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
+	local_supplies = 0.000
 }

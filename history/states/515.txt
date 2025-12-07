@@ -1,23 +1,35 @@
 state = {
 	id = 515
 	name = "STATE_515"
-	resources = {
-		uranium = 10.000
-	}
 
 	history = {
-		owner = ZZZ # AYR
-		# add_core_of = AYR
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			1168 = {
+				naval_base = 1
+			}
 		}
+		victory_points = {
+			1168 5
+		}
+		victory_points = {
+			10058 3
+		}
+		victory_points = {
+			19656 3
+		}
+
+		# set_variable = { china_state_ref = 5 }
+		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		4913 14240 14258 14271 14278
+		1168 10058 19656
 	}
-	manpower = 1944
+	manpower = 3015881
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

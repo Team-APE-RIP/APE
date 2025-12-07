@@ -1,40 +1,17 @@
 state = {
 	id = 743
 	name = "STATE_743"
-	resources = {
-		power = 4.000
-	}
 
 	history = {
-		owner = ITA
-		add_core_of = ITA
-		victory_points = {
-			3885 10
-		}
-		victory_points = {
-			14652 9
-		}
-		victory_points = {
-			14654 4
-		}
-		victory_points = {
-			14653 3
-		}
-		buildings = {
-			infrastructure = 5
-			hydroelectric_plant = 1
-			thermoelectric_plant = 1
-			air_base = 1
-			schools = 1
-		}
-		# add_core_of = ITA
+		owner = ZZZ # NZL
+		# add_core_of = NZL
 	}
 
 	provinces = {
-		3885
+		19938
 	}
-	manpower = 794736
+	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
 	local_supplies = 0.000
 }

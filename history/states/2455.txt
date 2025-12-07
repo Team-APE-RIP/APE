@@ -2,22 +2,33 @@ state = {
 	id = 2455
 	name = "STATE_2455"
 
-	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAR
-		# add_claim_by = ENG
+	resources = {
+		steel = 20
+		power = 4
+	}
 
+	history = {
+		owner = ZZZ # ENG
+		victory_points = { 16340 25 }
 		buildings = {
-			infrastructure = 0
+			infrastructure = 6
+			thermoelectric_plant = 3
+			hospitals = 1
+			prisons = 1
+			barracks = 1
+			16340 = {
+				naval_base = 5
+			}
+			schools = 1
+			offices = 2
 		}
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		16392 17581
+		16340
 	}
-	manpower = 1
-	buildings_max_level_factor = 1
-	state_category = wasteland
-	local_supplies = 0
+	manpower = 737637
+	buildings_max_level_factor = 1.000
+	state_category = city
 }

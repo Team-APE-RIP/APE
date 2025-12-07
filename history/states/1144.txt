@@ -1,29 +1,49 @@
 state = {
 	id = 1144
 	name = "STATE_1144"
-
-	history = {
-		owner = ZZZ # ILG
-		# add_claim_by = FRS
-		# add_core_of = ILG
-		# add_core_of = ALG
-		buildings = {
-			infrastructure = 1
-		}
-		victory_points = {
-			14311 1
-		}
-		# set_state_flag = universal_renamings
+	resources = {
+		steel = 16.000
 	}
 
-	resources = {
-		uranium = 4
+	history = {
+		
+		owner = IPC
+		add_core_of = IPC
+		victory_points = {
+			9979 15
+		}
+		victory_points = {
+			1176 10
+		}
+		victory_points = {
+			7068 3
+		}
+		victory_points = {
+			7153 3
+		}
+		victory_points = {
+			10063 2
+		}
+		buildings = {
+			offices = 1
+			schools = 1
+			infrastructure = 5
+			hydroelectric_plant = 1
+			thermoelectric_plant = 2
+			air_base = 4
+			9979 = {
+				naval_base = 2
+			}
+		}
+		# add_core_of = IBR
+
 	}
 
 	provinces = {
-		5095 14288 14301 14311 14293 14333 14354 14364 12849 14327 14369
+		9979
 	}
-	manpower = 43013
+	manpower = 1567364
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
+	local_supplies = 0.000
 }

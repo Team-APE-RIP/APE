@@ -2,43 +2,27 @@ state = {
 	id = 1491
 	name = "STATE_1491"
 	resources = {
-		uranium = 2.000
+		oil = 14.000
 	}
 
 	history = {
-		owner = ZZZ # BRA
+		owner = ZZZ # TOM
 		buildings = {
-			radar_station = 4
-			air_base = 2
-			infrastructure = 3
-			barracks = 1
-			5168 = {
-				naval_base = 1
-			}
-		}
-		# add_core_of = BRA
-		victory_points = {
-			5168 25
+			infrastructure = 1
+			prisons = 1
 		}
 		victory_points = {
-			10967 10
+			10533 5
 		}
-		victory_points = {
-			1446 10
-		}
-		victory_points = {
-			8227 4
-		}
-		victory_points = {
-			5182 6
-		}
+
+		# add_core_of = TOM
 	}
 
 	provinces = {
-		1446 5168 5182 8227 10345 10967 12961 14773 17458
+		1726 1765 1768 1784 1824 1856 4730 4771 4817 4827 5645 7685 7781 7793 7837 7882 10529 10533 10561 10663 10692 12514 12542 12574 12639 12672
 	}
-	manpower = 4180601
+	manpower = 121000
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

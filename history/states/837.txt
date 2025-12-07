@@ -1,24 +1,40 @@
 state = {
 	id = 837
 	name = "STATE_837"
+	resources = {
+		steel = 9.000
+		tungsten = 5.000
+		oil = 8.000
+	}
 
 	history = {
-		owner = ZZZ # MLI
-		# add_core_of = MLI
+		owner = ZZZ # GOR
 		victory_points = {
-			4927 1
+			11375 30
+		}
+		victory_points = {
+			6327 5
 		}
 		buildings = {
-			infrastructure = 1
+			thermoelectric_plant = 2
+			barracks = 2
+			prisons = 1
+			offices = 1
+			schools = 1
+			hospitals = 1
+			infrastructure = 4
+			air_base = 3
 		}
-		# set_state_flag = state_renamings
+		# add_core_of = GOR
+		# add_claim_by = MCW
+
 	}
 
 	provinces = {
-		4927 5045 14111 14114 14148 14150 14179 15912
+		297 3224 3285 3303 3352 3383 6299 6327 6362 6392 6410 9298 9325 9360 9389 11277 11324 11344 11375 11394 18252
 	}
-	manpower = 534000
+	manpower = 2323000
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = city
 	local_supplies = 0.000
 }

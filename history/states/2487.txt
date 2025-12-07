@@ -1,22 +1,22 @@
 state = {
 	id = 2487
 	name = "STATE_2487"
-	manpower = 2172
-	state_category = tiny_island
+
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 2
-			radar_station = 2
-			air_base = 1
-			barracks = 1
-			19978 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
+		victory_points = { 10505 1 }
+
 	}
+
 	provinces = {
-		19978
+		10505 1629 12457 1617 7627 1602 4593
 	}
+	manpower = 114286
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

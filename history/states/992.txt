@@ -1,29 +1,18 @@
 state = {
 	id = 992
 	name = "STATE_992"
-
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
-		victory_points = { # Washington D.C.
-			3957 30
-		}
+		owner = BAV
+		add_core_of = BAV
 		buildings = {
-			schools = 1
-			hospitals = 1
-			barracks = 1
-			offices = 3
-			infrastructure = 7
-			thermoelectric_plant = 1
-			air_base = 2
-			radar_station = 2
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		3957
+        9515 6725 11653
 	}
-	manpower = 1736800
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = pastoral
+	local_supplies = 0.000
 }

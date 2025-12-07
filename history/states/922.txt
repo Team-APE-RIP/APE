@@ -1,24 +1,26 @@
 state = {
 	id = 922
-	name = "STATE_922"
+	name = "STATE_922" # Greenwich Island
+	manpower = 1
+
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # SAU
-		# add_core_of = SAU
+		owner = ZZZ # AAC
+		# add_core_of = AAC
+		# add_core_of = AAA
+		# add_claim_by = ENG
+		victory_points = { 17666 3 }
 		buildings = {
 			infrastructure = 1
+			air_base = 1
+			17666 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			8101 1
-		}
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		8101 10901 13465 13471 13472 13473 13474 18550
+		17666
 	}
-	manpower = 65201
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

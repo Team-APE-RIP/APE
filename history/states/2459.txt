@@ -1,26 +1,36 @@
 state = {
 	id = 2459
 	name = "STATE_2459"
+	resources = {
+		steel = 6.000
+	}
 
 	history = {
-		owner = ZZZ # OMA
+		owner = ZZZ # ROM
 		buildings = {
-			infrastructure = 3
-			7272 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			thermoelectric_plant = 1
+			prisons = 1
+			barracks = 1
 		}
-		# add_core_of = OMA
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		victory_points = { 7272 1 }
-		# set_state_flag = state_renamings
+		victory_points = {
+			9619 6
+		}
+		victory_points = {
+			3694 4
+		}
+		victory_points = {
+			18210 2
+		}
+
+		# add_core_of = ROM
 	}
 
 	provinces = {
-		7272
+		693 3665 3694 9619 11622 15684 18210
 	}
-	manpower = 7356
+	manpower = 1055406
 	buildings_max_level_factor = 1.000
-	state_category = enclave
+	state_category = rural
+	local_supplies = 0.000
 }

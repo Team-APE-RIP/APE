@@ -1,18 +1,22 @@
 state = {
 	id = 2604
 	name = "STATE_2604"
+
 	history = {
-		owner = MEN
-		# add_core_of = SHT
+		owner = ZZZ # ENG
+		victory_points = { 11253 9 }
+		victory_points = { 296 6 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
 		}
+		# add_core_of = ENG
+
 	}
+
 	provinces = {
-		10499 12348
+		11253 296
 	}
-	manpower = 1026811
+	manpower = 655787
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

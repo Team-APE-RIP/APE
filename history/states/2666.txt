@@ -1,18 +1,26 @@
 state = {
 	id = 2666
 	name = "STATE_2666"
+
+	resources = {
+		aluminium = 1
+	}
+
 	history = {
-		owner = NLO
-		add_core_of = NLO
+		owner = ZZZ # CRO
+		victory_points = { 16174 7 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
+		# add_core_of = CRO
+
+
 	}
+
 	provinces = {
-	    19092 1535 1548
+		16174 18180
 	}
-	manpower = 87721
+	manpower = 71505
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

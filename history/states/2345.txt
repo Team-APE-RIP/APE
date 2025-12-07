@@ -1,39 +1,39 @@
 state = {
 	id = 2345
 	name = "STATE_2345"
-	resources = {
-		tungsten = 26
-	}
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = ZZZ # MEX
+		# add_core_of = MEX
 		buildings = {
-			infrastructure = 3
+			thermoelectric_plant = 1
+			hospitals = 1
 			offices = 1
 			barracks = 1
+			infrastructure = 3
 		}
 		victory_points = {
-			9942 15
+			4956 10
 		}
 		victory_points = {
-			4183 1
+			14518 2
 		}
 		victory_points = {
-			19526 2
+			17107 1
 		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = GDP_regions_jiangxi_ganjiang
-		# set_variable = { china_state_ref = 25 }
-		# set_variable = { china_region_ref = 3 }
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			2709 1
+		}
+		victory_points = {
+			17145 1
+		}
 	}
 
 	provinces = {
-		4183 9942 7004 9970 19526
+		1952 2709 4956 14518 14521 17107 17145 17324
 	}
-	manpower = 3811780
+	manpower = 1242662
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

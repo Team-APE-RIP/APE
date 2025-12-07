@@ -1,23 +1,22 @@
 state = {
 	id = 882
 	name = "STATE_882"
+	provinces = {
+		17811 17599 17604 17766 17568 17769 17571 17588 17660
+	}
+	manpower = 1
+
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # GBE
-		# add_core_of = GBE
-		victory_points = {
-			1951 1
-		}
+		owner = ZZZ # AAA
+		# add_core_of = AAA
+		# add_core_of = AAC
+		# add_claim_by = ENG
+		victory_points = { 17811 1 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
 	}
 
-	provinces = {
-		1951 10919 13416 15424
-	}
-	manpower = 590000
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -1,30 +1,21 @@
 state = {
 	id = 759
 	name = "STATE_759"
-	resources = {
-		steel = 2.000
-	}
+
+	impassable = yes
 
 	history = {
-		owner = ZZZ # BRY
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 		}
-		victory_points = {
-			1696 3
-		}
-		victory_points = {
-			4705 1
-		}
-		# add_core_of = BRY
-		# set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
-		1696 4705 4448
+		16393 16395 16396 16401 16404 16406 16407 16445 16449 16450 17578 17595 17596 17600 17602 17614 17620 17630 17640 17652 17659 17665 17685 17696 17707 17717 17720 17746 17753 17763 17768 17788
 	}
-	manpower = 140869
+	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

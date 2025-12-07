@@ -1,38 +1,30 @@
 state = {
 	id = 84
 	name = "STATE_84"
-	resources = {
-		steel = 4.000
-	}
+	manpower = 115796
+
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # ROM
+		owner = TAW
+		add_core_of = TAW
+
 		buildings = {
-			infrastructure = 5
-			prisons = 1
-			schools = 1
-			offices = 1
+			infrastructure = 2
+			air_base = 3
 			barracks = 1
-			thermoelectric_plant = 2
+			radar_station = 4
+			15897 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			690 10
-		}
-		victory_points = {
-			6679 10
-		}
-		victory_points = {
-			18215 4
-		}
-		# add_core_of = ROM
-		# set_state_flag = GDP_category_city
+		victory_points = { 15897 1 }
+		# set_variable = { china_state_ref = 37 }
+		# set_variable = { china_region_ref = 4 }
+
 	}
 
 	provinces = {
-		676 690 3676 6679 6709 11639 18207 18215
+		15897
 	}
-	manpower = 1004529
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
 }

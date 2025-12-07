@@ -1,19 +1,29 @@
 state = {
 	id = 2637
 	name = "STATE_2637"
+
+	resources = {
+		oil = 2
+	}
+
 	history = {
-		owner = MEN
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = ILG
+		# add_core_of = ALG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		victory_points = { 1725 1 }
-		
+		victory_points = { 4970 1 }
+		victory_points = { 9943 2 }
+		# add_core_of = ALG
+
 	}
+
 	provinces = {
-	    12675 1728 13588 19387 1725 16627 12541 7806 7881 19406
+		4970 5053 9943 8077 8061
 	}
-	manpower = 82871
+	manpower = 369134
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

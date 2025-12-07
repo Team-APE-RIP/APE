@@ -1,20 +1,23 @@
 state = {
 	id = 2052
-	name = "STATE_2052" # Ellsworth Land
-	manpower = 1
-
-	state_category = wasteland
-
-	impassable = yes
+	name = "STATE_2052"
 
 	history = {
-		owner = ZZZ # AAN
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 		}
+		# add_core_of = ARG
+		victory_points = {
+			12982 2
+		}
+
 	}
 
 	provinces = {
-		17719
+		12982 14910 14912
 	}
+	manpower = 27590
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

@@ -1,29 +1,31 @@
 state = {
 	id = 511
-	name = "STATE_511" # Mendoza
-	manpower = 527383
-
-	state_category = town
+	name = "STATE_511"
+	resources = {
+		uranium = 2.000
+	}
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
-			barracks = 2
-			schools = 1
-			offices = 1
-			prisons = 1
-			hospitals = 1
-			air_base = 1
+			infrastructure = 2
 		}
-		# add_core_of = ARG
-		victory_points = { 10992 15 }
-		victory_points = { 15077 1 }
-		# set_state_flag = GDP_regions_mendoza
+		victory_points = {
+			12911 5
+		}
+		victory_points = {
+			13892 1
+		}
+
+
 	}
 
 	provinces = {
-		8215 10992 14932 14953 15058 15077 15092
+		5180 12911 13874 13892 17870 17878 17879
 	}
+	manpower = 871942
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

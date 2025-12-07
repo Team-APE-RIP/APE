@@ -1,26 +1,28 @@
 state = {
 	id = 2153
 	name = "STATE_2153"
+	resources = {
+		aluminium = 10.000
+	}
 
 	history = {
-		owner = ZZZ # IME
+		owner = ZZZ # WRS
 		buildings = {
-			infrastructure = 4
-			1065 = {
-				naval_base = 4
+			infrastructure = 2
+			12530 = {
+				naval_base = 1
 			}
-			synthetic_refinery = 1
 		}
-		victory_points = { 1065 15 }
-		# add_core_of = IME
-		# set_state_flag = state_renamings
+		victory_points = {
+			105 1
+		}
+		# add_core_of = WRS
 	}
 
 	provinces = {
-		1065
+		105 154 3147 6177 6538 9099 9121 9230 10207 12530
 	}
-
-	manpower = 296410
+	manpower = 52000
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = wasteland
 }

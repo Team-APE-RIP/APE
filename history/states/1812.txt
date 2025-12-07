@@ -2,32 +2,24 @@ state = {
 	id = 1812
 	name = "STATE_1812"
 
-	resources = {
-		steel = 46
-	}
-
 	history = {
-		owner = RHN
-        add_core_of = RHN
-		# add_core_of = GER
-		# add_claim_by = FFR
+		owner = ZZZ # PAR
+		# add_core_of = PAR
+		# add_claim_by = BOL
 		victory_points = {
-			11502 10
+			5165 1
 		}
 		buildings = {
-			barracks = 3
-			infrastructure = 4
-			thermoelectric_plant = 1
-			anti_air_building = 5
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_city
+
 	}
 
 	provinces = {
-		3629 11502 15850
+		5165 17525
 	}
-	manpower = 769388
+	manpower = 3854
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,23 +1,21 @@
 state = {
 	id = 1052
 	name = "STATE_1052"
+	manpower = 906812
+
+	state_category = city
 
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			barracks = 1
 		}
-		victory_points = {
-			13809 1
-		}
+		victory_points = { 4094 15 }
 	}
 
 	provinces = {
-		13806 13809 13822 13831 17851
+		4094
 	}
-	manpower = 59360
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

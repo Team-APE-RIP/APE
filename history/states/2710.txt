@@ -2,14 +2,14 @@ state = {
 	id = 2710
 	name = "STATE_2710"
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = PGS
+		add_core_of = PGS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 	provinces = {
-        10014 4173 19601 19902
+        6986
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

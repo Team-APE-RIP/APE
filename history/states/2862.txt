@@ -1,18 +1,34 @@
-state = {
+state = { #Population Done
 	id = 2862
 	name = "STATE_2862"
+
+	manpower = 405115
+	state_category = city
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = OTC
+        add_core_of = OTC
+		# add_core_of = GER
+
+		victory_points = { 688 10 }
+
 		buildings = {
-			infrastructure = 3
+			thermoelectric_plant = 2
+			schools = 1
+			offices = 1
+			infrastructure = 5
+			air_base = 3
+			missile_silo = 1
+			radar_station = 1
+			15846 = {
+				bunker = 5
+			}
 		}
+
+
 	}
+
 	provinces = {
-        3626 13367
+		688 15846 15847
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

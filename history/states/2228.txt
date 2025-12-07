@@ -1,25 +1,37 @@
 state = {
 	id = 2228
 	name = "STATE_2228"
+	resources = {
+		rubber = 4.000
+	}
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # CLC
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
+		victory_points = {
+			2322 10
 		}
 		victory_points = {
-			12224 1
+			7991 1
 		}
-		# add_core_of = THA
-		# set_state_flag = GDP_regions_east_thailand
+		buildings = {
+			infrastructure = 2
+			offices = 1
+			prisons = 1
+			barracks = 1
+			7991 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {
-		12224 19029 7225 10293
+		2322 2470 2518 7991 10846 17348
 	}
-	manpower = 462471
+	manpower = 658567
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

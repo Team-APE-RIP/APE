@@ -1,40 +1,32 @@
-state = { #Population Done
+state = {
 	id = 345
 	name = "STATE_345"
-	manpower = 979260
-
-	resources = {
-		steel = 4
-	}
-
-	state_category = town
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 11778 6 }
-		victory_points = { 6912 3 }
-		victory_points = { 6864 2 }
-		victory_points = { 9799 2 }
-		victory_points = { 849 1 }
-		victory_points = { 9887 1 }
+		owner = ZZZ # CHL
 		buildings = {
-			infrastructure = 4
-			offices = 1
 			barracks = 1
-			schools = 1
-			dockyard = 2
-			air_base = 2
-			6864 = {
-				naval_base = 8
-			}
-			6912 = {
-				naval_base = 2
-			}
+			infrastructure = 1
+			radar_station = 1
 		}
-		# add_core_of = TUR
+		# add_core_of = CHL
+		victory_points = {
+			14807 1
+		}
+		victory_points = {
+			14806 1
+		}
+		victory_points = {
+			17514 1
+		}
+
 	}
 
 	provinces = {
-		849 6864 16257 9799 9887 6912 16215 11778 785
+		2161 5118 14806 14807 17502 17508 17514
 	}
+	manpower = 41448
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

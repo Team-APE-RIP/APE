@@ -2,25 +2,23 @@ state = {
 	id = 1945
 	name = "STATE_1945"
 
-	resources = {
-		aluminium = 36
-	}
-
 	history = {
-		owner = ZZZ # IND
-		victory_points = { 12420 8 }
+		owner = ERV
+		add_core_of = ERV
+		# add_core_of = VIN
+		# add_core_of = VIC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			radar_station = 1
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = { 12297 1 }
 	}
 
 	provinces = {
-		10401 12420 16081
+		12297 19060
 	}
-	manpower = 2105531
+	manpower = 1087721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

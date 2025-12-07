@@ -1,20 +1,35 @@
-state = {
+state = { #Population Done
 	id = 2081
-	name = "STATE_2081"
-	provinces = {
-		17672 16394 17686 16409 16416 16408 16397 17709 16420 16436 16427 16384
-	}
-	manpower = 1
+	name = "STATE_2081" # Novosibirsk
+	manpower = 2386000
 
-	state_category = wasteland
+	state_category = city
 
 	history = {
-		owner = ZZZ # AAO
-		# add_core_of = AAO
-		# add_core_of = AAZ
+		owner = ZZZ # NOV
 		buildings = {
-			infrastructure = 0
+			infrastructure = 4
+			air_base = 1
+			thermoelectric_plant = 2
+			barracks = 1
+			offices = 1
+			schools = 1
+			prisons = 1
+			hospitals = 1
 		}
-	}
+		victory_points = { 7825 30 }
+		victory_points = { 12679 1 }
+		victory_points = { 4734 5 }
+		victory_points = { 12606 3 }
+		victory_points = { 4866 5 }
+		# add_core_of = NOV
 
+	}
+	resources = {
+		oil = 7
+		aluminium = 6
+	}
+	provinces = {
+		1733 1790 1860 4366 4734 4806 4840 4866 7274 7687 7722 7825 10555 10652 12606 12679 7757
+	}
 }

@@ -1,32 +1,35 @@
 state = {
 	id = 895
 	name = "STATE_895"
+	resources = {
+		aluminium = 22.000
+	}
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
-		victory_points = {
-			2002 5
-		}
-		victory_points = {
-			16037 2
-		}
-		victory_points = {
-			18895 1
-		}
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
+			prisons = 1
+			barracks = 1
 			radar_station = 1
 			infrastructure = 4
+			hydroelectric_plant = 3
+			6675 = { bunker = 5 }
+			9630 = { bunker = 5 }
+			11615 = { bunker = 5 }
 		}
-		# set_state_flag = GDP_regions_punjab
+		victory_points = { 14646 8 }
+		victory_points = { 9598 7 }
+		victory_points = { 9630 3 }
+
+
+
 	}
 
 	provinces = {
-		2002 16037 18895
+		9598 9630 11598 11615 14646
 	}
-	manpower = 1993480
+	manpower = 786156
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

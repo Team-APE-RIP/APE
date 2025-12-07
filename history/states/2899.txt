@@ -1,18 +1,24 @@
 state = {
 	id = 2899
 	name = "STATE_2899"
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
 		}
+		victory_points = {
+			12350 5
+		}
 	}
+
 	provinces = {
-       9728
+		12350 1448 4156 7159
 	}
-	manpower = 87721
+	manpower = 938101
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
+	#impassable = yes
 }

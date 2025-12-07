@@ -2,27 +2,25 @@ state = {
 	id = 1142
 	name = "STATE_1142"
 
-	resources = {
-		steel = 8
-		uranium = 4
-	}
-
 	history = {
-		owner = ZZZ # TUN
-		# add_core_of = TUN
-		victory_points = { 18062 2 }
-		victory_points = { 4163 1 }
-		victory_points = { 1046 2 }
+		owner = ZZZ # IME
 		buildings = {
 			infrastructure = 4
+			1065 = {
+				naval_base = 4
+			}
+			synthetic_refinery = 1
 		}
-		# set_state_flag = universal_renamings
+		victory_points = { 1065 15 }
+		# add_core_of = IME
+
 	}
 
 	provinces = {
-		18062 4163 1046 18072 7180
+		1065
 	}
-	manpower = 473534
+
+	manpower = 296410
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 }

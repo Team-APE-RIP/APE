@@ -1,22 +1,28 @@
 state = {
 	id = 2072
-	name = "STATE_2072" # Melchior Islands
-	manpower = 1
-
-	state_category = wasteland
+	name = "STATE_2072"
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17591 1 }
+		owner = ZZZ # MEX
+		# add_core_of = MEX
+		victory_points = {
+			14503 1
+		}
+		victory_points = {
+			17075 1
+		}
 		buildings = {
-			infrastructure = 0
+			offices = 1
+			hospitals = 1
+			infrastructure = 5
 		}
 	}
 
 	provinces = {
-		17591
+		14503 17075
 	}
+	manpower = 410980
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

@@ -1,24 +1,26 @@
 state = {
 	id = 1949
 	name = "STATE_1949"
+	resources = {
+		oil = 16
+	}
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			10021 4
-		}
+		owner = ZZZ # TRK
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
+		victory_points = { 10357 4 }
+		victory_points = { 18626 2 }
+		victory_points = { 7560 1 }
+		# add_core_of = TRK
+
 	}
 
 	provinces = {
-		1898 10021 18861
+		10414 10357 18626 4482 7560 18681 4958 18632 12233
 	}
-	manpower = 1444428
+	manpower = 391905
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -2,32 +2,27 @@ state = {
 	id = 1643
 	name = "STATE_1643"
 
+	resources = {
+		aluminium = 2
+		steel = 2
+	}
+
 	history = {
-		owner = MAN
-		victory_points = {
-			10612 3
-		}
-		victory_points = {
-			13150 5
-		}
-		victory_points = {
-			7697 1
-		}
-		# set_variable = { china_state_ref = 50 }
-		# set_variable = { china_region_ref = 6 }
-		# set_state_flag = state_renamings
+		owner = ZZZ # AFG
 		buildings = {
 			infrastructure = 2
-			radar_station = 2
 			air_base = 1
 		}
-		# add_core_of = MAN
+		victory_points = {
+			10781 1
+		}
+		# add_core_of = AFG
 	}
 
 	provinces = {
-		4745 6227 6250 7743 8295 11134 12690 13150 16834 19495 19529 19530 19616 4876 10638 19560
+		10781 18667 18634
 	}
-	manpower = 334430
+	manpower = 456662
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

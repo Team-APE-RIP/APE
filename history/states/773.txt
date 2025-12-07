@@ -1,31 +1,22 @@
 state = {
 	id = 773
 	name = "STATE_773"
-
-	history = {
-		owner = ZZZ # UKR
-		buildings = {
-			offices = 1
-			thermoelectric_plant = 1
-			infrastructure = 2
-			radar_station = 2
-		}
-		# set_state_flag = universal_renamings
-		victory_points = {
-			9481 5
-		}
-		victory_points = {
-			6480 1
-		}
-		# add_core_of = UKR
-		# set_state_flag = GDP_category_town
-	}
-
 	provinces = {
-		6480 9481 11490 15810 18220 18243
+		11007
 	}
-	manpower = 1275426
+history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		# add_core_of = ARG
+		victory_points = {
+			11007 7
+		}
+
+	}
+	manpower = 126504
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	state_category = town
 }

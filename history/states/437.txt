@@ -3,30 +3,21 @@ state = {
 	name = "STATE_437"
 
 	history = {
-		victory_points = { 7060 10 }
-		victory_points = { 5019 10 }
-		victory_points = { 12226 5 }
-		victory_points = { 10311 7 }
-		victory_points = { 5063 7 }
-		victory_points = { 16089 5 }
-		victory_points = { 16088 5 }
-		victory_points = {
-			16087 8
-		}
-		add_extra_state_shared_building_slots = 1
-		owner = ZZZ # IND
+		owner = ZZZ # IME
 		buildings = {
 			infrastructure = 3
 		}
-		# add_claim_by = AZH
-		# add_core_of = IND
-		# set_state_flag = GDP_regions_maharashtra
+		victory_points = { 7107 1 }
+		# add_core_of = IME
+
+
 	}
 
 	provinces = {
-		7060 10311 5063 16087 16088 12226 5019 16089
+		7107 15805 14470
 	}
-	manpower = 6651790
+
+	manpower = 131502
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 }

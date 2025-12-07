@@ -2,47 +2,31 @@ state = {
 	id = 276
 	name = "STATE_276"
 
-	history = {
-		owner = ZZZ # CAN
-		buildings = {
-			schools = 1
-			prisons = 1
-			barracks = 1
-			offices = 3
-			hydroelectric_plant = 3
-			infrastructure = 6
-			air_base = 2
-			radar_station = 1
-			nuclear_reactor = 1
-		}
-		# add_core_of = CAN
-		victory_points = { #Ottawa
-			3778 40
-		}
-		victory_points = { # Kingston
-			3605 5
-		}
-		victory_points = { # Peterborough
-			9580 5
-		}
-		victory_points = { # Cornwall
-			4270 4
-		}
-		victory_points = { # Belleville
-			11567 3
-		}
-		victory_points = { # Pembroke
-			3661 1
-		}
-		# set_state_flag = GDP_regions_ontario
-		# set_state_flag = GDP_category_large_town
+	resources = {
+		chromium = 6
 	}
 
-	provinces = {
-		605 3605 3608 3635 3640 3661 3778 4270 6625 6630 6662 9580 11567 11569 11585 11728
+	history = {
+		owner = ZZZ # UPH
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			14737 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 14737 10 }
+		victory_points = { 7360 3 }
+		# add_core_of = UPH
+		# add_core_of = PHI
+		# add_core_of = SPH
+
+
 	}
-	manpower = 1166833
+	provinces = {
+		1421 4399 7360 7389 7417 14737
+	}
+	manpower = 976801
 	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
+	state_category = pastoral
 }

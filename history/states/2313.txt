@@ -1,28 +1,29 @@
 state = {
 	id = 2313
 	name = "STATE_2313"
-
-	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		buildings = {
-			infrastructure = 3
-			air_base = 1
-			12162 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			12162 1
-		}
-		# set_state_flag = GDP_regions_nusa_tenggara
-	}
-
 	provinces = {
-		10191 12162
+		12717
 	}
-	manpower = 534890
+	resources = {
+		chromium = 23
+	}
+	history = {
+		owner = ZZZ # PAK
+		victory_points = { 12717 15 }
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			offices = 1
+			barracks = 1
+			air_base = 3
+		}
+		# add_core_of = PAK
+		# add_claim_by = AZH
+		# add_claim_by = IND
+		# add_claim_by = AFG
+
+	}
+	manpower = 2519053
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
-	local_supplies = 0.000
+	state_category = large_town
 }

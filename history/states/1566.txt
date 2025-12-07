@@ -1,27 +1,31 @@
 state = {
 	id = 1566
 	name = "STATE_1566"
-	manpower = 47201
 
-	state_category = tiny_island
+	resources = {
+		rubber = 5
+		uranium = 4
+	}
 
 	history = {
-		owner = ZZZ # ENG
-		victory_points = { 3311 1 }
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+
+		victory_points = { 14003 7 }
 
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
-			radar_station = 1
 			offices = 1
-			3311 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		# add_core_of = ENG
+
+		add_extra_state_shared_building_slots = 1
 	}
 
 	provinces = {
-		3311
+		11108 12830 14003 14007 14016 14036 13987
 	}
+	manpower = 669656
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

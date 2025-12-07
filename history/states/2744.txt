@@ -1,18 +1,29 @@
 state = {
 	id = 2744
 	name = "STATE_2744"
+
+	state_category = pastoral
+
+	resources = {
+		oil = 24
+	}
+
 	history = {
-		owner = FAH
-		add_core_of = FAH
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
 		}
+		victory_points = { 2097 4 }
+		victory_points = { 12855 5 }
+		victory_points = { 10793 6 }
+
+
 	}
+
 	provinces = {
-        6570 9482 529
+		2097 12855 10793 16292
 	}
-	manpower = 87721
+	manpower = 399983
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -1,28 +1,20 @@
 state = {
 	id = 1524
-	name = "STATE_1524"
+	name = "STATE_1524" # Marie Byrd Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
 
 	history = {
-		owner = ZZZ # CHL
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 2
-			radar_station = 1
+			infrastructure = 0
 		}
-		# add_core_of = CHL
-		victory_points = {
-			14818 2
-		}
-		victory_points = {
-			14812 7
-		}
-		# set_state_flag = GDP_regions_araucania
 	}
 
 	provinces = {
-		5121 14812 14814 14818 14819
+		17631 17747 17597 17716 17641 17559 17708 17616 17761 17762
 	}
-	manpower = 458682
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }

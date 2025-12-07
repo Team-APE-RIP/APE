@@ -2,34 +2,27 @@ state = {
 	id = 141
 	name = "STATE_141"
 
+	resources = {
+		oil = 8
+	}
+
 	history = {
-		owner = ZZZ # SWE
-		victory_points = {
-			6050 25
-		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 7
-			radar_station = 1
-			anti_air_building = 2
-			air_base = 7
-			thermoelectric_plant = 3
-			6050 = {
-				naval_base = 8
-			}
-			schools = 3
-			barracks = 1
-			prisons = 1
-			offices = 3
-			hospitals = 2
+			infrastructure = 3
 		}
-		# add_core_of = SWE
+		victory_points = {
+			15661 1
+		}
+
 	}
 
 	provinces = {
-		6050
+		15661 12249 19342
 	}
-	manpower = 817974
+	manpower = 1458576
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

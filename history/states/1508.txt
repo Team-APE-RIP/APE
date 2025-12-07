@@ -3,28 +3,22 @@ state = {
 	name = "STATE_1508"
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 2
-			dockyard = 1
-		}
-		# add_core_of = ARG
-		victory_points = {
-			10981 5
+			infrastructure = 1
 		}
 		victory_points = {
-			15036 1
+			13900 5
 		}
-		victory_points = {
-			15090 1
-		}
-		# set_state_flag = GDP_regions_rio_negro
+
 	}
 
 	provinces = {
-		2158 10981 11005 12349 12946 14900 14901 14902 14904 14906 14907 15030 15036 15090
+		13379 13900 14418
 	}
-	manpower = 193292
+	manpower = 457755
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

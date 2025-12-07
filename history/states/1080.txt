@@ -2,27 +2,20 @@ state = {
 	id = 1080
 	name = "STATE_1080"
 
+	resources = {
+		oil = 4
+	}
+
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
-		buildings = {
-			schools = 1
-			infrastructure = 1
-		}
-		victory_points = {
-			13904 3
-		}
-		victory_points = {
-			2206 1
-		}
-		# set_state_flag = GDP_category_rural
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
+
 	}
 
 	provinces = {
-		2206 5224 13894 13898 13904 13909 14417
+		10744 12879 16310 16311 16314 16315 16316
 	}
-	manpower = 931281
+	manpower = 13152
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = wasteland
 }

@@ -1,34 +1,18 @@
 state = {
 	id = 898
 	name = "STATE_898"
-
 	history = {
-		owner = ZZZ # NOR
-		# add_core_of = NOR
-		victory_points = {
-			9296 5
-		}
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			hospitals = 1
-			offices = 1
-			barracks = 1
-			infrastructure = 4
-			radar_station = 2
-			9296 = {
-				coastal_bunker = 2
-				naval_base = 5
-			}
-			11367 = {
-				coastal_bunker = 2
-			}
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		3049 9296 11367 18375
+        943
 	}
-	manpower = 109083
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

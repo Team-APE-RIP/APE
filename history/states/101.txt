@@ -1,43 +1,19 @@
-state = {
+state = { #Population Done
 	id = 101
 	name = "STATE_101"
-
-	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
-		# add_core_of = GRN
-		add_extra_state_shared_building_slots = 1
-		buildings = {
-			infrastructure = 1
-			radar_station = 5
-			barracks = 1
-			air_base = 4
-			10245 = {
-				naval_base = 2
-			}
-		}
-		victory_points = { # Nuuk
-			10245 3
-		}
-		victory_points = { # Ilulissat
-			16858 1
-		}
-		victory_points = { # Qaqortoq
-			12512 1
-		}
-		victory_points = { # Tasiilaq
-			10636 1
-		}
-		victory_points = { # Thule AFB
-			16837 1
-		}
-	}
-
 	provinces = {
-		10245 10636 12512 13058 13066 16830 16831 16832 16837 16838 16858
+		73 112 175 3004 3017 3066 3103 3167 6089 6191 9050 9065 9172 9180 11158 13324
 	}
-	manpower = 28700
+	history = {
+		owner = ZZZ # VOL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 73 1 }
+		victory_points = { 112 3 }
+		# add_core_of = VOL
+	}
+	manpower = 124000
+	state_category = pastoral
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

@@ -1,26 +1,35 @@
 state = {
 	id = 1301
 	name = "STATE_1301"
-	manpower = 589617
 
-	state_category = rural
-
+	resources = {
+		steel = 4.000
+	}
 
 	history = {
-		owner = ZZZ # ENG
-		victory_points = { 9364 3 }
-		victory_points = { 6363 1 }
+		owner = ZZZ # LEB
+		victory_points = {
+			18595 20
+		}
 		buildings = {
-			infrastructure = 4
-			6363 = {
-				naval_base = 1
+			infrastructure = 5
+			offices = 1
+			schools = 1
+			hospitals = 1
+			thermoelectric_plant = 2
+			18595 = {
+				naval_base = 3
 			}
 		}
-		# add_core_of = ENG
-		# set_state_flag = GDP_regions_wales
-		# set_state_flag = GDP_category_pastoral
+		# add_core_of = LEB
+
 	}
+
 	provinces = {
-		6363 9364 16339 18107
+		18595
 	}
+	manpower = 627149
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

@@ -1,24 +1,47 @@
-state = {
+state = { #Population Done
 	id = 274
 	name = "STATE_274"
+	manpower = 1838279
+
+
+	state_category = city
 
 	history = {
-		owner = ZZZ # EWE
-		# add_core_of = EWE
-		victory_points = {
-			14025 1
-		}
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
-			thermoelectric_plant = 1
+			infrastructure = 5
+			barracks = 1
+			schools = 1
+			offices = 2
+			anti_air_building = 2
+			air_base = 4
+			hydroelectric_plant = 2
+			18145 = {
+				bunker = 6
+			}
+			663 = {
+				bunker = 6
+			}
+			11623 = {
+				bunker = 6
+			}
+			661 = {
+				bunker = 6
+			}
+			18125 = {
+				bunker = 4
+			}
 		}
-		# set_state_flag = state_renamings
+		victory_points = { 18125 20 }
+		victory_points = { 663 8 }
+		victory_points = { 11623 6 }
+		victory_points = { 18145 1 }
+		# add_core_of = SWI
+
 	}
 
 	provinces = {
-		12787 13136 13414 14025 14034 15282 15283 15284 15285 15417 15419 15420 15421 15422
+		18125 663
 	}
-	manpower = 1752600
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }

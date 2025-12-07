@@ -3,22 +3,30 @@ state = {
 	name = "STATE_2305"
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 1
+			barracks = 1
+			infrastructure = 3
+		}
+		# add_core_of = ARG
+		victory_points = {
+			12351 4
 		}
 		victory_points = {
-			4308 1
+			10390 5
 		}
-		# set_state_flag = GDP_regions_sulawesi
+		victory_points = {
+			17500 2
+		}
+
+
 	}
 
 	provinces = {
-		4308 19258 10322 19301 19350
+		10390 12351 17500
 	}
-	manpower = 245351
+	manpower = 295315
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

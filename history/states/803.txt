@@ -1,33 +1,27 @@
 state = {
 	id = 803
 	name = "STATE_803"
-	resources = {
-		rubber = 4
-		tungsten = 2
-	}
 
 	history = {
+		owner = ZZZ # ALB
 		buildings = {
-			infrastructure = 3
 			barracks = 1
-		}
-		owner = ZZZ # MLY
-		# add_core_of = SHO
-		# add_core_of = MLY
-		victory_points = {
-			14701 5
+			infrastructure = 3
 		}
 		victory_points = {
-			12215 1
+			6900 3
 		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = state_renamings
+		victory_points = {
+			914 1
+		}
+		# add_core_of = ALB
+
 	}
 
 	provinces = {
-		1364 1376 4310 7342 12215 14697 14700 14701 14703
+		914 3854 6900 9295 16196 18188
 	}
-	manpower = 1406952
+	manpower = 268561
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

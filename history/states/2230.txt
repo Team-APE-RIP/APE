@@ -2,26 +2,40 @@ state = {
 	id = 2230
 	name = "STATE_2230"
 
-	resources = {
-		rubber = 2
-	}
-
 	history = {
-		owner = KCJ
-		add_core_of = KCJ
-		# add_core_of = THA
-		# add_core_of = KCD
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			6041 = {
+				coastal_bunker = 2
+			}
+			18392 = {
+				coastal_bunker = 2
+			}
+			107 = {
+				coastal_bunker = 2
+			}
+			18416 = {
+				coastal_bunker = 2
+			}
+			9132 = {
+				coastal_bunker = 2
+			}
+			6038 = {
+				coastal_bunker = 2
+			}
 		}
-		# set_state_flag = GDP_regions_thai_cambodia
+		victory_points = {
+			6038 1
+		}
+		owner = ZZZ # NOR
+		# add_core_of = NOR
 	}
 
 	provinces = {
-		12460 12447 13210
+		18416 107 18392 6041 18398 9069 3098 6173 11173 115 9132 6038 11118
 	}
-	manpower = 159492
+	manpower = 116760
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural #due to developed infrastructure
 	local_supplies = 0.000
 }

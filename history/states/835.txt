@@ -1,21 +1,27 @@
 state = {
 	id = 835
 	name = "STATE_835"
+	manpower = 6162
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # HAU
-		# add_core_of = HAU
+		owner = ZZZ
+		#add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			radar_station = 2
+			air_base = 1
+			13028 = {
+				naval_base = 1
+			}
+			13030 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = state_renamings
+		victory_points = { 13028 1 }
 	}
 
 	provinces = {
-		2047 5101 7954 14212
+		13028 13029 13030
 	}
-	manpower = 92000
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

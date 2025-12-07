@@ -1,23 +1,47 @@
-state = { #Population Done
+state = {
 	id = 1505
 	name = "STATE_1505"
-	manpower = 174316
-
-	state_category = rural
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # PER
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			thermoelectric_plant = 2
+			air_base = 1
+			radar_station = 1
+			prisons = 1
+			hospitals = 1
 		}
-		# add_core_of = ARG
-		victory_points = { 12970 3 }
-		victory_points = { 14950 4 }
-		# set_state_flag = GDP_category_town
-		# set_state_flag = GDP_regions_san_juan
+		# add_core_of = PER
+		victory_points = {
+			18802 20
+		}
+		victory_points = {
+			18768 4
+		}
+		victory_points = {
+			18761 3
+		}
+		victory_points = {
+			2026 4
+		}
+		victory_points = {
+			15151 2
+		}
+		victory_points = {
+			4928 1
+		}
+		victory_points = {
+			18747 1
+		}
+
 	}
 
 	provinces = {
-		5152 5219 12970 14918 14944 14949 14950 14955
+		2026 4928 4983 8074 12756 13611 13612 15151 18713 18725 18747 18761 18768 18796 18802
 	}
+	manpower = 1703701
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

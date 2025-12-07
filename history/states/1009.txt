@@ -1,30 +1,20 @@
 state = {
 	id = 1009
 	name = "STATE_1009"
-	resources = {
-		uranium = 4.000
-	}
 
 	history = {
-		owner = ZZZ # IBR
-		# add_claim_by = TRZ
-		# add_core_of = IBR
-		# add_claim_by = MOR
-		victory_points = {
-			14317 1
-		}
+		owner = ZZZ # MLI
+		# add_core_of = MLI
+		victory_points = { 14149 1 }
 		buildings = {
 			infrastructure = 1
 		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_western_sahara
 	}
 
 	provinces = {
-		8035 10779 13219 14317 14320 14343 14361 14365 18007 18034
+		10915 14149 14178 14194
 	}
-	manpower = 12606
+	manpower = 361800
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	state_category = rural
 }

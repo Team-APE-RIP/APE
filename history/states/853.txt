@@ -1,28 +1,21 @@
-state = { #Population Done
+state = {
 	id = 853
 	name = "STATE_853"
-	resources = {
-		tungsten = 7
-		oil = 4
-	}
-	provinces = {
-		1258 1278 12130 10226
-	}
+
 	history = {
-		owner = ZZZ # BKR
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
-			offices = 1
-			barracks = 1
-			schools = 1
-			infrastructure = 2
-			thermoelectric_plant = 2
+			infrastructure = 3
 		}
-		victory_points = { 12130 3 }
-		victory_points = { 1278 25 }
-		# add_core_of = BKR
-		# set_state_flag = state_renamings
 	}
-	manpower = 565000
-	state_category = large_town
+
+	provinces = {
+		1882 10817 10903
+	}
+	manpower = 938101
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+	#impassable = yes
 }

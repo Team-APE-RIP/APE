@@ -3,25 +3,32 @@ state = {
 	name = "STATE_1461"
 
 	resources = {
-		rubber = 11
+		chromium = 8
 	}
 
 	history = {
-		owner = ZZZ # UPH
+		owner = ZZZ # PER
 		buildings = {
-			infrastructure = 2
-			barracks = 1
+			infrastructure = 3
 		}
-		victory_points = { 14738 3 }
-		# add_core_of = UPH
-		# add_core_of = PHI
-		# add_core_of = SPH
-		# set_state_flag = state_renamings
+		# add_core_of = PER
+		victory_points = {
+			15156 3
+		}
+		victory_points = {
+			18817 2
+		}
+		victory_points = {
+			18814 1
+		}
+
 	}
+
 	provinces = {
-		10184 12245 14738
+		1521 7573 10351 15156 18749 18774 18814 18817
 	}
-	manpower = 579719
+	manpower = 334199
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
+	local_supplies = 0.000
 }

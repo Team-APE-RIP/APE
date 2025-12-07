@@ -2,18 +2,23 @@ state = {
 	id = 1212
 	name = "STATE_1212"
 
+	state_category = pastoral
+
 	history = {
-		owner = ZZZ # MDI
-		# add_core_of = MDI
+		owner = ZZZ # OMA
+		# add_core_of = OMA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
+		victory_points = {
+			18581 1
+		}
+
 	}
 
 	provinces = {
-		2094 14046 14059
+		18581 4993
 	}
-	manpower = 637000
+	manpower = 22320
 	buildings_max_level_factor = 1.000
-	state_category = rural
 }

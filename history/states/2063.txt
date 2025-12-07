@@ -1,19 +1,22 @@
 state = {
 	id = 2063
-	name = "STATE_2063" # Peter I Island
-	manpower = 1
-
-	state_category = wasteland
+	name = "STATE_2063"
 
 	history = {
-		owner = ZZZ # NOR
-		# add_core_of = NOR
+		owner = ZZZ # MAD
+		# add_core_of = MAD
 		buildings = {
-			infrastructure = 0
+			air_base = 1
+			infrastructure = 1
 		}
+		victory_points = { 13764 1 }
+
 	}
 
 	provinces = {
-		17758
+		15918 8188 13764 15919 15917
 	}
+	manpower = 280204
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

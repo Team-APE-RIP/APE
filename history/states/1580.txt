@@ -1,25 +1,33 @@
 state = {
 	id = 1580
 	name = "STATE_1580"
-	provinces = {
-		10965 14926 14966 14993 10944
-	}
-	resources = {
-		tungsten = 7
-	}
+	manpower = 4169868
+
+	state_category = large_city
+
 	history = {
-		owner = ZZZ # ARG
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
+			air_base = 2
+			1025 = {
+				naval_base = 6
+			}
+			anti_air_building = 4
+			thermoelectric_plant = 3
+			schools = 2
+			offices = 1
+			hospitals = 2
+			prisons = 2
+			barracks = 1
 		}
-		# add_core_of = ARG
-		victory_points = {
-			10944 1
-		}
-		# set_state_flag = GDP_regions_salta_jujuy
-		# set_state_flag = GDP_category_pastoral
+		victory_points = { 7110 20 }
+		victory_points = { 1025 30 }
+		victory_points = { 4164 10 }
 	}
-	manpower = 61285
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+
+	provinces = {
+		4164 7110 1025
+	}
 }

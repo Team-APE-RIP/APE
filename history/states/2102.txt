@@ -2,35 +2,22 @@ state = {
 	id = 2102
 	name = "STATE_2102"
 
-	resources = {
-		oil = 48
-	}
-
 	history = {
-		owner = ZZZ # INS
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			infrastructure = 3
-			synthetic_refinery = 1
-			offices = 1
-			7463 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
 		victory_points = {
-			7463 1
+			4954 5
 		}
-		victory_points = {
-			19289 1
-		}
-		# add_core_of = INS
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = GDP_regions_riau
+
 	}
 
 	provinces = {
-		1277 7327 7463 19221 19239 19247 19289
+		4954 14107 15559 17901 17905 17915
 	}
-	manpower = 378771
+	manpower = 2020005
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

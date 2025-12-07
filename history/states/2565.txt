@@ -1,33 +1,39 @@
 state = {
 	id = 2565
 	name = "STATE_2565"
+	resources = {
+		oil = 1.000
+	}
+
 	history = {
-		owner = CHI
-		# add_core_of = ZZZ
+		owner = ZZZ # ECU
 		buildings = {
-			infrastructure = 1
+			schools = 1
+			offices = 1
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
+			air_base = 1
 		}
-        victory_points = {
-            19507 3
-        }
-        victory_points = {
-            19610 1
-        }
-        victory_points = {
-            10733 2
-        }
-        victory_points = {
-            9005 9
-        }
+		# add_core_of = ECU
 		victory_points = {
-			1647 7
+			12798 25
+		}
+		victory_points = {
+			11020 10
+		}
+		victory_points = {
+			5051 3
 		}
 	}
+
 	provinces = {
-		1647 19507 10733 19610 19565 9005
+		5051 8075 10888 11020 12798
 	}
-	manpower = 1026811
+	manpower = 2523263
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -2,17 +2,18 @@ state = {
 	id = 2936
 	name = "STATE_2936"
 	history = {
-		owner = ITA
-        add_core_of = ITA
+		owner = ZZZ # KLT
+		# add_core_of = KLT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
+		# add_claim_by = AZH
+		# add_claim_by = IND
 	}
 	provinces = {
-        771
+		5075 8013 12761
 	}
-	manpower = 87721
+	manpower = 44490
+	state_category = wasteland
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -1,28 +1,32 @@
 state = {
 	id = 299
 	name = "STATE_299"
-	manpower = 2463
-
-	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # CAN
-		# add_core_of = CAN
-		# add_claim_by = ENG
-		# add_claim_by = ARG
+		owner = ZZZ # PER
 		buildings = {
-			infrastructure = 1
-			air_base = 3
-			barracks = 1
-			radar_station = 4
-			12960 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			radar_station = 1
+			air_base = 2
 		}
-		victory_points = { # Stanley
-			12960 1
+		# add_core_of = PER
+		victory_points = {
+			12773 10
 		}
-		# set_state_flag = GDP_regions_south_atlantic
+		victory_points = {
+			5098 1
+		}
+		victory_points = {
+			18806 1
+		}
+
 	}
-	provinces = { 12960 }
+
+	provinces = {
+		5098 12773 18762 18806
+	}
+	manpower = 776409
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

@@ -1,27 +1,40 @@
-state = { #Population Done
+state = {
 	id = 568
 	name = "STATE_568"
 	resources = {
-		steel = 23
-		tungsten = 7
-		oil = 8
+		steel = 34.000
+		aluminium = 21.000
+		uranium = 6.000
 	}
+
 	history = {
-		owner = ZZZ # SBA
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			6613 20
+		}
+		victory_points = {
+			3770 10
+		}
+		victory_points = {
+			11593 1
+		}
 		buildings = {
-			infrastructure = 2
-			thermoelectric_plant = 1
 			schools = 1
 			offices = 1
+			infrastructure = 5
+			hydroelectric_plant = 3
+			air_base = 4
 		}
-		victory_points = { 12621 10 }
-		# set_state_flag = GDP_category_town
-		# add_core_of = SBA
+		# add_core_of = FRS
+		# add_claim_by = FFR
 	}
+
 	provinces = {
-		4690 4818 4853 7744 12563 12621 12628 12691
+		6613 17989
 	}
-	manpower = 292000
+	manpower = 1813012
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_city
+	local_supplies = 0.000
 }

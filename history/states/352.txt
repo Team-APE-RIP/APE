@@ -1,25 +1,32 @@
-state = { #Population Done
+state = {
 	id = 352
-	name = "STATE_352" # Van
-	manpower = 389341
-
-	state_category = pastoral
+	name = "STATE_352"
+	resources = {
+		aluminium = 14
+	}
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 16234 3 }
-		victory_points = { 16224 1 }
-		victory_points = { 12318 1 }
+		owner = GUX
+		add_core_of = GUX
 		buildings = {
-			infrastructure = 3
-			prisons = 1
+			infrastructure = 2
 		}
-		# add_core_of = TUR
-		# add_core_of = KUR
-		## set_state_flag = universal_renamings
+		victory_points = {
+			10459 1
+		}
+		victory_points = {
+			19506 3
+		}
+		# set_variable = { china_state_ref = 19 }
+		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		864 6935 12318 16234 16235 16233 16223 16224 13121
+		1625 19568 10459 4077 4628 4085 
 	}
+	manpower = 3231081
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

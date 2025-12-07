@@ -1,27 +1,33 @@
 state = {
 	id = 1420
 	name = "STATE_1420"
+	manpower = 2968257
+
+	state_category = large_city
+
+	resources = {
+		steel = 1
+	}
 
 	history = {
-		owner = ZZZ # MEX
-		# add_core_of = MEX
-		# set_state_flag = has_offshore_island
-		victory_points = {
-			14497 4
-		}
-		victory_points = {
-			14494 1
-		}
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			air_base = 1
+			dockyard = 1
+			thermoelectric_plant = 3 #Added from excess produced by neighbouring state for balancing
+			hydroelectric_plant = 2
+			radar_station = 3
+			schools = 1
+			offices = 1
+			prisons = 1
 		}
+		victory_points = { 7087 20 }
+		victory_points = { 12097 20 }
 	}
 
 	provinces = {
-		1941 14494 14497
+		12097 7087 7157
 	}
-	manpower = 194941
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

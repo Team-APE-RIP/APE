@@ -1,25 +1,18 @@
 state = {
 	id = 1671
 	name = "STATE_1671"
-
 	history = {
-		owner = ZZZ # BOL
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 2
-			barracks = 1
+			infrastructure = 5
 		}
-		# add_core_of = BOL
-		victory_points = {
-			5229 2
-		}
-		# set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		5229 15274 17504 17516
+	    12076
 	}
-	manpower = 146700
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

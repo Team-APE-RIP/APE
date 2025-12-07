@@ -5,22 +5,25 @@ state = {
 	history = {
 		owner = ZZZ # PER
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		# add_core_of = PER
 		victory_points = {
-			18799 2
+			8093 3
 		}
 		victory_points = {
-			8009 1
+			18727 3
 		}
-		# set_state_flag = GDP_category_large_town
+		victory_points = {
+			18723 1
+		}
+
 	}
 
 	provinces = {
-		7990 8009 10759 10873 10890 12739 12852 13609 13613 15157 15158 18700 18792 18799
+		8093 11671 12704 12748 18723 18724 18727 18730 18732 18734 18742
 	}
-	manpower = 208639
+	manpower = 332362
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

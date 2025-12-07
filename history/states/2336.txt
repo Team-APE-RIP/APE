@@ -1,28 +1,34 @@
 state = {
 	id = 2336
 	name = "STATE_2336"
+	resources = {
+		chromium = 8.000
+		aluminium = 6.000
+	}
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			17053 14
+		}
+		victory_points = {
+			16993 3
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			19728 4
-		}
-		victory_points = {
-			9944 3
-		}
-		# set_state_flag = GDP_regions_zhejiang_ouhai
-		# set_variable = { china_state_ref = 5 }
-		# set_variable = { china_region_ref = 0 }
+		add_extra_state_shared_building_slots = 1
+
+		# set_variable = { china_state_ref = 39 }
+		# set_variable = { china_region_ref = 5 }
+
 	}
 
 	provinces = {
-		7174 19728 1125
+		4295 10257 16993 17053 19703 19663
 	}
-	manpower = 2463640
+	manpower = 2611936
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

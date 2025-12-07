@@ -1,47 +1,66 @@
 state = {
 	id = 364
 	name = "STATE_364"
+	resources = {
+		steel = 112.000
+	}
 
 	history = {
 		owner = ZZZ # USA
 		buildings = {
 			hospitals = 1
-			prisons = 3
+			prisons = 1
 			offices = 1
-			barracks = 1
+			radar_station = 1
 			infrastructure = 5
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			7202 = {
-				naval_base = 2
-			}
+			thermoelectric_plant = 4
+			hydroelectric_plant = 2
+			air_base = 4
 		}
 		# add_core_of = USA
-		victory_points = { # Charleston
-			7202 10
+		victory_points = { # Detroit
+			6710 40
 		}
-		victory_points = { # Columbia
-			7012 5
+		victory_points = { # Flint
+			11669 10
 		}
-		victory_points = { # Greenville
-			4653 3
+		victory_points = { # Lansing
+			6769 5
 		}
-		victory_points = { # Myrtle Beach
-			11927 3
+		victory_points = { # Battle Creek
+			9684 1
 		}
-		victory_points = { # Rock Hill
-			4491 1
+		victory_points = { # Kalamazoo
+			11685 3
 		}
-		victory_points = { # Orangeburg
-			10029 1
+		victory_points = { # Grand Rapids
+			11714 10
+		}
+		victory_points = { # Marquette
+			4854 1
+		}
+		victory_points = { # Traverse City
+			7420 1
+		}
+		victory_points = { # Alpena
+			10303 1
+		}
+		victory_points = { # Escanaba
+			709 1
+		}
+		victory_points = { # Ann Arbor
+			11656 5
+		}
+		victory_points = { # Mount Pleasant
+			3766 1
 		}
 	}
 
 	provinces = {
-		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 17298
+		691 695 709 751 3766 4854 5205 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731
 	}
-	manpower = 2430200
+	manpower = 7873600
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = metropolis
 	local_supplies = 0.000
 }

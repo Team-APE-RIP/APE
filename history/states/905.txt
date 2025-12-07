@@ -1,27 +1,32 @@
 state = {
 	id = 905
 	name = "STATE_905"
-
 	history = {
-		owner = XIK
-		add_core_of = XIK
+		owner = CHI
+		# add_core_of = ZZZ
 		buildings = {
-			barracks = 1
-			infrastructure = 2
+			infrastructure = 1
 		}
+        victory_points = {
+            19507 3
+        }
+        victory_points = {
+            19610 1
+        }
+        victory_points = {
+            10733 2
+        }
+        victory_points = {
+            9005 9
+        }
 		victory_points = {
-			10841 7
+			1647 7
 		}
-		# set_variable = { china_state_ref = 21 }
-		# set_variable = { china_region_ref = 2 }
-		# set_state_flag = state_renamings
-		## set_state_flag = GDP_category_rural
 	}
-
 	provinces = {
-		8503 10841 19646 8532
+		1647 19507 10733 19610 19565 9005
 	}
-	manpower = 867170
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

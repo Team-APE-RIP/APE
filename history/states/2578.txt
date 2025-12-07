@@ -1,20 +1,28 @@
 state = {
 	id = 2578
 	name = "STATE_2578"
+
+	resources = {
+		oil = 4
+		steel = 2
+	}
+
 	history = {
-		owner = XIN
-		add_core_of = XIN
+		owner = ZZZ # SLG
+		# add_core_of = ALG
+		# add_core_of = SLG
+		# add_claim_by = FRS
+		victory_points = { 14386 1 }
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = { 19412 1 }
+
 	}
-		
+
 	provinces = {
-		19389 19412 19423 19403 19410 19422 19392
+		1958 8088 14386 14404 14422 18011 18006
 	}
-	manpower = 1026811
+	manpower = 19827
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = wasteland
 }

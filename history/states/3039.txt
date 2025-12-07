@@ -1,18 +1,31 @@
 state = {
 	id = 3039
 	name = "STATE_3039"
+
+	resources = {
+		chromium = 4
+		uranium = 4
+	}
+
 	history = {
-		owner = PGS
-		add_core_of = PGS
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 3
+			barracks = 2
+			air_base = 2
+			hospitals = 1
+			prisons = 1
+			offices = 2
+			infrastructure = 4
+			thermoelectric_plant = 3
 		}
+		victory_points = { 13751 20 }
 	}
+
 	provinces = {
-        3926 3886
+		13751 13773
 	}
-	manpower = 87721
+	manpower = 617499
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

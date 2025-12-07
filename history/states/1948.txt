@@ -1,24 +1,17 @@
 state = {
 	id = 1948
 	name = "STATE_1948"
-
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			5157 10
-		}
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
 			infrastructure = 1
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
 	}
-
 	provinces = {
-		3989 5157 13485 18872
+	    7238 7347
 	}
-	manpower = 2166490
+	manpower = 1087721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

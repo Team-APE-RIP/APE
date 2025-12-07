@@ -1,23 +1,39 @@
 state = {
 	id = 1208
 	name = "STATE_1208"
+
+	manpower = 5032055
+	state_category = metropolis
 	resources = {
-		oil = 4.000
+		steel = 46
 	}
 
 	history = {
-		owner = ZZZ # FFR
-		# add_core_of = FFR
+		owner = MAN
+		# add_core_of = MAN
+
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			radar_station = 1
+			air_base = 6
+			schools = 2
+			offices = 1
+			hospitals = 2
+			barracks = 2
+			prisons = 2
+			thermoelectric_plant = 3
 		}
+		add_extra_state_shared_building_slots = 2
+
+		victory_points = { 11771 50 }
+		# set_variable = { china_state_ref = 44 }
+		# set_variable = { china_region_ref = 6 }
+		# set_variable = { china_city_ref = 1 }
+
+
 	}
 
 	provinces = {
-		9125 14077 14083 14427 15287 15293 15295 15298
+		11771
 	}
-	manpower = 329000
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

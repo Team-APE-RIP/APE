@@ -7,19 +7,19 @@ state = {
 		# add_core_of = SER
 		buildings = {
 			infrastructure = 3
-			offices = 1
-			barracks = 1
+			air_base = 2
+			prisons = 1
 		}
-		victory_points = { 15650 1 }
-		victory_points = { 18168 2 }
-		victory_points = { 18152 1 }
-		# set_state_flag = universal_renamings
+		victory_points = { 18156 6 }
+		victory_points = { 6953 2 }
+		victory_points = { 6970 3 }
+
 	}
 
 	provinces = {
-		15653 18152 15650 18168 15649
+		6970 3984 18156 6953
 	}
-	manpower = 506096
+	manpower = 499296
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 }

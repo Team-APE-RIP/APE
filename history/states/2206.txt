@@ -1,31 +1,31 @@
 state = {
 	id = 2206
 	name = "STATE_2206"
+
 	resources = {
+		steel = 22
+		power = 1
 	}
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
+		owner = ZZZ # ENG
+		victory_points = { 9297 30 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
+			offices = 2
+			schools = 1
 			barracks = 1
+			hospitals = 1
+			prisons = 1
+			thermoelectric_plant = 3
 		}
-		victory_points = {
-			16026 20
-		}
-		victory_points = {
-			8007 2
-		}
-		# set_state_flag = GDP_regions_punjab
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		16026 8007 18917
+		9297
 	}
-	manpower = 2725955
+	manpower = 1107187
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = city
 }

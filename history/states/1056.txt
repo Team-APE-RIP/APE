@@ -1,23 +1,18 @@
 state = {
 	id = 1056
 	name = "STATE_1056"
-
-	resources = {
-		uranium = 8
-	}
-
 	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		# # set_state_flag = universal_renamings
-
-		victory_points = { 13844 2 }
+		owner = KTL
+		add_core_of = KTL
+		buildings = {
+			infrastructure = 1
+		}
 	}
-
 	provinces = {
-		1516 13836 13837 13844 13850
+	    19123
 	}
-	manpower = 543659
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

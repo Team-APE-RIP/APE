@@ -3,20 +3,26 @@ state = {
 	name = "STATE_1141"
 
 	history = {
-		owner = ZZZ # ITA
+		owner = ZZZ # GRO
 		buildings = {
-			infrastructure = 1
+			prisons = 3
+			infrastructure = 2
+			radar_station = 2
+			13879 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = LBA
-		# add_core_of = ITA
-		# set_state_flag = GDP_regions_libya
+		add_extra_state_shared_building_slots = 2
+		# add_core_of = GRO
+		victory_points = { 13879 10 }
+		victory_points = { 13888 1 }
+
 	}
 
 	provinces = {
-		14336 14360 14367 14373 14377 14394 17972
+		13879 13888
 	}
-	manpower = 6044
+	manpower = 274411
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	state_category = small_island
 }

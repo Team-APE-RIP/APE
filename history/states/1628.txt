@@ -1,35 +1,18 @@
 state = {
 	id = 1628
 	name = "STATE_1628"
-
 	history = {
-		owner = ZZZ # ARG
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 3
-			barracks = 1
-			offices = 1
-			schools = 1
-			air_base = 1
-			dockyard = 2
-			15257 = {
-				naval_base = 3
-				bunker = 1
-				coastal_bunker = 1
-			}
+			infrastructure = 3
 		}
-		# add_core_of = ARG
-		victory_points = {
-			15257 5
-		}
-		# set_state_flag = GDP_regions_la_plata
-		# set_state_flag = GDP_category_city
 	}
-
 	provinces = {
-		15257
+        6907 874 6867 9770
 	}
-	manpower = 1320526
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

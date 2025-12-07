@@ -1,18 +1,47 @@
 state = {
 	id = 2911
 	name = "STATE_2911"
+	resources = {
+		steel = 56.000
+		aluminium = 11.000
+	}
+
 	history = {
-		owner = DMK
-        add_core_of = DMK
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			prisons = 1
+			offices = 1
+			thermoelectric_plant = 3
+			infrastructure = 5
+			11420 = {
+				coastal_bunker = 3
+			}
 		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		# set_demilitarized_zone = yes
+		victory_points = {
+			9561 1
+		}
+		victory_points = {
+			6585 1
+		}
+		victory_points = {
+			3476 10
+		}
+		victory_points = {
+			11549 1
+		}
+
 	}
+
 	provinces = {
-        8335 3305
+		6585 9561 20025 20026 20027
 	}
-	manpower = 87721
+	manpower = 1346798
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

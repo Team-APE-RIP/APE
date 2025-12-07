@@ -1,34 +1,28 @@
 state = {
 	id = 172
 	name = "STATE_172"
-	resources = {
-		steel = 5.000
-	}
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = {
-			11688 10
-		}
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_core_of = IND
 		buildings = {
-			hospitals = 1
-			infrastructure = 4
-			thermoelectric_plant = 1
-			11688 = {
-				naval_base = 2
-			}
-			air_base = 1
+			infrastructure = 3
 		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_city
+		victory_points = {
+			8106 10
+		}
+		victory_points = {
+			16030 2
+		}
+
 	}
 
 	provinces = {
-		9703 11688
+		8106 13229 15997 16030 18899
 	}
-	manpower = 434506
+	manpower = 2131698
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

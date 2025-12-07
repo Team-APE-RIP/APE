@@ -1,37 +1,21 @@
 state = {
 	id = 1094
 	name = "STATE_1094"
-	resources = {
-		uranium = 1.000
-	}
+	manpower = 15
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
+		owner = ZZZ # AAF
+		# add_core_of = AAF
 		buildings = {
 			infrastructure = 1
-			air_base = 1
-			12941 = {
-				naval_base = 2
+			16457 = {
+				naval_base = 1
 			}
 		}
-		victory_points = {
-			13959 3
-		}
-		victory_points = {
-			13975 5
-		}
-		victory_points = {
-			13940 3
-		}
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		2066 8133 8164 11014 12941 13927 13938 13940 13948 13949 13953 13959 13969 13975 15533 15536 17884 17886
+		16457
 	}
-	manpower = 1243923
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

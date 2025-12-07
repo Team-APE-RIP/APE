@@ -1,30 +1,42 @@
 state = {
 	id = 2470
 	name = "STATE_2470"
+	resources = {
+		steel = 4.000
+		tungsten = 2.000
+		aluminium = 4.000
+	}
 
 	history = {
-		owner = ZZZ # CAN
-		# add_core_of = CAN
-		# set_state_flag = GDP_regions_northwest_territories
-		# set_state_flag = GDP_category_town
-		victory_points = { # Cambridge Bay
-			16853 1
+		owner = ZZZ # KYR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			offices = 1
+			prisons = 1
+			thermoelectric_plant = 1
 		}
-		victory_points = { # Grise Fiord
-			16865 1
+		victory_points = {
+			12583 10
 		}
-		victory_points = { # Arctic Bay
-			16862 1
+		victory_points = {
+			18683 3
 		}
-	}
+		victory_points = {
+			7706 1
+		}
+		victory_points = {
+			18675 2
+		}
+		# add_core_of = KYR
 
-	impassable = yes
+	}
 
 	provinces = {
-		16853 16862 16865 17212
+		7706 12583 13266 18645 18650 18657 18675 18683
 	}
-	manpower = 110
+	manpower = 941093
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = large_town
 	local_supplies = 0.000
 }

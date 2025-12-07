@@ -1,49 +1,22 @@
 state = {
 	id = 173
 	name = "STATE_173"
-	resources = {
-		steel = 16.000
-	}
 
 	history = {
-		
-		owner = IPC
-		add_core_of = IPC
-		victory_points = {
-			9979 15
-		}
-		victory_points = {
-			1176 10
-		}
-		victory_points = {
-			7068 3
-		}
-		victory_points = {
-			7153 3
-		}
-		victory_points = {
-			10063 2
-		}
+		owner = ZZZ # AZH
+		# add_core_of = AZH
+		# add_claim_by = IND
 		buildings = {
-			offices = 1
-			schools = 1
-			infrastructure = 5
-			hydroelectric_plant = 1
-			thermoelectric_plant = 2
-			air_base = 4
-			9979 = {
-				naval_base = 2
-			}
+			infrastructure = 1
 		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_town
+
 	}
 
 	provinces = {
-		9979
+		16123 18843 18856 18857
 	}
-	manpower = 1567364
+	manpower = 104205
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
 	local_supplies = 0.000
 }

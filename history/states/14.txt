@@ -1,27 +1,25 @@
-state = { #Population Done
+state = {
 	id = 14
-	name = "STATE_14"
+	name = "STATE_14" # Maudheim
+	manpower = 1
+
+	state_category = wasteland
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = { 3552 5 }
+		owner = ZZZ # AAB
+		# add_core_of = AAB
+		# add_core_of = AAG
+		# add_core_of = AAV
+		victory_points = { 17772 3 }
 		buildings = {
-			infrastructure = 5
-			radar_station = 2
-			3552 = {
-				naval_base = 10
-				coastal_bunker = 2
+			infrastructure = 2
+			17772 = {
+				naval_base = 1
 			}
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
 	}
 
 	provinces = {
-		542  20038 20039
+		17772
 	}
-	manpower = 749558
-	buildings_max_level_factor = 1.000
-	state_category = city
 }

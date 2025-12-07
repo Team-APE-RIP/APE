@@ -1,28 +1,49 @@
 state = {
 	id = 2219
 	name = "STATE_2219"
-	resources = {
-		tungsten = 2
-		aluminium = 2
-	}
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
-		buildings = {
-			infrastructure = 1
+		owner = HBG
+		add_core_of = HBG
+		# add_core_of = GER
+		victory_points = {
+			6389 15
 		}
 		victory_points = {
-			7559 1
+			18132 7
 		}
-		# set_state_flag = GDP_regions_north_thailand
+		victory_points = {
+			11331 10
+		}
+		buildings = {
+			barracks = 1
+			prisons = 1
+			infrastructure = 5
+			dockyard = 3
+			air_base = 5
+			enrichment_plant = 1
+			missile_silo = 1
+			thermoelectric_plant = 3
+			6389 = {
+				naval_base = 8
+			}
+			3368 = {
+				coastal_bunker = 2
+			}
+			3231 = {
+				coastal_bunker = 2
+			}
+			11366 = {
+				coastal_bunker = 2
+			}
+		}
 	}
 
 	provinces = {
-		7312 7559
+		6218 9320
 	}
-	manpower = 290466
+	manpower = 2309409
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

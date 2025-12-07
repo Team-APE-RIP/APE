@@ -1,18 +1,20 @@
-state = {
+state = { #Population Done
 	id = 2730
 	name = "STATE_2730"
+	manpower = 666746
+
+	state_category = wasteland
+
 	history = {
-		owner = BHM
-        add_core_of = BHM
+		owner = ZZZ # HAI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			1635 = { naval_base = 2 }
 		}
+
+		# add_core_of = HAI
 	}
 	provinces = {
-        6418 6501 11545 18129
+		15644 1635 15645
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

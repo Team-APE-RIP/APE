@@ -1,35 +1,26 @@
 state = {
 	id = 656
 	name = "STATE_656"
-	resources = {
-		oil = 89.000
+	provinces = {
+		13705
 	}
-
 	history = {
-		owner = ZZZ # IRQ
-		# add_core_of = KUW
-		# add_core_of = IRQ
-		victory_points = {
-			8085 20
-		}
+		owner = ZZZ # MAD
+		# add_core_of = MAD
+
+		victory_points = { 13705 20 }
+		add_extra_state_shared_building_slots = 1
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			dockyard = 3
-			thermoelectric_plant = 4
-			8085 = {
-				naval_base = 4
-			}
+			barracks = 1
+			air_base = 2
+			schools = 1
+			hospitals = 1
+			offices = 2
 		}
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = state_renamings
 	}
 
-	provinces = {
-		8085 16317 16318 18455
-	}
-	manpower = 338296
+	manpower = 721891
 	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
+	state_category = large_town
 }

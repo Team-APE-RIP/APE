@@ -2,23 +2,31 @@ state = {
 	id = 2003
 	name = "STATE_2003"
 
+	resources = {
+		steel = 4
+	}
+
 	history = {
-		owner = ZZZ # ENG
-		victory_points = { 9285 7 }
-		victory_points = { 6399 1 }
-		buildings = {
-			infrastructure = 4
-			nuclear_reactor = 1
-			thermoelectric_plant = 1
+		owner = ZZZ # EGY
+		# add_core_of = EGY
+		victory_points = {
+			2003 10
 		}
-		# add_core_of = ENG
-		# set_state_flag = GDP_category_town
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			2003 = {
+				naval_base = 3
+			}
+		}
+
 	}
 
 	provinces = {
-		9285 11332 16372 16346 6399 16347
+		2003 2046 7989 10902 12725 14233 14252 14261 14280 14303 14309
 	}
-	manpower = 473706
+	manpower = 364673
 	buildings_max_level_factor = 1.000
 	state_category = rural
+	local_supplies = 0.000
 }

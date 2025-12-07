@@ -1,19 +1,18 @@
 state = {
 	id = 1875
 	name = "STATE_1875"
-
-	state_category = wasteland
-	impassable = yes
-
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
-		# set_state_flag = state_renamings
+		owner = DMK
+        add_core_of = DMK
+		buildings = {
+			infrastructure = 3
+		}
 	}
-
 	provinces = {
-		15899
+        3341 316
 	}
-	manpower = 21292
+	manpower = 87721
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

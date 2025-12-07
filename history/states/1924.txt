@@ -3,29 +3,34 @@ state = {
 	name = "STATE_1924"
 
 	history = {
-		owner = ZZZ # AZH
+		owner = ZZZ # MCW
 		victory_points = {
-			7475 4
+			3465 1
 		}
 		victory_points = {
-			13222 2
+			11551 1
 		}
 		victory_points = {
-			18940 1
+			9326 2
+		}
+		victory_points = {
+			326 5
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			radar_station = 2
+			prisons = 1
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_bihar
+		# add_core_of = MCW
+
+
 	}
 
 	provinces = {
-		1656 7475 13222 18940
+		326 353 433 3304 3316 3343 3426 3465 6328 6366 6492 9326 9352 9460 9564 11308 11408 11449 11551 18302
 	}
-	manpower = 4976969
+	manpower = 1226223
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

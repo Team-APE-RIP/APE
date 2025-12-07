@@ -1,29 +1,28 @@
 state = {
 	id = 1363
 	name = "STATE_1363"
+	manpower = 163478
+
+	state_category = rural
 
 	history = {
-		owner = ZZZ # PER
+		owner = ZZZ # PAR
+		# add_core_of = PAR
+		victory_points = { 15265 7 }
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
+			infrastructure = 3
+			air_base = 3
 			barracks = 1
+			schools = 1
+			offices = 1
 		}
-		victory_points = {
-			7602 5
-		}
-		victory_points = {
-			18739 4
-		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = PER
+
+
+
 	}
 
 	provinces = {
-		7602 15143 18739 18754 18779 18789 18791 18811
+		15266 15265
 	}
-	manpower = 507101
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+
 }

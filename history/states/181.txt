@@ -1,29 +1,52 @@
-state = { #Population Done
+state = {
 	id = 181
 	name = "STATE_181"
-	manpower = 747726
-
-	state_category = town
 
 	resources = {
-		tungsten = 200
-		uranium = 7
+		steel = 8
 	}
+
 	history = {
-		owner = PGS
-		add_core_of = PGS
 		buildings = {
+			infrastructure = 5
+			air_base = 6
+			prisons = 1
+			offices = 1
 			barracks = 1
-			infrastructure = 4
+			schools = 1
+			53 = {
+				coastal_bunker = 2
+				naval_base = 6
+			}
+			3192 = {
+				coastal_bunker = 2
+			}
+			18402 = {
+				coastal_bunker = 2
+			}
+			137 = {
+				coastal_bunker = 2
+			}
+			6176 = {
+				coastal_bunker = 2
+			}
 		}
 
-		# add_core_of = IBR
-		victory_points = { 9787 4 }
-		victory_points = { 938 3 }
-		# set_state_flag = GDP_regions_portugal
+		victory_points = {
+			3192 2
+		}
+		victory_points = {
+			53 5
+		}
+		owner = ZZZ # NOR
+		# add_core_of = NOR
 	}
 
 	provinces = {
-		9787 889
+		53 6176 137 18402 3192
 	}
+	manpower = 239052
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

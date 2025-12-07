@@ -2,27 +2,22 @@ state = {
 	id = 1744
 	name = "STATE_1744"
 
-	resources = {
-		steel = 4
-	}
-
 	history = {
-		owner = GUX
-		# add_core_of = VIN
-		# add_core_of = VIC
-		buildings = {
-			infrastructure = 3
-			barracks = 1
+		owner = IRL
+		add_core_of = IRL
+		victory_points = {
+			11267 1
 		}
-		victory_points = { 12048 5 }
-		victory_points = { 19086 1 }
-		# set_state_flag = GDP_category_rural
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = IRE
 	}
 
 	provinces = {
-		7015 12048 19065 19086
+		11267 9310
 	}
-	manpower = 2084739
+	manpower = 123822
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

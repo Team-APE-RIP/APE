@@ -2,33 +2,26 @@ state = {
 	id = 1035
 	name = "STATE_1035"
 	resources = {
-		steel = 3
+		oil = 7.000
 	}
 
 	history = {
-		owner = ZZZ # ANG
-		# add_core_of = ANG
+		owner = ZZZ # ORE
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-			8248 = {
-				naval_base = 5
-			}
-			dockyard = 1
-			offices = 2
-			schools = 2
-			hospitals = 2
-			prisons = 1
-			thermoelectric_plant = 1
-			anti_air_building = 3
+			infrastructure = 2
+			hospitals = 1
 		}
-		victory_points = { 8248 15 }
+		victory_points = {
+			9420 1
+		}
+		# add_core_of = ORE
 	}
 
 	provinces = {
-		8248
+		227 1350 3265 3330 3385 4324 6379 6515 9420 10299 11256 11433 13300 13305
 	}
-	manpower = 834721
+	manpower = 209000
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

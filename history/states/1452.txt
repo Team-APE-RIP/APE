@@ -2,31 +2,32 @@ state = {
 	id = 1452
 	name = "STATE_1452"
 
-	resources = {
-		steel = 8
-	}
-
 	history = {
-		owner = GUX
-		# add_core_of = VIN
-		# add_core_of = VIC
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-			dockyard = 1
-			offices = 1
-			19084 = {
-				naval_base = 3
-			}
+			infrastructure = 2
 		}
-		victory_points = { 19084 10 }
-		victory_points = { 19013 1 }
+		
+		victory_points = {
+			7104 1
+		}
+		victory_points = {
+			19498 4
+		}
+		victory_points = {
+			19928 2
+		}
+
+		# set_variable = { china_state_ref = 6 }
+		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		19084 1157 19013 4119
+		7104 19449 19498 19928 11937 19494
 	}
-	manpower = 2246610
+	manpower = 1507034
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
+	local_supplies = 0.000
 }

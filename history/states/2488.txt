@@ -1,25 +1,32 @@
-state = {
+state = { #Population Done
 	id = 2488
 	name = "STATE_2488"
-	manpower = 78
-	state_category = tiny_island
+	resources = {
+		tungsten = 11
+		steel = 5
+		oil = 7
+	}
+
 	history = {
-		owner = ZZZ
-		#add_core_of = JAP
-		# set_state_flag = state_renamings
+		owner = ZZZ # GAY
 		buildings = {
-			infrastructure = 1
-			air_base = 2
-			barracks = 1
-			radar_station = 3
-			19951 = {
-				naval_base = 1
-			}
+			schools = 1
+			offices = 1
+			hospitals = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		# set_variable = { china_state_ref = 36 }
-		# set_variable = { china_region_ref = 4 }
+		add_extra_state_shared_building_slots = 1
+		victory_points = { 12187 3 }
+		victory_points = { 12527 5 }
+		# add_core_of = GAY
 	}
+
 	provinces = {
-		19951
+		278 4874 10216 12187 12527
 	}
+	manpower = 265144
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

@@ -2,41 +2,23 @@ state = {
 	id = 776
 	name = "STATE_776"
 
-	manpower = 3259123
-	state_category = large_city
+	resources = {
+		power = 1
+	}
 
 	history = {
-		owner = CTB
-		add_core_of = CTB
-		# add_core_of = GER
-
-		victory_points = {
-			11415 8
-		}
-		victory_points = {
-			9496 6
-		}
-		victory_points = {
-			6236 5
-		}
-		victory_points = {
-			11219 3
-		}
-
+		owner = ZZZ # ENG
+		victory_points = { 3205 8 }
 		buildings = {
-			barracks = 1
-			schools = 1
-			offices = 2
-			prisons = 1
-			infrastructure = 6
-			radar_station = 2
-			air_base = 6
-			anti_air_building = 3
-			thermoelectric_plant = 3
+			infrastructure = 5
 		}
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		11415 
+		3205 16341
 	}
+	manpower = 1135023
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

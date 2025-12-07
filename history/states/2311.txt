@@ -1,25 +1,26 @@
 state = {
 	id = 2311
 	name = "STATE_2311"
+	resources = {
+		tungsten = 6
+	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # ENG
+		victory_points = { 6526 1 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
 		}
-		victory_points = {
-			19265 1
-		}
-		# set_state_flag = GDP_regions_sulawesi
+
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		1505 4493 19265 4211
+		540 6526
 	}
-	manpower = 138098
+
+	manpower = 437085
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

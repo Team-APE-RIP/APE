@@ -1,33 +1,17 @@
 state = {
 	id = 2389
 	name = "STATE_2389"
-
 	history = {
-		owner = QDN
-		add_core_of = QDN
-		add_core_of = NAL
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			barracks = 1
 		}
-		
-		
-		victory_points = {
-			19523 2
-		}
-		victory_points = {
-			7665 6
-		}
-		# set_variable = { china_state_ref = 18 }
-		# set_variable = { china_region_ref = 2 }
-		## set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		7665 19523 4480
+        813 948
 	}
-	manpower = 3053893
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

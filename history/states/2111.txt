@@ -1,30 +1,25 @@
-state = {
+state = { #Population Done
 	id = 2111
 	name = "STATE_2111"
+	manpower = 124747
+
+	state_category = pastoral
+
+	resources = {
+		aluminium = 1
+	}
 
 	history = {
-		owner = ZZZ # ITA
-		# add_core_of = ITA
-		victory_points = { 17987 4 }
+		owner = ZZZ # CRO
 		buildings = {
-			barracks = 1
-			infrastructure = 4
-			11595 = {
-				bunker = 5
-			}
-			17987 = {
-				bunker = 5
-			}
+			infrastructure = 2
 		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_veneto
-		# set_state_flag = GDP_category_large_town
+		victory_points = { 18175 2 }
+		# add_core_of = CRO
+
 	}
 
 	provinces = {
-		11595 17987
+		15615 6611 18175
 	}
-	manpower = 229022
-	buildings_max_level_factor = 1.000
-	state_category = rural
 }

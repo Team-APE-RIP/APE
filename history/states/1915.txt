@@ -1,26 +1,19 @@
 state = {
 	id = 1915
 	name = "STATE_1915"
-
-
 	history = {
-		owner = ZZZ # IND
-		victory_points = { 12829 10 }
-		victory_points = { 16057 2 }
-		victory_points = { 16065 1 }
-		victory_points = { 4149 4 }
+		owner = WTB
+		add_core_of = WTB
 		buildings = {
 			infrastructure = 3
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_rajasthan
+		victory_points = { 15845 8 }
 	}
-
 	provinces = {
-		16057 16065 12829 13481 16056 4149
+        15845 6555
 	}
-	manpower = 3054425
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

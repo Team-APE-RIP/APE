@@ -3,22 +3,39 @@ state = {
 	name = "STATE_287"
 
 	history = {
-		owner = DRV
-		add_core_of = DRV
-		# add_core_of = VIN
-		# add_core_of = VIC
-		# set_demilitarized_zone = yes
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # MCW
+		victory_points = {
+			11418 5
 		}
-		victory_points = { 19048 1 }
+		victory_points = {
+			11450 10
+		}
+		victory_points = {
+			3519 2
+		}
+		victory_points = {
+			484 2
+		}
+		victory_points = {
+			15687 2
+		}
+		victory_points = {
+			3489 2
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		# add_core_of = MCW
+
 	}
 
 	provinces = {
-		10075 12075 12319 19048 19074 19018 19083
+		449 484 500 509 3431 3478 3489 3519 3540 6544 6566 9488 9516 9565 11418 11450 11459 11476 15687 18304 18326 18353
 	}
-	manpower = 797040
+	manpower = 1738493
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -1,32 +1,35 @@
 state = {
 	id = 508
 	name = "STATE_508"
-	resources = {
-		tungsten = 8.000
-	}
 
 	history = {
-		owner = ZZZ # ARG
+		owner = CHI
+		# add_core_of = CHI
+
 		buildings = {
-			infrastructure = 2
-			prisons = 1
+			schools = 2
 			offices = 1
-			schools = 1
+			hospitals = 1
+			prisons = 1
+			barracks = 1
+			infrastructure = 5
+			air_base = 3
+			thermoelectric_plant = 2
 		}
-		# add_core_of = ARG
-		victory_points = {
-			8216 15
-		}
-		victory_points = {
-			17510 1
-		}
+		victory_points = { 9843 42 }
+		# set_variable = { china_state_ref = 7 }
+		# set_variable = { china_region_ref = 1 }
+		# set_variable = { china_city_ref = 1 }
+	}
+
+	resources = {
+		steel = 18
 	}
 
 	provinces = {
-		8216 17485 17510
+		9843 19772
 	}
-	manpower = 773972
+	manpower = 3374358
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = city
 }

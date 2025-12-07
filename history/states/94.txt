@@ -1,26 +1,25 @@
 state = {
 	id = 94
 	name = "STATE_94"
-
-	history = {
-		owner = ZZZ # GER
-		# add_core_of = GER
-		victory_points = {
-			21 5
-		}
-		buildings = {
-			infrastructure = 5
-			offices = 1
-			air_base = 1
-			21 = {
-				naval_base = 6
-				coastal_bunker = 4
-			}
-		}
+	resources = {
+		tungsten = 2
 	}
 
-	provinces = { 21 }
-	manpower = 34126
+	history = {
+		owner = KTL
+		add_core_of = KTL
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 12131 1 }
+
+	}
+
+	provinces = {
+		12131
+	}
+	manpower = 314133
 	buildings_max_level_factor = 1.000
-	state_category = enclave
+	state_category = pastoral
+	local_supplies = 0.000
 }

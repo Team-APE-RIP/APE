@@ -1,26 +1,19 @@
 state = {
 	id = 2171
 	name = "STATE_2171"
-
-	resources = {
-		oil = 4
-	}
-
 	history = {
-		owner = ZZZ # GUL
-		# add_core_of = UAE
-		# add_core_of = GUL
+		owner = ZZZ # ZZZ
+		victory_points = { 15177 5 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		18558
+		15177
 	}
-	manpower = 10657
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	manpower = 14
+	buildings_max_level_factor = 2.000
+	state_category = tiny_island
+	impassable = yes
 }

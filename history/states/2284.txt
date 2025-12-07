@@ -3,26 +3,26 @@ state = {
 	name = "STATE_2284"
 
 	resources = {
-		oil = 8
+		chromium = 8
 	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # ENG
+		victory_points = { 9332 10 }
+		victory_points = { 16369 15 }
+		victory_points = { 11317 6 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			thermoelectric_plant = 2
+			schools = 1
 		}
-		victory_points = {
-			15661 1
-		}
-		# set_state_flag = GDP_regions_east_west_java
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		15661 12249 19342
+		9332 11317 16348 16369
 	}
-	manpower = 1458576
+	manpower = 890397
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = city
 }

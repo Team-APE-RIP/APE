@@ -1,26 +1,31 @@
 state = {
 	id = 1681
 	name = "STATE_1681"
-	resources = {
-	}
-
-	state_category = rural
 
 	history = {
-		owner = ZZZ # PRU
+		owner = ZZZ # VEN
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			thermoelectric_plant = 1
+			offices = 2
+			hospitals = 1
+			schools = 2
+			barracks = 2
+			prisons = 1
+			infrastructure = 4
 		}
-		# add_core_of = PRU
+		add_extra_state_shared_building_slots = 2
+		# add_core_of = VEN
 		victory_points = {
-			15463 9
+			17371 5
 		}
+
 	}
 
 	provinces = {
-		15463
+		8048 9611 10855 17371
 	}
-	manpower = 353657
+	manpower = 765460
 	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

@@ -1,18 +1,22 @@
-state = {
+state = { #Population Done
 	id = 2813
 	name = "STATE_2813"
+	manpower = 920173
+
+	state_category = rural
+
 	history = {
-		owner = SWS
-        add_core_of = SWS
+		owner = ZZZ # HUN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+		}
+		# add_core_of = HUN
+		victory_points = {
+			3548 2
 		}
 	}
+
 	provinces = {
-        3641
+		3548 6571 9563 11536 11691
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

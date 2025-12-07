@@ -1,32 +1,29 @@
 state = {
 	id = 890
-	name = "STATE_890"
-	resources = {
-		steel = 4.000
-	}
+	name = "STATE_890" # Mendoza
+	manpower = 527383
+
+	state_category = town
 
 	history = {
-		owner = ZZZ # IRK
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			thermoelectric_plant = 1
+			barracks = 2
+			schools = 1
+			offices = 1
+			prisons = 1
+			hospitals = 1
+			air_base = 1
 		}
-		# add_core_of = IRK
-		victory_points = {
-			7828 2
-		}
-		victory_points = {
-			4868 1
-		}
-		victory_points = {
-			1735 1
-		}
+		# add_core_of = ARG
+		victory_points = { 10992 15 }
+		victory_points = { 15077 1 }
+
 	}
 
 	provinces = {
-		1735 1792 4470 4737 4795 4868 5288 5426 5450 5458 5506 7036 7483 7714 7759 7828 10524 10583 10596 10628 10654 10688 12538 12668 12681 13317 13321 13329 13332 14462
+		8215 10992 14932 14953 15058 15077 15092
 	}
-	manpower = 62776
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

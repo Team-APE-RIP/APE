@@ -1,34 +1,28 @@
-state = {
+state = { #Population Done
 	id = 1793
 	name = "STATE_1793"
+	manpower = 5668
+	state_category = tiny_island
 
 	history = {
-		victory_points = {
-			9393 6
-		}
-		victory_points = {
-			9308 8
-		}
-		victory_points = {
-			6311 2
-		}
-		owner = ZZZ # SWE
-		# add_core_of = SWE
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
 		buildings = {
-			infrastructure = 6
-			thermoelectric_plant = 2
-			air_base = 2
-			11380 = {
-				naval_base = 2
+			radar_station = 4
+			air_base = 3
+			barracks = 1
+			10440 = {
+				naval_base = 1
 			}
 		}
+		victory_points = { # Cockburn Town
+			10440 1
+		}
+		
 	}
 
 	provinces = {
-		6311 6397 9308 9393 11289 11380
+		10440
 	}
-	manpower = 352250
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
 }

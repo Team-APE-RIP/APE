@@ -1,35 +1,19 @@
 state = {
-	id = 206
+	id = 206 #Escape 2 Africa
 	name = "STATE_206"
 
 	history = {
-		owner = ZZZ # OST
-		victory_points = {
-			9289 10
-		}
-		victory_points = {
-			9247 1
-		}
-		victory_points = {
-			3378 1
-		}
+		owner = ZZZ # MAD
+		# add_core_of = MAD
 		buildings = {
-			infrastructure = 4
-			radar_station = 2
-			air_base = 8
-			hospitals = 1
-			barracks = 1
+			infrastructure = 1
 		}
-		# add_core_of = OST
-		# set_state_flag = GDP_regions_belarus
-		# set_state_flag = universal_renamings
 	}
 
 	provinces = {
-		289 342 3378 6233 6292 9247 9289 11271 18303
+		15959 16172
 	}
-	manpower = 693261
+	manpower = 105135
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	state_category = wasteland
 }

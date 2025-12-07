@@ -1,25 +1,39 @@
-
 state = {
 	id = 1520
 	name = "STATE_1520"
+	resources = {
+		tungsten = 26
+	}
 
 	history = {
-		owner = ZZZ # CHL
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
+			offices = 1
+			barracks = 1
 		}
-		# add_core_of = CHL
 		victory_points = {
-			14825 7
+			9942 15
 		}
-		# set_state_flag = GDP_regions_bio
+		victory_points = {
+			4183 1
+		}
+		victory_points = {
+			19526 2
+		}
+		add_extra_state_shared_building_slots = 2
+
+		# set_variable = { china_state_ref = 25 }
+		# set_variable = { china_region_ref = 3 }
+
 	}
 
 	provinces = {
-		14822 14825 17518
+		4183 9942 7004 9970 19526
 	}
-	manpower = 331980
+	manpower = 3811780
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

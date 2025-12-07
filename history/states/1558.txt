@@ -1,44 +1,24 @@
-state = {
+state = { ###POPS DONE
 	id = 1558
-	name = "STATE_1558"
-	resources = {
-		chromium = 10.000
-	}
+	name = "STATE_1558" # Kastamonu
+	manpower = 654629
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # CAU
-		victory_points = {
-			11617 6
-		}
-		victory_points = {
-			9663 10
-		}
-		victory_points = {
-			3698 4
-		}
-		victory_points = {
-			11647 1
-		}
-		victory_points = {
-			18336 1
-		}
+		owner = ZZZ # TUR
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			offices = 1
-			barracks = 1
+			infrastructure = 3
+			6995 = {
+				naval_base = 3
+			}
 		}
-		# add_core_of = CAU
-		# set_state_flag = GDP_regions_georgia
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_large_town
+		victory_points = { 6938 2 }
+		victory_points = { 6995 1 }
+		# add_core_of = TUR
+
 	}
 
 	provinces = {
-		3698 9663 11617 11647 18336 18341
+		979 3967 3982 6938 6995 16218
 	}
-	manpower = 500014
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
 }

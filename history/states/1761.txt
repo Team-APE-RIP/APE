@@ -1,33 +1,42 @@
-state = {
+state = { #Population Done
 	id = 1761
 	name = "STATE_1761"
 
 	resources = {
-		uranium = 2
+		steel = 60
+		aluminium = 25
 	}
+
+	manpower = 5019081
+	state_category = metropolis
 
 	history = {
-		owner = ZZZ # ILG
-		# add_claim_by = FRS
-		# add_core_of = ILG
-		# add_core_of = ALG
-		victory_points = { 9976 10 }
-		victory_points = { 12034 2 }
-		victory_points = { 12888 6 }
-		victory_points = { 10059 3 }
-		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-		}
-		# add_core_of = ALG
-		# set_state_flag = state_renamings
-	}
+		owner = ZZZ # GER
+		# add_core_of = GER
 
+		victory_points = { 11467 10 }
+		victory_points = { 6464 10 }
+		victory_points = { 6512 4 }
+		victory_points = { 506 10 }
+		victory_points = { 15839 10 }
+		victory_points = { 9412 5 }
+		victory_points = { 15838 1 }
+
+		buildings = {
+			schools = 1
+			offices = 1
+			prisons = 1
+			infrastructure = 6
+			radar_station = 1
+			missile_silo = 1
+			hospitals = 1
+			thermoelectric_plant = 4
+		}
+
+
+	}
 
 	provinces = {
-		10059 18077 12034 18012 12888 7149 9976
+		11467 506 6464 9412 15838 15839 15840
 	}
-	manpower = 574434
-	buildings_max_level_factor = 1.000
-	state_category = rural
 }

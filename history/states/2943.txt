@@ -1,17 +1,31 @@
 state = {
 	id = 2943
 	name = "STATE_2943"
+	resources = {
+		aluminium = 1.000
+	}
+
 	history = {
-		owner = ITA
-        add_core_of = ITA
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			radar_station = 2
+			air_base = 1
 		}
+		victory_points = {
+			17855 3
+		}
+		victory_points = {
+			13694 1
+		}
+
 	}
+
 	provinces = {
-        18000 14644
+		13694 13717 17855
 	}
-	manpower = 87721
+	manpower = 218335
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -2,27 +2,35 @@ state = {
 	id = 2433
 	name = "STATE_2433"
 
-	resources = {
-		oil = 4
-	}
-
 	history = {
-		owner = XIN
-		add_core_of = XIN
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # AZH
+		# add_core_of = AZH
+		# add_claim_by = IND
+		add_extra_state_shared_building_slots = 1
+		victory_points = {
+			16122 6
 		}
 		victory_points = {
-			19428 5
+			1116 2
 		}
-		# set_variable = { china_state_ref = 43 }
-		# set_variable = { china_region_ref = 5 }
+		victory_points = {
+			12322 9
+		}
+		victory_points = {
+			18901 4
+		}
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+			air_base = 1
+		}
+
 	}
 
 	provinces = {
-		4770 19786 4709 7702 10545 19428 19402 
+		1116 12322 16122 16139 18900 18901 18953
 	}
-	manpower = 190687
+	manpower = 1591805
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

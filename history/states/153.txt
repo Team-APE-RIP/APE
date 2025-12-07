@@ -1,39 +1,29 @@
-state = {
+state = { #Population Done
 	id = 153
 	name = "STATE_153"
+	resources = {
+		tungsten = 11
+		steel = 8
+	}
 
 	history = {
-		owner = OTC
-		add_core_of = OTC
-		victory_points = {
-			673 10
-		}
-		victory_points = {
-			6680 2
-		}
+		owner = ZZZ # URL
 		buildings = {
-			hydroelectric_plant = 1
-			hospitals = 1
+			infrastructure = 2
 			barracks = 1
-			infrastructure = 4
-			radar_station = 2
-			9633 = {
-				bunker = 5
-			}
-			11618 = {
-				bunker = 5
-			}
+			offices = 1
+			prisons = 1
 		}
-		# add_core_of = GER
-		# set_state_flag = GDP_regions_austria
-		# set_state_flag = GDP_category_large_town
+		victory_points = {
+			4265 3
+		}
+		# add_core_of = URL
 	}
 
 	provinces = {
-		673 9636 6678
+		4265 10136 10142 10185 12117 13316
 	}
-	manpower = 821637
+	manpower = 252000
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	state_category = rural
 }

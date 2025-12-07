@@ -1,22 +1,19 @@
 state = {
 	id = 1529
 	name = "STATE_1529"
-	manpower = 14290
-
-	state_category = pastoral
 
 	history = {
-		owner = ZZZ # CHL
+		owner = ZZZ # AYR
+		# add_core_of = AYR
 		buildings = {
 			infrastructure = 1
-			14798 = { naval_base = 1 }
 		}
-		# add_core_of = CHL
-		victory_points = { 14798 1 }
-		# set_state_flag = GDP_regions_magallanes
 	}
 
 	provinces = {
-		5209 14797 14798 15121
+		8128 14268 14276 14285 14298
 	}
+	manpower = 1392
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
 }

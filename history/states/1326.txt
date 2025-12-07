@@ -1,29 +1,19 @@
 state = {
 	id = 1326
 	name = "STATE_1326"
-	state_category = enclave
-
-	resources = {
-		aluminium = 4
-	}
-
 	history = {
-		owner = ZZZ # ITA
-		victory_points = { 14662 1 }
+		owner = MEN
 		buildings = {
-			infrastructure = 5
-			barracks = 1
-			radar_station = 3
-			14662 = {
-				naval_base = 5
-			}
+			infrastructure = 1
 		}
-		# add_core_of = ITA
+		victory_points = { 7786 2 }
+		
 	}
-
 	provinces = {
-		14662
+	    5812 10683 1672 5270 5565 7786
 	}
-	manpower = 52018
+	manpower = 82871
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

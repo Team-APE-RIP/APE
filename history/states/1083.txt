@@ -1,27 +1,27 @@
 state = {
 	id = 1083
 	name = "STATE_1083"
-
-	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
-		buildings = {
-			infrastructure = 2
-			prisons = 1
-			barracks = 1
-		}
-		victory_points = { 1846 1 }
-		victory_points = { 13833 1 }
+	resources = {
+		oil = 6
 	}
 
-	resources = {
-		uranium = 2
+	history = {
+		owner = ZZZ # NRB
+		victory_points = {
+			12283 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = NRB
+
 	}
 
 	provinces = {
-		1846 13833
+		19287 19286 12283 4216 2222 7443 2117
 	}
-	manpower = 1524168
+	manpower = 274558
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

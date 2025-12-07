@@ -3,34 +3,32 @@ state = {
 	name = "STATE_1416"
 
 	history = {
-		owner = ZZZ # MEX
-		# add_core_of = MEX
+		owner = ZZZ # INS
+		# add_core_of = INS
+
+		victory_points = {
+			10263 20
+		}
+		victory_points = {
+			19266 1
+		}
 		buildings = {
-			thermoelectric_plant = 1
-			prisons = 1
-			infrastructure = 3
+			10263 = {
+				naval_base = 6
+				bunker = 4
+			}
+			air_base = 3
+			infrastructure = 4
+			dockyard = 1
+			barracks = 1
 		}
-		victory_points = {
-			14510 10
-		}
-		victory_points = {
-			14509 5
-		}
-		victory_points = {
-			17019 8
-		}
-		victory_points = {
-			16925 3
-		}
-		victory_points = {
-			5876 2
-		}
+
 	}
 
 	provinces = {
-		2008 5876 14509 14510 14517 16925 17019
+		10263 19266 19277 19339 4349
 	}
-	manpower = 2057267
+	manpower = 1858872
 	buildings_max_level_factor = 1.000
 	state_category = large_town
 	local_supplies = 0.000

@@ -1,73 +1,27 @@
 state = {
 	id = 424
-	name = "STATE_424"
+	name = "STATE_424" # Chaco Santiagueno
+
+	manpower = 76940
 	resources = {
-		chromium = 7.000
-		uranium = 6.000
+		tungsten = 9
+		steel = 1
 	}
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
-		add_extra_state_shared_building_slots = 4
-		victory_points = {
-			10255 20
-		}
-		victory_points = { # Vijayawada
-			7340 15
-		}
-		victory_points = {
-			4237 10
-		}
-		victory_points = {
-			4321 10
-		}
-		victory_points = {
-			12180 10
-		}
-		victory_points = {
-			18963 10
-		}
-		victory_points = {
-			10001 7
-		}
-		victory_points = {
-			1430 7
-		}
-		victory_points = {
-			1228 7
-		}
-		#victory_points = { # Machilipatnam - double vp in province
-		#	7340 5
-		#}
-		victory_points = {
-			1344 10
-		}
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 5
-			hydroelectric_plant = 1
-			offices = 2
-			schools = 1
-			barracks = 2
-			radar_station = 1
-			hospitals = 1
-			10255 = {
-				naval_base = 3
-				bunker = 1
-			}
-			10001 = {
-				bunker = 3
-			}
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_regions_andhra_pradesh
+		# add_core_of = ARG
+		victory_points = { 15066 1 }
+
+
 	}
 
-	provinces = {
-		1228 1344 1430 4237 4321 4365 7297 7340 10001 10152 10255 10296 12180 18865 18875 18963
-	}
-	manpower = 16703088
-	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
+
+	provinces = {
+		2208 14796 14990 14903 15048 15066 15076 8169
+	}
 }

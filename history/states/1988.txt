@@ -1,27 +1,18 @@
 state = {
 	id = 1988
 	name = "STATE_1988"
-	manpower = 468192
-
-	resources = {
-		chromium = 8
-		steel = 8
-	}
-
-	state_category = town
-
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 12029 6 }
-		victory_points = { 14464 5 }
+		owner = RUH
+		add_core_of = RUH
 		buildings = {
-			infrastructure = 4
-			barracks = 1
+			infrastructure = 3
 		}
-		# add_core_of = TUR
 	}
-
 	provinces = {
-		16222 12029 14464
+        6535 3398
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

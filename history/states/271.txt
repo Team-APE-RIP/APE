@@ -3,25 +3,26 @@ state = {
 	name = "STATE_271"
 
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
+		owner = HBG
+		add_core_of = HBG
+		# add_core_of = GER
 		victory_points = {
-			7944 2
+			9281 4
 		}
 		buildings = {
-			thermoelectric_plant = 1
-			infrastructure = 2
+			prisons = 1
+			infrastructure = 5
+			hospitals = 1
 			radar_station = 1
-			air_base = 1
+			barracks = 1
 		}
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		5097 7944 15557 15558
+		9281 18134
 	}
-	manpower = 1747200
+	manpower = 2120312
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

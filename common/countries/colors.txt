@@ -115,6 +115,14 @@ IPE = {
 	color = rgb { 217 23 27 }
 	color_ui = rgb { 217 23 27 }
 }
+IRL = {
+	color = rgb { 22 154 98 }
+	color_ui = rgb { 22 154 98 }
+}
+IRN = {
+	color = rgb { 239 46 14 }
+	color_ui = rgb { 239 46 14 }
+}
 ITA = {
 	color = rgb { 10 245 30 }
 	color_ui = rgb { 10 245 30 }

@@ -1,37 +1,20 @@
 state = {
 	id = 736
 	name = "STATE_736"
-
 	history = {
-		owner = ZZZ # ITA
-		# add_core_of = ITA
-		victory_points = { 3772 15 }
-		victory_points = { 6626 6 }
+		owner = CHI
 		buildings = {
-			prisons = 1
-			barracks = 2
-			infrastructure = 4
-			thermoelectric_plant = 1
-			radar_station = 2
-			air_base = 2
-			599 = { bunker = 5 }
-			3772 = {
-				naval_base = 5
-			}
+			infrastructure = 1
 		}
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_regions_veneto
-		# set_state_flag = GDP_category_large_town
+        victory_points = {
+            7208 1
+        }
 	}
-
-	resources = {
-		uranium = 4
-	}
-
 	provinces = {
-		599 3772 6626 13278 18003
+		1034 1458 1531 9006 7208
 	}
-	manpower = 497911
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

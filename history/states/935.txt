@@ -1,24 +1,32 @@
 state = {
 	id = 935
 	name = "STATE_935"
+	resources = {
+		rubber = 1.000
+	}
 
 	history = {
-		owner = ZZZ # SAF
+		owner = ZZZ # ANG
 		buildings = {
+			barracks = 1
 			infrastructure = 2
-			air_base = 1 }
-
-		victory_points = { 13572 1 }
-
-		# add_core_of = SAF
-
-		# set_state_flag = universal_renamings
+			radar_station = 1
+			air_base = 1
+			13829 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			13848 1
+		}
+		# add_core_of = ANG
 	}
 
 	provinces = {
-		4556 13511 13514 13527 13572
+		13829 13848 17926 17929
 	}
-	manpower = 852000
+	manpower = 361182
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

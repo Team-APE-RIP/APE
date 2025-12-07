@@ -2,19 +2,30 @@ state = {
 	id = 836
 	name = "STATE_836"
 
+	resources = {
+		chromium = 26
+		uranium = 4
+	}
+
 	history = {
-		owner = ZZZ # MLI
-		# add_core_of = MLI
-		victory_points = { 14149 1 }
+		owner = ZZZ # SAF
+		# add_core_of = SAF
 		buildings = {
-			infrastructure = 1
+			barracks = 1
+			offices = 1
+			infrastructure = 3
+			air_base = 2
+			10525 = {
+				bunker = 3
+			}
 		}
+		victory_points = { 13641 2 }
 	}
 
 	provinces = {
-		10915 14149 14178 14194
+		10525 13641 13651 13659 13205 13646 13649
 	}
-	manpower = 361800
+	manpower = 109566
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 }

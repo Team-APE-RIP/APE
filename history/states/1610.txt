@@ -3,29 +3,22 @@ state = {
 	name = "STATE_1610"
 
 	history = {
-		owner = ZZZ # BOL
+		owner = ZZZ # KLT
 		buildings = {
-			infrastructure = 3
-			offices = 1
-			schools = 1
-			barracks = 1
-			prisons = 1
-			air_base = 1
-			thermoelectric_plant = 1
+			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = BOL
 		victory_points = {
-			5179 15
+			15996 1
 		}
-		# set_state_flag = GDP_category_pastoral
+		# add_core_of = KLT
+		# add_claim_by = AZH
+		# add_claim_by = IND
 	}
 
 	provinces = {
-		5179 12979 17512
+		5043 15996 15988
 	}
-	manpower = 313600
+	manpower = 37140
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	state_category = pastoral
 }

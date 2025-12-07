@@ -1,27 +1,29 @@
-state = { #Population Done
+state = {
 	id = 744
 	name = "STATE_744"
-	state_category = tiny_island
-	provinces = {
-		6361
+
+	resources = {
+		oil = 18
+		chromium = 2
 	}
+
+	state_category = pastoral
+
 	history = {
-		owner = DMK
-        add_core_of = DMK
-		# add_core_of = DEN
-		victory_points = {
-			6361 1
-		}
+		owner = ZZZ # OMA
+		# add_core_of = OMA
 		buildings = {
-			infrastructure = 4
-			barracks = 1
-			radar_station = 3
-			6361 = {
-				naval_base = 2
-				coastal_bunker = 1
-			}
+			infrastructure = 2
 		}
+		victory_points = {
+			13457 1
+		}
+
 	}
-	manpower = 37037
+
+	provinces = {
+		5049 13459 13457 18556
+	}
+	manpower = 27211
 	buildings_max_level_factor = 1.000
 }

@@ -2,33 +2,22 @@ state = {
 	id = 2439
 	name = "STATE_2439"
 
-	resources = {
-		steel = 4
-		tungsten = 14
-	}
-
 	history = {
-		owner = NAL
-		add_core_of = NAL
-		# add_core_of = CHI
+		victory_points = {
+			10169 1
+		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		victory_points = {
-			9982 3
-		}
-		victory_points = {
-			19685 4
-		}
-		# set_state_flag = GDP_regions_hunan
-		# set_variable = { china_state_ref = 28 }
-		# set_variable = { china_region_ref = 3 }
+
 	}
 
 	provinces = {
-		11918 19685 9982 19654
+		1289 10169 19218 19224 19226
 	}
-	manpower = 2243139
+	manpower = 410905
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

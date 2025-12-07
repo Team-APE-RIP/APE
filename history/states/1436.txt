@@ -1,36 +1,24 @@
-state = {
+state = { #Population Done
 	id = 1436
 	name = "STATE_1436"
 
 	history = {
-		owner = ZZZ # MCW
-		# add_core_of = MCW
-		victory_points = {
-			9409 15
-		}
-		victory_points = {
-			6409 2
-		}
-		victory_points = {
-			380 3
-		}
-		victory_points = {
-			6382 1
-		}
+		owner = ZZZ # YGR
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 2
-			offices = 1
-			barracks = 1
+			infrastructure = 2
 		}
-		# set_state_flag = universal_renamings
+		victory_points = { 7796 1 }
+		victory_points = { 13348 5 }
+		# add_core_of = YGR
 	}
-
+	resources = {
+		oil = 7
+		aluminium = 12
+	}
 	provinces = {
-		208 257 380 3221 3266 3317 3360 6248 6291 6329 6353 6382 6409 9258 9286 9324 9380 9409 11240 11269 11335 11364 11393 18314 18315 18321
+		1744 4746 4774 7796 13348 3169
 	}
-	manpower = 1500545
+	manpower = 45000
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	state_category = pastoral
 }

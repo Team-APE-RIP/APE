@@ -2,24 +2,28 @@ state = {
 	id = 936
 	name = "STATE_936"
 
+	resources = {
+		chromium = 2
+	}
+
 	history = {
-		owner = ZZZ # SAF
-		buildings = {
-			infrastructure = 2
-			air_base = 1
-		}
+		owner = TIB
+		add_core_of = TIB
 		victory_points = {
-			7900 1
+			19435 1
 		}
-		# add_core_of = SAF
-		# set_state_flag = universal_renamings
+		buildings = {
+			infrastructure = 1
+		}
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		7900 17832 17835
+		19755 10755 7926 19438 19434 19443 19435 19432 8068
 	}
-	manpower = 349000
+	manpower = 246681
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

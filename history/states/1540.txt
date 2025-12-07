@@ -2,23 +2,33 @@ state = {
 	id = 1540
 	name = "STATE_1540"
 
+	resources = {
+		tungsten = 1
+	}
+
 	history = {
-		owner = ZZZ # MLI
-		# add_core_of = MLI
-		victory_points = {
-			14145 3
-		}
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+
+		victory_points = { 13816 10 }
+
 		buildings = {
-			infrastructure = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
+			thermoelectric_plant = 3
+			offices = 2
+			prisons = 2
+			barracks = 1
+			schools = 1
+			radar_station = 1
+			air_base = 1
 		}
 	}
 
 	provinces = {
-		14145 15206
+		191 1968 4515 13805 13816 13838
 	}
-	manpower = 411000
+	manpower = 741231
 	buildings_max_level_factor = 1.000
 	state_category = town
-	local_supplies = 0.000
 }

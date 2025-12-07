@@ -1,25 +1,25 @@
 state = {
 	id = 1631
 	name = "STATE_1631"
-	manpower = 225598
-
-	state_category = rural
 
 	history = {
-		owner = ZZZ # URG
+		owner = ZZZ # AST
+		# add_core_of = AST
 		buildings = {
-			infrastructure = 3
-			offices = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
+			radar_station = 2
 		}
-		# add_core_of = URG
-		victory_points = { 1654 3 }
-		victory_points = { 10347 1 }
-		victory_points = { 12336 1 }
-		victory_points = { 12481 2 }
+		victory_points = { # Esperance
+			12990 1
+		}
+
 	}
 
 	provinces = {
-		1654 10347 12336 12481
+		1526 2191 5175 8130 10969 10997 11011 12948 12962 12976 12990
 	}
+	manpower = 36423
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
 }

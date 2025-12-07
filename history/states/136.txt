@@ -1,28 +1,18 @@
 state = {
 	id = 136
 	name = "STATE_136"
-	manpower = 621780
-
-	state_category = town
-
 	history = {
-		owner = ZZZ # ENG
-		victory_points = { 3150 10 }
-		victory_points = { 200 1 }
-		victory_points = { 11207 2 }
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 4
-			dockyard = 2
-			schools = 1
-			air_base = 3
-			radar_station = 1
-			thermoelectric_plant = 2
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_regions_scotland
-		# add_core_of = ENG
 	}
-
 	provinces = {
-		200 3150 11055 11136 11207 16356 16375
+        19570 19577 1110 19621
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

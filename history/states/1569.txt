@@ -1,25 +1,18 @@
 state = {
 	id = 1569
 	name = "STATE_1569"
-
 	history = {
-		owner = ZZZ # AST
-		# add_core_of = AST
+		owner = NTL
+        add_core_of = NTL
 		buildings = {
-			infrastructure = 2
-			radar_station = 2
+			infrastructure = 3
 		}
-		victory_points = { # Esperance
-			12990 1
-		}
-		# set_state_flag = GDP_category_rural
 	}
-
 	provinces = {
-		1526 2191 5175 8130 10969 10997 11011 12948 12962 12976 12990
+        391 15980
 	}
-	manpower = 36423
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

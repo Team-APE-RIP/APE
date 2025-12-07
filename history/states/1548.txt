@@ -3,26 +3,27 @@ state = {
 	name = "STATE_1548"
 
 	history = {
-		owner = ZZZ # IBR
-		# add_core_of = GAB
-		# add_core_of = IBR
-		victory_points = {
-			15117 10
-		}
+		owner = ZZZ # IND
 		buildings = {
-			infrastructure = 1
-			barracks = 1
-			15117 = {
-				naval_base = 1
-			}
+			infrastructure = 3
+			radar_station = 1
+			air_base = 2
 		}
-		# set_state_flag = GDP_regions_equatorial_guinea
+		victory_points = {
+			16036 10
+		}
+		victory_points = {
+			10729 2
+		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		13665 15117 15118 15119
+		10729 16036 5968
 	}
-	manpower = 250000
+	manpower = 3113048
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

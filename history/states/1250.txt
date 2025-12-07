@@ -3,23 +3,26 @@ state = {
 	name = "STATE_1250"
 
 	history = {
-		owner = ZZZ # VEN
+		owner = XIN
+		# add_core_of = QIN
 		buildings = {
-			offices = 1
-			barracks = 1
 			infrastructure = 1
 		}
-		# add_core_of = VEN
 		victory_points = {
-			5317 3
+			15647 1
 		}
-		# set_state_flag = GDP_regions_bolivar
+		victory_points = {
+			10796 1
+		}
+		# set_variable = { china_state_ref = 42 }
+		# set_variable = { china_region_ref = 5 }
+
 	}
 
 	provinces = {
-		5317 8050 12419 12692 12732 12871 14438 17375 17378
+		1698 2053 2099 7997 8988 10750 10796 10834 10865 12846 12890 13238 15647 19661 19671 19684
 	}
-	manpower = 66006
+	manpower = 111870
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -1,18 +1,35 @@
 state = {
 	id = 2602
 	name = "STATE_2602"
+
 	history = {
-		owner = MAN
-		# add_core_of = SHT
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # GRE
+		victory_points = {
+			4109 35
 		}
+		buildings = {
+			infrastructure = 5
+			air_base = 4
+			4109 = {
+				naval_base = 9
+				coastal_bunker = 2
+			}
+			schools = 1
+			hospitals = 1
+			prisons = 1
+			offices = 2
+			barracks = 1
+			thermoelectric_plant = 2
+		}
+
+		# add_core_of = GRE
 	}
+
 	provinces = {
-		6951 19804 846 8771
+		3988 4109 16182
 	}
-	manpower = 1026811
+	manpower = 1968434
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

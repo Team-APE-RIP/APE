@@ -1,26 +1,26 @@
 state = {
 	id = 1762
-	name = "STATE_1762"
-	manpower = 615069
-
-	state_category = rural
-
+	name = "STATE_1762" # Tohoku
+	manpower = 1426213
+	state_category = city
 	resources = {
-		uranium = 2
+		steel = 11 #23
 	}
 
 	history = {
-		owner = ZZZ # SLO
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
-			schools = 1
+			infrastructure = 4
+			hydroelectric_plant = 1
+			radar_station = 1
 		}
-		victory_points = { 3550 1 }
-		victory_points = { 11539 2 }
-		# add_core_of = SLO
+
+		victory_points = { 3848 10 }
+		victory_points = { 12056 10 }
 	}
 
 	provinces = {
-		11539 11554 581 3550
+		3848 11847 6870 9807 12056 1165
 	}
 }

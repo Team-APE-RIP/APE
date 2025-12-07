@@ -1,34 +1,18 @@
 state = {
 	id = 636
 	name = "STATE_636"
-
 	history = {
-		owner = ZZZ # FIJ
-		# add_core_of = FIJ
+		owner = ITC
+        add_core_of = ITC
 		buildings = {
 			infrastructure = 3
-			offices = 1
-			barracks = 2
-			radar_station = 5
-			air_base = 4
-			4286 = {
-				naval_base = 3
-			}
-		}
-		add_extra_state_shared_building_slots = 1
-		victory_points = {
-			4286 5
-		}
-		victory_points = {
-			7302 1
 		}
 	}
-
 	provinces = {
-		3428 4286 7302 12159
+        9990
 	}
-	manpower = 180000
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = small_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

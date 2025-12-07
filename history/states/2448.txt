@@ -2,25 +2,53 @@ state = {
 	id = 2448
 	name = "STATE_2448"
 	resources = {
-		rubber = 12
+		uranium = 4.000
 	}
 
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = ZZZ # BRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			air_base = 3
+			air_base = 3
+			hydroelectric_plant = 1
+			10946 = {
+				naval_base = 3
+			}
 		}
-		# set_demilitarized_zone = yes
+		# add_core_of = BRA
+		victory_points = {
+			10946 20
+		}
+		victory_points = {
+			8184 10
+		}
+		victory_points = {
+			12422 10
+		}
+		victory_points = {
+			10419 10
+		}
+		victory_points = {
+			10392 10
+		}
+		victory_points = {
+			14772 7
+		}
+		victory_points = {
+			17405 6
+		}
+		victory_points = {
+			4617 5
+		}
+
 	}
 
 	provinces = {
-		17363 12825 15632 15519 17342
+		4617 5174 5194 5218 8129 8177 8184 8197 8242 10392 10419 10926 10946 11002 12422 14772 17405 17456 17459
 	}
-	manpower = 10500
+	manpower = 6234605
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
 	local_supplies = 0.000
 }

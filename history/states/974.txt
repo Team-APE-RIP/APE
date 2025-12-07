@@ -1,32 +1,29 @@
 state = {
 	id = 974
 	name = "STATE_974"
+	manpower = 482841
+
+	state_category = large_town
 
 	history = {
-		owner = ZZZ # PER
+		owner = ZZZ # INS
+		# add_core_of = INS
+		victory_points = { 12168 20 }
 		buildings = {
-			infrastructure = 4
-			radar_station = 1
-			air_base = 2
+			infrastructure = 5
+			schools = 1
+			barracks = 1
+			offices = 1
+			air_base = 1
+			12168 = {
+				bunker = 4
+			}
 		}
-		# add_core_of = PER
-		victory_points = {
-			12773 10
-		}
-		victory_points = {
-			5098 1
-		}
-		victory_points = {
-			18806 1
-		}
-		# set_state_flag = GDP_category_town
+
+
 	}
 
 	provinces = {
-		5098 12773 18762 18806
+		12168
 	}
-	manpower = 776409
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }

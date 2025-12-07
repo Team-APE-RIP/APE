@@ -1,34 +1,31 @@
 state = {
 	id = 146
 	name = "STATE_146"
+	resources = {
+		oil = 2
+	}
 
 	history = {
-		owner = MAN
-		# add_core_of = MAN
+		owner = ZZZ # SLO
 		victory_points = {
-			12482 3
+			541 3
 		}
 		victory_points = {
-			1571 2
-		}
-		victory_points = {
-			6863 3
+			11522 1
 		}
 		buildings = {
 			infrastructure = 4
-			prisons = 1
-			anti_air_building = 2
+			barracks = 1
+			thermoelectric_plant = 1
 		}
-		# set_state_flag = GDP_category_rural
-		# set_variable = { china_state_ref = 49 }
-		# set_variable = { china_region_ref = 6 }
+		# add_core_of = SLO
 	}
 
 	provinces = {
-		7569 12500 12443 10519 6863 1571 12482 
+		541 11522
 	}
-	manpower = 1270242
+	manpower = 456066
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

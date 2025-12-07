@@ -1,26 +1,28 @@
 state = {
 	id = 268
 	name = "STATE_268"
+	resources = {
+		tungsten = 2
+		aluminium = 2
+	}
 
 	history = {
-		owner = ZZZ # IEA
-		victory_points = {
-			4985 1
-		}
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 2
-			radar_station = 1
-			air_base = 2
+			infrastructure = 1
 		}
-		# add_core_of = IEA
-		# set_state_flag = state_renamings
+		victory_points = {
+			7559 1
+		}
+
 	}
 
 	provinces = {
-		4985 5041 14147 14162 15560 17885 17888 17891 17893
+		7312 7559
 	}
-	manpower = 94204
+	manpower = 290466
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

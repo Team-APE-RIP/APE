@@ -3,25 +3,29 @@ state = {
 	name = "STATE_2289"
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = IPE
+		add_core_of = IPE
+		victory_points = {
+			3933 10
+		}
+		victory_points = {
+			6878 1
+		}
 		buildings = {
-			infrastructure = 3
+			prisons = 1
+			barracks = 1
+			infrastructure = 4
 		}
-		victory_points = {
-			7642 1
-		}
-		victory_points = {
-			19315 1
-		}
-		# set_state_flag = GDP_regions_central_java
+		# add_core_of = IBR
+
+
 	}
 
 	provinces = {
-		19315 7642
+		3737 3931 3933 
 	}
-	manpower = 2262674
+	manpower = 409073
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 }

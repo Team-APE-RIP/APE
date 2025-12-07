@@ -1,18 +1,19 @@
 state = {
 	id = 2781
 	name = "STATE_2781"
+
 	history = {
-		owner = RHN
-		add_core_of = RHN
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
 	}
+
 	provinces = {
-        18137 3558
+		8078 14037 14055 14075
 	}
-	manpower = 87721
+	manpower = 290800
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

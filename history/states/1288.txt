@@ -2,42 +2,28 @@ state = {
 	id = 1288
 	name = "STATE_1288"
 
+	resources = {
+		tungsten = 6
+		aluminium = 2
+		rubber = 4
+	}
+
 	history = {
-		owner = ZZZ # HUN
+		owner = ZZZ # BUR
+		victory_points = {
+			4408 1
+		}
 		buildings = {
-			infrastructure = 4
-			radar_station = 1
-			offices = 1
-			barracks = 1
-			schools = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		victory_points = {
-			746 6
-		}
-		victory_points = {
-			11676 6
-		}
-		victory_points = {
-			16160 1
-		}
-		victory_points = {
-			9704 2
-		}
-		victory_points = {
-			6731 1
-		}
-		# add_claim_by = ROM
-		# add_core_of = HUN
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_transylvania
+		# add_core_of = BUR
 	}
 
 	provinces = {
-		727 746 6731 9672 9704 11676 16159 16160 18161 18187
+		4408 12238 19077 19078 12125
 	}
-	manpower = 985655
+	manpower = 707310
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

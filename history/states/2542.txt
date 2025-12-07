@@ -3,25 +3,18 @@ state = {
 	name = "STATE_2542"
 
 	history = {
-		owner = YUN
-		# add_core_of = YUN
+		owner = ZZZ # AZW
+		# add_core_of = AZW
 		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			10413 2
-		}
-		victory_points = {
-			19737 4
+			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		4210 5009 19737 10413
+		1897 14272 14287 14310
 	}
-	manpower = 938101
+	manpower = 34471
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
-	#impassable = yes
 }

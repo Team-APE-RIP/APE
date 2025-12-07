@@ -1,31 +1,24 @@
 state = {
 	id = 2425
 	name = "STATE_2425"
-	resources = {
-		oil = 8.000
-	}
 
 	history = {
-		owner = CHI # GAN
-		# add_core_of = GAN
-		victory_points = {
-			5025 1
-		}
-		victory_points = {
-			19490 3
-		}
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
+			barracks = 1
 			infrastructure = 2
 		}
-		# set_variable = { china_state_ref = 40 }
-		# set_variable = { china_region_ref = 5 }
+		victory_points = {
+			14131 8
+		}
 	}
 
 	provinces = {
-		5025 11735 16840 19518 19520 19490
+		1984 2040 13137 14131 14141 17882 17895 17904
 	}
-	manpower = 1884596
+	manpower = 4137601
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

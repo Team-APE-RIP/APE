@@ -3,29 +3,43 @@ state = {
 	name = "STATE_1280"
 
 	resources = {
-		aluminium = 1
+		oil = 4
+		steel = 16
+		tungsten = 4
 	}
 
 	history = {
-		owner = ZZZ # CRO
-		# set_state_flag = has_offshore_island
-		victory_points = { 6889 2 }
-		victory_points = { 18173 1 }
+		owner = ZZZ # PER
 		buildings = {
-			thermoelectric_plant = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+			offices = 1
 			prisons = 1
-			infrastructure = 3
-			6889 = {
-				naval_base = 1
-			}
 		}
-		# add_core_of = CRO
+		# add_core_of = PER
+		victory_points = {
+			5067 2
+		}
+		victory_points = {
+			18751 5
+		}
+		victory_points = {
+			13614 10
+		}
+		victory_points = {
+			15154 7
+		}
+		victory_points = {
+			10922 1
+		}
+
 	}
 
 	provinces = {
-		984 3924 6889 15616 18173
+		1982 5067 10922 13614 15149 15154 15155 18751 18769 18787
 	}
-	manpower = 194050
+	manpower = 738545
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
+	local_supplies = 0.000
 }

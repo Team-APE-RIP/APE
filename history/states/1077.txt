@@ -1,31 +1,26 @@
 state = {
 	id = 1077
 	name = "STATE_1077"
-	resources = {
-		uranium = 4.000
-	}
+	manpower = 3674
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
-			offices = 1
 			infrastructure = 2
-			synthetic_refinery = 1
+			air_base = 2
+			19963 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			13823 1
+			19963 1
 		}
-		victory_points = {
-			13843 1
-		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
 	}
-
 	provinces = {
-		8201 10845 13819 13823 13843 17864
+		19961 19963
 	}
-	manpower = 443544
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

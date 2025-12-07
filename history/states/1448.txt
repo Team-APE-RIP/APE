@@ -1,18 +1,25 @@
-state = { #Population Done
+state = {
 	id = 1448
 	name = "STATE_1448"
-	manpower = 454327
-	state_category = rural
+	resources = {
+	}
+
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 3714 2 }
+		owner = ZZZ # IBR
+		# add_core_of = IBR
+		victory_points = { 15112 7 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			15112 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = TUR
 	}
 
 	provinces = {
-		7454 789 11753 3714
+		15112
 	}
+	manpower = 79490
+	buildings_max_level_factor = 1.000
+	state_category = enclave
 }

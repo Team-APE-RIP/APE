@@ -1,30 +1,28 @@
-state = {
+state = { #Population Done
 	id = 938
 	name = "STATE_938"
-	resources = {
-		chromium = 7.000
+	provinces = {
+		1372 4228 4377 7307 12279 14717 14727
 	}
-
+	state_category = pastoral
 	history = {
-		owner = ZZZ # SAF
+		owner = ZZZ # UPH
+
 		buildings = {
 			infrastructure = 3
-			radar_station = 1
+			14717 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			13565 2
-		}
-		victory_points = {
-			13571 1
-		}
-		# add_core_of = SAF
-	}
+		victory_points = { 14717 5 }
+		victory_points = { 4228 5 }
+		victory_points = { 12279 5 }
+		# add_core_of = UPH
+		# add_core_of = PHI
+		# add_core_of = SPH
 
-	provinces = {
-		1688 5106 5217 13560 13561 13563 13564 13565 13566 13567 13568 13569 13570 13571 15376 15377 15378 17844
+
 	}
-	manpower = 1378804
+	manpower = 2658496
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

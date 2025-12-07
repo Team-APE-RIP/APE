@@ -3,35 +3,21 @@ state = {
 	name = "STATE_812"
 
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = ZZZ # IBR
+		# add_core_of = MOR
 		buildings = {
-			infrastructure = 5
-			prisons = 1
-			offices = 1
-			hospitals = 1
-			thermoelectric_plant = 2
-			10000 = {
-				naval_base = 4
-				coastal_bunker = 1
-			}
+			infrastructure = 3
 		}
-		victory_points = {
-			10000 30
-		}
-		victory_points = {
-			19845 5
-		}
-		# set_variable = { china_state_ref = 9 }
-		# set_variable = { china_region_ref = 1 }
-		# set_variable = { china_city_ref = 1 }
+		victory_points = { 989 10 }
+		victory_points = { 1111 1 }
+
+
 	}
 
 	provinces = {
-		10000 19845 19857
+		989 7116 7958 18035 1111 18023 18052 18043 18033
 	}
-	manpower = 3015261
+	manpower = 490255
 	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
+	state_category = pastoral
 }

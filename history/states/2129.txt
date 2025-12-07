@@ -1,29 +1,59 @@
 state = {
 	id = 2129
 	name = "STATE_2129"
-	manpower = 202390
-
-
 	resources = {
-		aluminium = 6
+		steel = 28.000
+		aluminium = 5.000
 	}
 
-	state_category = rural
-
 	history = {
-		owner = SWS
-        add_core_of = SWS
-		buildings = {
-			infrastructure = 4
-			hydroelectric_plant = 2
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			575 2
 		}
-		victory_points = { 3612 1 }
-		# add_core_of = SWI
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			11483 30
+		}
+		victory_points = {
+			18117 7
+		}
+		victory_points = {
+			11606 4
+		}
+		victory_points = {
+			18112 4
+		}
+		victory_points = {
+			18110 4
+		}
+		victory_points = {
+			18115 2
+		}
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			offices = 2
+			infrastructure = 6
+			air_base = 10
+			dockyard = 2
+			thermoelectric_plant = 3
+			575 = {
+				coastal_bunker = 3
+				naval_base = 1
+			}
+		}
+		# add_core_of = BRG
+		# add_claim_by = FFR
+
+
 	}
 
 	provinces = {
-		3612 9587 636
+		575 18115 11483 18110
 	}
+	manpower = 1873416
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

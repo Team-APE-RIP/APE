@@ -1,25 +1,26 @@
 state = { #Population Done
 	id = 118
 	name = "STATE_118"
-	manpower = 181194
-
-	state_category = town
-	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = { 4135 6 }
-		buildings = {
-			infrastructure = 4
-			air_base = 2
-			4135 = {
-				naval_base = 6
-				coastal_bunker = 3
-			}
-		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_large_town
+	resources = {
+		rubber = 1
 	}
 	provinces = {
-		4135
+		2193 5177 5212 13675 15382
 	}
+	history = {
+		owner = ZZZ # GRO
+		# add_core_of = GRO
+		victory_points = { 15382 2 }
+		victory_points = { 2193 1 }
+		victory_points = { 5212 1 }
+		buildings = {
+			schools = 1
+			offices = 1
+			hospitals = 1
+			infrastructure = 2
+		}
+	}
+	state_category = rural
+	manpower = 583059
+	buildings_max_level_factor = 1.000
 }

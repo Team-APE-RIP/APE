@@ -1,39 +1,28 @@
 state = {
 	id = 1733
 	name = "STATE_1733"
-	resources = {
-		steel = 28.000
-		aluminium = 6.000
-	}
+	manpower = 250
+	state_category = tiny_island
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = {
-			6504 3
-		}
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
-			hospitals = 1
+			infrastructure = 2
+			radar_station = 4
+			air_base = 2
 			barracks = 1
-			offices = 1
-			thermoelectric_plant = 2
-			infrastructure = 6
-			9500 = {
-				coastal_bunker = 3
+			13048 = {
+				naval_base = 2
+				coastal_bunker = 2
 			}
 		}
-		# add_claim_by = FRS
-		# add_claim_by = FFR
-		# add_core_of = BRG
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_regions_burgundy
+		victory_points = {
+			13048 1
+		}
 	}
 
 	provinces = {
-		6504 9500 9962 454 3476 11420
+		13048
 	}
-	manpower = 1873416
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
 }

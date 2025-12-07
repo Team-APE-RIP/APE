@@ -1,33 +1,36 @@
 state = {
 	id = 474
 	name = "STATE_474"
+	resources = {
+		tungsten = 12
+		aluminium = 2
+		rubber = 4
+		power = 2
+	}
 
 	history = {
-		owner = ZZZ # MEX
-		add_extra_state_shared_building_slots = 1
+		owner = ZZZ # BUR
+		# add_core_of = BUR
+
 		buildings = {
-			barracks = 1
-			prisons = 1
-			offices = 1
-			infrastructure = 3
-			thermoelectric_plant = 1 
-			radar_station = 1
-			air_base = 1
-		}
-		# add_core_of = MEX
-		victory_points = {
-			14511 10
+			infrastructure = 2
+			1315 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
-			14512 1
+			1315 1
+		}
+		victory_points = {
+			12292 1
 		}
 	}
 
 	provinces = {
-		14511 12715 14512 14504
+		1296 1315 1385 4275 7295 10217 12292 19045 19053
 	}
-	manpower = 727900
+	manpower = 592790
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

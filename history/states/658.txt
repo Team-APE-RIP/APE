@@ -2,35 +2,61 @@ state = {
 	id = 658
 	name = "STATE_658"
 	resources = {
-		oil = 38
+		aluminium = 2.000
 	}
 
 	history = {
-		owner = ZZZ # GUL
-		# add_core_of = UAE
-		# add_core_of = GUL
-		victory_points = {
-			7960 3
-		}
+		owner = ZZZ # AST
 		buildings = {
-			thermoelectric_plant = 1
-			infrastructure = 2
-			air_base = 2
-			7960 = {
-				naval_base = 4
+			thermoelectric_plant = 4
+			infrastructure = 5
+			radar_station = 3
+			dockyard = 2
+			barracks = 2
+			hospitals = 2
+			schools = 2
+			prisons = 2
+			offices = 2
+			air_base = 5
+			hydroelectric_plant = 2
+			4864 = {
+				naval_base = 6
+				coastal_bunker = 2
 			}
-			offices = 1
+			4673 = {
+				naval_base = 1
+			}
 		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = state_renamings
-		# set_state_flag = has_offshore_island
+		victory_points = { # Sydney
+			4864 35
+		}
+		victory_points = { # Dubbo
+			10427 1
+		}
+		victory_points = { # Orange
+			10682 1
+		}
+		victory_points = { # Wagga Wagga
+			1667 2
+		}
+		victory_points = { # Wollongong
+			4673 10
+		}
+		victory_points = { # Queanbeyan
+			7859 1
+		}
+		victory_points = { # Gosford
+			8812 3
+		}
+
+		# add_core_of = AST
 	}
 
 	provinces = {
-		2048 7960 8108 18571
+		1667 1861 2114 2146 3023 4500 4673 4763 4836 4864 5134 5161 7533 7859 8234 8812 10427 10455 10682 10977 11019 12377 12435 12532 12560 12968
 	}
-	manpower = 59193
-	buildings_max_level_factor = 1.000
-	state_category = town
+	manpower = 3212787 #was 3952482 pre NE split
+	buildings_max_level_factor = 1.250
+	state_category = large_city
 	local_supplies = 0.000
 }

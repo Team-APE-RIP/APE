@@ -2,32 +2,31 @@ state = {
 	id = 929
 	name = "STATE_929"
 	resources = {
-		chromium = 4.000
-		uranium = 4.000
+		uranium = 10.000
 	}
 
 	history = {
-		owner = ZZZ # PAK
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = AFG
-		# add_claim_by = IND
+		owner = ZZZ # SAF
+		victory_points = {
+			13515 1
+		}
 		buildings = {
-			infrastructure = 4
-			barracks = 1
+			offices = 1
+			infrastructure = 2
+			synthetic_refinery = 1
+			13515 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
 		}
-		victory_points = {
-			15993 10
-		}
-		victory_points = {
-			5105 1
-		}
+		# add_core_of = SAF
+
 	}
 
 	provinces = {
-		5105 15993
+		4528 10415 10442 13497 13515 17824 17828
 	}
-	manpower = 393622
+	manpower = 510284
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

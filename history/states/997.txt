@@ -1,31 +1,18 @@
 state = {
 	id = 997
 	name = "STATE_997"
-	provinces = {
-		9817
-	}
-
 	history = {
-		victory_points = { 9817 20 }
-		
-		owner = PGS
-		add_core_of = PGS
-		# add_core_of = IBR
+		owner = WTB
+		add_core_of = WTB
 		buildings = {
-			barracks = 1
-			schools = 1
-			offices = 1
-			hospitals = 1
-			thermoelectric_plant = 2
-			infrastructure = 5
-			9817 = {
-				naval_base = 7
-			}
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_portugal
-		# set_state_flag = GDP_category_large_town
 	}
-	state_category = city
-	manpower = 2021133
+	provinces = {
+        3690 9655
+	}
+	manpower = 87721
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

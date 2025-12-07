@@ -1,18 +1,42 @@
 state = {
 	id = 2900
 	name = "STATE_2900"
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			radar_station = 2
+			dockyard = 1
+			prisons = 1
+			schools = 1
+			offices = 2
+			air_base = 3
+			thermoelectric_plant = 3
+			15258 = {
+				naval_base = 4
+				bunker = 1
+				coastal_bunker = 1
+			}
 		}
+		# add_core_of = ARG
+		victory_points = {
+			12364 5
+		}
+		victory_points = {
+			15258 5
+		}
+		victory_points = {
+			15259 5
+		}
+
+
 	}
+
 	provinces = {
-       9590 6639
+		12364 15258 15259
 	}
-	manpower = 87721
+	manpower = 2483023
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

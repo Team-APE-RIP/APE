@@ -1,17 +1,21 @@
 state = {
 	id = 3014
 	name = "STATE_3014"
+
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
 			infrastructure = 3
+			schools = 1
 		}
+		victory_points = { 19128 1 }
 	}
+
 	provinces = {
-        7183
+		1423 19128
 	}
-	manpower = 87721
+	manpower = 1275837
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

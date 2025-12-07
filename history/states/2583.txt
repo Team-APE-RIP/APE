@@ -1,18 +1,32 @@
 state = {
 	id = 2583
 	name = "STATE_2583"
+	resources = {
+		steel = 24.000
+		oil = 20.000
+	}
+
 	history = {
-		owner = XIN
-		add_core_of = XIN
+		owner = ZZZ # TOM
 		buildings = {
-			infrastructure = 1
+			air_base = 1
+			infrastructure = 4
+			schools = 2
+			hospitals = 1
+			offices = 1
+			thermoelectric_plant = 2
 		}
+		victory_points = {
+			7789 15
+		}
+
+		# add_core_of = TOM
 	}
+
 	provinces = {
-		7693 4823 4751
+		1674 1718 4767 7655 7789 7861 12510 12536
 	}
-	manpower = 1026811
+	manpower = 856000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

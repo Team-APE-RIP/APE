@@ -1,18 +1,27 @@
 state = {
 	id = 2599
 	name = "STATE_2599"
+	manpower = 34800
+
+	state_category = small_island
+
 	history = {
-		owner = MAN
-		# add_core_of = SHT
+		owner = ZZZ # FAR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			barracks = 1
+			radar_station = 4
+			air_base = 3
+			13003 = {
+				naval_base = 2
+				coastal_bunker = 2
+				bunker = 1
+			}
+		}
+		# add_core_of = FAR
+		victory_points = {
+			13003 5
 		}
 	}
-	provinces = {
-		11886 9905 3814 814
-	}
-	manpower = 1026811
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	provinces = { 13003 }
 }

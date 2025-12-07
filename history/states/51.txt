@@ -1,57 +1,34 @@
 state = {
 	id = 51
 	name = "STATE_51"
+
 	resources = {
-		steel = 43.000
+		oil = 14
+		steel = 6
 	}
 
 	history = {
-		owner = RHN
-		add_core_of = RHN
-		# add_core_of = GER
-		victory_points = {
-			587 25
-		}
-		victory_points = {
-			3488 10
-		}
-		victory_points = {
-			9482 3
-		}
-		victory_points = {
-			18144 10
-		}
-		victory_points = {
-			6570 10
-		}
-		victory_points = {
-			18140 4
-		}
-		victory_points = {
-			3547 2
-		}
-		victory_points = {
-			11562 9
-		}
+		owner = ZZZ # PER
 		buildings = {
-			schools = 2
-			hospitals = 1
-			offices = 2
-			radar_station = 1
-			infrastructure = 6
-			air_base = 5
-			nuclear_reactor = 1
-			thermoelectric_plant = 2
-			hydroelectric_plant = 2
+			infrastructure = 4
 		}
-		# set_state_flag = GDP_category_large_city
+		# add_core_of = PER
+		victory_points = {
+			18745 5
+		}
+		victory_points = {
+			5050 7
+		}
+		victory_points = {
+			18760 1
+		}
 	}
 
 	provinces = {
-		587
+		2065 5050 18745 18760 18773 18781
 	}
-	manpower = 3112200
+	manpower = 686307
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	state_category = rural
 	local_supplies = 0.000
 }

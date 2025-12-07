@@ -1,40 +1,25 @@
 state = {
 	id = 1820
 	name = "STATE_1820"
-	resources = {
-		steel = 24.000
-	}
 
 	history = {
-		owner = DPK
-		add_core_of = DPK
-		# add_core_of = KOR
-		# add_core_of = JAP
+		owner = ZZZ # IND
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			thermoelectric_plant = 1
-			6944 = {
-				naval_base = 3
-			}
-			offices = 1
-			barracks = 1
 		}
 		victory_points = {
-			898 10
+			12708 5
 		}
-		victory_points = {
-			6944 5
-		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_korea
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		898 959 3860 6822 6922 6944
+		12708 16042 18877 18886
 	}
-	manpower = 1523881
+	manpower = 753746
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

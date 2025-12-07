@@ -3,23 +3,28 @@ state = {
 	name = "STATE_516"
 
 	history = {
-		owner = ZZZ # NRL
-		victory_points = {
-			4859 5
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			18384 = {
+				coastal_bunker = 2
+			}
 		}
 		victory_points = {
-			1757 1
+			18384 6
 		}
-		# add_core_of = NRL
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = universal_renamings
+		victory_points = {
+			11029 1
+		}
+		owner = ZZZ # NOR
+		# add_core_of = NOR
 	}
 
 	provinces = {
-		96 1729 1757 2923 2972 3336 3415 4692 4733 4761 4859 7809 8886 10536 10564 10607 10635 11261 11328 12517 12545 12643 12687 13064 16869 16870 16871
+		18384 9204 144 6080 3094 18396 18405 18388 3059 11029
 	}
-	manpower = 36350
+	manpower = 168351
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
 	local_supplies = 0.000
 }

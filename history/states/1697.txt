@@ -1,23 +1,28 @@
 state = {
 	id = 1697
 	name = "STATE_1697"
-	resources = {
-	}
-
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # PRU
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # MEX
+		# add_core_of = MEX
+		victory_points = {
+			2011 6
 		}
-		# add_core_of = PRU
-		# set_state_flag = GDP_category_rural
+		victory_points = {
+			14480 1
+		}
+		buildings = {
+			offices = 2
+			infrastructure = 2
+			radar_station = 2
+		}
 	}
 
 	provinces = {
-		13086
+		2011 8477 14480
 	}
-	manpower = 53260
+	manpower = 420874
 	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

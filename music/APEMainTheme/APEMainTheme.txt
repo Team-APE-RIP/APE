@@ -1,0 +1,14 @@
+music_station = "APEMainTheme"
+
+music = {
+    song =  "APEMainTheme_1" # 炼土复周 - QFK
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}
+music = {
+    song =  "APEMainTheme_2" # Fegefeuer der Heimat - Former German territory
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}

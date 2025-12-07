@@ -2,15 +2,14 @@ state = {
 	id = 2715
 	name = "STATE_2715"
 	history = {
-		owner = WTB
-		add_core_of = WTB
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = { 519 6 }
 	}
 	provinces = {
-        519 11486
+        920 3725 3727 3918
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

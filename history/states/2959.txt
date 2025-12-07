@@ -1,21 +1,26 @@
 state = {
 	id = 2959
 	name = "STATE_2959"
+
 	history = {
-		owner = ITA
-        add_core_of = ITA
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+
+		victory_points = { 13830 1 }
+		victory_points = { 13858 1 }
+
 		buildings = {
-			infrastructure = 3
-			11751 = {
-				naval_base = 5
-			}
+			barracks = 1
+			prisons = 1
+			infrastructure = 1
 		}
 	}
+
 	provinces = {
-        9750 6862 11751
+		12795 13827 13830 13847 13858 13861
 	}
-	manpower = 87721
+	manpower = 544953
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

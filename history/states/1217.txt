@@ -3,18 +3,22 @@ state = {
 	name = "STATE_1217"
 
 	history = {
-		owner = ZZZ # BKF
-		# add_core_of = BKF
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # KLT
+		victory_points = {
+			15992 1
 		}
-		# set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = KLT
+		# add_claim_by = AZH
+		# add_claim_by = IND
 	}
 
 	provinces = {
-		10836 12740 14134 15292 15909
+		10813 13484 15992
 	}
-	manpower = 455877
+	manpower = 76596
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -3,22 +3,31 @@ state = {
 	name = "STATE_2540"
 
 	history = {
-		owner = XIK
-		add_core_of = YUN
+		owner = ZZZ # ITA
+		victory_points = { 1149 10 }
 		buildings = {
-			infrastructure = 2
+			barracks = 1
+			prisons = 1
+			offices = 1
+			schools = 1
+			infrastructure = 5
+			thermoelectric_plant = 2
+			radar_station = 1
+			air_base = 6
+			1149 = {
+				naval_base = 5
+			}
 		}
-		victory_points = {
-			4937 2
-		}
+		# add_core_of = ITA
+		# add_core_of = LBA
+
+
 	}
 
 	provinces = {
-		8126 4937
+		1149
 	}
-	manpower = 938101
+	manpower = 192342
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
-	#impassable = yes
+	state_category = large_town
 }

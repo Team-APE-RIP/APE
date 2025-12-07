@@ -1,24 +1,29 @@
 state = {
 	id = 2130
 	name = "STATE_2130"
-	manpower = 110904
-
-	state_category = rural
+	resources = {
+		steel = 8.000
+	}
 
 	history = {
-		owner = SWS
-        add_core_of = SWS
-		buildings = {
-			infrastructure = 3
-			hydroelectric_plant = 1
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+		victory_points = {
+			8244 3
 		}
-		victory_points = { 658 2 }
-		# add_core_of = SWI
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_town
+		buildings = {
+			offices = 1
+			barracks = 1
+			infrastructure = 1
+		}
 	}
 
 	provinces = {
-		658 18123
+		2080 8244 10948 11827 13931 13943 13945 13950
 	}
+	manpower = 105411
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

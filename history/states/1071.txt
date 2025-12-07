@@ -1,30 +1,18 @@
-state = { #Population Done
+state = {
 	id = 1071
 	name = "STATE_1071"
-
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			hospitals = 1
-			prisons = 1
-			barracks = 1
-			infrastructure = 2
-			2123 = {
-				naval_base = 3
-			}
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_town
-		victory_points = { 13775 10 }
-		victory_points = { 2123 3 }
-		victory_points = { 13752 1 }
-		victory_points = { 13776 1 }
 	}
-
 	provinces = {
-		2123 13752 13775 13776
+        10014 4173 19601 19902
 	}
-	manpower = 1161916
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

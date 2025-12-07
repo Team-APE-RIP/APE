@@ -1,26 +1,18 @@
 state = {
 	id = 2067
-	name = "STATE_2067" # Stonington Island
-	manpower = 1
-
-	state_category = wasteland
-
+	name = "STATE_2067"
 	history = {
-		owner = ZZZ # AAO
-		# add_core_of = AAO
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17724 1 }
+		owner = PGS
+		add_core_of = PGS
 		buildings = {
-			infrastructure = 1
-			17724 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		17724
+        845 938
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

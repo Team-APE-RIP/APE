@@ -1,38 +1,41 @@
-state = {
+state = { #Population Done
 	id = 2385
 	name = "STATE_2385"
+	manpower = 179029
 
-	resources = {
-		uranium = 2
-	}
+	state_category = small_island
 
 	history = {
-		owner = GUZ
-		add_core_of = GUZ
+		owner = ZZZ # ICE
+		victory_points = {
+			12674 10
+		}
+		victory_points = {
+			4861 1
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			barracks = 1
+			hydroelectric_plant = 1
+			anti_air_building = 1
+			radar_station = 4
+			air_base = 5
+			12674 = {
+				naval_base = 4
+				coastal_bunker = 3
+				bunker = 1
+			}
+			12689 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+			4861 = {
+				coastal_bunker = 2
+			}
 		}
-		victory_points = {
-			1884 5
-		}
-		victory_points = {
-			19499 7
-		}
-		victory_points = {
-			19556 3
-		}
-		victory_points = {
-			19539 4
-		}
-		# set_variable = { china_state_ref = 18 }
-		# set_variable = { china_region_ref = 2 }
+		# add_core_of = ICE
 	}
-
 	provinces = {
-		19499 1884 19539 19556 19519 19613
+		4861 12674 12689
 	}
-	manpower = 3025490
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

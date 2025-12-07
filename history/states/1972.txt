@@ -1,19 +1,18 @@
 state = {
-	id = 1972 #Escape 2 Africa
+	id = 1972
 	name = "STATE_1972"
-
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		15959 16172
+	    19722 19732
 	}
-	manpower = 105135
+	manpower = 1828771
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
+	local_supplies = 0.000
 }

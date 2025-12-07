@@ -1,24 +1,25 @@
 state = {
 	id = 1253
 	name = "STATE_1253"
-	manpower = 376300
-
-	state_category = town
 
 	history = {
-		owner = ZZZ # VEN
-		buildings = {
-			thermoelectric_plant = 1
-			schools = 2
-			offices = 1
-			infrastructure = 3
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+		victory_points = {
+			13932 2
 		}
-		# add_core_of = VEN
-		victory_points = { 5088 10 }
-		# set_state_flag = GDP_regions_sw_vz
+		buildings = {
+			barracks = 1
+			infrastructure = 1
+		}
 	}
 
 	provinces = {
-		5088
-		}
+		5786 3109 13916 13925 13932
+	}
+	manpower = 197108
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

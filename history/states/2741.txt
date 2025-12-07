@@ -1,18 +1,27 @@
 state = {
 	id = 2741
 	name = "STATE_2741"
+
 	history = {
-		owner = FAH
-        add_core_of = FAH
-		buildings = {
-			infrastructure = 3
+		# add_core_of = JOL
+		owner = ZZZ # JOL
+		victory_points = {
+			4989 1
 		}
+		buildings = {
+			infrastructure = 2
+			4989 = {
+				naval_base = 2
+			}
+		}
+
 	}
+
 	provinces = {
-        11560 589
+		4989 7299 14266 18688
 	}
-	manpower = 87721
+	manpower = 252388
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

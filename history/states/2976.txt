@@ -1,17 +1,28 @@
 state = {
 	id = 2976
 	name = "STATE_2976"
+	resources = {
+		chromium = 4
+		tungsten = 2
+		steel = 2
+	}
+
 	history = {
-		owner = ITC
-        add_core_of = ITC
+		owner = ZZZ # CAU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
+		# add_core_of = CAU
+		victory_points = {
+			15690 4
+		}
+
 	}
+
 	provinces = {
-        6843 9784
+		714 6692 9649 9674 11664 15690 18296
 	}
-	manpower = 87721
+	manpower = 319807
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

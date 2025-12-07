@@ -2,32 +2,31 @@ state = {
 	id = 1561
 	name = "STATE_1561"
 	resources = {
-		chromium = 2.000
+		steel = 6.000
+		aluminium = 12.000
 	}
 
 	history = {
-		owner = ZZZ # CAU
+		owner = ZZZ # ARM
+		victory_points = {
+			18465 1
+		}
+		victory_points = {
+			4660 1
+		}
 		buildings = {
-			infrastructure = 3
-			offices = 1
+			infrastructure = 2
+			barracks = 1
 		}
-		victory_points = {
-			9628 10
-		}
-		victory_points = {
-			18334 2
-		}
-		victory_points = {
-			11614 1
-		}
-		# add_core_of = CAU
-		# set_state_flag = universal_renamings
+		# add_core_of = ARM
+
+
 	}
 
 	provinces = {
-		9628 11614 18334
+		4660 6642 18465
 	}
-	manpower = 517944
+	manpower = 135142
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

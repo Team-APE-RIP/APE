@@ -2,58 +2,32 @@ state = {
 	id = 811
 	name = "STATE_811"
 
-	resources = {
-		steel = 2
-		oil = 14
-	}
-
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = MAN
+		# add_core_of = MAN
 		victory_points = {
-			1104 3
+			19848 14
 		}
 		victory_points = {
-			1200 11
+			4592 12
 		}
 		victory_points = {
-			4186 5
+			19905 1
 		}
-		victory_points = {
-			4205 9
-		}
-		victory_points = {
-			7105 5
-		}
-		victory_points = {
-			19864 5
-		}
+		# set_variable = { china_state_ref = 50 }
+		# set_variable = { china_region_ref = 6 }
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 2
-			barracks = 1
-			prisons = 1
-			offices = 1
-			4205 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
-			1200 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
+			infrastructure = 4
+			air_base = 3
+			radar_station = 3
 		}
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_regions_shandong_taiyue
-		# set_variable = { china_state_ref = 13 }
-		# set_variable = { china_region_ref = 1 }
-		# set_state_flag = GDP_category_rural
+
 	}
 
 	provinces = {
-		1104 1200 4186 4205 7105 10018 19587 19864 19907
+		4592 4894 7897 19848 19868 19873 19905 19813 19830
 	}
-	manpower = 8141627
+	manpower = 4441687
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -2,32 +2,26 @@ state = {
 	id = 1395
 	name = "STATE_1395"
 
-	resources = {
-		oil = 8
-	}
-
 	history = {
-		owner = ZZZ # OST
-		victory_points = {
-			14603 3
-		}
-		victory_points = {
-			14607 1
-		}
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
+			infrastructure = 2
+			barracks = 1
 		}
-		# add_core_of = OST
-		# set_state_flag = GDP_regions_estonia
-		# set_state_flag = universal_renamings
+		victory_points = {
+			13686 2
+		}
+		victory_points = {
+			13680 1
+		}
 	}
 
 	provinces = {
-		3174 14603 11291 6381 14604 14602 14607 308 6178 14605
+		2151 13680 13686 17847
 	}
-	manpower = 171736
+	manpower = 175000
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

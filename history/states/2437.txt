@@ -1,36 +1,35 @@
 state = {
 	id = 2437
 	name = "STATE_2437"
-	resources = {
-		steel = 6.000
-	}
-
-	history = {
-		owner = NAL
-		add_core_of = NAL
-		buildings = {
-			infrastructure = 1
-		}
-		# set_state_flag = GDP_regions_fujian
-		# set_variable = { china_state_ref = 33 }
-		# set_variable = { china_region_ref = 4 }
-		victory_points = {
-			19758 1
-		}
-		victory_points = {
-			1138 1
-		}
-		victory_points = {
-			1193 1
-		}
-		
-	}
-
 	provinces = {
-		1138 1166 1193 19669 19739 19758 
+		16326 16328 6489 9458 16327
 	}
-	manpower = 1177699
+	history = {
+		owner = ZZZ # ENG
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 3
+			offices = 1
+			barracks = 1
+			schools = 1
+			9458 = {
+				naval_base = 9
+			}
+			air_base = 3
+		}
+
+		# add_core_of = ENG
+		victory_points = {
+			6489 10
+		}
+		victory_points = {
+			9458 10
+		}
+		victory_points = {
+			16328 2
+		}
+	}
+	manpower = 1418650
+	state_category = city
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -1,27 +1,18 @@
 state = {
 	id = 700
 	name = "STATE_700"
-
 	history = {
-		# add_core_of = MDI
-		owner = ZZZ # MDI
-		victory_points = {
-			2038 1
-		}
+		owner = RHN
+		add_core_of = RHN
 		buildings = {
-			infrastructure = 2
-			2038 = {
-				naval_base = 3
-			}
+			infrastructure = 3
 		}
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		2038 14079 14087
+        15852 11435 
 	}
-	manpower = 1149600
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

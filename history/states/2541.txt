@@ -2,23 +2,29 @@ state = {
 	id = 2541
 	name = "STATE_2541"
 
+	state_category = pastoral
+
+	resources = {
+		oil = 16
+	}
+
 	history = {
-		owner = YUN
-		# add_core_of = YUN
+		owner = ZZZ # BKU
+		# add_core_of = KUR
+		# add_core_of = BKU
+		# add_claim_by = IRQ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			4407 2
-		}
+		victory_points = { 15763 5 }
+		victory_points = { 15762 7 }
+
+
 	}
 
 	provinces = {
-		4407 19719 10856 4964 12899
+		15762 15763 5014 16322
 	}
-	manpower = 938101
+	manpower = 372063
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
-	#impassable = yes
 }

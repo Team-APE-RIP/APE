@@ -1,18 +1,30 @@
 state = {
 	id = 2634
 	name = "STATE_2634"
+
 	history = {
-		owner = MEN
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # OST
+		victory_points = {
+			1665 1
 		}
-		
+		victory_points = {
+			838 1
+		}
+		buildings = {
+			infrastructure = 5
+			hospitals = 1
+			thermoelectric_plant = 1
+		}
+		# add_core_of = OST
+
+
 	}
+
 	provinces = {
-	    12649 19446 1689
+		838 1215 1665 1899 6360
 	}
-	manpower = 82871
+	manpower = 239240
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

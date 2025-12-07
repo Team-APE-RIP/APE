@@ -1,37 +1,36 @@
 state = {
 	id = 1836
 	name = "STATE_1836"
-	manpower = 4731151
-
-	state_category = metropolis
-
-	#resources = {
-	#	tungsten = 1
-	#}
+	resources = {
+		rubber = 7.000
+	}
 
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ # LIB
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 			air_base = 1
-			15873 = {
-				naval_base = 6
-			}
-			dockyard = 3
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			schools = 2
-			offices = 2
-			hospitals = 1
-			prisons = 3
+			anti_air_building = 1
 			barracks = 1
+			hospitals = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			7959 = {
+				naval_base = 2
+			}
 		}
-		victory_points = { 15873 30 }
-		victory_points = { 12031 15 }
+		victory_points = {
+			7959 3
+		}
+		# add_core_of = LIB
+
 	}
 
 	provinces = {
-		15873 12031 9985 15874
+		4580 7959 10803 13400 15289 15290
 	}
+	manpower = 642800
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

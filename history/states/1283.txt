@@ -3,39 +3,32 @@ state = {
 	name = "STATE_1283"
 
 	history = {
-		owner = ZZZ # ROM
-		victory_points = {
-			657 10
-		}
-		victory_points = {
-			3076 3
-		}
-		victory_points = {
-			18214 2
-		}
+		owner = ZZZ # UKR
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			offices = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+			dockyard = 1
 			barracks = 1
-			air_base = 3
-			657 = {
-				naval_base = 8
-			}
-			687 = {
-				naval_base = 1
-			}
-			dockyard = 2
+			offices = 1
 			prisons = 1
+			radar_station = 1
 		}
-		# add_core_of = ROM
+		victory_points = { 6597 2 }
+		victory_points = { 11546 10 }
+		victory_points = { 3755 10 }
+		victory_points = { 3452 5 }
+		victory_points = { 11683 1 }
+		victory_points = {
+			6478 3
+		}
+		# add_core_of = UKR
+
 	}
 
 	provinces = {
-		657 687 3076 9635 18201 18206 18214 18217
+		409 574 3403 3755 6597 9573 11546 11683 11715 11409 434 458 3452 488 3468 6478 6451
 	}
-	manpower = 617963
+	manpower = 2256666
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = town
 }

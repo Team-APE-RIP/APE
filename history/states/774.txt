@@ -1,30 +1,27 @@
-state = { #Population Done
+state = {
 	id = 774
 	name = "STATE_774"
-	provinces = {
-		332 11251
+	resources = {
+		oil = 1.000
 	}
-	manpower = 215689
-	state_category = rural
 
 	history = {
-		owner = DMK
-        add_core_of = DMK
+		owner = ZZZ # SAU
+		# add_core_of = SAU
 		buildings = {
-			hospitals = 1
-			barracks = 1
-			prisons = 1
-			infrastructure = 5
-			thermoelectric_plant = 1
-			332 = {
-				coastal_bunker = 2
-			}
+			infrastructure = 2
 		}
-		# add_core_of = DEN
 		victory_points = {
-			11251 2
+			10815 1
 		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = state_renamings
+
 	}
+
+	provinces = {
+		4974 5058 10815 12749 13475 18548 18564
+	}
+	manpower = 65543
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

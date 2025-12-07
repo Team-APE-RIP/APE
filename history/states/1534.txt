@@ -2,23 +2,35 @@ state = {
 	id = 1534
 	name = "STATE_1534"
 
+	resources = {
+		oil = 48
+	}
+
 	history = {
-		owner = ZZZ # KLT
-		# add_core_of = KLT
+		owner = ZZZ # INS
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			synthetic_refinery = 1
+			offices = 1
+			7463 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			8066 5
+			7463 1
 		}
-		# add_claim_by = AZH
-		# add_claim_by = IND
+		victory_points = {
+			19289 1
+		}
+		# add_core_of = INS
+
+
 	}
 
 	provinces = {
-		8066 15991 18883
+		1277 7327 7463 19221 19239 19247 19289
 	}
-	manpower = 123066
+	manpower = 378771
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

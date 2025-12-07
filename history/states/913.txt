@@ -2,32 +2,33 @@ state = {
 	id = 913
 	name = "STATE_913"
 
-	resources = {
-		oil = 8
-	}
-
 	history = {
-		owner = ZZZ # OMA
-		# add_core_of = OMA
-		buildings = {
-			infrastructure = 2
-			2103 = {
-				naval_base = 1
-			}
-			air_base = 1
+		owner = ZZZ # ALB
+		victory_points = {
+			14448 5
 		}
 		victory_points = {
-			2103 1
+			16194 1
 		}
-		# set_state_flag = GDP_category_town
-		# set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+			thermoelectric_plant = 1
+			16194 = {
+				naval_base = 1
+			}
+			air_base = 3
+			radar_station = 1
+			offices = 1
+		}
+		# add_core_of = ALB
+
 	}
 
 	provinces = {
-		2018 2059 2103 13433 13435 13436 13438 18576
+		14448 16194
 	}
-	manpower = 53547
+	manpower = 383613
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

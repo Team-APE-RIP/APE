@@ -3,31 +3,16 @@ state = {
 	name = "STATE_1003"
 
 	history = {
-		
-		owner = IPC
-		add_core_of = IPC
-		victory_points = {
-			12038 8
-		}
-		victory_points = {
-			747 1
-		}
-		# add_core_of = IBR
-		buildings = {
-			prisons = 1
-			infrastructure = 4
-			thermoelectric_plant = 1
-			12038 = {
-				naval_base = 1
-			}
-		}
+		owner = ZZZ # IEA
+		# add_core_of = IEA
+		victory_points = { 2072 3 }
+
 	}
 
 	provinces = {
-		747 4065 11956 12038
+		2072 15552 15556
 	}
-	manpower = 362759
+	manpower = 1197607
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	state_category = pastoral
 }

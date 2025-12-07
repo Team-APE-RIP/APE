@@ -1,23 +1,27 @@
 state = {
 	id = 1648
 	name = "STATE_1648"
+	manpower = 2316
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # STC
+		owner = ZZZ # IND
+		# add_core_of = IND
 		buildings = {
-			infrastructure = 2
-			offices = 1
+			infrastructure = 1
+			radar_station = 3
+			air_base = 2
 			barracks = 1
+			13019 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = STC
-		# add_core_of = BOL
+		# add_claim_by = ENG
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		2160 12902 13134 17531
+		13019
 	}
-	manpower = 129354
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

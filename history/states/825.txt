@@ -2,27 +2,30 @@ state = {
 	id = 825
 	name = "STATE_825"
 
+
 	history = {
-		owner = ZZZ # YOR
+		owner = ZZZ # PER
 		buildings = {
-			infrastructure = 2
-			thermoelectric_plant = 2
-			2050 = {
-				naval_base = 2
+			infrastructure = 3
+			air_base = 1
+			4891 = {
+				naval_base = 1
 			}
 		}
-		# add_core_of = YOR
+		# add_core_of = PER
 		victory_points = {
-			2050 1
+			18716 3
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			12895 1
+		}
 	}
 
 	provinces = {
-		2050 4952 14019 15203
+		1889 2039 2070 4891 10782 12895 13082 13595 13596 13597 13601 18708 18710 18716
 	}
-	manpower = 1593600
+	manpower = 454996
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -3,27 +3,45 @@ state = {
 	name = "STATE_994"
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		# add_core_of = IBR
-		victory_points = {
-			3902 5
-		}
-		victory_points = {
-			6903 1
-		}
+		owner = ZZZ # USA
 		buildings = {
+			hospitals = 1
+			prisons = 3
 			offices = 1
-			infrastructure = 4
+			barracks = 1
+			infrastructure = 5
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			7202 = {
+				naval_base = 2
+			}
 		}
-		# set_state_flag = GDP_category_city
+		# add_core_of = USA
+		victory_points = { # Charleston
+			7202 10
+		}
+		victory_points = { # Columbia
+			7012 5
+		}
+		victory_points = { # Greenville
+			4653 3
+		}
+		victory_points = { # Myrtle Beach
+			11927 3
+		}
+		victory_points = { # Rock Hill
+			4491 1
+		}
+		victory_points = { # Orangeburg
+			10029 1
+		}
 	}
 
 	provinces = {
-		3902 6903 11852
+		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 17298
 	}
-	manpower = 231115
+	manpower = 2430200
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 }

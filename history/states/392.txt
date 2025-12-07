@@ -1,43 +1,60 @@
 state = {
 	id = 392
 	name = "STATE_392"
+	resources = {
+		steel = 23.000
+		uranium = 6.000
+	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = ZZZ # AST
+
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			air_base = 1
+			infrastructure = 3
+			air_base = 4
+			radar_station = 5
+			barracks = 1
+			7669 = {
+				naval_base = 6
+				coastal_bunker = 5
+			}
+			1431 = {
+				coastal_bunker = 5
+			}
+			12326 = {
+				coastal_bunker = 5
+			}
+			4415 = {
+				coastal_bunker = 5
+			}
+			10288 = {
+				coastal_bunker = 5
+			}
+			12290 = {
+				coastal_bunker = 5
+			}
+			10276 = {
+				coastal_bunker = 5
+			}
+			12246 = {
+				coastal_bunker = 5
+			}
 		}
-		# add_core_of = USA
-		victory_points = { # Des Moines
-			7458 15
+		victory_points = { # Darwin
+			7669 2
 		}
-		victory_points = { # Cedar Rapids
-			9910 3
+		victory_points = { # Katherine
+			1454 1
 		}
-		victory_points = { # Davenport
-			10478 3
-		}
-		victory_points = { # Sioux City
-			12646 3
-		}
-		victory_points = { # Council Bluffs
-			9892 3
-		}
-		victory_points = { # Iowa City
-			7306 1
-		}
-		victory_points = { # Ames
-			12418 1
-		}
+
+		# add_core_of = AST
 	}
 
 	provinces = {
-		1831 4691 7306 7458 7539 9910 10478 11971 12418 1586 1678 1770 9892 10666 11788 12646
+		1217 1410 1422 1431 1454 1478 2139 4415 4441 4462 4487 7457 7481 7669 10276 10288 10316 10518 12104 12246 12290 12311 12326 12339 12499 19935
 	}
-	manpower = 2759284
+	manpower = 39481
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
+	local_supplies = 0.000
 }

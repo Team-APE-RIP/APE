@@ -2,20 +2,22 @@ state = {
 	id = 924
 	name = "STATE_924"
 
-	resources = {
-		oil = 4
-	}
-
 	history = {
-		owner = ZZZ # IRQ
-		# add_core_of = IRQ
-		# set_state_flag = state_renamings
+		owner = ZZZ # IEA
+		# add_core_of = IEA
+
+		victory_points = { 8043 3 }
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+		}
+
 	}
 
 	provinces = {
-		10744 12879 16310 16311 16314 16315 16316
+		8043 12766 14156 14420 15554
 	}
-	manpower = 13152
+	manpower = 87574
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 }

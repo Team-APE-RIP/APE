@@ -1,27 +1,31 @@
-state = { #Population + VPs Done
+state = {
 	id = 711
 	name = "STATE_711"
-	manpower = 927
-	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		buildings = {
-			infrastructure = 1
-			air_base = 2
-			barracks = 1
-			radar_station = 3
-			13005 = {
-				naval_base = 1
-			}
-			air_base = 1
+		owner = ZZZ # UKR
+		victory_points = {
+			9461 10
 		}
-		# add_claim_by = AST
-		# set_state_flag = GDP_regions_sumatra
+		victory_points = {
+			6505 5
+		}
+		victory_points = {
+			9446 3
+		}
+		buildings = {
+			barracks = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+
 	}
 
 	provinces = {
-		13005
+		523 547 570 3567 6505 6519 9446 9461 9476 11487 11513 18233
 	}
+	manpower = 1258447
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

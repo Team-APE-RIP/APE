@@ -1,23 +1,30 @@
-state = {
+state = { #Population Done
 	id = 1008
 	name = "STATE_1008"
+	manpower = 727267
+
+	resources = {
+		steel = 7
+	}
+
+	state_category = city
+
 	history = {
-		owner = ZZZ # IBR
-		victory_points = { 12857 1 }
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			12857 = {
-				naval_base = 4
-			}
+			infrastructure = 5
+			thermoelectric_plant = 1
+			prisons = 1
+			hospitals = 1
+			schools = 1
+			offices = 1
 		}
-		# add_core_of = MOR
-		# set_state_flag = GDP_regions_morocco
+		# add_core_of = ARG
+		victory_points = { 14965 20 }
+
 	}
+
 	provinces = {
-		12857
+		14965
 	}
-	manpower = 41952
-	buildings_max_level_factor = 1.000
-	state_category = enclave
 }

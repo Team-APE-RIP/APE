@@ -1,29 +1,35 @@
-state = { #Population Done
+state = {
 	id = 2516
 	name = "STATE_2516"
-	manpower = 5950
-	
-	resources = {
-		oil = 5
-	}
-	
-	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # SUR
-		# add_core_of = SUR
+		owner = ZZZ # AST
 		buildings = {
 			infrastructure = 2
-			prisons = 1
-			19990 = {
-				naval_base = 1
+			radar_station = 5
+			air_base = 2
+			2201 = {
+				coastal_bunker = 5
 			}
 		}
-		# set_state_flag = GDP_category_city
-		victory_points = { 19990 1 }
+		victory_points = { # Exmouth
+			10971 1
+		}
+		victory_points = { # Port Hedland
+			8152 1
+		}
+		victory_points = { # Kalgoorlie
+			8200 2
+		}
+
+		# add_core_of = AST
 	}
 
 	provinces = {
-		19990
+		1498 1511 2133 2177 2186 2201 4645 5125 5170 7579 7608 8134 8152 8155 8200 10473 10949 10950 10971 12323 12904 12912 12926 12993
 	}
+	manpower = 80777
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
 }

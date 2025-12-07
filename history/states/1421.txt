@@ -1,43 +1,35 @@
 state = {
 	id = 1421
 	name = "STATE_1421"
-	resources = {
-		uranium = 4.000
-	}
 
 	history = {
-		owner = ZZZ # OST
-		# add_core_of = OST
-		victory_points = {
-			117 10
-		}
-		victory_points = {
-			11109 3
-		}
-		victory_points = {
-			11080 5
-		}
-		victory_points = {
-			9098 4
-		}
-		victory_points = {
-			3120 1
-		}
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			air_base = 1
+			infrastructure = 2
 			prisons = 1
+			thermoelectric_plant = 1
 		}
-		# set_state_flag = GDP_regions_pleskau
-		# set_state_flag = universal_renamings
+		victory_points = {
+			4152 4
+		}
+		victory_points = {
+			7210 11
+		}
+		victory_points = {
+            19540 5
+        }
+		add_extra_state_shared_building_slots = 1
+		# set_variable = { china_state_ref = 19 }
+		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		104 117 181 3089 3120 6139 9097 9098 9234 9319 11032 11072 11080 11109 11139 11186 18260 18265 18271 18274 18287 18352
+		7128 7210 4152 19540 19572
 	}
-	manpower = 406093
+	manpower = 2999961
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

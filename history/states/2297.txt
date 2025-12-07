@@ -1,20 +1,29 @@
 state = {
 	id = 2297
 	name = "STATE_2297"
+	resources = {
+		uranium = 3.000
+	}
 
 	history = {
-		owner = ZZZ # NRB
-		buildings = {
-			infrastructure = 3
+		owner = ERV
+		add_core_of = ERV
+		victory_points = {
+			10309 1
 		}
-		# add_core_of = NRB
-		# set_state_flag = GDP_regions_sarawak
+		buildings = {
+			infrastructure = 2
+			10309 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
 	}
 
 	provinces = {
-		10269 19206
+		10137 10309
 	}
-	manpower = 30816
+	manpower = 1126290
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

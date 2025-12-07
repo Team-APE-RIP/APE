@@ -2,37 +2,40 @@ state = {
 	id = 25
 	name = "STATE_25"
 	resources = {
-		steel = 1.000
+		chromium = 2.000
 	}
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
-			infrastructure = 4
-			hydroelectric_plant = 2
-			offices = 1
-			hospitals = 1
-			schools = 1
+			infrastructure = 2
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
+		# add_core_of = TIB
 		victory_points = {
-			3771 2
+			2010 5
 		}
 		victory_points = {
-			620 10
+			17014 1
 		}
 		victory_points = {
-			3751 1
+			4900 1
 		}
+		victory_points = {
+			2014 1
+		}
+		victory_points = {
+			19627 1
+		}
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		620 625 
+		2010 2014 2093 4900 5094 8121 12784 12807 17014 17029 19439 19627
 	}
-	manpower = 736323
+	manpower = 465895
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

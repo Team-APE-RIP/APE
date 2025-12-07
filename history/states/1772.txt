@@ -1,34 +1,18 @@
 state = {
 	id = 1772
 	name = "STATE_1772"
-	resources = {
-		tungsten = 14.000
-		chromium = 18.000
-	}
-
 	history = {
-		owner = OTC
-        add_core_of = OTC
-		victory_points = {
-			9648 15
-		}
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 5
-			hydroelectric_plant = 3
-			offices = 1
-			barracks = 2
-			schools = 1
+			infrastructure = 3
 		}
-		# add_core_of = GER
-		# set_state_flag = GDP_regions_austria
-		# set_state_flag = GDP_category_large_town
 	}
-
 	provinces = {
-		6690 9648  18120
+        15655 13011
 	}
-	manpower = 1195023
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

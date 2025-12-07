@@ -1,20 +1,31 @@
-state = {
+state = { #Population Done
 	id = 1859
 	name = "STATE_1859"
+	manpower = 1101245
 
+	state_category = large_town
+
+	resources = {
+		chromium = 3
+	}
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # HAI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			air_base = 1
+			thermoelectric_plant = 1
+			offices = 1
+			barracks = 1
+			4641 = {
+				naval_base = 3
+				bunker = 2
+			}
 		}
-		# set_state_flag = state_renamings
-	}
 
-	provinces = {
-		15949 13726 13706 15947 10993 15946 16171
+		# add_core_of = HAI
+		victory_points = { 4641 20 }
 	}
-	manpower = 211001
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	provinces = {
+		4641
+	}
 }

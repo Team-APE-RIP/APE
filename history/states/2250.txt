@@ -2,25 +2,32 @@ state = {
 	id = 2250
 	name = "STATE_2250"
 
-	resources = {
-		rubber = 4
-	}
-
 	history = {
-		add_core_of = KCD
-		owner = KCD
+		owner = QDN
+		add_core_of = QDN
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			air_base = 3
+			barracks = 1
+		}
+		
+		
+		victory_points = {
+			19523 2
 		}
 		victory_points = {
-			19102 1
+			7665 6
 		}
+		# set_variable = { china_state_ref = 18 }
+		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		19102 10289
+		7665 19523 4480
 	}
-	manpower = 510522
+	manpower = 3053893
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

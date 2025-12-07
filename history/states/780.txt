@@ -2,28 +2,32 @@ state = {
 	id = 780
 	name = "STATE_780"
 	resources = {
-		rubber = 5.000
+		steel = 28.000
 	}
 
 	history = {
-		owner = ZZZ # FFR
-		# add_core_of = FFR
+		owner = ZZZ # IND
 		victory_points = {
-			8065 1
+			7574 10
 		}
 		victory_points = {
-			8122 1
+			16083 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			barracks = 1
+			prisons = 1
 		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		5013 8065 8122 14047 15288 15294 15402 15403 15404 15405 15406 15407 15410 15411 15413 15414 15415 15416
+		7574 16083 18984
 	}
-	manpower = 502800
+	manpower = 2245917
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

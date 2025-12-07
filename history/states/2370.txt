@@ -1,35 +1,43 @@
-state = {
+state = { #Population Done
 	id = 2370
 	name = "STATE_2370"
+	manpower = 4106410
+
+	state_category = rural
+
 	resources = {
-		oil = 4
+		rubber = 2
 	}
 
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = ZZZ # PHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
+			air_base = 5
+			radar_station = 2
+			14708 = {
+				naval_base = 5
+			}
+			1415 = {
+				naval_base = 1
+			}
 		}
-        victory_points = {
-            12767 3
-        }
-        victory_points = {
-            19718 1
-        }
-		add_extra_state_shared_building_slots = 1
-		# set_demilitarized_zone = yes
-		# set_state_flag = GDP_regions_chuanxi
-		# set_variable = { china_state_ref = 17 }
-		# set_variable = { china_region_ref = 2 }
-		# set_state_flag = GDP_category_rural
-	}
+		victory_points = { 7275 5 }
+		victory_points = { 7323 3 }
+		victory_points = { 1288 3 }
+		victory_points = { 14710 3 }
+		victory_points = { 14708 3 }
+		victory_points = { 10280 3 }
 
-	provinces = {
-		1367 10132 2045 12767 19718 19682 
+		# add_core_of = PHI
+		# add_core_of = SPH
+		# add_core_of = UPH
+
+
 	}
-	manpower = 5738247
-	buildings_max_level_factor = 2.000
-	state_category = pastoral
-	local_supplies = 0.000
+	provinces = {
+		1288 7275 7323 7351 10165 14707 14708 14709 14710 10280 1415
+	}
 }

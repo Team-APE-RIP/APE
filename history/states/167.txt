@@ -2,32 +2,29 @@ state = {
 	id = 167
 	name = "STATE_167"
 
+	resources = {
+		rubber = 48
+	}
+
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = { 6906 20 }
-		victory_points = { 962 10 }
-		victory_points = { 4098 7 }
-		victory_points = { 6959 2 }
-		victory_points = { 9889 5 }
-		buildings = {
-			prisons = 1
-			hydroelectric_plant = 1
-			infrastructure = 5
-			dockyard = 1
-			air_base = 3
-			6906 = {
-				naval_base = 5
-			}
+		owner = WZS
+		add_core_of = WZS
+		victory_points = {
+			1038 4
 		}
-		# set_state_flag = state_renamings
-		# add_core_of = IBR
+		buildings = {
+			infrastructure = 2
+		}
+		# set_variable = { china_state_ref = 36 }
+		# set_variable = { china_region_ref = 4 }
+
 	}
 
 	provinces = {
-		6906
+		1038 11963 19762
 	}
-	manpower = 2207041
+	manpower = 837284
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
+	local_supplies = 0.000
 }

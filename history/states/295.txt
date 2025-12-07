@@ -2,34 +2,34 @@ state = {
 	id = 295
 	name = "STATE_295"
 
-	resources = {
-		tungsten = 2
-	}
-
 	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		# set_state_flag = universal_renamings
-
-		victory_points = { 5117 20 }
-		victory_points = { 8193 10 }
-
+		owner = ZZZ # MEX
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			schools = 1
-			offices = 1
-			hospitals = 1
-			prisons = 1
-			infrastructure = 3
-			radar_station = 2
-			air_base = 2
-			hydroelectric_plant = 1
+			barracks = 2
+			infrastructure = 2
 		}
+		# add_core_of = MEX
+		victory_points = {
+			12753 4
+		}
+		victory_points = {
+			14479 4
+		}
+		victory_points = {
+			16894 2
+		}
+		victory_points = {
+			16922 1
+		}
+
 	}
 
 	provinces = {
-		5117 8193 12925 13899 13905 13907
+		1900 12753 14479 14481 16894 16922 17328
 	}
-	manpower = 3586781
+	manpower = 1435377
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

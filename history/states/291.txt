@@ -1,33 +1,28 @@
 state = {
 	id = 291
 	name = "STATE_291"
-	resources = {
-		oil = 42.000
-	}
+	manpower = 2463
+
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # IRQ
-		# add_core_of = IRQ
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		# add_claim_by = ARG
 		buildings = {
-			infrastructure = 5
-			air_base = 4
-			radar_station = 1
-			anti_air_building = 1
+			infrastructure = 1
+			air_base = 3
 			barracks = 1
-			thermoelectric_plant = 2
-			offices = 1
+			radar_station = 4
+			12960 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			12046 30
+		victory_points = { # Stanley
+			12960 1
 		}
-		# set_state_flag = state_renamings
-	}
 
-	provinces = {
-		3795 12046 15757
 	}
-	manpower = 1353998
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	provinces = { 12960 }
 }

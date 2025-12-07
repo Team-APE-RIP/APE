@@ -1,19 +1,33 @@
-state = { 
+state = {
 	id = 2514
 	name = "STATE_2514"
-	manpower = 30002
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # BRA
-		# add_core_of = BRA
-		buildings = {
-			#
+		owner = ZZZ # GER
+		victory_points = {
+			665 10
 		}
-		# set_state_flag = GDP_regions_amazonas
+		victory_points = {
+			3654 2
+		}
+		buildings = {
+			offices = 1
+			prisons = 1
+			infrastructure = 5
+			nuclear_reactor = 1
+			radar_station = 2
+			3654 = {
+				bunker = 5
+			}
+		}
+		# add_core_of = GER
 	}
 
 	provinces = {
-		17044 17433 17436 19992 
+		596 665 3654 18119 18122
 	}
+	manpower = 551310
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

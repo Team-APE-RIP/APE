@@ -1,33 +1,29 @@
 state = {
 	id = 1328
 	name = "STATE_1328"
-	state_category = pastoral
-
+	manpower = 212253
 	resources = {
-		chromium = 1
 	}
 
+	state_category = town
+
 	history = {
-		owner = ZZZ # GRE
-		victory_points = { 7193 1 }
-		victory_points = { 16193 1 }
+		owner = ZZZ # PAR
+		# add_core_of = PAR
+		victory_points = { 2194 10 }
 		buildings = {
 			infrastructure = 3
 			barracks = 1
-			7193 = {
-				naval_base = 2
-			}
+			schools = 1
+			prisons = 1
 		}
-		# add_core_of = GRE
-		# add_claim_by = TUR
-		# set_demilitarized_zone = yes
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_regions_cyprus
+
+
+
 	}
 
 	provinces = {
-		7193 14688 16192 16193
+		2194 15263
 	}
-	manpower = 180806
-	buildings_max_level_factor = 1.000
+
 }

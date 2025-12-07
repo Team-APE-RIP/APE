@@ -1,43 +1,28 @@
-state = { #Population Done
+state = {
 	id = 15
 	name = "STATE_15"
-	resources = {
-		steel = 29.000
-	}
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = { 9434 5 }
-		victory_points = { 11563 10 }
-		victory_points = { 485 1 }
-		victory_points = { 6569 1 }
-		buildings = {
-			hospitals = 1
-			barracks = 1
-			infrastructure = 6
-			air_base = 6
-			radar_station = 1
-			dockyard = 1
-			thermoelectric_plant = 1
-			9434 = {
-				naval_base = 5
-				coastal_bunker = 3
-			}
-			485 = {
-				coastal_bunker = 3
-			}
+		owner = MEN
+		victory_points = {
+			1798 3
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		# set_demilitarized_zone = yes
-		# set_state_flag = universal_renamings
+		
+		victory_points = { 4858 5 }
+		
+		buildings = {
+			infrastructure = 2
+		}
+
+		# set_variable = { china_state_ref = 57 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		485 6569 9434 11563
+		1798 14663 19550 4858 4697 7864 10623 16624
 	}
-	manpower = 1008082
+	manpower = 330918
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
+	local_supplies = 0.000
 }

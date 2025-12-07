@@ -2,32 +2,30 @@ state = {
 	id = 2373
 	name = "STATE_2373"
 
+	resources = {
+		rubber = 2
+	}
+
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+
+		victory_points = { 13977 1 }
+
 		buildings = {
+			schools = 1
+			offices = 1
+			hospitals = 1
 			infrastructure = 2
+			radar_station = 2
 		}
-		victory_points = {
-			8744 5
-		}
-		victory_points = {
-			19916 5
-		}
-		victory_points = {
-			7240 5
-		}
-		# set_demilitarized_zone = yes
-		# set_state_flag = GDP_regions_chuanxi
-		# set_variable = { china_state_ref = 17 }
-		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		8744 7240 19906 19916 8734
+		5054 6008 11012 13963 13966 13977 
 	}
-	manpower = 8089323
-	buildings_max_level_factor = 2.000
-	state_category = pastoral
-	local_supplies = 0.000
+	manpower = 610540
+	buildings_max_level_factor = 1.000
+	state_category = large_town
 }

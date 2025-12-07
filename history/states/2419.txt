@@ -2,31 +2,24 @@ state = {
 	id = 2419
 	name = "STATE_2419"
 	resources = {
-		aluminium = 6.000
-		uranium = 4.000
+		oil = 16
+		rubber = 2
 	}
 
 	history = {
-		owner = CHI # SHX
-		# add_core_of = SHX
-		victory_points = {
-			19511 2
-		}
-		victory_points = {
-			19517 1
-		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_regions_shanxi
-		# set_variable = { china_state_ref = 14 }
-		# set_variable = { china_region_ref = 1 }
+
+
 	}
 
 	provinces = {
-		19511 19517 13235
+		15725 12343 19222 19230 15718 19248 15700
 	}
-	manpower = 2095234
+	manpower = 315798
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

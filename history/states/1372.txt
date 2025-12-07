@@ -3,36 +3,22 @@ state = {
 	name = "STATE_1372"
 
 	history = {
-		owner = DMK
-        add_core_of = DMK
-		victory_points = { 6235 9 }
-		victory_points = { 3341 1 }
-		victory_points = { 394 1 }
-		buildings = {
-			infrastructure = 5
-			6235 = {
-				naval_base = 6
-			}
-			316 = {
-				coastal_bunker = 2
-			}
-			394 = {
-				coastal_bunker = 2
-			}
-			air_base = 3
-			offices = 1
-			thermoelectric_plant = 1
-			schools = 1
-			dockyard = 1
+		owner = ZZZ # EWE
+		# add_core_of = EWE
+		victory_points = {
+			14025 1
 		}
-		# add_core_of = DEN
+		buildings = {
+			thermoelectric_plant = 1
+		}
+
 	}
 
 	provinces = {
-		394 6235 
+		12787 13136 13414 14025 14034 15282 15283 15284 15285 15417 15419 15420 15421 15422
 	}
-	manpower = 623730
+	manpower = 1752600
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

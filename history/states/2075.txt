@@ -1,6 +1,9 @@
 state = {
 	id = 2075
-	name = "STATE_2075" # Cape Legoupil
+	name = "STATE_2075"
+	provinces = {
+		17813 16410
+	}
 	manpower = 1
 
 	state_category = wasteland
@@ -8,16 +11,12 @@ state = {
 	history = {
 		owner = ZZZ # AAC
 		# add_core_of = AAC
-		victory_points = { 17667 1 }
+		# add_core_of = AAA
+		# add_claim_by = ENG
+		victory_points = { 17813 1 }
 		buildings = {
-			infrastructure = 1
-			17667 = {
-				naval_base = 1
-			}
+			infrastructure = 0
 		}
 	}
 
-	provinces = {
-		17667
-	}
 }

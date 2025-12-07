@@ -1,18 +1,35 @@
 state = {
 	id = 2886
 	name = "STATE_2886"
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
-			infrastructure = 3
+			schools = 1
+			prisons = 1
+			offices = 2
+			infrastructure = 5
+			thermoelectric_plant = 2
+			hydroelectric_plant = 1
 		}
+		victory_points = { # Manchester
+			3712 5
+		}
+		victory_points = { # Concord
+			3715 5
+		}
+		victory_points = { # Berlin
+			10481 1
+		}
+
 	}
+
 	provinces = {
-        15200 11711 11877 15198
+		733 3712 3715 10481
 	}
-	manpower = 87721
+	manpower = 632000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -1,20 +1,34 @@
 state = {
 	id = 2717
 	name = "STATE_2717"
+	resources = {
+		rubber = 20
+		oil = 20
+	}
+
 	history = {
-		owner = WTB
-		add_core_of = WTB
-		buildings = {
-			infrastructure = 3
+		owner = ZZZ # INS
+		# add_core_of = INS
+		victory_points = {
+			19203 5
 		}
-		victory_points = { 11499 9 }
-		victory_points = { 9545 2 }
+		victory_points = {
+			19202 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			barracks = 1
+			radar_station = 1
+		}
+
 	}
+
 	provinces = {
-        11499 9545
+		15670 19202 19203 19217
 	}
-	manpower = 87721
+	manpower = 1556682
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -1,4 +1,4 @@
-capital = 560
+capital = 640
 set_politics = {
 	ruling_party = IdeologyGroup17
 	last_election = "2049.3.25"

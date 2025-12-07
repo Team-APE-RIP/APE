@@ -3,24 +3,43 @@ state = {
 	name = "STATE_2536"
 
 	history = {
-		owner = BHM
-        add_core_of = BHM
+		owner = ZZZ # AST
+		# add_core_of = AST
+
 		buildings = {
-			infrastructure = 2
-			hospitals = 1
-			schools = 1
-			offices = 2
+			infrastructure = 4
+			air_base = 4
+			radar_station = 4
 			barracks = 1
-			prisons = 1
-			thermoelectric_plant = 2
+			schools = 1
+			7566 = {
+				naval_base = 1
+				coastal_bunker = 5
+			}
+			12367 = {
+				coastal_bunker = 5
+			}
+			4560 = {
+				coastal_bunker = 5
+			}
+			10460 = {
+				coastal_bunker = 5
+			}
+		}
+
+		victory_points = { # Townsville
+			7566 6
+		}
+		victory_points = { # Mackay
+			10460 3
 		}
 	}
 
 	provinces = {
-		  9414  3462 494 11414
+		1514 1557 2187 4560 7538 7566 7610 8230 10460 12367 12382 12411 12424 12957
 	}
-	manpower = 671618
+	manpower = 338791
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = rural
 	local_supplies = 0.000
 }

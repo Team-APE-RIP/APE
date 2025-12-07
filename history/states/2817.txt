@@ -1,18 +1,45 @@
 state = {
 	id = 2817
 	name = "STATE_2817"
+
 	history = {
-		owner = SWS
-        add_core_of = SWS
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
+			offices = 1
 			infrastructure = 3
+			thermoelectric_plant = 2
 		}
+		victory_points = {
+			4099 2
+		}
+		victory_points = {
+			4169 28
+		}
+		victory_points = {
+			1094 2
+		}
+		victory_points = {
+			10069 3
+		}
+		victory_points = {
+			19687 2
+		}
+		victory_points = {
+			19773 2
+		}
+		add_extra_state_shared_building_slots = 1
+
+		# set_variable = { china_state_ref = 33 }
+		# set_variable = { china_region_ref = 4 }
+
 	}
+
 	provinces = {
-        18124 11601
+		1094 4169 10069 19633 19687 19773
 	}
-	manpower = 87721
+	manpower = 4436922
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

@@ -1,29 +1,28 @@
 state = {
 	id = 2320
 	name = "STATE_2320"
-
-	resources = {
-		oil = 24
-	}
-
-	history = {
-		owner = ZZZ
-		#add_core_of = JAP
-		buildings = {
-			infrastructure = 1
-			air_base = 2
-			barracks = 1
-			radar_station = 3
-		}
-		# set_state_flag = GDP_category_large_town
-		# set_state_flag = GDP_regions_new_guinea
-	}
-
 	provinces = {
-		1242 19196 1222 12123 10147 1283 1310 12484 4635 12107 10954 2129 19195
+		10402 15260
 	}
-	manpower = 810628
+	resources = {
+		oil = 1
+	}
+	history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+		}
+		# add_core_of = ARG
+		victory_points = {
+			10402 2
+		}
+		victory_points = {
+			15260 4
+		}
+
+	}
+	manpower = 833781
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

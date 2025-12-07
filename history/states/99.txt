@@ -1,41 +1,42 @@
 state = {
 	id = 99
 	name = "STATE_99"
+
 	resources = {
-		aluminium = 10.000
+		oil = 6
+		uranium = 2
 	}
 
 	history = {
-		owner = DMK
-        add_core_of = DMK
-		# set_state_flag = has_offshore_island
-		victory_points = {
-			6364 10
-		}
-		victory_points = {
-			3277 4
-		}
-		victory_points = {
-			4030 4
-		}
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
-			infrastructure = 6
-			offices = 1
+			prisons = 2
 			schools = 1
-			dockyard = 1
+			barracks = 2
+			offices = 2
 			thermoelectric_plant = 3
-			6364 = {
-				naval_base = 3
-			}
+			infrastructure = 5
+			radar_station = 1
 		}
-		# add_core_of = DEN
+		victory_points = {
+			6999 36
+		}
+		victory_points = {
+			19826 5
+		}
+		victory_points = {
+			19926 7
+		}
+		# set_variable = { china_state_ref = 15 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		6364 4030
+		6999 19826 19926
 	}
-	manpower = 973487
+	manpower = 9478697
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = city
 	local_supplies = 0.000
 }

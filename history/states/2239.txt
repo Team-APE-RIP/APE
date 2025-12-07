@@ -1,24 +1,19 @@
 state = {
 	id = 2239
 	name = "STATE_2239"
-
 	history = {
-		owner = DRV
-		add_core_of = DRV
-		# add_core_of = LAO
+		
+		owner = IPC
+		add_core_of = IPC
 		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			4529 1
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		12392 19059 15704 4529
+        6744 7198 10111
 	}
-	manpower = 58006
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

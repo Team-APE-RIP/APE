@@ -2,28 +2,37 @@ state = {
 	id = 1384
 	name = "STATE_1384"
 
+	resources = {
+		steel = 8
+	}
+
 	history = {
-		owner = ZZZ # GGN
-		# add_core_of = GGN
-		# add_core_of = POL
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
-			infrastructure = 4
+			barracks = 1
+			offices = 1
+			prisons = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
 		}
 		victory_points = {
-			19179 1
+			2067 15
 		}
 		victory_points = {
-			11466 1
+			7294 3
 		}
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_rural
+		add_extra_state_shared_building_slots = 2
+		# set_variable = { china_state_ref = 21 }
+		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		3521 9521 11466 11507 19172 19176 19179
+		2067 7294 12819 19774
 	}
-	manpower = 1177274
+	manpower = 2508497
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

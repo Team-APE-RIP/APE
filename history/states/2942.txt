@@ -1,18 +1,27 @@
-state = {
+state = { #Population Done
 	id = 2942
 	name = "STATE_2942"
-	history = {
-		owner = ITA
-        add_core_of = ITA
-		buildings = {
-			infrastructure = 3
-		}
-	}
+	state_category = town
 	provinces = {
-        6661 11587 11568
+		6949 11491 20068 20069
 	}
-	manpower = 87721
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 20069 1 }
+		victory_points = { 11518 1 }
+		buildings = {
+			offices = 2
+			infrastructure = 5
+			thermoelectric_plant = 2
+		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		# set_demilitarized_zone = yes
+
+
+	}
+
+	manpower = 448453
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

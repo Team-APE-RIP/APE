@@ -1,25 +1,17 @@
 state = {
 	id = 964
 	name = "STATE_964"
-
 	history = {
-		owner = YUN # XIK
-		# add_core_of = XIK
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		victory_points = {
-			19747 7
-		}
-		# set_variable = { china_state_ref = 21 }
-		# set_variable = { china_region_ref = 2 }
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		19693 19747 19652 8059 19664 19660
+	    4566 10193 4348
 	}
-	manpower = 261871
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

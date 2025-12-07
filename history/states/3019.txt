@@ -1,18 +1,26 @@
 state = {
 	id = 3019
 	name = "STATE_3019"
+	resources = {
+		aluminium = 7.000
+	}
+
 	history = {
-		
-		owner = IPC
-		add_core_of = IPC
+		owner = ZZZ # WRS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			barracks = 1
 		}
+		victory_points = {
+			3155 1
+		}
+		# add_core_of = WRS
 	}
+
 	provinces = {
-        7153 10009
+		3155 7330 11200 13347
 	}
-	manpower = 87721
+	manpower = 42000
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

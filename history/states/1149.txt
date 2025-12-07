@@ -3,26 +3,30 @@ state = {
 	name = "STATE_1149"
 
 	history = {
-		owner = ZZZ # ILG
-		# add_claim_by = FRS
-		# add_core_of = ILG
-		# add_core_of = ALG
 		victory_points = {
-			5035 3
+			9149 7
 		}
+		victory_points = {
+			11163 1
+		}
+		owner = ZZZ # SWE
+		# add_core_of = SWE
 		buildings = {
-			infrastructure = 1
+			infrastructure = 6
+			thermoelectric_plant = 1
+			offices = 1
+			hospitals = 2
+			prisons = 2
+			schools = 2
 		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = state_renamings
+		add_extra_state_shared_building_slots = 1
 	}
-	resources = {
-		oil = 20
-	}
+
 	provinces = {
-		1901 4903 5035 14398 14400 1043
+		3182 6127 9149 11163 11278 18420
 	}
-	manpower = 188256
+	manpower = 203800
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
+	local_supplies = 0.000
 }

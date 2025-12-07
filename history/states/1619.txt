@@ -1,28 +1,32 @@
 state = {
 	id = 1619
 	name = "STATE_1619"
-	manpower = 234881
-
-	state_category = rural
+	manpower = 30
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # PAR
-		# add_core_of = PAR
-		victory_points = { 11023 5 }
-		victory_points = { 15270 5 }
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		# add_claim_by = ARG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			radar_station = 5
 			barracks = 1
-			prisons = 1
-			schools = 1
+			air_base = 1
+			10995 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = state_renamings
+		
+		victory_points = {
+			10995 1
+		}
+		
 
-		# set_state_flag = PAR_bush_war_state
 	}
 
 	provinces = {
-		11023 15270 15269
+		10995 17778
 	}
-
 }

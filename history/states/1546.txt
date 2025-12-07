@@ -1,25 +1,18 @@
 state = {
 	id = 1546
 	name = "STATE_1546"
-	resources = {
-	}
-
 	history = {
-		owner = ZZZ # IBR
-		# add_core_of = IBR
-		victory_points = { 15112 7 }
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 5
-			15112 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		15112
+        17985
 	}
-	manpower = 79490
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = enclave
+	state_category = pastoral
+	local_supplies = 0.000
 }

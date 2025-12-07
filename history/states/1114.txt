@@ -6,28 +6,25 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
+		owner = ZZZ # IBR
+		# add_claim_by = TRZ
+		# add_core_of = IBR
+		# add_claim_by = MOR
 		victory_points = {
-			12757 5
-		}
-		victory_points = {
-			14076 10
-		}
-		victory_points = {
-			14017 3
+			14296 1
 		}
 		buildings = {
 			infrastructure = 1
+			radar_station = 1
 		}
-		# set_state_flag = state_renamings
+
 	}
 
 	provinces = {
-		4995 8062 12757 12812 13997 14017 14022 14023 14040 14066 14076 15535 15540 15543 17883 17890
+		14275 14282 14289 14290 14296 18017
 	}
-	manpower = 400864
+	manpower = 14831
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

@@ -1,23 +1,28 @@
-state = {
+state = { #Population Done
 	id = 1964
 	name = "STATE_1964"
-
-	history = {
-		owner = XIN
-		add_core_of = XIN
-		# add_claim_by = IND
-		# add_claim_by = AZH
-		buildings = {
-			infrastructure = 1
-		}
-		# set_variable = { china_state_ref = 43 }
-		# set_variable = { china_region_ref = 5 }
+	resources = {
+		oil = 7
+		aluminium = 11
+		chromium = 4
 	}
-
 	provinces = {
-		16158
+		1295 4298 7712 7898 10579 12558 9225
 	}
-	manpower = 5385
+	history = {
+		owner = ZZZ # WRS
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = { 1295 7 }
+		victory_points = { 4298 3 }
+		# add_core_of = WRS
+	}
+	manpower = 188000
+	state_category = rural
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
 }

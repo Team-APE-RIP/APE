@@ -1,28 +1,27 @@
 state = {
 	id = 1154
 	name = "STATE_1154"
+	manpower = 3052167
+
+	state_category = town
 
 	resources = {
-		oil = 4
 		steel = 2
 	}
 
 	history = {
-		owner = ZZZ # SLG
-		# add_core_of = ALG
-		# add_core_of = SLG
-		# add_claim_by = FRS
-		victory_points = { 14386 1 }
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
+			thermoelectric_plant = 3
+			air_base = 2
+			schools = 1
 		}
-		# set_state_flag = state_renamings
+		victory_points = { 1097 10 }
 	}
 
 	provinces = {
-		1958 8088 14386 14404 14422 18011 18006
+		15882 1097
 	}
-	manpower = 19827
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
 }

@@ -1,56 +1,57 @@
-state = {
+state = { #Population Done
 	id = 221
 	name = "STATE_221"
+
 	resources = {
-		steel = 56.000
+		chromium = 10
 	}
 
 	history = {
-		owner = ZZZ # UKR
+		owner = ZZZ # CAU
 		victory_points = {
-			418 20
+			1599 25
 		}
 		victory_points = {
-			3492 5
+			1530 3
 		}
 		victory_points = {
-			9531 2
+			18355 1
 		}
 		victory_points = {
-			3508 1
+			3656 2
 		}
 		victory_points = {
-			9556 1
+			6436 1
 		}
 		victory_points = {
-			6554 1
+			4605 1
 		}
 		victory_points = {
-			11461 2
+			6669 1
 		}
 		victory_points = {
-			6432 2
+			6671 1
 		}
 		buildings = {
-			schools = 1
-			hospitals = 1
-			barracks = 1
-			offices = 1
-			prisons = 1
 			infrastructure = 5
 			air_base = 5
-			thermoelectric_plant = 2
+			offices = 2
+			schools = 1
+			prisons = 1
+			barracks = 1
+			hospitals = 1
+			thermoelectric_plant =2
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = UKR
-		# set_state_flag = GDP_category_rural
+
+		# add_core_of = CAU
+
+
 	}
 
 	provinces = {
-		418 3409 3492 3508 3531 6432 6481 6517 6530 6554 9449 9518 9531 9556 11397 11439 11461 11500 11541
+		1530 1599 3656 3667 4534 4605 6436 6669 6671 9702 15130 18346 18351 18355
 	}
-	manpower = 1918243
+	manpower = 2418951
 	buildings_max_level_factor = 1.000
 	state_category = city
-	local_supplies = 0.000
 }

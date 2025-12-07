@@ -3,22 +3,29 @@ state = {
 	name = "STATE_1804"
 
 	history = {
-		owner = ZZZ # KAZ
-		# add_core_of = KAZ
+		owner = ZZZ # EGY
+		# add_core_of = EGY
 		buildings = {
-			infrastructure = 3
-			barracks = 1
+			infrastructure = 2
 		}
-		victory_points = { 10619 4 }
-		victory_points = { 4845 1 }
-		victory_points = { 7795 1 }
-		victory_points = { 10550 2 }
-		# set_state_flag = state_renamings
+		victory_points = {
+			14158 10
+		}
+		victory_points = {
+			18511 1
+		}
+		victory_points = {
+			8084 1
+		}
+
+
 	}
+
 	provinces = {
-		13197 13149 12529 4764 10550 7856 7795 10619 4845
+		2016 4961 7925 8084 10827 14158 14185 14200 14202 18495 18497 18500 18511
 	}
-	manpower = 664786
+	manpower = 745575
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
+	local_supplies = 0.000
 }

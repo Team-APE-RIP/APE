@@ -1,40 +1,24 @@
 state = {
 	id = 1989
 	name = "STATE_1989"
-	resources = {
-		chromium = 16.000
-		steel = 4.000
-	}
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = {
-			7620 10
-		}
-		victory_points = {
-			9860 7
-		}
-		victory_points = {
-			18460 4
-		}
-		victory_points = {
-			10399 1
-		}
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 3
-			prisons = 1
 			barracks = 1
-			schools = 1
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = TUR
+		victory_points = {
+			13814 2
+		}
 	}
 
 	provinces = {
-		876 3890 6919 6965 7620 9860 9954 10399 11797 16227 18460 18461 18463
+		10594 13814 13818 13828 13851 17861
 	}
-	manpower = 1671314
+	manpower = 248723
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

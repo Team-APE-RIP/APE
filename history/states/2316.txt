@@ -3,20 +3,30 @@ state = {
 	name = "STATE_2316"
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # VEN
 		buildings = {
-			infrastructure = 1
+			barracks = 3
+			prisons = 2
+			schools = 1
+			hospitals = 2
+			infrastructure = 5
+			air_base = 2
+			thermoelectric_plant = 3
+			17382 = {
+				naval_base = 3
+			}
 		}
-		# set_state_flag = GDP_regions_west_papua
+		# add_core_of = VEN
+		victory_points = {
+			3974 30
+		}
 	}
 
 	provinces = {
-		19192 1546 4509 7542
+		3974 7968 17382
 	}
-	manpower = 65476
+	manpower = 2015937
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = large_city
 	local_supplies = 0.000
 }

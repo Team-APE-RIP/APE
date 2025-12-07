@@ -1,30 +1,18 @@
 state = {
 	id = 626
 	name = "STATE_626"
-	resources = {
-		oil = 7.000
-		chromium = 9.000
-	}
-
 	history = {
-		owner = ZZZ # PHI
+		owner = MAN
+		# add_core_of = SHT
 		buildings = {
-			infrastructure = 2
-			radar_station = 1
+			infrastructure = 1
 		}
-		victory_points = { 10272 3 }
-		# add_core_of = PHI
-		# add_core_of = SPH
-		# add_core_of = UPH
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		4288 10272 14719 14720 19376 19381
+		1724 1739 4731 4847 7754 13304
 	}
-	manpower = 603590
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

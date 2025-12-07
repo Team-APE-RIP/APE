@@ -1,29 +1,23 @@
-state = { #Population Done
+state = {
 	id = 2511
 	name = "STATE_2511"
-	manpower = 268
-	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # CAN
-		# add_core_of = CAN
-		# add_claim_by = ENG
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
 		buildings = {
-			infrastructure = 1
-			air_base = 2
-			barracks = 1
-			radar_station = 5
-			19986 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
-		victory_points = { # Edinburgh of the Seven Seas
-			19986 1
-		}
-		# set_state_flag = GDP_regions_south_atlantic
+
+
 	}
 
 	provinces = {
-		19986
+		15683 19168 19175
 	}
+	manpower = 219099
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
 }

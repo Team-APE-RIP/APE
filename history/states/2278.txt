@@ -1,34 +1,25 @@
 state = {
 	id = 2278
 	name = "STATE_2278"
-	resources = {
-		oil = 12
-		rubber = 8
-	}
+	manpower = 225598
+
+	state_category = rural
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		victory_points = {
-			15699 1
-		}
-		victory_points = {
-			19254 1
-		}
-		victory_points = {
-			19240 1
-		}
+		owner = ZZZ # URG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			offices = 1
+			thermoelectric_plant = 1
 		}
-		# set_state_flag = GDP_regions_south_sumatra
+		# add_core_of = URG
+		victory_points = { 1654 3 }
+		victory_points = { 10347 1 }
+		victory_points = { 12336 1 }
+		victory_points = { 12481 2 }
 	}
 
 	provinces = {
-		15699 19254 19240 1274 10225
+		1654 10347 12336 12481
 	}
-	manpower = 601798
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

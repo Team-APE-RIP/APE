@@ -1,20 +1,35 @@
 state = {
 	id = 1031
 	name = "STATE_1031"
+	resources = {
+		rubber = 2
+	}
 
 	history = {
-		owner = ZZZ # ANG
-		# add_core_of = ANG
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # INS
+		# add_core_of = INS
+		victory_points = {
+			7658 5
 		}
+		buildings = {
+			prisons = 1
+			infrastructure = 4
+			radar_station = 2
+			air_base = 1
+			7658 = {
+				naval_base = 1
+			}
+		}
+
+
+
 	}
 
 	provinces = {
-		12921 13689 13692 13716 13718 17920
+		7658 12488 19327 19349
 	}
-	manpower = 24039
+	manpower = 438493
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,24 +1,37 @@
 state = {
 	id = 2618
 	name = "STATE_2618"
+	resources = {
+		oil = 20.000
+		steel = 4
+	}
+
 	history = {
-		owner = KOR
-		add_core_of = KOR
+		owner = ZZZ # SAU
+		# add_core_of = SAU
 		buildings = {
-			infrastructure = 4
-			12040 = {
-				naval_base = 3
-			}
+			infrastructure = 3
+			air_base = 2
+			radar_station = 1
+			barracks = 1
+			prisons = 1
+			synthetic_refinery = 1
+			thermoelectric_plant = 1
 		}
 		victory_points = {
-			12040 20
+			12727 20
 		}
+		victory_points = {
+			18580 1
+		}
+
 	}
+
 	provinces = {
-	    7221 19891 12040
+		5093 8004 8060 10870 10923 12727 12813 12870 13445 18543 18580
 	}
-	manpower = 1026811
+	manpower = 1063866
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 }

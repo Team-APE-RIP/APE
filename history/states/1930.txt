@@ -1,33 +1,30 @@
 state = {
 	id = 1930
 	name = "STATE_1930"
-	resources = {
-		steel = 27.000
-	}
 
 	history = {
-		owner = ZZZ # AZH
-		victory_points = {
-			10471 2
-		}
-		buildings = {
-			infrastructure = 3
-			18834 = {
-				bunker = 3
-			}
-			10471 = {
-				bunker = 3
-			}
-		}
-		# add_core_of = AZH
+		owner = ZZZ
+		add_core_of = TIB
+		# add_claim_by = AZH
 		# add_claim_by = IND
-		# set_state_flag = GDP_regions_bihar
+		victory_points = {
+			16138 1
+		}
+		victory_points = {
+			12730 1
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		10471 18834
+		12730 16137 17009 18852 19691 19730
 	}
-	manpower = 1187789
+	manpower = 233406
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

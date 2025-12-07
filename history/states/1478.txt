@@ -3,29 +3,22 @@ state = {
 	name = "STATE_1478"
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
+		owner = ZZZ # KAZ
+		# add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
+			barracks = 1
 		}
-		victory_points = {
-			10898 10
-		}
-		victory_points = {
-			19002 4
-		}
-		victory_points = {
-			10843 1
-		}
-		# set_state_flag = GDP_regions_punjab
-	}
+		victory_points = { 10619 4 }
+		victory_points = { 4845 1 }
+		victory_points = { 7795 1 }
+		victory_points = { 10550 2 }
 
-	provinces = {
-		10843 10898 12792 18931 19002
 	}
-	manpower = 2464031
+	provinces = {
+		13197 13149 12529 4764 10550 7856 7795 10619 4845
+	}
+	manpower = 664786
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

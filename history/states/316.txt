@@ -1,40 +1,35 @@
-state = { #Population Done
+state = {
 	id = 316
 	name = "STATE_316"
-	manpower = 1447037
 	resources = {
-
-		chromium = 1
+		oil = 8.000
 	}
 
-	state_category = town
-
-
 	history = {
-		owner = ZZZ # COS
+		owner = ZZZ # ITA
+		# add_core_of = ITA
+		# add_core_of = LBA
 		buildings = {
-			infrastructure = 4
-			offices = 1
-			schools = 1
-			hospitals = 1
-			barracks = 1
-			prisons = 1
-			air_base = 1
-			thermoelectric_plant = 1
-			13087 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
-		# add_core_of = COS
-		victory_points = { # San Jose
-			13087 5
+		victory_points = {
+			1189 3
 		}
-		victory_points = { # Liberia
-			13092 3
+		victory_points = {
+			17979 2
 		}
+		victory_points = {
+			12039 1
+		}
+
+
 	}
 
 	provinces = {
-		12878 13087 13092
+		1189 4051 4117 4962 7154 10037 10067 10884 11940 12039 14401 14403 17966 17968 17970 17976 17977 17979
 	}
+	manpower = 368022
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

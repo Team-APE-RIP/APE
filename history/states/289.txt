@@ -3,31 +3,17 @@ state = {
 	name = "STATE_289"
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ZZZ # KNM
+		# add_core_of = KNM
 		buildings = {
-			infrastructure = 5
-			dockyard = 1
-			air_base = 5
-			offices = 1
-			schools = 1
-			barracks = 1
-			thermoelectric_plant = 2
+			infrastructure = 1
 		}
-		victory_points = {
-			7408 35
-		}
-		victory_points = {
-			19136 1
-		}
-		# add_core_of = THA
 	}
 
 	provinces = {
-		7408 19090 19136
+		5136 10893 14208 14256 14294
 	}
-	manpower = 4259795
+	manpower = 11000
 	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
+	state_category = wasteland
 }

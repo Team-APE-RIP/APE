@@ -1,32 +1,31 @@
 state = {
 	id = 2340
 	name = "STATE_2340"
+	resources = {
+		oil = 12.000
+		aluminium = 28.000
+		steel = 27.000
+	}
 
 	history = {
-		owner = AUH
-		add_core_of = AUH
-		add_extra_state_shared_building_slots = 1
+		owner = ZZZ # ZLT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			thermoelectric_plant = 2
+			offices = 1
+			hospitals = 1
+			schools = 1
 		}
 		victory_points = {
-			19882 15
+			7228 10
 		}
-		victory_points = {
-			1001 4
-		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = GDP_regions_anhui
-		# set_variable = { china_state_ref = 3 }
-		# set_variable = { china_region_ref = 0 }
-		# set_state_flag = GDP_category_town
+		# add_core_of = ZLT
 	}
 
 	provinces = {
-		19882 1001 20007 7094 10008 1146
+		1704 1808 7228 10648 10716 11307 12659 13330 13331 13334 13346
 	}
-	manpower = 5959440
+	manpower = 1029000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

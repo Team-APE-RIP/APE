@@ -1,28 +1,39 @@
 state = {
 	id = 1781
 	name = "STATE_1781"
+	resources = {
+		rubber = 8.000
+	}
 
 	history = {
-		owner = ZZZ # BKU
-		# add_core_of = KUR
-		# add_core_of = BKU
-		# add_claim_by = IRQ
+		owner = ZZZ # AZH
+		victory_points = {
+			16120 15
+		}
+		victory_points = {
+			16121 1
+		}
+		victory_points = {
+			10349 3
+		}
 		buildings = {
 			infrastructure = 3
+			hydroelectric_plant = 1
+			offices = 1
+			prisons = 1
+			barracks = 1
+			schools = 1
 		}
-		victory_points = {
-			1938 4
-		}
-		victory_points = {
-			18478 3
-		}
-		# set_state_flag = state_renamings
+		add_extra_state_shared_building_slots = 2
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		1938 10804 18478 16308 16289 16284 1600 16285 12372
+		10349 16120 16121 18848
 	}
-	manpower = 118640
+	manpower = 4252365
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

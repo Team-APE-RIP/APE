@@ -1,20 +1,27 @@
-state = {
+state = { #Population Done
 	id = 2561
 	name = "STATE_2561"
+	resources = {
+		steel = 23
+		tungsten = 7
+		oil = 8
+	}
 	history = {
-		owner = CHI
+		owner = ZZZ # SBA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
 		}
-        victory_points = {
-            7208 1
-        }
+		victory_points = { 12621 10 }
+
+		# add_core_of = SBA
 	}
 	provinces = {
-		1034 1458 1531 9006 7208
+		4690 4818 4853 7744 12563 12621 12628 12691
 	}
-	manpower = 1026811
+	manpower = 292000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

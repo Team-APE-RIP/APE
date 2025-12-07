@@ -1,21 +1,27 @@
 state = {
 	id = 2696
 	name = "STATE_2696"
+
+	resources = {
+		rubber = 11
+	}
+
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = ZZZ # UPH
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			barracks = 1
 		}
-        victory_points = {
-            8026 13
-        }
+		victory_points = { 14738 3 }
+		# add_core_of = UPH
+		# add_core_of = PHI
+		# add_core_of = SPH
+
 	}
 	provinces = {
-        19800 8026
+		10184 12245 14738
 	}
-	manpower = 87721
+	manpower = 579719
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = tiny_island
 }

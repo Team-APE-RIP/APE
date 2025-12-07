@@ -3,23 +3,31 @@ state = {
 	name = "STATE_213"
 
 	history = {
-		owner = ZZZ # FIN
+		owner = MEN
+		# add_core_of = SHX
 		victory_points = {
-			3067 1
+			7158 15
+		}
+		victory_points = {
+			10507 3
 		}
 		buildings = {
 			infrastructure = 3
-			schools = 1
+			barracks = 1
 		}
-		# set_state_flag = GDP_regions_karelia
-		# set_state_flag = GDP_category_large_town
+		add_extra_state_shared_building_slots = 2
+
+
+		# set_variable = { china_state_ref = 54 }
+		# set_variable = { china_region_ref = 7 }
+
 	}
 
 	provinces = {
-		36 80 134 3067 3071 6098 6175 9074 9119 9123 9198 11054 11096 11146 11181 18432 18445 18447
+		7158 10507 12432
 	}
-	manpower = 48597
+	manpower = 2149669
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,27 +1,29 @@
-state = { #Population Done
+state = {
 	id = 671
 	name = "STATE_671"
-	manpower = 431680
+
 
 	resources = {
-		uranium = 2
-		rubber = 2
+		chromium = 2
 	}
-
-	state_category = large_town
-
 	history = {
-		owner = ERV
-		add_core_of = ERV
-		victory_points = { 4379 10 }
+		owner = ZZZ # KLT
 		buildings = {
 			infrastructure = 3
-			offices = 2
+			1179 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = universal_renamings
+		victory_points = { 1179 1 }
+		# add_claim_by = AZH
+		# add_core_of = KLT
+		# add_claim_by = IND
 	}
 
 	provinces = {
-		4379
+		1179 15989
 	}
+	manpower = 63242
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

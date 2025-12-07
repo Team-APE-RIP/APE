@@ -1,26 +1,25 @@
 state = {
 	id = 2128
 	name = "STATE_2128"
-	manpower = 48264
-
-
-	state_category = enclave
 
 	history = {
-		owner = SWS
-        add_core_of = SWS
-		buildings = {
-			infrastructure = 5
-			anti_air_building = 1
-			15831 = {
-				bunker = 6
-			}
+		owner = ZZZ # PRU
+		victory_points = {
+			15457 5
 		}
-		victory_points = { 15831 3 }
-		# add_core_of = SWI
+		buildings = {
+			barracks = 1
+			infrastructure = 1
+			air_base = 1
+		}
+		# add_core_of = PRU
 	}
 
 	provinces = {
-		15831
+		8149 8213 10942 10970 12869 15456 15457 15458 15459 15504 15577
 	}
+	manpower = 321117
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

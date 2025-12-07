@@ -1,17 +1,26 @@
 state = {
 	id = 2926
 	name = "STATE_2926"
+	resources = {
+		steel = 2
+	}
+
 	history = {
-		owner = OTC
-        add_core_of = OTC
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
 			infrastructure = 3
 		}
+		victory_points = {
+			19100 1
+		}
+
 	}
+
 	provinces = {
-         6691 9650 9679
+		19100 19110 7544 20006
 	}
-	manpower = 87721
+	manpower = 1318346
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

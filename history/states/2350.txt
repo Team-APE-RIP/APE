@@ -1,35 +1,21 @@
 state = {
 	id = 2350
 	name = "STATE_2350"
-
 	history = {
-		owner = AUH
-		add_core_of = AUH
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		victory_points = {
-			19847 9
+			13225 1
 		}
-		victory_points = {
-			7637 5
-		}
-		victory_points = {
-			9959 5
-		}
-		victory_points = {
-			19912 5
-		}
-		# set_state_flag = GDP_regions_hubei
-		# set_variable = { china_state_ref = 26 }
-		# set_variable = { china_region_ref = 3 }
 	}
-
 	provinces = {
-		19912 9959 19847 7637
+		8037 13231 19436 19789 5080 13225 
 	}
-	manpower = 6334816
+	manpower = 246681
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

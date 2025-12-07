@@ -1,27 +1,24 @@
-state = { #Population Done
+state = {
 	id = 791
 	name = "STATE_791"
-	state_category = town
-	provinces = {
-		9478 13371 13364
-	}
+
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			air_base = 2
-			radar_station = 1
-			schools = 1
-			offices = 1
+		victory_points = {
+			10197 1
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		victory_points = { 9478 5 }
-		victory_points = { 3509 5 }
-		victory_points = { 527 1 }
+		owner = ZZZ # INS
+		# add_core_of = INS
+		buildings = {
+			infrastructure = 2
+		}
+
 	}
-	manpower = 1249321
+
+	provinces = {
+		19273 19208 7311 10197
+	}
+	manpower = 202375
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

@@ -1,28 +1,30 @@
 state = {
 	id = 2074
-	name = "STATE_2074" # Admiralty Bay
-	manpower = 1
-
-	state_category = wasteland
+	name = "STATE_2074"
+	resources = {
+		steel = 4
+	}
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17732 1 }
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 1
-			17732 = {
-				naval_base = 1
-			}
-			17632 = {
-				naval_base = 1
-			}
+			infrastructure = 5
+			air_base = 3
+			offices = 1
+			schools = 1
 		}
+		victory_points = {
+			10135 25
+		}
+
 	}
 
 	provinces = {
-		17632 17732
+		10135 19237
 	}
+	manpower = 2241477
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

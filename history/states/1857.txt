@@ -1,24 +1,20 @@
 state = {
 	id = 1857
 	name = "STATE_1857"
+	manpower = 4849
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # NZL
+		# add_core_of = NZL
 		buildings = {
 			infrastructure = 2
-			15920 = {
-				naval_base = 1
-			}
 		}
-		# set_state_flag = state_renamings
-		victory_points = { 15920 5 }
+		victory_points = {
+			19980 1
+		}
 	}
-
 	provinces = {
-		15920
+		19980
 	}
-	manpower = 51031
-	buildings_max_level_factor = 1.000
-	state_category = town
 }

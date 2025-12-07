@@ -1,39 +1,47 @@
 state = {
 	id = 254
 	name = "STATE_254"
+	resources = {
+		aluminium = 10.000
+	}
 
 	history = {
-		owner = ZZZ # IND
+		owner = ZZZ # CAN
 		buildings = {
-			infrastructure = 4
-			offices = 1
-			prisons = 1
+			thermoelectric_plant = 1
+			hydroelectric_plant = 2
 			schools = 1
-			barracks = 1
+			hospitals = 1
+			prisons = 1
+			offices = 1
+			infrastructure = 6
+			radar_station = 2
 		}
-		add_extra_state_shared_building_slots = 2
-		# add_core_of = IND
-		# add_claim_by = AZH
-		victory_points = {
-			16039 8
+		# add_core_of = CAN
+		victory_points = { # Gatineau
+			12276 1
 		}
-		victory_points = {
-			19006 10
+		victory_points = { # Quebec City
+			12149 10
 		}
-		victory_points = {
-			16040 10
+		victory_points = { # Trois Rivieres
+			7291 5
 		}
-		victory_points = {
-			12868 1
+		victory_points = { # Mont Laurier
+			10700 1
 		}
-		# set_state_flag = GDP_regions_punjab
+		victory_points = { # Val d'Or
+			17262 1
+		}
+
+
 	}
 
 	provinces = {
-		12868 16039 16040 19006
+		1341 1764 5356 7291 7435 7683 7875 9601 10249 10700 12149 12205 12223 12276 13160 14616 14617 17253 17262
 	}
-	manpower = 4836978
+	manpower = 1172894
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

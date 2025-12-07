@@ -1,18 +1,54 @@
 state = {
 	id = 2686
 	name = "STATE_2686"
+
 	history = {
-		owner = NAL
-		add_core_of = NAL
-		buildings = {
-			infrastructure = 1
+		owner = ITF
+        add_core_of = ITF
+		victory_points = {
+			9907 15
 		}
+		victory_points = {
+			11833 10
+		}
+		victory_points = {
+			6946 8
+		}
+		victory_points = {
+			14650 5
+		}
+		victory_points = {
+			1616 10
+		}
+		victory_points = {
+			6875 5
+		}
+		victory_points = {
+			910 6
+		}
+		victory_points = {
+			9879 7
+		}
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			radar_station = 1
+			dockyard = 3
+			air_base = 2
+			schools = 1
+			11833 = {
+				naval_base = 4
+			}
+		}
+		# add_core_of = ITA
 	}
+
 	provinces = {
-	    19802
+		9907
 	}
-	manpower = 87721
+	manpower = 3286367
 	buildings_max_level_factor = 1.000
-	state_category = small_island
+	state_category = city
 	local_supplies = 0.000
 }

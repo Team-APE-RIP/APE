@@ -2,25 +2,32 @@ state = {
 	id = 2122
 	name = "STATE_2122"
 
+	resources = {
+		steel = 46
+	}
+
 	history = {
-		owner = ZZZ # TUN
-		# add_core_of = TUN
-		buildings = {
-			infrastructure = 4
-			air_base = 3
-			11921 = {
-				naval_base = 2
-			}
-			prisons = 1
+		owner = RHN
+        add_core_of = RHN
+		# add_core_of = GER
+		# add_claim_by = FFR
+		victory_points = {
+			11502 10
 		}
-		# set_state_flag = GDP_category_town
-		victory_points = { 11921 10 }
+		buildings = {
+			barracks = 3
+			infrastructure = 4
+			thermoelectric_plant = 1
+			anti_air_building = 5
+		}
+
 	}
 
 	provinces = {
-		11921 18026 10026
+		3629 11502 15850
 	}
-	manpower = 386439
+	manpower = 769388
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = city
+	local_supplies = 0.000
 }

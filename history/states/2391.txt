@@ -3,33 +3,18 @@ state = {
 	name = "STATE_2391"
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = ZZZ # AZW
+		# add_core_of = AZW
 		buildings = {
-			infrastructure = 2
-			prisons = 1
-			thermoelectric_plant = 1
+			infrastructure = 1
 		}
-		victory_points = {
-			4152 4
-		}
-		victory_points = {
-			7210 11
-		}
-		victory_points = {
-            19540 5
-        }
-		add_extra_state_shared_building_slots = 1
-		# set_variable = { china_state_ref = 19 }
-		# set_variable = { china_region_ref = 2 }
-		# set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
-		7128 7210 4152 19540 19572
+		1115 14273 14297 14304 14319 14321
 	}
-	manpower = 2999961
+	manpower = 12203
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

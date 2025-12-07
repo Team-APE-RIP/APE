@@ -1,21 +1,29 @@
 state = {
 	id = 2553
 	name = "STATE_2553"
+
 	history = {
-		owner = TIB
-		add_core_of = TIB
+		owner = ZZZ
+		#add_core_of = JAP
 		buildings = {
 			infrastructure = 1
+			air_base = 5
+			barracks = 1
+			7251 = {
+				naval_base = 5
+				coastal_bunker = 6
+				bunker = 6
+			}
 		}
-		victory_points = {
-			13225 1
-		}
+
+		victory_points = { 7251 1 }
+
 	}
+
 	provinces = {
-		8037 13231 19436 19789 5080 13225 
+		1286 1301 1329 1361 4304 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222
 	}
-	manpower = 246681
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	manpower = 255373
+	buildings_max_level_factor = 1
+	state_category = tiny_island
 }

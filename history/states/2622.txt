@@ -1,19 +1,35 @@
 state = {
 	id = 2622
 	name = "STATE_2622"
+	resources = {
+		aluminium = 8.000
+	}
+
 	history = {
-		owner = KOR
-		add_core_of = KOR
+		owner = ZZZ # GRE
 		buildings = {
 			infrastructure = 3
+			prisons = 1
 		}
-        victory_points = { 1081 5 }
+
+		# add_core_of = GRE
+		# add_claim_by = MAC
+		victory_points = {
+			966 1
+		}
+		victory_points = {
+			18195 1
+		}
+		victory_points = {
+			9837 2
+		}
 	}
+
 	provinces = {
-	    1081 10115 4103
+		841 966 3980 9837 18195
 	}
-	manpower = 1828771
+	manpower = 278373
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

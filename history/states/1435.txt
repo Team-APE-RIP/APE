@@ -2,38 +2,30 @@ state = {
 	id = 1435
 	name = "STATE_1435"
 	resources = {
-		steel = 98.000
+		steel = 10.000
 	}
 
 	history = {
-		owner = ZZZ # MCW
-		# add_core_of = MCW
-		victory_points = {
-			3580 10
-		}
-		victory_points = {
-			534 5
-		}
-		victory_points = {
-			580 1
-		}
+		owner = ZZZ # IND
 		buildings = {
 			infrastructure = 4
-			air_base = 1
-			schools = 1
-			offices = 1
-			barracks = 1
-			prisons = 1
-			thermoelectric_plant = 2
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			16034 5
+		}
+		victory_points = {
+			16035 2
+		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		457 534 558 580 3291 3554 3580 6254 6304 6330 6355 6543 6577 6603 9260 9328 9542 9579 11244 11310 11526 18312 18313 18325 18329
+		10772 16034 16035
 	}
-	manpower = 2780973
+	manpower = 1092469
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

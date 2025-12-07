@@ -3,26 +3,22 @@ state = {
 	name = "STATE_1116"
 
 	history = {
-		owner = ZZZ # EGY
-		# add_core_of = EGY
+		owner = PGS
+		add_core_of = PGS
+		victory_points = { 6933 2 }
 		buildings = {
-			infrastructure = 2
+			hospitals = 1
+			infrastructure = 4
+			air_base = 1
 		}
-		victory_points = {
-			15795 8
-		}
-		victory_points = {
-			1028 4
-		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = state_renamings
+		# add_core_of = IBR
+
 	}
 
 	provinces = {
-		1028 1206 10844 11999 15794 15795 15797 15798 15799 15800 18505 18512
+		3866 6933 9765
 	}
-	manpower = 421675
+	manpower = 538935
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

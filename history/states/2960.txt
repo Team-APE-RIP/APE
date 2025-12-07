@@ -1,18 +1,34 @@
 state = {
 	id = 2960
 	name = "STATE_2960"
+	manpower = 2387537
+	state_category = large_city
+
+	resources = {
+		power = 1
+	}
+
 	history = {
-		owner = ITG
-		add_core_of = ITG
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			thermoelectric_plant = 2
+			hydroelectric_plant = 2
+			1092 = {
+				naval_base = 8
+			}
+			dockyard = 4
+			schools = 1
+			offices = 1
+			hospitals = 1
+			prisons = 1
+			barracks = 1
 		}
+	victory_points = { 1092 20 }
+	victory_points = { 11946 15 }
 	}
 	provinces = {
-         3923 9826 11803
+		1092 9968 11946
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

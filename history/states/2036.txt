@@ -1,20 +1,37 @@
 state = {
 	id = 2036
 	name = "STATE_2036"
-	provinces = {
-		17741 17593 16446
-	}
-	manpower = 1
-
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # AAO
-		# add_core_of = AAO
-		# add_core_of = AAS
-		buildings = {
-			infrastructure = 0
+		owner = ZZZ # BUL
+		victory_points = {
+			6857 3
 		}
+		victory_points = {
+			18160 3
+		}
+		victory_points = {
+			935 8
+		}
+		victory_points = {
+			3971 1
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+			barracks = 1
+			prisons = 2
+		}
+		# add_core_of = BUL
 	}
 
+	provinces = {
+		935 3908 3971 6857 18160 18170 18176 18450
+	}
+	manpower = 843735
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

@@ -1,22 +1,43 @@
 state = {
 	id = 1581
 	name = "STATE_1581"
-	provinces = {
-		11007
+	resources = {
+		steel = 4.000
 	}
-history = {
-		owner = ZZZ # ARG
+
+	history = {
+		owner = ZZZ # CHL
 		buildings = {
-			infrastructure = 2
-			barracks = 1
+			barracks = 2
+			schools = 2
+			hospitals = 1
+			prisons = 1
+			offices = 1
+			infrastructure = 4
+			air_base = 2
+			14821 = {
+				naval_base = 1
+			}
+			dockyard = 1
+			thermoelectric_plant = 2
 		}
-		# add_core_of = ARG
+		# add_core_of = CHL
 		victory_points = {
-			11007 7
+			14821 10
 		}
-		# set_state_flag = GDP_regions_misiones
+		victory_points = {
+			17493 3
+		}
+		add_extra_state_shared_building_slots = 1
+
+
 	}
-	manpower = 126504
+
+	provinces = {
+		14821 17493 17558
+	}
+	manpower = 823141
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_town
+	local_supplies = 0.000
 }

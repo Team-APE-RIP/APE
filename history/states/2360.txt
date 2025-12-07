@@ -1,33 +1,27 @@
 state = {
 	id = 2360
 	name = "STATE_2360"
+	manpower = 2587861
 
-	resources = {
-		aluminium = 8
-	}
+	state_category = rural
 
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = TAW
+		add_core_of = TAW
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			thermoelectric_plant = 1
+			offices = 1
 		}
-		victory_points = {
-			19675 4
-		}
-		victory_points = {
-			19760 4
-		}
-		# set_state_flag = GDP_regions_chuandong
-		# set_variable = { china_state_ref = 16 }
-		# set_variable = { china_region_ref = 2 }
+		victory_points = { 1091 10 }
+		victory_points = { 15893 5 }
+		# set_variable = { china_state_ref = 37 }
+		# set_variable = { china_region_ref = 4 }
+
 	}
 
 	provinces = {
-		5030 7201 12414 19760 19675 19783
+		15893 15891 1091
 	}
-	manpower = 2186210
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

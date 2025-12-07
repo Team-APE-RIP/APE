@@ -1,18 +1,24 @@
 state = {
 	id = 2984
 	name = "STATE_2984"
-	history = {
-		owner = EPA
-		add_core_of = EPA
-		buildings = {
-			infrastructure = 3
-		}
-	}
-	provinces = {
-        3920 11684 9700 9872
-	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
+	manpower = 29870
+
 	state_category = pastoral
-	local_supplies = 0.000
+
+	history = {
+		owner = ZZZ # PAR
+		# add_core_of = PAR
+		# add_claim_by = BOL
+		victory_points = { 2209 1 }
+		buildings = {
+			infrastructure = 2
+		}
+
+
+
+	}
+
+	provinces = {
+		2209
+	}
 }

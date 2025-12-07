@@ -1,39 +1,35 @@
-state = {
+state = { #Population Done
 	id = 2355
 	name = "STATE_2355"
-
 	resources = {
-		tungsten = 6
+		oil = 24
+		aluminium = 8
 	}
 
 	history = {
-		owner = QDN
-		add_core_of = NAL
+		owner = ZZZ # CAU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			thermoelectric_plant = 2
+			schools = 1
+			offices = 1
+			prisons = 1
 		}
-		victory_points = {
-			12483 5
-		}
-		victory_points = {
-			10517 9
-		}
-		victory_points = {
-			19477 5
-		}
-		victory_points = {
-			19448 13
-		}
-		# set_state_flag = GDP_regions_hunan
-		# set_variable = { china_state_ref = 27 }
-		# set_variable = { china_region_ref = 3 }
+		victory_points = { 1536 1 }
+		victory_points = { 4458 1 }
+		victory_points = { 4545 1 }
+		victory_points = { 15128 1 }
+		victory_points = { 4614 1 }
+		victory_points = { 18344 1 }
+		# add_core_of = CAU
+
+
 	}
 
 	provinces = {
-		19829 10517 19885 12483 19477 19908 19448
+		1536 4458 4545 4614 11704 15128 18343 18344 18349
 	}
-	manpower = 5012705
+	manpower = 759546
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

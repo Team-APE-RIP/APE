@@ -1,20 +1,28 @@
 state = {
 	id = 2054
-	name = "STATE_2054" # Coats Land
-	manpower = 1
-
-	state_category = wasteland
-
-	impassable = yes
+	name = "STATE_2054"
 
 	history = {
-		owner = ZZZ # AAN
-		buildings = {
-			infrastructure = 0
+		owner = ZZZ # IND
+		victory_points = {
+			18893 1
 		}
+		victory_points = {
+			16053 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		16400 17738 17729 17575
+		16053 18893
 	}
+	manpower = 5330953
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

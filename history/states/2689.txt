@@ -1,18 +1,27 @@
 state = {
 	id = 2689
 	name = "STATE_2689"
+
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = ZZZ # SWE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			hospitals = 1
 		}
+		victory_points = {
+			242 2
+		}
+		victory_points = {
+			9410 1
+		}
+		# add_core_of = SWE
 	}
+
 	provinces = {
-	    19809 19858
+		11231 9410 11280 242 18363 363
 	}
-	manpower = 87721
+	manpower = 158072
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

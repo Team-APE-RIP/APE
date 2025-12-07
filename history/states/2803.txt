@@ -1,18 +1,36 @@
 state = {
 	id = 2803
 	name = "STATE_2803"
+
+	resources = {
+		steel = 18
+		uranium = 8
+	}
+
 	history = {
-		owner = NTL
-        add_core_of = NTL
+		owner = MEN
 		buildings = {
 			infrastructure = 3
+			offices = 1
 		}
+		victory_points = {
+			16863 17
+		}
+		victory_points = {
+			19502 12
+		}
+
+
+		# set_variable = { china_state_ref = 55 }
+		# set_variable = { china_region_ref = 7 }
+
 	}
+
 	provinces = {
-        6241 9363
+		7631 10424 19502 17214 16863
 	}
-	manpower = 87721
+	manpower = 1326775
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

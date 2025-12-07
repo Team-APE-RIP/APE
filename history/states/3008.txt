@@ -1,18 +1,34 @@
 state = {
 	id = 3008
 	name = "STATE_3008"
-	history = {
-		owner = EPA
-		add_core_of = EPA
-		buildings = {
-			infrastructure = 3
-		}
+	resources = {
+		steel = 11
 	}
 	provinces = {
-        6879 11870 3928
+		740 3735 
 	}
-	manpower = 87721
+	history = {
+		owner = IPE
+		add_core_of = IPE
+		victory_points = { 740 15 }
+		victory_points = { 3735 6 }
+		victory_points = { 15114 10 }
+
+		# add_core_of = IBR
+		buildings = {
+			thermoelectric_plant = 2
+			hydroelectric_plant = 1
+			barracks = 1
+			infrastructure = 5
+			radar_station = 1
+			740 = {
+				naval_base = 2
+			}
+		}
+
+
+	}
+	manpower = 1369507
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = city
 }

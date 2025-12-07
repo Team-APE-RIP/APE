@@ -1,19 +1,37 @@
 state = {
 	id = 2500
 	name = "STATE_2500"
-	manpower = 84
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
-		# add_claim_by = NZL
-		buildings = {
-			infrastructure = 2
-			air_base = 1
+		owner = DPK
+		add_core_of = DPK
+		# add_core_of = KOR
+		# add_core_of = JAP
+		victory_points = {
+			11835 5
 		}
+		victory_points = {
+			912 1
+		}
+		victory_points = {
+			6963 1
+		}
+		buildings = {
+			infrastructure = 4
+			hydroelectric_plant = 1
+			enrichment_plant = 1
+			hospitals = 1
+			offices = 1
+		}
+
+
 	}
+
 	provinces = {
-		19983 19985
+		912 3912 6963 9795 9918 11775 11828 11835 11896
 	}
+	manpower = 2551679
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

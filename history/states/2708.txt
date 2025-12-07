@@ -2,14 +2,14 @@ state = {
 	id = 2708
 	name = "STATE_2708"
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 	provinces = {
-        9944 19504 19537 11920
+        4080 7098 9891
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

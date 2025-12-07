@@ -1,21 +1,25 @@
-state = {
+state = { #Population + VPs Done
 	id = 2180
 	name = "STATE_2180"
+	manpower = 64538
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # IRE
+		owner = ZZZ # AZH
 		buildings = {
-			infrastructure = 2
-			thermoelectric_plant = 1
+			infrastructure = 1
+			radar_station = 3
+			air_base = 2
+			barracks = 1
+			12251 = {
+				naval_base = 3
+			}
 		}
-		# add_core_of = IRE
+		victory_points = { 12251 1 }
+		# add_claim_by = IND
+		# add_core_of = AZH
 	}
-
 	provinces = {
-		9321 9255
+		10321 12251
 	}
-	manpower = 123330
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

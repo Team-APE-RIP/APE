@@ -1,33 +1,29 @@
 state = {
 	id = 983
 	name = "STATE_983"
+	resources = {
+		chromium = 8.000
+	}
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = DRV
+		add_core_of = DRV
+		# add_core_of = VIN
+		# add_core_of = VIC
 		victory_points = {
-			11707 10
-		}
-		victory_points = {
-			15520 4
+			1185 5
 		}
 		buildings = {
-			infrastructure = 5
-			hydroelectric_plant = 1
-			thermoelectric_plant = 2
-			11707 = {
-				naval_base = 2
-			}
+			infrastructure = 4
 		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_city
+
 	}
 
 	provinces = {
-		11707
+		1185 19085 19087
 	}
-	manpower = 994349
+	manpower = 2536794
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

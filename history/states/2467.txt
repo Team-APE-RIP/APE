@@ -3,34 +3,38 @@ state = {
 	name = "STATE_2467"
 
 	history = {
-		owner = ZZZ # CAN
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # AZH
+		victory_points = {
+			4516 20
+		}
+		victory_points = {
+			18905 7
+		}
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			radar_station = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+			barracks = 2
+			schools = 1
 			prisons = 1
-			infrastructure = 3
-			air_base = 4
-			hydroelectric_plant = 2
+			offices = 1
+			hospitals = 1
+			anti_air_building = 2
+			air_base = 5
+			4516 = {
+				bunker = 3
+			}
 		}
-		# add_core_of = CAN
-		victory_points = { # Saguenay
-			14619 3
-		}
-		victory_points = { # Sept-Iles
-			10715 2
-		}
-		victory_points = { # Baie-Comeau
-			7807 1
-		}
-		# set_state_flag = GDP_regions_quebec
-		# set_state_flag = GDP_category_city
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		1356 1657 4419 4769 7807 7810 7893 10534 10715 12600 13164 14618 14619 14620 17263
+		4516 18905
 	}
-	manpower = 350813
+	manpower = 3806500
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_town
 	local_supplies = 0.000
 }

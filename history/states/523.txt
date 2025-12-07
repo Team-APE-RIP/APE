@@ -1,42 +1,38 @@
 state = {
 	id = 523
 	name = "STATE_523"
-
 	resources = {
-		oil = 16
+		steel = 4.000
 	}
 
 	history = {
-		owner = ZZZ
-		#add_core_of = JAP
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # ROM
 		buildings = {
+			infrastructure = 5
 			prisons = 1
-			infrastructure = 2
-			radar_station = 2
-			air_base = 3
-			12237 = {
-				naval_base = 5
-			}
+			schools = 1
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 2
 		}
 		victory_points = {
-			12237 1
+			690 10
 		}
 		victory_points = {
-			5135 1
+			6679 10
 		}
 		victory_points = {
-			12154 1
+			18215 4
 		}
-		# set_state_flag = GDP_category_large_town
-		# set_state_flag = GDP_regions_new_guinea
+		# add_core_of = ROM
+
 	}
 
 	provinces = {
-		4393 4418 5135 7365 7614 10251 10974 12154 12193 12237 12931
+		676 690 3676 6679 6709 11639 18207 18215
 	}
-	manpower = 810628
+	manpower = 1004529
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

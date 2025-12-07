@@ -1,18 +1,27 @@
 state = {
 	id = 1107
 	name = "STATE_1107"
+	resources = {
+		rubber = 8
+	}
 
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
-		victory_points = { 2072 3 }
-		# set_state_flag = state_renamings
+		owner = ZZZ
+		# add_claim_by = MLY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7329 5
+		}
+
 	}
 
 	provinces = {
-		2072 15552 15556
+		1348 7329 10227
 	}
-	manpower = 1197607
+	manpower = 579246
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

@@ -1,33 +1,70 @@
-state = { #Population Done
+state = {
 	id = 402
 	name = "STATE_402"
 	resources = {
-		chromium = 30.000
-		oil = 2
+		steel = 64.000
+		aluminium = 7.000
+		oil = 18.000
 	}
 
 	history = {
-		owner = ZZZ # KAZ
+		owner = MAN
+		# add_core_of = MAN
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			barracks = 2
-			offices = 1
-			thermoelectric_plant = 2
+			infrastructure = 6
+			radar_station = 2
+			air_base = 5
+			schools = 1
+			offices = 2
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 4
+			11764 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
 		}
-		victory_points = { 4294 10 }
-		victory_points = { 7370 1 }
-		victory_points = { 7341 1 }
-		victory_points = { 1314 1 }
-		# add_core_of = KAZ
-		# set_state_flag = GDP_category_town
-		# set_state_flag = state_renamings
+		victory_points = {
+			9781 28
+		}
+		victory_points = {
+			3895 20
+		}
+		victory_points = {
+			9885 30
+		}
+		victory_points = {
+			11764 26
+		}
+		victory_points = {
+			8910 18
+		}
+		victory_points = {
+			11808 16
+		}
+		victory_points = {
+			19883 3
+		}
+		victory_points = {
+			892 10
+		}
+		#victory_points = {
+		#	3783 29
+		#}
+		victory_points = {
+			19804 17
+		}
+
+		# set_variable = { china_state_ref = 48 }
+		# set_variable = { china_region_ref = 6 }
 	}
 
 	provinces = {
-		1220 1247 1314 1360 1371 1429 4254 4294 4376 4394 7313 7337 7341 7370 7410 9528 10131 10164 10253 10264 11480 12108 12163 12179 12198 12227 12235 12254 12294 13288
+		892 987 3895 6804 8910 9781 11764 19883
 	}
-	manpower = 411781
+	manpower = 13876329
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_city
+	local_supplies = 0.000
 }

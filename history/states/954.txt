@@ -1,28 +1,18 @@
-state = { #Population Done
+state = {
 	id = 954
 	name = "STATE_954"
-	provinces = {
-		13577 15740 15741
-	}
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
-			hospitals = 1
-			barracks = 2
-			offices = 1
-			infrastructure = 5
-			air_base = 3
-			thermoelectric_plant = 3
-		}
-		victory_points = { # Wilmington
-			13577 10
-		}
-		victory_points = { # Dover
-			15740 3
+			infrastructure = 3
 		}
 	}
-	manpower = 469000
+	provinces = {
+	    15858
+	}
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = town
+	local_supplies = 0.000
 }

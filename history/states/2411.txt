@@ -2,33 +2,23 @@ state = {
 	id = 2411
 	name = "STATE_2411"
 	resources = {
-		chromium = 4
+		steel = 2.000
 	}
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
-		victory_points = {
-			19647 3
-		}victory_points = {
-            19714 5
-        }
-        victory_points = {
-            19557 3
-        }
+		victory_points = { 12710 5 }
+		owner = ZZZ # WOL
+		# add_core_of = WOL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_regions_south_shaanxi
-		# set_variable = { china_state_ref = 39 }
-		# set_variable = { china_region_ref = 5 }
+
 	}
 
 	provinces = {
-		7406 19647 12408 4256 19641 19694 19714 19557
+		8015 12710 14209
 	}
-	manpower = 1639816
+	manpower = 614400
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

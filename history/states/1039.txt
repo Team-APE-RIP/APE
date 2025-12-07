@@ -1,26 +1,40 @@
 state = {
 	id = 1039
 	name = "STATE_1039"
+	resources = {
+		tungsten = 9.000
+		steel = 19.000
+		oil = 7.000
+	}
 
 	history = {
-		owner = ZZZ # ANG
-		# add_core_of = ANG
+		owner = ZZZ # KRS
 		buildings = {
-			infrastructure = 1
+			schools = 1
+			offices = 1
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 2
+			infrastructure = 4
 		}
 		victory_points = {
-			13854 1
+			4724 20
 		}
 		victory_points = {
-			13824 1
+			10649 3
 		}
+		victory_points = {
+			7815 1
+		}
+		# add_core_of = KRS
 	}
 
 	provinces = {
-		7548 13824 13825 13835 13839 13854 13856 17925 17927 17928
+		1777 1816 1850 4711 4724 5470 7815 7886 10580 10639 10649 10712 13294 13312
 	}
-	manpower = 237820
+	manpower = 1717000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

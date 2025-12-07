@@ -1,21 +1,20 @@
-state = { #Population Done
+state = {
 	id = 1555
 	name = "STATE_1555"
 
 	history = {
-		owner = ZZZ # CRO
+		owner = ZZZ # MLI
+		# add_core_of = MLI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# add_core_of = CRO
-		# set_state_flag = GDP_regions_bosnia
-		# set_state_flag = GDP_category_rural
+
 	}
 
 	provinces = {
-		11845 15675
+		12838 14182 14186 14195
 	}
-	manpower = 82900
+	manpower = 458000
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
 }

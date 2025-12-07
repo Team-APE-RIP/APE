@@ -3,27 +3,22 @@ state = {
 	name = "STATE_2110"
 
 	history = {
-		owner = ZZZ # ITA
-		# add_core_of = ITA
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			barracks = 1
-			schools = 1
-			infrastructure = 4
-			14649 = {
-				naval_base = 1
-			}
+			infrastructure = 2
+			offices = 1
 		}
-		victory_points = { 14649 10 }
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_veneto
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			7842 4
+		}
 	}
 
 	provinces = {
-		14649 18177
+		7842 13708 13724 17846
 	}
-	manpower = 128759
+	manpower = 512000
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

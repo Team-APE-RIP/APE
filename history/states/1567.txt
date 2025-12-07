@@ -3,26 +3,18 @@ state = {
 	name = "STATE_1567"
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = {
-			6997 3
-		}
-		victory_points = {
-			16226 2
-		}
-		buildings = {
-			infrastructure = 2
-		}
-		# add_core_of = AZR
-		# add_core_of = TUR
-		# set_state_flag = state_renamings
+		owner = ZZZ # MAD
+		# add_core_of = MAD
+
 	}
 
+	impassable = yes
+
 	provinces = {
-		6997 16226 18472
+		15901
 	}
-	manpower = 121250
+	manpower = 124199
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

@@ -1,24 +1,26 @@
 state = {
 	id = 2238
 	name = "STATE_2238"
-	resources = {
-		rubber = 2
-	}
+	manpower = 1617
+	state_category = tiny_island
 
 	history = {
-		owner = WLO
-		add_core_of = WLO
-		# add_core_of = LAO
+		owner = ZZZ # NZL
+		# add_core_of = NZL
+		# add_claim_by = USA
 		buildings = {
 			infrastructure = 2
+			radar_station = 1
+			13050 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13050 1
 		}
 	}
 
 	provinces = {
-		4568 10776 7103 19037 12433
+		13050
 	}
-	manpower = 90018
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

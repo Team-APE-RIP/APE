@@ -1,35 +1,33 @@
-state = { #Population Done
+state = {
 	id = 570
-	name = "STATE_570" # Novosibirsk
-	manpower = 2386000
+	name = "STATE_570"
 
-	state_category = city
+	resources = {
+		oil = 4
+	}
 
 	history = {
-		owner = ZZZ # NOV
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			radar_station = 1
+			19231 = {
+				naval_base = 3
+			}
 			air_base = 1
-			thermoelectric_plant = 2
-			barracks = 1
-			offices = 1
-			schools = 1
-			prisons = 1
-			hospitals = 1
 		}
-		victory_points = { 7825 30 }
-		victory_points = { 12679 1 }
-		victory_points = { 4734 5 }
-		victory_points = { 12606 3 }
-		victory_points = { 4866 5 }
-		# add_core_of = NOV
-		# set_state_flag = universal_renamings
+		victory_points = {
+			19231 1
+		}
+
 	}
-	resources = {
-		oil = 7
-		aluminium = 6
-	}
+
 	provinces = {
-		1733 1790 1860 4366 4734 4806 4840 4866 7274 7687 7722 7825 10555 10652 12606 12679 7757
+		4579 19231 19351 19353 19354
 	}
+	manpower = 151257
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
 }

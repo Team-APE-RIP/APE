@@ -2,34 +2,23 @@ state = {
 	id = 1741
 	name = "STATE_1741"
 
-	resources = {
-		chromium = 2
-	}
-
 	history = {
-		owner = DRV
-		add_core_of = DRV
-		# add_core_of = VIN
-		# add_core_of = VIC
-		victory_points = {
-			11936 5
-		}
-		victory_points = {
-			4397 1
-		}
+		owner = ZZZ # IME
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			air_base = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
+			hospitals = 1
+			schools = 1
+			prisons = 1
 		}
-		# set_state_flag = GDP_category_rural
-	}
+		victory_points = { 14455 20 }
+		# add_core_of = IME
 
-	provinces = {
-		4397 10016 10129 11909 11936 19142
 	}
-	manpower = 2510697
+	provinces = {
+		14455
+	}
+	manpower = 320104
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

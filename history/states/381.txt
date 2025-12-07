@@ -1,49 +1,36 @@
 state = {
 	id = 381
 	name = "STATE_381"
-	resources = {
-		uranium = 6.000
-	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = ZZZ # CAN
+
 		buildings = {
+			radar_station = 1
+			prisons = 1
 			infrastructure = 3
-			missile_silo = 1
-			air_base = 3
-			thermoelectric_plant = 2
-			hydroelectric_plant = 1
-			radar_station = 3
+			air_base = 4
+			hydroelectric_plant = 2
 		}
-		# add_core_of = USA
-		victory_points = { # Cheyenne
-			4723 3
+		# add_core_of = CAN
+		victory_points = { # Saguenay
+			14619 3
 		}
-		victory_points = { # Casper
-			10711 1
+		victory_points = { # Sept-Iles
+			10715 2
 		}
-		victory_points = { # Rock Springs
-			12633 1
+		victory_points = { # Baie-Comeau
+			7807 1
 		}
-		victory_points = { # Sheridan
-			4610 1
-		}
-		victory_points = { # Laramie
-			10640 1
-		}
-		victory_points = { # Jackson
-			12651 1
-		}
-		victory_points = { # Gillette
-			4820 1
-		}
+
+
 	}
 
 	provinces = {
-		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 17290 17295 17296
+		1356 1657 4419 4769 7807 7810 7893 10534 10715 12600 13164 14618 14619 14620 17263
 	}
-	manpower = 331048
+	manpower = 350813
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

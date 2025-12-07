@@ -1,37 +1,33 @@
 state = {
 	id = 1661
 	name = "STATE_1661"
-	resources = {
-		aluminium = 6.000
-		power = 4.000
-	}
 
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = FRA
+		add_core_of = FRA
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+		# add_core_of = ITA
+		victory_points = {
+			11573 4
+		}
+		victory_points = {
+			6609 4
+		}
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			offices = 1
 			prisons = 1
-			thermoelectric_plant = 1
-			air_base = 2
+			infrastructure = 4
+			radar_station = 1
+			air_base = 1
+			hydroelectric_plant = 2
 		}
-		victory_points = {
-			15327 10
-		}
-		victory_points = {
-			2660 5
-		}
-		# set_state_flag = GDP_category_town
+
 	}
 
 	provinces = {
-		2509 2520 2660 15327 15516 15623 17362 17366
+		11573 9603 778
 	}
-	manpower = 973387
+	manpower = 766678
 	buildings_max_level_factor = 1.000
 	state_category = rural
 	local_supplies = 0.000

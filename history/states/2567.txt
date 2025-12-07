@@ -1,23 +1,28 @@
 state = {
 	id = 2567
 	name = "STATE_2567"
+
+	resources = {
+		tungsten = 8
+	}
+
 	history = {
-		owner = SHX
-		add_core_of = SHX
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
-        victory_points = {
-            5193 1
-        }
-        victory_points = {
-            7397 4
-        }
+		victory_points = {
+			1308 1
+		}
+		# add_core_of = THA
+
 	}
+
 	provinces = {
-		7397 7270 4888 11448 4313 5193 19742 4403 19569
+		12220 4388 1308 19019
 	}
-	manpower = 1026811
+	manpower = 462471
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

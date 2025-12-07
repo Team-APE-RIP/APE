@@ -1,25 +1,25 @@
 state = {
 	id = 1731
-	name = "STATE_1731"
+	name = "STATE_1731" # Schirmacher + Admiral Graf Spee Glacier/Harbor
+	manpower = 1
 
-	resources = {
-		steel = 1
-	}
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # SER
-		# add_core_of = SER
+		owner = ZZZ # AAG
+		# add_core_of = AAG
+		victory_points = { 17742 1 }
+		victory_points = { 17695 3 }
 		buildings = {
 			infrastructure = 2
+			air_base = 1
+			17742 = {
+				naval_base = 1
+			}
 		}
-		victory_points = { 18167 1 }
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		9756 15652 15651 18167 630
+		17695 17742
 	}
-	manpower = 338719
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
 }

@@ -3,29 +3,28 @@ state = {
 	name = "STATE_1939"
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			4953 10
-		}
-		victory_points = {
-			5096 3
-		}
-		victory_points = {
-			18919 3
-		}
+		owner = ZZZ # ITA
+		# add_core_of = ITA
+		victory_points = { 17987 4 }
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			infrastructure = 4
+			11595 = {
+				bunker = 5
+			}
+			17987 = {
+				bunker = 5
+			}
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_madhya_pradesh
+
+
+
 	}
 
 	provinces = {
-		4953 5096 16078 18827 18919
+		11595 17987
 	}
-	manpower = 2648686
+	manpower = 229022
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

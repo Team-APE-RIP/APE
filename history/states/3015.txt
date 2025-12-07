@@ -2,15 +2,14 @@ state = {
 	id = 3015
 	name = "STATE_3015"
 	history = {
-		
-		owner = IPC
-		add_core_of = IPC
+		owner = ITA
+        add_core_of = ITA
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-        1178 4182 10094
+        14642
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

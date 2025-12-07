@@ -1,27 +1,18 @@
 state = {
 	id = 281
 	name = "STATE_281"
-	manpower = 100833
-	state_category = small_island
-
 	history = {
-		owner = ZZZ # IND
-		# add_core_of = IND
-		victory_points = { 4967 5 }
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			infrastructure = 1
-			radar_station = 2
-			air_base = 2
-			barracks = 1
-			4967 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_karnataka
 	}
-
 	provinces = {
-		4967
+        3744  9719 15520
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

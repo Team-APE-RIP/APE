@@ -1,27 +1,30 @@
 state = {
 	id = 1001
 	name = "STATE_1001"
-	resources = {
-		tungsten = 5
-	}
-	provinces = {
-		931 6954 11798 11851
-	}
-	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = { 11851 9 }
-		victory_points = { 931 3 }
-		victory_points = { 3930 2 }
-		victory_points = { 6954 2 }
-		victory_points = { 6902 1 }
-		# add_core_of = IBR
 
+	history = {
+		owner = ZZZ # SLG
+		# add_claim_by = FRS
+		# add_core_of = SLG
+		# add_core_of = ALG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			prisons = 1
 		}
+		victory_points = {
+			11923 8
+		}
+		victory_points = {
+			18084 3
+		}
+
+
 	}
-	manpower = 854236
+
+	provinces = {
+		11923 18083 18084
+	}
+	manpower = 667739
 	buildings_max_level_factor = 1.000
 	state_category = rural
 }

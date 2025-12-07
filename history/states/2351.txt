@@ -1,42 +1,27 @@
-state = {
+state = { #Population Done
 	id = 2351
 	name = "STATE_2351"
-
-	resources = {
-		aluminium = 10
-	}
-
-	history = {
-		owner = AUH
-		add_core_of = AUH
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			7580 5
-		}
-		victory_points = {
-			7625 5
-		}
-		victory_points = {
-			9934 3
-		}
-		victory_points = {
-			19833 5
-		}
-		victory_points = {
-			19846 5
-		}
-		# set_state_flag = GDP_regions_hubei
-		# set_variable = { china_state_ref = 26 }
-		# set_variable = { china_region_ref = 3 }
-	}
-
+	state_category = town
 	provinces = {
-		 19833 7625 19846 9934 7167 7580
+		9478 13371 13364
 	}
-	manpower = 5739286
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			air_base = 2
+			radar_station = 1
+			schools = 1
+			offices = 1
+		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		victory_points = { 9478 5 }
+		victory_points = { 3509 5 }
+		victory_points = { 527 1 }
+	}
+	manpower = 1249321
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

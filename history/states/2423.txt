@@ -3,24 +3,27 @@ state = {
 	name = "STATE_2423"
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
-		victory_points = {
-			19724 3
-		}
+		owner = ZZZ # SNS
 		buildings = {
-			infrastructure = 2
-			barracks = 1
+			infrastructure = 3
 		}
-		# set_variable = { china_state_ref = 40 }
-		# set_variable = { china_region_ref = 5 }
+		victory_points = {
+			1056 10
+		}
+		victory_points = {
+			16275 1
+		}
+		# add_core_of = SYR
+		# add_core_of = SNS
+
+
 	}
 
 	provinces = {
-		12882 19756 531 19724 19508
+		1056 1072 16275
 	}
-	manpower = 1946541
+	manpower = 269848
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

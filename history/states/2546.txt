@@ -2,33 +2,32 @@ state = {
 	id = 2546
 	name = "STATE_2546"
 
-	history = {
-		owner = NAL
-		add_core_of = NAL
-		buildings = {
-			infrastructure = 3
-		}
-		
-        victory_points = {
-            7199 4
-        }
-        victory_points = {
-            19531 3
-        }
-        victory_points = {
-            4083 2
-        }
-        victory_points = {
-            19460 2
-        }
+	resources = {
+		uranium = 2
 	}
 
-	provinces = {
-		7199 7172 19531 4083 19460 19470
+	history = {
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = ILG
+		# add_core_of = ALG
+		victory_points = { 9976 10 }
+		victory_points = { 12034 2 }
+		victory_points = { 12888 6 }
+		victory_points = { 10059 3 }
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		# add_core_of = ALG
+
 	}
-	manpower = 938101
+
+
+	provinces = {
+		10059 18077 12034 18012 12888 7149 9976
+	}
+	manpower = 574434
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
-	#impassable = yes
+	state_category = rural
 }

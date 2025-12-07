@@ -1,26 +1,22 @@
 state = {
 	id = 1442
 	name = "STATE_1442"
+
 	history = {
-		owner = ZZZ # MCW
-		victory_points = { 6380 35 }
+		owner = ZZZ # DOM
 		buildings = {
-			infrastructure = 5
-			air_base = 6
-			offices = 2
-			prisons = 3
-			schools = 3
-			hospitals = 2
-			thermoelectric_plant = 3
+			infrastructure = 2
+			15602 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = MCW
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_metropolis
+		# add_core_of = DOM
 	}
+
 	provinces = {
-		6380 6414
+		10484 15602 15604 15605
 	}
-	manpower = 2560030
+	manpower = 375242
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = wasteland
 }

@@ -1,18 +1,42 @@
 state = {
 	id = 2965
 	name = "STATE_2965"
+
 	history = {
-		owner = ITE
-        add_core_of = ITE
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
+			1055 = {
+				naval_base = 2
+			}
 		}
+		victory_points = {
+			1055 19
+		}
+		victory_points = {
+			1195 2
+		}
+		victory_points = {
+			4013 5
+		}
+		victory_points = {
+			19504 2
+		}
+		#add_extra_state_shared_building_slots = 2
+
+
+		# set_variable = { china_state_ref = 5 }
+		# set_variable = { china_region_ref = 0 }
 	}
+
 	provinces = {
-        11790
+		1055 11947 7086 4099
 	}
-	manpower = 87721
+	manpower = 5131539
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

@@ -3,28 +3,22 @@ state = {
 	name = "STATE_2475"
 
 	resources = {
-		rubber = 48
+		oil = 4
 	}
 
 	history = {
-		owner = WZS
-		add_core_of = WZS
-		victory_points = {
-			1038 4
-		}
+		owner = ZZZ # BOL
 		buildings = {
 			infrastructure = 2
 		}
-		# set_variable = { china_state_ref = 36 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_hainan
+		# add_core_of = BOL
 	}
 
 	provinces = {
-		1038 11963 19762
+		10924 15345
 	}
-	manpower = 837284
+	manpower = 71354
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

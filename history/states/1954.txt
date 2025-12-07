@@ -1,51 +1,26 @@
 state = {
 	id = 1954
 	name = "STATE_1954"
+	resources = {
+		tungsten = 7.000
+	}
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			16052 20
-		}
-		victory_points = {
-			8114 5
-		}
-		victory_points = {
-			1377 10
-		}
-		victory_points = {
-			18896 3
-		}
-		victory_points = {
-			12777 2
-		}
-		victory_points = {
-			18938 3
-		}
-		victory_points = {
-			18943 2
-		}
-		add_extra_state_shared_building_slots = 2
+		owner = EPA
+		add_core_of = EPA
+		victory_points = { 6866 4 }
+		victory_points = { 11756 2 }
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 2
-			air_base = 3
-			offices = 2
-			schools = 1
 			hospitals = 1
-			prisons = 1
-			barracks = 2
+			infrastructure = 4
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
+		# add_core_of = IBR
 	}
 
 	provinces = {
-		1377 4299 8114 12777 16052 18896 18938 18943
+		6866 9877 11780
 	}
-	manpower = 8321417
+	manpower = 559817
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = rural
 }

@@ -1,18 +1,29 @@
-state = {
+state = { #Population Done
 	id = 2853
 	name = "STATE_2853"
+	manpower = 5025
+
+	state_category = tiny_island
+
+	resources = {
+	}
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # CAN
 		buildings = {
-			infrastructure = 3
+			schools = 1
+			infrastructure = 2
+			373 = {
+				naval_base = 1
+			}
 		}
+		victory_points = { # St. Pierre
+			373 1
+		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+
 	}
 	provinces = {
-        11699 9882 15208
+		373
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -2,42 +2,32 @@ state = {
 	id = 1815
 	name = "STATE_1815"
 	resources = {
-		chromium = 16.000
-		tungsten = 8.000
+		tungsten = 6.000
 	}
 
 	history = {
-		owner = OBK
-		add_core_of = OBK
-		# add_core_of = GER
-		victory_points = {
-			564 15
-		}
-		victory_points = {
-			11533 4
-		}
-		victory_points = {
-			11445 6
-		}
-		victory_points = {
-			589 10
-		}
-		victory_points = {
-			3524 5
-		}
+		owner = ZZZ # MEX
+
 		buildings = {
-			prisons = 2
-			offices = 1
-			infrastructure = 5
-			thermoelectric_plant = 2
+			barracks = 2
+			prisons = 1
+			infrastructure = 2
+			radar_station = 1
+		}
+		# add_core_of = MEX
+		victory_points = {
+			12873 5
+		}
+		victory_points = {
+			17327 1
 		}
 	}
 
 	provinces = {
-		564 11533
+		12873 17313 17327
 	}
-	manpower = 1345539
+	manpower = 462226
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = rural
 	local_supplies = 0.000
 }

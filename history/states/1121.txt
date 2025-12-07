@@ -1,32 +1,45 @@
 state = {
 	id = 1121
 	name = "STATE_1121"
-
 	resources = {
-		chromium = 2
-		uranium = 1
+		tungsten = 14.000
 	}
 
 	history = {
-		owner = ZZZ # EGY
-		# add_core_of = EGY
+		owner = EPA
+		add_core_of = EPA
+		victory_points = {
+			11825 10
+		}
+		victory_points = {
+			11854 8
+		}
+		victory_points = {
+			9872 4
+		}
+		victory_points = {
+			3820 3
+		}
+		victory_points = {
+			738 2
+		}
+		victory_points = {
+			9870 1
+		}
+		# add_core_of = IBR
 		buildings = {
-			infrastructure = 2
+			barracks = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
 		}
-		victory_points = {
-			18487 7
-		}
-		victory_points = {
-			18538 4
-		}
-		# set_state_flag = GDP_regions_sudan
+
 	}
 
 	provinces = {
-		10784 12862 14192 14193 18487 18489 18532 18538
+		11825 918 6936 4024
 	}
-	manpower = 838319
+	manpower = 1193925
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 }

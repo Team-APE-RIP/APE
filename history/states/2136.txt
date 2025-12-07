@@ -2,28 +2,32 @@ state = {
 	id = 2136
 	name = "STATE_2136"
 
+	resources = {
+		oil = 16
+	}
+
 	history = {
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
 		buildings = {
 			infrastructure = 4
-			11176 = {
-				coastal_bunker = 2
-			}
-			9096 = {
-				coastal_bunker = 2
-			}
+			prisons = 1
 		}
 		victory_points = {
-			11176 1
+			6483 3
 		}
-		owner = ZZZ # NOR
-		# add_core_of = NOR
+		victory_points = {
+			19169 2
+		}
+
 	}
 
 	provinces = {
-		11176 9096 9196 3129 11101
+		536 6431 6483 9468 19164 19165 19169 19174
 	}
-	manpower = 77066
+	manpower = 1206266
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

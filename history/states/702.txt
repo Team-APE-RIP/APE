@@ -1,25 +1,33 @@
-state = { #Population Done
+state = {
 	id = 702
 	name = "STATE_702"
-	manpower = 221484
-
-	state_category = small_island
 
 	history = {
-		owner = ZZZ # IBR
-		# add_core_of = IBR
-		victory_points = { 13014 5 }
+		owner = GUX
+		add_core_of = GUX
 		buildings = {
 			infrastructure = 2
-			air_base = 1
-			13014 = {
-				naval_base = 1
-			}
 		}
-		# set_state_flag = state_renamings
+		
+		victory_points = {
+			11983 5
+		}
+		victory_points = {
+			12023 5
+		}
+		victory_points = {
+			14739 5
+		}
+		
+		# set_variable = { china_state_ref = 19 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		13014
+		12023 11983 14739 7044
 	}
+	manpower = 4670258
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

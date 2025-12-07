@@ -3,23 +3,27 @@ state = {
 	name = "STATE_2210"
 
 	history = {
-		owner = ZZZ # IND
+		owner = ZZZ # IBR
+		# add_core_of = GAB
+		# add_core_of = IBR
+		victory_points = {
+			15117 10
+		}
 		buildings = {
 			infrastructure = 1
-			radar_station = 1
-			air_base = 2
 			barracks = 1
+			15117 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_karnataka
+
 	}
 
 	provinces = {
-		18824
+		13665 15117 15118 15119
 	}
-	manpower = 42162
+	manpower = 250000
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,30 +1,41 @@
-state = {
+state = { #Population Done
 	id = 1126
 	name = "STATE_1126"
-
+	manpower = 2202854
 	resources = {
-		steel = 4
+
+		chromium = 1
 	}
 
+	state_category = rural
 	history = {
-		owner = ZZZ # JOR
-		# add_core_of = JOR
+		owner = ZZZ # HON
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			radar_station = 1
+			air_base = 1
+			offices = 1
+			schools = 1
+			prisons = 1
 			barracks = 1
+			thermoelectric_plant = 1
+			12865 = {
+				naval_base = 1
+			}
+			8017 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			7170 1
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = HON
+		victory_points = { # Tegucigalpa
+			12865 5
 		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = universal_renamings
+		victory_points = { # San Pedro Sula
+			8017 3
+		}
 	}
-
 	provinces = {
-		7170 18591
+		2031 8017 12865
 	}
-	manpower = 212030
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

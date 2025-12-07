@@ -1,45 +1,77 @@
 state = {
 	id = 1952
 	name = "STATE_1952"
+	resources = {
+		steel = 6
+	}
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			4915 20
-		}
-		victory_points = {
-			18892 10
-		}
-		victory_points = {
-			5086 10
-		}
-		victory_points = {
-			18929 10
-		}
-		victory_points = {
-			18906 3
-		}
-		add_extra_state_shared_building_slots = 2
+		owner = ZZZ # NOR
 		buildings = {
-			infrastructure = 3
-			hydroelectric_plant = 1
-			offices = 2
 			barracks = 1
-			prisons = 1
-			schools = 1
-			anti_air_building = 1
-			radar_station = 1
+			offices = 1
+			infrastructure = 4
+			hydroelectric_plant = 1
+			radar_station = 3
+			air_base = 1
+			192 = {
+				coastal_bunker = 2
+				naval_base = 4
+			}
+			6187 = {
+				coastal_bunker = 2
+			}
+			3126 = {
+				coastal_bunker = 2
+			}
+			3088 = {
+				coastal_bunker = 2
+			}
+			6111 = {
+				coastal_bunker = 2
+			}
+			173 = {
+				coastal_bunker = 2
+			}
+			3048 = {
+				coastal_bunker = 2
+			}
+			6071 = {
+				coastal_bunker = 2
+			}
+			6214 = {
+				coastal_bunker = 2
+			}
+			9126 = {
+				coastal_bunker = 2
+			}
+			38 = {
+				coastal_bunker = 2
+			}
+			3132 = {
+				coastal_bunker = 2
+			}
+			3034 = {
+				coastal_bunker = 2
+			}
+			11157 = {
+				coastal_bunker = 2
+			}
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
+		victory_points = {
+			192 1
+		}
+		victory_points = {
+			9126 1
+		}
+		# add_core_of = NOR
 	}
 
 	provinces = {
-		4915 5086 10794 18892 18906 18929
+		38 173 192 3034 3048 3088 3126 3132 6071 6111 6187 6214 9126 9208 11157
 	}
-	manpower = 8042241
+	manpower = 237530
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = rural
 	local_supplies = 0.000
 }

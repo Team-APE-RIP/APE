@@ -1,26 +1,17 @@
 state = {
 	id = 1670
 	name = "STATE_1670"
-	resources = {
-		tungsten = 80.000
-	}
-
 	history = {
-		owner = ZZZ # BOL
+		owner = RHN
+		add_core_of = RHN
 		buildings = {
-			infrastructure = 2
-			offices = 1
-		}
-		# add_core_of = BOL
-		victory_points = {
-			12930 5
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		2174 10987 12930 15334 17489 17545
+        9559
 	}
-	manpower = 624100
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

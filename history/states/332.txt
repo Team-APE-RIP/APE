@@ -3,32 +3,24 @@ state = {
 	name = "STATE_332"
 
 	history = {
-		owner = ZZZ # CAN
+		owner = ERV
+		add_core_of = ERV
+		victory_points = {
+			1300 5
+		}
+		victory_points = {
+			4334 1
+		}
 		buildings = {
-			barracks = 1
-			offices = 1
 			infrastructure = 2
-			radar_station = 3
-			air_base = 3
-			12503 = {
-				naval_base = 2
-			}
 		}
-		# add_core_of = CAN
-		victory_points = {
-			12503 1
-		}
-		victory_points = {
-			1785 1
-		}
-		# set_state_flag = GDP_regions_newfoundland
-		# set_state_flag = GDP_category_town
+
 	}
 
 	provinces = {
-		1426 1785 4720 4787 12503 13165 13180 17255 17258
+		1300 4255 4334 19038 19055 19056
 	}
-	manpower = 13789
+	manpower = 1065105
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

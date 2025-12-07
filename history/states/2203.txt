@@ -1,27 +1,37 @@
 state = {
 	id = 2203
 	name = "STATE_2203"
+	manpower = 793428
+
+
 	resources = {
-		oil = 16
 	}
 
+	state_category = town
+
 	history = {
-		owner = ZZZ # TRK
+		owner = ZZZ # BUL
+		victory_points = { 9902 10 }
+		victory_points = { 6967 6 }
+		victory_points = { 9888 5 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			thermoelectric_plant = 2
+			schools = 1
+			hospitals = 1
+			air_base = 2
+			radar_station = 3
+			barracks = 1
+			offices = 1
+			9902 = {
+				naval_base = 1
+			}
 		}
-		victory_points = { 10357 4 }
-		victory_points = { 18626 2 }
-		victory_points = { 7560 1 }
-		# add_core_of = TRK
-		# set_state_flag = state_renamings
+		# add_core_of = BUL
+
 	}
 
 	provinces = {
-		10414 10357 18626 4482 7560 18681 4958 18632 12233
+		6967 9888 9902 9919
 	}
-	manpower = 391905
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

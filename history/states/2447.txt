@@ -2,25 +2,27 @@ state = {
 	id = 2447
 	name = "STATE_2447"
 
+	resources = {
+		oil = 9
+	}
+
+	state_category = pastoral
+
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = ZZZ # OMA
+		# add_core_of = OMA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
-			2387 1
+			13456 1
 		}
-		# set_demilitarized_zone = yes
+
 	}
 
 	provinces = {
-		2269 2387 15309 15633 17345
+		13456 13455 13447 18546
 	}
-	manpower = 50657
+	manpower = 61117
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

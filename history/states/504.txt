@@ -1,31 +1,28 @@
-
 state = {
 	id = 504
 	name = "STATE_504"
 
-	state_category = large_town
-
 	history = {
-		owner = ZZZ # BRA
+		owner = ZZZ # YOR
 		buildings = {
-			infrastructure = 4
-			barracks = 1
-			thermoelectric_plant = 1
-			5107 = {
-				naval_base = 3
+			infrastructure = 2
+			thermoelectric_plant = 2
+			2050 = {
+				naval_base = 2
 			}
-			air_base = 2
 		}
-		# add_core_of = BRA
-		victory_points = { 5107 20 }
-		victory_points = { 2132 8 }
-		victory_points = { 2164 6 }
-		victory_points = { 8179 5 }
+		# add_core_of = YOR
+		victory_points = {
+			2050 1
+		}
+
 	}
 
 	provinces = {
-		2132 2164 2178 5107 8179
+		2050 4952 14019 15203
 	}
-	manpower = 3537856
+	manpower = 1593600
 	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

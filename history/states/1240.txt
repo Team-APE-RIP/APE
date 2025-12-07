@@ -1,25 +1,36 @@
 state = {
 	id = 1240
 	name = "STATE_1240"
+	resources = {
+		steel = 3.000
+	}
 
 	history = {
-		owner = ZZZ # LEB
+		owner = ZZZ # CHL
 		buildings = {
-			infrastructure = 4
-			dockyard = 1
-			1108 = {
-				naval_base = 1
+			barracks = 1
+			offices = 1
+			infrastructure = 3
+			12954 = {
+				naval_base = 2
 			}
-			prisons = 1
+			air_base = 2
 		}
-		# add_core_of = LEB
-		victory_points = { 1108 5 }
-		# set_state_flag = state_renamings
+		# add_core_of = CHL
+		victory_points = {
+			12954 4
+		}
+		victory_points = {
+			17490 5
+		}
+
 	}
+
 	provinces = {
-		1108
+		5169 12954 14809 17490 17509 17511 17515 17551
 	}
-	manpower = 319952
+	manpower = 362242
 	buildings_max_level_factor = 1.000
 	state_category = town
+	local_supplies = 0.000
 }

@@ -1,30 +1,18 @@
 state = {
 	id = 1255
 	name = "STATE_1255"
-
 	history = {
-		owner = ZZZ # VEN
+		owner = NTL
+        add_core_of = NTL
 		buildings = {
-			thermoelectric_plant = 2
-			schools = 1
-			offices = 3
-			hospitals = 1
-			prisons = 1
-			infrastructure = 4
-			radar_station = 2
+			infrastructure = 3
 		}
-		# add_core_of = VEN
-		victory_points = {
-			8113 10
-		}
-		# set_state_flag = GDP_regions_aragua
 	}
-
 	provinces = {
-		6788 8113 17387
+        68 3314 15979
 	}
-	manpower = 800574
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

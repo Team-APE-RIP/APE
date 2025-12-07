@@ -3,21 +3,38 @@ state = {
 	name = "STATE_1406"
 
 	history = {
-		owner = ZZZ # OST
-		# add_core_of = OST
-		victory_points = {
-			14559 2
-		}
+		owner = ZZZ # IND
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+			barracks = 1
+			prisons = 1
 		}
-		# set_state_flag = GDP_regions_belarus
+		# add_claim_by = AZH
+		# add_core_of = IND
+		add_extra_state_shared_building_slots = 2
+		victory_points = {
+			10030 25
+		}
+		victory_points = {
+			4557 4
+		}
+		victory_points = {
+			7619 8
+		}
+		victory_points = {
+			18975 5
+		}
+
+
 	}
 
 	provinces = {
-		6413 9274 9404 14559 3366
+		4557 7619 10030 10171 18975
 	}
-	manpower = 216529
+	manpower = 3787533
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

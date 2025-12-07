@@ -2,30 +2,32 @@ state = {
 	id = 2398
 	name = "STATE_2398"
 
+	resources = {
+		steel = 9
+	}
+
 	history = {
-		owner = TIB
-		add_core_of = TIB
-		victory_points = {
-			19711 1
-		}
-		victory_points = {
-			2098 1
-		}
-		victory_points = {
-			19623 1
-		}
+		owner = ZZZ # AZH
+		victory_points = { 12452 10 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			radar_station = 1
+			12307 = {
+				bunker = 3
+			}
+			16105 = {
+				bunker = 3
+			}
 		}
-		# set_variable = { china_state_ref = 22 }
-		# set_variable = { china_region_ref = 2 }
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		2098 19623 19711 19712 19696
+		16105 12307 12452
 	}
-	manpower = 256367
+	manpower = 2288749
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

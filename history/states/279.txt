@@ -1,38 +1,23 @@
 state = {
 	id = 279
 	name = "STATE_279"
-	resources = {
-		steel = 30.000
-	}
+	manpower = 301943
+
+	state_category = rural
 
 	history = {
 		owner = ZZZ # CHL
 		buildings = {
-			barracks = 3
-			schools = 2
-			hospitals = 2
-			prisons = 2
-			offices = 3
-			infrastructure = 5
-			air_base = 4
-			anti_air_building = 1
-			thermoelectric_plant = 1
-			hydroelectric_plant = 2
+			barracks = 1
+			schools = 1
+			infrastructure = 2
 		}
 		# add_core_of = CHL
-		victory_points = {
-			14836 40
-		}
-		victory_points = {
-			17941 4
-		}
+		victory_points = { 14810 6 }
+
 	}
 
 	provinces = {
-		650 14835 14836 14837 17505 17506 17937 17941 17938 17940
+		14808 14810 14811 15307
 	}
-	manpower = 2832865
-	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
 }

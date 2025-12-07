@@ -1,18 +1,23 @@
 state = {
 	id = 2923
 	name = "STATE_2923"
+
 	history = {
-		owner = OTC
-        add_core_of = OTC
+		owner = ZZZ # TRZ
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 		}
+		# add_core_of = TRZ
+		victory_points = {
+			14245 1
+		}
+
 	}
+
 	provinces = {
-        3700
+		14253 18004 14245 18019 13216 1962
 	}
-	manpower = 87721
+	manpower = 19163
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = wasteland
 }

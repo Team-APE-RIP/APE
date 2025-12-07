@@ -1,0 +1,10 @@
+music = {
+	name = "APEMainTheme_1"
+	file = "1.ogg"
+	volume = 1
+}
+music = {
+	name = "APEMainTheme_2"
+	file = "2.ogg"
+	volume = 1
+}

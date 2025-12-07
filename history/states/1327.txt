@@ -1,28 +1,27 @@
 state = {
 	id = 1327
 	name = "STATE_1327"
-	state_category = small_island
+	resources = {
+	}
 
 	history = {
-		owner = ZZZ # ITA
-		victory_points = { 14434 5 }
+		owner = ZZZ # IBR
+		# add_core_of = IBR
+		victory_points = { 15113 2 }
 		buildings = {
-			barracks = 1
 			infrastructure = 5
-			radar_station = 3
-			air_base = 3
-			14434 = {
-				naval_base = 5
-				coastal_bunker = 1
+			radar_station = 1
+			15113 = {
+				naval_base = 1
 			}
 		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = ITA
+
 	}
 
 	provinces = {
-		14434
+		15113
 	}
-	manpower = 324600
+	manpower = 21752
 	buildings_max_level_factor = 1.000
+	state_category = enclave
 }

@@ -1,22 +1,32 @@
 state = {
 	id = 1367
 	name = "STATE_1367"
-
+	provinces = {
+		1596 1639 4643 12321 12409 12494 14917
+	}
 	history = {
-		owner = ZZZ # IME
+		owner = ZZZ # ARG
 		buildings = {
 			infrastructure = 3
+			schools = 1
+			dockyard = 2
+			1639 = {
+				naval_base = 1
+			}
 		}
-		victory_points = { 14442 1 }
-		# add_core_of = IME
-		# set_state_flag = state_renamings
-	}
+		# add_core_of = ARG
+		victory_points = {
+			1639 10
+		}
+		victory_points = {
+			4643 3
+		}
+		victory_points = {
+			12409 1
+		}
 
-	provinces = {
-		14442
 	}
-
-	manpower = 113092
+	manpower = 379534
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 }

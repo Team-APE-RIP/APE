@@ -1,36 +1,24 @@
 state = {
 	id = 1635
 	name = "STATE_1635"
-	resources = {
-		steel = 30.000
-		aluminium = 21.000
-	}
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = {
-			9590 2
-		}
-		victory_points = {
-			3652 10
-		}
+		owner = ZZZ # KRK
 		buildings = {
-			hospitals = 1
-			barracks = 2
-			infrastructure = 6
+			infrastructure = 1
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		# set_demilitarized_zone = yes
-		# set_state_flag = universal_renamings
+		victory_points = {
+			12454 1
+		}
+		# add_core_of = KRK
+
 	}
 
 	provinces = {
-		641 817 
+		7541 7641 10348 12454 12474 13264 13276 17129
 	}
-	manpower = 748338
+	manpower = 35707
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
 	local_supplies = 0.000
 }

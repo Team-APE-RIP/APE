@@ -1,18 +1,24 @@
-state = {
+state = { #Population Done
 	id = 2677
-	name = "STATE_2677"
-	history = {
-		owner = KTL
-		add_core_of = KTL
-		buildings = {
-			infrastructure = 1
-		}
-	}
-	provinces = {
-	    19123
-	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
+	name = "STATE_2677" # Misiones
+	manpower = 234936
+
 	state_category = pastoral
-	local_supplies = 0.000
+
+	history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		victory_points = {
+			14987 1
+		}
+		# add_core_of = ARG
+
+	}
+
+	provinces = {
+		14987 14989
+	}
 }

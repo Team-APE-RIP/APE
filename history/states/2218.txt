@@ -3,28 +3,39 @@ state = {
 	name = "STATE_2218"
 
 	resources = {
-		steel = 6
+		uranium = 2
+		tungsten = 12
 	}
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ZZZ # KYR
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			radar_station = 1
+			infrastructure = 4
 		}
 		victory_points = {
-			19124 1
+			18685 2
 		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = GDP_regions_north_thailand
+		victory_points = {
+			18670 3
+		}
+		victory_points = {
+			18676 4
+		}
+		victory_points = {
+			1459 4
+		}
+		victory_points = {
+			11687 1
+		}
+		# add_core_of = UZB
+
+
 	}
 
 	provinces = {
-		19124 7492 10371
+		18685 18676 11687 1459 18670
 	}
-	manpower = 1078723
+	manpower = 453100
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

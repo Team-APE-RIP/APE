@@ -1,24 +1,17 @@
 state = {
 	id = 1133
 	name = "STATE_1133"
-
 	history = {
-		owner = ZZZ # EGY
-		# add_core_of = EGY
-		victory_points = {
-			14021 1
-		}
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_sudan
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		10859 10877 14018 14021 14042 14061 14072 18523
+        20020
 	}
-	manpower = 708011
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

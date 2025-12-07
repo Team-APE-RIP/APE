@@ -1,22 +1,21 @@
 state = {
 	id = 2023
 	name = "STATE_2023"
-	provinces = {
-		17811 17599 17604 17766 17568 17769 17571 17588 17660
-	}
-	manpower = 1
-
-	state_category = wasteland
-
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17811 1 }
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
+			13037 = {
+				naval_base = 1
+			}
 		}
 	}
-
+	provinces = {
+	    13037
+	}
+	manpower = 1828771
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
 }

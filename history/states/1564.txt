@@ -2,42 +2,33 @@ state = {
 	id = 1564
 	name = "STATE_1564"
 	resources = {
-		oil = 4.000
+		steel = 8.000
 	}
 
 	history = {
-		owner = ZZZ # CAU
+		owner = ZZZ # NEP
+		victory_points = {
+			16112 10
+		}
+		victory_points = {
+			18841 1
+		}
+		victory_points = {
+			18832 1
+		}
 		buildings = {
 			infrastructure = 3
-			thermoelectric_plant = 1
 			offices = 1
-			prisons = 1
-			barracks = 1
 		}
-		victory_points = {
-			7624 5
-		}
-		victory_points = {
-			3682 3
-		}
-		victory_points = {
-			15132 3
-		}
-		victory_points = {
-			3668 10
-		}
-		victory_points = {
-			4463 2
-		}
-		# add_core_of = CAU
-		# set_state_flag = universal_renamings
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = NEP
 	}
 
 	provinces = {
-		1450 1455 3668 3682 3711 4463 6701 7554 7624 9645 15131 15132 15136 15692 18298
+		4987 16112 16113 18832 18841 18854 19008
 	}
-	manpower = 977774
+	manpower = 3638435
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

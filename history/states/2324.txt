@@ -2,31 +2,30 @@ state = {
 	id = 2324
 	name = "STATE_2324"
 	resources = {
-		oil = 6.000
-		chromium = 3.000
+		uranium = 4.000
 	}
 
 	history = {
-		owner = ZZZ # PHI
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 3
-			barracks = 1 
-			4429 = {
-				naval_base = 1
-			}
+			offices = 1
+			infrastructure = 2
+			synthetic_refinery = 1
 		}
-		victory_points = { 4429 3 }
-		# add_core_of = PHI
-		# add_core_of = SPH
-		# add_core_of = UPH
-		# set_state_flag = state_renamings
+		victory_points = {
+			13823 1
+		}
+		victory_points = {
+			13843 1
+		}
 	}
 
 	provinces = {
-		7419 14718 4429 10145
+		8201 10845 13819 13823 13843 17864
 	}
-	manpower = 209054
+	manpower = 443544
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

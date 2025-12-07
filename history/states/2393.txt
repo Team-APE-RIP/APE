@@ -1,32 +1,20 @@
 state = {
 	id = 2393
-	name = "STATE_2393"
-	resources = {
-		aluminium = 14
-	}
+	name = "STATE_2393" # Coats Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
 
 	history = {
-		owner = GUX
-		add_core_of = GUX
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 		}
-		victory_points = {
-			10459 1
-		}
-		victory_points = {
-			19506 3
-		}
-		# set_variable = { china_state_ref = 19 }
-		# set_variable = { china_region_ref = 2 }
-		## set_state_flag = GDP_category_pastoral
 	}
 
 	provinces = {
-		1625 19568 10459 4077 4628 4085 
+		16400 17738 17729 17575
 	}
-	manpower = 3231081
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

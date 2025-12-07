@@ -1,22 +1,33 @@
-state = {
+state = { #Population Done
 	id = 1736
-	name = "STATE_1736"
-	resources = {
+	name = "STATE_1736" # Omsk
+	manpower = 1283000
+
+	state_category = large_town
+	history = {
+		owner = ZZZ # OMS
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 2
+			barracks = 1
+			hospitals = 1
+			schools = 1
+			offices = 1
+			prisons = 1
+		}
+		victory_points = { 10696 25 }
+		victory_points = { 4700 1 }
+		victory_points = { 10568 3 }
+
+		# add_core_of = OMS
 	}
 
-	history = {
-		owner = ZZZ # ANG
-		# add_core_of = ANG
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = { 12981 1 }
+	resources = {
+		steel = 11
+		oil = 8
 	}
 
 	provinces = {
-		8219 12981 13863
+		1709 1800 1835 4700 7800 10568 10626 10696 12546 12580 12652 4780 10600
 	}
-	manpower = 160762
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
 }

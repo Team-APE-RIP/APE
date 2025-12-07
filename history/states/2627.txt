@@ -1,21 +1,24 @@
 state = {
 	id = 2627
 	name = "STATE_2627"
+
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ # UPH
 		buildings = {
 			infrastructure = 2
-			1515 = {
-				naval_base = 1
-			}
 		}
+		victory_points = { 14731 3 }
+		victory_points = { 10243 3 }
+		# add_core_of = UPH
+		# add_core_of = PHI
+		# add_core_of = SPH
+
 	}
+
 	provinces = {
-	    1515
+		10300 14730 14731 14732 10243
 	}
-	manpower = 1828771
+	manpower = 730171
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
-	local_supplies = 0.000
+	state_category = pastoral
 }

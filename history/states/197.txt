@@ -3,32 +3,24 @@ state = {
 	name = "STATE_197"
 
 	history = {
-		owner = ZZZ # UKR
-		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 2
-			dockyard = 1
-			barracks = 1
-			offices = 1
-			prisons = 1
-			radar_station = 1
-		}
-		victory_points = { 6597 2 }
-		victory_points = { 11546 10 }
-		victory_points = { 3755 10 }
-		victory_points = { 3452 5 }
-		victory_points = { 11683 1 }
+		owner = KCD
+		add_core_of = KCD
 		victory_points = {
-			6478 3
+			7376 20
 		}
-		# add_core_of = UKR
-		# set_state_flag = universal_renamings
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			air_base = 2
+			prisons = 1
+		}
 	}
 
 	provinces = {
-		409 574 3403 3755 6597 9573 11546 11683 11715 11409 434 458 3452 488 3468 6478 6451
+		7376 19113
 	}
-	manpower = 2256666
+	manpower = 1161209
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_town
+	local_supplies = 0.000
 }

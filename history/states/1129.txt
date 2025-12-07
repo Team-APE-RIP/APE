@@ -1,35 +1,87 @@
+
 state = {
 	id = 1129
 	name = "STATE_1129"
-
 	resources = {
-		oil = 4
+		steel = 3.000
+		aluminium = 4.000
 	}
 
 	history = {
-		owner = ZZZ # EGY
-		# add_core_of = EGY
+		owner = ZZZ # BRA
+		# add_core_of = BRA
 		buildings = {
-			infrastructure = 2
+			dockyard = 1
+			infrastructure = 5
+			thermoelectric_plant = 3
+			hydroelectric_plant = 2
+			schools = 1
+			prisons = 2
+			hospitals = 1
+			offices = 2
+			5112 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
-			14089 1
+			10360 10
 		}
 		victory_points = {
-			18522 1
+			10513 40
 		}
 		victory_points = {
-			18536 1
+			5186 10
 		}
-		# set_state_flag = GDP_regions_sudan
-		# set_state_flag = state_renamings
+		victory_points = {
+			10947 10
+		}
+		victory_points = {
+			1583 7
+		}
+		victory_points = {
+			5112 15
+		}
+		victory_points = {
+			17483 10
+		}
+		victory_points = {
+			12972 10
+		}
+		victory_points = {
+			17453 10
+		}
+		victory_points = {
+			17411 9
+		}
+		victory_points = {
+			11003 9
+		}
+		victory_points = {
+			7636 8
+		}
+		victory_points = {
+			10994 8
+		}
+		victory_points = {
+			10432 7
+		}
+		victory_points = {
+			17481 7
+		}
+		victory_points = {
+			12438 6
+		}
+		victory_points = {
+			17417 5
+		}
+
 	}
 
 	provinces = {
-		10908 12800 14089 14130 18522 18525 18528 18529 18533 18535 18536
+		1583 5112 5167 5186 7553 7636 10360 10432 10513 10947 10994 11003 11008 12438 12937 12972 17411 17417 17453 17481 17483
 	}
-	manpower = 690229
+	manpower = 13868699
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

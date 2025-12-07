@@ -1,19 +1,34 @@
 state = {
 	id = 1597
 	name = "STATE_1597"
+
+	resources = {
+		steel = 4
+	}
+
 	history = {
-		owner = ZZZ # ZZZ
-		# victory_points = { 15175 5 }
+		owner = ZZZ # SLG
+		# add_claim_by = FRS
+		# add_core_of = ALG
+		# add_core_of = SLG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+			barracks = 1
+			offices = 1
 		}
+		victory_points = { 1013 8 }
+		victory_points = { 9964 1 }
+		victory_points = { 18064 5 }
+		victory_points = { 18073 1 }
+
+
 	}
 
 	provinces = {
-		15175 18103 18104 18105
+		1013 9964 18073 18064
 	}
-	manpower = 14
-	buildings_max_level_factor = 2.000
-	state_category = tiny_island
-	impassable = yes
+	manpower = 674908
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

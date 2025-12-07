@@ -1,21 +1,24 @@
 state = {
 	id = 2019
 	name = "STATE_2019"
-	provinces = {
-		17710 17702 17606 17777 17775 17776 17781
-	}
-	manpower = 1
-
-	state_category = wasteland
+	manpower = 14671
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
+		owner = ZZZ # COL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+			2582 = {
+				naval_base = 1
+			}
 		}
+		victory_points = { 2582 1 }
 	}
 
+	provinces = {
+		2582
+	}
 }

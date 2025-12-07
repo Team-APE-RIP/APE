@@ -1,25 +1,54 @@
 state = {
 	id = 1593
 	name = "STATE_1593"
+	resources = {
+
+	}
 
 	history = {
-		owner = ZZZ # CHL
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
-			infrastructure = 1
+			schools = 1
+			hospitals = 1
+			prisons = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
 		}
-		# add_core_of = CHL
 		victory_points = {
-			15170 1
+			7222 19
 		}
-		# set_state_flag = GDP_regions_aysen
-		# set_state_flag = universal_renamings
+		victory_points = {
+			19866 5
+		}
+		victory_points = {
+			4203 4
+		}
+		victory_points = {
+			10008 2
+		}
+		victory_points = {
+			10064 5
+		}
+		victory_points = {
+			12036 16
+		}
+		victory_points = {
+			11994 5
+		}
+		victory_points = {
+			12061 2
+		}
+
+		# set_variable = { china_state_ref = 6 }
+		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		8198 15167 15168 15169 15170 17542 17544 17550
+		7222 11994 12061
 	}
-	manpower = 1568
+	manpower = 7862042
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = large_town
 	local_supplies = 0.000
 }

@@ -1,23 +1,18 @@
 state = {
 	id = 1109
 	name = "STATE_1109"
-
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
-		victory_points = { 15555 20 }
+		owner = MAN
+		# add_core_of = SHT
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			radar_station = 1
+			infrastructure = 1
 		}
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		15555
+		4404 4841 7249 7309 7868
 	}
-	manpower = 594889
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
+	local_supplies = 0.000
 }

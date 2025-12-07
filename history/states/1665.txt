@@ -1,28 +1,46 @@
 state = {
 	id = 1665
 	name = "STATE_1665"
+
 	resources = {
-		chromium = 4.000
+		oil = 6
+		steel = 4
 	}
 
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = ZZZ # OST
+		# add_core_of = OST
 		victory_points = {
-			12872 1
+			9262 7
+		}
+		victory_points = {
+			3296 3
+		}
+		victory_points = {
+			3194 1
+		}
+		victory_points = {
+			3525 1
+		}
+		victory_points = {
+			11246 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+			air_base = 2
 		}
+
+
 	}
 
 	provinces = {
-		2176 2260 2334 4969 10494 12872 17338 17344
+		3194 3296 3319 3525 6322 9262 11246 14597
 	}
-	manpower = 159689
+	manpower = 294760
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

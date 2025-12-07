@@ -1,30 +1,20 @@
 state = {
 	id = 2134
-	name = "STATE_2134"
+	name = "STATE_2134" # Queen Maud Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
 
 	history = {
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 4
-			offices = 1
-			18384 = {
-				coastal_bunker = 2
-			}
+			infrastructure = 0
 		}
-		victory_points = {
-			18384 6
-		}
-		victory_points = {
-			11029 1
-		}
-		owner = ZZZ # NOR
-		# add_core_of = NOR
 	}
 
 	provinces = {
-		18384 9204 144 6080 3094 18396 18405 18388 3059 11029
+		17626 17691 17721 16441 17674 17703 17651 17647 17697 17573 17694 17650 16388 17586 17740 17736 17564
 	}
-	manpower = 168351
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }

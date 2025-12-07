@@ -3,17 +3,33 @@ state = {
 	name = "STATE_1229"
 
 	history = {
-		owner = ZZZ # AZW
-		# add_core_of = AZW
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+			hydroelectric_plant = 1
+			9859 = {
+				naval_base = 3
+			}
+			anti_air_building = 2
+			radar_station = 1
+			barracks = 1
+			missile_silo = 1
+		}
+		victory_points = {
+			6994 10
+		}
+		victory_points = {
+			9859 10
 		}
 	}
 
 	provinces = {
-		2044 14220 14250 14262 14264 14432
+		6873 6994 9859 19457 19626
 	}
-	manpower = 6890
+	manpower = 1436014
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
+	local_supplies = 0.000
 }

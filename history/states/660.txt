@@ -1,23 +1,36 @@
 state = {
 	id = 660
 	name = "STATE_660"
-	resources = {
-		rubber = 4.000
-	}
 
 	history = {
-		owner = ZZZ # KNM
-		# add_core_of = KNM
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # OST
+		victory_points = {
+			310 8
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			222 3
+		}
+		victory_points = {
+			3333 1
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+			hydroelectric_plant = 1
+		}
+		# add_core_of = OST
+
+
 	}
 
 	provinces = {
-		3123 4897 14171 14176
+		222 310 319 341 3333 6459 9275 13319 14589 14592 14595 14596
 	}
-	manpower = 27000
+	manpower = 594815
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
+	local_supplies = 0.000
 }

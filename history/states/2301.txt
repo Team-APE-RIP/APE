@@ -1,31 +1,17 @@
 state = {
 	id = 2301
 	name = "STATE_2301"
-
-	resources = {
-		rubber = 10
-		oil = 12
-	}
-
 	history = {
-		owner = ZZZ # NRB
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
 			infrastructure = 3
-			prisons = 1
-			10212 = {
-				naval_base = 1
-			}
 		}
-		victory_points = { 10212 5 }
-		# add_core_of = NRB
-		# set_state_flag = GDP_regions_sabah
-		# set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		19252 10212 19345
+        3552 20036 20037
 	}
-	manpower = 151568
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

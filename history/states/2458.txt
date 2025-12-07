@@ -1,40 +1,33 @@
 state = {
 	id = 2458
 	name = "STATE_2458"
+	resources = {
+	}
+
+	state_category = city
 
 	history = {
-		owner = ZZZ # CLC
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 3
-			offices = 1
-			schools = 1
+			schools = 2
+			prisons = 2
+			hospitals = 2
 			barracks = 1
-			thermoelectric_plant = 1
-			2953 = {
-				bunker = 5
+			offices = 3
+			infrastructure = 5
+			air_base = 4
+			thermoelectric_plant = 2
+			15480 = {
+				naval_base = 2
 			}
-			2521 = {
-				bunker = 2
-			}
-			10790 = {
-				bunker = 2
-			}
-			anti_air_building = 1
 		}
-		victory_points = {
-			2953 10
-		}
-		# set_state_flag = GDP_category_large_town
+		# add_core_of = PRU
+		victory_points = { 15480 30 }
 	}
 
 	provinces = {
-		2521 2953 10790
+		15480
 	}
-	manpower = 247516
+	manpower = 1446942
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
 }

@@ -1,27 +1,29 @@
 state = { #Population Done
 	id = 680
 	name = "STATE_680"
-	manpower = 207712
-
-	state_category = rural
+	manpower = 268
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # SNS
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 5
+			19986 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = SYR
-		# add_core_of = SNS
-		victory_points = { 2013 5 }
-		# set_state_flag = GDP_regions_syria
-	}
+		victory_points = { # Edinburgh of the Seven Seas
+			19986 1
+		}
 
-	resources = {
-		oil = 12
 	}
-
 
 	provinces = {
-		2013 7513 12316 16276 16277
+		19986
 	}
 }

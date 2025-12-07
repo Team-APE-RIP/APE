@@ -3,16 +3,32 @@ state = {
 	name = "STATE_2442"
 
 	history = {
-		owner = ZZZ # GUY
-		# add_core_of = GUY
-		# add_claim_by = SUR
+		owner = ZZZ # UKR
+		buildings = {
+			offices = 1
+			prisons = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+			air_base = 3
+		}
+
+		victory_points = {
+			18230 5
+		}
+		victory_points = {
+			3430 3
+		}
+		victory_points = {
+			3511 1
+		}
+		# add_core_of = UKR
 	}
 
 	provinces = {
-		17496
+		462 3430 3457 3511 6455 6509 18230 18238
 	}
-	manpower = 73
+	manpower = 1605709
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
 	local_supplies = 0.000
 }

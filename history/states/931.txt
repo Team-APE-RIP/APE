@@ -1,34 +1,17 @@
 state = {
 	id = 931
 	name = "STATE_931"
-
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
-		add_extra_state_shared_building_slots = 1
-		victory_points = {
-			7250 10
-		}
-		victory_points = {
-			12105 15
-		}
-		victory_points = {
-			16092 7
-		}
-		victory_points = {
-			4278 2
-		}
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_karnataka
 	}
-
 	provinces = {
-		4278 4291 7250 12105 12208 16092 19001
+        15250 6762 15249 15247
 	}
-	manpower = 5324499
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

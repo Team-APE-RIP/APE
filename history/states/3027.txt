@@ -2,14 +2,13 @@ state = {
 	id = 3027
 	name = "STATE_3027"
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = RTA
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-        3953 9828 11812 942
+        11529 6540 561
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

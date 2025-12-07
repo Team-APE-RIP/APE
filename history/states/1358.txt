@@ -1,26 +1,17 @@
 state = {
 	id = 1358
 	name = "STATE_1358"
-
-	resources = {
-		aluminium = 2
-	}
-
 	history = {
-		owner = ZZZ # IRE
-		victory_points = {
-			369 1
-		}
+		owner = ITA
+        add_core_of = ITA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		# add_core_of = IRE
 	}
-
 	provinces = {
-		369 18609
+        14643
 	}
-	manpower = 83504
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -1,70 +1,24 @@
 state = {
 	id = 158
 	name = "STATE_158"
-	resources = {
-		steel = 31.000
-		aluminium = 25.000
-		chromium = 4.000
-		tungsten = 2.000
-		uranium = 4.000
-	}
 
 	history = {
-		owner = ITD
-        add_core_of = ITD
-		victory_points = {
-			6780 30
-		}
-		victory_points = {
-			17992 3
-		}
-		victory_points = {
-			14638 4
-		}
-		victory_points = {
-			9741 9
-		}
-		victory_points = {
-			3782 5
-		}
-		victory_points = {
-			776 8
-		}
-		victory_points = {
-			11570 5
-		}
-		victory_points = {
-			17993 2
-		}
-		victory_points = {
-			9738 3
-		}
-		victory_points = {
-			11730 2
-		}
-		victory_points = {
-			11723 6
-		}
-		victory_points = {
-			770 2
-		}
+		owner = YUN
+		# add_core_of = YUN
 		buildings = {
-			offices = 1
-			infrastructure = 5
-			air_base = 8
-			hospitals = 1
-			barracks = 1
-			hydroelectric_plant = 3 #Because it also contains Valle d'Aosta which gets 1
-			thermoelectric_plant = 2
+			infrastructure = 2
 		}
-		# add_core_of = ITA
+		victory_points = {
+			4407 2
+		}
 	}
 
 	provinces = {
-		6780 17991 9738
+		4407 19719 10856 4964 12899
 	}
-	manpower = 4014959
+	manpower = 938101
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	state_category = pastoral
 	local_supplies = 0.000
+	#impassable = yes
 }

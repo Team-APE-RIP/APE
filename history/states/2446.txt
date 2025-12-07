@@ -1,31 +1,29 @@
 state = {
 	id = 2446
 	name = "STATE_2446"
+
 	resources = {
-		steel = 20.000
-		power = 4.000
+		steel = 4
 	}
 
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = GUX
+		# add_core_of = VIN
+		# add_core_of = VIC
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
 			barracks = 1
 		}
-		victory_points = {
-			15511 10
-		}
+		victory_points = { 12048 5 }
+		victory_points = { 19086 1 }
+
 	}
 
 	provinces = {
-		2297 2396 2484 10747 15511 17354 17356 17368
+		7015 12048 19065 19086
 	}
-	manpower = 2581867
+	manpower = 2084739
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

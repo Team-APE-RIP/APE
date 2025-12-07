@@ -1,33 +1,32 @@
 state = {
 	id = 2392
 	name = "STATE_2392"
+	resources = {
+		steel = 4
+	}
 
 	history = {
-		owner = GUX
-		add_core_of = GUX
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 2
-		}
-		
-		victory_points = {
-			11983 5
+			infrastructure = 3
+			air_base = 2
+			barracks = 1
 		}
 		victory_points = {
-			12023 5
+			10479 15
 		}
 		victory_points = {
-			14739 5
+			1209 1
 		}
-		
-		# set_variable = { china_state_ref = 19 }
-		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		12023 11983 14739 7044
+		19336 19310 1209 19335 10479 15667
 	}
-	manpower = 4670258
+	manpower = 5620130
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

@@ -1,22 +1,29 @@
 state = {
 	id = 2319
 	name = "STATE_2319"
+	resources = {
+		aluminium = 2
+	}
+
+	state_category = town
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = IPB
+		add_core_of = IPB
+		victory_points = { 3938 4 }
+		victory_points = { 11820 3 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			prisons = 1
+			schools = 1
 		}
-		victory_points = { 10505 1 }
-		# set_state_flag = GDP_regions_west_papua
+		# add_core_of = IBR
+
 	}
 
 	provinces = {
-		10505 1629 12457 1617 7627 1602 4593
+		858 3986 6914
 	}
-	manpower = 114286
+	manpower = 535508
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

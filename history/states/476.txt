@@ -2,44 +2,42 @@ state = {
 	id = 476
 	name = "STATE_476"
 	resources = {
-		tungsten = 2.000
+		chromium = 16.000
+		tungsten = 8.000
 	}
 
 	history = {
-		owner = ZZZ # MEX
+		owner = OBK
+		add_core_of = OBK
+		# add_core_of = GER
+		victory_points = {
+			564 15
+		}
+		victory_points = {
+			11533 4
+		}
+		victory_points = {
+			11445 6
+		}
+		victory_points = {
+			589 10
+		}
+		victory_points = {
+			3524 5
+		}
 		buildings = {
+			prisons = 2
 			offices = 1
-			barracks = 1
-			infrastructure = 2
-			hydroelectric_plant = 1
-			air_base = 2
-			8236 = {
-				naval_base = 2
-			}
-		}
-		# add_core_of = MEX
-		victory_points = {
-			10773 7
-		}
-		victory_points = {
-			8236 1
-		}
-		victory_points = {
-			17330 1
-		}
-		victory_points = {
-			12712 1
-		}
-		victory_points = {
-			14482 1
+			infrastructure = 5
+			thermoelectric_plant = 2
 		}
 	}
 
 	provinces = {
-		8236 10773 12712 14482 14483 16984 17142 17319 17329 17330
+		564 11533
 	}
-	manpower = 1409951
+	manpower = 1345539
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

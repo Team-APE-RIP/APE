@@ -1,22 +1,26 @@
 state = {
 	id = 2629
 	name = "STATE_2629"
+	manpower = 6342
+	state_category = tiny_island
+
 	history = {
-		owner = KOR
-		add_core_of = KOR
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
 			infrastructure = 2
-			1177 = {
+			air_base = 1
+			19959 = {
 				naval_base = 1
 			}
 		}
-		victory_points = { 1177 5 }
+		victory_points = {
+			19959 1
+		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
 	}
 	provinces = {
-	    1177
+		19952 19959
 	}
-	manpower = 1828771
-	buildings_max_level_factor = 1.000
-	state_category = tiny_island
-	local_supplies = 0.000
 }

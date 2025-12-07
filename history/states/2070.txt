@@ -1,26 +1,27 @@
 state = {
 	id = 2070
-	name = "STATE_2070" # Hope Bay
-	manpower = 1
-
-	state_category = wasteland
+	name = "STATE_2070"
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17715 3 }
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 1
-			air_base = 1
-			17715 = {
-				naval_base = 1
-			}
+			infrastructure = 4
 		}
+		victory_points = {
+			7223 1
+		}
+		victory_points = {
+			15664 1
+		}
+
 	}
 
 	provinces = {
-		17715
+		7223 19328 15664
 	}
+	manpower = 3803066
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

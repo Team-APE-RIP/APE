@@ -1,23 +1,25 @@
-state = {
+state = { #Population Done
 	id = 1108
 	name = "STATE_1108"
-
-	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
-		# set_state_flag = has_offshore_island
-		victory_points = { 8043 3 }
-		buildings = {
-			infrastructure = 2
-			radar_station = 1
-		}
-		# set_state_flag = state_renamings
+	resources = {
+		oil = 13
+		steel = 10
 	}
-
 	provinces = {
-		8043 12766 14156 14420 15554
+		1771 1841 4846 7895 10720 13338 13342
 	}
-	manpower = 87574
+	history = {
+		owner = ZZZ # YGR
+		buildings = {
+			barracks = 1
+			hospitals = 1
+			thermoelectric_plant = 1
+			infrastructure = 2
+		}
+		victory_points = { 13342 7 }
+		# add_core_of = YGR
+	}
+	manpower = 218000
+	state_category = rural
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
 }

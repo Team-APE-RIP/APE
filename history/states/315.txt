@@ -1,38 +1,29 @@
 state = {
 	id = 315
 	name = "STATE_315"
+	manpower = 202390
+
+
 	resources = {
-		steel = 4.000
-		chromium = 122.000
+		aluminium = 6
 	}
 
+	state_category = rural
+
 	history = {
-		owner = ZZZ # CUB
-		# set_state_flag = has_offshore_island
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
-			infrastructure = 3
-			radar_station = 1
-			air_base = 1
-			offices = 2
-			prisons = 1
-			schools = 1
-			hospitals = 1
-			barracks = 2
-			thermoelectric_plant = 2
-			7622 = {
-				naval_base = 3
-			}
+			infrastructure = 4
+			hydroelectric_plant = 2
 		}
-		# add_core_of = CUB
-		victory_points = { # Havana
-			7622 20
-		}
+		victory_points = { 3612 1 }
+		# add_core_of = SWI
+
+
 	}
 
 	provinces = {
-		4600 7622
+		3612 9587 636
 	}
-	manpower = 2354621
-	buildings_max_level_factor = 1.000
-	state_category = large_town
 }

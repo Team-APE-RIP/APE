@@ -1,31 +1,23 @@
 state = {
 	id = 2405
 	name = "STATE_2405"
-
+	provinces = {
+		16024 16022 7106
+	}
 	history = {
-		owner = MEN
-		victory_points = {
-			19418 3
-		}
-		victory_points = {
-			12612 2
-		}
-		victory_points = {
-			12669 1
-		}
+		owner = ZZZ # IND
 		buildings = {
 			infrastructure = 2
+			hydroelectric_plant = 1
 		}
-		# set_state_flag = GDP_regions_outer_mongolia
-		# set_variable = { china_state_ref = 57 }
-		# set_variable = { china_region_ref = 7 }
-	}
+		victory_points = {
+			16022 1
+		}
+		# add_claim_by = AZH
+		# add_core_of = IND
 
-	provinces = {
-		1868 9909 16854 1787 1853 4040 4729 4786 4856 7749 10558 10575 10632 10689 10704 12539 12612 12669 12686 19418 19419 4873
 	}
-	manpower = 158096
+	manpower = 957175
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

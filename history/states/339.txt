@@ -2,52 +2,41 @@ state = {
 	id = 339
 	name = "STATE_339"
 	resources = {
-		steel = 12
-		aluminium = 16
+		oil = 1.000
+		uranium = 6.000
 	}
 
 	history = {
-		owner = ZZZ # TUR
+		owner = ZZZ # HUN
 		victory_points = {
-			4112 20
+			11610 10
 		}
 		victory_points = {
-			6992 3
+			6685 5
 		}
 		victory_points = {
-			16211 3
+			3680 2
 		}
 		victory_points = {
-			11848 2
-		}
-		victory_points = {
-			7130 2
-		}
-		victory_points = {
-			928 6
+			9643 1
 		}
 		buildings = {
 			infrastructure = 5
-			4112 = {
-				naval_base = 5
-			}
-			air_base = 2
-			radar_station = 1
 			thermoelectric_plant = 2
-			schools = 2
-			offices = 2
-			hospitals = 1
-			barracks = 2
-			prisons = 2
+			offices = 1
+			air_base = 3
+			barracks = 1
+			schools = 1
+			prisons = 1
 		}
-		# add_core_of = TUR
+		# add_core_of = HUN
 	}
 
 	provinces = {
-		928 3927 4112 6992 7130 9921 11848 11898 16210 16211
+		682 3680 6685 9608 9624 9643 11610 13125 18149 18205 18212
 	}
-	manpower = 1834471
+	manpower = 1091025
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = town
 	local_supplies = 0.000
 }

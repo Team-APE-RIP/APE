@@ -1,31 +1,30 @@
 state = {
 	id = 228
 	name = "STATE_228"
+	resources = {
+		uranium = 8.000
+	}
 
 	history = {
-		owner = ZZZ # UKR
-		victory_points = {
-			9461 10
-		}
-		victory_points = {
-			6505 5
-		}
-		victory_points = {
-			9446 3
-		}
+		owner = ZZZ # AST
+		# add_core_of = AST
 		buildings = {
-			barracks = 1
-			infrastructure = 4
-			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		# set_state_flag = universal_renamings
+
+		victory_points = { # Mount Isa
+			5206 1
+		}
+		victory_points = { # Birdsville
+			10955 1
+		}
 	}
 
 	provinces = {
-		523 547 570 3567 6505 6519 9446 9461 9476 11487 11513 18233
+		2221 5206 10336 10936 10955
 	}
-	manpower = 1258447
+	manpower = 92787
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
 	local_supplies = 0.000
 }

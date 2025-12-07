@@ -1,29 +1,27 @@
-state = {
+state = { #Population Done
 	id = 604
 	name = "STATE_604"
+	manpower = 431680
+
+	resources = {
+		uranium = 2
+		rubber = 2
+	}
+
+	state_category = large_town
 
 	history = {
-		owner = XIN
-		# add_core_of = QIN
+		owner = ERV
+		add_core_of = ERV
+		victory_points = { 4379 10 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			offices = 2
 		}
-		victory_points = {
-			15647 1
-		}
-		victory_points = {
-			10796 1
-		}
-		# set_variable = { china_state_ref = 42 }
-		# set_variable = { china_region_ref = 5 }
-		# set_state_flag = GDP_regions_qinghai
+
 	}
 
 	provinces = {
-		1698 2053 2099 7997 8988 10750 10796 10834 10865 12846 12890 13238 15647 19661 19671 19684
+		4379
 	}
-	manpower = 111870
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

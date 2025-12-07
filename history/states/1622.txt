@@ -1,24 +1,41 @@
 state = {
 	id = 1622
 	name = "STATE_1622"
-	manpower = 29870
-
-	state_category = pastoral
 
 	history = {
-		owner = ZZZ # PAR
-		# add_core_of = PAR
-		# add_claim_by = BOL
-		victory_points = { 2209 1 }
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_core_of = IND
+		add_extra_state_shared_building_slots = 1
+		victory_points = {
+			16096 10
 		}
-		# set_state_flag = universal_renamings
+		victory_points = {
+			16095 10
+		}
+		victory_points = {
+			7310 10
+		}
+		victory_points = {
+			10756 6
+		}
+		victory_points = {
+			18958 5
+		}
+		victory_points = {
+			19004 5
+		}
+		buildings = {
+			infrastructure = 5
+		}
 
-		# set_state_flag = PAR_bush_war_state
 	}
 
 	provinces = {
-		2209
+		4414 7310 10756 10897 12779 16095 16096 18958 18997 19004
 	}
+	manpower = 7832014
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

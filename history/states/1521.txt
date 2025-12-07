@@ -1,25 +1,34 @@
 state = {
 	id = 1521
 	name = "STATE_1521"
+	resources = {
+		steel = 6.000
+	}
 
 	history = {
 		owner = ZZZ # CHL
 		buildings = {
-			infrastructure = 2
+			barracks = 1
 			schools = 1
+			offices = 1
+			infrastructure = 4
+			17553 = {
+				naval_base = 2
+			}
+			dockyard = 1
 		}
 		# add_core_of = CHL
 		victory_points = {
-			14820 3
+			17553 2
 		}
-		# set_state_flag = GDP_regions_bio
+
 	}
 
 	provinces = {
-		8251 14820 17819 17820 17821 17822
+		17553 15510
 	}
-	manpower = 202579
+	manpower = 80740
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

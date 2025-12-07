@@ -3,49 +3,20 @@ state = {
 	name = "STATE_465"
 
 	history = {
-		owner = ZZZ # CAN
+		owner = ZZZ # ITA
 		buildings = {
-			schools = 1
-			prisons = 1
-			barracks = 1
-			infrastructure = 6
-			hydroelectric_plant = 2
-			thermoelectric_plant = 3
-			air_base = 1
-			4285 = {
-				naval_base = 2
-			}
+			infrastructure = 1
 		}
-		# add_core_of = CAN
-		victory_points = { # St. John
-			4285 6
-		}
-		victory_points = { # Moncton
-			1424 4
-		}
-		victory_points = { # Fredrickston
-			4342 10 # provincial capital
-		}
-		victory_points = { # Campbellton
-			7379 1
-		}
-		victory_points = { # Bathurst
-			17265 1
-		}
-		victory_points = { # Chatham (Mirimichi didn't exist until 1995)
-			4432 1
-		}
-		victory_points = { # Edmundston
-			4362 1
-		}
-		# set_state_flag = GDP_regions_large_town
+		# add_core_of = LBA
+		# add_core_of = ITA
+
 	}
 
 	provinces = {
-		634 1424 4285 4342 4362 4432 7379 12289 17265
+		14336 14360 14367 14373 14377 14394 17972
 	}
-	manpower = 609236
+	manpower = 6044
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
 	local_supplies = 0.000
 }

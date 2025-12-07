@@ -1,22 +1,32 @@
 state = {
 	id = 434
 	name = "STATE_434"
+	resources = {
+		aluminium = 2.000
+	}
 
 	history = {
-		owner = ZZZ # AZH
-		# add_core_of = AZH
-		# add_claim_by = IND
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # MNT
+		victory_points = {
+			16201 1
 		}
-		# set_state_flag = GDP_regions_assam
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			prisons = 1
+			18193 = {
+				naval_base = 1
+			}
+		}
+		# add_core_of = MNT
+
 	}
 
 	provinces = {
-		16123 18843 18856 18857
+		18193 16201 9821
 	}
-	manpower = 104205
+	manpower = 68726
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

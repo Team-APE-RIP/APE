@@ -3,18 +3,24 @@ state = {
 	name = "STATE_494"
 
 	history = {
-		owner = ZZZ # PRU
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # IEA
+		victory_points = {
+			4985 1
 		}
-		# add_core_of = PRU
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+			air_base = 2
+		}
+		# add_core_of = IEA
+
 	}
 
 	provinces = {
-		2212 2226 8160 15470 15477 15482 15573 17446
+		4985 5041 14147 14162 15560 17885 17888 17891 17893
 	}
-	manpower = 90223
+	manpower = 94204
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = large_town
 	local_supplies = 0.000
 }

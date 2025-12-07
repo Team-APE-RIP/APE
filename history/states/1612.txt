@@ -2,23 +2,32 @@ state = {
 	id = 1612
 	name = "STATE_1612"
 
+	state_category = rural
+
+	resources = {
+		chromium = 8.000
+		oil = 10
+	}
+
 	history = {
-		owner = ZZZ # IBR
-		victory_points = { 18068 15 }
-		victory_points = { 18018 3 }
+		owner = ZZZ # KAZ
 		buildings = {
 			infrastructure = 4
-			prisons = 1
+			schools = 1
+			offices = 1
+			hospitals = 1
+			thermoelectric_plant = 1
 		}
-		# add_core_of = MOR
-		# set_state_flag = GDP_category_town
-		# set_state_flag = GDP_regions_morocco
+		victory_points = { 7708 9 }
+		victory_points = { 7317 2 }
+		victory_points = { 10630 1 }
+		# add_core_of = KAZ
+
 	}
 
 	provinces = {
-		10013 4097 18018 11987 18068 7173 18020 18081 18090
+		4670 12616 10202 4685 7317 1879 10630 10235 7708
 	}
-	manpower = 1166071
+	manpower = 498679
 	buildings_max_level_factor = 1.000
-	state_category = rural
 }

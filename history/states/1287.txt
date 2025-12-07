@@ -1,36 +1,18 @@
 state = {
 	id = 1287
 	name = "STATE_1287"
-	resources = {
-		steel = 6.000
-	}
-
 	history = {
-		owner = ZZZ # ROM
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			prisons = 1
-			barracks = 1
+			infrastructure = 3
 		}
-		victory_points = {
-			9619 6
-		}
-		victory_points = {
-			3694 4
-		}
-		victory_points = {
-			18210 2
-		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = ROM
 	}
-
 	provinces = {
-		693 3665 3694 9619 11622 15684 18210
+        809 3930 6948
 	}
-	manpower = 1055406
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

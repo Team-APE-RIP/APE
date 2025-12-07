@@ -2,16 +2,19 @@ state = {
 	id = 2819
 	name = "STATE_2819"
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = MEN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
+		victory_points = { 7725 1 }
+		victory_points = { 4719 2 }
+		victory_points = { 4677 2 }
+		
 	}
 	provinces = {
-        15365
+	    4677 5839 7725 4719 12622 10559
 	}
-	manpower = 87721
+	manpower = 82871
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

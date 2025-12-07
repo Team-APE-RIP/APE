@@ -1,39 +1,22 @@
 state = {
+
 	id = 781
 	name = "STATE_781"
-	resources = {
-		oil = 28.000
-	}
 
 	history = {
-		owner = ZZZ # BKU
+		owner = IRL
+		add_core_of = IRL
 		buildings = {
-			infrastructure = 4
-			barracks = 2
-			offices = 2
-			prisons = 1
-			radar_station = 1
-			thermoelectric_plant = 2
-			anti_air_building = 1
-			air_base = 1
+			infrastructure = 2
+			hydroelectric_plant = 1
 		}
-		# set_state_flag = state_renamings
-		# add_core_of = KUR
-		# add_core_of = BKU
-		# add_claim_by = IRQ
-		victory_points = {
-			16286 15
-		}
-		victory_points = {
-			10811 1
-		}
+		# add_core_of = IRE
 	}
 
 	provinces = {
-		10106 10811 16286 16287 16288 18473 18476
+		6313 11334
 	}
-	manpower = 872424
+	manpower = 73702
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = wasteland
 }

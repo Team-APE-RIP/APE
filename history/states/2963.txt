@@ -1,18 +1,20 @@
 state = {
 	id = 2963
 	name = "STATE_2963"
+
 	history = {
-		owner = ITE
-        add_core_of = ITE
+		owner = ZZZ # MLI
+		# add_core_of = MLI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
+
 	}
+
 	provinces = {
-        14657 963 3910
+		10812 10829 12751 14165
 	}
-	manpower = 87721
+	manpower = 327144
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

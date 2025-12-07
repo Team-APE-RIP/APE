@@ -1,23 +1,34 @@
 state = {
 	id = 2693
 	name = "STATE_2693"
+
+	resources = {
+		chromium = 2
+	}
+
 	history = {
-		owner = XIK
-		add_core_of = XIK
-		buildings = {
-			infrastructure = 3
+		owner = ZZZ # EGY
+		# add_core_of = EGY
+		victory_points = {
+			1914 3
 		}
-        victory_points = {
-            12141 5
-        }
-        victory_points = {
-            19922 5
-        }
+		victory_points = {
+			18530 1
+		}
+		victory_points = {
+			18534 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+
 	}
+
 	provinces = {
-        12141 19922 19700
+		1914 4918 12887 18524 18530 18534
 	}
-	manpower = 87721
+	manpower = 780168
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

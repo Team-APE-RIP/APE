@@ -1,26 +1,29 @@
 state = {
 	id = 1880
 	name = "STATE_1880"
-	manpower = 614411
-
-	state_category = pastoral
+	state_category = enclave
 
 	resources = {
+		aluminium = 4
 	}
+
 	history = {
-		owner = ZZZ # HAI
+		owner = ZZZ # ITA
+		victory_points = { 14662 1 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			barracks = 1
-			15636 = {
-				naval_base = 1
+			radar_station = 3
+			14662 = {
+				naval_base = 5
 			}
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = HAI
-		victory_points = { 15636 2 }
+		# add_core_of = ITA
 	}
+
 	provinces = {
-		15636 15635
+		14662
 	}
+	manpower = 52018
+	buildings_max_level_factor = 1.000
 }

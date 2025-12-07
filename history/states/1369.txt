@@ -1,23 +1,18 @@
 state = {
 	id = 1369
 	name = "STATE_1369"
-
 	history = {
-		owner = ZZZ # LEB
+		
+		owner = IPC
+		add_core_of = IPC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			18597 1
-		}
-		# add_core_of = LEB
-		# set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		18597
+        7068 10063 1090
 	}
-	manpower = 83259
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

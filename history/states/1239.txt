@@ -1,37 +1,45 @@
 state = {
 	id = 1239
 	name = "STATE_1239"
-
 	resources = {
-		chromium = 30
+		tungsten = 106.000
+		uranium = 6.000
 	}
+
 	history = {
-		owner = ZZZ # CUB
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			barracks = 2
-			offices = 2
-			schools = 1
+			infrastructure = 4
 			prisons = 1
-			thermoelectric_plant = 2
+			offices = 1
+			thermoelectric_plant = 3
 		}
-		# add_core_of = CUB
-		victory_points = { # Guantanamo
-			7590 5
+		victory_points = { # Salt Lake City
+			4865 15
 		}
-		victory_points = { # Santiago de Cuba
-			1550 10
+		victory_points = { # Ogden
+			10582 3
 		}
-		victory_points = { # Holguin
-			12347 5
+		victory_points = { # Provo
+			15347 3
 		}
-		# set_state_flag = GDP_category_large_town
+		victory_points = { # St. George
+			12699 1
+		}
+		victory_points = { # Moab
+			7764 1
+		}
+		victory_points = { # Richfield
+			10662 1
+		}
 	}
+
 	provinces = {
-		1550 7590 12347
+		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153 15347 17287
 	}
-	manpower = 2489721
+	manpower = 933394
 	buildings_max_level_factor = 1.000
 	state_category = town
+	local_supplies = 0.000
 }

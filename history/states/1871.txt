@@ -1,22 +1,26 @@
 state = {
 	id = 1871
 	name = "STATE_1871"
-	resources = {
-		uranium = 7.000
-	}
-	impassable = yes
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
-		# set_state_flag = state_renamings
+		owner = ZZZ # VEN
+		buildings = {
+			offices = 2
+			infrastructure = 2
+		}
+		# add_core_of = VEN
+		victory_points = {
+			14424 3
+		}
+		add_extra_state_shared_building_slots = 1
+
 	}
 
 	provinces = {
-		15904
+		10767 14424 17374
 	}
-	manpower = 320100
+	manpower = 39146
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

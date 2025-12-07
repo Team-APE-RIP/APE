@@ -1,33 +1,52 @@
-state = { #Population Done
+state = {
 	id = 59
 	name = "STATE_59"
 
-	manpower = 3581371
-	state_category = large_city
-
 	resources = {
-		oil = 1
+		oil = 16
+		aluminium = 2
 	}
 
 	history = {
-		owner = OBK
-		add_core_of = OBK
-		# add_core_of = GER
-
-		victory_points = { 526 9 }
-		victory_points = { 11402 5 }
-
-		buildings = {
-			hospitals = 1
-			radar_station = 2
-			infrastructure = 6
-			enrichment_plant = 1
-			thermoelectric_plant = 3
-			air_base = 2
+		owner = ZZZ # CAU
+		victory_points = {
+			18350 10
 		}
+		victory_points = {
+			11645 3
+		}
+		victory_points = {
+			15129 2
+		}
+		victory_points = {
+			1610 1
+		}
+		victory_points = {
+			1539 1
+		}
+		victory_points = {
+			4477 1
+		}
+		buildings = {
+			infrastructure = 4
+			hydroelectric_plant = 1 #Would it get built TNO timeline? I hope so, it is cool
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+			barracks = 1
+		}
+
+		# add_core_of = CAU
+
+
+
 	}
 
 	provinces = {
-		526 405 15823
+		1539 1610 4477 11645 11674 12309 15129 18345 18347 18350
 	}
+	manpower = 1583019
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

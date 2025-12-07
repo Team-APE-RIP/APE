@@ -1,35 +1,28 @@
-state = {
+state = { #Population Done
 	id = 634
 	name = "STATE_634"
+	manpower = 241462
+
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ
-		#add_core_of = JAP
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 2
-			radar_station = 3
-			air_base = 2
-			barracks = 1
-			1269 = {
-				naval_base = 2
-			}
-			4226 = {
-				naval_base = 1
-			}
-			10234 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_regions_new_guinea
-		victory_points = { 1269 3 }
-		victory_points = { 4378 1 }
-		victory_points = { 10234 1 }
+		# add_core_of = ARG
+		victory_points = { 11001 1 }
+		victory_points = { 14795 4 }
+		victory_points = { 14952 1 }
+
+
 	}
 
 	provinces = {
-		1042 1085 1269 1358 1370 4226 4252 4292 4378 7437 10234 10291 10319 12265
+		2224 11001 14994 14995 15065 14795 14952
 	}
-	manpower = 206774
-	buildings_max_level_factor = 1
-	state_category = tiny_island
 }

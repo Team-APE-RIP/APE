@@ -1,44 +1,38 @@
 state = {
 	id = 157
 	name = "STATE_157"
+	resources = {
+		aluminium = 6.000
+		power = 4.000
+	}
 
 	history = {
-		owner = ITC
-		add_core_of = ITC
-		victory_points = {
-			3910 5
-		}
-		victory_points = {
-			6831 8
-		}
-		victory_points = {
-			14658 3
-		}
-		victory_points = {
-			9838 4
-		}
-		victory_points = {
-			3966 2
-		}
-		victory_points = {
-			14657 3
-		}
+		owner = ZZZ # COL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
 		buildings = {
-			infrastructure = 5
-			schools = 1
-			hydroelectric_plant = 2
-			6831 = {
-				naval_base = 1
-			}
+			infrastructure = 3
+			barracks = 1
+			offices = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			air_base = 2
 		}
-		# add_core_of = ITA
+		victory_points = {
+			15327 10
+		}
+		victory_points = {
+			2660 5
+		}
+
 	}
 
 	provinces = {
-		6831 9838 
+		2509 2520 2660 15327 15516 15623 17362 17366
 	}
-	manpower = 1564176
+	manpower = 973387
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

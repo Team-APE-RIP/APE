@@ -1,29 +1,33 @@
-state = {
+state = { #Population Done
 	id = 1048
 	name = "STATE_1048"
-	resources = {
-		tungsten = 3.000
-	}
 
 	history = {
-		owner = ZZZ # SAF
-		# add_core_of = SAF
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 6536 5 }
 		buildings = {
-			barracks = 1
-			offices = 1
-			infrastructure = 2
-			radar_station = 1
+			infrastructure = 5
+			6536 = {
+				naval_base = 4
+				coastal_bunker = 2
+			}
+			9510 = {
+				coastal_bunker = 2
+			}
+			15388 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}
 		}
-		victory_points = {
-			13681 1
-		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
 	}
 
 	provinces = {
-		12963 13681 13687 13691 17843
+		 15388 9510 20060 20061 
 	}
-	manpower = 55147
+	manpower = 531833
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

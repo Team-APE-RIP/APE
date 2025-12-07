@@ -1,35 +1,23 @@
 state = {
 	id = 777
 	name = "STATE_777"
-	provinces = {
-		16326 16328 6489 9458 16327
-	}
+
 	history = {
-		owner = ZZZ # ENG
+		owner = ZZZ # IEA
+		# add_core_of = IEA
+		victory_points = { 15555 20 }
 		buildings = {
-			infrastructure = 6
-			thermoelectric_plant = 3
-			offices = 1
-			barracks = 1
-			schools = 1
-			9458 = {
-				naval_base = 9
-			}
-			air_base = 3
+			infrastructure = 3
+			air_base = 1
+			radar_station = 1
 		}
-		# set_state_flag = has_offshore_island
-		# add_core_of = ENG
-		victory_points = {
-			6489 10
-		}
-		victory_points = {
-			9458 10
-		}
-		victory_points = {
-			16328 2
-		}
+
 	}
-	manpower = 1418650
-	state_category = city
+
+	provinces = {
+		15555
+	}
+	manpower = 594889
 	buildings_max_level_factor = 1.000
+	state_category = large_town
 }

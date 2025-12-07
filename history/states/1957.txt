@@ -1,31 +1,32 @@
 state = {
 	id = 1957
 	name = "STATE_1957"
+	resources = {
+		steel = 7.000
+	}
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			7334 10
-		}
-		victory_points = {
-			7064 5
-		}
+		owner = MEN
 		buildings = {
 			infrastructure = 2
-			barracks = 1
-			18923 = {
-				bunker = 3
-			}
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
+		victory_points = {
+			10708 5
+		}
+		
+		victory_points = {
+			16861 3
+		}
+		victory_points = { 14671 2 }
+
+		# set_variable = { china_state_ref = 57 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		7064 7334 18902 18923
+		14671 12533 5566 7885 16861 7823 19447 5141 12665 10708 4792
 	}
-	manpower = 8513423
+	manpower = 209702
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

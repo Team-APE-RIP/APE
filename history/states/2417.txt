@@ -1,36 +1,24 @@
 state = {
 	id = 2417
 	name = "STATE_2417"
-	resources = {
-		steel = 6.000
-		aluminium = 4.000
-		uranium = 2.000
-	}
 
 	history = {
-		owner = CHI # SHX
-		# add_core_of = SHX
-		victory_points = {
-			10367 2
-		}
-		victory_points = {
-			19743 2
-		}
-		victory_points = {
-			16780 2
-		}
+		owner = ZZZ # UPH
 		buildings = {
 			infrastructure = 2
 		}
-		# set_state_flag = GDP_regions_shanxi
-		# set_variable = { china_state_ref = 14 }
-		# set_variable = { china_region_ref = 1 }
+		victory_points = { 12158 5 }
+		victory_points = { 12273 3 }
+		# add_core_of = UPH
+		# add_core_of = PHI
+		# add_core_of = SPH
+
 	}
 
 	provinces = {
-		4074 10367 12300 13248 19596 19635 19743 15183 16780 19767 
+		1234 4266 4427 12116 12158 12273 14733 19375
 	}
-	manpower = 1859595
+	manpower = 1093401
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

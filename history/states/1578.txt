@@ -1,27 +1,54 @@
 state = {
 	id = 1578
-	name = "STATE_1578" # Chaco Santiagueno
-
-	manpower = 76940
+	name = "STATE_1578"
 	resources = {
-		tungsten = 9
-		steel = 1
+		tungsten = 6.000
 	}
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # NZL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			radar_station = 3
+			thermoelectric_plant = 2
+			prisons = 1
+			schools = 1
+			offices = 1
+			air_base = 1
+			2197 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = ARG
-		victory_points = { 15066 1 }
-		# set_state_flag = GDP_regions_santiago_del_estero
-		# set_state_flag = GDP_category_rural
-	}
+		victory_points = { # Christchurch
+			2197 10
+		}
+		victory_points = { # Dunedin
+			2211 7
+		}
+		victory_points = { # Nelson
+			12632 2
+		}
+		victory_points = { # Timaru
+			2203 2
+		}
+		victory_points = { # Invercargill
+			8241 3
+		}
+		victory_points = { # Oban
+			15278 1
+		}
+		victory_points = { # Greymouth
+			8204 1
+		}
 
-	state_category = pastoral
+		# add_core_of = NZL
+	}
 
 	provinces = {
-		2208 14796 14990 14903 15048 15066 15076 8169
+		2197 2203 2211 3232 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 15278
 	}
+	manpower = 584362
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

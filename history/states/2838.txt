@@ -1,18 +1,24 @@
 state = {
 	id = 2838
 	name = "STATE_2838"
+	manpower = 268400
+
+	state_category = large_town
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # SWE
+		# add_core_of = SWE
+		victory_points = { 9209 7 }
+		victory_points = { 6164 3 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			thermoelectric_plant = 1
+			anti_air_building = 1
+			hospitals = 1
+			prisons = 2
 		}
 	}
 	provinces = {
-        20056 3493
+		9209 6188 6164 6084 11044 18418
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

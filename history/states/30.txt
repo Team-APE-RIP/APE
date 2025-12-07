@@ -1,39 +1,19 @@
 state = {
 	id = 30
 	name = "STATE_30"
-
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		
+		owner = IPC
+		add_core_of = IPC
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			air_base = 2
-			radar_station = 1
-			schools = 1
-			offices = 1
-			11600 = {
-				coastal_bunker = 2
-			}
-			655 = {
-				coastal_bunker = 2
-			}
-			6657 = {
-				coastal_bunker = 2
-			}
-		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		victory_points = {
-			9631 1
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		655 6657 9631 11600
+        1178 4182 10094
 	}
-	manpower = 408928
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

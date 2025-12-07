@@ -1,30 +1,28 @@
-state = { #Population Done
+state = {
 	id = 901
 	name = "STATE_901"
-	provinces = {
-		11350
-	}
-	manpower = 234547
-
-	state_category = small_island
-
 
 	history = {
-		owner = ZZZ # WIN
-		# add_core_of = WIN
-		# add_core_of = BRB
+		owner = ZZZ # TUR
+		victory_points = {
+			18464 2
+		}
+		victory_points = {
+			11880 1
+		}
 		buildings = {
 			infrastructure = 3
-			air_base = 4
-			barracks = 1
-			offices = 1
-			radar_station = 4
-			thermoelectric_plant = 1
-			11350 = {
-				naval_base = 1
-			}
 		}
-		victory_points = { 11350 2 }
+		# add_core_of = TUR
+
+		# add_claim_by = KUR
 	}
+
+	provinces = {
+		4583 7470 9858 11880 16232 18464
+	}
+	manpower = 412251
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

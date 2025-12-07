@@ -1,44 +1,32 @@
 state = {
 	id = 1298
 	name = "STATE_1298"
-	manpower = 1129061
-
-	state_category = large_town
-
-	resources = {
-		steel = 4
-	}
-
+	manpower = 11628
+	state_category = tiny_island
 
 	history = {
-		owner = SWS
-        add_core_of = SWS
-		victory_points = { 6666 10 }
-		victory_points = { 11590 10 }
-		victory_points = { 9622 3 }
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
-			barracks = 1
-			schools = 1
-			prisons = 1
-			offices = 2
-			hydroelectric_plant = 2
-			6683 = {
-				bunker = 6
-			}
-			9622 = {
-				bunker = 6
-			}
-			6666 = {
-				bunker = 6
+			infrastructure = 2
+			air_base = 2
+			19972 = {
+				naval_base = 1
 			}
 		}
-		# add_core_of = SWI
-		# set_state_flag = state_renamings
+		victory_points = {
+			19972 1
+		}
+		victory_points = {
+			19968 1
+		}
+		victory_points = {
+			19962 1
+		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
 	}
-
 	provinces = {
-		6666 11590
+		19953 19954 19962 19968 19972 19973 19979 19982 
 	}
 }

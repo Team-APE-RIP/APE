@@ -1,23 +1,28 @@
-state = {
+state = { #Population Done
 	id = 2188
 	name = "STATE_2188"
+	manpower = 90102
+
+	resources = {
+		oil = 6
+		uranium = 4
+	}
+
+	state_category = town #Due to Resource Exploitation
 
 	history = {
-		owner = ZZZ # AFG
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			barracks = 1
+			radar_station = 2
 		}
-		victory_points = {
-			18639 1
-		}
-		# add_core_of = AFG
+		# add_core_of = ARG
+		victory_points = { 14896 3 }
+
 	}
 
 	provinces = {
-		18639 7984 18699 12788 18651
+		2169 14894 14896 15001 15018 15019 15023 15024 15025 15027 15028 15029
 	}
-	manpower = 240439
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

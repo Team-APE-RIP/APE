@@ -1,20 +1,27 @@
 state = {
 	id = 2064
-	name = "STATE_2064" # Laurie Island
-	manpower = 20
-
-	state_category = wasteland
+	name = "STATE_2064"
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		victory_points = { 17594 1 }
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+			prisons = 1
+			barracks = 1
 		}
+		victory_points = { 1846 1 }
+		victory_points = { 13833 1 }
+	}
+
+	resources = {
+		uranium = 2
 	}
 
 	provinces = {
-		17594
+		1846 13833
 	}
+	manpower = 1524168
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

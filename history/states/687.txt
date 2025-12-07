@@ -1,32 +1,35 @@
-state = { #Population Done
+state = {
 	id = 687
 	name = "STATE_687"
-	manpower = 471055
-
-	state_category = pastoral
-
-	resources = {
-		aluminium = 62
-	}
 
 	history = {
-		owner = ZZZ # GUY
-		# add_core_of = GUY
+		# add_core_of = SUS
+		owner = ZZZ # SUS
+		victory_points = {
+			12858 1
+		}
+		victory_points = {
+			14428 5
+		}
 		buildings = {
-			offices = 1
-			barracks = 1
-			radar_station = 3
-			air_base = 1
-			thermoelectric_plant = 1
 			infrastructure = 2
-			4982 = {
+			air_base = 1
+			barracks = 1
+			hospitals = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			12858 = {
 				naval_base = 1
 			}
 		}
-		victory_points = { 4982 10 }
+
 	}
 
 	provinces = {
-		4982 8107 15125 15126
+		12858 14109 14138 14305 14428 15389 15390 15391
 	}
+	manpower = 1637947
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

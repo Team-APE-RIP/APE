@@ -3,24 +3,18 @@ state = {
 	name = "STATE_1475"
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = { 4110 20 }
-		victory_points = { 4003 1 }
+		owner = ZZZ # DOM
 		buildings = {
 			infrastructure = 3
-			thermoelectric_plant = 2
-			offices = 1
-			barracks = 1
-			prisons = 1
+			air_base = 1
 		}
-		# add_claim_by = AZH
-		# add_core_of = IND
+		# add_core_of = DOM
 	}
 
 	provinces = {
-		4003 4110
+		15586 15587 15606 15607 15608 15609 15610
 	}
-	manpower = 1189778
+	manpower = 478657
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = wasteland
 }

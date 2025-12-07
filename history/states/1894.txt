@@ -1,22 +1,21 @@
 state = {
 	id = 1894
 	name = "STATE_1894"
-	provinces = {
-		1978 16002
-	}
+
 	history = {
-		owner = ZZZ # PAK
-		victory_points = { 16002 1 }
-		victory_points = { 1978 5 }
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# add_claim_by = AFG
+
 	}
-	manpower = 878810
+
+	provinces = {
+		11194 11702 14012 14024 14044
+	}
+	manpower = 578000
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

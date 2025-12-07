@@ -1,57 +1,30 @@
-state = {
+state = { #Population Done
 	id = 500
 	name = "STATE_500"
-	resources = {
-		oil = 6.000
-	}
+	manpower = 48900
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # BRA
-		# add_core_of = BRA
-		victory_points = {
-			8190 10
-		}
-		victory_points = {
-			17479 10
-		}
-		victory_points = {
-			17482 15
-		}
-		victory_points = {
-			17420 8
-		}
-		victory_points = {
-			17424 7
-		}
-		victory_points = {
-			17428 7
-		}
-		victory_points = {
-			5172 6
-		}
-		victory_points = {
-			12996 5
-		}
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		# add_core_of = BRM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			thermoelectric_plant = 1
+			barracks = 1
 			air_base = 2
-			radar_station = 4
-			hydroelectric_plant = 1
-			thermoelectric_plant = 2
-			hospitals = 1
-			prisons = 1
-			schools = 1
-			offices = 1
+			radar_station = 5
+			13010 = {
+				naval_base = 3
+			}
 		}
-		# set_state_flag = GDP_regions_rio
-		# set_state_flag = GDP_category_large_city
+		victory_points = { # Hamilton
+			13010 2
+		}
 	}
 
 	provinces = {
-		5172 8190 12996 17414 17420 17424 17425 17428 17479 17482
+		13010
 	}
-	manpower = 3667500
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
 }

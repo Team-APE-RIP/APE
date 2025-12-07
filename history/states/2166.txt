@@ -1,28 +1,18 @@
 state = {
 	id = 2166
 	name = "STATE_2166"
-
-	resources = {
-		chromium = 2
-	}
-
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # OMA
-		# add_core_of = OMA
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			13460 1
-		}
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		13460 18560 10760
+        3751 6648 3621
 	}
-	manpower = 156700
+	manpower = 87721
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

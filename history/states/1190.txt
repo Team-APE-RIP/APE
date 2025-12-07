@@ -3,17 +3,24 @@ state = {
 	name = "STATE_1190"
 
 	history = {
-		owner = ZZZ # AYR
-		# add_core_of = AYR
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
+			barracks = 1
 			infrastructure = 1
+			radar_station = 1
 		}
+		victory_points = {
+			1966 5
+		}
+
 	}
 
 	provinces = {
-		8028 14181 14187
+		1966 4909 10818 10891 14068 17887 17894
 	}
-	manpower = 614000
+	manpower = 243604
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

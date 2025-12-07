@@ -2,18 +2,34 @@ state = {
 	id = 1870
 	name = "STATE_1870"
 
-	impassable = yes
-
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # AZH
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 2
+			offices = 1
+			prisons = 1
+		}
+		victory_points = {
+			4162 7
+		}
+		victory_points = {
+			10035 10
+		}
+		victory_points = {
+			18961 2
+		}
+		# add_core_of = AZH
+		# add_claim_by = IND
+
+
 	}
 
 	provinces = {
-		15906
+		4162 10035 11911 18961 18966
 	}
-	manpower = 48482
+	manpower = 7960177
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

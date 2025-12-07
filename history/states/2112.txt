@@ -2,35 +2,20 @@ state = {
 	id = 2112
 	name = "STATE_2112"
 
-	resources = {
-		steel = 6
-	}
-
 	history = {
-		owner = ZZZ # IBR
-		victory_points = { 18092 7 }
-		victory_points = { 10023 2 }
-		victory_points = { 18067 1 }
-		victory_points = { 1079 4 }
-		victory_points = { 18093 6 }
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 4
-			hospitals = 1
-			offices = 1
-			prisons = 1
-			schools = 1
+			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = MOR
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_town
-		# set_state_flag = GDP_regions_morocco
+		# add_core_of = PRU
+
 	}
 
 	provinces = {
-		18092 18067 1079 10023 18100 4084 18095 18098 18093
+		8191 15483 15488 15489 15571 17443
 	}
-	manpower = 1793915
+	manpower = 25269
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = wasteland
+	local_supplies = 0.000
 }

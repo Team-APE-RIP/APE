@@ -1,38 +1,29 @@
-state = {
+state = { #Population Done
 	id = 1570
 	name = "STATE_1570"
+	manpower = 747726
 
+	state_category = town
+
+	resources = {
+		tungsten = 200
+		uranium = 7
+	}
 	history = {
-		owner = ZZZ # AST
-		# add_core_of = AST
+		owner = PGS
+		add_core_of = PGS
 		buildings = {
-			infrastructure = 2
-			radar_station = 3
 			barracks = 1
-			5207 = {
-				coastal_bunker = 5
-			}
-			8209 = {
-				coastal_bunker = 5
-			}
-			3437 = {
-				coastal_bunker = 5
-			}
-			11016 = {
-				coastal_bunker = 5
-			}
+			infrastructure = 4
 		}
-		# set_state_flag = GDP_category_rural
-		victory_points = {
-			8209 1
-		}
+
+		# add_core_of = IBR
+		victory_points = { 9787 4 }
+		victory_points = { 938 3 }
+
 	}
 
 	provinces = {
-		3248 3437 3599 5207 8209 8247 10937 10958 11016 13133 19932 19936
+		9787 889
 	}
-	manpower = 3866
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

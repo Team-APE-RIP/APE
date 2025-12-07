@@ -1,34 +1,31 @@
 state = {
 	id = 1823
 	name = "STATE_1823"
+	manpower = 1705620
+
+	state_category = city
+
 	resources = {
-		steel = 1.000
+		steel = 1
+		uranium = 6 #13
 	}
 
 	history = {
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 5
-			hydroelectric_plant = 3
-			missile_silo = 1
+			infrastructure = 6
+			thermoelectric_plant = 2
+			hydroelectric_plant = 2
+			dockyard = 1
+			enrichment_plant = 1
+			hospitals = 1
+			prisons = 1
 		}
-		victory_points = {
-			15885 10
-		}
-		victory_points = {
-			4067 10
-		}
-		victory_points = {
-			4153 5
-		}
+		victory_points = { 7212 20 }
 	}
 
 	provinces = {
-		4067 4153 15885 
+		7212 4197 15870
 	}
-	manpower = 1268538
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
 }

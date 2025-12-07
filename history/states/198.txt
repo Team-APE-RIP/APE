@@ -2,22 +2,29 @@ state = {
 	id = 198
 	name = "STATE_198"
 
+	resources = {
+		rubber = 20
+	}
+
 	history = {
-		owner = ZZZ # TNS
-		# add_core_of = TNS
-		buildings = {
-			infrastructure = 3
-			barracks = 1
-			air_base = 3
+		owner = WZS
+		add_core_of = WZS
+		victory_points = {
+			8347 3
 		}
-		victory_points = { 6429 2 }
-		# set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 2
+		}
+		# set_variable = { china_state_ref = 36 }
+		# set_variable = { china_region_ref = 4 }
+
 	}
 
 	provinces = {
-		476 6429 9423 9435
+		11990 8347 5346
 	}
-	manpower = 705326
+	manpower = 898586
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

@@ -1,23 +1,29 @@
 state = {
 	id = 1337
 	name = "STATE_1337"
-	provinces = {
-		1525 16124
-	}
-	resources = {
-		rubber = 4
-	}
+
 	history = {
-		owner = ZZZ # AZH
-		victory_points = { 1525 1 }
+		owner = ZZZ # NEP
+		victory_points = {
+			7374 1
+		}
+		victory_points = {
+			18836 2
+		}
+		victory_points = {
+			18839 2
+		}
 		buildings = {
 			infrastructure = 2
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_assam
+		# add_core_of = NEP
 	}
-	manpower = 367611
+
+	provinces = {
+		7374 10825 16110 18836 18839 18885
+	}
+	manpower = 1454181
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

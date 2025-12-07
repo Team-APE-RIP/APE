@@ -1,18 +1,23 @@
 state = {
 	id = 2925
 	name = "STATE_2925"
+	manpower = 5167
+	state_category = tiny_island
+
 	history = {
-		owner = OTC
-        add_core_of = OTC
+		owner = ZZZ
+		#add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			7390 = {
+				naval_base = 1
+			}
 		}
 	}
-	provinces = {
-        9646 653 6687
-	}
-	manpower = 87721
+
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+
+	provinces = {
+		7390
+	}
 }

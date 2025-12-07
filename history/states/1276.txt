@@ -1,24 +1,18 @@
 state = {
 	id = 1276
 	name = "STATE_1276"
-
 	history = {
-		owner = ZZZ # CRO
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			hospitals = 1
-			infrastructure = 5
+			infrastructure = 3
 		}
-		victory_points = {
-			9591 1
-		}
-		# add_core_of = CRO
-		# set_state_flag = GDP_regions_bosnia
 	}
-
 	provinces = {
-		9591 15676
+        6547 15231 20043 20044 20045
 	}
-	manpower = 196630
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

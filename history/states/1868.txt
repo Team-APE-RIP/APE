@@ -1,19 +1,35 @@
 state = {
 	id = 1868
 	name = "STATE_1868"
-
-	state_category = wasteland
-	impassable = yes
+	resources = {
+		oil = 1.000
+	}
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
-		# set_state_flag = state_renamings
+		owner = ZZZ # BRA
+		buildings = {
+			infrastructure = 2
+			radar_station = 3
+			barracks = 1
+		}
+		# add_core_of = BRA
+		victory_points = {
+			12951 7
+		}
+		victory_points = {
+			8224 8
+		}
+		victory_points = {
+			17460 5
+		}
+
 	}
 
 	provinces = {
-		15908
+		2181 5200 8189 8224 10959 12951 17409 17412 17418 17460 17462 17463
 	}
-	manpower = 54573
+	manpower = 560345
 	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

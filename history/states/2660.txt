@@ -1,18 +1,27 @@
 state = {
 	id = 2660
 	name = "STATE_2660"
+	resources = {
+		uranium = 2.000
+	}
+
 	history = {
-		owner = DRV
-		add_core_of = DRV
+		owner = ZZZ # EGY
 		buildings = {
 			infrastructure = 1
+			12002 = {
+				naval_base = 3
+			}
 		}
+		# add_core_of = EGY
+
 	}
+
 	provinces = {
-	    20003 20004
+		1080 1151 4143 7030 7188 9957 10028 10126 12002 12004 15779 15780 15781 15801
 	}
-	manpower = 1087721
+	manpower = 58832
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

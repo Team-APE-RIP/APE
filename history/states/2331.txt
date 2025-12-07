@@ -3,38 +3,27 @@ state = {
 	name = "STATE_2331"
 
 	resources = {
-		oil = 24
+		oil = 4
 	}
 
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = ZZZ # COL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
+		victory_points = {
+			2079 10
+		}
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			19801 5
-		}
-		victory_points = {
-			7142 4
-		}
-		victory_points = {
-			9953 5
-		}
-		victory_points = {
-			10095 5
-		}
-		#add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_regions_jiangsu_huaihai
-		# set_variable = { china_state_ref = 2 }
-		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		10095 9953 19801 12067 7142 19806
+		2079 15315 17360 17361
 	}
-	manpower = 4591169
+	manpower = 364660
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

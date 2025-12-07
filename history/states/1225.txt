@@ -1,20 +1,32 @@
-state = {
+state = { #Population Done
 	id = 1225
 	name = "STATE_1225"
-
-	history = {
-		owner = ZZZ # MLI
-		# add_core_of = MLI
-		buildings = {
-			infrastructure = 1
-		}
-		# set_state_flag = state_renamings
-	}
-
 	provinces = {
-		10812 10829 12751 14165
+		957
 	}
-	manpower = 327144
+	history = {
+		owner = MAN
+		# add_core_of = SOV
+		# add_core_of = MAN
+		# add_core_of = JAP
+		buildings = {
+			infrastructure = 5
+			radar_station = 2
+			thermoelectric_plant = 1
+			barracks = 2
+			offices = 1
+			prisons = 1
+			957 = {
+				naval_base = 6
+				coastal_bunker = 1
+			}
+		}
+		victory_points = { 957 20 }
+		# set_variable = { china_state_ref = 51 }
+		# set_variable = { china_region_ref = 6 }
+
+	}
+	manpower = 548000
+	state_category = city
 	buildings_max_level_factor = 1.000
-	state_category = rural
 }

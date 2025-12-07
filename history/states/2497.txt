@@ -1,20 +1,28 @@
-state = {
+state = { #Population Done
 	id = 2497
-	name = "STATE_2497"
-	manpower = 4849
-	state_category = tiny_island
+	name = "STATE_2497" # Chaco
+	manpower = 543331
+
+	state_category = town
+
+	resources = {
+		tungsten = 15
+	}
 
 	history = {
-		owner = ZZZ # NZL
-		# add_core_of = NZL
+		owner = ZZZ # ARG
 		buildings = {
+			barracks = 1
 			infrastructure = 2
 		}
-		victory_points = {
-			19980 1
-		}
+		# add_core_of = ARG
+		victory_points = { 2106 10 }
+		victory_points = { 14988 1 }
+		victory_points = { 14898 1 }
+
 	}
+
 	provinces = {
-		19980
+		2106 5213 14898 14967 14988 15007 15054 15055 15081 15083 15089
 	}
 }

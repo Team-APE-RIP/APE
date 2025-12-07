@@ -1,19 +1,29 @@
 state = {
 	id = 1598
 	name = "STATE_1598"
+	manpower = 826773
+
+	state_category = town
+	resources = {
+		oil = 1
+		aluminium = 36
+	}
 	history = {
-		owner = ZZZ # CME
-		victory_points = { 15176 5 }
+		owner = ZZZ # HUN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			air_base = 3
+			schools = 1
+			thermoelectric_plant = 1
+			offices = 1
 		}
+		victory_points = { 6703 5 }
+		victory_points = { 701 2 }
+		victory_points = { 11663 2 }
+		# add_core_of = HUN
 	}
 
 	provinces = {
-		15176
+		701 6703 9676 11663
 	}
-	manpower = 14
-	buildings_max_level_factor = 2.000
-	state_category = tiny_island
-	impassable = yes
 }

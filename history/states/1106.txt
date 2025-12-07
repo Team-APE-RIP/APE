@@ -1,24 +1,47 @@
 state = {
 	id = 1106
 	name = "STATE_1106"
+	resources = {
+		oil = 26.000
+	}
 
 	history = {
-		owner = ZZZ # IEA
-		# add_core_of = IEA
-		buildings = {
-			barracks = 1
-			infrastructure = 2
+		owner = MAN
+		victory_points = {
+			16943 10
 		}
 		victory_points = {
-			14131 8
+			9782 5
 		}
+		victory_points = {
+			19850 3
+		}
+		victory_points = {
+			19838 17
+		}
+		victory_points = {
+			7526 1
+		}
+		# set_variable = { china_state_ref = 50 }
+		# set_variable = { china_region_ref = 6 }
+		buildings = {
+			hospitals = 1
+			offices = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 5
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+		}
+
+		# add_core_of = MAN
 	}
 
 	provinces = {
-		1984 2040 13137 14131 14141 17882 17895 17904
+		12355 19575 12412 5623 10503 19923 19850 9782 
 	}
-	manpower = 4137601
+	manpower = 6848970
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 }

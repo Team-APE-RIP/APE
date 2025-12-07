@@ -1,30 +1,29 @@
 state = {
 	id = 1856
 	name = "STATE_1856"
-	manpower = 115796
-
-	state_category = tiny_island
+	resources = {
+		oil = 2.000
+		tungsten = 4.000
+		steel = 5.000
+	}
 
 	history = {
-		owner = TAW
-		add_core_of = TAW
-		# set_state_flag = state_renamings
+		owner = ZZZ # SAM
 		buildings = {
 			infrastructure = 2
-			air_base = 3
 			barracks = 1
-			radar_station = 4
-			15897 = {
-				naval_base = 1
-			}
 		}
-		victory_points = { 15897 1 }
-		# set_variable = { china_state_ref = 37 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_formosa
+		victory_points = {
+			6502 1
+		}
+		# add_core_of = SAM
 	}
 
 	provinces = {
-		15897
+		410 452 6339 6473 6502 9337 9473 11321 11458 13292 13296
 	}
+	manpower = 127000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

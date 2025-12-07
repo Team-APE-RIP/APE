@@ -1,22 +1,20 @@
 state = {
 	id = 2078
-	name = "STATE_2078" # Signy Island
-	manpower = 1
+	name = "STATE_2078" # Laurie Island
+	manpower = 20
 
 	state_category = wasteland
 
 	history = {
-		owner = ZZZ # AAO
-		# add_core_of = AAO
+		owner = ZZZ # AAA
 		# add_core_of = AAA
-		# add_claim_by = ENG
-		# set_demilitarized_zone = yes
+		victory_points = { 17594 1 }
 		buildings = {
 			infrastructure = 0
 		}
 	}
 
 	provinces = {
-		17755
+		17594
 	}
 }

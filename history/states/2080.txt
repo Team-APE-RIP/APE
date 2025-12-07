@@ -1,21 +1,27 @@
-state = {
+state = { #Population Done
 	id = 2080
-	name = "STATE_2080" #South Shetland Islands
-	provinces = {
-		17639 17561 17566
-	}
-	manpower = 1
-
-	state_category = wasteland
+	name = "STATE_2080"
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
-		victory_points = { 17639 1 }
+		owner = ZZZ # TAR
 		buildings = {
-			infrastructure = 0
+			schools = 1
+			hospitals = 1
+			barracks = 1
+			offices = 1
+			infrastructure = 2
+			thermoelectric_plant = 2
 		}
+		victory_points = { 6338 25 }
+		victory_points = { 260 3 }
+		# add_core_of = TAR
+
 	}
+
+	provinces = {
+		228 260 372 404 3251 3365 3394 6224 6338 9336
+	}
+	manpower = 1546000
+	buildings_max_level_factor = 1.000
+	state_category = city
 }

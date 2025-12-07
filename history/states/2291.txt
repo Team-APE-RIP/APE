@@ -2,26 +2,42 @@ state = {
 	id = 2291
 	name = "STATE_2291"
 	resources = {
-		oil = 6
+		steel = 14.000
 	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		buildings = {
-			infrastructure = 3
+		owner = ZZZ # TUR
+		victory_points = {
+			11881 10
 		}
 		victory_points = {
-			4306 1
+			16220 2
 		}
-		# set_state_flag = GDP_regions_east_west_java
+		victory_points = {
+			16221 2
+		}
+		victory_points = {
+			11894 1
+		}
+		buildings = {
+			infrastructure = 3
+			11881 = {
+				naval_base = 1
+			}
+			radar_station = 1
+			prisons = 1
+			offices = 1
+			barracks = 1
+			schools = 1
+		}
+		# add_core_of = TUR
 	}
 
 	provinces = {
-		4306 19352
+		9900 11881 11894 16220 16221 18457
 	}
-	manpower = 2027697
+	manpower = 1202323
 	buildings_max_level_factor = 1.000
-	state_category = small_island
+	state_category = town
 	local_supplies = 0.000
 }

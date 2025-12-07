@@ -1,18 +1,44 @@
 state = {
 	id = 2728
 	name = "STATE_2728"
+
 	history = {
-		owner = BAV
-		add_core_of = BAV
-		buildings = {
-			infrastructure = 3
+		owner = ZZZ # MCW
+		victory_points = {
+			382 10
 		}
+		victory_points = {
+			11347 15
+		}
+		victory_points = {
+			9266 5
+		}
+		victory_points = {
+			3377 3
+		}
+		victory_points = {
+			3292 1
+		}
+		victory_points = {
+			3250 1
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 2
+			air_base = 1
+			offices = 1
+			barracks = 1
+			hospitals = 1
+		}
+		# add_core_of = MCW
+
 	}
+
 	provinces = {
-        3688 707
+		212 246 261 300 382 3236 3250 3292 3308 3377 6262 6315 6333 6396 9266 9366 11347 18273 18300 18320
 	}
-	manpower = 87721
+	manpower = 1392417
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -1,23 +1,37 @@
 state = {
 	id = 2183
 	name = "STATE_2183"
+	resources = {
+		steel = 22.000
+		oil = 18.000
+	}
 
 	history = {
-		owner = ZZZ # IRE
-		victory_points = {
-			11237 2
-		}
+		owner = ZZZ # SVR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			thermoelectric_plant = 2
+			barracks = 2
+			offices = 2
+			air_base = 1
 		}
-		# add_core_of = IRE
+		victory_points = {
+			1821 30
+		}
+		victory_points = {
+			307 8
+		}
+		victory_points = {
+			10189 3
+		}
+		# add_core_of = SVR
+
 	}
 
 	provinces = {
-		11237
+		307 1543 1750 1821 4824 7778 9553 10189 12696 13323
 	}
-	manpower = 71439
+	manpower = 2278000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = city
 }

@@ -1,26 +1,41 @@
 state = {
 	id = 2107
 	name = "STATE_2107"
-	manpower = 56
-
-	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # CHL
-		# add_core_of = CHL
-		buildings = {
-			infrastructure = 1
-			17939 = {
-				naval_base = 1
-			}
+		owner = ZZZ # IND
+		victory_points = {
+			5002 10
 		}
 		victory_points = {
-			17939 1
+			16048 15
 		}
-		# set_state_flag = GDP_regions_magallanes
+		victory_points = {
+			13223 10
+		}
+		victory_points = {
+			18921 5
+		}
+		victory_points = {
+			9951 6
+		}
+		victory_points = {
+			18920 5
+		}
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 3
+		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		17939
+		5002 9951 13223 16048 18920 18921
 	}
+	manpower = 10679112
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

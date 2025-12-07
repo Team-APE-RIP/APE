@@ -1,28 +1,25 @@
 state = {
 	id = 996
 	name = "STATE_996"
-	resources = {
-		tungsten = 14
-		uranium = 6
-	}
-	provinces = {
-		794 939 3845 3874 9800
-	}
-	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = { 3874 8 }
-		victory_points = { 939 2 }
-		victory_points = { 794 1 }
-		# add_core_of = IBR
 
-		buildings = {
-			schools = 1
-			hydroelectric_plant = 1
-			infrastructure = 3
-		}
+	resources = {
+		oil = 14
 	}
-	manpower = 672283
+
+	history = {
+		owner = ZZZ # OMA
+		# add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		8002 13439 13441 13443 18553 18562
+	}
+	manpower = 6685
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = wasteland
+	local_supplies = 0.000
 }

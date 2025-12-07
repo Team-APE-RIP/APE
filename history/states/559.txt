@@ -5,21 +5,30 @@ state = {
 	history = {
 		owner = ZZZ # IEA
 		buildings = {
+			thermoelectric_plant = 1
 			infrastructure = 2
-			air_base = 1
+			air_base = 3
+			5091 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = IEA
 		victory_points = {
-			1964 3
+			17889 2
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			5091 10
+		}
+		victory_points = {
+			12723 2
+		}
+
 	}
 
 	provinces = {
-		1964 2020 5065 12840 15541 15542 17912
+		5017 5047 5091 12723 14183 15553 17889 17892
 	}
-	manpower = 1056158
+	manpower = 292346
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

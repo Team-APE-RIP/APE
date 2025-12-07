@@ -1,33 +1,40 @@
 state = {
 	id = 2133
 	name = "STATE_2133"
+	resources = {
+		uranium = 8.000
+		oil = 12
+	}
 
 	history = {
+		owner = ZZZ # UZB
 		buildings = {
-			infrastructure = 5
-			offices = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
 			barracks = 1
-			schools = 1
-			dockyard = 1
-			3171 = {
-				coastal_bunker = 2
-			}
-			11151 = {
-				coastal_bunker = 2
-			}
 		}
 		victory_points = {
-			3171 4
+			1573 7
 		}
-		owner = ZZZ # NOR
-		# add_core_of = NOR
+		victory_points = {
+			1576 4
+		}
+		victory_points = {
+			18627 1
+		}
+		victory_points = {
+			18684 2
+		}
+		# add_core_of = UZB
+
+
 	}
 
 	provinces = {
-		3171 11151 18369
+		1532 1554 1573 1576 1623 4488 4499 4618 10420 10470 13252 18618 18619 18625 18627 18684
 	}
-	manpower = 202751
+	manpower = 1225995
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural #Due to Resource Exploitation
 	local_supplies = 0.000
 }

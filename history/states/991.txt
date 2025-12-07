@@ -1,31 +1,37 @@
-state = {
+state = { #Population Done
 	id = 991
 	name = "STATE_991"
+	manpower = 1332532
+
+	state_category = town
+
+	resources = {
+		steel = 63
+		aluminium = 58
+		uranium = 6
+	}
 
 	history = {
-		owner = DMK
-        add_core_of = DMK
-		victory_points = {
-			3325 10
-		}
-		victory_points = {
-			3374 1
-		}
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			schools = 1
-			offices = 1
+			schools = 2
+			infrastructure = 4
+			hydroelectric_plant = 1
+			radar_station = 2
+			hospitals = 1
+			barracks = 1
 		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = DEN
+		victory_points = { 3768 5 }
+		victory_points = { 6784 5 }
+		victory_points = { 780 2 }
+		victory_points = { 11716 1 }
+
+		# add_core_of = FRS
+		# add_claim_by = FFR
 	}
 
 	provinces = {
-		3325 3374
+		3768 6784 3589 764
 	}
-	manpower = 408719
-	buildings_max_level_factor = 1.000
-	state_category = small_island
-	local_supplies = 0.000
 }

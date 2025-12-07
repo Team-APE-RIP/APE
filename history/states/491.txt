@@ -1,25 +1,31 @@
 state = {
 	id = 491
 	name = "STATE_491"
+	manpower = 309380
+
+	state_category = rural
+
+	resources = {
+		tungsten = 100
+		uranium = 3
+	}
 
 	history = {
-		owner = ZZZ # PRU
-		victory_points = {
-			15457 5
-		}
+		owner = PGS
+		add_core_of = PGS
 		buildings = {
-			barracks = 1
-			infrastructure = 1
-			air_base = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
 		}
-		# add_core_of = PRU
+		# add_core_of = IBR
+		victory_points = { 3969 3 }
+		victory_points = { 6996 3 }
+
+
 	}
 
 	provinces = {
-		8149 8213 10942 10970 12869 15456 15457 15458 15459 15504 15577
+		3969 6996 11885
 	}
-	manpower = 321117
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+
 }

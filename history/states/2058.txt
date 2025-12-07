@@ -1,20 +1,23 @@
 state = {
 	id = 2058
-	name = "STATE_2058" # Adelei Land
-	manpower = 1
-
-	state_category = wasteland
-
-	impassable = yes
+	name = "STATE_2058"
 
 	history = {
-		owner = ZZZ # AAN
-		buildings = {
-			infrastructure = 0
+		owner = ZZZ # AFG
+		victory_points = {
+			18631 3
 		}
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = AFG
 	}
 
 	provinces = {
-		16424 16417
+		4949 14747 18631 2078 18644
 	}
+	manpower = 455038
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

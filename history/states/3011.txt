@@ -1,17 +1,30 @@
 state = {
 	id = 3011
 	name = "STATE_3011"
+	resources = {
+		chromium = 6.000
+	}
+
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 3
+			prisons = 1
 		}
+		victory_points = {
+			17034 15
+		}
+		add_extra_state_shared_building_slots = 2
+
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
 	}
+
 	provinces = {
-        813 948
+		5033 13224 17026 17034 17045 19437 16679  
 	}
-	manpower = 87721
+	manpower = 382197
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

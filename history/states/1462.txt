@@ -1,24 +1,25 @@
 state = {
 	id = 1462
 	name = "STATE_1462"
+	manpower = 141427
+
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # UPH
+		owner = ZZZ # URG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			schools = 1
+			barracks = 1
+			air_base = 1
 		}
-		victory_points = { 14731 3 }
-		victory_points = { 10243 3 }
-		# add_core_of = UPH
-		# add_core_of = PHI
-		# add_core_of = SPH
-		# set_state_flag = state_renamings
+		# add_core_of = URG
+		victory_points = { 15303 1 }
+		victory_points = { 12496 1 }
+		victory_points = { 15306 2 }
 	}
 
 	provinces = {
-		10300 14730 14731 14732 10243
+		12496 15303 15306
 	}
-	manpower = 730171
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
 }

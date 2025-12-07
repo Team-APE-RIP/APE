@@ -1,38 +1,18 @@
 state = {
 	id = 1810
 	name = "STATE_1810"
-	resources = {
-		steel = 86.000
-	}
-
 	history = {
-		owner = RUH
-		add_core_of = RUH
-		# add_core_of = GER
-		victory_points = {
-			15821 20
-		}
-		victory_points = {
-			3512 20
-		}
+		owner = ITA
+        add_core_of = ITA
 		buildings = {
-			air_base = 5
-			synthetic_refinery = 2
-			thermoelectric_plant = 3
-			hydroelectric_plant = 2
-			offices = 2
-			schools = 2
-			hospitals = 1
-			infrastructure = 7
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_category_large_city
 	}
-
 	provinces = {
-		3512 18143
+        17992
 	}
-	manpower = 2474105
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	state_category = pastoral
 	local_supplies = 0.000
 }

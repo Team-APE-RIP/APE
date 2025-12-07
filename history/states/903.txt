@@ -1,22 +1,29 @@
-state = { #Population Done
+state = {
 	id = 903
 	name = "STATE_903"
-	manpower = 63926
-	provinces = {
-		7123
-	}
+
 	history = {
-		owner = ZZZ # WIN
-		# add_core_of = WIN
-		# add_core_of = DMI
 		buildings = {
 			infrastructure = 2
-			7123 = {
-				naval_base = 1
-			}
 		}
-		victory_points = { 7123 1 }
+		owner = MEN
+		
+		victory_points = {
+			19393 5
+		}
+		victory_points = {
+			12544 5
+		}
+
+		# set_variable = { china_state_ref = 57 }
+		# set_variable = { china_region_ref = 7 }
 	}
-	state_category = tiny_island
+
+	provinces = {
+		12614 19393 19431 10695 4777 19430 19404 19416 19395 12544 7799
+	}
+	manpower = 205624
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

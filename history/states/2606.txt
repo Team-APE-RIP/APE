@@ -1,18 +1,39 @@
 state = {
 	id = 2606
 	name = "STATE_2606"
+	manpower = 452716
+
+	state_category = small_island
+
 	history = {
-		owner = MAN
-		# add_core_of = SHT
+		owner = ZZZ # CAN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			radar_station = 3
+			air_base = 5
+			12505 = {
+				naval_base = 3
+			}
+			thermoelectric_plant = 1
+			prisons = 1
+			barracks = 1
+			offices = 1
 		}
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = CAN
+		victory_points = { # St. John
+			12505 10 # provincial capital
+		}
+		victory_points = { # Gander
+			7758 1
+		}
+		victory_points = { # Corner Brook
+			7788 1
+		}
+
 	}
+
 	provinces = {
-		7871 19485 19748 10577 12559 4844 12569 19751
+		7758 7788 12505 12680 12698
 	}
-	manpower = 1026811
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

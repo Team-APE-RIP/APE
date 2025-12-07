@@ -3,37 +3,35 @@ state = {
 	name = "STATE_259"
 
 	history = {
-		owner = ZZZ # UKR
-		victory_points = {
-			6507 5
-		}
-		victory_points = {
-			6605 1
-		}
-		victory_points = {
-			559 1
-		}
-		victory_points = {
-			511 10
-		}
+		owner = ZZZ # SWE
 		buildings = {
-			schools = 1
-			offices = 1
-			hospitals = 1
-			barracks = 1
-			infrastructure = 4
-			thermoelectric_plant = 1
-			hydroelectric_plant = 1
+			infrastructure = 5
+			radar_station = 1
+			anti_air_building = 1
+			11160 = {
+				bunker = 2
+			}
+			barracks = 2
+			6120 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = UKR
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			11160 2
+		}
+		victory_points = {
+			9362 1
+		}
+		victory_points = {
+			9300 1
+		}
+		# add_core_of = SWE
 	}
 
 	provinces = {
-		511 559 582 3557 3584 6495 6507 6578 6605 9413 9491 9519 11504 18240 18241 15657
+		9362 9300 11160 6120
 	}
-	manpower = 1593688
+	manpower = 256559
 	buildings_max_level_factor = 1.000
 	state_category = town
 	local_supplies = 0.000

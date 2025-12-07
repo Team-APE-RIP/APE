@@ -1,26 +1,19 @@
-state = {
+state = { #Population Done
 	id = 1330
 	name = "STATE_1330"
-	resources = {
-		rubber = 2.000
-	}
-
-	impassable = yes
-
-	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		buildings = {
-			infrastructure = 1
-		}
-		# set_state_flag = GDP_regions_kalimantan
-	}
-
+	manpower = 49152
 	provinces = {
-		2170 5226
+		13420
 	}
-	manpower = 146429
+	history = {
+		owner = ZZZ # WIN
+		# add_core_of = WIN
+		# add_core_of = SKN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 13420 1 }
+	}
+	state_category = tiny_island
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

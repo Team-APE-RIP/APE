@@ -1,27 +1,32 @@
 state = {
 	id = 1852
 	name = "STATE_1852"
-	manpower = 2587861
-
-	state_category = rural
 
 	history = {
-		owner = TAW
-		add_core_of = TAW
-		# set_state_flag = state_renamings
+		owner = ZZZ # SLG
+		# add_claim_by = FRS
+		# add_core_of = SLG
+		# add_core_of = ALG
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			offices = 1
+			infrastructure = 3
+			radar_station = 1
 		}
-		victory_points = { 1091 10 }
-		victory_points = { 15893 5 }
-		# set_variable = { china_state_ref = 37 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_formosa
+		victory_points = {
+			7008 2
+		}
+		victory_points = {
+			13232 1
+		}
+		victory_points = {
+			18028 1
+		}
+
 	}
 
 	provinces = {
-		15893 15891 1091
+		7008 18045 13232 13074 18028 12018 18051 3991 18053
 	}
+	manpower = 183391
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

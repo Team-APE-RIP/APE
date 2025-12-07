@@ -5,7 +5,7 @@ APE_SE_SE = {
 			set_variable = { var_SE_ID = global.SE_ID }
 			meta_effect = {
 			    text = {
-				    play_song = music_SE_[GetAPESEID]
+				    scoped_play_song = music_SE_[GetAPESEID]
 				}
 				GetAPESEID = "[?var_SE_ID]"
 			}

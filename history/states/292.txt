@@ -1,24 +1,24 @@
-state = {
+state = { #Population Done
 	id = 292
 	name = "STATE_292"
-
-	history = {
-		owner = ZZZ # SAU
-		# add_core_of = SAU
-		buildings = {
-			infrastructure = 1
-		}
-		victory_points = {
-			13479 1
-		}
-		# set_state_flag = state_renamings
+	resources = {
+		steel = 8
 	}
-
 	provinces = {
-		2057 4968 5027 13469 13479 18544 18551 18569
+		3064 3166 6088 6100 6193 6199 9101 9124 9213 11061 13343
 	}
-	manpower = 114096
-	buildings_max_level_factor = 1.000
+	history = {
+		owner = ZZZ # WRS
+		buildings = {
+			infrastructure = 2
+			prisons = 1
+			barracks = 1
+		}
+		victory_points = { 9124 7 }
+		# add_core_of = WRS
+		# add_claim_by = MCW
+	}
+	manpower = 71000
 	state_category = pastoral
-	local_supplies = 0.000
+	buildings_max_level_factor = 1.000
 }

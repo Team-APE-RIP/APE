@@ -2,32 +2,28 @@ state = {
 	id = 620
 	name = "STATE_620"
 
-	resources = {
-		oil = 4
-		chromium = 6
-	}
-
 	history = {
-		owner = AUH
-		add_core_of = AUH
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
-			infrastructure = 3
+			air_base = 1
+			infrastructure = 2
 		}
 		victory_points = {
-			4009 8
+			1781 1
 		}
 		victory_points = {
-			19815 5
+			19420 1
 		}
-		# set_state_flag = GDP_regions_henan_sanyang
-		# set_variable = { china_state_ref = 29 }
-		# set_variable = { china_region_ref = 3 }
+		# set_variable = { china_state_ref = 43 }
+		# set_variable = { china_region_ref = 5 }
+
 	}
 
 	provinces = {
-		4009  19815
+		1781 1838 4704 4843 12598 19420
 	}
-	manpower = 2993538
+	manpower = 96822
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -1,18 +1,33 @@
-state = {
+state = { #Population Done
 	id = 2917
 	name = "STATE_2917"
+
+	manpower = 3581371
+	state_category = large_city
+
+	resources = {
+		oil = 1
+	}
+
 	history = {
-		owner = BHM
-        add_core_of = BHM
+		owner = OBK
+		add_core_of = OBK
+		# add_core_of = GER
+
+		victory_points = { 526 9 }
+		victory_points = { 11402 5 }
+
 		buildings = {
-			infrastructure = 3
+			hospitals = 1
+			radar_station = 2
+			infrastructure = 6
+			enrichment_plant = 1
+			thermoelectric_plant = 3
+			air_base = 2
 		}
 	}
+
 	provinces = {
-        9541
+		526 405 15823
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

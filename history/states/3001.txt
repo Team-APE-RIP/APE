@@ -1,17 +1,26 @@
 state = {
 	id = 3001
 	name = "STATE_3001"
+
 	history = {
-		owner = IPE
-		add_core_of = IPE
-		buildings = {
-			infrastructure = 3
+		owner = ZZZ
+		add_core_of = YUN
+		
+		victory_points = {
+			19622 4
 		}
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		# set_variable = { china_state_ref = 20 }
+		# set_variable = { china_region_ref = 2 }
 	}
+
 	provinces = {
-        6756 15114 932
+		10863 19622 19625 19655 19795
 	}
-	manpower = 87721
+	manpower = 1874041
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

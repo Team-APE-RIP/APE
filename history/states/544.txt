@@ -1,40 +1,30 @@
 state = {
 	id = 544
 	name = "STATE_544"
+	resources = {
+		oil = 22.000
+	}
 
 	history = {
-		owner = ZZZ # GRO
+		owner = ZZZ # CLL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
 		buildings = {
-			offices = 2
-			prisons = 2
-			barracks = 2
-			infrastructure = 4
-			anti_air_building = 1
-			radar_station = 2
-			air_base = 3
-			thermoelectric_plant = 2
-			13729 = {
-				naval_base = 4
-			}
+			infrastructure = 2
+			air_base = 1
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = GRO
+
 		victory_points = {
-			13729 10
-		}
-		victory_points = {
-			2180 1
-		}
-		victory_points = {
-			12971 1
+			15312 10
 		}
 	}
 
 	provinces = {
-		2180 5164 12971 13729 13741 13754
+		2592 2593 5026 15308 15312 15517 15627 17336 17339 17343 17349
 	}
-	manpower = 821239
+	manpower = 158979
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

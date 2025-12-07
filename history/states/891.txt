@@ -1,31 +1,28 @@
-state = {
+state = { #Population Done
 	id = 891
 	name = "STATE_891"
-	resources = {
-		tungsten = 4.000
-		steel = 8.000
-	}
-
-	history = {
-		owner = ZZZ # OMO
-		buildings = {
-			infrastructure = 1
-		}
-		# add_core_of = OMO
-		victory_points = {
-			5880 1
-		}
-		victory_points = {
-			8162 2
-		}
-		# set_state_flag = universal_renamings
-	}
-
 	provinces = {
-		5264 5880 5974 7268 8162 8475 8577 8645 13062 13063 13419
+		13577 15740 15741
 	}
-	manpower = 56689
+	history = {
+		owner = ZZZ # USA
+		# add_core_of = USA
+		buildings = {
+			hospitals = 1
+			barracks = 2
+			offices = 1
+			infrastructure = 5
+			air_base = 3
+			thermoelectric_plant = 3
+		}
+		victory_points = { # Wilmington
+			13577 10
+		}
+		victory_points = { # Dover
+			15740 3
+		}
+	}
+	manpower = 469000
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	state_category = city
 }

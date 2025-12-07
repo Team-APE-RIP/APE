@@ -1,18 +1,33 @@
 state = {
 	id = 2617
 	name = "STATE_2617"
+	manpower = 3726918
+
+	state_category = large_town
 	history = {
-		owner = MAN
-		# add_core_of = SHT
+		owner = KOR
+		add_core_of = KOR
+		# add_core_of = KOR
+		# add_core_of = JAP
+
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+			11948 = {
+				naval_base = 1
+			}
+			schools = 1
+			radar_station = 1
+			offices = 1
+			barracks = 1
 		}
+		victory_points = { 10110 15 }
+		
+
+
 	}
+
 	provinces = {
-	    19481 9798
+		10110 12085 11948 
 	}
-	manpower = 1026811
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

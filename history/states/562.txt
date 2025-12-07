@@ -1,46 +1,26 @@
 state = {
 	id = 562
 	name = "STATE_562"
-	resources = {
-		tungsten = 14.000
-		steel = 2.000
-		uranium = 2.000
-	}
 
 	history = {
-		owner = ZZZ # MAG
+		owner = YUN # XIK
+		# add_core_of = XIK
 		buildings = {
 			infrastructure = 2
-			air_base = 1
-			offices = 1
-			dockyard = 1
-			prisons = 1
-			thermoelectric_plant = 1
-			12683 = {
-				naval_base = 5
-			}
-		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = MAG
-		victory_points = {
-			12683 10
 		}
 		victory_points = {
-			8650 1
+			19747 7
 		}
-		victory_points = {
-			1865 1
-		}
-		victory_points = {
-			8552 1
-		}
+		# set_variable = { china_state_ref = 21 }
+		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		1865 5722 5791 5860 5887 6452 8552 8626 8650 10540 12551 12683
+		19693 19747 19652 8059 19664 19660
 	}
-	manpower = 245618
+	manpower = 261871
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,35 +1,31 @@
 state = {
 	id = 1138
 	name = "STATE_1138"
+	manpower = 566216
 
-	resources = {
-		aluminium = 20
-	}
+	state_category = town
 
 	history = {
-		owner = ZZZ # GRE
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # VEN
+
 		buildings = {
-			infrastructure = 4
+			schools = 1
+			offices = 3
+			hospitals = 1
+			barracks = 1
 			thermoelectric_plant = 1
+			infrastructure = 3
+			10912 = {
+				naval_base = 2
+			}
 		}
-		victory_points = {
-			7127 4
-		}
-		victory_points = {
-			16187 4
-		}
-		victory_points = {
-			1205 3
-		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = GRE
+		add_extra_state_shared_building_slots = 3
+		# add_core_of = VEN
+		victory_points = { 10912 3 }
+
 	}
 
 	provinces = {
-		1205 7127 13241 16186 1109 976 16187 11895 12001
+		10932 10912
 	}
-	manpower = 781535
-	buildings_max_level_factor = 1.000
-	state_category = rural
 }

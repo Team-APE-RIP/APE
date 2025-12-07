@@ -1,36 +1,31 @@
-state = { #Population Done
+state = {
 	id = 2515
 	name = "STATE_2515"
-	manpower = 133148
-	
+
 	resources = {
-		oil = 12
+		tungsten = 4
 	}
-	
-	state_category = small_island
 
 	history = {
-		owner = ZZZ # SUR
-		victory_points = { 19991 1 }
-		add_extra_state_shared_building_slots = 1
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 2
-			radar_station = 3
-			offices = 2
-			barracks = 1
-			air_base = 2
-			19991 = {
-				naval_base = 2
-				coastal_bunker = 2
-			}
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_category_metropolis
-		# add_core_of = SUR
-		# add_core_of = CUR
+		victory_points = {
+			4125 5
+		}
+		
+
+		# set_variable = { china_state_ref = 28 }
+		# set_variable = { china_region_ref = 3 }
 	}
 
 	provinces = {
-		19991
+		4125 19689 12378 19676 1023
 	}
+	manpower = 3558526
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

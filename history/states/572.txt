@@ -1,29 +1,19 @@
-state = { #Population Done
+state = {
 	id = 572
 	name = "STATE_572"
-	resources = {
-		aluminium = 15
-	}
-
 	history = {
-		owner = ZZZ # TYM
+		
+		owner = IPC
+		add_core_of = IPC
 		buildings = {
-			infrastructure = 2
-			thermoelectric_plant = 1
-			prisons = 1
-			barracks = 1
+			infrastructure = 3
 		}
-
-		victory_points = { 1292 10 }
-		victory_points = { 12106 3 }
-		# set_state_flag = GDP_category_town
-		# add_core_of = TYM
 	}
-
 	provinces = {
-		1292 1294 1327 1775 4242 10170 10542 12106 13307 12102 7285 12584
+        4095 1192 7196 
 	}
-	manpower = 514000
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

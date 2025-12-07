@@ -1,34 +1,37 @@
 state = {
 	id = 76
 	name = "STATE_76"
-	manpower = 1086655
 
-	state_category = large_town
+	resources = {
+		steel = 12
+		aluminium = 16
+	}
 
 	history = {
-		victory_points = { 3696 10 }
-		victory_points = {
-			6711 15
-		}
-		victory_points = { 9687 1 }
-		victory_points = { 713 1 }
-		owner = ZZZ # HUN
+		owner = ZZZ # AZH
+		victory_points = { 10358 15 }
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 2
-			offices = 1
-			schools = 1
+			infrastructure = 3
 			barracks = 1
-			hospitals = 1
 			prisons = 1
+			offices = 1
+			16106 = {
+				bunker = 3
+			}
+			10358 = {
+				bunker = 1
+			}
 		}
-		# add_claim_by = ROM
-		# add_core_of = HUN
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_transylvania
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		713 3696 3709 6711 6714 9687
+		10358 16106
 	}
+	manpower = 2049911
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

@@ -1,22 +1,42 @@
 state = {
 	id = 1891
 	name = "STATE_1891"
-	provinces = {
-		8098
-	}
+	manpower = 53517
+
+	state_category = tiny_island
+
 	history = {
-		owner = ZZZ # KLT
-		victory_points = { 8098 1 }
+		owner = ZZZ
+		#add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			13041 = {
+				naval_base = 3
+			}
+			13043 = {
+				naval_base = 1
+			}
+			13046 = {
+				naval_base = 1
+			}
+			1002 = {
+				naval_base = 1
+			}
+			13039 = {
+				naval_base = 1
+			}
+			13045 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = KLT
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = state_renamings
+		victory_points = { 13041 3 }
+		victory_points = { 13046 1 }
 	}
-	manpower = 86333
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+
+	provinces = {
+		1002 13039 13041 13043 13044 13045 13046
+	}
 }

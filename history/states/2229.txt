@@ -1,28 +1,17 @@
 state = {
 	id = 2229
 	name = "STATE_2229"
-	resources = {
-		rubber = 6
-	}
-
 	history = {
-		owner = KCJ
-		add_core_of = KCJ
-		# add_core_of = THA
-		# add_core_of = KCD
+		owner = KCD
+		add_core_of = KCD
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		victory_points = {
-			10177 1
-		}
-		# set_state_flag = GDP_regions_thai_cambodia
 	}
-
 	provinces = {
-		10134 1353 10177
+	    4330
 	}
-	manpower = 389750
+	manpower = 1087721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

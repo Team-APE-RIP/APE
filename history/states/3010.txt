@@ -1,18 +1,24 @@
 state = {
 	id = 3010
 	name = "STATE_3010"
+	manpower = 886323
+
+	state_category = town
+
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			thermoelectric_plant = 3
+			radar_station = 1
+		}
+		victory_points = {
+			15861 10
 		}
 	}
+
 	provinces = {
-        11737 3909 3954
+		15861 15862
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

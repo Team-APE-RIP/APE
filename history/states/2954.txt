@@ -1,17 +1,30 @@
 state = {
 	id = 2954
 	name = "STATE_2954"
+	resources = {
+		aluminium = 16
+	}
+
 	history = {
-		owner = ITF
-        add_core_of = ITF
+		owner = GUX
+		add_core_of = GUX
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
+		victory_points = {
+			4121 2
+		}
+		victory_points = {
+			4656 3
+		}
+		# set_variable = { china_state_ref = 19 }
+		# set_variable = { china_region_ref = 2 }
 	}
+
 	provinces = {
-        910 14651
+		4656 1469 19497 19544 19064 19476
 	}
-	manpower = 87721
+	manpower = 1445817
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -1,18 +1,24 @@
 state = {
 	id = 2944
 	name = "STATE_2944"
+
+	resources = {
+		rubber = 2
+	}
+
 	history = {
-		owner = ITA
-        add_core_of = ITA
+		owner = ELO
+		add_core_of = ELO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 	}
+
 	provinces = {
-        18001 14645
+		4554 13211 7426
 	}
-	manpower = 87721
+	manpower = 199432
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

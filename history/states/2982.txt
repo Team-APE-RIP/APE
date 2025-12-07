@@ -2,17 +2,23 @@ state = {
 	id = 2982
 	name = "STATE_2982"
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = ZZZ # BUL
+		victory_points = { 3796 7 }
+		victory_points = { 6842 3 }
+		victory_points = { 3952 3 }
+		victory_points = { 3819 2 }
 		buildings = {
-			infrastructure = 3
+			thermoelectric_plant = 1
+			infrastructure = 4
+			schools = 1
 		}
+		# add_core_of = BUL
 	}
+
 	provinces = {
-        6907 874 6867 9770
+		3796 3819 3952 6842 9610
 	}
-	manpower = 87721
+	manpower = 1091770
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

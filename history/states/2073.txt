@@ -1,20 +1,33 @@
 state = {
 	id = 2073
-	name = "STATE_2073" # Galindez Island
-	manpower = 1
-
-	state_category = wasteland
+	name = "STATE_2073"
+	resources = {
+		aluminium = 6.000
+	}
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_claim_by = ENG
+		owner = ZZZ # BRA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3
+			radar_station = 1
+			air_base = 1
+			barracks = 1
 		}
+		# add_core_of = BRA
+		victory_points = {
+			2168 1
+		}
+		victory_points = {
+			17478 0
+		}
+
 	}
 
 	provinces = {
-		17689
+		17475 17470 14777 14778 17478 5151 2168
 	}
+	manpower = 385702
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

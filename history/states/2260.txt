@@ -1,24 +1,18 @@
 state = {
 	id = 2260
 	name = "STATE_2260"
-	resources = {
-		rubber = 4
-	}
-
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_south_thailand
 	}
-
 	provinces = {
-		10156
+        11488 11642
 	}
-	manpower = 127685
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

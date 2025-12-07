@@ -1,23 +1,47 @@
 state = {
 	id = 2444
 	name = "STATE_2444"
-	manpower = 7902
-	state_category = tiny_island
+
+	resources = {
+		aluminium = 8
+		steel = 6
+	}
 
 	history = {
-		owner = ZZZ # CAN
-		# add_core_of = CAN
-		# add_claim_by = ENG
+		owner = ZZZ # KYR
 		buildings = {
-			infrastructure = 4
-			2134 = {
-				naval_base = 2
-			}
+			infrastructure = 3
+			barracks = 1
+			radar_station = 1
 		}
-		victory_points = { 2134 1 }
+		victory_points = {
+			18672 6
+		}
+		victory_points = {
+			1483 3
+		}
+		victory_points = {
+			2058 3
+		}
+		victory_points = {
+			18664 2
+		}
+		victory_points = {
+			12430 1
+		}
+		victory_points = {
+			13259 1
+		}
+		# add_core_of = KYR
+
+
 	}
 
 	provinces = {
-		2134
+		10660 13262 13259 10408 18664 18698 13258 1483 18672 18663 13254 2058 13253 12581 18647 18638 12430
 	}
+	manpower = 989275
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

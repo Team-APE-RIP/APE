@@ -1,26 +1,24 @@
 state = {
 	id = 2007
 	name = "STATE_2007"
+	manpower = 155433
+
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # ENG
-		victory_points = { 11297 15 }
-		victory_points = { 16368 2 }
+		owner = TAW
+		add_core_of = TAW
+
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			radar_station = 1
-			11297 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
-		# add_core_of = ENG
+		victory_points = { 1175 1 }
+		# set_variable = { china_state_ref = 37 }
+		# set_variable = { china_region_ref = 4 }
+
 	}
 
 	provinces = {
-		11297 9269 16368
+		15894 1175
 	}
-	manpower = 461738
-	buildings_max_level_factor = 1.000
-	state_category = city
 }

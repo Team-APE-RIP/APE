@@ -1,39 +1,28 @@
-state = { #Population Done
+state = {
 	id = 36
 	name = "STATE_36"
-	manpower = 1264059
-
-	state_category = town
+	resources = {
+		rubber = 14
+	}
 
 	history = {
-		owner = NTL
-        add_core_of = NTL
-		# add_core_of = HOL
-		victory_points = { 11318 10 }
-		victory_points = { 9309 8 }
-		victory_points = { 6336 8 }
-		victory_points = { 9335 1 }
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 3
-			offices = 1
-			hospitals = 1
-			barracks = 1
-			6336 = {
-				naval_base = 3
-				coastal_bunker = 2
-			}
-			9335 = {
-				coastal_bunker = 2
-			}
-			11318 = {
-				coastal_bunker = 2
-			}
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_category_large_city
+		victory_points = {
+			7399 1
+		}
+		owner = ZZZ # SHO
+		# add_core_of = SHO
+		# add_core_of = MLY
+
 	}
 
 	provinces = {
-		11318 9335 9456
+		1392 4367 4384 7399 12255 12271 14695 14698 19321
 	}
+	manpower = 359739
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

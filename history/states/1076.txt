@@ -1,26 +1,26 @@
-state = { #Population Done
+state = {
 	id = 1076
 	name = "STATE_1076"
-	resources = {
-		rubber = 1
-	}
-	provinces = {
-		2193 5177 5212 13675 15382
-	}
+
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
-		victory_points = { 15382 2 }
-		victory_points = { 2193 1 }
-		victory_points = { 5212 1 }
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
-			schools = 1
-			offices = 1
-			hospitals = 1
-			infrastructure = 2
+			infrastructure = 3
+			12232 = {
+				naval_base = 3
+			}
+			prisons = 1
+			dockyard = 1
 		}
+		victory_points = { 12232 5 }
+
 	}
-	state_category = rural
-	manpower = 583059
+
+	provinces = {
+		12232 10232 19039 19067
+	}
+	manpower = 1160783
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

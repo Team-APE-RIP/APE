@@ -1,21 +1,25 @@
 state = {
 	id = 1965
 	name = "STATE_1965"
-	manpower = 407914
+	manpower = 863644
 
-	state_category = pastoral
+	state_category = town
 
+	resources = {
+		power = 3
+	}
 
 	history = {
-		owner = ZZZ # TNS
-		victory_points = { 3757 1 }
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			hydroelectric_plant = 2
 		}
-		# add_core_of = TNS
+		victory_points = { 1051 10 }
 	}
 
 	provinces = {
-		3757 3575 16163
+		15875 1051
 	}
 }

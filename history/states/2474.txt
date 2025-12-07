@@ -1,29 +1,24 @@
 state = {
 	id = 2474
 	name = "STATE_2474"
-
 	resources = {
-		rubber = 20
+		rubber = 4
 	}
 
 	history = {
-		owner = WZS
-		add_core_of = WZS
-		victory_points = {
-			8347 3
-		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
 			infrastructure = 2
 		}
-		# set_variable = { china_state_ref = 36 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_hainan
+		victory_points = { 1342 1 }
+
 	}
 
 	provinces = {
-		11990 8347 5346
+		19332 19347 12209 1342 15698
 	}
-	manpower = 898586
+	manpower = 587367
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

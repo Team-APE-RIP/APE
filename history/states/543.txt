@@ -1,32 +1,26 @@
 state = {
 	id = 543
 	name = "STATE_543"
+	resources = {
+		rubber = 3.000
+	}
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
-		victory_points = { 15914 3 }
-		victory_points = { 15916 1 }
-		add_extra_state_shared_building_slots = 2
-		buildings = {
-			air_base = 1
-			barracks = 1
-			dockyard = 1
-			offices = 1
-			radar_station = 1
-			infrastructure = 2
-			15914 = {
-				naval_base = 3
-			}
+		owner = ZZZ # CAO
+		# add_core_of = CAO
+		victory_points = {
+			14118 1
 		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_rural
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces = {
-		15914 13793 15915 13769 15916 5128 13742
+		3619 4938 4972 5028 14118 14120 14168 14543 15905 17964
 	}
-	manpower = 576536
+	manpower = 1801760
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

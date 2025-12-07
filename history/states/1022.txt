@@ -1,42 +1,36 @@
-state = {
+state = { #Population Done
 	id = 1022
 	name = "STATE_1022"
 	resources = {
-		steel = 6
-		oil = 6
+		aluminium = 10
+		steel = 8
 	}
-
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = ZZZ # WRS
+		victory_points = { 3338 15 }
+		victory_points = { 3168 7 }
+		victory_points = { 312 3 }
 		buildings = {
+			infrastructure = 4
+			air_base = 3
+			thermoelectric_plant = 1
+			3338 = {
+				naval_base = 3
+			}
+			barracks = 1
 			offices = 1
-			infrastructure = 3
+			schools = 1
+			hospitals = 1
 		}
-		victory_points = {
-			1184 17
-		}
-		victory_points = {
-			4071 5
-		}
-		victory_points = {
-			7089 5
-		}
-		victory_points = {
-			19880 5
-		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = GDP_regions_shandong_taiyue
-		# set_variable = { china_state_ref = 13 }
-		# set_variable = { china_region_ref = 1 }
-		# set_state_flag = GDP_category_town
+		# add_core_of = WRS
+		# add_claim_by = MCW
+
 	}
 
 	provinces = {
-		1184 4071 7089 12074 19880
+		312 3130 3168 3338 6102 11171
 	}
-	manpower = 4718762
+	manpower = 621000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

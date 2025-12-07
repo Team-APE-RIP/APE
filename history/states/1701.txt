@@ -3,28 +3,26 @@ state = {
 	name = "STATE_1701"
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = ZZZ # EGY
+		# add_core_of = EGY
 		victory_points = {
-			11884 7
+			14038 1
 		}
 		victory_points = {
-			9903 2
-		}
-		victory_points = {
-			942 2
+			14049 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# add_core_of = IBR
+
+
 	}
 
 	provinces = {
-		832 3835 9903 11807 11884
+		1953 4033 7996 14038 14049
 	}
-	manpower = 377236
+	manpower = 690229
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

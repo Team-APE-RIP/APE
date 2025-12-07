@@ -1,32 +1,32 @@
-state = {
+state = { #Population Done
 	id = 1656
 	name = "STATE_1656"
-	resources = {
-		steel = 4.000
-	}
+	manpower = 673800
 
+	state_category = small_island
 	history = {
-		owner = ZZZ # COL
-		# add_core_of = COL
-		# add_core_of = CLC
-		# add_core_of = CLL
+		owner = ZZZ # GRE
+		victory_points = { 9940 6 }
+		victory_points = { 12058 4 }
+		victory_points = { 1164 1 }
 		buildings = {
 			infrastructure = 3
-			prisons = 1
+			air_base = 3
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+			radar_station = 2
+			12058 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
 		}
-		victory_points = {
-			15320 1
-		}
-		victory_points = {
-			15319 1
-		}
-	}
 
-	provinces = {
-		2472 2834 2968 15319 15320 17355
+		# add_core_of = GRE
 	}
-	manpower = 559766
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	provinces = {
+		1164 4170 9940 12058
+	}
 }

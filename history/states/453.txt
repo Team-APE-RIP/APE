@@ -3,31 +3,36 @@ state = {
 	name = "STATE_453"
 
 	resources = {
-		oil = 5
+		steel = 10
 	}
 
 	history = {
-		owner = ZZZ # EGY
-		victory_points = {
-			11979 1
-		}
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
 			infrastructure = 2
-			11979 = {
-				naval_base = 2
-			}
-			10099 = {
-				naval_base = 2
-			}
+			prisons = 1
 		}
-		# add_core_of = EGY
-		# set_state_flag = state_renamings
+		victory_points = {
+			4158 5
+		}
+		victory_points = {
+			12426 4
+		}
+		victory_points = {
+			19471 10
+		}
+		add_extra_state_shared_building_slots = 1
+
+		# set_variable = { china_state_ref = 29 }
+		# set_variable = { china_region_ref = 3 }
+
 	}
 
 	provinces = {
-		1112 4161 9947 10002 10099 11922 11979 12073 15767 17980 18587
+		19471 12426 4158 10462 
 	}
-	manpower = 154968
+	manpower = 9559819
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

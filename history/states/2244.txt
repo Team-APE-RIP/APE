@@ -2,24 +2,21 @@ state = {
 	id = 2244
 	name = "STATE_2244"
 
-	resources = {
-		aluminium = 2
-	}
-
 	history = {
-		owner = ELO
-		add_core_of = ELO
+		owner = ZZZ # IBR
+		# add_core_of = IBR
+		# add_core_of = MOR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		victory_points = { 1520 1 }
+
+
 	}
 
 	provinces = {
-		1362 1390 1520 10326 4260 9988 19052 
+		5012 14339 14347 14356 14368 18030
 	}
-	manpower = 148941
+	manpower = 1202
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = wasteland
 }

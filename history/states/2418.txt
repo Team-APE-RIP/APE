@@ -1,38 +1,26 @@
 state = {
 	id = 2418
 	name = "STATE_2418"
-	resources = {
-		steel = 6
-	}
 
 	history = {
-		owner = CHI # SHX
-		# add_core_of = SHX
-		victory_points = {
-			19581 2
-		}
-		victory_points = {
-			4469 3
-		}
-		victory_points = {
-			1438 1
-		}
-		victory_points = {
-			13230 2
-		}
+		owner = ZZZ # IEA
+		# add_core_of = IEA
+		victory_points = { 8124 4 }
 		buildings = {
-			infrastructure = 2
+			barracks = 1
+			infrastructure = 3
+			radar_station = 1
+			8124 = {
+				naval_base = 2
+			}
 		}
-		# set_state_flag = GDP_regions_shanxi
-		# set_variable = { china_state_ref = 14 }
-		# set_variable = { china_region_ref = 1 }
+
 	}
 
 	provinces = {
-		19581 4469 1438 1027 13230 16577 
+		8124 10777 15547
 	}
-	manpower = 1476129
+	manpower = 93636
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

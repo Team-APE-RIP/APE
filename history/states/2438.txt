@@ -3,27 +3,28 @@ state = {
 	name = "STATE_2438"
 
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = ALG
+		# add_core_of = ILG
+		victory_points = { 18078 4 }
+		victory_points = { 4131 2 }
+		victory_points = { 1128 1 }
+		victory_points = { 4146 1 }
+		victory_points = { 7033 1 }
+		victory_points = { 18010 3 }
+		victory_points = { 18044 2 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			offices = 1
 		}
-		add_extra_state_shared_building_slots = 2
-		# set_demilitarized_zone = yes
-		# set_state_flag = GDP_regions_chuanxi
-		# set_variable = { china_state_ref = 17 }
-		# set_variable = { china_region_ref = 2 }
-		# set_state_flag = GDP_category_town
-		victory_points = {
-			19819 17
-		}
+
 	}
 
 	provinces = {
-		19819
+		1128 4131 4146 7033 18078 7040 9960 18010 18013 18044
 	}
-	manpower = 5006907
-	buildings_max_level_factor = 2.000
-	state_category = pastoral
-	local_supplies = 0.000
+	manpower = 753831
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

@@ -2,33 +2,46 @@ state = {
 	id = 1758
 	name = "STATE_1758"
 
-	resources = {
-		steel = 16
-	}
-
 	history = {
-		owner = ZZZ # ILG
-		# add_claim_by = FRS
-		# add_core_of = ILG
-		# add_core_of = ALG
-		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			barracks = 1
-			offices = 1
+		owner = ZZZ # SAF
+		victory_points = {
+			13488 30
 		}
-		victory_points = { 7166 10 }
-		victory_points = { 18076 10 }
-		victory_points = { 18082 3 }
-		victory_points = { 13077 2 }
-		# set_state_flag = GDP_category_town
-		# set_state_flag = state_renamings
+		victory_points = {
+			12589 4
+		}
+		victory_points = {
+			13493 3
+		}
+		victory_points = {
+			13490 2
+		}
+		# add_core_of = SAF
+		buildings = {
+			thermoelectric_plant = 4
+			hospitals = 1
+			schools = 2
+			prisons = 1
+			offices = 2
+			barracks = 2
+			infrastructure = 5
+			radar_station = 4
+			synthetic_refinery = 2
+			air_base = 3
+			13488 = {
+				naval_base = 5
+			}
+			dockyard = 2
+		}
+		add_extra_state_shared_building_slots = 2
+
 	}
 
 	provinces = {
-		13077 7166 4046 18076 18082
+		12589 13486 13487 13488 13490 13492 13493 13494 13496 13498 17829 17830 17834 17836 17837 17839
 	}
-	manpower = 1105493
+	manpower = 3925711
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = city
+	local_supplies = 0.000
 }

@@ -1,18 +1,35 @@
 state = {
 	id = 2659
 	name = "STATE_2659"
+	resources = {
+		steel = 6
+		chromium = 2
+	}
+
 	history = {
-		owner = NLO
-		add_core_of = NLO
-		# add_core_of = LAO
-		buildings = {
-			infrastructure = 1
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			19793 2
 		}
+		
+		victory_points = {
+			19731 3
+		}
+		victory_points = {
+			7965 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		# set_variable = { china_state_ref = 20 }
+		# set_variable = { china_region_ref = 2 }
 	}
+
 	provinces = {
-	    1592
+		7965 12789 12898 19674 19731 19793 8531
 	}
-	manpower = 1087721
+	manpower = 2387665
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

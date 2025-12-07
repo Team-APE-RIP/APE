@@ -1,58 +1,24 @@
 state = {
 	id = 160
 	name = "STATE_160"
-	resources = {
-		steel = 32.000
-		aluminium = 18.000
-	}
-
 	history = {
-		owner = ITA
-		add_core_of = ITA
-		victory_points = {
-			11584 15
-		}
-		victory_points = {
-			17997 10
-		}
-		victory_points = {
-			6656 7
-		}
-		victory_points = {
-			18001 10
-		}
-		victory_points = {
-			14644 4
-		}
-		victory_points = {
-			3604 10
-		}
-		victory_points = {
-			9582 4
-		}
-		victory_points = {
-			18000 2
-		}
+		owner = ZZZ # BRA
 		buildings = {
-			offices = 1
-			hydroelectric_plant = 1
-			thermoelectric_plant = 1
-			infrastructure = 5
-			air_base = 3
-			schools = 1
-			11584 = {
-				naval_base = 6
-			}
+			radar_station = 3
+			air_base = 2
+			infrastructure = 3
+			barracks = 2
 		}
-		# add_core_of = ITA
-		# set_state_flag = GDP_regions_veneto
+		# add_core_of = BRA
+		victory_points = { 10939 10 }
+		victory_points = { 10998 5 }
+
 	}
 
 	provinces = {
-		11584 9582 6656
+		1524 10939 10998
 	}
-	manpower = 3687908
+	manpower = 1256159
 	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
+	state_category = pastoral
 }

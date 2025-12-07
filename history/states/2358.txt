@@ -2,27 +2,28 @@ state = {
 	id = 2358
 	name = "STATE_2358"
 
+	resources = {
+		oil = 4
+	}
+
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
+		victory_points = {
+			6460 3
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			10822 5
-		}
-		victory_points = {
-			15708 4
-		}
-		# set_state_flag = GDP_regions_chuandong
-		# set_variable = { china_state_ref = 16 }
-		# set_variable = { china_region_ref = 2 }
+
+
 	}
 
 	provinces = {
-		10304 19645 10822 19690 15708
+		6460 9425 11411 13018
 	}
-	manpower = 3886426
+	manpower = 391588
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

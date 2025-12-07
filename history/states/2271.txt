@@ -1,23 +1,35 @@
 state = {
 	id = 2271
 	name = "STATE_2271"
-	manpower = 284131
-	state_category = pastoral
-	resources = {
-		rubber = 4
-		oil = 8
-	}
+
 	history = {
-		owner = ZZZ # INS
+		owner = ZZZ # ROM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			thermoelectric_plant = 1
 		}
-		victory_points = { 19271 1 }
-		# add_core_of = INS
-		# set_state_flag = GDP_regions_djambi
+		victory_points = {
+			3577 6
+		}
+		victory_points = {
+			11705 1
+		}
+		victory_points = {
+			414 1
+		}
+		victory_points = {
+			11686 10
+		}
+		add_extra_state_shared_building_slots = 1
+
+		# add_core_of = ROM
 	}
 
 	provinces = {
-		19271 19305 15702 1533 19228 19236
+		414 565 3577 6600 11686 11705
 	}
+	manpower = 1629731
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

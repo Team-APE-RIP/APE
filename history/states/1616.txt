@@ -1,34 +1,31 @@
 state = {
 	id = 1616
 	name = "STATE_1616"
-	manpower = 517995
-
-	state_category = large_town
-
 	resources = {
-		steel = 2
+		steel = 6
 	}
 
 	history = {
-		owner = ZZZ # PAR
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			offices = 1
-			hospitals = 1
-			barracks = 2
-			prisons = 1
-			infrastructure = 4
-			air_base = 1
-			radar_station = 1
-			thermoelectric_plant = 1
-			schools = 1
+			barracks = 1
+			infrastructure = 3
 		}
-		# add_core_of = PAR
-		victory_points = { 2152 15 }
-		# set_state_flag = state_renamings
+		victory_points = {
+			19159 1
+		}
+		victory_points = {
+			1990 1
+		}
+
 	}
 
 	provinces = {
-		2152
+		1990 4496 7531 19069 19079 19159 19160
 	}
-
+	manpower = 1826754
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

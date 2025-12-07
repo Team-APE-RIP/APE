@@ -1,24 +1,17 @@
 state = {
 	id = 1485
 	name = "STATE_1485"
-
 	history = {
-		owner = ZZZ # BRA
+		owner = ITE
+        add_core_of = ITE
 		buildings = {
 			infrastructure = 3
-			prisons = 1
 		}
-		# add_core_of = BRA
-		victory_points = {
-			8143 10
-		}
-		# set_state_flag = GDP_category_rural
 	}
-
 	provinces = {
-		8143 14771 17413
+        14657 963 3910
 	}
-	manpower = 751718
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

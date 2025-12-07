@@ -1,20 +1,18 @@
 state = {
 	id = 487
 	name = "STATE_487"
-
 	history = {
-		owner = ZZZ # BOL
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		# add_core_of = BOL
 	}
-
 	provinces = {
-		8157 12973 15344 17499 17532
+        11863 9881 6800
 	}
-	manpower = 42500
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

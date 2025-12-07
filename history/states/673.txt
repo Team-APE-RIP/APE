@@ -2,25 +2,26 @@ state = {
 	id = 673
 	name = "STATE_673"
 
+	resources = {
+		steel = 4
+		chromium = 8
+	}
+
 	history = {
-		victory_points = {
-			7598 1
-		}
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # ALB
 		buildings = {
-			infrastructure = 2
-			7598 = {
-				naval_base = 1
-			}
+			barracks = 1
+			infrastructure = 3
 		}
+		victory_points = { 9875 2 }
+		# add_core_of = ALB
+
 	}
 
 	provinces = {
-		7598 19197 19300
+		14677 16195 9875
 	}
-	manpower = 357938
+	manpower = 335393
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

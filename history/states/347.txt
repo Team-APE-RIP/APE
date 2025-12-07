@@ -2,29 +2,27 @@ state = {
 	id = 347
 	name = "STATE_347"
 	resources = {
-		steel = 12
+		chromium = 2.000
 	}
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 16207 8 }
-		victory_points = { 16209 8 }
-		victory_points = { 11811 2 }
+		owner = ZZZ # KAZ
+		# add_core_of = KAZ
 		buildings = {
-			infrastructure = 5
-			prisons = 1
-			16207 = {
-				naval_base = 2
-			}
+			infrastructure = 3
+			air_base = 1
 		}
-		# set_state_flag = GDP_category_large_town
-		# add_core_of = TUR
+		victory_points = { 12594 10 }
+		victory_points = { 10584 1 }
+		victory_points = { 7784 3 }
+
 	}
 
 	provinces = {
-		16207 16209 16258 16259 11811
+		1668 4661 4674 7784 10218 10584 10653 10680 12594 12635 12662 18819
 	}
-	manpower = 684126
+	manpower = 520229
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
+	local_supplies = 0.000
 }

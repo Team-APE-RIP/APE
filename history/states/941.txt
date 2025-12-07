@@ -1,20 +1,26 @@
 state = {
 	id = 941
 	name = "STATE_941"
+	manpower = 779407
+
+	state_category = rural
+
 
 	history = {
-		owner = ZZZ # GBE
-		# add_core_of = GBE
+		owner = ZZZ # TNS
+		# add_core_of = TNS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			offices = 1
+			prisons = 1
+			thermoelectric_plant = 1
 		}
+		victory_points = { 754 1 }
+		victory_points = { 741 6 }
+
 	}
 
 	provinces = {
-		7424 11718 12762 12785 12843 12874 14104 14117 14236 15425
+		741 9714 754 9576 16162
 	}
-	manpower = 446000
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

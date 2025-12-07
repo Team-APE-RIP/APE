@@ -1,25 +1,40 @@
 state = {
 	id = 297
 	name = "STATE_297"
+	resources = {
+		chromium = 15.000
+	}
 
 	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		# set_state_flag = state_renamings
-		victory_points = {
-			13976 4
-		}
+		owner = ZZZ # GRO
+		# add_core_of = GRO
+
 		buildings = {
-			hospitals = 1
 			barracks = 1
 			infrastructure = 2
+			radar_station = 1
+		}
+		victory_points = {
+			13882 3
+		}
+		victory_points = {
+			13853 1
+		}
+		victory_points = {
+			13853 1
+		}
+		victory_points = {
+			13880 1
+		}
+		victory_points = {
+			14419 1
 		}
 	}
 
 	provinces = {
-		5036 13391 13958 13976 13985 15442
+		4229 13375 13853 13862 13876 13880 13882 13885 13893 13895 14413 14419 17868 17869 17873 17881
 	}
-	manpower = 285000
+	manpower = 1238909
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

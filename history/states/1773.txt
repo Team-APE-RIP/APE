@@ -1,34 +1,34 @@
 state = {
 	id = 1773
 	name = "STATE_1773"
-	resources = {
-		oil = 12.000
-	}
+	manpower = 1202757
 
+	state_category = city
+
+	resources = {
+		steel = 2
+		oil = 1
+	}
 	history = {
-		owner = ZZZ # IRQ
-		# add_core_of = IRQ
-		victory_points = {
-			2004 10
-		}
-		victory_points = {
-			16319 4
-		}
-		victory_points = {
-			15748 8
-		}
+		owner = ZZZ # URG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			thermoelectric_plant = 1
+			offices = 1
+			hospitals = 1
+			schools = 1
+			air_base = 1
+			10362 = {
+				naval_base = 6
+				bunker = 1
+				coastal_bunker = 1
+			}
 		}
-		## set_state_flag = GDP_category_town
-		# set_state_flag = universal_renamings
+		# add_core_of = URG
+		victory_points = { 10362 20 }
 	}
 
 	provinces = {
-		2004 8001 15748 16312 16319 18452
+		10362
 	}
-	manpower = 544403
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

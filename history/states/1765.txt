@@ -2,33 +2,28 @@ state = {
 	id = 1765
 	name = "STATE_1765"
 	resources = {
-		rubber = 20
-		oil = 20
+		tungsten = 3.000
 	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		victory_points = {
-			19203 5
-		}
-		victory_points = {
-			19202 1
-		}
+		owner = ZZZ # SAF
+		# add_core_of = SAF
 		buildings = {
-			infrastructure = 4
-			air_base = 3
 			barracks = 1
+			offices = 1
+			infrastructure = 2
 			radar_station = 1
 		}
-		# set_state_flag = GDP_regions_medan
+		victory_points = {
+			13681 1
+		}
 	}
 
 	provinces = {
-		15670 19202 19203 19217
+		12963 13681 13687 13691 17843
 	}
-	manpower = 1556682
+	manpower = 55147
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

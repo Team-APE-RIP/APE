@@ -1,36 +1,28 @@
 state = {
 	id = 2353
 	name = "STATE_2353"
-
-	resources = {
-		steel = 16
-	}
+	state_category = small_island
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
-		add_core_of = SIC
+		owner = ZZZ # ITA
+		victory_points = { 14434 5 }
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			infrastructure = 5
+			radar_station = 3
+			air_base = 3
+			14434 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
 		}
-		victory_points = {
-			1612 15
-		}
-		victory_points = {
-			19618 3
-		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = GDP_regions_hubei
-		# set_variable = { china_state_ref = 26 }
-		# set_variable = { china_region_ref = 3 }
-		# set_state_flag = GDP_category_town
+
+		# add_core_of = ITA
 	}
 
 	provinces = {
-		19770 19631 7596 19618 1612 
+		14434
 	}
-	manpower = 2142289
+	manpower = 324600
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

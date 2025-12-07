@@ -3,28 +3,47 @@ state = {
 	name = "STATE_1269"
 
 	history = {
-		owner = ZZZ # BUL
+		owner = EPA
+		add_core_of = EPA
 		victory_points = {
-			9862 5
+			1048 10
 		}
 		victory_points = {
-			6814 8
+			7183 30
 		}
 		victory_points = {
-			6952 4
+			9815 7
+		}
+		victory_points = {
+			4080 1
+		}
+		victory_points = {
+			1178 5
+		}
+		victory_points = {
+			10094 4
+		}
+		victory_points = {
+			4182 3
 		}
 		buildings = {
-			infrastructure = 4
-			offices = 1
+			thermoelectric_plant = 2
+			schools = 1
+			infrastructure = 5
+			air_base = 1
+			1048 = {
+				naval_base = 3
+			}
 		}
-		# add_core_of = BUL
+		# add_core_of = IBR
+
 	}
 
 	provinces = {
-		6814 6952 9862 18211
+		1048
 	}
-	manpower = 693762
+	manpower = 2293676
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = city
 	local_supplies = 0.000
 }

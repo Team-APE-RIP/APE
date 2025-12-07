@@ -3,21 +3,29 @@ state = {
 	name = "STATE_2225"
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
-		buildings = {
-			infrastructure = 2
+		owner = ZZZ # AZH
+		victory_points = {
+			16097 2
 		}
 		victory_points = {
-			4319 1
+			18945 10
 		}
-		# set_state_flag = GDP_regions_south_thailand
+		victory_points = {
+			4544 9
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		4319 7367 7338
+		4544 16097 18932 18934 18945
 	}
-	manpower = 1322166
+	manpower = 7946945
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

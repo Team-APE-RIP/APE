@@ -1,37 +1,26 @@
 state = {
 	id = 2339
 	name = "STATE_2339"
-
-	history = {
-		owner = SHD
-		add_core_of = SHD
-		buildings = {
-			infrastructure = 3
-		}
-		victory_points = {
-			19915 9
-		}
-		victory_points = {
-			4005 5
-		}
-		victory_points = {
-			7200 5
-		}
-		victory_points = {
-			13234 14
-		}
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_regions_jiangsu_huaihai
-		# set_variable = { china_state_ref = 3 }
-		# set_variable = { china_region_ref = 0 }
-		# set_state_flag = GDP_category_rural
-	}
-
 	provinces = {
-		7200 19874 1029 1076 13234 4031 4082 4123 19915 4005
+		15931
 	}
-	manpower = 8483161
+	history = {
+		owner = ZZZ # MAD
+		# add_core_of = MAD
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			barracks = 1
+			dockyard = 1
+			15931 = {
+				naval_base = 3
+			}
+		}
+
+		victory_points = { 15931 3 }
+	}
+
+	manpower = 31321
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

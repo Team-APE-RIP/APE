@@ -1,21 +1,25 @@
 state = {
 	id = 1248
-	name = "STATE_1248"
-	manpower = 167496
+	name = "STATE_1248" # Sumy
+	manpower = 1327614
 
 	state_category = rural
 
 	history = {
-		owner = ZZZ # IME
-		victory_points = { 14453 5 }
+		owner = ZZZ # UKR
 		buildings = {
-			infrastructure = 3
+			prisons = 3
+			infrastructure = 4
+			thermoelectric_plant = 1
 		}
-		# add_core_of = IME
-		# set_state_flag = state_renamings
+		victory_points = { 3520 5 }
+		victory_points = { 9566 1 }
+		victory_points = { 9477 2 }
+		# add_core_of = UKR
+
 	}
 
 	provinces = {
-		14453
+		463 501 522 3225 3455 3520 6565 9477 9566 11462 11553
 	}
 }

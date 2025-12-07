@@ -1,31 +1,18 @@
 state = {
 	id = 41
 	name = "STATE_41"
-	resources = {
-		aluminium = 3.000
-	}
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = {
-			3794 1
-		}
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
+		victory_points = { 16302 1 }
 
-		buildings = {
-			offices = 1
-			radar_station = 1
-			infrastructure = 5
-			air_base = 6
-		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_large_city
 	}
 
 	provinces = {
-		977 3794
+		1631 4951 16302 16298 16300 16299 16301 16309
 	}
-	manpower = 431488
+	manpower = 17537
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = wasteland
 }

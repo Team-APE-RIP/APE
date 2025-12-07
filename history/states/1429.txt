@@ -2,27 +2,28 @@ state = {
 	id = 1429
 	name = "STATE_1429"
 
+	resources = {
+		steel = 4
+	}
+
 	history = {
-		owner = ZZZ # UKR
-		# add_core_of = UKR
+		owner = ZZZ # JOR
+		# add_core_of = JOR
 		buildings = {
-			prisons = 1
-			infrastructure = 3
-			thermoelectric_plant = 1
+			infrastructure = 2
+			barracks = 1
 		}
 		victory_points = {
-			14540 1
+			7170 1
 		}
-		victory_points = {
-			6319 1
-		}
-		# set_state_flag = universal_renamings
+
+
 	}
 
 	provinces = {
-		489 3203 3507 6232 6319 6556 9249 9554 11453 14533 14535 14540 14544 15681 18224 18226
+		7170 18591
 	}
-	manpower = 1010912
+	manpower = 212030
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

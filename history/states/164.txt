@@ -1,32 +1,23 @@
-state = { #Population Done
+state = {
 	id = 164
 	name = "STATE_164"
-
-	history = {
-		owner = ZZZ # ITA
-		# add_core_of = ITA
-		victory_points = { 10007 1 }
-		buildings = {
-			infrastructure = 3
-			air_base = 3
-			barracks = 1
-			radar_station = 4
-			7003 = {
-				naval_base = 1
-			}
-			10007 = {
-				naval_base = 3
-			}
-		}
-		# add_core_of = GRE
-		# add_claim_by = TUR
-		# set_state_flag = universal_renamings
-	}
-
 	provinces = {
-		7003 10007
+		12884 7316 16008 8005 16007 7273 2041
 	}
-	manpower = 218777
+	history = {
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_claim_by = TIB
+		# add_core_of = IND
+		victory_points = { 8005 1 }
+		buildings = {
+			infrastructure = 1
+		}
+
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
+	}
+	manpower = 69735
 	buildings_max_level_factor = 1.000
-	state_category = small_island
+	state_category = pastoral
 }

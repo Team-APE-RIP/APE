@@ -3,20 +3,24 @@ state = {
 	name = "STATE_2119"
 
 	history = {
-		owner = ZZZ # TUN
-		# add_core_of = TUN
+		owner = ZZZ # EGY
+		# add_core_of = EGY
 		buildings = {
-			infrastructure = 4
-			prisons = 1
+			infrastructure = 2
+			dockyard = 1
+			air_base = 1
+			radar_station = 1
 		}
-		victory_points = { 13177 2 }
-		victory_points = { 18061 1 }
+		victory_points = {
+			10061 1
+		}
 	}
 
 	provinces = {
-		13177 18061
+		1071 7079 9989 10061 11910 11967 15777
 	}
-	manpower = 390259
+	manpower = 107670
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

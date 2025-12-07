@@ -1,33 +1,32 @@
 state = {
 	id = 1519
 	name = "STATE_1519"
+	resources = {
+		steel = 2
+	}
 
 	history = {
-		owner = ZZZ # CHL
+		victory_points = {
+			19244 1
+		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			barracks = 1
-			schools = 1
-			prisons = 1
 			offices = 1
-			infrastructure = 3
-			air_base = 3
+			infrastructure = 2
+			air_base = 2
+			19244 = {
+				naval_base = 1
+			}
 		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = CHL
-		victory_points = {
-			14829 7
-		}
-		victory_points = {
-			8229 3
-		}
-		# set_state_flag = GDP_regions_maule
+
 	}
 
 	provinces = {
-		8229 14824 14827 14829 14830
+		1098 12358 19220 19241 19244 19276 19307 19343
 	}
-	manpower = 313329
+	manpower = 334789
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

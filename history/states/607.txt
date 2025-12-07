@@ -1,42 +1,34 @@
 state = {
 	id = 607
 	name = "STATE_607"
+	resources = {
+		tungsten = 2.000
+		steel = 1.000
+	}
 
 	history = {
-		owner = CHI
-		# add_core_of = CHI
+		owner = ZZZ # BOL
 		buildings = {
+			offices = 2
+			schools = 1
+			hospitals = 1
+			barracks = 2
+			prisons = 2
 			infrastructure = 3
-			prisons = 1
-			radar_station = 1
+			air_base = 2
+			thermoelectric_plant = 2
 		}
+		# add_core_of = BOL
 		victory_points = {
-			1139 5
+			13195 15
 		}
-		victory_points = {
-			4114 2
-		}
-		victory_points = {
-			11933 5
-		}
-		victory_points = {
-			19840 11
-		}
-		victory_points = {
-			19844 13
-		}
-		add_extra_state_shared_building_slots = 2
-		# set_state_flag = GDP_regions_hebei_zhongyuan
-		# set_variable = { china_state_ref = 11 }
-		# set_variable = { china_region_ref = 1 }
-		# set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
-		1139 4114 4144 11816 11933 19840 19844 19909
+		13195 15337 15339 15357 15359 17522
 	}
-	manpower = 9397741
+	manpower = 868400
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

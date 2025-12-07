@@ -1,20 +1,29 @@
 state = {
 	id = 1226
-	name = "STATE_1226"
+	name = "STATE_1226" # Santiago del Estero
+	manpower = 390840
+
+	state_category = rural
+
+	resources = {
+		tungsten = 17
+		steel = 3
+	}
 
 	history = {
-		owner = ZZZ # HAU
-		# add_core_of = HAU
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			barracks = 1
 		}
+		# add_core_of = ARG
+		victory_points = { 14890 10 }
+		victory_points = { 15042 1 }
+
+
 	}
 
 	provinces = {
-		12851 14163 14166 14190 15913
+		5143 8255 14890 14977 14980 15042 15051 15078
 	}
-	manpower = 409000
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

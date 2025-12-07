@@ -3,25 +3,23 @@ state = {
 	name = "STATE_1746"
 
 	history = {
-		owner = ERV
-		add_core_of = ERV
-		victory_points = {
-			1300 5
-		}
-		victory_points = {
-			4334 1
-		}
+		owner = ZZZ # ITA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_category_rural
+		victory_points = { 9980 5 }
+		victory_points = { 7209 2 }
+		victory_points = { 4047 1 }
+		victory_points = { 7066 1 }
+		# add_core_of = LBA
+		# add_core_of = ITA
+
 	}
 
 	provinces = {
-		1300 4255 4334 19038 19055 19056
+		1041 4047 4057 10046 10117 12088 13073 7136 7194 4176 12009 1118 1174 7066 9980 7209 4194
 	}
-	manpower = 1065105
+	manpower = 289001
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

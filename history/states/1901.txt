@@ -1,22 +1,17 @@
 state = {
 	id = 1901
 	name = "STATE_1901"
-
 	history = {
-		owner = ZZZ # NEP
-		victory_points = {
-			4386 1
-		}
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		# add_core_of = NEP
 	}
-
 	provinces = {
-		4386 10910 18837 18864
+        9839 9917 11756
 	}
-	manpower = 2020031
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

@@ -3,34 +3,25 @@ state = {
 	name = "STATE_998"
 
 	history = {
-		owner = PGS
-		add_core_of = PGS
-		# add_core_of = IBR
-		victory_points = {
-			17981 10
-		}
-		victory_points = {
-			6924 3
-		}
-		victory_points = {
-			3798 8
-		}
-		victory_points = {
-			799 5
-		}
+		owner = ZZZ # FIN
 		buildings = {
-			infrastructure = 5
-			dockyard = 2
+			infrastructure = 2
+			barracks = 1
 		}
-		# set_state_flag = GDP_regions_portugal
-		# set_state_flag = GDP_category_city
+		victory_points = {
+			6109 1
+		}
+		# add_core_of = FIN
+
+
+
 	}
 
 	provinces = {
-		799 17981
+		18 26 127 2356 6109 11038
 	}
-	manpower = 1183766
+	manpower = 51707
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

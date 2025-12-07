@@ -1,27 +1,24 @@
 state = {
 	id = 1679
 	name = "STATE_1679"
-	resources = {
-		oil = 5
-	}
-
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # PRU
+		owner = ZZZ # BRA
+		add_extra_state_shared_building_slots = 3
 		buildings = {
-			barracks = 1
-			infrastructure = 3
+			infrastructure = 6
+			radar_station = 2
+			air_base = 3
+			offices = 1
+			schools = 1
 		}
-		# add_core_of = PRU
-		victory_points = {
-			15460 2
-		}
+		# add_core_of = BRA
+		victory_points = { 14786 20 }
 	}
 
 	provinces = {
-		15460
+		14786
 	}
-	manpower = 57378
+	manpower = 160745
 	buildings_max_level_factor = 1.000
+	state_category = large_town
 }

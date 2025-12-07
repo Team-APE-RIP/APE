@@ -2,14 +2,14 @@ state = {
 	id = 2873
 	name = "STATE_2873"
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = OTC
+        add_core_of = OTC
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-        15210 6792 14621 9751 15214 15213
+        9646 653 6687
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

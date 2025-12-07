@@ -3,25 +3,22 @@ state = {
 	name = "STATE_659"
 
 	history = {
-		owner = ZZZ # YEM
-		victory_points = {
-			13422 5
-		}
+		owner = ZZZ # AST
+		# add_core_of = AST
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
-			air_base = 3
-			radar_station = 1
+			infrastructure = 2
 		}
-		# add_core_of = YEM
-		# set_state_flag = state_renamings
+		victory_points = {
+			8249 3
+		}
+
 	}
 
 	provinces = {
-		13422
+		8249 10991 12934
 	}
-	manpower = 175501
+	manpower = 42872
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

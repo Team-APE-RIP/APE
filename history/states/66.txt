@@ -1,38 +1,39 @@
-state = { #Population Done
+state = {
 	id = 66
 	name = "STATE_66"
-	manpower = 3806354
-	resources = {
-		steel = 110
-		aluminium = 38
-	}
-
-	state_category = metropolis
 
 	history = {
-		owner = ZZZ # GER
-		victory_points = { 9570 25 }
-		victory_points = { 552 5 }
-		victory_points = { 6462 3 }
-		victory_points = { 15841 7 }
-		victory_points = { 9535 6 }
-		victory_points = { 3545 4 }
-		victory_points = { 6595 3 }
-		victory_points = { 6534 5 }
+		owner = ZZZ # AST
+		# add_core_of = AST
 		buildings = {
-			hospitals = 2
-			offices = 1
-			schools = 1
-			infrastructure = 6
-			air_base = 6
-			nuclear_reactor = 1
-			thermoelectric_plant = 4
+			infrastructure = 2
+			air_base = 3
+			barracks = 1
+			radar_station = 5
+			4520 = {
+				coastal_bunker = 5
+			}
+			10378 = {
+				coastal_bunker = 5
+			}
+			10350 = {
+				coastal_bunker = 5
+			}
+			10365 = {
+				coastal_bunker = 5
+			}
 		}
-		# add_core_of = GER
-		# set_state_flag = GDP_category_large_town
+
+		victory_points = { # Cairns
+			4520 2
+		}
 	}
 
 	provinces = {
-		552 3438 3485 3545 6534 6595 9570 11517 9535 15841 3572 9497 6512 9457 
+		1501 1644 2166 4505 4520 4648 7506 7525 10338 10350 10365 10378 12354
 	}
+	manpower = 109780
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

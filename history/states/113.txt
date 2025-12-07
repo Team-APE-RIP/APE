@@ -1,32 +1,32 @@
 state = {
 	id = 113
 	name = "STATE_113"
+	resources = {
+		oil = 2.000
+	}
 
 	history = {
-		owner = ZZZ # IRE
-		victory_points = {
-			11293 25
-		}
+		owner = ZZZ # UKR
+		# add_core_of = UKR
+
 		buildings = {
-			infrastructure = 5
-			schools = 2
-			barracks = 1
-			hospitals = 1
-			offices = 2
-			air_base = 2
-			prisons = 1
-			thermoelectric_plant = 2
-			11293 = {
-				naval_base = 3
-			}
+			infrastructure = 4
+			thermoelectric_plant = 1
 		}
-		# add_core_of = IRE
+		victory_points = {
+			11452 1
+		}
+		victory_points = {
+			486 5
+		}
+
 	}
 
 	provinces = {
-		11293
+		472 486 3449 9463 9479 11452 18231
 	}
-	manpower = 718332
+	manpower = 758356
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = rural
+	local_supplies = 0.000
 }

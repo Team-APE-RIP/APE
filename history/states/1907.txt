@@ -1,20 +1,31 @@
 state = {
 	id = 1907
 	name = "STATE_1907"
-	provinces = {
-		1213 16145
+	resources = {
+		tungsten = 4.000
 	}
+
 	history = {
-		owner = ZZZ # CYL
-		victory_points = { 1213 5 }
-		victory_points = { 16145 1 }
-		buildings = {
-			infrastructure = 4
-			prisons = 1
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			5997 1
 		}
-		# add_core_of = CYL
+		victory_points = {
+			1319 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		# set_variable = { china_state_ref = 20 }
+		# set_variable = { china_region_ref = 2 }
 	}
-	manpower = 1669248
+
+	provinces = {
+		1319 4559 5997 8023 19761
+	}
+	manpower = 1868543
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

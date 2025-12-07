@@ -1,4 +1,4 @@
-capital = 68
+capital = 705
 set_politics = {
 	ruling_party = IdeologyGroup31
 	last_election = "2049.3.25"
@@ -8,3 +8,5 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup31 = 100
 }
+#fuckParadox
+set_variable = { APEMainThemeID = 2 } # APEMainTheme - Fegefeuer der Heimat

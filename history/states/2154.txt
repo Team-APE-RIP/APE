@@ -3,21 +3,30 @@ state = {
 	name = "STATE_2154"
 
 	history = {
-		owner = ZZZ # IME
+		owner = ZZZ # IND
+		victory_points = {
+			7938 5
+		}
+		victory_points = {
+			5040 4
+		}
+		victory_points = {
+			10332 1
+		}
 		buildings = {
 			infrastructure = 3
+			barracks = 1
 		}
-		victory_points = { 7107 1 }
-		# add_core_of = IME
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = universal_renamings
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		7107 15805 14470
+		5040 7938 10332 18950
 	}
-
-	manpower = 131502
+	manpower = 2039605
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

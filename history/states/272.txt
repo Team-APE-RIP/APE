@@ -1,24 +1,33 @@
 state = {
 	id = 272
 	name = "STATE_272"
-	resources = {
-		steel = 2.000
-	}
-
 	history = {
-		victory_points = { 12710 5 }
-		owner = ZZZ # WOL
-		# add_core_of = WOL
+		owner = DMK
+        add_core_of = DMK
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			dockyard = 2
+			radar_station = 1
+			air_base = 6
+			6421 = {
+				naval_base = 8
+			}
+			offices = 2
+			schools = 2
+			hospitals = 2
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 3
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			6421 28
+		}
 	}
-
 	provinces = {
-		8015 12710 14209
+        6421
 	}
-	manpower = 614400
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

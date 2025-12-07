@@ -1,35 +1,33 @@
-state = {
+state = { #Population Done
 	id = 1788
 	name = "STATE_1788"
 
 	history = {
-		owner = ZZZ # EGY
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			infrastructure = 6
+			thermoelectric_plant = 3
+			anti_air_building = 3
+			air_base = 5
+			radar_station = 1
 		}
-		victory_points = {
-			15785 8
-		}
-		victory_points = {
-			7144 10
-		}
-		victory_points = {
-			1068 10
-		}
-		victory_points = {
-			10031 3
-		}
-		# add_core_of = EGY
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = state_renamings
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		# set_demilitarized_zone = yes
+
+
+	}
+
+	resources = {
+		oil = 1
 	}
 
 	provinces = {
-		1068 7144 10031 15785 18517 18518 18519
+		11506 9534
 	}
-	manpower = 3986284
+	manpower = 4334892
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = city
 }

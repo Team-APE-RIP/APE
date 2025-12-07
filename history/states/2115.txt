@@ -1,22 +1,18 @@
 state = {
 	id = 2115
 	name = "STATE_2115"
-
 	history = {
-		owner = ZZZ # TRZ
-		victory_points = { 14218 1 }
+		owner = SWS
+        add_core_of = SWS
 		buildings = {
-			infrastructure = 2
-			prisons = 1
+			infrastructure = 3
 		}
-		# add_core_of = TRZ
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		18037 14218 18036 18027 14232
+        20017 20018 20019
 	}
-	manpower = 146752
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

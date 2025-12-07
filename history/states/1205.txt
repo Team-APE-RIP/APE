@@ -1,20 +1,18 @@
 state = {
 	id = 1205
 	name = "STATE_1205"
-
 	history = {
-		owner = ZZZ # CAO
-		# add_core_of = CAO
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
 		}
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		14132 14151 14155 14177
+		19442 4914 7940
 	}
-	manpower = 156000
+	manpower = 246681
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
+	local_supplies = 0.000
 }

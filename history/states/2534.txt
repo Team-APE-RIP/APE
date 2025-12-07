@@ -1,25 +1,37 @@
 state = {
 	id = 2534
 	name = "STATE_2534"
+	resources = {
+		uranium = 1.000
+	}
 
 	history = {
-		owner = ZZZ # COL
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			infrastructure = 2
-			hospitals = 1
-			schools = 1
-			offices = 2
-			barracks = 1
-			prisons = 1
-			thermoelectric_plant = 2
+			infrastructure = 1
+			air_base = 1
+			12941 = {
+				naval_base = 2
+			}
 		}
+		victory_points = {
+			13959 3
+		}
+		victory_points = {
+			13975 5
+		}
+		victory_points = {
+			13940 3
+		}
+
 	}
 
 	provinces = {
-		327 623 14567 14566
+		2066 8133 8164 11014 12941 13927 13938 13940 13948 13949 13953 13959 13969 13975 15533 15536 17884 17886
 	}
-	manpower = 671618
+	manpower = 1243923
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

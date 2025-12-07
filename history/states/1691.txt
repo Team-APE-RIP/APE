@@ -2,27 +2,35 @@ state = {
 	id = 1691
 	name = "STATE_1691"
 	resources = {
-		uranium = 2.000
+		oil = 12.000
 	}
 
 	history = {
-		owner = ZZZ # PRU
-		victory_points = {
-			5166 8
-		}
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
 		buildings = {
-			barracks = 1
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = PRU
+		victory_points = {
+			7994 10
+		}
+		victory_points = {
+			18454 6
+		}
+		victory_points = {
+			15749 8
+		}
+		victory_points = {
+			15754 7
+		}
+
+
 	}
 
 	provinces = {
-		5166 15487 15493 15496 17450
+		7994 15749 15754 16307 18451 18454
 	}
-	manpower = 648168
+	manpower = 613384
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

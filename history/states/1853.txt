@@ -1,33 +1,34 @@
 state = {
 	id = 1853
 	name = "STATE_1853"
-	manpower = 1552660
-
-	state_category = large_town
+	resources = {
+		steel = 1.000
+	}
 
 	history = {
-		owner = TAW
-		add_core_of = TAW
-		# set_state_flag = state_renamings
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 5
-			thermoelectric_plant = 1
-			offices = 1
-			prisons = 1
-			barracks = 1
-			12068 = {
-				naval_base = 6
-			}
+			hydroelectric_plant = 3
 			missile_silo = 1
 		}
-		victory_points = { 12068 20 }
-		victory_points = { 11914 1 }
-		# set_variable = { china_state_ref = 37 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_formosa
+		victory_points = {
+			15885 10
+		}
+		victory_points = {
+			4067 10
+		}
+		victory_points = {
+			4153 5
+		}
 	}
 
 	provinces = {
-		12068 11914 12027
+		4067 4153 15885 
 	}
+	manpower = 1268538
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

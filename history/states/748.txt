@@ -3,22 +3,19 @@ state = {
 	name = "STATE_748"
 
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
+		owner = DMK
+        add_core_of = DMK
 		buildings = {
-			barracks = 1
-			infrastructure = 1
+			infrastructure = 3
 		}
-		victory_points = {
-			13814 2
-		}
+		# add_core_of = DEN
 	}
 
 	provinces = {
-		10594 13814 13818 13828 13851 17861
+		6287
 	}
-	manpower = 248723
+	manpower = 1035191
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

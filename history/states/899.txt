@@ -2,25 +2,43 @@ state = {
 	id = 899
 	name = "STATE_899"
 
+	resources = {
+		uranium = 2
+	}
+
 	history = {
-		victory_points = {
-			6151 1
-		}
-		owner = ZZZ # NOR
-		# add_core_of = NOR
+		owner = ZZZ # FIN
 		buildings = {
-			infrastructure = 4
-			6151 = {
-				coastal_bunker = 2
-			}
+			infrastructure = 3
+			anti_air_building = 3
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+			barracks = 1
+			prisons = 1
+			hospitals = 2
 		}
+		# add_core_of = FIN
+		victory_points = {
+			6108 5
+		}
+		victory_points = {
+			6144 3
+		}
+		victory_points = {
+			204 3
+		}
+		victory_points = {
+			11211 3
+		}
+
 	}
 
 	provinces = {
-		100 6072 6151 6184 9036 11198
+		204 3161 6009 6108 6144 9129 11211 18426
 	}
-	manpower = 149943
+	manpower = 379667
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 }

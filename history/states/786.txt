@@ -1,31 +1,37 @@
-state = { #Population Done
+state = {
 	id = 786
 	name = "STATE_786"
 
-	state_category = metropolis
-
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = { 9523 50 }
+		owner = ZZZ # HUN
 		buildings = {
-			infrastructure = 7
-			thermoelectric_plant = 3
-			anti_air_building = 1
+			thermoelectric_plant = 1
+			infrastructure = 5
 			air_base = 2
-			schools = 1
-			offices = 1
 			hospitals = 1
+			barracks = 1
+			offices = 1
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		# set_state_flag = GDP_regions_paris
+		victory_points = {
+			6735 10
+		}
+		victory_points = {
+			3730 6
+		}
+		victory_points = {
+			9706 5
+		}
+		victory_points = {
+			18155 2
+		}
+		# add_core_of = HUN
 	}
 
 	provinces = {
-		9523
+		730 3730 6735 9706 11659 18155
 	}
-	manpower = 2418543
+	manpower = 1200490
 	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

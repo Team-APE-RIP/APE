@@ -1,28 +1,18 @@
 state = {
 	id = 2261
 	name = "STATE_2261"
-
 	history = {
-		owner = ZZZ # GGN
-		# add_core_of = GGN
-		# add_core_of = POL
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			offices = 1
-			barracks = 1
-			prisons = 1
+			infrastructure = 3
 		}
-		victory_points = { 3458 10 }
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_city
 	}
-
 	provinces = {
-		3458
+        669 3671 20047
 	}
-	manpower = 125508
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

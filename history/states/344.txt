@@ -1,44 +1,37 @@
-state = { ###POPS DONE
+state = {
 	id = 344
 	name = "STATE_344"
-	manpower = 1713477
 
 	resources = {
-		chromium = 56
+		oil = 8
 	}
 
-	state_category = town
-
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 11746 15 }
-		victory_points = { 10056 8 }
-		victory_points = { 16255 5 }
-		victory_points = { 806 4 }
-		victory_points = { 16248 2 }
-		victory_points = { 6813 1 }
-		victory_points = { 4124 1 }
-		victory_points = { 16256 3 }
-		victory_points = { 16246 6 }
-		add_extra_state_shared_building_slots = 1
+		owner = SHD
+		add_core_of = SHD
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			dockyard = 1
-			radar_station = 1
-			barracks = 2
-			schools = 1
-			offices = 2
+			offices = 1
 			prisons = 1
+			infrastructure = 4
 			thermoelectric_plant = 1
-			10056 = {
-				naval_base = 3
-			}
 		}
-		# add_core_of = TUR
+		victory_points = {
+			19859 24
+		}
+		victory_points = {
+			12055 5
+		}
+
+		# set_variable = { china_state_ref = 3 }
+		# set_variable = { china_region_ref = 0 }
+
 	}
 
 	provinces = {
-		806 886 3921 6813 6956 11746 11810 7026 16249 4124 10056 16255 16250 16256 16248 16246 16247
+		1121 7025 11973 12055 19859
 	}
+	manpower = 5465542
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

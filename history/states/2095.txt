@@ -1,18 +1,40 @@
 state = {
 	id = 2095
 	name = "STATE_2095"
-	manpower = 1
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # NZL
-		# add_core_of = NZL
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 4
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			radar_station = 3 #i think i remember watching a documentary about some large county-sized monitoring station here
+		}
+		victory_points = { # Wheeling
+			6850 3
+		}
+		victory_points = { # Charleston
+			7588 3
+		}
+		victory_points = { # Huntington
+			6971 3
+		}
+		victory_points = { # Parkersburg
+			3975 1
+		}
+		victory_points = { # Morgantown
+			9923 1
+		}
+		victory_points = { # Martinsburg
+			11888 1
 		}
 	}
 
 	provinces = {
-		16385
+		4627 6971 7588 10441 801 3941 3975 6850 6958 7466 7646 9923 11888
 	}
+	manpower = 1897600
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

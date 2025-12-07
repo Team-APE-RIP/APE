@@ -2,14 +2,14 @@ state = {
 	id = 3035
 	name = "STATE_3035"
 	history = {
-		owner = PGS
-		add_core_of = PGS
+		owner = MLB
+		add_core_of = MLB
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-        425
+        349 6282 20011
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

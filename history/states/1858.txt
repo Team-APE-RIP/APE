@@ -1,22 +1,28 @@
 state = {
 	id = 1858
 	name = "STATE_1858"
+	resources = {
+		uranium = 3.000
+	}
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			air_base = 1
-			infrastructure = 1
+			infrastructure = 2
+			radar_station = 1
 		}
-		victory_points = { 13764 1 }
-		# set_state_flag = state_renamings
+		victory_points = {
+			13944 5
+		}
+
 	}
 
 	provinces = {
-		15918 8188 13764 15919 15917
+		2063 10928 12991 13944 13991 15538 15539 17909 17911
 	}
-	manpower = 280204
+	manpower = 678845
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

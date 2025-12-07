@@ -1,24 +1,33 @@
-state = { #Population Done
+state = {
 	id = 864
 	name = "STATE_864"
-	resources = {
-		oil = 5
-	}
-	provinces = {
-	7444 291 6285 7416 1380 206 7431 7403 6246
-	}
+
 	history = {
-		owner = ZZZ # PRM
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
-			infrastructure = 4
-			prisons = 1
+			infrastructure = 2
 		}
-		victory_points = { 7403 5 }
-		victory_points = { 6285 8 }
-		# add_core_of = PRM
-		# set_state_flag = universal_renamings
+		victory_points = {
+			8744 5
+		}
+		victory_points = {
+			19916 5
+		}
+		victory_points = {
+			7240 5
+		}
+		# set_demilitarized_zone = yes
+
+		# set_variable = { china_state_ref = 17 }
+		# set_variable = { china_region_ref = 2 }
 	}
-	manpower = 210000
-	state_category = rural
-	buildings_max_level_factor = 1.000
+
+	provinces = {
+		8744 7240 19906 19916 8734
+	}
+	manpower = 8089323
+	buildings_max_level_factor = 2.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

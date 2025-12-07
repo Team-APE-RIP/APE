@@ -3,20 +3,27 @@ state = {
 	name = "STATE_1605"
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # ITA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 4
+			2188 = {
+				naval_base = 2
+			}
 		}
-		victory_points = { 5173 1 }
-		# add_core_of = ARG
-		# set_state_flag = GDP_category_rural
+		victory_points = {
+			2188 10
+		}
+		# add_core_of = ITA
 	}
 
 	provinces = {
-		5173 10986 12952 14893 14998 15004 17533 17535 17537 17538 17539
+		2188
 	}
-	manpower = 9545
+	manpower = 126703
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = tiny_island
 	local_supplies = 0.000
 }

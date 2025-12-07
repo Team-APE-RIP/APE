@@ -1,26 +1,28 @@
 state = { #Population Done
 	id = 705
 	name = "STATE_705"
-	manpower = 29670
-	state_category = tiny_island
+	manpower = 1334049
+	resources = {
+		aluminium = 24
+	}
+
+	state_category = city
 
 	history = {
-		owner = ZZZ # IBR
-		# add_core_of = SAO
-		victory_points = { 13015 1 }
+		owner = RTA
+		add_core_of = RTA
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			barracks = 1
-			radar_station = 4
-			13015 = {
-				naval_base = 1
-			}
+			offices = 1
+			prisons = 2
+			infrastructure = 5
+			thermoelectric_plant = 1
 		}
-		# set_state_flag = GDP_regions_equatorial_guinea
+		# add_core_of = GER
+		victory_points = { 708 10 }
+		victory_points = { 9666 3 }
 	}
 
 	provinces = {
-		13015 19989
+		708
 	}
 }

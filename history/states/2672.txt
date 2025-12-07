@@ -1,18 +1,20 @@
 state = {
 	id = 2672
 	name = "STATE_2672"
+
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
+
 	}
+
 	provinces = {
-	    7587 19114 4392 12122
+		6020 13913 13919 13921 13936 15532
 	}
-	manpower = 87721
+	manpower = 534712
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = wasteland
 }

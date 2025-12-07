@@ -2,26 +2,23 @@ state = {
 	id = 2295
 	name = "STATE_2295"
 	resources = {
-		oil = 6
+		rubber = 1.000
 	}
 
 	history = {
-		owner = ZZZ # NRB
-		victory_points = {
-			12283 1
-		}
+		owner = ZZZ # LIB
+		# add_core_of = LIB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		# add_core_of = NRB
-		# set_state_flag = GDP_regions_sarawak
+
 	}
 
 	provinces = {
-		19287 19286 12283 4216 2222 7443 2117
+		6759 8006 13401 13404 13407 15291
 	}
-	manpower = 274558
+	manpower = 261000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

@@ -1,22 +1,19 @@
 state = {
 	id = 2242
 	name = "STATE_2242"
-
 	history = {
-		owner = WLO
-		add_core_of = WLO
-		# add_core_of = DRV
-		# add_core_of = LAO
+		owner = MEN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
+		victory_points = { 1725 1 }
+		
 	}
-
 	provinces = {
-		7356 4339
+	    12675 1728 13588 19387 1725 16627 12541 7806 7881 19406
 	}
-	manpower = 107567
+	manpower = 82871
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

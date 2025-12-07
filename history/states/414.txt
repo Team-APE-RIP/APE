@@ -3,31 +3,48 @@ state = {
 	name = "STATE_414"
 
 	history = {
-		owner = ZZZ # PER
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = ILG
+		# add_core_of = ALG
+		victory_points = { 7081 10 }
+		victory_points = { 18079 4 }
+		victory_points = { 1160 2 }
+		victory_points = { 1141 4 }
 		buildings = {
 			infrastructure = 4
+			radar_station = 1
+			thermoelectric_plant = 2
+			barracks = 2
+			schools = 1
+			prisons = 1
+			offices = 2
+			7081 = {
+				naval_base = 1
+			}
+			1141 = {
+				bunker = 3
+			}
+			1058 = {
+				bunker = 3
+			}
+			1160 = {
+				bunker = 3
+			}
 		}
-		victory_points = {
-			13603 8
-		}
-		victory_points = {
-			1986 2
-		}
-		victory_points = {
-			13604 1
-		}
-		victory_points = {
-			15163 2
-		}
-		# add_core_of = PER
-		# set_state_flag = GDP_category_town
+		# add_core_of = ALG
+
+	}
+
+	resources = {
+		steel = 20
+		uranium = 4
 	}
 
 	provinces = {
-		1986 10913 11249 12780 12809 12863 13603 13604 13607 15140 15141 15163 18704 18711
+		1058 1160 7081 18079 1141 18014
 	}
-	manpower = 761851
+	manpower = 683719
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	state_category = town
 }

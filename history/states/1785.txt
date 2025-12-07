@@ -1,18 +1,22 @@
 state = {
 	id = 1785
 	name = "STATE_1785"
-
+	manpower = 75055
+	state_category = pastoral
+	resources = {
+		rubber = 2
+	}
 	history = {
-		owner = ZZZ # JOR
-		# add_core_of = JOR
-		# set_state_flag = state_renamings
+		owner = ZZZ # INS
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 19295 1 }
+		# add_core_of = INS
+
 	}
 
 	provinces = {
-		4574 18594
+		19295
 	}
-	manpower = 5816
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

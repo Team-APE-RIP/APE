@@ -2,26 +2,33 @@ state = {
 	id = 654
 	name = "STATE_654"
 	resources = {
-		tungsten = 9.000
+		oil = 162.000
 	}
 
 	history = {
-		owner = ZZZ # ALT
+		owner = ZZZ # VEN
 		buildings = {
-			offices = 1
-			infrastructure = 2
+			thermoelectric_plant = 2
+			prisons = 3
+			hospitals = 2
+			barracks = 1
+			infrastructure = 4
+			1944 = {
+				naval_base = 5
+			}
 		}
+
+		# add_core_of = VEN
 		victory_points = {
-			4800 3
+			1944 20
 		}
-		# add_core_of = ALT
 	}
 
 	provinces = {
-		4781 4800 7262 8601 10713 12509
+		1944 1997 7931 8092 12772 17370 17372 17384
 	}
-	manpower = 399000
+	manpower = 1059732
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

@@ -2,53 +2,33 @@ state = {
 	id = 382
 	name = "STATE_382"
 	resources = {
-		oil = 50.000
+		chromium = 4
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			19647 3
+		}victory_points = {
+            19714 5
+        }
+        victory_points = {
+            19557 3
+        }
 		buildings = {
-			schools = 1
-			prisons = 2
-			offices = 1
-			infrastructure = 5
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			radar_station = 1
-			air_base = 4
+			infrastructure = 2
 		}
-		# add_core_of = USA
-		victory_points = { # Denver
-			1827 30
-		}
-		victory_points = { # Trinidad
-			12627 1
-		}
-		victory_points = { # Pueblo
-			1809 3
-		}
-		victory_points = { # Colorado Springs
-			10588 10
-		}
-		victory_points = { # Grand Junction
-			6887 3
-		}
-		victory_points = { # Fort Collins
-			7780 3
-		}
-		victory_points = { # Boulder
-			15348 3
-		}
-		victory_points = { # Aspen
-			1658 1
-		}
+
+		# set_variable = { china_state_ref = 39 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642 15348 17297
+		7406 19647 12408 4256 19641 19694 19714 19557
 	}
-	manpower = 2217237
+	manpower = 1639816
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

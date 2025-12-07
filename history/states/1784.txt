@@ -1,23 +1,45 @@
 state = {
 	id = 1784
 	name = "STATE_1784"
-	manpower = 2012597
-
-	state_category = pastoral
 
 	history = {
-		owner = ZZZ # EGY
+		owner = ZZZ # USA
 		buildings = {
-			infrastructure = 4
+			schools = 2
+			hospitals = 3
+			offices = 3
+			prisons = 1
+			dockyard = 1
+			infrastructure = 6
+			air_base = 6
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			6984 = {
+				naval_base = 2
+			}
+			11892 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = GDP_category_rural
-		victory_points = { 15771 10 }
-		victory_points = { 10005 3 }
-		# add_core_of = EGY
+		# add_core_of = USA
+		victory_points = { # Baltimore
+			6984 30
+		}
+		victory_points = { # Annapolis
+			11892 3
+		}
+		victory_points = { # Hagerstown
+			6929 3
+		}
+		victory_points = { # Ocean City
+			9786 1
+		}
 	}
 
 	provinces = {
-		15770 15771 10005
+		6892 9758 9786 6823 6929 6984 11892
 	}
-
+	manpower = 2065500
+	buildings_max_level_factor = 1.000
+	state_category = large_city
 }

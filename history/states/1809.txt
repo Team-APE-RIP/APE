@@ -2,42 +2,33 @@ state = {
 	id = 1809
 	name = "STATE_1809"
 	resources = {
-		steel = 84.000
+		chromium = 4.000
+		uranium = 4.000
 	}
 
 	history = {
-		owner = RUH
-		add_core_of = RUH
-		# add_core_of = GER
-		victory_points = {
-			6469 15
-		}
-		victory_points = {
-			3444 20
-		}
-		victory_points = {
-			18130 10
-		}
-		victory_points = {
-			15834 9
-		}
+		owner = ZZZ # PAK
+		# add_core_of = PAK
+		# add_claim_by = AZH
+		# add_claim_by = AFG
+		# add_claim_by = IND
 		buildings = {
-			offices = 2
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			schools = 2
-			prisons = 1
-			hospitals = 1
-			infrastructure = 6
+			infrastructure = 4
+			barracks = 1
 		}
-		# set_state_flag = GDP_category_large_city
+		victory_points = {
+			15993 10
+		}
+		victory_points = {
+			5105 1
+		}
 	}
 
 	provinces = {
-		3444 6469
+		5105 15993
 	}
-	manpower = 2904384
+	manpower = 393622
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	state_category = pastoral
 	local_supplies = 0.000
 }

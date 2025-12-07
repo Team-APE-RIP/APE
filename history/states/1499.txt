@@ -1,28 +1,22 @@
-state = { #Population Done
+state = {
 	id = 1499
-	name = "STATE_1499" # Chaco
-	manpower = 543331
+	name = "STATE_1499"
+	manpower = 261622
 
-	state_category = town
-
-	resources = {
-		tungsten = 15
-	}
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # TNS
+		# add_core_of = TNS
 		buildings = {
-			barracks = 1
-			infrastructure = 2
+			infrastructure = 3
+			schools = 1
 		}
-		# add_core_of = ARG
-		victory_points = { 2106 10 }
-		victory_points = { 14988 1 }
-		victory_points = { 14898 1 }
-		# set_state_flag = universal_renamings
+		victory_points = { 11703 1 }
+
 	}
 
 	provinces = {
-		2106 5213 14898 14967 14988 15007 15054 15055 15081 15083 15089
+		11703 3738 16164
 	}
 }

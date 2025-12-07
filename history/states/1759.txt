@@ -3,32 +3,24 @@ state = {
 	name = "STATE_1759"
 
 	resources = {
-		steel = 4
+		rubber = 12
 	}
 
 	history = {
-		owner = ZZZ # SLG
-		# add_claim_by = FRS
-		# add_core_of = ALG
-		# add_core_of = SLG
+		owner = KCD
+		add_core_of = KCD
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			barracks = 1
-			offices = 1
+			infrastructure = 2
 		}
-		victory_points = { 1013 8 }
-		victory_points = { 9964 1 }
-		victory_points = { 18064 5 }
-		victory_points = { 18073 1 }
-		# set_state_flag = GDP_category_towwn
-		# set_state_flag = universal_renamings
+
+		victory_points = { 1324 5 }
 	}
 
 	provinces = {
-		1013 9964 18073 18064
+		1324 12475 4639
 	}
-	manpower = 674908
+	manpower = 452039
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

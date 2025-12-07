@@ -1,18 +1,33 @@
 state = {
 	id = 2854
 	name = "STATE_2854"
+	manpower = 1926098
+
+	state_category = large_city
+
+	resources = {
+		steel = 9
+		aluminium = 3
+	}
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ITB
+		add_core_of = ITB
+		victory_points = { 14640 25 }
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			infrastructure = 5
+			dockyard = 3
+			schools = 2
+			air_base = 3
+			anti_air_building = 2
+			thermoelectric_plant = 2
 		}
+		# add_core_of = ITA
+
 	}
+
 	provinces = {
-        6931 15219 15220
+		14640
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -2,14 +2,14 @@ state = {
 	id = 2895
 	name = "STATE_2895"
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = MLB
+		add_core_of = MLB
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-        15195
+        268 293 15835
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

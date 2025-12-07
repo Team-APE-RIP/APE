@@ -1,28 +1,20 @@
 state = {
 	id = 1047
 	name = "STATE_1047"
-
-	resources = {
-		tungsten = 6
-	}
-
 	history = {
-		owner = ZZZ # SAF
-		# add_core_of = SAF
+		owner = WTB
+		add_core_of = WTB
 		buildings = {
-			barracks = 1
-			infrastructure = 2
-			1580 = {
-				bunker = 3
-			}
+			infrastructure = 3
 		}
-		victory_points = { 1580 1 }
+		victory_points = { 11499 9 }
+		victory_points = { 9545 2 }
 	}
-
 	provinces = {
-		1580 13653 13654 13656 13660 13667 13668 13669 13673
+        11499 9545
 	}
-	manpower = 113287
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

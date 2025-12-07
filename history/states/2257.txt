@@ -3,20 +3,21 @@ state = {
 	name = "STATE_2257"
 
 	history = {
-		owner = ERV
-		add_core_of = ERV
+		owner = ZZZ # ITA
 		buildings = {
-			infrastructure = 4
-			barracks = 1
-			air_base = 1
+			15582 = {
+				naval_base = 3
+				coastal_bunker = 4
+			}
 		}
-		victory_points = { 12133 5 }
+		# add_core_of = YEM
+
 	}
 
 	provinces = {
-		12133 
+		15582
 	}
-	manpower = 1064246
+	manpower = 1362
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = enclave
 }

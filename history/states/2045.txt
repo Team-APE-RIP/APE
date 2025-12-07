@@ -1,21 +1,27 @@
-state = {
+state = { #Population Done
 	id = 2045
 	name = "STATE_2045"
-	provinces = {
-		17598
+	manpower = 1032887
+
+	state_category = pastoral
+
+	resources = {
 	}
-	manpower = 1
-
-	state_category = wasteland
-
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
+		owner = ZZZ # HAI
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+			schools = 1
+			thermoelectric_plant = 1
+			1594 = {
+				naval_base = 1
+			}
 		}
-	}
 
+		# add_core_of = HAI
+		victory_points = { 1594 2 }
+	}
+	provinces = {
+		1594 15634 15637
+	}
 }

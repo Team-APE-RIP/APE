@@ -1,35 +1,23 @@
 state = {
 	id = 1713
 	name = "STATE_1713"
+	resources = {
+		rubber = 8
+	}
 
 	history = {
-		owner = MAN
-		victory_points = {
-			9759 14
-		}
-		victory_points = {
-			9841 1
-		}
-		victory_points = {
-			11781 3
-		}
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
-			infrastructure = 6
-			barracks = 1
-			offices = 1
-			schools = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		# add_core_of = MAN
-		# set_variable = { china_state_ref = 48 }
-		# set_variable = { china_region_ref = 6 }
 	}
 
 	provinces = {
-		14634 861 800 9841 11781 6905 9866 3888 9803 3949 9759
+		12176 19075
 	}
-	manpower = 1883419
+	manpower = 1568056
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

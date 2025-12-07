@@ -2,31 +2,27 @@ state = {
 	id = 2288
 	name = "STATE_2288"
 
-	resources = {
-		rubber = 4
-		oil = 2
-	}
-
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # IND
+		victory_points = {
+			16080 3
+		}
+		victory_points = {
+			18972 2
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
-		victory_points = {
-			19361 1
-		}
-		victory_points = {
-			15709 1
-		}
-		# set_state_flag = GDP_regions_central_java
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		4434 19361 15709 19357
+		4950 16080 18972 18973
 	}
-	manpower = 2778169
+	manpower = 1180388
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

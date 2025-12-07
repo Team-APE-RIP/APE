@@ -1,21 +1,28 @@
 state = {
 	id = 2022
 	name = "STATE_2022"
-	provinces = {
-		17565 17774 17663 17727
+	resources = {
 	}
-	manpower = 1
-
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # AAA
-		# add_core_of = AAA
-		# add_core_of = AAC
-		# add_claim_by = ENG
+		owner = ZZZ # IBR
+		# add_core_of = IBR
+		# add_core_of = GAB
+		victory_points = { 1903 10 }
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+			air_base = 1
+			1903 = {
+				naval_base = 1
+			}
 		}
+
 	}
 
+	provinces = {
+		1903 19988
+	}
+	manpower = 14000
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
 }

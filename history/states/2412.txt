@@ -2,33 +2,29 @@ state = {
 	id = 2412
 	name = "STATE_2412"
 	resources = {
-		chromium = 6
+		steel = 1.000
 	}
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
-		add_core_of = SIC
-		
+		owner = EPA
+		add_core_of = EPA
 		victory_points = {
-			7019 4
+			11821 2
 		}
-        victory_points = {
-            7609 3
-        }
 		buildings = {
-			infrastructure = 2
+			radar_station = 1
+			infrastructure = 3
+			hydroelectric_plant = 1
 		}
-		# set_state_flag = GDP_regions_south_shaanxi
-		# set_variable = { china_state_ref = 39 }
-		# set_variable = { china_region_ref = 5 }
+		# add_core_of = IBR
+
 	}
 
 	provinces = {
-		7019 8072 19741 19763 7609 10474 19699
+		11793 11819 11821 
 	}
-	manpower = 2246817
+	manpower = 235299
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

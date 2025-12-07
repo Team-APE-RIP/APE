@@ -2,27 +2,48 @@ state = {
 	id = 933
 	name = "STATE_933"
 
-	history = {
-		owner = ZZZ # SAF
-		buildings = {
-			offices = 1
-			barracks = 1
-			thermoelectric_plant = 1
-			infrastructure = 2
-			air_base = 1
-		}
-		victory_points = {
-			13530 7
-		}
-		# set_state_flag = state_renamings
-		# add_core_of = SAF
+	resources = {
+		steel = 4
 	}
 
-	provinces = {
-		10697 13504 13507 13512 13517 13519 13530 17825 17826 17827
+	history = {
+		owner = ZZZ # CAN
+		buildings = {
+			thermoelectric_plant = 3
+			schools = 3
+			hospitals = 2
+			offices = 2
+			infrastructure = 8
+		}
+		# add_core_of = CAN
+		victory_points = { # Toronto
+			3775 30
+		}
+		victory_points = { # Hamilton
+			749 15
+		}
+		victory_points = { # Mississauga
+			3763 10
+		}
+		victory_points = { # Oshawa
+			6797 7
+		}
+		victory_points = { # Barrie
+			9583 2
+		}
+		victory_points = { # Brantford
+			11695 5
+		}
+
+
 	}
-	manpower = 1060284
+
+
+	provinces = {
+		749 3763 3775 6797 9583 11695 17283
+	}
+	manpower = 2858941
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = metropolis
 	local_supplies = 0.000
 }

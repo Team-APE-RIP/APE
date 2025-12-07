@@ -1,32 +1,20 @@
-state = { #Population Done
+state = {
 	id = 69
 	name = "STATE_69"
 
-	resources = {
-		steel = 8
-		uranium = 14
-	}
-
-	manpower = 3331824
-	state_category = town
-
 	history = {
-		owner = ZZZ # GER
-		# add_core_of = GER
-
-		
-
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		buildings = {
-			offices = 2
-			hospitals = 1
-			barracks = 2
-			infrastructure = 5
-			air_base = 2
-			thermoelectric_plant = 1
-			enrichment_plant = 1
-			nuclear_reactor = 1
+			infrastructure = 1
 		}
 	}
 
-	provinces = { 6485 3583 3414}
+	provinces = {
+		4997 7963 14124 17148
+	}
+	manpower = 635000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

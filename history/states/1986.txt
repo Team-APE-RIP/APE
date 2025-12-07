@@ -1,29 +1,28 @@
 state = {
 	id = 1986
 	name = "STATE_1986"
-	manpower = 956570
-
-	resources = {
-		steel = 12
-	}
-
-	state_category = town
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = { 11866 5 }
-		victory_points = { 3919 4 }
-		victory_points = { 11883 1 }
-		victory_points = { 904 2 }
-		victory_points = { 3905 1 }
+		owner = ZZZ # ANG
+		# add_core_of = ANG
+		add_extra_state_shared_building_slots = 2
 		buildings = {
-			infrastructure = 4
+			schools = 1
+			thermoelectric_plant = 2
+			offices = 2
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_category_large_town
-		# add_core_of = TUR
+		victory_points = { 13803 10 }
+
 	}
 
 	provinces = {
-		890 904 3905 3919 11866 11883
+		13803
 	}
+	manpower = 1018542
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

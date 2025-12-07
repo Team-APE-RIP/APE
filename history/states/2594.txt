@@ -1,20 +1,31 @@
 state = {
 	id = 2594
 	name = "STATE_2594"
+
 	history = {
-		owner = CHI
-		# add_core_of = SHT
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 		victory_points = {
-			4137 4
+			10086 5
 		}
+		victory_points = {
+			12059 3
+		}
+		victory_points = {
+			19659 5
+		}
+
+		# set_variable = { china_state_ref = 5 }
+		# set_variable = { china_region_ref = 0 }
 	}
+
 	provinces = {
-		4137 9969 19884
+		10086 19790 12059 19659
 	}
-	manpower = 1026811
+	manpower = 2706321
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

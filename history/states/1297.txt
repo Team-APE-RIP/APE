@@ -3,17 +3,24 @@ state = {
 	name = "STATE_1297"
 
 	history = {
-		owner = ZZZ # ZZZ
-		victory_points = { 14444 5 }
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ # COG
+		# add_core_of = COG
+		victory_points = {
+			10071 6
 		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			radar_station = 1
+		}
+
 	}
 
 	provinces = {
-		14444
+		10071 13983
 	}
-	manpower = 20
-	buildings_max_level_factor = 2.000
-	state_category = tiny_island
+	manpower = 424280
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

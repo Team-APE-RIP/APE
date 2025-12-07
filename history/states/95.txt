@@ -1,34 +1,26 @@
 state = {
 	id = 95
 	name = "STATE_95"
-
 	resources = {
-		steel = 4
+		uranium = 2.000
 	}
 
+	state_category = pastoral
+
 	history = {
-		owner = ZZZ # OST
-		# add_core_of = OST
-		victory_points = {
-			14549 3
-		}
-		victory_points = {
-			14554 1
-		}
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			prisons = 1
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_regions_belarus
-		# set_state_flag = universal_renamings
+		# add_core_of = PRU
+		victory_points = {
+			15501 2
+		}
 	}
 
 	provinces = {
-		9236 9304 9359 11341 14549 14554
+		2182 10940 13175 15500 15501
 	}
-	manpower = 431083
+	manpower = 727309
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }

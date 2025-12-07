@@ -3,21 +3,21 @@ state = {
 	name = "STATE_858"
 
 	history = {
-		owner = ZZZ # ONG
+		owner = DRV
+		add_core_of = DRV
+		# add_core_of = VIN
+		# add_core_of = VIC
+		# set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
-			barracks = 1
 		}
-		victory_points = {
-			166 1
-		}
-		# add_core_of = ONG
+		victory_points = { 19048 1 }
 	}
 
 	provinces = {
-		166 3160 6017 11036 11103 18295
+		10075 12075 12319 19048 19074 19018 19083
 	}
-	manpower = 37000
+	manpower = 797040
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

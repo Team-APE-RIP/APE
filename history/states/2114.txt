@@ -2,24 +2,27 @@ state = {
 	id = 2114
 	name = "STATE_2114"
 
-	resources = {
-		oil = 4
-	}
-
 	history = {
-		owner = ZZZ # IBR
-		victory_points = { 8111 1 }
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = SLG
+		# add_core_of = ILG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		# add_core_of = MOR
-		# set_state_flag = GDP_regions_morocco
-	}
+		victory_points = {
+			14402 1
+		}
 
-	provinces = {
-		8038 8111 14384 4920
+
 	}
-	manpower = 45001
+	resources = {
+		oil = 10
+	}
+	provinces = {
+		14406 12711 14396 14402 14397 14399
+	}
+	manpower = 58664
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 }

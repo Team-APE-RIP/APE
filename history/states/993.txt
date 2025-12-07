@@ -2,33 +2,28 @@ state = {
 	id = 993
 	name = "STATE_993"
 	resources = {
-		steel = 11
+		steel = 5.000
 	}
-	provinces = {
-		740 3735 
-	}
-	history = {
-		owner = IPE
-		add_core_of = IPE
-		victory_points = { 740 15 }
-		victory_points = { 3735 6 }
-		victory_points = { 15114 10 }
 
-		# add_core_of = IBR
+	history = {
+		owner = ZZZ # AST
+		# add_core_of = AST
 		buildings = {
-			thermoelectric_plant = 2
-			hydroelectric_plant = 1
-			barracks = 1
-			infrastructure = 5
-			radar_station = 1
-			740 = {
-				naval_base = 2
-			}
+			infrastructure = 2
+			air_base = 1
+			radar_station = 2
 		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_large_city
+
+		victory_points = { # Alice Springs
+			2223 3
+		}
 	}
-	manpower = 1369507
+
+	provinces = {
+		2223 8237 10979 11013 12915 12936 12992
+	}
+	manpower = 26134
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = wasteland
+	local_supplies = 0.000
 }

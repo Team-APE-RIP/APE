@@ -1,28 +1,25 @@
 state = {
 	id = 1709
 	name = "STATE_1709"
-
-	history = {
-		owner = ZZZ # DOM
-		buildings = {
-			infrastructure = 3
-			air_base = 2
-			radar_station = 1
-			anti_air_building = 1
-			barracks = 2
-			thermoelectric_plant = 1
-			schools = 1
-			offices = 1
-			prisons = 1
-		}
-		# add_core_of = DOM
-		victory_points = { 15595 5 }
-	}
-
 	provinces = {
-		15593 15594 15595 15596 15599 15600 15601
+		10965 14926 14966 14993 10944
 	}
-	manpower = 655851
+	resources = {
+		tungsten = 7
+	}
+	history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = ARG
+		victory_points = {
+			10944 1
+		}
+
+
+	}
+	manpower = 61285
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 }

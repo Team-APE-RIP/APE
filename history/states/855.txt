@@ -1,23 +1,24 @@
-state = { #Population Done
+state = {
 	id = 855
 	name = "STATE_855"
-	resources = {
-		aluminium = 6
-	}
 	provinces = {
-		12 135 256 270 368 3245 3261 3349 6149 6403 9033 9358 11275 11340 9368 9291
+		829 13610 15147
+	}
+	resources = {
+		oil = 4
 	}
 	history = {
-		owner = ZZZ # VOL
+		victory_points = {
+			829 1
+		}
+		owner = ZZZ # PER
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = { 270 2 }
-		victory_points = { 9368 5 }
-		# add_core_of = VOL
-		# add_claim_by = MCW
+		# add_core_of = PER
+
 	}
-	manpower = 138000
-	state_category = rural
+	manpower = 148307
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

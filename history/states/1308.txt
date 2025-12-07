@@ -1,20 +1,18 @@
 state = {
 	id = 1308
 	name = "STATE_1308"
-
 	history = {
-		owner = ZZZ # BUR
+		owner = RHN
+		add_core_of = RHN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		# add_core_of = BUR
 	}
-
 	provinces = {
-		3999 4147 4454 7122 10033 11966
+        3547 9522 18140
 	}
-	manpower = 266381
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

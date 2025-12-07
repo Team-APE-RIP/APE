@@ -3,22 +3,30 @@ state = {
 	name = "STATE_2200"
 
 	history = {
-		owner = ZZZ # TAJ
+		owner = ZZZ # MCW
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			offices = 2
+			prisons = 1
+			schools = 2
+			barracks = 2
+			hospitals = 1
+			air_base = 4
+			hydroelectric_plant = 1
+			thermoelectric_plant = 2
 		}
 		victory_points = {
-			4542 1
+			6450 20
 		}
-		# add_core_of = TAJ
-		# set_state_flag = state_renamings
+		# add_core_of = MCW
+
 	}
 
 	provinces = {
-		18653 12250 4542 15975 4467
+		483 3477 3578 6450
 	}
-	manpower = 367364
+	manpower = 535242
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

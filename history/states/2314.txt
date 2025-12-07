@@ -1,24 +1,18 @@
 state = {
 	id = 2314
 	name = "STATE_2314"
-
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			7321 1
-		}
-		# set_state_flag = GDP_regions_nusa_tenggara
 	}
-
 	provinces = {
-		1298 10175 4301 7321 12151 10219
+        17995
 	}
-	manpower = 897263
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -3,23 +3,23 @@ state = {
 	name = "STATE_2460"
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_claim_by = XIN
-		# add_core_of = IND
+		owner = ZZZ # TUN
+		# add_core_of = TUN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			hospitals = 1
+			offices = 1
+			synthetic_refinery = 1
 		}
-		# set_state_flag = GDP_regions_jammu_kashmir
-		# set_variable = { china_state_ref = 43 }
-		# set_variable = { china_region_ref = 5 }
+
+		victory_points = { 18101 10 }
+		victory_points = { 10091 2 }
 	}
 
 	provinces = {
-		10821
+		18101 10091
 	}
-	manpower = 14205
+	manpower = 680931
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	state_category = rural
 }

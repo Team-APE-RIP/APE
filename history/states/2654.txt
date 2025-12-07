@@ -1,18 +1,24 @@
 state = {
 	id = 2654
 	name = "STATE_2654"
+
 	history = {
-		owner = ROV
-		add_core_of = ROV
+		owner = ZZZ # DOM
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			barracks = 1
+			15597 = {
+				naval_base = 2
+			}
 		}
+		# add_core_of = DOM
+		victory_points = { 15597 2 }
 	}
+
 	provinces = {
-	    7238 7347
+		4598 15597 15598
 	}
-	manpower = 1087721
+	manpower = 148252
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

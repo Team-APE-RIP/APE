@@ -2,22 +2,28 @@ state = {
 	id = 1947
 	name = "STATE_1947"
 
-
 	history = {
-		owner = ZZZ # IND
-		victory_points = { 16082 2 }
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = {
+			19728 4
+		}
+		victory_points = {
+			9944 3
+		}
+
+		# set_variable = { china_state_ref = 5 }
+		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		1622 16082 7428 7465 12490
+		7174 19728 1125
 	}
-	manpower = 1338423
+	manpower = 2463640
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

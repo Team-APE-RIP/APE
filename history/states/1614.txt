@@ -1,26 +1,26 @@
 state = {
 	id = 1614
 	name = "STATE_1614"
+	resources = {
+		rubber = 12
+	}
 
 	history = {
-		owner = ZZZ # ARG
-		# add_core_of = ARG
+		owner = ZZZ # COL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
 		buildings = {
 			infrastructure = 1
-			barracks = 1
-			radar_station = 1
-			air_base = 1
 		}
-		# set_state_flag = GDP_regions_chubut
-		victory_points = {
-			15021 1
-		}
+		# set_demilitarized_zone = yes
 	}
 
 	provinces = {
-		15021
+		17363 12825 15632 15519 17342
 	}
-	manpower = 483
+	manpower = 10500
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
+	local_supplies = 0.000
 }

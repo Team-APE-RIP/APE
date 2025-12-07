@@ -2,25 +2,41 @@ state = {
 	id = 1210
 	name = "STATE_1210"
 	resources = {
-		rubber = 9.000
+		rubber = 4.000
+		tungsten = 4.000
 	}
 
 	history = {
-		owner = ZZZ # FFR
-		# add_core_of = FFR
+		owner = ZZZ # BUR
+		# add_core_of = BUR
 		victory_points = {
-			13396 8
+			1330 30
+		}
+		victory_points = {
+			19118 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			thermoelectric_plant = 1
+			offices = 1
+			dockyard = 1
+			radar_station = 1
+			air_base = 1
+			synthetic_refinery = 1
+			barracks = 1
+			prisons = 1
+			schools = 1
+			19118 = {
+				naval_base = 4
+			}
 		}
 	}
 
 	provinces = {
-		13396 13399 14014 15408 15409
+		1330 10154 10267 12197 19118
 	}
-	manpower = 853400
+	manpower = 2628725
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_town
 	local_supplies = 0.000
 }

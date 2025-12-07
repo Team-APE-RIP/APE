@@ -1,26 +1,29 @@
 state = {
 	id = 2149
 	name = "STATE_2149"
+	resources = {
+		chromium = 8.000
+	}
 
 	history = {
-		owner = ZZZ # LEB
+		owner = MEN
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			barracks = 1
+			infrastructure = 1
 		}
 		victory_points = {
-			792 1
+			10372 1
 		}
-		# add_core_of = LEB
-		# set_state_flag = state_renamings
+
+
+		# set_variable = { china_state_ref = 54 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		792 18592
+		1551 1608 1796 1811 1871 4222 4555 4612 4655 7578 7648 10363 10372 11752 12448 12554 12629 16706 17217 13283 1743
 	}
-	manpower = 538253
+	manpower = 64309
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = wasteland
 	local_supplies = 0.000
 }

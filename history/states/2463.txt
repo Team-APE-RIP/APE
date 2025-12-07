@@ -3,40 +3,36 @@ state = {
 	name = "STATE_2463"
 
 	history = {
-		owner = DMK
-        add_core_of = DMK
-		# set_state_flag = has_offshore_island
-		victory_points = {
-			6393 4
-		}
-		victory_points = {
-			5621 3
-		}
-		victory_points = {
-			8335 2
-		}
-		victory_points = {
-			3305 2
-		}
-		victory_points = {
-			3260 2
-		}
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
-			infrastructure = 6
-			schools = 2
-			hospitals = 1
-			barracks = 1
 			offices = 1
-			thermoelectric_plant = 2
+			infrastructure = 2
 		}
-		# add_core_of = DEN
+		victory_points = {
+			19820 12
+		}
+		victory_points = {
+			4519 5
+		}
+		victory_points = {
+			4547 5
+		}
+		victory_points = {
+			7459 4
+		}
+		add_extra_state_shared_building_slots = 1
+
+		# set_variable = { china_state_ref = 29 }
+		# set_variable = { china_region_ref = 3 }
+
 	}
 
 	provinces = {
-		6393
+		4519 4547 7459 7568 12012 19753 19820 19881
 	}
-	manpower = 1016953
+	manpower = 7861413
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

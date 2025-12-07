@@ -2,23 +2,34 @@ state = {
 	id = 2279
 	name = "STATE_2279"
 	resources = {
-		rubber = 2
+		aluminium = 104.000
 	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # GUC
+		# add_core_of = GUC
+		# add_claim_by = FRS
+		# add_claim_by = FFR
 		buildings = {
-			infrastructure = 2
+			schools = 1
+			radar_station = 4
+			air_base = 1
+			barracks = 1
+			infrastructure = 1
+			12885 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = GDP_regions_south_sumatra
+		victory_points = {
+			12885 1
+		}
 	}
 
 	provinces = {
-		12181 10522 19225 1313
+		4934 12885 17379
 	}
-	manpower = 304497
+	manpower = 37287
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

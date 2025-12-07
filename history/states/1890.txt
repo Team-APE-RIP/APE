@@ -1,21 +1,29 @@
 state = {
 	id = 1890
 	name = "STATE_1890"
-	provinces = {
-		7847 4990
-	}
+
 	history = {
-		owner = ZZZ # PAK
-		victory_points = { 7847 1 }
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# add_claim_by = AFG
+		add_extra_state_shared_building_slots = 2
+		# set_demilitarized_zone = yes
+
+		# set_variable = { china_state_ref = 17 }
+		# set_variable = { china_region_ref = 2 }
+
+		victory_points = {
+			19819 17
+		}
 	}
-	manpower = 61959
-	buildings_max_level_factor = 1.000
+
+	provinces = {
+		19819
+	}
+	manpower = 5006907
+	buildings_max_level_factor = 2.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

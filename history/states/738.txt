@@ -1,33 +1,32 @@
 state = {
 	id = 738
 	name = "STATE_738"
-
 	resources = {
-		oil = 4
+		steel = 4.000
 	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # IRK
 		buildings = {
 			infrastructure = 2
-			radar_station = 1
-			19231 = {
-				naval_base = 3
-			}
-			air_base = 1
+		}
+		# add_core_of = IRK
+		victory_points = {
+			7828 2
 		}
 		victory_points = {
-			19231 1
+			4868 1
 		}
-		# set_state_flag = GDP_regions_maluku
+		victory_points = {
+			1735 1
+		}
 	}
 
 	provinces = {
-		4579 19231 19351 19353 19354
+		1735 1792 4470 4737 4795 4868 5288 5426 5450 5458 5506 7036 7483 7714 7759 7828 10524 10583 10596 10628 10654 10688 12538 12668 12681 13317 13321 13329 13332 14462
 	}
-	manpower = 151257
+	manpower = 62776
 	buildings_max_level_factor = 1.000
-	state_category = tiny_island
+	state_category = pastoral
 	local_supplies = 0.000
 }

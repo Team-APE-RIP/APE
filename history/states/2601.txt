@@ -1,18 +1,37 @@
 state = {
 	id = 2601
 	name = "STATE_2601"
+
 	history = {
-		owner = MAN
-		# add_core_of = SHT
+		owner = ZZZ # MEX
+		# add_core_of = MEX
 		buildings = {
-			infrastructure = 1
+			thermoelectric_plant = 1
+			prisons = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			14510 10
+		}
+		victory_points = {
+			14509 5
+		}
+		victory_points = {
+			17019 8
+		}
+		victory_points = {
+			16925 3
+		}
+		victory_points = {
+			5876 2
 		}
 	}
+
 	provinces = {
-		14628 6852 11836 4514 6893 9831 14632
+		2008 5876 14509 14510 14517 16925 17019
 	}
-	manpower = 1026811
+	manpower = 2057267
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

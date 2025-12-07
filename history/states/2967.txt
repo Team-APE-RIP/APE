@@ -1,18 +1,40 @@
-state = {
+state = { #Population Done
 	id = 2967
 	name = "STATE_2967"
+	manpower = 4346322
+	resources = {
+		chromium = 6
+	}
+
+	state_category = town
+
 	history = {
-		owner = ITD
-        add_core_of = ITD
+		owner = ZZZ # GUA
 		buildings = {
 			infrastructure = 3
+			offices = 1
+			schools = 1
+			barracks = 1
+			air_base = 1
+			thermoelectric_plant = 2
+			10886 = {
+				naval_base = 1
+			}
+			13085 = {
+				naval_base = 1
+			}
+		}
+		# add_core_of = GUA
+		victory_points = { # Guatemala City
+			10886 5
+		}
+		victory_points = { # Quetzaltenango
+			10842 3
 		}
 	}
+
 	provinces = {
-        11726
+		4991 10842 10886 13085
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+
 }

@@ -1,24 +1,39 @@
 state = {
 	id = 1783
 	name = "STATE_1783"
-	manpower = 2210205
-
-	state_category = pastoral
+	resources = {
+		steel = 28.000
+		aluminium = 6.000
+	}
 
 	history = {
-		owner = ZZZ # EGY
-		buildings = {
-			infrastructure = 4
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			6504 3
 		}
-		# set_state_flag = GDP_category_town
-		victory_points = { 15768 10 }
-		victory_points = { 15769 10 }
-		# add_core_of = EGY
-		# set_state_flag = state_renamings
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 2
+			infrastructure = 6
+			9500 = {
+				coastal_bunker = 3
+			}
+		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+		# add_core_of = BRG
+
+
 	}
 
 	provinces = {
-		15768 15769 11964
+		6504 9500 9962 454 3476 11420
 	}
-
+	manpower = 1873416
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

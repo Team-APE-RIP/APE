@@ -1,21 +1,58 @@
 state = {
 	id = 473
 	name = "STATE_473"
+	resources = {
+		steel = 32.000
+		aluminium = 18.000
+	}
 
 	history = {
-		owner = ZZZ # IME
-		# add_core_of = IME
-		buildings = {
-			infrastructure = 2
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			11584 15
 		}
-		victory_points = { 14474 1 }
-		# set_state_flag = state_renamings
+		victory_points = {
+			17997 10
+		}
+		victory_points = {
+			6656 7
+		}
+		victory_points = {
+			18001 10
+		}
+		victory_points = {
+			14644 4
+		}
+		victory_points = {
+			3604 10
+		}
+		victory_points = {
+			9582 4
+		}
+		victory_points = {
+			18000 2
+		}
+		buildings = {
+			offices = 1
+			hydroelectric_plant = 1
+			thermoelectric_plant = 1
+			infrastructure = 5
+			air_base = 3
+			schools = 1
+			11584 = {
+				naval_base = 6
+			}
+		}
+		# add_core_of = ITA
+
 	}
 
 	provinces = {
-		14474 15737
+		11584 9582 6656
 	}
-	manpower = 89594
+	manpower = 3687908
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_city
+	local_supplies = 0.000
 }

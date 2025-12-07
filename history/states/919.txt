@@ -1,37 +1,22 @@
 state = {
 	id = 919
 	name = "STATE_919"
-	resources = {
-		oil = 20.000
-		steel = 4
-	}
-
 	history = {
-		owner = ZZZ # SAU
-		# add_core_of = SAU
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			radar_station = 1
-			barracks = 1
-			prisons = 1
-			synthetic_refinery = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
+			1177 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			12727 20
-		}
-		victory_points = {
-			18580 1
-		}
-		# set_state_flag = state_renamings
+		victory_points = { 1177 5 }
 	}
-
 	provinces = {
-		5093 8004 8060 10870 10923 12727 12813 12870 13445 18543 18580
+	    1177
 	}
-	manpower = 1063866
+	manpower = 1828771
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = tiny_island
 	local_supplies = 0.000
 }

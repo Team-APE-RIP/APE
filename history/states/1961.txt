@@ -3,22 +3,25 @@ state = {
 	name = "STATE_1961"
 
 	history = {
-		owner = TIB
-		add_core_of = TIB
-		# add_claim_by = IND
-		# add_claim_by = AZH
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# set_variable = { china_state_ref = 22 }
-		# set_variable = { china_region_ref = 2 }
+		victory_points = {
+			14101 10
+		}
+		victory_points = {
+			12714 5
+		}
+
 	}
 
 	provinces = {
-		5042 16157 18878
+		7980 12714 14043 14060 14101 15550 15551 15561 17900
 	}
-	manpower = 1352
+	manpower = 1314047
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = rural
 	local_supplies = 0.000
 }

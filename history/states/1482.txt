@@ -1,28 +1,40 @@
-
 state = {
 	id = 1482
 	name = "STATE_1482"
 	resources = {
-		rubber = 12.000
+		power = 4.000
 	}
 
 	history = {
-		owner = ZZZ # BRA
-		buildings = {
-			infrastructure = 1
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			3885 10
 		}
 		victory_points = {
-			14769 3
+			14652 9
 		}
-		# add_core_of = BRA
-		# set_state_flag = GDP_regions_para
+		victory_points = {
+			14654 4
+		}
+		victory_points = {
+			14653 3
+		}
+		buildings = {
+			infrastructure = 5
+			hydroelectric_plant = 1
+			thermoelectric_plant = 1
+			air_base = 1
+			schools = 1
+		}
+		# add_core_of = ITA
 	}
 
 	provinces = {
-		14769 17442 17445
+		3885
 	}
-	manpower = 77852
+	manpower = 794736
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
 	local_supplies = 0.000
 }

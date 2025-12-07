@@ -1,25 +1,26 @@
 state = {
 	id = 981
 	name = "STATE_981"
+
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = CUB
-		buildings = {
-			infrastructure = 5
-			radar_station = 2
-			barracks = 1
-			air_base = 3
-			13618 = {
-				naval_base = 3
-			}
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			19617 3
 		}
-	add_extra_state_shared_building_slots = 1
-	victory_points = { 13618 5 }
+		buildings = {
+			infrastructure = 2
+		}
+
+		# set_variable = { china_state_ref = 38 }
+		# set_variable = { china_region_ref = 5 }
 	}
+
 	provinces = {
-		13618
+		7301 19617 
 	}
-	manpower = 2428
+	manpower = 4450705
 	buildings_max_level_factor = 1.000
-	state_category = enclave
+	state_category = pastoral
+	local_supplies = 0.000
 }

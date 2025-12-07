@@ -1,24 +1,31 @@
-state = { #Population Done
+
+state = {
 	id = 320
 	name = "STATE_320"
-	manpower = 4030660
 
-	state_category = pastoral
+	state_category = large_town
 
 	history = {
-		owner = ZZZ # IND
-		# add_core_of = IND
-		# add_claim_by = AZH
-		victory_points = { 10149 10 }
-		victory_points = { 16094 10 }
+		owner = ZZZ # BRA
 		buildings = {
-			infrastructure = 3
-			10149 = {
+			infrastructure = 4
+			barracks = 1
+			thermoelectric_plant = 1
+			5107 = {
 				naval_base = 3
 			}
+			air_base = 2
 		}
-		# set_state_flag = GDP_regions_tamil_nadu
+		# add_core_of = BRA
+		victory_points = { 5107 20 }
+		victory_points = { 2132 8 }
+		victory_points = { 2164 6 }
+		victory_points = { 8179 5 }
 	}
 
-	provinces = { 10149 16094 1268 }
+	provinces = {
+		2132 2164 2178 5107 8179
+	}
+	manpower = 3537856
+	buildings_max_level_factor = 1.000
 }

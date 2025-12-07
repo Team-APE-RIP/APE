@@ -1,32 +1,35 @@
 state = {
 	id = 1943
 	name = "STATE_1943"
-
 	resources = {
-		aluminium = 16
+		oil = 31.000
 	}
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = { 16098 2 }
-		buildings = {
-			infrastructure = 1
-			16099 = {
-				bunker = 3
-			}
-			7497 = {
-				bunker = 3
-			}
+		owner = ZZZ # TUR
+		victory_points = {
+			1549 5
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = {
+			16282 4
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			offices = 1
+		}
+		# add_core_of = SYR
+		# add_core_of = KUR
+		# add_core_of = TUR
+
+
 	}
 
 	provinces = {
-		12480 16099 7497 16098
+		1549 1578 16281 16282 16283 18477
 	}
-	manpower = 1628882
+	manpower = 377401
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
+	local_supplies = 0.000
 }

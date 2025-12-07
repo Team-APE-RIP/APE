@@ -2,29 +2,30 @@ state = {
 	id = 818
 	name = "STATE_818"
 	resources = {
-		oil = 36
+		uranium = 1
 	}
 
 	history = {
-		victory_points = {
-			15701 10
-		}
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # KYR
 		buildings = {
-			schools = 1
-			barracks = 1
-			infrastructure = 5
-			air_base = 1
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_riau
+		victory_points = {
+			18674 8
+		}
+		victory_points = {
+			18621 2
+		}
+		# add_core_of = TAJ
+
+
 	}
 
 	provinces = {
-		15701
+		13255 18621 18674 18696
 	}
-	manpower = 78756
+	manpower = 310546
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,25 +1,48 @@
-state = { #Population Done
+state = {
 	id = 1562
 	name = "STATE_1562"
 	resources = {
-		chromium = 3.000
 	}
 
 	history = {
-		owner = ZZZ # CRO
-		buildings = {
-			thermoelectric_plant = 1
-			infrastructure = 2
+		victory_points = {
+			10270 30
 		}
-		# add_core_of = CRO
-		victory_points = { 3596 4 }
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			16086 10
+		}
+		victory_points = {
+			12295 10
+		}
+		victory_points = {
+			16085 9
+		}
+		victory_points = {
+			12142 15
+		}
+		owner = ZZZ # IND
+		# add_core_of = IND
+		# add_claim_by = AZH
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			hydroelectric_plant = 1
+			air_base = 2
+			offices = 1
+			prisons = 1
+			hospitals = 1
+			barracks = 1
+		}
+
+
 	}
 
 	provinces = {
-		3596 15678
+		7119 10210 10270 12142 12182 12295 16085 16086 19011
 	}
-	manpower = 219480
+	manpower = 8326885
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

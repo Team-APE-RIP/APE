@@ -1,18 +1,54 @@
-state = {
+state = { #Population Done
 	id = 2777
 	name = "STATE_2777"
+
+	resources = {
+		steel = 7
+	}
+
 	history = {
-		owner = RHN
-		add_core_of = RHN
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			dockyard = 2
+			air_base = 5
+			barracks = 1
+			schools = 2
+			offices = 2
+			hospitals = 1
+			thermoelectric_plant = 3
+			9550 = {
+				coastal_bunker = 3
+			}
+			6449 = {
+				naval_base = 2
+				coastal_bunker = 3
+			}
+			3579 = {
+				coastal_bunker = 3
+			}
+			11535 = {
+				coastal_bunker = 3
+			}
+			6599 = {
+				coastal_bunker = 3
+			}
 		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		victory_points = { 6449 5 }
+		victory_points = { 11535 10 }
+		victory_points = { 3534 5 }
+		victory_points = { 3549 1 }
+		victory_points = { 9578 1 }
+		victory_points = { 553 1 }
 	}
+
 	provinces = {
-        3547 9522 18140
+		11535 3579 20031 6599
 	}
-	manpower = 87721
+	manpower = 1571943
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = city
 }

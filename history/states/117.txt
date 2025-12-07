@@ -2,47 +2,43 @@ state = {
 	id = 117
 	name = "STATE_117"
 	resources = {
-		aluminium = 16.000
-		steel = 24.000
+		chromium = 10.000
 	}
 
 	history = {
-		owner = ITG
-		add_core_of = ITG
+		owner = ZZZ # CAU
 		victory_points = {
-			819 30
+			11617 6
 		}
 		victory_points = {
-			851 2
+			9663 10
 		}
 		victory_points = {
-			955 10
+			3698 4
 		}
 		victory_points = {
-			11803 5
+			11647 1
 		}
 		victory_points = {
-			9826 5
+			18336 1
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 5
-			hydroelectric_plant = 1
 			thermoelectric_plant = 1
-			air_base = 3
-			schools = 1
-			819 = {
-				naval_base = 6
-			}
+			offices = 1
+			barracks = 1
 		}
-		# add_core_of = ITA
+		# add_core_of = CAU
+
+
+
 	}
 
 	provinces = {
-		819
+		3698 9663 11617 11647 18336 18341
 	}
-	manpower = 4761361
+	manpower = 500014
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = town
 	local_supplies = 0.000
 }

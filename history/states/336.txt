@@ -1,40 +1,65 @@
 state = {
 	id = 336
 	name = "STATE_336"
-	resources = {
-		rubber = 44
-		oil = 26
-	}
 
 	history = {
-		owner = ZZZ # SHO
+		owner = ZZZ # USA
 		buildings = {
-			infrastructure = 4
-			radar_station = 2
-			10297 = {
-				naval_base = 4
-				coastal_bunker = 3
-			}
-			thermoelectric_plant = 1
-			offices = 1
 			schools = 1
-			prisons = 1
-			air_base = 4
+			hospitals = 2
+			offices = 3
+			barracks = 1
+			radar_station = 1
+			infrastructure = 6
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			dockyard = 4
+			air_base = 10
+			788 = {
+				naval_base = 10
+			}
 		}
-		victory_points = {
-			10297 5
+		# add_core_of = USA
+		victory_points = { # Norfolk/Virginia Beach
+			788 25
 		}
-		victory_points = { 14696 15 }
-		# add_core_of = SHO
-		# add_core_of = MLY
-		# set_state_flag = state_renamings
+		victory_points = { # Newport News
+			865 5
+		}
+		victory_points = { # Arlington/Alexandria
+			873 10
+		}
+		victory_points = { # Richmond
+			11738 15
+		}
+		victory_points = { # Lynchburg
+			10412 3
+		}
+		victory_points = { # Roanoke
+			1506 3
+		}
+		victory_points = { # Charlottesville
+			3823 1
+		}
+		victory_points = { # Fredericksburg
+			6846 1
+		}
+		victory_points = { # Harrisonburg
+			11873 1
+		}
+		victory_points = { # Bristol
+			7558 1
+		}
+		victory_points = { # Chincoteague/Wallops Flight Facility
+			3917 1
+		}
+
 	}
 
 	provinces = {
-		4412 10297 19103 14696 19341
+		788 1506 3925 7558 9779 9931 10412 10439 11738 11841 865 873 951 3823 3917 6846 10343 11873
 	}
-	manpower = 1180413
+	manpower = 4046200
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = city
 }

@@ -1,28 +1,18 @@
 state = {
 	id = 1215
 	name = "STATE_1215"
-
 	history = {
-		owner = ZZZ # AST
-		# add_core_of = AST
-		victory_points = {
-			4201 5
-		}
+		owner = MAN
+		# add_core_of = SHT
 		buildings = {
-			thermoelectric_plant = 1
-			infrastructure = 5
-			air_base = 1
-			4201 = {
-				bunker = 1
-			}
+			infrastructure = 1
 		}
 	}
-
 	provinces = {
-		4201
+		7871 19485 19748 10577 12559 4844 12569 19751
 	}
-	manpower = 52799
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

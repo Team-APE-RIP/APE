@@ -1,20 +1,28 @@
 state = {
 	id = 2065
-	name = "STATE_2065" # Neuschwabenland/New Swabia
-	manpower = 1
-
-	state_category = wasteland
-
-	impassable = yes
+	name = "STATE_2065"
 
 	history = {
-		owner = ZZZ # AAN
+		owner = FRA
+		add_core_of = FRA
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		victory_points = {
+			15182 5
+		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 5
+			15182 = {
+				naval_base = 2
+			}
 		}
 	}
 
 	provinces = {
-		17698 16419 17679 16412 17582 17662 17752
+		15182 15187 15188
 	}
+	manpower = 251231
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

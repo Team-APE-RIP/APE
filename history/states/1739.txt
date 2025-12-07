@@ -1,27 +1,34 @@
 state = {
 	id = 1739
 	name = "STATE_1739"
+
 	resources = {
-		aluminium = 2
+		steel = 6
+		chromium = 8
 	}
 
 	history = {
-		owner = GUX
-		# add_core_of = VIN
-		# add_core_of = VIC
-		# set_demilitarized_zone = yes
-		victory_points = {
-			9948 1
-		}
+		owner = CHI
+		# add_core_of = CHI
+		#add_extra_state_shared_building_slots = 1
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
+		victory_points = {
+			6969 2
+		}
+		victory_points = {
+			11761 8
+		}
+
+		# set_variable = { china_state_ref = 10 }
+		# set_variable = { china_region_ref = 1 }
 	}
 
 	provinces = {
-		7093 9948
+		6969 11761 19869 
 	}
-	manpower = 357285
+	manpower = 3916369
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

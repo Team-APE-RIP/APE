@@ -1,17 +1,27 @@
 state = {
 	id = 2757
 	name = "STATE_2757"
+
+	resources = {
+		rubber = 2
+	}
+
 	history = {
-		owner = MLB
-		add_core_of = MLB
+		owner = KTL
+		add_core_of = KTL
+		# add_core_of = BUR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+		}
+		victory_points = {
+			7909 1
 		}
 	}
+
 	provinces = {
-        349 6282 20011
+		4175 7400 7909 7974
 	}
-	manpower = 87721
+	manpower = 422285
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

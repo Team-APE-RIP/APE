@@ -3,18 +3,39 @@ state = {
 	name = "STATE_2181"
 
 	history = {
-		owner = ZZZ # IRE
-		buildings = {
-			infrastructure = 2
+		owner = EPA
+		add_core_of = EPA
+		victory_points = {
+			10024 10
 		}
-		# add_core_of = IRE
+		victory_points = {
+			1093 15
+		}
+		victory_points = {
+			10109 5
+		}
+		victory_points = {
+			4195 2
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			dockyard = 1
+			radar_station = 1
+			air_base = 2
+			10024 = {
+				naval_base = 4
+			}
+		}
+		# add_core_of = IBR
+
 	}
 
 	provinces = {
-		11238 18610
+		1093 4195 7111 
 	}
-	manpower = 59217
+	manpower = 804860
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
 	local_supplies = 0.000
 }

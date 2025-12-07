@@ -1,40 +1,24 @@
 state = {
 	id = 678
 	name = "STATE_678"
-	resources = {
-		oil = 44
-	}
+
 
 	history = {
-		owner = ZZZ # SAU
+		owner = ZZZ # SER
+		# add_core_of = SER
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			13467 = {
-				naval_base = 1
-			}
-			synthetic_refinery = 1
-			offices = 1
+			infrastructure = 3
+			barracks = 1
 		}
-		victory_points = {
-			13467 5
-		}
-		victory_points = {
-			10850 1
-		}
-		victory_points = {
-			10791 1
-		}
-		# add_core_of = SAU
-		# set_state_flag = GDP_category_metropolis
-		# set_state_flag = state_renamings
+		victory_points = { 15654 2 }
+		victory_points = { 9890 2 }
+		victory_points = { 18165 1 }
 	}
 
 	provinces = {
-		1955 4932 5024 7995 10791 10850 12702 13467 18547 18567
+		9890 18165 15654 18166
 	}
-	manpower = 440298
+	manpower = 358793
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	state_category = rural
 }

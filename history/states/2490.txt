@@ -1,27 +1,25 @@
-state = {
+state = { #Population Done
 	id = 2490
 	name = "STATE_2490"
-	manpower = 6162
-	state_category = tiny_island
+	manpower = 152639
+
+	state_category = pastoral
+
+	resources = {
+		aluminium = 58
+	}
 
 	history = {
-		owner = ZZZ
-		#add_core_of = JAP
-		buildings = {
+		owner = ZZZ # GUY
+		# add_core_of = GUY
+		# add_claim_by = VEN
+			buildings = {
+			prisons = 1
 			infrastructure = 2
-			radar_station = 2
-			air_base = 1
-			13028 = {
-				naval_base = 1
-			}
-			13030 = {
-				naval_base = 1
-			}
 		}
-		victory_points = { 13028 1 }
 	}
 
 	provinces = {
-		13028 13029 13030
+		12716 15122 15123 15124
 	}
 }

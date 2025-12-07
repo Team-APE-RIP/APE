@@ -1,4 +1,4 @@
-capital = 2563
+capital = 1432
 set_politics = {
 	ruling_party = IdeologyGroup9
 	last_election = "2049.1.12"
@@ -10,6 +10,7 @@ set_popularities = {
 }
 recruit_character = QFK_KongYouren
 #fuckParadox
+set_variable = { APEMainThemeID = 1 } # APEMainTheme - 炼土复周
 add_ideas = QFK_idea_TheDoctrineOfTheMean_show
 set_variable = { QFK.num_controlled_states_SHOW = 1 }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.05 }

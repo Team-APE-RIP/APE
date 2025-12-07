@@ -1,38 +1,42 @@
 state = {
 	id = 859
 	name = "STATE_859"
+
 	resources = {
-		steel = 7.000
-		aluminium = 16.000
+		oil = 16
 	}
 
 	history = {
-		owner = ZZZ # ONG
+		owner = ZZZ
+		#add_core_of = JAP
+
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			hospitals = 1
 			prisons = 1
-			thermoelectric_plant = 1
-			air_base = 1
-			3092 = {
-				bunker = 1
+			infrastructure = 2
+			radar_station = 2
+			air_base = 3
+			12237 = {
+				naval_base = 5
 			}
 		}
 		victory_points = {
-			9248 5
+			12237 1
 		}
 		victory_points = {
-			11071 3
+			5135 1
 		}
-		# add_core_of = ONG
+		victory_points = {
+			12154 1
+		}
+
+
 	}
 
 	provinces = {
-		89 138 140 3031 3080 3086 3092 6034 6051 9248 11071 11137 11178
+		4393 4418 5135 7365 7614 10251 10974 12154 12193 12237 12931
 	}
-	manpower = 121000
+	manpower = 810628
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

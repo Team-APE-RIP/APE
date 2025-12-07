@@ -3,42 +3,24 @@ state = {
 	name = "STATE_85"
 
 	history = {
-		owner = ZZZ # GER
-		# add_core_of = GER
-
-		victory_points = { 362 15 }
-		victory_points = { 279 10 }
-		victory_points = {
-			3230 5
-		}
-		victory_points = {
-			15828 4
-		}
-		victory_points = {
-			3380 10
-		}
-		victory_points = {
-			9263 10
-		}
+		owner = ZZZ # LEB
 		buildings = {
-			offices = 1
+			infrastructure = 4
+			hospitals = 1
 			barracks = 1
-			prisons = 1
-			infrastructure = 5
-			dockyard = 1
-			air_base = 3
-			thermoelectric_plant = 3
-			hydroelectric_plant = 2
-			362 = { naval_base = 5 }
+			11919 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = GDP_category_large_town
-	}
+		victory_points = { 11919 3 }
+		victory_points = { 6636 1 }
+		# add_core_of = LEB
 
+	}
 	provinces = {
-		279 334 362 389 3324 9263
+		11919 6636
 	}
-
-	manpower = 2599689
+	manpower = 225014
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = rural
 }

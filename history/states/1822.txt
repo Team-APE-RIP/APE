@@ -1,28 +1,27 @@
 state = {
 	id = 1822
-	name = "STATE_1822"
-	resources = {
-		oil = 2.000
-	}
+	name = "STATE_1822" #santa fe
+	manpower = 688837
+
+	state_category = town
 
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ # ARG
 		buildings = {
+			barracks = 1
+			schools = 1
+			thermoelectric_plant = 3
 			infrastructure = 4
-			hydroelectric_plant = 1
-			missile_silo = 1
 		}
-		victory_points = {
-			15886 10
-		}
+		victory_points = { 14947 10 }
+		victory_points = { 2172 5 }
+		victory_points = { 14971 1 }
+		# add_core_of = ARG
+
+
 	}
 
 	provinces = {
-		1063 9865 15886 19717 19794
+		2172 13000 14947 14971 14982 15075
 	}
-	manpower = 1289487
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
 }

@@ -2,29 +2,34 @@ state = {
 	id = 156
 	name = "STATE_156"
 
+	resources = {
+		rubber = 6
+		steel = 4
+	}
+
 	history = {
-		owner = ITC
-        add_core_of = ITC
-		victory_points = { 3901 7 }
-		victory_points = { 9990 10 }
-		victory_points = { 12066 7 }
-		victory_points = { 12098 4 }
-		victory_points = { 10027 1 }
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			offices = 1
-			infrastructure = 4
-			dockyard = 4
-			air_base = 5
-			schools = 1
-			hydroelectric_plant = 1
+			infrastructure = 5
+			7236 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = ITA
+		victory_points = {
+			7236 5
+		}
+		victory_points = {
+			19122 1
+		}
+
 	}
 
 	provinces = {
-		3901 10027 12066 12098
+		4371 7236 19122
 	}
-	manpower = 1559578
+	manpower = 856459
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
+	local_supplies = 0.000
 }

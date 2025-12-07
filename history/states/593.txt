@@ -1,55 +1,26 @@
 state = {
 	id = 593
-	name = "STATE_593"
-	resources = {
-		tungsten = 20.000
-		steel = 14.000
-	}
+	name = "STATE_593" # Stonington Island
+	manpower = 1
+
+	state_category = wasteland
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
-		# add_core_of = GNG
-		# set_variable = { china_state_ref = 35 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = state_renamings
+		owner = ZZZ # AAO
+		# add_core_of = AAO
+		# add_core_of = AAA
+		# add_core_of = AAC
+		# add_claim_by = ENG
+		victory_points = { 17724 1 }
 		buildings = {
-			offices = 1
-			prisons = 1
-			barracks = 2
-			thermoelectric_plant = 2
-			hydroelectric_plant = 1
-			infrastructure = 5
-			air_base = 1
-		}
-		victory_points = {
-			4165 5
-		}
-		victory_points = {
-			4207 3
-		}
-		victory_points = {
-			7067 5
-		}
-		victory_points = {
-			7108 5
-		}
-		victory_points = {
-			7182 11
-		}
-		victory_points = {
-			9978 5
-		}
-		victory_points = {
-			15742 5
+			infrastructure = 1
+			17724 = {
+				naval_base = 1
+			}
 		}
 	}
 
 	provinces = {
-		4050 4165 4207 7067 7108 7141 7182 9978 15742 19574
+		17724
 	}
-	manpower = 14134693
-	buildings_max_level_factor = 1.750
-	state_category = town
-	local_supplies = 0.000
 }

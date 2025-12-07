@@ -1,19 +1,30 @@
 state = {
 	id = 1599
 	name = "STATE_1599"
+	resources = {
+		rubber = 2.000
+	}
+
 	history = {
-		owner = ZZZ # ZZZ
-		victory_points = { 15177 5 }
+		owner = ZZZ # GRO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
+		# add_core_of = GRO
+		victory_points = {
+			12944 3
+		}
+		victory_points = {
+			13834 1
+		}
+
 	}
 
 	provinces = {
-		15177
+		8182 12944 13834 13842 13846 17874
 	}
-	manpower = 14
-	buildings_max_level_factor = 2.000
-	state_category = tiny_island
-	impassable = yes
+	manpower = 417847
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

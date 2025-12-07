@@ -1,37 +1,35 @@
 state = {
 	id = 1024
 	name = "STATE_1024"
+	resources = {
+		uranium = 8.000
+	}
 
 	history = {
-		owner = DPK
-		add_core_of = DPK
-		# add_core_of = KOR
-		# add_core_of = JAP
+		owner = ZZZ # CAU
 		victory_points = {
-			11835 5
+			4473 2
 		}
 		victory_points = {
-			912 1
+			12434 1
 		}
 		victory_points = {
-			6963 1
+			18339 1
 		}
 		buildings = {
 			infrastructure = 4
-			hydroelectric_plant = 1
-			enrichment_plant = 1
-			hospitals = 1
-			offices = 1
 		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_korea
+		# add_core_of = CAU
+
+
+
 	}
 
 	provinces = {
-		912 3912 6963 9795 9918 11775 11828 11835 11896
+		18348 12434 18339 4473
 	}
-	manpower = 2551679
+	manpower = 589980
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

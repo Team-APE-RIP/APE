@@ -1,18 +1,33 @@
 state = {
 	id = 2834
 	name = "STATE_2834"
+	resources = {
+		uranium = 2.000
+	}
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # SAU
+		# add_core_of = SAU
+		victory_points = {
+			13462 5
+		}
 		buildings = {
 			infrastructure = 3
+			18563 = {
+				naval_base = 1
+			}
 		}
+		victory_points = {
+			18563 1
+		}
+
 	}
+
 	provinces = {
-        669 3671 20047
+		2033 4981 7934 10748 10835 12758 13462 13463 13466 13470 18563
 	}
-	manpower = 87721
+	manpower = 300979
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

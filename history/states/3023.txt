@@ -1,18 +1,20 @@
-state = {
+state = { #Population Done
 	id = 3023
 	name = "STATE_3023"
+	manpower = 85076
+	state_category = tiny_island
+
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = ZZZ # WIN
+		# add_core_of = WIN
+		# add_core_of = SVI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
+		victory_points = { 379 1 }
 	}
+
 	provinces = {
-       950 12083
+		379
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

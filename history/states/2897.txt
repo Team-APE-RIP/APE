@@ -1,18 +1,25 @@
 state = {
 	id = 2897
 	name = "STATE_2897"
+	manpower = 126703
+
+	state_category = tiny_island
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # GRO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			radar_station = 2
+			air_base = 1
+			13072 = {
+				naval_base = 1
+			}
 		}
+		victory_points = { 13072 1 }
+		# add_core_of = GRO
 	}
+
 	provinces = {
-        11713 762 780
+		13072 19998 19999 20000
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

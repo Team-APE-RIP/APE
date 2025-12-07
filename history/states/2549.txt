@@ -3,19 +3,25 @@ state = {
 	name = "STATE_2549"
 
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = ZZZ # ROM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			air_base = 3
+		}
+		# add_core_of = ROM
+		victory_points = {
+			15984 3
+		}
+		victory_points = {
+			3724 1
 		}
 	}
 
 	provinces = {
-		1893
+		3707 3724 15984
 	}
-	manpower = 938101
+	manpower = 620103
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000
-	#impassable = yes
 }

@@ -1,29 +1,24 @@
 state = {
 	id = 1680
 	name = "STATE_1680"
-	resources = {
-	}
-
-	state_category = rural
 
 	history = {
-		owner = ZZZ # PRU
+		owner = ZZZ # MAD
+		# add_core_of = MAD
 		buildings = {
-			schools = 1
-			prisons = 1
-			infrastructure = 3
-			radar_station = 1
-			air_base = 2
+			infrastructure = 2
+			15920 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = PRU
-		victory_points = {
-			15462 4
-		}
+
+		victory_points = { 15920 5 }
 	}
 
 	provinces = {
-		2156 15461 15462
+		15920
 	}
-	manpower = 692414
+	manpower = 51031
 	buildings_max_level_factor = 1.000
+	state_category = town
 }

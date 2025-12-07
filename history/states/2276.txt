@@ -1,27 +1,25 @@
 state = {
 	id = 2276
 	name = "STATE_2276"
-	resources = {
-		rubber = 84
-		oil = 8
-	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = SHX
+		add_core_of = SHX
 		victory_points = {
-			19274 1
+			19724 3
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			barracks = 1
 		}
-		# set_state_flag = GDP_regions_south_sumatra
+		# set_variable = { china_state_ref = 40 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		19274 19243 4381 10294
+		12882 19756 531 19724 19508
 	}
-	manpower = 190228
+	manpower = 1946541
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

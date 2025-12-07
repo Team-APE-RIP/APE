@@ -1,21 +1,24 @@
 state = {
 	id = 2570
 	name = "STATE_2570"
+	resources = {
+		rubber = 4
+	}
+
 	history = {
-		owner = CHI
-		# add_core_of = ZZZ
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		victory_points = {
-			8081 3
-		}
+
 	}
+
 	provinces = {
-		1985 3742 16800 8081 9071 15190
+		10156
 	}
-	manpower = 1026811
+	manpower = 127685
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

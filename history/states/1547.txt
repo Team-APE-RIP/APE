@@ -1,27 +1,24 @@
 state = {
 	id = 1547
 	name = "STATE_1547"
-	resources = {
-	}
 
 	history = {
-		owner = ZZZ # IBR
-		# add_core_of = IBR
-		victory_points = { 15113 2 }
+		owner = TIB
+		add_core_of = TIB
+		# add_claim_by = IND
+		# add_claim_by = AZH
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
-			15113 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_city
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		15113
+		5042 16157 18878
 	}
-	manpower = 21752
+	manpower = 1352
 	buildings_max_level_factor = 1.000
-	state_category = enclave
+	state_category = wasteland
+	local_supplies = 0.000
 }

@@ -1,26 +1,22 @@
 state = {
 	id = 1304
-	name = "STATE_1304"
+	name = "STATE_1304" # Melchior Islands
+	manpower = 1
 
-	resources = {
-		aluminium = 2
-	}
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # IME
+		owner = ZZZ # AAA
+		# add_core_of = AAA
+		# add_core_of = AAC
+		# add_claim_by = ENG
+		victory_points = { 17591 1 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
-		victory_points = { 14471 1 }
-		# add_core_of = IME
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		14451 14471 7176 11970
+		17591
 	}
-
-	manpower = 29582
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
 }

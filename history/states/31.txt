@@ -1,58 +1,25 @@
 state = {
 	id = 31
 	name = "STATE_31"
+	resources = {
+		oil = 5.000
+	}
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = {
-			15216 15
-		}
-		victory_points = {
-			6766 5
-		}
-		victory_points = {
-			15222 5
-		}
-		victory_points = {
-			15205 1
-		}
-		victory_points = {
-			11699 1
-		}
-		victory_points = {
-			6931 1
-		}
-		victory_points = {
-			15208 3
-		}
-		victory_points = {
-			15227 1
-		}
-		victory_points = {
-			15230 1
-		}
-		victory_points = {
-			11697 1
-		}
+		owner = ZZZ # SAM
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
-			air_base = 2
-			hospitals = 1
-			offices = 1
-			thermoelectric_plant = 3
-			hydroelectric_plant = 3
+			infrastructure = 1
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
+		victory_points = {
+			11377 5
+		}
+		# add_core_of = SAM
 	}
 
 	provinces = {
-		15216
+		292 339 355 3214 3328 3382 6404 9271 9401 9514 11273 11281 11319 11339 11377 11496
 	}
-	manpower = 2061300
+	manpower = 640000
 	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
+	state_category = rural
 }

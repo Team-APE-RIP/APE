@@ -1,36 +1,25 @@
 state = {
 	id = 1303
 	name = "STATE_1303"
+	resources = {
+		rubber = 4.000
+	}
 
 	history = {
-		owner = ZZZ # AZH
-		victory_points = {
-			7565 3
-		}
-		victory_points = {
-			16118 3
-		}
-		victory_points = {
-			18888 5
-		}
-		victory_points = {
-			18935 10
-		}
+		owner = KCJ
+		add_core_of = KCJ
+		# add_core_of = LAO
+		# add_claim_by = KCD
 		buildings = {
-			infrastructure = 3
-			barracks = 1
-			prisons = 1
+			infrastructure = 2
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_category_town
 	}
 
 	provinces = {
-		7565 12338 16117 16118 18888 18935 18970
+		1577 4596 12167 19014
 	}
-	manpower = 7580183
+	manpower = 89198
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

@@ -1,20 +1,23 @@
 state = {
 	id = 1867
 	name = "STATE_1867"
+	resources = {
+	}
 
-	impassable = yes
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
-		# set_state_flag = state_renamings
+		owner = ZZZ # PRU
+		buildings = {
+			infrastructure = 2
+		}
+		# add_core_of = PRU
+
 	}
 
 	provinces = {
-		5222
+		13086
 	}
-	manpower = 45721
+	manpower = 53260
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

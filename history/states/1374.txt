@@ -3,22 +3,29 @@ state = {
 	name = "STATE_1374"
 
 	history = {
-		owner = ZZZ # IRE
+		owner = ZZZ # MCW
 		victory_points = {
-			7377 2
+			81 1
+		}
+		victory_points = {
+			6189 5
 		}
 		buildings = {
 			infrastructure = 3
-			schools = 1
+			barracks = 1
+			air_base = 2
+			radar_station = 2
 		}
-		# add_core_of = IRE
+		# add_core_of = MCW
+
+
 	}
 
 	provinces = {
-		7377 18611
+		60 81 93 129 160 3057 3085 3124 3154 3163 6073 6169 6189 9207 11062 11083 11093 11131 11165 11168 13336 13340 15985 18289 18290
 	}
-	manpower = 122893
+	manpower = 172441
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

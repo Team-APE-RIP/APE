@@ -3,29 +3,35 @@ state = {
 	name = "STATE_441"
 
 	history = {
-		owner = ZZZ # IND
+		owner = ZZZ # OST
+		# add_core_of = OST
+		victory_points = {
+			14585 5
+		}
+		victory_points = {
+			9374 1
+		}
+		victory_points = {
+			11498 1
+		}
+		victory_points = {
+			14583 1
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			barracks = 1
+			offices = 1
+			air_base = 2
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		victory_points = {
-			1910 15
-		}
-		victory_points = {
-			18880 2
-		}
-		victory_points = {
-			16011 2
-		}
-		# set_state_flag = GDP_regions_jammu_kashmir
+
+
 	}
 
 	provinces = {
-		1910 16010 16011 16012 18876 18880
+		9246 9374 9438 11226 11498 14581 14583 14585 14587 14588
 	}
-	manpower = 1751308
+	manpower = 661357
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

@@ -1,26 +1,17 @@
 state = {
 	id = 923
 	name = "STATE_923"
-	resources = {
-		oil = 1.000
-	}
-
 	history = {
-		owner = ZZZ # SAU
-		# add_core_of = SAU
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		victory_points = {
-			10815 1
-		}
-		# set_state_flag = state_renamings
 	}
-
 	provinces = {
-		4974 5058 10815 12749 13475 18548 18564
+		8042 12671 10839
 	}
-	manpower = 65543
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

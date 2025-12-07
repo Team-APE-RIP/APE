@@ -1,18 +1,39 @@
-state = {
+state = { #Population Done
 	id = 2670
 	name = "STATE_2670"
+	manpower = 1264059
+
+	state_category = town
+
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = NTL
+        add_core_of = NTL
+		# add_core_of = HOL
+		victory_points = { 11318 10 }
+		victory_points = { 9309 8 }
+		victory_points = { 6336 8 }
+		victory_points = { 9335 1 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			thermoelectric_plant = 3
+			offices = 1
+			hospitals = 1
+			barracks = 1
+			6336 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+			9335 = {
+				coastal_bunker = 2
+			}
+			11318 = {
+				coastal_bunker = 2
+			}
 		}
+
 	}
+
 	provinces = {
-	    8045 19050 19066
+		11318 9335 9456
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

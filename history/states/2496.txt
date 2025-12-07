@@ -1,26 +1,40 @@
 state = {
 	id = 2496
 	name = "STATE_2496"
-	manpower = 71388
-	state_category = tiny_island
+	resources = {
+		oil = 40.000
+	}
 
 	history = {
-		owner = ZZZ # NZL
-		# add_core_of = NZL
+		owner = ZZZ # BKU
+		# add_core_of = KUR
+		# add_core_of = BKU
+		# add_claim_by = IRQ
 		buildings = {
-			infrastructure = 2
-			radar_station = 2
+			infrastructure = 3
+			offices = 2
+			prisons = 1
 			barracks = 1
-			air_base = 1
-			19981 = {
-				naval_base = 2
-			}
+			thermoelectric_plant = 1
 		}
 		victory_points = {
-			19981 5
+			6826 10
 		}
+		victory_points = {
+			15759 4
+		}
+		victory_points = {
+			15758 5
+		}
+
+
 	}
+
 	provinces = {
-		19981 19967 19957
+		6826 15758 15759 15761 16290 16294 18469
 	}
+	manpower = 466033
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

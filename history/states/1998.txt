@@ -1,25 +1,28 @@
-state = {
+state = { #Population Done
 	id = 1998
 	name = "STATE_1998"
-
+	manpower = 1028500
 	resources = {
-		chromium = 12
+		steel = 20
+		chromium = 4
 	}
 
+	state_category = town
+
 	history = {
-		owner = ZZZ # ENG
+		owner = ZZZ # HUN
 		buildings = {
 			infrastructure = 5
+			barracks = 1
+			hospitals = 1
 		}
-		# add_core_of = ENG
-		# set_state_flag = GDP_regions_scotland
-		# set_state_flag = GDP_category_rural
+		victory_points = { 6573 10 }
+		victory_points = { 11679 2 }
+		victory_points = { 3716 2 }
+		# add_core_of = HUN
 	}
 
 	provinces = {
-		9314 16350 11378
+		3716 6561 6573 9537 11679
 	}
-	manpower = 115270
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
 }

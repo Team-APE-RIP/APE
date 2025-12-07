@@ -1,17 +1,42 @@
 state = {
 	id = 2901
 	name = "STATE_2901"
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
-		buildings = {
-			infrastructure = 3
+		owner = MAN
+		victory_points = {
+			10463 19
 		}
+		victory_points = {
+			1545 5
+		}
+		victory_points = {
+			12342 2
+		}
+		victory_points = {
+			4551 1
+		}
+		victory_points = {
+			12355 1
+		}
+		# set_variable = { china_state_ref = 49 }
+		# set_variable = { china_region_ref = 6 }
+		buildings = {
+			offices = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+		}
+		add_extra_state_shared_building_slots = 1
+
+		# add_core_of = MAN
 	}
+
 	provinces = {
-       17998
+		 7670 10463 9623 12342 10215 4551 10521
 	}
-	manpower = 87721
+	manpower = 2665497
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

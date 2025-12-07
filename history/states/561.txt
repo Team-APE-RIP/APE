@@ -1,39 +1,29 @@
 state = {
 	id = 561
 	name = "STATE_561"
+
 	resources = {
-		steel = 9.000
+		rubber = 12
+		tungsten = 14
+		steel = 2
 	}
 
 	history = {
-		owner = ZZZ # AMR
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
-			prisons = 1
-			offices = 1
-			schools = 1
+			infrastructure = 4
 		}
 		victory_points = {
-			10678 3
+			19082 1
 		}
-		victory_points = {
-			13298 1
-		}
-		victory_points = {
-			5331 1
-		}
-		victory_points = {
-			1845 2
-		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = AMR
+
 	}
 
 	provinces = {
-		1730 1845 5331 7691 7851 8544 10678 12591 12660 13298
+		19082 12230 10158
 	}
-	manpower = 202888
+	manpower = 383082
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

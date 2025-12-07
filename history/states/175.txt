@@ -1,25 +1,18 @@
 state = {
 	id = 175
 	name = "STATE_175"
-
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = {
-			3945 2
-		}
+		owner = ITD
+        add_core_of = ITD
 		buildings = {
-			offices = 1
-			infrastructure = 5
+			infrastructure = 3
 		}
-		# add_core_of = IBR
 	}
-
 	provinces = {
-		3945 11742 888 3891
+        607 9584 969
 	}
-	manpower = 330359
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

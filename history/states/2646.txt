@@ -1,18 +1,26 @@
 state = {
 	id = 2646
 	name = "STATE_2646"
+	resources = {
+		oil = 8.000
+	}
+
 	history = {
-		owner = ERV
-		add_core_of = ERV
+		owner = ZZZ # TRK
 		buildings = {
 			infrastructure = 1
-		}        
-		victory_points = { 19104 1 }
+			radar_station = 1
+		}
+		victory_points = { 10742 6 }
+		victory_points = { 14759 1 }
+		# add_core_of = TRK
+
 	}
+
 	provinces = {
-	    19089 19104
+		4549 5003 7924 10742 12161 14759 18616 18673 18821
 	}
-	manpower = 1087721
+	manpower = 322371
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

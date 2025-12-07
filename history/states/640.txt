@@ -1,23 +1,41 @@
-state = {
+state = { #Population Done
 	id = 640
 	name = "STATE_640"
+	resources = {
+		steel = 9
+		uranium = 2
+	}
 
 	history = {
-		owner = ZZZ # BUR
-		# add_core_of = BUR
+		owner = DPK
+		add_core_of = DPK
+		# add_core_of = KOR
+		# add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			thermoelectric_plant = 2
+			air_base = 2
+			4052 = {
+				naval_base = 1
+			}
+			anti_air_building = 1
+			radar_station = 1
+			hospitals = 1
+			offices = 2
+			prisons = 1
+			schools = 1
+			barracks = 1
 		}
-		victory_points = {
-			1566 1
-		}
+		victory_points = { 10065 20 }
+		victory_points = { 4052 10 }
+
+
 	}
 
 	provinces = {
-		1566 4585 4626 19157
+		4052 10065 7171 9790 11770 978
 	}
-	manpower = 800529
+	manpower = 2475299
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

@@ -1,38 +1,18 @@
 state = {
 	id = 13
 	name = "STATE_13"
-	resources = {
-		steel = 10
-	}
-
 	history = {
-		owner = ZZZ # OST
-		victory_points = {
-			1916 15
-		}
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 6
-			1916 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
-			thermoelectric_plant = 1
-			schools = 1
-			hospitals = 2
-			offices = 1
-			prisons = 1
+			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 2
-		# add_core_of = OST
-		# set_state_flag = GDP_regions_estonia
-		# set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		1916
+        9944 19504 19537 11920
 	}
-	manpower = 224397
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

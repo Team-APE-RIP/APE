@@ -1,34 +1,30 @@
 state = {
 	id = 208
 	name = "STATE_208"
+	resources = {
+		tungsten = 4.000
+		steel = 8.000
+	}
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
+		owner = ZZZ # OMO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 1
+		# add_core_of = OMO
 		victory_points = {
-			16066 15
-		}
-		victory_points = {
-			4187 5
+			5880 1
 		}
 		victory_points = {
-			7150 6
+			8162 2
 		}
-		victory_points = {
-			16067 4
-		}
-		# set_state_flag = GDP_regions_gujarat
+
 	}
 
 	provinces = {
-		4187 7150 16066 16067 18964
+		5264 5880 5974 7268 8162 8475 8577 8645 13062 13063 13419
 	}
-	manpower = 3468919
+	manpower = 56689
 	buildings_max_level_factor = 1.000
 	state_category = wasteland
 	local_supplies = 0.000

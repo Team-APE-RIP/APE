@@ -1,21 +1,20 @@
 state = {
 	id = 1355
 	name = "STATE_1355"
+	provinces = {
+		17569
+	}
+	manpower = 1
+
+	state_category = wasteland
 
 	history = {
-		owner = ZZZ # IRE
+		owner = ZZZ # AAO
+		# add_core_of = AAO
+		# add_core_of = AAS
 		buildings = {
-			infrastructure = 3
-			radar_station = 2
+			infrastructure = 0
 		}
-		# add_core_of = IRE
 	}
 
-	provinces = {
-		337 18605
-	}
-	manpower = 113842
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

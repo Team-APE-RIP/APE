@@ -2,25 +2,42 @@ state = {
 	id = 862
 	name = "STATE_862"
 	resources = {
-		steel = 5.000
+		oil = 4.000
 	}
 
 	history = {
-		owner = ZZZ # WRS
+		owner = ZZZ # CAU
 		buildings = {
 			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
+			prisons = 1
+			barracks = 1
 		}
-		# add_core_of = WRS
 		victory_points = {
-			6192 1
+			7624 5
 		}
+		victory_points = {
+			3682 3
+		}
+		victory_points = {
+			15132 3
+		}
+		victory_points = {
+			3668 10
+		}
+		victory_points = {
+			4463 2
+		}
+		# add_core_of = CAU
+
 	}
 
 	provinces = {
-		87 180 1439 3075 3081 6016 6105 6192 9041 11042 11089
+		1450 1455 3668 3682 3711 4463 6701 7554 7624 9645 15131 15132 15136 15692 18298
 	}
-	manpower = 71000
+	manpower = 977774
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
 	local_supplies = 0.000
 }

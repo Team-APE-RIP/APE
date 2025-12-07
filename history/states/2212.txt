@@ -1,31 +1,33 @@
 state = {
 	id = 2212
 	name = "STATE_2212"
+
 	resources = {
-		oil = 2
+		steel = 8
 	}
 
 	history = {
-		owner = ZZZ # SLO
-		victory_points = {
-			541 3
-		}
-		victory_points = {
-			11522 1
-		}
+		owner = ZZZ # OST
 		buildings = {
-			infrastructure = 4
-			barracks = 1
 			thermoelectric_plant = 1
+			infrastructure = 6
+			air_base = 4
+			schools = 1
+			prisons = 1
 		}
-		# add_core_of = SLO
+		victory_points = {
+			3320 15
+		}
+		# add_core_of = OST
+
+
 	}
 
 	provinces = {
-		541 11522
+		3320
 	}
-	manpower = 456066
+	manpower = 234516
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = city
 	local_supplies = 0.000
 }

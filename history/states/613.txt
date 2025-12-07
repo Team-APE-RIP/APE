@@ -1,42 +1,18 @@
 state = {
 	id = 613
 	name = "STATE_613"
-	resources = {
-		steel = 14
-	}
-
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			schools = 1
-			offices = 1
-			hospitals = 1
-			prisons = 1
-			barracks = 1
-			infrastructure = 5
-			thermoelectric_plant = 2
-			air_base = 4
+			infrastructure = 3
 		}
-		victory_points = {
-			11913 41
-		}
-		victory_points = {
-			19892 4
-		}
-		victory_points = {
-			19895 4
-		}
-		# set_variable = { china_state_ref = 0 }
-		# set_variable = { china_region_ref = 0 }
-		# set_variable = { china_city_ref = 1 }
 	}
-
 	provinces = {
-		11913 19872 19895
+        15210 6792 14621 9751 15214 15213
 	}
-	manpower = 3481988
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = pastoral
 	local_supplies = 0.000
 }

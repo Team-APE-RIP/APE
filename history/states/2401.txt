@@ -1,21 +1,28 @@
 state = {
 	id = 2401
 	name = "STATE_2401"
-
-	impassable = yes
+	resources = {
+		oil = 12
+	}
 
 	history = {
-		owner = MEN
-		# set_state_flag = GDP_regions_outer_mongolia
-		# set_variable = { china_state_ref = 57 }
-		# set_variable = { china_region_ref = 7 }
+		owner = ZZZ # TRK
+		buildings = {
+			infrastructure = 2
+			prisons = 1
+		}
+		victory_points = { 12333 10 }
+		victory_points = { 4599 4 }
+		victory_points = { 18679 1 }
+		# add_core_of = TRK
+
 	}
 
 	provinces = {
-		10560
+		1493 4599 7491 8099 10510 12333 12491 14704 18615 18679 18682
 	}
-	manpower = 206
+	manpower = 496260
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

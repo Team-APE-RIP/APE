@@ -2,19 +2,17 @@ state = {
 	id = 885
 	name = "STATE_885"
 	history = {
-		owner = ZZZ # ENG
+		owner = RHN
+		add_core_of = RHN
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 2
+			infrastructure = 3
 		}
-		# add_core_of = ENG
-		victory_points = { 3301 5 }
-		victory_points = { 3241 4 }
 	}
 	provinces = {
-		3241 3301 6301
+        18137 3558
 	}
-	manpower = 530907
-	state_category = rural
+	manpower = 87721
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

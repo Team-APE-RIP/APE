@@ -1,31 +1,40 @@
 state = {
 	id = 875
 	name = "STATE_875"
-	resources = {
-		steel = 6
-	}
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = FAH
+		add_core_of = FAH
 		buildings = {
-			barracks = 1
-			infrastructure = 3
+			offices = 3
+			prisons = 1
+			schools = 3
+			hospitals = 2
+			infrastructure = 6
+			thermoelectric_plant = 3
+			hydroelectric_plant = 3
+			air_base = 2
+			11445 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
 		}
 		victory_points = {
-			19159 1
+			6488 30
 		}
 		victory_points = {
-			1990 1
+			11560 10
 		}
-		# set_state_flag = GDP_regions_north_thailand
+		victory_points = {
+			6444 15
+		}
+		# add_core_of = GER
 	}
 
 	provinces = {
-		1990 4496 7531 19069 19079 19159 19160
+	    6488 11445
 	}
-	manpower = 1826754
+	manpower = 4036461
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = metropolis
 }

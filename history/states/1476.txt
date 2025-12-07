@@ -1,24 +1,23 @@
 state = {
 	id = 1476
 	name = "STATE_1476"
+
 	resources = {
-		rubber = 18
+		uranium = 8
 	}
+
 	history = {
-		owner = ZZZ # AZH
-		victory_points = { 12395 10 }
-		buildings = {
-			infrastructure = 1
-			thermoelectric_plant = 1
-		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_assam
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+
+		victory_points = { 13844 2 }
 	}
+
 	provinces = {
-		1497 12395 16135
+		1516 13836 13837 13844 13850
 	}
-	manpower = 769007
+	manpower = 543659
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 }

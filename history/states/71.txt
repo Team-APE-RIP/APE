@@ -1,26 +1,22 @@
 state = { #Population Done
 	id = 71
 	name = "STATE_71"
-	manpower = 583903
-
-	state_category = rural
-
-	history = {
-		owner = ZZZ # SLO
-		buildings = {
-			infrastructure = 3
-			air_base = 1
-		}
-		# add_core_of = SLO
-		victory_points = { 3581 4 }
-		victory_points = { 6586 1 }
-	}
-
-	resources = {
-		oil = 2
-	}
-
+	manpower = 6060
 	provinces = {
-		3581 6604 6586
+		13084
 	}
+	history = {
+		owner = ZZZ # WIN
+		# add_core_of = WIN
+		buildings = {
+			infrastructure = 2
+			13084 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 13084 1 }
+		# add_core_of = SKN
+	}
+	state_category = tiny_island
+	buildings_max_level_factor = 1.000
 }

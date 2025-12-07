@@ -1,25 +1,25 @@
 state = {
 	id = 1630
 	name = "STATE_1630"
-	manpower = 141427
-
-	state_category = pastoral
 
 	history = {
-		owner = ZZZ # URG
+		owner = ZZZ # IND
 		buildings = {
-			infrastructure = 3
-			schools = 1
+			infrastructure = 1
+			radar_station = 1
+			air_base = 2
 			barracks = 1
-			air_base = 1
 		}
-		# add_core_of = URG
-		victory_points = { 15303 1 }
-		victory_points = { 12496 1 }
-		victory_points = { 15306 2 }
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		12496 15303 15306
+		18824
 	}
+	manpower = 42162
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
 }

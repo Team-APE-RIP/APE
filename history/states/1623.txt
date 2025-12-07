@@ -1,24 +1,32 @@
 state = {
 	id = 1623
 	name = "STATE_1623"
+	resources = {
+		steel = 4.000
+		aluminium = 3.000
+	}
 
 	history = {
-		owner = ZZZ # PAR
-		# add_core_of = PAR
-		# add_claim_by = BOL
-		victory_points = {
-			5165 1
-		}
+		owner = CHI # MEN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			14948 2
+		}
+		victory_points = {
+			1959 1
+		}
+
+
+		# set_variable = { china_state_ref = 55 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		5165 17525
+		10451 11849 16849 8055 1959 4960 8976 10854 12706 14948 16664 
 	}
-	manpower = 3854
+	manpower = 451335
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

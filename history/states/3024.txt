@@ -1,19 +1,30 @@
 state = {
 	id = 3024
 	name = "STATE_3024"
+
 	history = {
-		
-		owner = IPC
-		add_core_of = IPC
+		owner = ZZZ # NRB
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			19250 = {
+				naval_base = 1
+			}
+			19268 = {
+				naval_base = 1
+			}
 		}
+		# add_core_of = NRB
+
 	}
+
 	provinces = {
-        6744 7198 10111
+		19250 19268
 	}
-	manpower = 87721
+	manpower = 39162
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = tiny_island
 	local_supplies = 0.000
 }

@@ -1,29 +1,26 @@
 state = {
 	id = 1771
 	name = "STATE_1771"
-	manpower = 482841
-
-	state_category = large_town
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		victory_points = { 12168 20 }
+		owner = ZZZ # CRO
+		victory_points = { 6647 8 }
+		victory_points = { 3627 1 }
+		victory_points = { 18163 3 }
+		victory_points = { 16176 1 }
 		buildings = {
-			infrastructure = 5
 			schools = 1
-			barracks = 1
-			offices = 1
-			air_base = 1
-			12168 = {
-				bunker = 4
-			}
+			hospitals = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
 		}
-		# set_state_flag = GDP_category_city
-		# set_state_flag = GDP_regions_south_sumatra
+		# add_core_of = CRO
 	}
 
 	provinces = {
-		12168
+		3627 6647 9595 16177 16175 16176 18178 18163
 	}
+	manpower = 865460
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

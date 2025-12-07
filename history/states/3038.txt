@@ -1,18 +1,21 @@
 state = {
 	id = 3038
 	name = "STATE_3038"
-	history = {
-		owner = PGS
-		add_core_of = PGS
-		buildings = {
-			infrastructure = 3
-		}
-	}
 	provinces = {
-        3892 6941
+		14477
 	}
-	manpower = 87721
+	history = {
+		owner = ADR
+		add_core_of = ADR
+		victory_points = {
+			14477 1
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		# add_core_of = PAD
+	}
+	manpower = 10500
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = enclave
 }

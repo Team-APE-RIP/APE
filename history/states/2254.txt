@@ -2,23 +2,31 @@ state = {
 	id = 2254
 	name = "STATE_2254"
 
+	resources = {
+		chromium = 2
+		uranium = 1
+	}
+
 	history = {
-		owner = ROV
-		add_core_of = ROV
+		owner = ZZZ # EGY
+		# add_core_of = EGY
 		buildings = {
-			infrastructure = 4
-			barracks = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		victory_points = { 19091 10 }
-		victory_points = { 19140 5 }
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			18487 7
+		}
+		victory_points = {
+			18538 4
+		}
+
 	}
 
 	provinces = {
-		19097 19140 19091
+		10784 12862 14192 14193 18487 18489 18532 18538
 	}
-	manpower = 1573806
+	manpower = 838319
 	buildings_max_level_factor = 1.000
 	state_category = rural
+	local_supplies = 0.000
 }

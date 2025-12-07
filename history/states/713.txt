@@ -1,22 +1,18 @@
 state = {
 	id = 713
 	name = "STATE_713"
-	manpower = 130
-	state_category = tiny_island
-
 	history = {
-		owner = ZZZ # AAF
-		# add_core_of = AAF
+		owner = BHM
+        add_core_of = BHM
 		buildings = {
-			infrastructure = 2
-			2165 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
-		victory_points = { 2165 1 }
 	}
-
 	provinces = {
-		2165
+        6440 6559
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

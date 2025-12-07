@@ -1,41 +1,36 @@
-state = {
+state = { #Population Done
 	id = 2141
 	name = "STATE_2141"
+	manpower = 133148
+	
+	resources = {
+		oil = 12
+	}
+	
+	state_category = small_island
 
 	history = {
+		owner = ZZZ # SUR
+		victory_points = { 19991 1 }
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			infrastructure = 4
-			6041 = {
-				coastal_bunker = 2
-			}
-			18392 = {
-				coastal_bunker = 2
-			}
-			107 = {
-				coastal_bunker = 2
-			}
-			18416 = {
-				coastal_bunker = 2
-			}
-			9132 = {
-				coastal_bunker = 2
-			}
-			6038 = {
+			infrastructure = 3
+			thermoelectric_plant = 2
+			radar_station = 3
+			offices = 2
+			barracks = 1
+			air_base = 2
+			19991 = {
+				naval_base = 2
 				coastal_bunker = 2
 			}
 		}
-		victory_points = {
-			6038 1
-		}
-		owner = ZZZ # NOR
-		# add_core_of = NOR
+
+		# add_core_of = SUR
+		# add_core_of = CUR
 	}
 
 	provinces = {
-		18416 107 18392 6041 18398 9069 3098 6173 11173 115 9132 6038 11118
+		19991
 	}
-	manpower = 116760
-	buildings_max_level_factor = 1.000
-	state_category = rural #due to developed infrastructure
-	local_supplies = 0.000
 }

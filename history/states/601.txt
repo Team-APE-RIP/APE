@@ -1,26 +1,36 @@
 state = {
 	id = 601
 	name = "STATE_601"
+	resources = {
+		oil = 22
+		uranium = 2
+		steel = 2
+	}
 
 	history = {
-		owner = XIK # TIB
-		# add_core_of = TIB
-		# add_claim_by = QIN
-		buildings = {
-			infrastructure = 2
-		}
+		owner = ZZZ # PER
+
 		victory_points = {
-			19650 1
+			7982 3
 		}
-		# set_variable = { china_state_ref = 22 }
-		# set_variable = { china_region_ref = 2 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			schools = 1
+			radar_station = 3
+			dockyard = 1
+			7982 = {
+				naval_base = 4
+			}
+		}
+		# add_core_of = PER
 	}
 
 	provinces = {
-		8018 19650
+		4959 7982 13589 13590 13591 13600 15138 18705 18709 18714 18748
 	}
-	manpower = 126383
+	manpower = 346410
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town #Due to Resource Exploitation
 	local_supplies = 0.000
 }

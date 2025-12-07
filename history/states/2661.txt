@@ -1,18 +1,39 @@
-state = {
+state = { #Population Done
 	id = 2661
 	name = "STATE_2661"
+
+	state_category = town
+	manpower = 1697676
+
+	resources = {
+		oil = 16
+		tungsten = 13
+	}
+
 	history = {
-		owner = ROV
-		add_core_of = ROV
+		owner = OTC
+        add_core_of = OTC
+		# add_core_of = GER
+
+		victory_points = { 704 5 }
+		victory_points = { 6552 2 }
+		victory_points = { 9661 3 }
+		victory_points = { 557 3 }
 		buildings = {
-			infrastructure = 1
+			hydroelectric_plant = 2
+			schools = 1
+			offices = 1
+			radar_station = 1
+			barracks = 1
+			infrastructure = 5
+			missile_silo = 1
+			thermoelectric_plant = 2
 		}
+
+
 	}
+
 	provinces = {
-	    1302
+		6723 543 6552 
 	}
-	manpower = 1087721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

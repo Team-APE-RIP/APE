@@ -1,21 +1,18 @@
 state = {
 	id = 2108
 	name = "STATE_2108"
-	manpower = 33
-
-	state_category = wasteland
-
 	history = {
-		owner = ZZZ # CHL
-		# add_core_of = CHL
-		# add_claim_by = ARG
+		owner = SHD
+		add_core_of = SHD
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_magallanes
 	}
-
 	provinces = {
-		17936
+        9956 12015 19812
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

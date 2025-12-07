@@ -1,28 +1,37 @@
-state = {
+state = { #Population Done
 	id = 772
 	name = "STATE_772"
-	provinces = {
-		1135 13067
+	manpower = 1224016
+
+	resources = {
+		chromium = 22
+		uranium = 8
 	}
+
+	state_category = town
+
 	history = {
-		owner = ZZZ # USA
+		owner = ZZZ # TUR
+		victory_points = { 16214 4 }
+		victory_points = { 16216 4 }
+		victory_points = { 10038 2 }
+		victory_points = { 10041 6 }
+		victory_points = { 10122 1 }
+		victory_points = { 9941 1 }
 		buildings = {
-			infrastructure = 1
-			air_base = 3
+			infrastructure = 4
+			thermoelectric_plant = 1
 			barracks = 1
-			radar_station = 5
-			13067 = {
-				naval_base = 1
-			}
-			1135 = {
-				naval_base = 1
+			prisons = 1
+			schools = 1
+			10122 = {
+				naval_base = 3
 			}
 		}
-		victory_points = { 13067 1 }
-		# add_core_of = USA
-		# set_demilitarized_zone = yes
+		# add_core_of = TUR
 	}
-	state_category = tiny_island
-	manpower = 4342
-	buildings_max_level_factor = 1.000
+
+	provinces = {
+		12096 16217 11917 10041 16260 10122 9941 9929 10038 16212 16213 16214 16216
+	}
 }

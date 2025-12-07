@@ -2,20 +2,14 @@ state = {
 	id = 2559
 	name = "STATE_2559"
 	history = {
-		owner = SHD
-		add_core_of = SHD
+		owner = CHI
+		# add_core_of = SHT
 		buildings = {
 			infrastructure = 1
 		}
-        victory_points = {
-            4157 5
-        }
-        victory_points = {
-            9971 5
-        }
 	}
 	provinces = {
-		19886 19903 1154 4157 9971 19841
+		16916
 	}
 	manpower = 1026811
 	buildings_max_level_factor = 1.000

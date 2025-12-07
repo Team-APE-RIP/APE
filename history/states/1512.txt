@@ -1,31 +1,27 @@
 state = {
 	id = 1512
 	name = "STATE_1512"
+	resources = {
+		oil = 8.000
+	}
 
 	history = {
-		owner = ZZZ # CHL
-		buildings = {
-			barracks = 1
-			offices = 1
-			infrastructure = 2
-			radar_station = 1
-			14869 = {
-				naval_base = 2
-			}
-			air_base = 2
-		}
-		# add_core_of = CHL
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		victory_points = {
-			14869 5
+			2081 1
 		}
-		# set_state_flag = GDP_regions_tarapaca
+		buildings = {
+			infrastructure = 1
+		}
+
 	}
 
 	provinces = {
-		14868 14869 14886 14887 14888 17557
+		2081 9152 14137 14143 15580
 	}
-	manpower = 61999
+	manpower = 235000
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

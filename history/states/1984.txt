@@ -1,22 +1,36 @@
 state = {
 	id = 1984
 	name = "STATE_1984"
-	manpower = 267657
-
-
-	state_category = pastoral
+	resources = {
+		steel = 12
+		oil = 18
+	}
 
 	history = {
-		owner = ZZZ # BUL
-		victory_points = { 893 3 }
+		victory_points = {
+			19238 5
+		}
+		victory_points = {
+			7296 1
+		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
 			infrastructure = 3
+			offices = 1
+			19238 = {
+				naval_base = 2
+			}
 		}
-		# add_core_of = BUL
-		# set_state_flag = GDP_category_town
+
+
 	}
 
 	provinces = {
-		893 878
+		1225 1416 4236 7296 10178 19238 19292
 	}
+	manpower = 1473155
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

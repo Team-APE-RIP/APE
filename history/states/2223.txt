@@ -1,28 +1,47 @@
 state = {
 	id = 2223
 	name = "STATE_2223"
+	resources = {
+		steel = 3.000
+	}
 
 	history = {
-		owner = NLO
-		add_core_of = NLO
-		# add_core_of = THA
-		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			offices = 1
+		owner = ZZZ # FIN
+		victory_points = {
+			11121 10
 		}
 		victory_points = {
-			12195 5
+			195 2
 		}
-		# set_state_flag = GDP_category_town
-		# set_state_flag = GDP_regions_isan
+		victory_points = {
+			9233 3
+		}
+		victory_points = {
+			11024 1
+		}
+		victory_points = {
+			6045 2
+		}
+		victory_points = {
+			6134 1
+		}
+		buildings = {
+			infrastructure = 5
+			hydroelectric_plant = 1
+			schools = 1
+			barracks = 2
+			prisons = 1
+			offices = 1
+		}
+		add_extra_state_shared_building_slots = 2
+		# add_core_of = FIN
 	}
 
 	provinces = {
-		12195 12388 4582 19095
+		7 82 120 132 158 195 3026 3073 3115 3149 3153 6045 6081 6134 6146 6212 9106 9158 9233 11024 11041 11079 11081 11121 11132 18434 18444 18449
 	}
-	manpower = 2430788
+	manpower = 407346
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

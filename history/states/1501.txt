@@ -1,29 +1,27 @@
-state = { #Population Done
+state = {
 	id = 1501
 	name = "STATE_1501"
-	manpower = 533201
-
-	state_category = town
 
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # DOM
 		buildings = {
 			infrastructure = 2
-			thermoelectric_plant = 1
-			hydroelectric_plant = 1
+			15583 = { bunker = 2 }
+			15584 = { bunker = 2 }
+			15585 = { bunker = 2 }
+			15603 = { bunker = 1 }
 			barracks = 1
-			schools = 1
 		}
-		# add_core_of = ARG
-		victory_points = { 12964 9 }
-		victory_points = { 14976 3 }
-		victory_points = { 15070 3 }
-		victory_points = { 15034 1 }
-		victory_points = { 8238 1 }
-		victory_points = { 14978 1 }
+		# add_claim_by = HAI
+		# add_claim_by = DOM
+
+		victory_points = { 15584 1 }
 	}
 
 	provinces = {
-		8187 8238 12964 14915 14976 14978 14984 15034 15041 15070
+		15583 15584 15585 15603
 	}
+	manpower = 127122
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

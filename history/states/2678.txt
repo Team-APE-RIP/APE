@@ -1,18 +1,27 @@
 state = {
 	id = 2678
 	name = "STATE_2678"
+
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = YUN
+		# add_core_of = YUN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			10413 2
+		}
+		victory_points = {
+			19737 4
 		}
 	}
+
 	provinces = {
-	    19125 19127
+		4210 5009 19737 10413
 	}
-	manpower = 87721
+	manpower = 938101
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000
+	#impassable = yes
 }

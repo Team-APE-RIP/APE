@@ -1,33 +1,30 @@
-state = { #Population Done
+state = {
 	id = 695
 	name = "STATE_695"
-	manpower = 53199
-
-	resources = {
-		oil = 16
-	}
-
-	state_category = tiny_island
-
 	history = {
-		owner = ZZZ # SUR
-		victory_points = { 153 1 }
+		owner = IPD
+		add_core_of = IPD
+		victory_points = { 6880 3 }
+		victory_points = { 3790 2 }
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
 			barracks = 1
-			radar_station = 3
-			air_base = 6
-			153 = {
+			infrastructure = 4
+			3790 = {
 				naval_base = 2
-				coastal_bunker = 2
+			}
+			6880 = {
+				naval_base = 2
 			}
 		}
-		# set_state_flag = GDP_category_metropolis
-		# add_core_of = SUR
-	}
 
-	provinces = {
-		153
+		# add_core_of = IBR
+
+
 	}
+	provinces = {
+		3790 6880
+	}
+	manpower = 307723
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

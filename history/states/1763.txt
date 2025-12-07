@@ -1,22 +1,18 @@
 state = {
 	id = 1763
 	name = "STATE_1763"
-	manpower = 588331
-
-	state_category = rural
-
-
 	history = {
-		owner = ZZZ # SLO
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
 			infrastructure = 3
-			prisons = 1
 		}
-		# add_core_of = SLO
-		victory_points = { 3537 3 }
 	}
-
 	provinces = {
-		3537 15669 555
+        15229 752 3754 11709 15230
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

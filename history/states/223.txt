@@ -3,27 +3,23 @@ state = {
 	name = "STATE_223"
 
 	history = {
-		victory_points = {
-			10389 4
-		}
-		victory_points = {
-			18947 3
-		}
-		owner = ZZZ # AZH
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = ILG
+		# add_core_of = ALG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			air_base = 1
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_bengal
-		# set_state_flag = GDP_category_town
+		victory_points = { 1126 3 }
+		victory_points = { 14409 3 }
+
 	}
 
 	provinces = {
-		10389 16116 18947
+		1126 1967 2049 14409 14405
 	}
-	manpower = 3003738
+	manpower = 315592
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

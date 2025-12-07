@@ -1,18 +1,41 @@
 state = {
 	id = 2806
 	name = "STATE_2806"
+	resources = {
+		steel = 12.000
+	}
+
 	history = {
-		owner = SWS
-        add_core_of = SWS
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 3
+			schools = 1
+			offices = 1
+			hospitals = 1
+			barracks = 2
+			prisons = 2
+			thermoelectric_plant = 3
+			infrastructure = 6
+			air_base = 5
+			7014 = {
+				naval_base = 5
+			}
+			dockyard = 2
 		}
+		victory_points = {
+			7014 60
+		}
+
+		# set_variable = { china_state_ref = 1 }
+		# set_variable = { china_region_ref = 0 }
+		# set_variable = { china_city_ref = 1 }
 	}
+
 	provinces = {
-        20017 20018 20019
+		7014
 	}
-	manpower = 87721
+	manpower = 10306547
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = metropolis #Since Mukden gets it too
 	local_supplies = 0.000
 }

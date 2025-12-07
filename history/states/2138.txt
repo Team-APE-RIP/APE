@@ -1,53 +1,26 @@
 state = {
 	id = 2138
 	name = "STATE_2138"
+	manpower = 5617
+	state_category = wasteland
 
 	history = {
+		owner = ZZZ # USA
+		# add_core_of = USA
 		buildings = {
 			infrastructure = 2
-			18414 = {
-				coastal_bunker = 2
-			}
-			3090 = {
-				coastal_bunker = 2
-			}
-			199 = {
-				coastal_bunker = 2
-			}
-			18404 = {
-				coastal_bunker = 2
-			}
-			3188 = {
-				coastal_bunker = 2
-			}
-			6216 = {
-				coastal_bunker = 2
-			}
-			9047 = {
-				coastal_bunker = 2
-			}
-			3114 = {
-				coastal_bunker = 2
-			}
-			18403 = {
-				coastal_bunker = 2
-			}
-			18399 = {
-				coastal_bunker = 2
-			}
-			3180 = {
-				coastal_bunker = 2
+			air_base = 1
+			19956 = {
+				naval_base = 1
 			}
 		}
-		owner = ZZZ # NOR
-		# add_core_of = NOR
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+		victory_points = {
+			19956 1
+		}
 	}
-
 	provinces = {
-		18414 3180 3090 199 18404 3188 6216 9047 3114 18403 18399
+		19956
 	}
-	manpower = 99957
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

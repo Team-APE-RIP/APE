@@ -1,29 +1,22 @@
 state = {
 	id = 1214
 	name = "STATE_1214"
+	manpower = 106606
+	state_category = small_island
 
 	history = {
-		owner = ZZZ # ANG
-		# add_core_of = ANG
+		owner = ZZZ # CAN
 		buildings = {
-			barracks = 1
-			infrastructure = 2
-			2207 = {
-				naval_base = 4
+			infrastructure = 5
+			hospitals = 1
+			4360 = {
+				naval_base = 2
 			}
 		}
-		victory_points = {
-			2207 1
-		}
-		victory_points = {
-			10978 2
+		victory_points = { # Charlottetown
+			4360 10 # provincial capital
 		}
 	}
-	provinces = {
-		2207 10978 17919
-	}
-	manpower = 41741
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+
+	provinces = { 4360 }
 }

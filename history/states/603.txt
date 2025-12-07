@@ -3,32 +3,41 @@ state = {
 	name = "STATE_603"
 
 	history = {
-		owner = GUZ
-		add_core_of = GUZ
+		owner = ZZZ # FIN
+		victory_points = {
+			3122 5
+		}
+		victory_points = {
+			11126 1
+		}
+		victory_points = {
+			66 1
+		}
+		victory_points = {
+			3172 1
+		}
+		victory_points = {
+			18438 1
+		}
+		victory_points = {
+			6138 1
+		}
 		buildings = {
-			barracks = 1
-			offices = 1
+			infrastructure = 5
+			3122 = {
+				naval_base = 2
+			}
 			schools = 1
-			prisons = 1
-			thermoelectric_plant = 2
-			infrastructure = 4
+			hospitals = 1
 		}
-		victory_points = {
-			10616 21
-		}
-		victory_points = {
-			19602 2
-		}
-		# set_variable = { china_state_ref = 18 }
-		# set_variable = { china_region_ref = 2 }
-		## set_state_flag = GDP_category_large_town
+		# add_core_of = FIN
 	}
 
 	provinces = {
-		10616 19527 19602 19611
+		66 3122 3172 11065 11126 63 3119 6013 6138 6198 9038 9156 18431 18438
 	}
-	manpower = 2016214
+	manpower = 443468
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = town
 	local_supplies = 0.000
 }

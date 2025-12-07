@@ -2,45 +2,22 @@ state = {
 	id = 1399
 	name = "STATE_1399"
 
-	resources = {
-		oil = 6
-		steel = 4
-	}
 
 	history = {
-		owner = ZZZ # OST
-		# add_core_of = OST
-		victory_points = {
-			9262 7
-		}
-		victory_points = {
-			3296 3
-		}
-		victory_points = {
-			3194 1
-		}
-		victory_points = {
-			3525 1
-		}
-		victory_points = {
-			11246 1
-		}
+		owner = ZZZ # IND
+		victory_points = { 16082 2 }
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 1
-			schools = 1
-			offices = 1
-			air_base = 2
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_regions_latvia
-		# set_state_flag = universal_renamings
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		3194 3296 3319 3525 6322 9262 11246 14597
+		1622 16082 7428 7465 12490
 	}
-	manpower = 294760
+	manpower = 1338423
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	state_category = pastoral
 }

@@ -1,18 +1,39 @@
-state = {
+state = { #Population Done
 	id = 2883
 	name = "STATE_2883"
+
+	resources = {
+		steel = 36
+		aluminium = 12
+	}
+
+	manpower = 2680011
+	state_category = large_city
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # GER
+		# add_core_of = GER
+
+		#victory_points = { 11372 5 }
+		victory_points = { 11260 3 }
+		victory_points = { 9388 6 }
+		victory_points = { 3340 4 }
+		victory_points = { 9334 4 }
+
 		buildings = {
-			infrastructure = 3
+			schools = 1
+			offices = 1
+			barracks = 1
+			radar_station = 2
+			prisons = 2
+			infrastructure = 5
+			thermoelectric_plant = 3
+			
+			
 		}
 	}
+
 	provinces = {
-        9723 15222
+		9252 9277 9306 11260 11288 9387 
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

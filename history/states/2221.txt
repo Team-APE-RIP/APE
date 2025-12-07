@@ -1,24 +1,22 @@
 state = {
 	id = 2221
 	name = "STATE_2221"
+	manpower = 1185
+	state_category = tiny_island
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ZZZ # CHL
+		# add_core_of = CHL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			1280 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			12345 1
-		}
-		# set_state_flag = GDP_regions_north_thailand
-	}
+		victory_points = { 1280 1 }
 
-	provinces = {
-		10411 10398 12345 19020
 	}
-	manpower = 1044709
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	provinces = {
+		1280
+	}
 }

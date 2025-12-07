@@ -3,21 +3,23 @@ state = {
 	name = "STATE_2450"
 
 	history = {
-		owner = ZZZ # OST
-		buildings = {
-			infrastructure = 5
-			schools = 1
+		owner = ZZZ # COG
+		# add_core_of = COG
+		victory_points = {
+			13990 1
 		}
-		# add_core_of = OST
-		# set_state_flag = GDP_regions_estonia
-		# set_state_flag = universal_renamings
+		buildings = {
+			offices = 1
+			prisons = 1
+			infrastructure = 1
+		}
 	}
 
 	provinces = {
-		249 567 3152 9079 11426 14609 14610
+		5081 13970 13986 13990 13996 14020
 	}
-	manpower = 159549
+	manpower = 181386
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
 	local_supplies = 0.000
 }

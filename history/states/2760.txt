@@ -1,21 +1,32 @@
 state = {
 	id = 2760
 	name = "STATE_2760"
+
+	resources = {
+		aluminium = 16
+	}
+
 	history = {
-		owner = GDM
-		add_core_of = HBG
+		owner = ZZZ # IND
+		victory_points = { 16098 2 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			16099 = {
+				bunker = 3
+			}
+			7497 = {
+				bunker = 3
+			}
 		}
-		victory_points = {
-			317 10
-		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
+
 	provinces = {
-        11366 3231 317
+		12480 16099 7497 16098
 	}
-	manpower = 87721
+	manpower = 1628882
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	local_supplies = 0.000
 }

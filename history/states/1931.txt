@@ -3,31 +3,38 @@ state = {
 	name = "STATE_1931"
 
 	resources = {
-		steel = 9
+		tungsten = 8
 	}
 
 	history = {
-		owner = ZZZ # AZH
-		victory_points = { 12452 10 }
+		owner = ZZZ # ENG
+		victory_points = {
+			11406 10
+		}
+
+
+
+		victory_points = {
+			9562 8
+		}
+
 		buildings = {
-			infrastructure = 3
-			radar_station = 1
-			12307 = {
-				bunker = 3
-			}
-			16105 = {
-				bunker = 3
+			infrastructure = 5
+			thermoelectric_plant = 2
+			barracks = 1
+			offices = 1
+			prisons = 1
+			air_base = 4
+			11406 = {
+				naval_base = 4
 			}
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_bihar
+		# add_core_of = ENG
 	}
-
 	provinces = {
-		16105 12307 12452
+		9562 11406 16323
 	}
-	manpower = 2288749
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	manpower = 617212
+	buildings_max_level_factor = 3.000
+	state_category = town
 }

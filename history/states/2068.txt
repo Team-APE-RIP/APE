@@ -1,21 +1,21 @@
-state = {
+state = { #Population Done
 	id = 2068
-	name = "STATE_2068" # Goudier Island
-	manpower = 1
-
-	state_category = wasteland
-
+	name = "STATE_2068"
+	manpower = 643815
+	state_category = town
 	history = {
-		owner = ZZZ # AAC
-		# add_core_of = AAC
-		# add_claim_by = AAA
-		# add_claim_by = ENG
+		owner = ITC
+        add_core_of = ITC
+		victory_points = { 6972 4 }
+		victory_points = { 9856 3 }
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3
 		}
+		# add_core_of = ITA
+
 	}
 
 	provinces = {
-		17585
+		3968 6972 9856 14659
 	}
 }

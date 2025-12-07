@@ -1,38 +1,24 @@
-state = { #Population Done
+state = {
 	id = 327
-	name = "STATE_327" # Manila
-	manpower = 2614808
-	resources = {
-		steel = 22
-		oil = 10
-	}
+	name = "STATE_327"
 
-	state_category = city
 	history = {
-		owner = ZZZ # PHI
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 2
-			air_base = 3
-			schools = 1
-			barracks = 2
-			offices = 2
-			prisons = 1 
-			hospitals = 1
-			14711 = {
-				naval_base = 7
-			}
+			barracks = 1
+			infrastructure = 2
 		}
-
-		victory_points = { 14711 35 }
-		# add_core_of = PHI
-		# add_core_of = SPH
-		# add_core_of = UPH
-		# set_state_flag = GDP_category_large_city
-		# set_state_flag = state_renamings
+		victory_points = {
+			14064 3
+		}
 	}
 
 	provinces = {
-		14711
+		8036 10775 14028 14064 15548 15549 17898 17910
 	}
+	manpower = 2689510
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

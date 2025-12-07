@@ -1,25 +1,25 @@
-state = { #Population Done
+state = {
 	id = 1551
 	name = "STATE_1551"
-	manpower = 152639
-
-	state_category = pastoral
-
-	resources = {
-		aluminium = 58
-	}
 
 	history = {
-		owner = ZZZ # GUY
-		# add_core_of = GUY
-		# add_claim_by = VEN
-			buildings = {
-			prisons = 1
-			infrastructure = 2
+		victory_points = {
+			12754 10
 		}
+		owner = ZZZ # IND
+		buildings = {
+			infrastructure = 3
+			hydroelectric_plant = 1
+		}
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		12716 15122 15123 15124
+		10905 12754 16013 16014 18851 18881 19010 19012
 	}
+	manpower = 1360376
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

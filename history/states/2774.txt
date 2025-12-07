@@ -2,17 +2,24 @@ state = {
 	id = 2774
 	name = "STATE_2774"
 	history = {
-		owner = BMN
-        add_core_of = BMN
+		owner = ZZZ # USA
+		# add_core_of = CUB
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			radar_station = 2
+			barracks = 1
+			air_base = 3
+			13618 = {
+				naval_base = 3
+			}
 		}
+	add_extra_state_shared_building_slots = 1
+	victory_points = { 13618 5 }
 	}
 	provinces = {
-        336 18138 18142
+		13618
 	}
-	manpower = 87721
+	manpower = 2428
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = enclave
 }

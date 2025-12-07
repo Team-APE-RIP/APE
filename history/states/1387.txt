@@ -2,31 +2,27 @@ state = {
 	id = 1387
 	name = "STATE_1387"
 
-	resources = {
-		oil = 16
-	}
-
 	history = {
-		owner = ZZZ # GGN
-		# add_core_of = GGN
-		# add_core_of = POL
+		owner = ZZZ # MEX
+		# add_core_of = MEX
 		buildings = {
-			infrastructure = 4
-			prisons = 1
+			offices = 1
+			schools = 1
+			hospitals = 1
+			infrastructure = 3
 		}
 		victory_points = {
-			6483 3
+			14492 3
 		}
 		victory_points = {
-			19169 2
+			17114 1
 		}
-		# set_state_flag = universal_renamings
 	}
 
 	provinces = {
-		536 6431 6483 9468 19164 19165 19169 19174
+		14492 17114
 	}
-	manpower = 1206266
+	manpower = 457881
 	buildings_max_level_factor = 1.000
 	state_category = rural
 	local_supplies = 0.000

@@ -1,25 +1,45 @@
 state = {
 	id = 458
 	name = "STATE_458"
+	resources = {
+		tungsten = 2.000
+	}
 
 	history = {
-		owner = ZZZ # TUN
-		# add_core_of = TUN
-		victory_points = { 11969 20 }
-		buildings = {
-			offices = 1
-			schools = 1
-			barracks = 1
-			thermoelectric_plant = 1
-			infrastructure = 5
-			air_base = 8
+		owner = EPA
+		add_core_of = EPA
+		victory_points = {
+			758 10
 		}
+		victory_points = {
+			729 5
+		}
+		victory_points = {
+			6955 5
+		}
+		victory_points = {
+			3761 7
+		}
+		buildings = {
+			hydroelectric_plant = 2
+			barracks = 1
+			infrastructure = 5
+			radar_station = 1
+			dockyard = 2
+			758 = {
+				naval_base = 4
+			}
+		}
+		# add_core_of = IBR
+
+
 	}
 
 	provinces = {
-		11969
+		758
 	}
-	manpower = 679603
+	manpower = 1535965
 	buildings_max_level_factor = 1.000
 	state_category = large_town
+	local_supplies = 0.000
 }

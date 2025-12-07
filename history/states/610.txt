@@ -1,38 +1,38 @@
-state = {
+state = { #Population Done
 	id = 610
 	name = "STATE_610"
+	manpower = 3806354
+	resources = {
+		steel = 110
+		aluminium = 38
+	}
+
+	state_category = metropolis
 
 	history = {
-		owner = MAN
-		# add_core_of = MAN
-		add_extra_state_shared_building_slots = 1
+		owner = ZZZ # GER
+		victory_points = { 9570 25 }
+		victory_points = { 552 5 }
+		victory_points = { 6462 3 }
+		victory_points = { 15841 7 }
+		victory_points = { 9535 6 }
+		victory_points = { 3545 4 }
+		victory_points = { 6595 3 }
+		victory_points = { 6534 5 }
 		buildings = {
-			infrastructure = 3
-			radar_station = 1
-			barracks = 1
-			prisons = 1
+			hospitals = 2
 			offices = 1
-			thermoelectric_plant = 2
+			schools = 1
+			infrastructure = 6
+			air_base = 6
+			nuclear_reactor = 1
+			thermoelectric_plant = 4
 		}
-		victory_points = {
-			11801 11
-		}
-		victory_points = {
-			972 10
-		}
-		victory_points = {
-			3881 10
-		}
-		# set_variable = { china_state_ref = 56 }
-		# set_variable = { china_region_ref = 7 }
-		# set_state_flag = universal_renamings
+		# add_core_of = GER
+
 	}
 
 	provinces = {
-		972 3828 3881 6937 6988 7575 7633 9873 10331 10426 11801 11855 13272 
+		552 3438 3485 3545 6534 6595 9570 11517 9535 15841 3572 9497 6512 9457 
 	}
-	manpower = 8801958
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

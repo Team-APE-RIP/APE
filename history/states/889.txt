@@ -1,26 +1,39 @@
 state = {
 	id = 889
 	name = "STATE_889"
+	manpower = 1600555
+
+	state_category = city
+
+	resources = {
+		steel = 10
+		power = 3
+	}
 
 	history = {
-		owner = ZZZ # MAG
+		owner = ZZZ # ENG
+		victory_points = { 377 15 }
+		victory_points = { 407 10 }
+		victory_points = { 16337 10 }
 		buildings = {
-			infrastructure = 2
+			thermoelectric_plant = 3
+			barracks = 1
+			offices = 2
+			schools = 2
+			hospitals = 1
+			prisons = 1
+			infrastructure = 5
+			radar_station = 1
+			air_base = 3
+			377 = {
+				naval_base = 3
+			}
 		}
-		# add_core_of = MAG
-		victory_points = {
-			10598 1
-		}
-		victory_points = {
-			13402 1
-		}
+		# add_core_of = ENG
+
 	}
 
 	provinces = {
-		1772 1807 4810 4881 5838 7088 7772 8574 8617 10572 10590 10598 12518 12650 13398 13402 13403 13405 13406 13411
+		407 377 16337
 	}
-	manpower = 36463
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

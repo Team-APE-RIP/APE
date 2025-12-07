@@ -1,34 +1,18 @@
 state = {
 	id = 50
 	name = "STATE_50"
-	resources = {
-		aluminium = 13.000
-	}
-
 	history = {
-		owner = WTB
-		add_core_of = WTB
-		victory_points = {
-			9517 20
-		}
+		owner = EPA
+		add_core_of = EPA
 		buildings = {
-			prisons = 3
-			infrastructure = 6
-			air_base = 3
-			radar_station = 1
-			thermoelectric_plant = 3
-			barracks = 1
-			schools = 1
-			hospitals = 1
-			offices = 1
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		9517
+        9846 9827 3820
 	}
-	manpower = 4019118
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	state_category = pastoral
 	local_supplies = 0.000
 }

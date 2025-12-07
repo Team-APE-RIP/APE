@@ -1,28 +1,20 @@
 state = {
 	id = 1424
 	name = "STATE_1424"
-	resources = {
-		oil = 49.000
-	}
 
 	history = {
-		owner = ZZZ # MEX
-		# add_core_of = MEX
-		victory_points = {
-			2021 5
-		}
+		owner = ZZZ # HAU
+		# add_core_of = HAU
 		buildings = {
-			hospitals = 1
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		2021 12867 14485 14486 17316
+		12851 14163 14166 14190 15913
 	}
-	manpower = 588366
+	manpower = 409000
 	buildings_max_level_factor = 1.000
-	state_category = town #Due to Resource Exploitation
+	state_category = wasteland
 	local_supplies = 0.000
 }

@@ -1,18 +1,25 @@
 state = {
 	id = 3040
 	name = "STATE_3040"
+
 	history = {
-		owner = PGS
-		add_core_of = PGS
+		owner = ZZZ # INS
+		# add_core_of = INS
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
+		victory_points = {
+			7293 1
+		}
+
 	}
+
 	provinces = {
-        6986
+		7293
 	}
-	manpower = 87721
+	manpower = 1272930
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = tiny_island
 	local_supplies = 0.000
 }

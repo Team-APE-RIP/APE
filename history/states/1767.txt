@@ -2,35 +2,32 @@ state = {
 	id = 1767
 	name = "STATE_1767"
 	resources = {
-		rubber = 8
+		steel = 4.000
+		power = 2
+		uranium = 2.000
 	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # FIN
 		victory_points = {
-			19366 5
+			9061 5
 		}
 		victory_points = {
-			7368 1
-		}
-		victory_points = {
-			19312 1
+			18427 1
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 4
-			radar_station = 1
+			offices = 1
+			anti_air_building = 1
 		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = GDP_regions_sumatra
+		# add_core_of = FIN
 	}
 
 	provinces = {
-		7368 10382 15722 19256 19312 19360 19362 19364 19366
+		193 3030 3068 3185 6156 6210 9061 9169 9181 11156 13108 13109 13114 13115 13118 18424 18427 18435
 	}
-	manpower = 1218960
+	manpower = 207517
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

@@ -1,19 +1,23 @@
 state = {
 	id = 2638
 	name = "STATE_2638"
+
 	history = {
-		owner = MEN
+		owner = ZZZ # IEA
+		# add_core_of = IEA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			thermoelectric_plant = 2
+			offices = 1
+			air_base = 1
 		}
-		victory_points = { 10554 3 }
-		
+		victory_points = { 15531 25 }
 	}
+
 	provinces = {
-	    12605 16843 10554 13361 13204 8527 7860
+		15531
 	}
-	manpower = 82871
+	manpower = 1967659
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

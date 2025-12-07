@@ -1,28 +1,28 @@
 state = {
 	id = 2120
 	name = "STATE_2120"
+	manpower = 621780
 
-	resources = {
-		oil = 4
-	}
+	state_category = town
 
 	history = {
-		owner = ZZZ # TUN
-		# add_core_of = TUN
+		owner = ZZZ # ENG
+		victory_points = { 3150 10 }
+		victory_points = { 200 1 }
+		victory_points = { 11207 2 }
 		buildings = {
 			infrastructure = 4
+			dockyard = 2
+			schools = 1
+			air_base = 3
+			radar_station = 1
+			thermoelectric_plant = 2
 		}
-		victory_points = { 7077 6 }
-		victory_points = { 11935 3 }
-		victory_points = { 13179 4 }
-		victory_points = { 13145 1 }
-		victory_points = { 1037 1 }
+
+		# add_core_of = ENG
 	}
 
 	provinces = {
-		7077 4129 1037 4061 11935 13179 13145
+		200 3150 11055 11136 11207 16356 16375
 	}
-	manpower = 782773
-	buildings_max_level_factor = 1.000
-	state_category = town
 }

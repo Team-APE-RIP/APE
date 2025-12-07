@@ -1,18 +1,22 @@
 state = {
 	id = 2875
-	name = "STATE_2875"
+	name = "STATE_2875" # Signy Island
+	manpower = 1
+
+	state_category = wasteland
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # AAO
+		# add_core_of = AAO
+		# add_core_of = AAA
+		# add_claim_by = ENG
+		# set_demilitarized_zone = yes
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 		}
 	}
+
 	provinces = {
-        929 3749 15205 15204
+		17755
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

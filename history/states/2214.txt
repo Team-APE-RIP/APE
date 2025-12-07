@@ -1,29 +1,31 @@
 state = {
 	id = 2214
 	name = "STATE_2214"
-
 	resources = {
-		oil = 4
+		steel = 6.000
 	}
 
 	history = {
-		owner = ZZZ # BUR
-		victory_points = {
-			19134 1
-		}
-		victory_points = {
-			4541 1
-		}
+		owner = ZZZ # AMR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
-		# add_core_of = BUR
+		# add_core_of = AMR
+		victory_points = {
+			1748 2
+		}
+		victory_points = {
+			7746 1
+		}
+		victory_points = {
+			7844 1
+		}
 	}
 
 	provinces = {
-		19121 4541 7190 4019 7034 4059 19134 1333 1650
+		1748 4726 4752 4798 5749 5835 7746 7844 8553 8602 10608 10667 12694 13320
 	}
-	manpower = 2170933
+	manpower = 116665
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

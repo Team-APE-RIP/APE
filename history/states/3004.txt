@@ -1,18 +1,36 @@
 state = {
 	id = 3004
 	name = "STATE_3004"
+	manpower = 2866230
+
+	resources = {
+		aluminium = 21
+		steel = 8
+	}
+
+	state_category = large_city
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = ZZZ # HUN
+		victory_points = { 9660 30 }
+		victory_points = { 684 7 }
+		victory_points = { 6700 2 }
+		victory_points = { 11625 1 }
 		buildings = {
-			infrastructure = 3
+			thermoelectric_plant = 3
+			infrastructure = 6
+			air_base = 5
+			radar_station = 1
+			offices = 2
+			hospitals = 1
+			schools = 2
+			barracks = 2
+			prisons = 2
 		}
+		# add_core_of = HUN
+
 	}
+
 	provinces = {
-        9767
+		9660 15977 956 15978 684 11625 6700
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

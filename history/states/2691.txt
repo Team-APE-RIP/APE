@@ -1,17 +1,29 @@
 state = {
 	id = 2691
 	name = "STATE_2691"
+
 	history = {
-		owner = XIK
-		add_core_of = YUN
+		owner = ZZZ # OMA
 		buildings = {
 			infrastructure = 3
+			air_base = 1
+			13458 = {
+				naval_base = 3
+			}
+			barracks = 1
 		}
+		victory_points = {
+			13458 3
+		}
+		# add_core_of = OMA
+
+
 	}
+
 	provinces = {
-	    19710 19653
+		13458 18588
 	}
-	manpower = 87721
+	manpower = 165842
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

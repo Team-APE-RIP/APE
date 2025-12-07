@@ -1,39 +1,19 @@
 state = {
 	id = 174
 	name = "STATE_174"
-	resources = {
-		tungsten = 9.000
-	}
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = {
-			726 7
-		}
-		victory_points = {
-			11843 3
-		}
-		victory_points = {
-			918 4
-		}
-		victory_points = {
-			3918 1
-		}
+		owner = ZZZ # GRE
 		buildings = {
-			infrastructure = 5
-			hydroelectric_plant = 2
-			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_large_town
-	}
+		# add_core_of = GRE
 
-	provinces = {
-		726 6746 9699 11843 15521
 	}
-	manpower = 905217
+	provinces = {
+		15578 16265
+	}
+	manpower = 15208
 	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	state_category = tiny_island
 }

@@ -2,23 +2,24 @@ state = {
 	id = 2165
 	name = "STATE_2165"
 
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # OMA
-		# add_core_of = OMA
+		owner = ZZZ # COL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			hospitals = 1
+			schools = 1
+			offices = 2
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 2
 		}
-		victory_points = {
-			18581 1
-		}
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		18581 4993
+		3393 15685
 	}
-	manpower = 22320
+	manpower = 671618
 	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

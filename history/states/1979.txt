@@ -3,25 +3,25 @@ state = {
 	name = "STATE_1979"
 
 	resources = {
-		steel = 4
-		chromium = 8
+		rubber = 2
 	}
 
 	history = {
-		owner = ZZZ # ALB
+		owner = KCJ
+		add_core_of = KCJ
+		# add_core_of = THA
+		# add_core_of = KCD
 		buildings = {
-			barracks = 1
-			infrastructure = 3
+			infrastructure = 2
 		}
-		victory_points = { 9875 2 }
-		# add_core_of = ALB
-		# set_state_flag = GDP_regions_albania
+
 	}
 
 	provinces = {
-		14677 16195 9875
+		12460 12447 13210
 	}
-	manpower = 335393
+	manpower = 159492
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
+	local_supplies = 0.000
 }

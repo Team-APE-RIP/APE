@@ -3,23 +3,23 @@ state = {
 	name = "STATE_2199"
 
 	history = {
-		owner = ZZZ # TAJ
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
 			infrastructure = 3
-			prisons = 1
 		}
-		# add_core_of = TAJ
-		victory_points = {
-			18692 2
-		}
-		# set_state_flag = state_renamings
+        victory_points = {
+            12724 1
+        }
+        
 	}
 
 	provinces = {
-		18692 7224
+		8104 12724 12837 1999 15705 10726 19695
 	}
-	manpower = 475091
+	manpower = 938101
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000
+	#impassable = yes
 }

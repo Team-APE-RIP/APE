@@ -2,28 +2,26 @@ state = {
 	id = 1242
 	name = "STATE_1242"
 
+	resources = {
+		oil = 6
+	}
+
 	history = {
-		owner = ZZZ # SNS
+		owner = ZZZ # CLL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		victory_points = {
-			1056 10
-		}
-		victory_points = {
-			16275 1
-		}
-		# add_core_of = SYR
-		# add_core_of = SNS
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_syria
+		victory_points = { 17364 1 }
 	}
 
 	provinces = {
-		1056 1072 16275
+		15324 17364
 	}
-	manpower = 269848
+	manpower = 20937
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

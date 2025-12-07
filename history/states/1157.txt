@@ -3,18 +3,20 @@ state = {
 	name = "STATE_1157"
 
 	history = {
-		owner = ZZZ # TRZ
-		# add_core_of = TRZ
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# set_state_flag = state_renamings
+		victory_points = { 5173 1 }
+		# add_core_of = ARG
+
 	}
 
 	provinces = {
-		14203 18050
+		5173 10986 12952 14893 14998 15004 17533 17535 17537 17538 17539
 	}
-	manpower = 63204
+	manpower = 9545
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
+	local_supplies = 0.000
 }

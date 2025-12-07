@@ -1,18 +1,32 @@
 state = {
 	id = 2753
 	name = "STATE_2753"
+
 	history = {
-		owner = HBG
-		add_core_of = HBG
+		owner = ZZZ # ROM
+		# add_core_of = ROM
 		buildings = {
 			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
+			barracks = 1
+			schools = 1
 		}
+		victory_points = {
+			6761 3
+		}
+		victory_points = {
+			9548 10
+		}
+
+
 	}
+
 	provinces = {
-        11219 375 3367
+		577 3407 6584 6761 9548 11689 18162
 	}
-	manpower = 87721
+	manpower = 1670034
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

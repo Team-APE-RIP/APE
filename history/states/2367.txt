@@ -1,31 +1,37 @@
 state = {
 	id = 2367
 	name = "STATE_2367"
+	resources = {
+		oil = 2.000
+		chromium = 8.000
+	}
 
 	history = {
-		owner = CHI
-		# add_core_of = CHI
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
-			7189 5
+			9077 3
 		}
 		victory_points = {
-			7160 3
+			19396 5
 		}
 		victory_points = {
-			19917 5
+			19426 1
 		}
-		# set_state_flag = GDP_regions_shandong_taiyue
-		# set_variable = { china_state_ref = 12 }
-		# set_variable = { china_region_ref = 1 }
+		victory_points = {
+			19413 1
+		}
+		# set_variable = { china_state_ref = 43 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		7189 11962 19929 19917 7160 19927 9987 
+		1708 1783 9077 19396 19413 19426
 	}
-	manpower = 7060926
+	manpower = 238352
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

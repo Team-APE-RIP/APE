@@ -1,31 +1,16 @@
 state = {
 	id = 1059
 	name = "STATE_1059"
-	resources = {
-		aluminium = 1.000
-	}
-
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
+		owner = ZZZ
 		buildings = {
-			infrastructure = 2
-			radar_station = 2
-			air_base = 1
+			infrastructure = 3
 		}
-		victory_points = {
-			17855 3
-		}
-		victory_points = {
-			13694 1
-		}
-		# set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		13694 13717 17855
+        20012
 	}
-	manpower = 218335
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

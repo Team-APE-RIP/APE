@@ -1,39 +1,31 @@
 state = {
 	id = 484
 	name = "STATE_484"
-	manpower = 616609
-	state_category = town
+	manpower = 5391
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # MEX
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # USA
+		# add_core_of = USA
+		# add_claim_by = NZL
 		buildings = {
 			infrastructure = 2
-			dockyard = 1
-			offices = 1
-			prisons = 1
 			barracks = 1
-			radar_station = 1
-			air_base = 3
-			12461 = {
-				naval_base = 4
+			radar_station = 3
+			air_base = 1
+			13049 = {
+				naval_base = 1
 			}
-			1892 = {
-				naval_base = 2
+			13053 = {
+				naval_base = 1
 			}
 		}
-		# add_core_of = MEX
-		victory_points = { # Tijuana
-			12461 10
-		}
-		victory_points = { # Mexicali
-			14529 10
-		}
-		victory_points = { # Ensenada
-			1892 4
+		victory_points = {
+			13053 1
 		}
 	}
+
 	provinces = {
-		1892 7964 12461 12859 14529
+		13049 13053
 	}
 }

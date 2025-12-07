@@ -1,22 +1,41 @@
 state = {
 	id = 2539
 	name = "STATE_2539"
+	resources = {
+		steel = 100.000
+		aluminium = 24.000
+	}
 
 	history = {
-		owner = QDN
-		add_core_of = QDN
-		add_core_of = GUZ
-		buildings = {
-			infrastructure = 2
+		owner = RHN
+		add_core_of = RHN
+		victory_points = {
+			9575 10
 		}
+		victory_points = {
+			11494 10
+		}
+		victory_points = {
+			529 3
+		}
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			prisons = 2
+			infrastructure = 5
+			enrichment_plant = 1
+			missile_silo = 1
+			thermoelectric_plant = 2
+			hydroelectric_plant = 1
+		}
+		# add_core_of = GER
 	}
 
 	provinces = {
-		19612 19546 7521
+		9575 11494 15849
 	}
-	manpower = 2938101
+	manpower = 2049697
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
-	#impassable = yes
 }

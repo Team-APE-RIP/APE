@@ -1,32 +1,22 @@
 state = {
 	id = 1898
 	name = "STATE_1898"
-	resources = {
-		chromium = 8.000
-	}
+	manpower = 1218911
+
+	state_category = town
 
 	history = {
-		owner = ZZZ # PAK
-		victory_points = {
-			16005 3
-		}
-		victory_points = {
-			18870 1
-		}
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			thermoelectric_plant = 1
+			prisons = 1
 		}
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# add_claim_by = AFG
+		victory_points = { 10092 10 }
 	}
 
 	provinces = {
-		13233 15999 16005 18853 18870
+		10020 4027 10092
 	}
-	manpower = 1123414
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

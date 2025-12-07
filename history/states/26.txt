@@ -1,46 +1,19 @@
 state = {
 	id = 26
 	name = "STATE_26"
-	resources = {
-		uranium = 6.000
-		steel = 10.000
-	}
-
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = ZZZ # ZZZ
+		# victory_points = { 15175 5 }
 		buildings = {
-			infrastructure = 4
-			schools = 1
-			offices = 2
-			barracks = 2
-			hospitals = 2
-			hydroelectric_plant = 2
-		}
-		victory_points = {
-			590 15
-		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		victory_points = {
-			9607 5
-		}
-		victory_points = {
-			9609 1
-		}
-		victory_points = {
-			15239 1
-		}
-		victory_points = {
-			9732 1
+			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		590 9593 9748 15241 15243 11576
+		15175 18103 18104 18105
 	}
-	manpower = 1273162
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
+	manpower = 14
+	buildings_max_level_factor = 2.000
+	state_category = tiny_island
+	impassable = yes
 }

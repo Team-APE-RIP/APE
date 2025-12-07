@@ -3,36 +3,23 @@ state = {
 	name = "STATE_1960"
 
 	history = {
-		owner = ZZZ # IND
-		victory_points = {
-			13220 10
-		}
-		victory_points = {
-			16045 20
-		}
-		add_extra_state_shared_building_slots = 1
+		owner = ZZZ # SER
+		# add_core_of = SER
 		buildings = {
 			infrastructure = 3
 			offices = 1
 			barracks = 1
-			prisons = 1
-			18922 = {
-				bunker = 3
-			}
-			2005 = {
-				bunker = 3
-			}
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_uttar_pradesh
+		victory_points = { 15650 1 }
+		victory_points = { 18168 2 }
+		victory_points = { 18152 1 }
+
 	}
 
 	provinces = {
-		2005 9973 13220 16045 16049 16050 18922 18926
+		15653 18152 15650 18168 15649
 	}
-	manpower = 7023745
+	manpower = 506096
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = rural
 }

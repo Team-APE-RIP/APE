@@ -1,18 +1,24 @@
 state = {
 	id = 2754
 	name = "STATE_2754"
+	manpower = 376300
+
+	state_category = town
+
 	history = {
-		owner = HBG
-		add_core_of = HBG
+		owner = ZZZ # VEN
 		buildings = {
+			thermoelectric_plant = 1
+			schools = 2
+			offices = 1
 			infrastructure = 3
 		}
+		# add_core_of = VEN
+		victory_points = { 5088 10 }
+
 	}
+
 	provinces = {
-        11444 6521
-	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+		5088
+		}
 }

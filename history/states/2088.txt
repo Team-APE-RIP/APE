@@ -1,18 +1,38 @@
 state = {
 	id = 2088
 	name = "STATE_2088"
-	manpower = 1
-	state_category = wasteland
 
 	history = {
-		owner = ZZZ # CAN
-		# add_core_of = CAN
-		# add_claim_by = ENG
-		# add_claim_by = ARG
-		# set_state_flag = GDP_regions_south_atlantic
+		owner = ZZZ # AST
+		# add_core_of = AST
+		buildings = {
+			infrastructure = 2
+			radar_station = 3
+			barracks = 1
+			5207 = {
+				coastal_bunker = 5
+			}
+			8209 = {
+				coastal_bunker = 5
+			}
+			3437 = {
+				coastal_bunker = 5
+			}
+			11016 = {
+				coastal_bunker = 5
+			}
+		}
+
+		victory_points = {
+			8209 1
+		}
 	}
 
 	provinces = {
-		16455
+		3248 3437 3599 5207 8209 8247 10937 10958 11016 13133 19932 19936
 	}
+	manpower = 3866
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

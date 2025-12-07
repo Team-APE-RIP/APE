@@ -1,26 +1,27 @@
 state = {
 	id = 946
 	name = "STATE_946"
-	provinces = {
-		15931
-	}
+
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			barracks = 1
-			dockyard = 1
-			15931 = {
-				naval_base = 3
-			}
+			infrastructure = 3
 		}
-		# set_state_flag = state_renamings
-		victory_points = { 15931 3 }
+		victory_points = {
+			7642 1
+		}
+		victory_points = {
+			19315 1
+		}
+
 	}
 
-	manpower = 31321
+	provinces = {
+		19315 7642
+	}
+	manpower = 2262674
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = rural
+	local_supplies = 0.000
 }

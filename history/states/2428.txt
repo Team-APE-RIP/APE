@@ -1,22 +1,21 @@
 state = {
 	id = 2428
 	name = "STATE_2428"
-
-	impassable = yes
-
 	history = {
-		owner = XIN
-		add_core_of = XIN
-
-		# set_variable = { china_state_ref = 43 }
-		# set_variable = { china_region_ref = 5 }
+		owner = ITA
+        add_core_of = ITA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9904 50
+		}
 	}
-
 	provinces = {
-		7790 12864
+        9904
 	}
-	manpower = 378
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -2,29 +2,29 @@ state = {
 	id = 1777
 	name = "STATE_1777"
 
-	state_category = pastoral
-
-	resources = {
-		oil = 21
-	}
-
 	history = {
-		owner = ZZZ # IRQ
-		# add_core_of = IRQ
-		buildings = {
-			infrastructure = 4
-			anti_air_building = 1
-			air_base = 1
-			radar_station = 1
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = SIC
+		victory_points = {
+			7418 4
 		}
-		victory_points = { 15755 7 }
-		victory_points = { 10876 7 }
-		# set_state_flag = state_renamings
+		victory_points = {
+			4167 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+		# set_variable = { china_state_ref = 39 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		10876 15755
+		7418 19707 19713 4167 19754
 	}
-	manpower = 274091
+	manpower = 2023611
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

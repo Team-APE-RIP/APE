@@ -1,29 +1,33 @@
 state = {
 	id = 134
-	name = "STATE_134"
+	name = "STATE_134" # Lima
+	manpower = 865913
+
+	state_category = town
 
 	history = {
-		owner = ZZZ # IRE
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 3
 			schools = 1
+			hospitals = 1
 			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+			infrastructure = 3
 			radar_station = 1
-			9303 = {
-				naval_base = 2
+			air_base = 3
+			12997 = {
+				naval_base = 3
 			}
 		}
-		# add_core_of = IRE
-		victory_points = {
-			9303 2
-		}
+		# add_core_of = PRU
+	}
+
+	resources = {
+		uranium = 1
 	}
 
 	provinces = {
-		3396 9303 9369 11287
+		12983 12997 15484
 	}
-	manpower = 149887
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

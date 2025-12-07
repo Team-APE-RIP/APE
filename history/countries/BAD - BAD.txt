@@ -1,4 +1,4 @@
-capital = 72
+capital = 2197
 set_politics = {
 	ruling_party = IdeologyGroup12
 	last_election = "2049.2.25"
@@ -10,3 +10,4 @@ set_popularities = {
 }
 recruit_character = BAD_Kase
 #fuckParadox
+set_variable = { APEMainThemeID = 2 } # APEMainTheme - Fegefeuer der Heimat

@@ -1,22 +1,21 @@
-state = {
+state = { #Population Done
 	id = 270
 	name = "STATE_270"
-	manpower = 1185
-	state_category = tiny_island
+	manpower = 128220
+
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # CHL
-		# add_core_of = CHL
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 1
-			1280 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		victory_points = { 1280 1 }
-		# set_state_flag = GDP_regions_valparaiso
+		# add_core_of = ARG
+		victory_points = { 2136 3 }
+
 	}
+
 	provinces = {
-		1280
+		2136 12928 14911 14970 14794 14975 14979 14981 15031 15038 15039 15045 15049 15053 15071 15086 15096
 	}
 }

@@ -1,26 +1,30 @@
 state = {
 	id = 1895
 	name = "STATE_1895"
-
 	history = {
-		owner = ZZZ # PAK
-		victory_points = {
-			15998 5
-		}
+		owner = ZZZ # SER
+		# add_core_of = SER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			offices = 1
+			schools = 1
+			prisons = 1
+			barracks = 1
+			air_base = 3
+			thermoelectric_plant = 1
+			radar_station = 2
 		}
-		# add_core_of = PAK
-		# add_claim_by = AZH
-		# add_claim_by = IND
-		# add_claim_by = AFG
-	}
+		victory_points = { 11787 10 }
+		victory_points = { 6643 6 }
+		victory_points = { 3614 4 }
+		victory_points = { 614 5 }
 
-	provinces = {
-		15998 16000 16001 18868
+
 	}
-	manpower = 1214431
+	provinces = {
+		614 3614 11787 6643
+	}
+	manpower = 643594
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

@@ -1,28 +1,28 @@
-state = {
+state = { #Population Done
 	id = 1013
 	name = "STATE_1013"
-	provinces = {
-		15523
-	}
-	history = {
-		owner = EPA
-		add_core_of = EPA
-		# add_core_of = IBR
 
-		victory_points = { 15523 50 }
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 9525 1 }
 		buildings = {
-			thermoelectric_plant = 2
-			schools = 2
-			barracks = 1
-			hospitals = 2
-			offices = 1
-			prisons = 1
-			barracks = 1
-			infrastructure = 6
+			infrastructure = 4
+			6572 = {
+				coastal_bunker = 2
+			}
+			9525 = {
+				coastal_bunker = 2
+			}
 		}
-		# set_state_flag = GDP_category_metropolis
+		# add_core_of = FRS
+		# add_claim_by = FFR
 	}
-	manpower = 2189081
+
+	provinces = {
+		6572 9525 6548 20057 20058
+	}
+	manpower = 501923
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = rural
 }

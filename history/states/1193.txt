@@ -1,19 +1,21 @@
 state = {
 	id = 1193
 	name = "STATE_1193"
-
 	history = {
-		owner = ZZZ # AYR
-		# add_core_of = AYR
+		owner = ITB
+        add_core_of = ITB
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
+		victory_points = { 13585 5 }
+		victory_points = { 13586 1 }
+		victory_points = { 14637 7 }
 	}
-
 	provinces = {
-		8128 14268 14276 14285 14298
+        14637 13586 13585
 	}
-	manpower = 1392
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
+	local_supplies = 0.000
 }

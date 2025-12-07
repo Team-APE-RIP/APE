@@ -1,26 +1,26 @@
 state = {
 	id = 2235
 	name = "STATE_2235"
-	resources = {
-		tungsten = 4
-		rubber = 4
-	}
+	manpower = 2450
+	state_category = tiny_island
 
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ZZZ # JAP
+		# add_core_of = USA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			radar_station = 2
+			air_base = 2
+			20001 = {
+				naval_base = 1
+			}
 		}
-		victory_points = { 4297 1 }
-		# set_state_flag = GDP_regions_south_thailand
+		victory_points = {
+			20001 1
+		}
 	}
 
 	provinces = {
-		4297
+		20001
 	}
-	manpower = 245829
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -1,26 +1,30 @@
 state = {
 	id = 1696
 	name = "STATE_1696"
+
 	resources = {
-		uranium = 2.000
+		aluminium = 1
 	}
 
-	state_category = pastoral
-
 	history = {
-		owner = ZZZ # PRU
+		owner = DRV
+		add_core_of = DRV
+		# add_core_of = VIN
+		# add_core_of = VIC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			prisons = 1
+			schools = 1
+			thermoelectric_plant = 1
 		}
-		# add_core_of = PRU
-		victory_points = {
-			15501 2
-		}
+		victory_points = { 4075 20 }
+
 	}
 
 	provinces = {
-		2182 10940 13175 15500 15501
+		4075
 	}
-	manpower = 727309
+	manpower = 1681416
 	buildings_max_level_factor = 1.000
+	state_category = large_town
 }

@@ -1,40 +1,42 @@
 state = {
 	id = 953
 	name = "STATE_953"
+	resources = {
+		steel = 7.000
+	}
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = ZZZ # AZH
 		buildings = {
 			infrastructure = 4
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			radar_station = 3 #i think i remember watching a documentary about some large county-sized monitoring station here
+			offices = 1
+			schools = 1
+			barracks = 1
+			thermoelectric_plant = 2
 		}
-		victory_points = { # Wheeling
-			6850 3
+		victory_points = {
+			10077 10
 		}
-		victory_points = { # Charleston
-			7588 3
+		victory_points = {
+			4644 15
 		}
-		victory_points = { # Huntington
-			6971 3
+		victory_points = {
+			1444 3
 		}
-		victory_points = { # Parkersburg
-			3975 1
+		victory_points = {
+			18977 3
 		}
-		victory_points = { # Morgantown
-			9923 1
-		}
-		victory_points = { # Martinsburg
-			11888 1
-		}
+		add_extra_state_shared_building_slots = 1
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		4627 6971 7588 10441 801 3941 3975 6850 6958 7466 7646 9923 11888
+		1444 4644 10077 18962 18977 18982
 	}
-	manpower = 1897600
+	manpower = 7320411
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
+	local_supplies = 0.000
 }

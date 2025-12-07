@@ -1,34 +1,17 @@
 state = {
 	id = 2233
 	name = "STATE_2233"
-
-	resources = {
-		rubber = 6
-		steel = 4
-	}
-
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = ERV
+		add_core_of = ERV
 		buildings = {
-			infrastructure = 5
-			7236 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		victory_points = {
-			7236 5
-		}
-		victory_points = {
-			19122 1
-		}
-		# set_state_flag = GDP_regions_south_thailand
 	}
-
 	provinces = {
-		4371 7236 19122
+	    19138 19133
 	}
-	manpower = 856459
+	manpower = 1087721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

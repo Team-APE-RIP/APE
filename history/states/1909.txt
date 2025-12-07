@@ -1,23 +1,33 @@
 state = {
 	id = 1909
 	name = "STATE_1909"
-	provinces = {
-		16146 16147
-	}
 	resources = {
-		rubber = 63
-		steel = 5
+		oil = 42.000
 	}
+
 	history = {
-		owner = ZZZ # CYL
-		victory_points = { 16146 1 }
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
 		buildings = {
-			infrastructure = 3
-			schools = 1
+			infrastructure = 5
+			air_base = 4
+			radar_station = 1
+			anti_air_building = 1
+			barracks = 1
+			thermoelectric_plant = 2
+			offices = 1
 		}
-		# add_core_of = CYL
+		victory_points = {
+			12046 30
+		}
+
 	}
-	manpower = 614522
+
+	provinces = {
+		3795 12046 15757
+	}
+	manpower = 1353998
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
+	local_supplies = 0.000
 }

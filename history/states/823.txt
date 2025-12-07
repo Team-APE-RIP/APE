@@ -1,23 +1,17 @@
 state = {
 	id = 823
 	name = "STATE_823"
-
 	history = {
-		victory_points = {
-			10169 1
-		}
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_sulawesi
 	}
-
 	provinces = {
-		1289 10169 19218 19224 19226
+        3509 11463 20071 20072
 	}
-	manpower = 410905
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

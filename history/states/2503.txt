@@ -1,22 +1,57 @@
 state = {
 	id = 2503
 	name = "STATE_2503"
-	manpower = 73
-	state_category = tiny_island
+	resources = {
+		aluminium = 6.000
+	}
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
-		# add_claim_by = NZL
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_core_of = IND
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			19958 = {
+			infrastructure = 4
+			barracks = 1
+			prisons = 1
+			offices = 1
+			thermoelectric_plant = 1
+			12037 = {
 				naval_base = 1
 			}
 		}
+		add_extra_state_shared_building_slots = 1
+		victory_points = {
+			16073 15
+		}
+		victory_points = {
+			10118 10
+		}
+		victory_points = {
+			4090 10
+		}
+		victory_points = {
+			7207 15
+		}
+		victory_points = {
+			1144 4
+		}
+		victory_points = {
+			12037 5
+		}
+		victory_points = {
+			4090 3
+		}
+		victory_points = {
+			18992 1
+		}
+
 	}
+
 	provinces = {
-		19958
+		1144 4090 4132 7207 10118 12037 16073 18992
 	}
+	manpower = 5344359
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

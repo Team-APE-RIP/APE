@@ -1,23 +1,41 @@
-state = {
+state = { #Population Done
 	id = 2057
 	name = "STATE_2057"
-	provinces = {
-		17804 17713
-	}
-	manpower = 1
 
-	state_category = wasteland
+	manpower = 1546853
+	state_category = city
+
+	resources = {
+		oil = 1
+	}
 
 	history = {
-		# set_state_flag = universal_renamings
-		owner = ZZZ # AAG
-		# add_core_of = AAG
-		victory_points = { 17804 1 }
+		owner = BMN
+        add_core_of = BMN
+		# add_core_of = GER
+
+		victory_points = { 3326 10 }
+		victory_points = { 374 4 }
+		victory_points = { 6263 5 }
+		victory_points = { 6298 6 }
+
 		buildings = {
-			infrastructure = 0
-			17804 = {
-				naval_base = 1
+			hospitals = 1
+			barracks = 2
+			offices = 1
+			infrastructure = 5
+			thermoelectric_plant = 3
+			dockyard = 2
+
+			6349 = {
+				
+				coastal_bunker = 2
 			}
+			374 = { coastal_bunker = 2 naval_base = 3 }
 		}
+
+	}
+	provinces = {
+		3326 374 6349
 	}
 }

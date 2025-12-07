@@ -370,9 +370,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = QFK_01_FS_00_B
 		completion_reward = {
-			2563 = {
+			1432 = {
 				add_dynamic_modifier = {
-					modifier = QFK_ProtectConfuciusMansion2563_dynamic_modifiers
+					modifier = QFK_ProtectConfuciusMansion1432_dynamic_modifiers
 				}
 			}
 		}

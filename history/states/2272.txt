@@ -1,27 +1,21 @@
 state = {
 	id = 2272
 	name = "STATE_2272"
-	resources = {
-		rubber = 4
-	}
-
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		victory_points = {
-			12138 1
-		}
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			9952 = {
+				naval_base = 1
+			}
 		}
-		# set_state_flag = GDP_regions_sumatra
 	}
-
 	provinces = {
-		12138 19235 19200 12415 19284
+	    9952
 	}
-	manpower = 460251
+	manpower = 1828771
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = tiny_island
 	local_supplies = 0.000
 }

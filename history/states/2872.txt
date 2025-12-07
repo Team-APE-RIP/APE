@@ -1,18 +1,26 @@
 state = {
 	id = 2872
 	name = "STATE_2872"
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = ZZZ # OMA
 		buildings = {
 			infrastructure = 3
+			7272 = {
+				naval_base = 1
+			}
 		}
+		# add_core_of = OMA
+		# add_claim_by = AZH
+		# add_claim_by = IND
+		victory_points = { 7272 1 }
+
 	}
+
 	provinces = {
-        15212 6775 9734
+		7272
 	}
-	manpower = 87721
+	manpower = 7356
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = enclave
 }

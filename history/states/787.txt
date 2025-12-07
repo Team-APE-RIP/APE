@@ -1,28 +1,37 @@
-state = { #Population Done
+state = {
 	id = 787
 	name = "STATE_787"
-	state_category = city
-	provinces = {
-		9507 20024
+	resources = {
+		steel = 6.000
+		aluminium = 4.000
+		uranium = 2.000
 	}
+
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		buildings = {
-			infrastructure = 6
-			thermoelectric_plant = 3
-			offices = 1
-			prisons = 1
-			barracks = 1
-			schools = 1
-			hospitals = 1
+		owner = CHI # SHX
+		# add_core_of = SHX
+		victory_points = {
+			10367 2
 		}
-		# add_core_of = FRS
-		# add_claim_by = FFR
-		victory_points = { 9507 10 }
-		victory_points = { 9725 1 }
-		# set_state_flag = GDP_regions_paris
+		victory_points = {
+			19743 2
+		}
+		victory_points = {
+			16780 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+		# set_variable = { china_state_ref = 14 }
+		# set_variable = { china_region_ref = 1 }
 	}
-	manpower = 1248824
+
+	provinces = {
+		4074 10367 12300 13248 19596 19635 19743 15183 16780 19767 
+	}
+	manpower = 1859595
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

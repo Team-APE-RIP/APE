@@ -1,28 +1,22 @@
 state = {
 	id = 1006
 	name = "STATE_1006"
-	provinces = {
-		18074 4116
-	}
-	resources = {
-		steel = 6
-	}
+	manpower = 73
+	state_category = tiny_island
+
 	history = {
-		owner = ZZZ # SLG
-		# add_core_of = SLG
-		# add_claim_by = FRS
-		# add_core_of = ALG
+		owner = ZZZ # USA
+		# add_core_of = USA
+		# add_claim_by = NZL
 		buildings = {
-			infrastructure = 4
-			radar_station = 1
-			18074 = {
-				bunker = 3
+			infrastructure = 2
+			air_base = 2
+			19958 = {
+				naval_base = 1
 			}
 		}
-		victory_points = { 4116 8 }
-		# set_state_flag = state_renamings
 	}
-	manpower = 350240
-	buildings_max_level_factor = 1.000
-	state_category = rural
+	provinces = {
+		19958
+	}
 }

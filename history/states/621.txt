@@ -1,30 +1,25 @@
-state = {
+state = { #Population Done
 	id = 621
 	name = "STATE_621"
+	state_category = town
 	resources = {
-		steel = 8.000
-		uranium = 2.000
+		aluminium = 2
 	}
-
-	history = {
-		owner = MEN
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			12403 2
-		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_chahar_suiyuan
-		# set_variable = { china_state_ref = 55 }
-		# set_variable = { china_region_ref = 7 }
-	}
-
 	provinces = {
-		12403 14670 15196 16848
+		9490 15242
 	}
-	manpower = 1059209
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+			schools = 1
+			barracks = 1
+		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		victory_points = { 9490 5 }
+	}
+	manpower = 180776
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

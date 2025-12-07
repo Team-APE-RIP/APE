@@ -1,25 +1,34 @@
 state = {
 	id = 2489
 	name = "STATE_2489"
-	manpower = 134
-	state_category = tiny_island
+
 	history = {
-		owner = ZZZ
-		#add_core_of = JAP
-		# set_state_flag = state_renamings
-		buildings = {
-			infrastructure = 1
-			air_base = 2
-			barracks = 1
-			radar_station = 3
-			19950 = {
-				naval_base = 1
-			}
+		owner = MAN
+		victory_points = {
+			10612 3
 		}
-		# set_variable = { china_state_ref = 36 }
-		# set_variable = { china_region_ref = 4 }
+		victory_points = {
+			13150 5
+		}
+		victory_points = {
+			7697 1
+		}
+		# set_variable = { china_state_ref = 50 }
+		# set_variable = { china_region_ref = 6 }
+
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			air_base = 1
+		}
+		# add_core_of = MAN
 	}
+
 	provinces = {
-		19950
+		4745 6227 6250 7743 8295 11134 12690 13150 16834 19495 19529 19530 19616 4876 10638 19560
 	}
+	manpower = 334430
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

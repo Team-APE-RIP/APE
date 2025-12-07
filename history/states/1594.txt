@@ -1,22 +1,24 @@
-state = {
+state = { #Population Done
 	id = 1594
 	name = "STATE_1594"
-
-	history = {
-		owner = ZZZ # ARG
-		buildings = {
-			infrastructure = 1
-		}
-		# add_core_of = ARG
-		# set_state_flag = GDP_regions_santa_cruz
-		victory_points = { 15003 1 }
+	resources = {
+		oil = 5
 	}
-
 	provinces = {
-		14805 15003 15171 17494 17495 17548 17549
+	7444 291 6285 7416 1380 206 7431 7403 6246
 	}
-	manpower = 567
+	history = {
+		owner = ZZZ # PRM
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		victory_points = { 7403 5 }
+		victory_points = { 6285 8 }
+		# add_core_of = PRM
+
+	}
+	manpower = 210000
+	state_category = rural
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

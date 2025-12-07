@@ -1,28 +1,29 @@
 state = {
 	id = 577
 	name = "STATE_577"
+
+	state_category = pastoral
+
 	resources = {
-		oil = 14.000
+		oil = 8
 	}
 
 	history = {
-		owner = ZZZ # TOM
+		owner = ZZZ # IRQ
+		# add_core_of = IRQ
 		buildings = {
-			infrastructure = 1
-			prisons = 1
+			infrastructure = 4
+			anti_air_building = 1
 		}
-		victory_points = {
-			10533 5
-		}
-		# set_state_flag = GDP_category_town
-		# add_core_of = TOM
+		victory_points = { 15746 10 }
+		victory_points = { 15747 3 }
+
+
 	}
 
 	provinces = {
-		1726 1765 1768 1784 1824 1856 4730 4771 4817 4827 5645 7685 7781 7793 7837 7882 10529 10533 10561 10663 10692 12514 12542 12574 12639 12672
+		78 7977 15746 15747 16313
 	}
-	manpower = 121000
+	manpower = 399988
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

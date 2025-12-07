@@ -1,20 +1,33 @@
 state = {
 	id = 1666
 	name = "STATE_1666"
+	resources = {
+		oil = 2.000
+	}
 
 	history = {
-		owner = ZZZ # BOL
-		buildings = {
-			infrastructure = 1
+		# set_demilitarized_zone = yes
+		owner = ZZZ # COL
+		# add_core_of = COL
+		# add_core_of = CLC
+		# add_core_of = CLL
+		victory_points = {
+			2085 1
 		}
-		# add_core_of = BOL
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			2085 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {
-		12917 17447
+		2085 2744
 	}
-	manpower = 25700
+	manpower = 132429
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

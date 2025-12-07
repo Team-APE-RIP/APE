@@ -1,34 +1,37 @@
-state = { #Population Done
+state = {
 	id = 691
 	name = "STATE_691"
-	manpower = 908000
+
 	resources = {
-		oil = 8
+		oil = 6
 	}
-
-	state_category = small_island
-
 
 	history = {
-		owner = ZZZ # WIN
-		# add_core_of = WIN
-		# add_core_of = TRI
-		add_extra_state_shared_building_slots = 2
+		owner = SHD
+		add_core_of = SHD
+		add_extra_state_shared_building_slots = 1
 		buildings = {
-			infrastructure = 3
-			radar_station = 3
-			offices = 1
-			barracks = 2
-			schools = 1
-			air_base = 1
-			thermoelectric_plant = 3
-			3284 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		victory_points = { 3284 3 }
-		victory_points = { 13012 1 }
+		victory_points = {
+			1124 5
+		}
+		victory_points = {
+			7055 5
+		}
+		victory_points = {
+			19797 5
+		}
+
+		# set_variable = { china_state_ref = 13 }
+		# set_variable = { china_region_ref = 1 }
 	}
 
-	provinces = { 3284 13012 }
+	provinces = {
+		1124 4181 7055 19797 
+	}
+	manpower = 7964999
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

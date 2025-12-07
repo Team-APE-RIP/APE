@@ -1,21 +1,26 @@
 state = {
-	id = 1973 #Europe's Most Wanted
+	id = 1973
 	name = "STATE_1973"
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # VEN
 		buildings = {
-			infrastructure = 1
+			offices = 2
+			barracks = 1
+			infrastructure = 3
 		}
-		# set_state_flag = state_renamings
+		# add_core_of = VEN
+		victory_points = {
+			17399 10
+		}
+
 	}
 
 	provinces = {
-		13683 15961 15962 15963 19184
+		4942 6608 17399
 	}
-	manpower = 81296
+	manpower = 318380
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
 	local_supplies = 0.000
 }

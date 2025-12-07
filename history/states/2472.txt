@@ -1,34 +1,21 @@
 state = {
-	id = 2472
+	id = 2472 #Europe's Most Wanted
 	name = "STATE_2472"
 
 	history = {
-		owner = GUX
-		add_core_of = GUX
+		owner = ZZZ # MAD
+		# add_core_of = MAD
 		buildings = {
-			infrastructure = 3
-			1018 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		victory_points = {
-			1018 5
-		}
-		victory_points = {
-			4023 5
-		}
-		victory_points = {
-			10004 2
-		}
-		# set_variable = { china_state_ref = 19 }
-		# set_variable = { china_region_ref = 4 }
+
 	}
 
 	provinces = {
-		4023 1018 7192 11926 10004 4177 19486 4121 19464
+		13683 15961 15962 15963 19184
 	}
-	manpower = 2397999
+	manpower = 81296
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

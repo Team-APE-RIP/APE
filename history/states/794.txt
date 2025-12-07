@@ -1,45 +1,30 @@
 state = {
 	id = 794
 	name = "STATE_794"
-	resources = {
-		rubber = 24
-		oil = 52
-		aluminium = 16
-	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		victory_points = {
-			10237 1
-		}
-		victory_points = {
-			12196 1
-		}
-		victory_points = {
-			7415 1
-		}
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			barracks = 1
 			infrastructure = 2
-			air_base = 1
-			radar_station = 1
-			dockyard = 1
-			synthetic_refinery = 1
-			10237 = {
-				naval_base = 5
-			}
-			1404 = {
-				naval_base = 3
-			}
 		}
+		victory_points = {
+			13735 4
+		}
+		victory_points = {
+			13739 2
+		}
+		victory_points = {
+			13756 2
+		}
+
 	}
 
 	provinces = {
-		1252 1404 4323 7231 7355 7415 10181 10237 10325 12196 12225 12243 12252
+		5199 10538 13735 13739 13755 13756 13765
 	}
-	manpower = 529210
+	manpower = 269178
 	buildings_max_level_factor = 1.000
-	state_category = town #Due to Resource Exploitation
+	state_category = pastoral
 	local_supplies = 0.000
 }

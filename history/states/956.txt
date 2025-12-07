@@ -1,33 +1,27 @@
 state = {
 	id = 956
 	name = "STATE_956"
+	resources = {
+		oil = 6.000
+	}
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
+		owner = ZZZ # CAO
+		# add_core_of = CAO
 		victory_points = {
-			16941 34
+			14144 1
 		}
 		buildings = {
-			offices = 1
-			schools = 1
-			prisons = 1
-			barracks = 1
-			thermoelectric_plant = 1
-			infrastructure = 5
+			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 3
-		# set_state_flag = GDP_category_city
-		# set_state_flag = GDP_regions_shaanxi
-		# set_variable = { china_state_ref = 38 }
-		# set_variable = { china_region_ref = 5 }
+
 	}
 
 	provinces = {
-		16941
+		1891 1932 1969 3789 13518 14099 14108 14144 17057 18815
 	}
-	manpower = 2241679
+	manpower = 1510000
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = rural
 	local_supplies = 0.000
 }

@@ -1,18 +1,24 @@
 state = {
 	id = 2612
 	name = "STATE_2612"
-	history = {
-		owner = MAN
-		# add_core_of = SHT
-		buildings = {
-			infrastructure = 1
-		}
-	}
-	provinces = {
-		7652 19838 7523
-	}
-	manpower = 1026811
-	buildings_max_level_factor = 1.000
+	manpower = 256643
+
 	state_category = pastoral
-	local_supplies = 0.000
+
+	history = {
+		owner = TAW
+		add_core_of = TAW
+
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 9955 1 }
+		# set_variable = { china_state_ref = 37 }
+		# set_variable = { china_region_ref = 4 }
+
+	}
+
+	provinces = {
+		9955 4096
+	}
 }

@@ -1,25 +1,20 @@
 state = {
 	id = 2076
-	name = "STATE_2076" # Maudheim
+	name = "STATE_2076" # Neuschwabenland/New Swabia
 	manpower = 1
 
 	state_category = wasteland
 
+	impassable = yes
+
 	history = {
-		owner = ZZZ # AAB
-		# add_core_of = AAB
-		# add_core_of = AAG
-		# add_core_of = AAV
-		victory_points = { 17772 3 }
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 2
-			17772 = {
-				naval_base = 1
-			}
+			infrastructure = 0
 		}
 	}
 
 	provinces = {
-		17772
+		17698 16419 17679 16412 17582 17662 17752
 	}
 }

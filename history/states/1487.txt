@@ -1,42 +1,18 @@
-
 state = {
 	id = 1487
 	name = "STATE_1487"
-	resources = {
-		steel = 12.000
-		oil = 6.000
-	}
-
 	history = {
-		owner = ZZZ # BRA
+		owner = ITG
+		add_core_of = ITG
 		buildings = {
-			infrastructure = 4
-			hospitals = 1
-			barracks = 1
-			radar_station = 4
-			prisons = 1
-			10999 = {
-				naval_base = 3
-			}
+			infrastructure = 3
 		}
-		# add_core_of = BRA
-		victory_points = {
-			10999 8
-		}
-		victory_points = {
-			17410 10
-		}
-		victory_points = {
-			2153 9
-		}
-		# set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		2153 8196 10999 17410
+         3923 9826 11803
 	}
-	manpower = 1263858
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

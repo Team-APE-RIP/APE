@@ -1,34 +1,24 @@
 state = {
 	id = 817
 	name = "STATE_817"
-	resources = {
-		rubber = 2
-	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # EGY
+		# add_core_of = EGY
 		victory_points = {
-			7658 5
+			14021 1
 		}
 		buildings = {
-			prisons = 1
-			infrastructure = 4
-			radar_station = 2
-			air_base = 1
-			7658 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_rural
-		# set_state_flag = GDP_regions_sumatra
-		# set_state_flag = state_renamings
+
+
 	}
 
 	provinces = {
-		7658 12488 19327 19349
+		10859 10877 14018 14021 14042 14061 14072 18523
 	}
-	manpower = 438493
+	manpower = 708011
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

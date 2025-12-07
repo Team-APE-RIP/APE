@@ -1,32 +1,17 @@
 state = {
 	id = 955
 	name = "STATE_955"
-	resources = {
-		steel = 4.000
-		aluminium = 3.000
-	}
-
 	history = {
-		owner = CHI # MEN
+		owner = CTB
+		add_core_of = CTB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			14948 2
-		}
-		victory_points = {
-			1959 1
-		}
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_chahar_suiyuan
-		# set_variable = { china_state_ref = 55 }
-		# set_variable = { china_region_ref = 7 }
 	}
-
 	provinces = {
-		10451 11849 16849 8055 1959 4960 8976 10854 12706 14948 16664 
+        3207 11505
 	}
-	manpower = 451335
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

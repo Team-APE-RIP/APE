@@ -1,21 +1,40 @@
 state = {
 	id = 2626
 	name = "STATE_2626"
+
+	manpower = 4643255
+	state_category = rural
+
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = NAL
+		add_core_of = NAL
+		# add_core_of = GNG
+		# set_variable = { china_state_ref = 35 }
+		# set_variable = { china_region_ref = 4 }
+
 		buildings = {
-			infrastructure = 1
-			13037 = {
-				naval_base = 1
-			}
+			barracks = 1
+			infrastructure = 2
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			4092 3
+		}
+		victory_points = {
+			9997 2
+		}
+		victory_points = {
+			10080 4
+		}
+		victory_points = {
+			11941 5
+		}
+		victory_points = {
+			19598 3
 		}
 	}
+
 	provinces = {
-	    13037
+		4092 11941 10080 12014 9997 10121 19598
 	}
-	manpower = 1828771
-	buildings_max_level_factor = 1.000
-	state_category = tiny_island
-	local_supplies = 0.000
 }

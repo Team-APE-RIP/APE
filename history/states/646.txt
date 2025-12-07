@@ -1,28 +1,29 @@
 state = {
 	id = 646
 	name = "STATE_646"
-	state_category = tiny_island
-	manpower = 21657
+
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = ILG
+		# add_core_of = ALG
 		buildings = {
-			infrastructure = 3
-			air_base = 3
-			radar_station = 2
-			barracks = 1
-			3995 = {
-				naval_base = 1
-			}
-			13023 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
 		victory_points = {
-			3995 1
+			14311 1
 		}
+
 	}
+
+	resources = {
+		uranium = 4
+	}
+
 	provinces = {
-		3995 13023 13024
+		5095 14288 14301 14311 14293 14333 14354 14364 12849 14327 14369
 	}
+	manpower = 43013
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
 }

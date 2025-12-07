@@ -1,35 +1,21 @@
 state = {
 	id = 1262
-	name = "STATE_1262"
+	name = "STATE_1262" # Shikoku
+	manpower = 817811
+	state_category = town
 
 	history = {
-		owner = ZZZ # GRE
-		victory_points = {
-			4109 35
-		}
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 5
-			air_base = 4
-			4109 = {
-				naval_base = 9
-				coastal_bunker = 2
-			}
-			schools = 1
-			hospitals = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
 			prisons = 1
-			offices = 2
-			barracks = 1
-			thermoelectric_plant = 2
+			9965 = { naval_base = 1 }
 		}
-		# set_state_flag = GDP_category_large_city
-		# add_core_of = GRE
+		victory_points = { 9965 10 }
 	}
-
 	provinces = {
-		3988 4109 16182
+		9965 15867 15868
 	}
-	manpower = 1968434
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
 }

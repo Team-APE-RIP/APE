@@ -3,30 +3,25 @@ state = {
 	name = "STATE_959"
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = TIB
+		add_core_of = TIB
+		victory_points = {
+			19749 1
+		}
+		victory_points = {
+			5102 1
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
-		
-		victory_points = {
-			7104 1
-		}
-		victory_points = {
-			19498 4
-		}
-		victory_points = {
-			19928 2
-		}
-		# set_state_flag = GDP_regions_anhui
-		# set_variable = { china_state_ref = 6 }
-		# set_variable = { china_region_ref = 0 }
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
 	}
 
 	provinces = {
-		7104 19449 19498 19928 11937 19494
+		16859 10741 17020 19721 19733 19749
 	}
-	manpower = 1507034
+	manpower = 309090
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

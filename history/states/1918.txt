@@ -2,26 +2,25 @@ state = {
 	id = 1918
 	name = "STATE_1918"
 
-
 	history = {
-		owner = ZZZ # IND
-		add_extra_state_shared_building_slots = 1
-		victory_points = { 2054 20 }
-		victory_points = { 7998 6 }
-		victory_points = { 16061 9 }
+		owner = ZZZ # GRO
+		# add_core_of = GRO
 		buildings = {
-			infrastructure = 4
-			prisons = 1
+			infrastructure = 2
 		}
-		# add_core_of = IND
-		# add_claim_by = AZH
-		# set_state_flag = GDP_regions_rajasthan
+		victory_points = {
+			12967 2
+		}
+		victory_points = {
+			17865 3
+		}
 	}
 
 	provinces = {
-		2054 16061 7998
+		10988 12967 13855 13864 14412 17865 17880
 	}
-	manpower = 4611411
+	manpower = 909363
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
+	local_supplies = 0.000
 }

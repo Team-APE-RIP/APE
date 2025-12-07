@@ -1,32 +1,17 @@
 state = {
 	id = 815
 	name = "STATE_815"
-	resources = {
-		steel = 7.000
-	}
-
 	history = {
-		owner = MEN
+		owner = ITC
+        add_core_of = ITC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			10708 5
-		}
-		
-		victory_points = {
-			16861 3
-		}
-		victory_points = { 14671 2 }
-		# set_state_flag = GDP_regions_outer_mongolia
-		# set_variable = { china_state_ref = 57 }
-		# set_variable = { china_region_ref = 7 }
 	}
-
 	provinces = {
-		14671 12533 5566 7885 16861 7823 19447 5141 12665 10708 4792
+         14658 3966
 	}
-	manpower = 209702
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

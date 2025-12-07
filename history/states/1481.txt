@@ -2,24 +2,26 @@ state = {
 	id = 1481
 	name = "STATE_1481"
 	resources = {
-		rubber = 8.000
-		}
+		oil = 5
+	}
+
+	state_category = pastoral
+
 	history = {
-		owner = ZZZ # BRA
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 1
+			barracks = 1
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_amazonas
-		# add_core_of = BRA
+		# add_core_of = PRU
 		victory_points = {
-			14763 2
+			15460 2
 		}
 	}
 
 	provinces = {
-		14763 14764 14765
+		15460
 	}
-	manpower = 28871
+	manpower = 57378
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
 }

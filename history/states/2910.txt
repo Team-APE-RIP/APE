@@ -1,18 +1,20 @@
 state = {
 	id = 2910
-	name = "STATE_2910"
+	name = "STATE_2910" # Marie Byrd Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
+
 	history = {
-		owner = DMK
-        add_core_of = DMK
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 		}
 	}
+
 	provinces = {
-        3260
+		17733 17773
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

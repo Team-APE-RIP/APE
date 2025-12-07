@@ -1,23 +1,32 @@
 state = {
 	id = 1343
-	name = "STATE_1343"
-	provinces = {
-		16136 7455
-	}
+	name = "STATE_1343" # Lancashire
+	manpower = 3029359
+	state_category = city
 	resources = {
+		steel = 24
+		aluminium = 4
 	}
 	history = {
-		owner = ZZZ # AZH
-		victory_points = { 16136 2 }
+		owner = ZZZ # ENG
+		victory_points = { 6335 10 }
+		victory_points = { 16342 10 }
+		victory_points = { 6384 10 }
+		victory_points = { 16345 6 }
 		buildings = {
-			infrastructure = 3
-			radar_station = 1
+			infrastructure = 6
+			thermoelectric_plant = 3
+			offices = 2
+			barracks = 1
+			hospitals = 2
+			prisons = 2
+			schools = 2
+			dockyard = 1
 		}
-		# add_core_of = AZH
-		# add_claim_by = IND
-		# set_state_flag = GDP_regions_assam
+		# add_core_of = ENG
+
 	}
-	manpower = 1000728
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	provinces = {
+		6335 6384 16342 16345
+	}
 }

@@ -3,28 +3,30 @@ state = {
 	name = "STATE_2117"
 
 	history = {
-		owner = ZZZ # SLG
-		# add_claim_by = FRS
-		# add_core_of = SLG
-		# add_core_of = ALG
+		owner = CHI
+		# add_core_of = CHI
 		buildings = {
-			infrastructure = 4
-			prisons = 1
+			infrastructure = 3
 		}
 		victory_points = {
-			11923 8
+			10003 4
 		}
 		victory_points = {
-			18084 3
+			11980 5
 		}
-		# set_state_flag = GDP_category_town
-		# set_state_flag = state_renamings
+		victory_points = {
+			11996 2
+		}
+
+		# set_variable = { china_state_ref = 11 }
+		# set_variable = { china_region_ref = 1 }
 	}
 
 	provinces = {
-		11923 18083 18084
+		10003 10119 11944 11980 11996
 	}
-	manpower = 667739
+	manpower = 4439850
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
+	local_supplies = 0.000
 }

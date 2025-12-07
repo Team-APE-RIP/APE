@@ -3,18 +3,23 @@ state = {
 	name = "STATE_2176"
 
 	history = {
-		owner = ZZZ # IRE
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 2
+			schools = 1
+			hospitals = 1
+			infrastructure = 3
 		}
-		# add_core_of = IRE
+		# add_core_of = PRU
+		victory_points = {
+			15503 10
+		}
 	}
 
 	provinces = {
-		11303 18603 18604
+		15467 15471 15503 15574
 	}
-	manpower = 103682
+	manpower = 625539
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = town
 	local_supplies = 0.000
 }

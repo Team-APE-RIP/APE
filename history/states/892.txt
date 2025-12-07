@@ -3,33 +3,32 @@ state = {
 	name = "STATE_892"
 
 	history = {
-		owner = ZZZ # IND
-		# add_claim_by = AZH
-		# add_core_of = IND
-		victory_points = {
-			4072 15
-		}
-		victory_points = {
-			16091 10
-		}
-		victory_points = {
-			7177 10
-		}
-		victory_points = {
-			10019 10
-		}
+		owner = ZZZ # SAF
 		buildings = {
-			infrastructure = 3
+			barracks = 1
+			infrastructure = 2
+			air_base = 3
 		}
-		add_extra_state_shared_building_slots = 1
-		# set_state_flag = GDP_regions_maharashtra
+		victory_points = {
+			15379 1
+		}
+		victory_points = {
+			13573 2
+		}
+		victory_points = {
+			13542 1
+		}
+		victory_points = {
+			13552 1
+		}
+		# add_core_of = SAF
 	}
 
 	provinces = {
-		1405 4072 4353 7177 10019 11993 16090 16091
+		1509 5203 10668 13525 13536 13538 13542 13544 13545 13548 13552 13573 15379 15380
 	}
-	manpower = 6597653
+	manpower = 1046856
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

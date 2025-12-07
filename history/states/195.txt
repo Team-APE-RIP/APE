@@ -1,37 +1,53 @@
 state = {
 	id = 195
 	name = "STATE_195"
+	resources = {
+		aluminium = 16.000
+		uranium = 2.000
+	}
 
 	history = {
-		owner = ZZZ # MCW
+		owner = ITA
+		add_core_of = ITA
 		victory_points = {
-			3151 20
+			14664 15
+		}
+		victory_points = {
+			6606 10
+		}
+		victory_points = {
+			9752 10
+		}
+		victory_points = {
+			6790 8
+		}
+		victory_points = {
+			6793 10
+		}
+		victory_points = {
+			782 10
+		}
+		victory_points = {
+			9924 9
 		}
 		buildings = {
+			prisons = 1
 			infrastructure = 5
-			dockyard = 3
-			air_base = 5
-			radar_station = 4
-			offices = 1
-			schools = 3
-			prisons = 2
-			hospitals = 2
-			thermoelectric_plant = 3
-			3151 = {
-				naval_base = 3
-				coastal_bunker = 1
+			thermoelectric_plant = 2
+			air_base = 2
+			schools = 1
+			782 = {
+				naval_base = 2
 			}
 		}
-		# set_state_flag = GDP_category_large_city
-		# add_core_of = MCW
-		# set_state_flag = universal_renamings
+		# add_core_of = ITA
 	}
 
 	provinces = {
-		149 3151 6174 18261 18292
+		14664
 	}
-	manpower = 640421
+	manpower = 3666870
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = large_city
 	local_supplies = 0.000
 }

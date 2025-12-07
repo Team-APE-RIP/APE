@@ -3,27 +3,26 @@ state = {
 	name = "STATE_1254"
 
 	history = {
-		owner = ZZZ # VEN
-		# set_state_flag = has_offshore_island
+		owner = ZZZ # IND
+		victory_points = {
+			16084 5
+		}
+		victory_points = {
+			18911 3
+		}
 		buildings = {
-			thermoelectric_plant = 1
-			offices = 1
-			barracks = 1
 			infrastructure = 3
 		}
-		# add_core_of = VEN
-		victory_points = {
-			4526 5
-		}
-		# set_state_flag = GDP_regions_mw_vz
-		# set_state_flag = GDP_category_town
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		4526 7161 7219 12003 17369 17373 17396
+		10807 16084 18911
 	}
-	manpower = 392217
+	manpower = 1919454
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

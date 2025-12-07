@@ -1,18 +1,39 @@
-state = {
+state = { #Population Done
 	id = 2667
 	name = "STATE_2667"
+	manpower = 1336591
+
+	state_category = city
+
+
 	history = {
-		owner = NLO
-		add_core_of = NLO
+		owner = SWS
+        add_core_of = SWS
+		victory_points = { 18146 25 }
+		victory_points = { 9638 10 }
+		victory_points = { 11604 7 }
+		victory_points = { 9620 2 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			air_base = 2
+			offices = 2
+			schools = 1
+			barracks = 1
+			anti_air_building = 2
+			hydroelectric_plant = 1
+			thermoelectric_plant = 1
+			9638 = {
+				bunker = 6
+			}
+			18146 = {
+				bunker = 4
+			}
 		}
+		# add_core_of = SWI
+
 	}
+
 	provinces = {
-	    19141
+		18146
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

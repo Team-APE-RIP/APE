@@ -1,18 +1,29 @@
-state = {
+state = { #Population Done
 	id = 2648
 	name = "STATE_2648"
+	manpower = 533201
+
+	state_category = town
+
 	history = {
-		owner = ROV
-		add_core_of = ROV
+		owner = ZZZ # ARG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			thermoelectric_plant = 1
+			hydroelectric_plant = 1
+			barracks = 1
+			schools = 1
 		}
+		# add_core_of = ARG
+		victory_points = { 12964 9 }
+		victory_points = { 14976 3 }
+		victory_points = { 15070 3 }
+		victory_points = { 15034 1 }
+		victory_points = { 8238 1 }
+		victory_points = { 14978 1 }
 	}
+
 	provinces = {
-	    12288 19135
+		8187 8238 12964 14915 14976 14978 14984 15034 15041 15070
 	}
-	manpower = 1087721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

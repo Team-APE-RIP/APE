@@ -1,24 +1,26 @@
 state = {
 	id = 2008
 	name = "STATE_2008"
-
 	history = {
-		owner = ZZZ # ENG
-		victory_points = { 9250 5 }
-		victory_points = { 16370 7 }
+		owner = NUB
+		add_core_of = NUB
 		buildings = {
-			infrastructure = 5
-			9250 = {
-				naval_base = 3
-			}
+			offices = 1
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 6
+			thermoelectric_plant = 3
 		}
-		# add_core_of = ENG
+		# add_core_of = GER
+		victory_points = { 11544 20 }
+		victory_points = { 11529 4 }
+		victory_points = { 561 2 }
 	}
-
 	provinces = {
-		9250 16370 3353 364 9322
+		11544
 	}
-	manpower = 836661
+	manpower = 1351263
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_city
 }

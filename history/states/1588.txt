@@ -1,33 +1,22 @@
 state = {
 	id = 1588
 	name = "STATE_1588"
-	provinces = {
-		1555 1568 4602 12394 15044
-	}
-history = {
-		owner = ZZZ # ARG
+	manpower = 233055
+
+	state_category = pastoral
+
+	history = {
+		owner = ZZZ # URG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 		}
-		# add_core_of = ARG
-		victory_points = {
-			15044 3
-		}
-		victory_points = {
-			12394 3
-		}
-		victory_points = {
-			4602 4
-		}
-		victory_points = {
-			1568 2
-		}
-		victory_points = {
-			1555 1
-		}
-		# set_state_flag = GDP_regions_la_plata
+		# add_core_of = URG
+		victory_points = { 12468 5 }
+		victory_points = { 15302 5 }
+		victory_points = { 12440 2 }
 	}
-	manpower = 265853
-	buildings_max_level_factor = 1.000
-	state_category = rural
+
+	provinces = {
+		12440 12468 15302
+	}
 }

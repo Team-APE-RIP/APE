@@ -1,24 +1,18 @@
 state = {
 	id = 1012
 	name = "STATE_1012"
-	provinces = {
-		6812 6836 
-	}
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = { 6812 4 }
-		victory_points = { 6836 4 }
-		# add_core_of = IBR
-
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			barracks = 1
-			hydroelectric_plant = 1
-			infrastructure = 4
+			infrastructure = 1
 		}
-		# set_state_flag = GDP_category_city
 	}
-	manpower = 365468
+	provinces = {
+        12030 19589 10084
+	}
+	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
+	local_supplies = 0.000
 }

@@ -1,29 +1,32 @@
 state = {
 	id = 44
 	name = "STATE_44"
-	resources = {
-		oil = 12
-	}
 
 	history = {
-		owner = ZZZ # ALB
-		victory_points = { 3884 3 }
-		victory_points = { 14446 1 }
-		buildings = {
-			infrastructure = 4
-			3884 = {
-				naval_base = 2
-			}
+		victory_points = { 7060 10 }
+		victory_points = { 5019 10 }
+		victory_points = { 12226 5 }
+		victory_points = { 10311 7 }
+		victory_points = { 5063 7 }
+		victory_points = { 16089 5 }
+		victory_points = { 16088 5 }
+		victory_points = {
+			16087 8
 		}
-		# add_core_of = ALB
-		# set_state_flag = GDP_regions_albania
-		# set_state_flag = GDP_category_rural
+		add_extra_state_shared_building_slots = 1
+		owner = ZZZ # IND
+		buildings = {
+			infrastructure = 3
+		}
+		# add_claim_by = AZH
+		# add_core_of = IND
+
 	}
 
 	provinces = {
-		3884 11767 14446 3448
+		7060 10311 5063 16087 16088 12226 5019 16089
 	}
-	manpower = 497958
+	manpower = 6651790
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 }

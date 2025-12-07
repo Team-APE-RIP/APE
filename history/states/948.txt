@@ -1,25 +1,34 @@
-state = { #Population Done
+state = {
 	id = 948
 	name = "STATE_948"
-	provinces = {
-		11830
-	}
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = FRA
+		add_core_of = FRA
+		# add_core_of = ENG
+		## add_core_of = GER
+		victory_points = {
+			11965 3
+		}
 		buildings = {
-			schools = 1
+			infrastructure = 5
+			radar_station = 4
+			air_base = 3
+			anti_air_building = 1
 			barracks = 1
-			offices = 3
-			infrastructure = 6
-			thermoelectric_plant = 2
-			dockyard = 1
+			11965 = {
+				naval_base = 4
+				coastal_bunker = 5
+				bunker = 2
+			}
 		}
-		victory_points = { # Providence
-			11830 20
-		}
+		set_resistance = 0
+		set_compliance = 87
 	}
-	manpower = 871000
+	provinces = {
+		11965
+	}
+	manpower = 111457
+	state_category = tiny_island
 	buildings_max_level_factor = 1.000
-	state_category = city
+	local_supplies = 0.000
 }

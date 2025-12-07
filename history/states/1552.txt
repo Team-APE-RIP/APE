@@ -1,39 +1,35 @@
 state = {
 	id = 1552
 	name = "STATE_1552"
-	resources = {
-		oil = 48
-	}
 
 	history = {
-		owner = ZZZ # CAU
-		victory_points = {
-			7661 30
-		}
-		victory_points = {
-			7495 10
-		}
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 6
-			air_base = 6
-			offices = 2
-			prisons = 1
-			schools = 1
-			barracks = 1
-			radar_station = 4
-			thermoelectric_plant = 4
-			synthetic_refinery = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+			9974 = {
+				naval_base = 2
+			}
 		}
-		# set_state_flag = GDP_category_city
-		# add_core_of = CAU
-		# set_state_flag = universal_renamings
+		victory_points = {
+			9974 15
+		}
+		victory_points = {
+			7058 5
+		}
+		add_extra_state_shared_building_slots = 2
+
+		# set_variable = { china_state_ref = 4 }
+		# set_variable = { china_region_ref = 0 }
+
 	}
 
 	provinces = {
-		7495 7661
+		7058 19590 9974
 	}
-	manpower = 813184
+	manpower = 3694788
 	buildings_max_level_factor = 1.000
-	state_category = large_city
+	state_category = pastoral
 	local_supplies = 0.000
 }

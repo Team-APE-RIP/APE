@@ -1,28 +1,21 @@
 state = {
 	id = 1990
 	name = "STATE_1990"
+	manpower = 136617
+
+	state_category = pastoral
+
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = {
-			18464 2
-		}
-		victory_points = {
-			11880 1
-		}
+		victory_points = { 9154 2 }
+		owner = ZZZ # SWE
+		# add_core_of = SWE
 		buildings = {
 			infrastructure = 3
+			barracks = 1
 		}
-		# add_core_of = TUR
-		# set_state_flag = GDP_category_rural
-		# add_claim_by = KUR
 	}
-
 	provinces = {
-		4583 7470 9858 11880 16232 18464
+		11148 11187 9171 6185 13117 3039 6126 46 3162 3108 9154 6129 9229 11052 168 9066 3111 6207 11049 11116 113 6010 11053 3191 9148
 	}
-	manpower = 412251
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

@@ -3,28 +3,26 @@ state = {
 	name = "STATE_987"
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = {
-			6817 6
-		}
-		victory_points = {
-			9896 2
-		}
+		owner = ZZZ # ARG
 		buildings = {
-			barracks = 1
-			infrastructure = 5
+			infrastructure = 2
+			radar_station = 2
+			10953 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = IBR
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_city
+		# add_core_of = ARG
+		victory_points = {
+			10953 1
+		}
+
 	}
 
 	provinces = {
-		3873 6817 9896 17982
+		8161 8176 10953 15020 15026 17484 17486
 	}
-	manpower = 344531
+	manpower = 10840
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

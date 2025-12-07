@@ -1,17 +1,27 @@
 state = {
 	id = 2657
 	name = "STATE_2657"
+
+	resources = {
+		steel = 4
+	}
+
 	history = {
-		owner = KCJ
-		add_core_of = KCJ
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
+		victory_points = {
+			15713 5
+		}
+
 	}
+
 	provinces = {
-	    4302
+		19296 15713 19298 10307 15714
 	}
-	manpower = 1087721
+	manpower = 1578629
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

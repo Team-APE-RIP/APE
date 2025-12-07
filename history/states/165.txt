@@ -1,28 +1,41 @@
 state = {
 	id = 165
 	name = "STATE_165"
+	resources = {
+		oil = 6.000
+		uranium = 6.000
+	}
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
+		owner = MEN
+		# add_core_of = GAN
 		victory_points = {
-			17984 6
+			13250 10
+		}
+		victory_points = {
+			16476 2
+		}
+		victory_points = {
+			4243 1
 		}
 		buildings = {
-			schools = 1
-			hydroelectric_plant = 2
-			infrastructure = 4
+			infrastructure = 3
+			prisons = 1
+			barracks = 1
+			offices = 1
 		}
-		# add_core_of = IBR
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_category_city
+		add_extra_state_shared_building_slots = 1
+		# set_variable = { china_state_ref = 40 }
+		# set_variable = { china_region_ref = 5 }
+
 	}
 
+
 	provinces = {
-		897 3898 6865 
+		4243 10724 13250 16476
 	}
-	manpower = 336405
+	manpower = 1040774
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

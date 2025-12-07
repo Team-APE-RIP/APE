@@ -1,41 +1,26 @@
 state = {
 	id = 813
 	name = "STATE_813"
-	resources = {
-		steel = 12.000
-	}
+
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
+		owner = ZZZ # IND
+		victory_points = { 12829 10 }
+		victory_points = { 16057 2 }
+		victory_points = { 16065 1 }
+		victory_points = { 4149 4 }
 		buildings = {
-			schools = 1
-			offices = 1
-			hospitals = 1
-			barracks = 2
-			prisons = 2
-			thermoelectric_plant = 3
-			infrastructure = 6
-			air_base = 5
-			7014 = {
-				naval_base = 5
-			}
-			dockyard = 2
+			infrastructure = 3
 		}
-		victory_points = {
-			7014 60
-		}
-		# set_state_flag = GDP_category_large_city
-		# set_variable = { china_state_ref = 1 }
-		# set_variable = { china_region_ref = 0 }
-		# set_variable = { china_city_ref = 1 }
+		# add_core_of = IND
+		# add_claim_by = AZH
+
 	}
 
 	provinces = {
-		7014
+		16057 16065 12829 13481 16056 4149
 	}
-	manpower = 10306547
+	manpower = 3054425
 	buildings_max_level_factor = 1.000
-	state_category = metropolis #Since Mukden gets it too
-	local_supplies = 0.000
+	state_category = pastoral
 }

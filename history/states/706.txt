@@ -1,27 +1,20 @@
 state = {
 	id = 706
 	name = "STATE_706"
-	manpower = 186637
-
-	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # MAD
-		# add_core_of = MAD
+		owner = ZZZ # LEB
 		buildings = {
-			infrastructure = 1
-			air_base = 2
-			barracks = 1
-			radar_station = 4
-			13017 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 		}
-		# set_state_flag = state_renamings
-		victory_points = { 13017 1 }
-	}
+		victory_points = { 18596 1 }
+		# add_core_of = LEB
 
-	provinces = {
-		13017
 	}
+	provinces = {
+		8153 18596
+	}
+	manpower = 117965
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

@@ -1,29 +1,17 @@
 state = {
 	id = 1743
 	name = "STATE_1743"
-	resources = {
-		uranium = 3.000
-	}
-
 	history = {
-		owner = ERV
-		add_core_of = ERV
-		victory_points = {
-			10309 1
-		}
+		owner = MAN
+		# add_core_of = SHT
 		buildings = {
-			infrastructure = 2
-			10309 = {
-				naval_base = 1
-			}
-			air_base = 1
+			infrastructure = 1
 		}
 	}
-
 	provinces = {
-		10137 10309
+		1502 19825 19855 12485 7812 19871 4561
 	}
-	manpower = 1126290
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

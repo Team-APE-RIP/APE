@@ -1,49 +1,29 @@
-state = {
+state = { #Population Done
 	id = 596
 	name = "STATE_596"
-
+	manpower = 876992
 	resources = {
-		steel = 6
+		aluminium = 8
 	}
+	state_category = town
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
-		victory_points = {
-			7191 31
-		}
-		victory_points = {
-			10101 19
-		}
-		victory_points = {
-			4042 7
-		}
-		victory_points = {
-			19822 4
-		}
-		victory_points = {
-			10014 2
-		}
+		owner = ZZZ # TUR
+		victory_points = { 1122 7 }
+		victory_points = { 4008 1 }
+		victory_points = { 12016 2 }
+		victory_points = { 784 2 }
 		buildings = {
-			infrastructure = 5
-			barracks = 1
-			prisons = 1
-			schools = 1
-			offices = 1
-			thermoelectric_plant = 2
+			infrastructure = 3
+			dockyard = 1
+			1122 = {
+				naval_base = 4
+			}
 		}
-		add_extra_state_shared_building_slots = 3
-		# set_state_flag = GDP_regions_zhejiang_ouhai
-		# set_variable = { china_state_ref = 4 }
-		# set_variable = { china_region_ref = 0 }
-		# set_state_flag = GDP_category_city
+		# add_core_of = TUR
 	}
 
 	provinces = {
-		7191 10101 19822 10034 4042
+		1005 1119 12013 12016 784 3876 1122 4127 4008
 	}
-	manpower = 5796932
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
 }

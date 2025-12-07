@@ -3,25 +3,23 @@ state = {
 	name = "STATE_2293"
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = ZZZ # CHL
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 		}
+		# add_core_of = CHL
 		victory_points = {
-			7654 1
+			15170 1
 		}
-		victory_points = {
-			15712 1
-		}
-		# set_state_flag = GDP_regions_east_west_java
+
+
 	}
 
 	provinces = {
-		15712 19308 19338 12472 19215 19344 7654
+		8198 15167 15168 15169 15170 17542 17544 17550
 	}
-	manpower = 4475889
+	manpower = 1568
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = wasteland
 	local_supplies = 0.000
 }

@@ -1,29 +1,20 @@
 state = {
 	id = 1702
-	name = "STATE_1702"
-	resources = {
-		aluminium = 2
-	}
+	name = "STATE_1702" # Ellsworth Land
+	manpower = 1
 
-	state_category = town
+	state_category = wasteland
+
+	impassable = yes
 
 	history = {
-		owner = IPB
-		add_core_of = IPB
-		victory_points = { 3938 4 }
-		victory_points = { 11820 3 }
+		owner = ZZZ # AAN
 		buildings = {
-			infrastructure = 5
-			prisons = 1
-			schools = 1
+			infrastructure = 0
 		}
-		# add_core_of = IBR
-		# set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
-		858 3986 6914
+		17719
 	}
-	manpower = 535508
-	buildings_max_level_factor = 1.000
 }

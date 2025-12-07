@@ -1,26 +1,24 @@
 state = {
 	id = 2172
 	name = "STATE_2172"
+	manpower = 1064307
 
-	resources = {
-		oil = 8
-	}
+	state_category = city
+
 
 	history = {
-		owner = ZZZ # GUL
-		# add_core_of = UAE
-		# add_core_of = GUL
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			thermoelectric_plant = 3
+			hydroelectric_plant = 2
+			radar_station = 1
 		}
-		# set_state_flag = state_renamings
+		victory_points = { 7113 15 }
 	}
 
 	provinces = {
-		18589 18574
+		7113 1133
 	}
-	manpower = 6001
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

@@ -1,31 +1,31 @@
 state = {
 	id = 251
 	name = "STATE_251"
-	resources = {
-		oil = 3.000
-	}
 
 	history = {
-		owner = ZZZ # SAM
+		owner = ZZZ # AZH
+		victory_points = {
+			7475 4
+		}
+		victory_points = {
+			13222 2
+		}
+		victory_points = {
+			18940 1
+		}
 		buildings = {
-			infrastructure = 2
-			barracks = 1
+			infrastructure = 3
 		}
-		victory_points = {
-			338 3
-		}
-		victory_points = {
-			9391 5
-		}
-		# add_core_of = SAM
-		# set_state_flag = universal_renamings
+		# add_core_of = AZH
+		# add_claim_by = IND
+
 	}
 
 	provinces = {
-		338 365 393 497 3216 3357 3486 6424 9365 9391 9445 11348
+		1656 7475 13222 18940
 	}
-	manpower = 182000
+	manpower = 4976969
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

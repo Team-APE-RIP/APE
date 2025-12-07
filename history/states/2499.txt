@@ -1,17 +1,33 @@
 state = {
 	id = 2499
 	name = "STATE_2499"
-	manpower = 12
-	state_category = tiny_island
+	state_category = pastoral
+
+	resources = {
+		chromium = 1
+	}
 
 	history = {
-		owner = ZZZ # NZL
-		# add_core_of = NZL
+		owner = ZZZ # GRE
+		victory_points = { 7193 1 }
+		victory_points = { 16193 1 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			barracks = 1
+			7193 = {
+				naval_base = 2
+			}
 		}
+		# add_core_of = GRE
+		# add_claim_by = TUR
+		# set_demilitarized_zone = yes
+
+
 	}
+
 	provinces = {
-		19970
+		7193 14688 16192 16193
 	}
+	manpower = 180806
+	buildings_max_level_factor = 1.000
 }

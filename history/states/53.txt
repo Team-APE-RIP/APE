@@ -1,45 +1,26 @@
 state = {
 	id = 53
 	name = "STATE_53"
+	manpower = 71388
+	state_category = tiny_island
 
 	history = {
-		owner = NUB
-		add_core_of = NUB
-		# add_core_of = GER
-		victory_points = {
-			3299 10
-		}
-		victory_points = {
-			586 6
-		}
-		victory_points = {
-			6725 4
-		}
-		victory_points = {
-			15829 7
-		}
-		victory_points = {
-			9681 4
-		}
-		victory_points = {
-			3541 4
-		}
-		victory_points = {
-			571 3
-		}
+		owner = ZZZ # NZL
+		# add_core_of = NZL
 		buildings = {
+			infrastructure = 2
+			radar_station = 2
 			barracks = 1
-			schools = 1
-			infrastructure = 5
-			thermoelectric_plant = 3
+			air_base = 1
+			19981 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			19981 5
 		}
 	}
-
 	provinces = {
-		3299 571 
+		19981 19967 19957
 	}
-	manpower = 2745572
-	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
 }

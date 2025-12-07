@@ -1,22 +1,21 @@
 state = {
 	id = 1617
 	name = "STATE_1617"
-	manpower = 76213
+	manpower = 33
 
 	state_category = wasteland
 
 	history = {
-		owner = ZZZ # PAR
-		# add_core_of = PAR
+		owner = ZZZ # CHL
+		# add_core_of = CHL
+		# add_claim_by = ARG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 		}
 
-		# set_state_flag = PAR_bush_war_state
 	}
 
 	provinces = {
-		2173 15261
+		17936
 	}
-
 }

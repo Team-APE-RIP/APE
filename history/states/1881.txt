@@ -1,26 +1,37 @@
 state = {
 	id = 1881
-	name = "STATE_1881"
-	manpower = 859255
+	name = "STATE_1881" # Hokuriku
+	manpower = 2419447
 
-	state_category = pastoral
+	state_category = city
 
+	resources = {
+		steel = 1
+		oil = 3
+	}
 
 	history = {
-		owner = ZZZ # HAI
+		owner = JAP
+		add_core_of = JAP
+
 		buildings = {
-			infrastructure = 2
-			barracks = 1
-			prisons = 1
-			15642 = {
-				naval_base = 1
+			infrastructure = 5
+			radar_station = 1
+			thermoelectric_plant = 3
+			hydroelectric_plant = 3
+			schools = 1
+			offices = 1
+			hospitals = 1
+			1117 = {
+				naval_base = 3
 			}
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = HAI
-		victory_points = { 15642 5 }
+
+		victory_points = { 1117 15 }
+		victory_points = { 12007 15 }
 	}
+
 	provinces = {
-		15638 15639 15640 15641 15642 15643
+		12007 11989 1117 11930 
 	}
 }

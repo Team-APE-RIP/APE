@@ -1,28 +1,21 @@
 state = {
 	id = 1453
 	name = "STATE_1453"
-
-	resources = {
-		oil = 6
-		rubber = 8
-	}
-
-	history = {
-		owner = ZZZ # SHO
-		buildings = {
-			infrastructure = 3
-		}
-		victory_points = { 7427 1 }
-		# add_core_of = SHO
-		# add_core_of = MLY
-		# set_state_flag = state_renamings
-	}
-
 	provinces = {
-		7427 19072 19337
+		14478
 	}
-	manpower = 430227
+	history = {
+		owner = VCS
+		add_core_of = VCS
+		victory_points = {
+			14478 1
+		}
+		buildings = {
+			infrastructure = 7
+		}
+		# add_core_of = VAC
+	}
+	manpower = 750
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = enclave
 }

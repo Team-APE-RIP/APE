@@ -1,26 +1,24 @@
 state = {
 	id = 2268
 	name = "STATE_2268"
-	resources = {
-		oil = 16
-		rubber = 2
-	}
 
 	history = {
 		owner = ZZZ # INS
 		# add_core_of = INS
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
 		}
-		# set_state_flag = GDP_regions_riau
-		# set_state_flag = GDP_category_rural
+
 	}
 
 	provinces = {
-		15725 12343 19222 19230 15718 19248 15700
+		1428 19255 19212
 	}
-	manpower = 315798
+	manpower = 36441
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = tiny_island
 	local_supplies = 0.000
 }

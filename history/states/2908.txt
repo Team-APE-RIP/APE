@@ -2,31 +2,16 @@ state = {
 	id = 2908
 	name = "STATE_2908"
 	history = {
-		owner = DMK
-        add_core_of = DMK
+		owner = MAN
+		# add_core_of = SHT
 		buildings = {
-			infrastructure = 7
-			dockyard = 2
-			radar_station = 1
-			air_base = 6
-			6421 = {
-				naval_base = 8
-			}
-			offices = 2
-			schools = 2
-			hospitals = 2
-			barracks = 1
-			prisons = 1
-			thermoelectric_plant = 3
-		}
-		victory_points = {
-			6421 28
+			infrastructure = 1
 		}
 	}
 	provinces = {
-        6421
+		16943 19888 7526 16947 19919 4649 10379
 	}
-	manpower = 87721
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

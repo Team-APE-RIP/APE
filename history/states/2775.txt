@@ -1,18 +1,27 @@
 state = {
 	id = 2775
 	name = "STATE_2775"
+	resources = {
+		steel = 1.000
+	}
+
 	history = {
-		owner = OBK
-		add_core_of = OBK
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			hydroelectric_plant = 2
+		}
+		victory_points = {
+			4000 15
 		}
 	}
+
 	provinces = {
-        11264 11233 247
+		4000 19769
 	}
-	manpower = 87721
+	manpower = 1624047
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

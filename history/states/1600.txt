@@ -2,18 +2,17 @@ state = {
 	id = 1600
 	name = "STATE_1600"
 	history = {
-		owner = ZZZ # ZZZ
-		victory_points = { 15178 5 }
+		owner = FRA
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
-
 	provinces = {
-		15178
+        15225 15224
 	}
-	manpower = 14
-	buildings_max_level_factor = 2.000
-	state_category = tiny_island
-	impassable = yes
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

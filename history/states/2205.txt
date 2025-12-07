@@ -1,24 +1,35 @@
 state = {
 	id = 2205
 	name = "STATE_2205"
+
 	resources = {
-		oil = 2
+		chromium = 2
 	}
 
 	history = {
-		owner = ZZZ # UTL
-		buildings = {
-			infrastructure = 2
+		owner = DRV
+		add_core_of = DRV
+		# add_core_of = VIN
+		# add_core_of = VIC
+		victory_points = {
+			11936 5
 		}
-		# add_core_of = UTL
-		# add_core_of = TRK
+		victory_points = {
+			4397 1
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			air_base = 1
+		}
+
 	}
 
 	provinces = {
-		9605 1632 756
+		4397 10016 10129 11909 11936 19142
 	}
-	manpower = 22149
+	manpower = 2510697
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

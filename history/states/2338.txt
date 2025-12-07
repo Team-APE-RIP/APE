@@ -2,35 +2,21 @@ state = {
 	id = 2338
 	name = "STATE_2338"
 
-	resources = {
-		uranium = 2
-	}
+	manpower = 342044
+	state_category = pastoral
 
 	history = {
-		owner = AUH
-		add_core_of = AUH
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
+		victory_points = { 491 1 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
-		victory_points = {
-			9937 5
-		}
-        victory_points = {
-            10434 5
-        }
-        victory_points = {
-            19824 5
-        }
-		# set_state_flag = GDP_regions_anhui
-		# set_variable = { china_state_ref = 3 }
-		# set_variable = { china_region_ref = 0 }
+
 	}
 
 	provinces = {
-		9937 7126 7540 19824 10446 10434
+		491 11427
 	}
-	manpower = 9085496
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

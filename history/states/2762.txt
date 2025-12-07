@@ -1,18 +1,29 @@
-state = {
+state = { #Population Done
 	id = 2762
 	name = "STATE_2762"
+	manpower = 2982
+	state_category = tiny_island
+
 	history = {
-		owner = HBG
-		add_core_of = HBG
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			air_base = 4
+			barracks = 1
+			radar_station = 5
+			13016 = {
+				naval_base = 1
+			}
 		}
+		victory_points = { # Jamestown
+			13016 1
+		}
+
 	}
+
 	provinces = {
-        6389 11331
+		13016
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

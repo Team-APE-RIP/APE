@@ -1,38 +1,31 @@
 state = {
 	id = 797
 	name = "STATE_797"
-	resources = {
-		oil = 18
-	}
 
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
-		# set_state_flag = has_offshore_island
+		owner = MEN
 		victory_points = {
-			19356 30
+			19418 3
 		}
 		victory_points = {
-			15710 1
+			12612 2
+		}
+		victory_points = {
+			12669 1
 		}
 		buildings = {
-			19356 = {
-				naval_base = 5
-			}
-			dockyard = 1
-			infrastructure = 5
-			offices = 1
-			synthetic_refinery = 1
-			thermoelectric_plant = 1
+			infrastructure = 2
 		}
-		# set_state_flag = GDP_regions_east_west_java
+
+		# set_variable = { china_state_ref = 57 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		4608 15710 19356 19325
+		1868 9909 16854 1787 1853 4040 4729 4786 4856 7749 10558 10575 10632 10689 10704 12539 12612 12669 12686 19418 19419 4873
 	}
-	manpower = 5587752
+	manpower = 158096
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

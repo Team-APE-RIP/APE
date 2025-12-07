@@ -3,33 +3,42 @@ state = {
 	name = "STATE_420"
 
 	history = {
-		owner = ZZZ # PER
+		owner = CHI
+		# add_core_of = CHI
 		buildings = {
-			infrastructure = 6
-			thermoelectric_plant = 1
-			air_base = 1
-		}
-		# add_core_of = PER
-		victory_points = {
-			18804 10
+			barracks = 1
+			infrastructure = 3
 		}
 		victory_points = {
-			4609 4
+			16878 19
 		}
 		victory_points = {
-			4637 2
+			1134 4
 		}
 		victory_points = {
-			15144 1
+			10022 5
 		}
-		# set_state_flag = GDP_category_large_town
+		victory_points = {
+			7000 5
+		}
+		victory_points = {
+			7109 3
+		}
+		victory_points = {
+			12026 2
+		}
+		add_extra_state_shared_building_slots = 2
+
+
+		# set_variable = { china_state_ref = 10 }
+		# set_variable = { china_region_ref = 1 }
 	}
 
 	provinces = {
-		4609 4637 15144 18738 18744 18752 18759 18804 18812
+		1134 4208 6828 7000 7109 10022 12026 16878
 	}
-	manpower = 686701
+	manpower = 7708974
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

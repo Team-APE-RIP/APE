@@ -2,39 +2,21 @@ state = {
 	id = 1346
 	name = "STATE_1346"
 
+	state_category = wasteland
+
 	history = {
-		owner = ZZZ # AZH
-		# add_core_of = AZH
-		# add_claim_by = IND
-		add_extra_state_shared_building_slots = 2
+		owner = ZZZ # OMA
+		# add_core_of = OMA
 		buildings = {
-			infrastructure = 4
-			schools = 1
-			prisons = 1
-			barracks = 1
-			dockyard = 1
-			hydroelectric_plant = 1
-			1159 = {
-				naval_base = 6
-			}
+			infrastructure = 2
+			13468 = { naval_base = 1 }
 		}
-		victory_points = {
-			2843 15
-		}
-		victory_points = {
-			18980 2
-		}
-		victory_points = {
-			12050 10
-		}
-		# set_state_flag = GDP_regions_bengal
+
 	}
 
 	provinces = {
-		1159 2843 7078 9935 12050 18850 18980 18981 18985
+		13468
 	}
-	manpower = 12833973
+	manpower = 17807
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

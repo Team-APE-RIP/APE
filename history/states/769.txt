@@ -1,25 +1,28 @@
 state = {
 	id = 769
 	name = "STATE_769"
-	provinces = {
-		13280
-	}
-	history = {
-		owner = ZZZ # JAP #should be USA -morrina and uncountably
-		# set_state_flag = universal_renamings
-		buildings = {
-			infrastructure = 7
-			radar_station = 1
-			dockyard = 1
 
-			13280 = {
-				naval_base = 3
-			}
+	history = {
+		owner = EPA
+		add_core_of = EPA
+		victory_points = {
+			17984 6
 		}
-		victory_points = { 13280 15 }
-		# add_core_of = USA
+		buildings = {
+			schools = 1
+			hydroelectric_plant = 2
+			infrastructure = 4
+		}
+		# add_core_of = IBR
+
+
 	}
-	manpower = 3275 #why the fuck was this 320075 ever
-	state_category = enclave #why the fuck was this metropolis ever
+
+	provinces = {
+		897 3898 6865 
+	}
+	manpower = 336405
 	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

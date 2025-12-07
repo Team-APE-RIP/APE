@@ -1,23 +1,46 @@
 state = {
 	id = 1584
 	name = "STATE_1584"
+	resources = {
+		steel = 136.000
+		aluminium = 96.000
+	}
 
 	history = {
-		owner = ZZZ # ARG
-		buildings = {
-			infrastructure = 2
-		}
-		# add_core_of = ARG
+		owner = FRA
+		add_core_of = FRA
 		victory_points = {
-			12982 2
+			9898 10
 		}
-		# set_state_flag = GDP_regions_rio_negro
+		victory_points = {
+			15202 1
+		}
+		victory_points = {
+			15186 1
+		}
+		victory_points = {
+			15199 1
+		}
+		victory_points = {
+			15217 3
+		}
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 2
+			hydroelectric_plant = 2
+			air_base = 2
+			prisons = 1
+			hospitals = 1
+		}
+		# add_core_of = FRS
+		# add_claim_by = FFR
 	}
 
 	provinces = {
-		12982 14910 14912
+		9898 15199 6960
 	}
-	manpower = 27590
+	manpower = 1043222
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
+	local_supplies = 0.000
 }

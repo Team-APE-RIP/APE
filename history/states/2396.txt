@@ -1,25 +1,37 @@
-state = {
+state = { #Population Done
 	id = 2396
 	name = "STATE_2396"
+	manpower = 1703053
+	resources = {
+		chromium = 20
+	}
+
+	state_category = city
 
 	history = {
-		owner = TIB
-		add_core_of = TIB
-		buildings = {
-			infrastructure = 0
-		}
-		# add_core_of = TIB
-		# set_variable = { china_state_ref = 22 }
-		# set_variable = { china_region_ref = 2 }
-	}
+		owner = ZZZ # TUR
 
-	impassable = yes
+		victory_points = { 11747 35 }
+		victory_points = { 804 5 }
+		victory_points = { 9901 2 }
+		victory_points = { 9844 2 }
+		victory_points = { 11844 2 }
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+			radar_station = 4
+			offices = 2
+			schools = 2
+			barracks = 2
+			hospitals = 1
+			prisons = 2
+			thermoelectric_plant = 3
+			hydroelectric_plant = 2
+		}
+		# add_core_of = TUR
+	}
 
 	provinces = {
-		5011
+		804 6908 6925 9806 9901 11747 11784 6920 9844 16219 11844 16262
 	}
-	manpower = 716
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 }

@@ -1,32 +1,26 @@
-state = {
+state = { #Population Done
 	id = 1586
 	name = "STATE_1586"
 	provinces = {
-		1596 1639 4643 12321 12409 12494 14917
+		4782 1697 1837 4842 7863 12523 7802
+	}
+	resources = {
+		oil = 8
 	}
 	history = {
-		owner = ZZZ # ARG
+		owner = ZZZ # SBA
 		buildings = {
-			infrastructure = 3
-			schools = 1
-			dockyard = 2
-			1639 = {
-				naval_base = 1
-			}
+			infrastructure = 2
+			prisons = 1
 		}
-		# add_core_of = ARG
+		# add_core_of = SBA
+
+		#victory_points = { 4782 1 }
 		victory_points = {
-			1639 10
+			1837 3
 		}
-		victory_points = {
-			4643 3
-		}
-		victory_points = {
-			12409 1
-		}
-		# set_state_flag = GDP_regions_la_plata
 	}
-	manpower = 379534
+	state_category = rural
+	manpower = 63000
 	buildings_max_level_factor = 1.000
-	state_category = town
 }

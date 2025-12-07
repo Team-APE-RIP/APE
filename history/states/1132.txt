@@ -2,26 +2,41 @@ state = {
 	id = 1132
 	name = "STATE_1132"
 
+	resources = {
+	}
+
 	history = {
-		owner = ZZZ # EGY
-		# add_core_of = EGY
-		victory_points = {
-			14038 1
-		}
-		victory_points = {
-			14049 1
-		}
+		owner = CHI
+		# add_core_of = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_regions_sudan
-		# set_state_flag = state_renamings
+		victory_points = {
+			1169 15
+		}
+		victory_points = {
+			4058 3
+		}
+		victory_points = {
+			7092 3
+		}
+		victory_points = {
+			12062 6
+		}
+		victory_points = {
+			19849 4
+		}
+		add_extra_state_shared_building_slots = 2
+
+
+		# set_variable = { china_state_ref = 11 }
+		# set_variable = { china_region_ref = 1 }
 	}
 
 	provinces = {
-		1953 4033 7996 14038 14049
+		19849 1169 7092 1188 12062 4058
 	}
-	manpower = 690229
+	manpower = 6186301
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

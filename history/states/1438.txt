@@ -1,40 +1,25 @@
-state = {
+state = { #Population Done
 	id = 1438
-	name = "STATE_1438"
+	name = "STATE_1438" # Formosa
+	manpower = 178526
 
-	manpower = 4643255
-	state_category = rural
+	resources = {
+		tungsten = 5
+	}
+
+	state_category = pastoral
 
 	history = {
-		owner = NAL
-		add_core_of = NAL
-		# add_core_of = GNG
-		# set_variable = { china_state_ref = 35 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = state_renamings
+		owner = ZZZ # ARG
 		buildings = {
-			barracks = 1
 			infrastructure = 2
-			thermoelectric_plant = 2
 		}
-		victory_points = {
-			4092 3
-		}
-		victory_points = {
-			9997 2
-		}
-		victory_points = {
-			10080 4
-		}
-		victory_points = {
-			11941 5
-		}
-		victory_points = {
-			19598 3
-		}
+		# add_core_of = ARG
+		victory_points = { 14909 3 }
+		victory_points = { 15060 1 }
 	}
 
 	provinces = {
-		4092 11941 10080 12014 9997 10121 19598
+		12922 12943 14909 14929 14996 15060 15057
 	}
 }

@@ -3,36 +3,39 @@ state = {
 	name = "STATE_1718"
 
 	history = {
-		owner = ZZZ # FIN
-		victory_points = {
-			3137 10
-		}
-		victory_points = {
-			11066 2
-		}
-		victory_points = {
-			67 6
-		}
-		victory_points = {
-			9167 1
-		}
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 6
-			radar_station = 2
-			air_base = 1
-			barracks = 1
+			infrastructure = 4
+			thermoelectric_plant = 2
+			schools = 1
 			offices = 1
 			prisons = 1
-			hospitals = 1
 		}
-		# add_core_of = FIN
+		victory_points = {
+			16907 26
+		}
+		victory_points = {
+			16929 23
+		}
+		victory_points = {
+			19894 5
+		}
+		victory_points = {
+			10076 10
+		}
+		add_extra_state_shared_building_slots = 2
+
+		# set_variable = { china_state_ref = 2 }
+		# set_variable = { china_region_ref = 0 }
+
 	}
 
 	provinces = {
-		67 3025 3137 6047 6163 9167 11066 11172 13107
+		19894 10076 12052 16929 16907
 	}
-	manpower = 579888
+	manpower = 6381105
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_town
 	local_supplies = 0.000
 }

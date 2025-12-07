@@ -1,17 +1,25 @@
 state = {
 	id = 2934
 	name = "STATE_2934"
+
 	history = {
-		owner = ITA
-        add_core_of = ITA
+		owner = ZZZ # JOR
+		# add_core_of = JOR
 		buildings = {
 			infrastructure = 3
+			prisons = 1
 		}
+		victory_points = {
+			18593 1
+		}
+
+
 	}
+
 	provinces = {
-        11570 6635 776 3782
+		18593 7001
 	}
-	manpower = 87721
+	manpower = 117960
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

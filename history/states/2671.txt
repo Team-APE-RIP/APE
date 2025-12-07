@@ -2,14 +2,14 @@ state = {
 	id = 2671
 	name = "STATE_2671"
 	history = {
-		owner = KTL
-		add_core_of = KTL
+		owner = RHN
+		add_core_of = RHN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 	provinces = {
-	    19071 1253 1488 19051 7675
+        15848 563 11547
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

@@ -1,41 +1,18 @@
-state = { #Population Done
+state = {
 	id = 188
 	name = "STATE_188"
-
-	manpower = 1546853
-	state_category = city
-
-	resources = {
-		oil = 1
-	}
-
 	history = {
-		owner = BMN
-        add_core_of = BMN
-		# add_core_of = GER
-
-		victory_points = { 3326 10 }
-		victory_points = { 374 4 }
-		victory_points = { 6263 5 }
-		victory_points = { 6298 6 }
-
+		owner = ITA
+        add_core_of = ITA
 		buildings = {
-			hospitals = 1
-			barracks = 2
-			offices = 1
-			infrastructure = 5
-			thermoelectric_plant = 3
-			dockyard = 2
-
-			6349 = {
-				
-				coastal_bunker = 2
-			}
-			374 = { coastal_bunker = 2 naval_base = 3 }
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_category_city
 	}
 	provinces = {
-		3326 374 6349
+        6661 11587 11568
 	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

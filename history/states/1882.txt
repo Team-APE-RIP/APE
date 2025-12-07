@@ -1,20 +1,22 @@
-state = { #Population Done
+state = {
 	id = 1882
 	name = "STATE_1882"
-	manpower = 666746
-
-	state_category = wasteland
-
 	history = {
-		owner = ZZZ # HAI
+		owner = ZZZ # BUL
+		victory_points = { 9771 3 }
+		victory_points = { 965 3 }
 		buildings = {
-			infrastructure = 2
-			1635 = { naval_base = 2 }
+			thermoelectric_plant = 1
+			infrastructure = 5
+			barracks = 1
 		}
-		# set_state_flag = universal_renamings
-		# add_core_of = HAI
+		# add_core_of = BUL
 	}
+
 	provinces = {
-		15644 1635 15645
+		793 965 9771 11754
 	}
+	manpower = 713295
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

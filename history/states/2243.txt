@@ -1,26 +1,29 @@
 state = {
 	id = 2243
 	name = "STATE_2243"
-
 	resources = {
-		rubber = 1
+		oil = 8.000
+		tungsten = 8.000
+		steel = 13.000
 	}
 
 	history = {
-		owner = WLO
-		add_core_of = WLO
-		# add_core_of = DRV
-		# add_core_of = LAO
+		owner = ZZZ # TOM
 		buildings = {
 			infrastructure = 2
 		}
+		# add_core_of = TOM
+		victory_points = {
+			12174 1
+		}
+
 	}
 
 	provinces = {
-		12332 1464 
+		4681 5323 7849 10613 10617 10673 10686 12174 12599
 	}
-	manpower = 28350
+	manpower = 126494
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

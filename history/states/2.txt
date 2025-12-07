@@ -1,48 +1,39 @@
 state = {
 	id = 2
 	name = "STATE_2"
+	manpower = 616609
+	state_category = town
 
 	history = {
-		owner = ITA
-		add_core_of = ITA
-		victory_points = {
-			11846 5
-		}
-		victory_points = {
-			9750 5
-		}
-		victory_points = {
-			923 3
-		}
-		victory_points = {
-			11882 3
-		}
-		victory_points = {
-			6862 3
-		}
+		owner = ZZZ # MEX
+
 		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			offices = 1
 			prisons = 1
 			barracks = 1
-			offices = 2
-			hospitals = 1
-			infrastructure = 6
 			radar_station = 1
-			air_base = 8
-			hydroelectric_plant = 1
-			thermoelectric_plant = 1
-			schools = 2
-			11846 = {
+			air_base = 3
+			12461 = {
+				naval_base = 4
+			}
+			1892 = {
 				naval_base = 2
 			}
 		}
-		# add_core_of = ITA
+		# add_core_of = MEX
+		victory_points = { # Tijuana
+			12461 10
+		}
+		victory_points = { # Mexicali
+			14529 10
+		}
+		victory_points = { # Ensenada
+			1892 4
+		}
 	}
-
 	provinces = {
-		11846 923
+		1892 7964 12461 12859 14529
 	}
-	manpower = 3959274
-	buildings_max_level_factor = 1.000
-	state_category = metropolis
-	local_supplies = 0.000
 }

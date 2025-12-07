@@ -1,18 +1,29 @@
 state = {
 	id = 2924
 	name = "STATE_2924"
+
+	manpower = 606599
+	state_category = town
+
+	resources = {
+		steel = 2
+	}
 	history = {
-		owner = OTC
-        add_core_of = OTC
+		owner = ZZZ # OST
+		# add_core_of = OST
+		victory_points = { 14566 5 }
+		victory_points = { 11312 3 }
+		victory_points = { 14568 1 }
+
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			offices = 1
 		}
+
+
 	}
+
 	provinces = {
-        732 18121
+		14568 11312 6281 14575 6407 3272 1245
 	}
-	manpower = 87721
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

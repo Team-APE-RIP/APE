@@ -2,17 +2,20 @@ state = {
 	id = 2780
 	name = "STATE_2780"
 	history = {
-		owner = RHN
-		add_core_of = RHN
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
+        victory_points = {
+            19153 5
+        }
 	}
 	provinces = {
-        15848 563 11547
+	    19153 19154
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

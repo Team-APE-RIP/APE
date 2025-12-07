@@ -1,22 +1,31 @@
-state = {
+state = { #Population Done
 	id = 2275
 	name = "STATE_2275"
 
+	state_category = metropolis
+
 	history = {
-		owner = ZZZ # INS
-		# add_core_of = INS
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 9523 50 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 7
+			thermoelectric_plant = 3
+			anti_air_building = 1
+			air_base = 2
+			schools = 1
+			offices = 1
+			hospitals = 1
 		}
-		victory_points = { 7440 1 }
-		# set_state_flag = GDP_regions_sumatra
+
+		# add_core_of = FRS
+		# add_claim_by = FFR
+
 	}
 
 	provinces = {
-		1648 7440 19324
+		9523
 	}
-	manpower = 111655
+	manpower = 2418543
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

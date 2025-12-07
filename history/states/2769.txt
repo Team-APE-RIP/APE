@@ -1,17 +1,29 @@
 state = {
 	id = 2769
 	name = "STATE_2769"
+	resources = {
+		rubber = 8
+	}
+
 	history = {
-		owner = BMN
-        add_core_of = BMN
+		owner = ZZZ
+		# add_claim_by = MLY
 		buildings = {
 			infrastructure = 3
+			12199 = {
+				naval_base = 1
+			}
 		}
+		victory_points = {
+			12199 5
+		}
+
 	}
+
 	provinces = {
-        3395 6377
+		12199 4355 19026
 	}
-	manpower = 87721
+	manpower = 321431
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

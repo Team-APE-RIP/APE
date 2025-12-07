@@ -3,32 +3,33 @@ state = {
 	name = "STATE_1295"
 
 	history = {
-		owner = ZZZ # ALB
-		victory_points = {
-			14448 5
-		}
-		victory_points = {
-			16194 1
-		}
+		owner = BEL
+		add_core_of = BEL
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
-			thermoelectric_plant = 1
-			16194 = {
-				naval_base = 1
-			}
-			air_base = 3
-			radar_station = 1
+			infrastructure = 6
+			hydroelectric_plant = 1
 			offices = 1
+			prisons = 1
 		}
-		# add_core_of = ALB
-		# set_state_flag = GDP_regions_albania
+		victory_points = {
+			6496 10
+		}
+		victory_points = {
+			3262 10
+		}
+		
+		victory_points = {
+			15983 3
+		}
+		# add_core_of = HOL
+
 	}
 
 	provinces = {
-		14448 16194
+		3262 6496
 	}
-	manpower = 383613
+	manpower = 2256734
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = city
+	local_supplies = 0.000
 }

@@ -1,28 +1,33 @@
 state = {
 	id = 1236
 	name = "STATE_1236"
+
 	history = {
-		owner = ZZZ # CUB
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 3
-			thermoelectric_plant = 1
-			schools = 1
+			infrastructure = 5
+			dockyard = 1
+			air_base = 5
 			offices = 1
-			prisons = 1
+			schools = 1
 			barracks = 1
+			thermoelectric_plant = 2
 		}
-		# add_core_of = CUB
-		victory_points = { # Mantanzas
-			10498 5
+		victory_points = {
+			7408 35
 		}
-		victory_points = { # Cienfuegos
-			7451 5
+		victory_points = {
+			19136 1
 		}
+		# add_core_of = THA
 	}
+
 	provinces = {
-		7451 10498 14440
+		7408 19090 19136
 	}
-	manpower = 1408542
+	manpower = 4259795
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = city
+	local_supplies = 0.000
 }

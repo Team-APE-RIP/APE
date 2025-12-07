@@ -1,26 +1,35 @@
 state = {
 	id = 1243
 	name = "STATE_1243"
+	resources = {
+		oil = 14
+		aluminium = 2
+	}
 
 	history = {
-		owner = ZZZ # TUR
-		victory_points = {
-			1606 5
-		}
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 2
+			12113 = {
+				naval_base = 1
+			}
 		}
-		# add_core_of = SYR
-		# add_core_of = TUR
-		# set_state_flag = state_renamings
-		# set_state_flag = GDP_regions_turkish_syria
+		victory_points = {
+			12113 1
+		}
+
+
 	}
 
 	provinces = {
-		1606 6883 16279 16280
+		12113 19213
 	}
-	manpower = 149253
+	manpower = 154001
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = tiny_island
 	local_supplies = 0.000
 }

@@ -1,24 +1,30 @@
 state = {
 	id = 2246
 	name = "STATE_2246"
-
 	resources = {
-		rubber = 2
+		steel = 12
 	}
 
 	history = {
-		owner = ELO
-		add_core_of = ELO
+		owner = ZZZ # TUR
+		victory_points = { 16207 8 }
+		victory_points = { 16209 8 }
+		victory_points = { 11811 2 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			prisons = 1
+			16207 = {
+				naval_base = 2
+			}
 		}
+
+		# add_core_of = TUR
 	}
 
 	provinces = {
-		4554 13211 7426
+		16207 16209 16258 16259 11811
 	}
-	manpower = 199432
+	manpower = 684126
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
+	state_category = town
 }

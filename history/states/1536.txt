@@ -1,23 +1,30 @@
 state = {
 	id = 1536
 	name = "STATE_1536"
-	manpower = 727
-
-	state_category = tiny_island
-
-	history = {
-		owner = ZZZ # CHL
-		buildings = {
-			infrastructure = 1
-			15105 = { naval_base = 1 }
-		}
-		# add_core_of = CHL
-
-		victory_points = { 15104 1 }
-		# set_state_flag = GDP_regions_magallanes
-	}
-
 	provinces = {
-		15104 15105
+		15948
 	}
+	resources = {
+		oil = 6.000
+	}
+	history = {
+		owner = ZZZ # MAD
+		# add_core_of = MAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			offices = 1
+			thermoelectric_plant = 1
+			15948 = {
+				naval_base = 3
+			}
+		}
+
+		victory_points = { 15948 10 }
+	}
+
+
+	manpower = 86142
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

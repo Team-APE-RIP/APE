@@ -1,27 +1,41 @@
 state = {
 	id = 2245
 	name = "STATE_2245"
-
 	resources = {
-		rubber = 4
+		rubber = 8
+		tungsten = 4
+		steel = 2
 	}
 
 	history = {
-		owner = ELO
-		add_core_of = ELO
+		owner = KTL
+		add_core_of = KTL
 		buildings = {
-			infrastructure = 2
+			thermoelectric_plant = 1
+			infrastructure = 5
+			radar_station = 1
+			air_base = 2
+			offices = 1
+			barracks = 1
+			12201 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
-			1563 1
+			12201 5
 		}
+		victory_points = {
+			1337 1
+		}
+		# add_core_of = THA
+
 	}
 
 	provinces = {
-		1374 1563 15099
+		1281 1337 1394 4312 12201 19033 19147
 	}
-	manpower = 153386
+	manpower = 1147941
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

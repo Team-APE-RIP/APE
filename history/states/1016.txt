@@ -1,34 +1,24 @@
 state = {
 	id = 1016
 	name = "STATE_1016"
-	resources = {
-		steel = 14.000
-	}
 
 	history = {
-		owner = SHX
-		add_core_of = SHX
-		add_core_of = SIC
+		owner = ZZZ # COL
 		buildings = {
-			offices = 1
-			barracks = 2
-			infrastructure = 5
-			thermoelectric_plant = 3
-			radar_station = 1
-			air_base = 4
+			infrastructure = 2
+			hospitals = 1
+			schools = 1
+			offices = 2
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 2
 		}
-		victory_points = {
-			12467 33
-		}
-		# set_variable = { china_state_ref = 23 }
-		# set_variable = { china_region_ref = 3 }
-		# set_variable = { china_city_ref = 1 }
 	}
 
 	provinces = {
-		12467 
+		14556 14557 6359 3309
 	}
-	manpower = 2573684
+	manpower = 671618
 	buildings_max_level_factor = 1.000
 	state_category = city
 	local_supplies = 0.000

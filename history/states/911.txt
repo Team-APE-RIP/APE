@@ -2,26 +2,45 @@ state = {
 	id = 911
 	name = "STATE_911"
 	resources = {
-		oil = 6.000
+		steel = 18.000
+		chromium = 17.000
+		tungsten = 12.000
+		oil = 3.000
 	}
 
 	history = {
-		owner = ZZZ # YEM
-		# add_core_of = YEM
+		owner = ZZZ # BRY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+		}
+		# add_core_of = BRY
+		victory_points = {
+			14459 10
 		}
 		victory_points = {
-			13428 1
+			8551 1
 		}
-		# set_state_flag = state_renamings
+		victory_points = {
+			4766 1
+		}
+		victory_points = {
+			1762 1
+		}
+		victory_points = {
+			10528 1
+		}
+
+		#Lack of GDP compared to others in the category
 	}
 
 	provinces = {
-		4924 13428 13430 18578
+		1762 1810 4766 4837 5808 7038 7751 7816 7835 7962 8549 8551 8624 8671 10528 10543 10658 13176 14458 14459
 	}
-	manpower = 214506
+	manpower = 602617
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

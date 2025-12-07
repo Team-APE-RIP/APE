@@ -1,28 +1,27 @@
 state = {
 	id = 2403
 	name = "STATE_2403"
+	resources = {
+		rubber = 2.000
+	}
 
 	history = {
-		owner = MEN
-		victory_points = {
-			1798 3
-		}
-		
-		victory_points = { 4858 5 }
-		
+		owner = ZZZ # IEA
+		# add_core_of = IEA
+		victory_points = { 5010 30 }
 		buildings = {
-			infrastructure = 2
+			barracks = 1
+			infrastructure = 4
+			radar_station = 1
+			air_base = 2
 		}
-		# set_state_flag = GDP_regions_outer_mongolia
-		# set_variable = { china_state_ref = 57 }
-		# set_variable = { china_region_ref = 7 }
+
 	}
 
 	provinces = {
-		1798 14663 19550 4858 4697 7864 10623 16624
+		5010
 	}
-	manpower = 330918
+	manpower = 532920
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = large_town
 }

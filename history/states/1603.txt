@@ -1,19 +1,35 @@
 state = {
 	id = 1603
 	name = "STATE_1603"
+
 	history = {
-		owner = ZZZ # ZZZ
-		victory_points = { 15181 5 }
+		owner = ZZZ # GER
+		# add_core_of = GER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			barracks = 1
+			offices = 1
+			air_base = 3
+			radar_station = 4
+			thermoelectric_plant = 1
+			9680 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
 		}
+
+		victory_points = { 705 10 }
+		victory_points = { 9680 5 }
+		victory_points = { 11649 5 }
+		victory_points = { 9677 3 }
+		victory_points = { 9718 2 }
+
 	}
 
 	provinces = {
-		15181
+		705 3722 6704 6724 9677 9680 9718 11649
 	}
-	manpower = 14
-	buildings_max_level_factor = 2.000
-	state_category = tiny_island
-	impassable = yes
+	manpower = 1241398
+	buildings_max_level_factor = 1.000
+	state_category = town
 }

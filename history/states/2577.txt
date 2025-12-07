@@ -1,27 +1,37 @@
 state = {
 	id = 2577
 	name = "STATE_2577"
+	manpower = 427167
+
+	state_category = city
+
+	resources = {
+		steel = 2
+		aluminium = 2
+	}
+
 	history = {
-		owner = BAD
-		add_core_of = BAD
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 13583 15 }
 		buildings = {
+			barracks = 1
 			infrastructure = 5
+			dockyard = 1
+			13583 = {
+				naval_base = 2
+			}
+			schools = 1
 		}
-        victory_points = {
-            694 2
-        }
-        victory_points = {
-            3679 5
-        }
-		victory_points = {
-            11640 10
-        }
+		# add_core_of = ITA
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+
+
+
 	}
+
 	provinces = {
-		694 3679 11640 6712 
+		13583 14639 13580
 	}
-	manpower = 1026811
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

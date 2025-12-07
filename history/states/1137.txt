@@ -1,33 +1,35 @@
 state = {
 	id = 1137
 	name = "STATE_1137"
-	resources = {
-		oil = 12.000
-	}
 
 	history = {
-		owner = ZZZ # ITA
+		owner = ZZZ # PER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			thermoelectric_plant = 1
 			air_base = 1
 		}
+		# add_core_of = PER
 		victory_points = {
-			12022 3
+			18804 10
 		}
 		victory_points = {
-			14391 1
+			4609 4
 		}
-		# add_core_of = LBA
-		# add_core_of = ITA
-		# set_state_flag = GDP_regions_libya
-		# set_state_flag = GDP_category_town
+		victory_points = {
+			4637 2
+		}
+		victory_points = {
+			15144 1
+		}
+
 	}
 
 	provinces = {
-		5004 12022 14355 14387 14391 17978
+		4609 4637 15144 18738 18744 18752 18759 18804 18812
 	}
-	manpower = 74415
+	manpower = 686701
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

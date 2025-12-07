@@ -1,27 +1,28 @@
 state = {
 	id = 1088
 	name = "STATE_1088"
+	resources = {
+		steel = 8.000
+	}
 
 	history = {
-		owner = ZZZ # GRO
-		# add_core_of = GRO
+		owner = MEN
+		victory_points = {
+			1859 3
+		}
+		
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# set_state_flag = universal_renamings
-		victory_points = {
-			13383 6
-		}
-		victory_points = {
-			13915 1
-		}
-		# set_state_flag = GDP_category_rural
+
+		# set_variable = { china_state_ref = 57 }
+		# set_variable = { china_region_ref = 7 }
 	}
 
 	provinces = {
-		13383 13393 13915
+		1859 19458 19482
 	}
-	manpower = 2618145
+	manpower = 209702
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

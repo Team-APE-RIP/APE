@@ -1,59 +1,20 @@
 state = {
 	id = 29
 	name = "STATE_29"
-	resources = {
-		steel = 28.000
-		aluminium = 5.000
-	}
 
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		victory_points = {
-			575 2
-		}
-		victory_points = {
-			11483 30
-		}
-		victory_points = {
-			18117 7
-		}
-		victory_points = {
-			11606 4
-		}
-		victory_points = {
-			18112 4
-		}
-		victory_points = {
-			18110 4
-		}
-		victory_points = {
-			18115 2
-		}
+		owner = ZZZ # AAN
 		buildings = {
-			hospitals = 1
-			barracks = 1
-			offices = 2
-			infrastructure = 6
-			air_base = 10
-			dockyard = 2
-			thermoelectric_plant = 3
-			575 = {
-				coastal_bunker = 3
-				naval_base = 1
-			}
+			infrastructure = 0
 		}
-		# add_core_of = BRG
-		# add_claim_by = FFR
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_large_city
 	}
+	impassable = yes
 
 	provinces = {
-		575 18115 11483 18110
+		16439 17767 17711 17624 17789 17570
 	}
-	manpower = 1873416
+	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = wasteland
 	local_supplies = 0.000
 }

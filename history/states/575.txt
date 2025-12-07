@@ -3,22 +3,28 @@ state = {
 	name = "STATE_575"
 
 	history = {
-		owner = ZZZ # NRL
-		# add_core_of = NRL
+		owner = ZZZ
+		#add_core_of = JAP
+
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			air_base = 4
+			barracks = 1
+			radar_station = 3
+			4289 = {
+				naval_base = 7
+			}
+			radar_station = 2
 		}
-		victory_points = {
-			4812 1
-		}
-		# set_state_flag = universal_renamings
+		victory_points = { 4289 1 }
+
 	}
 
 	provinces = {
-		1741 4703 4743 4812 5109 7805 10631 13341 13349
+		7409 7305 4317 12135 4289 7362 4329 7378 7349 7333 4346 12995 10231 10260 10248
 	}
-	manpower = 62494
+	manpower = 312523
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

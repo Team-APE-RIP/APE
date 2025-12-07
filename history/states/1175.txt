@@ -2,27 +2,28 @@ state = {
 	id = 1175
 	name = "STATE_1175"
 
-	resources = {
-		uranium = 2
-	}
-
 	history = {
-		owner = ZZZ # COG
-		# add_core_of = COG
-		# set_state_flag = universal_renamings
-
-		victory_points = { 13378 2 }
-
-		buildings = {
-			infrastructure = 1
-			air_base = 1
+		owner = ZZZ # EGY
+		victory_points = {
+			7011 50
 		}
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 2
+			radar_station = 2
+			air_base = 5
+			schools = 1
+			offices = 1
+		}
+		# add_core_of = EGY
+
 	}
 
 	provinces = {
-		13377 13378 13887 13906
+		7011
 	}
-	manpower = 1233879
+	manpower = 4065000
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_town
+	local_supplies = 0.000
 }

@@ -2,28 +2,35 @@ state = {
 	id = 1740
 	name = "STATE_1740"
 	resources = {
-		chromium = 8.000
+		steel = 13.000
 	}
 
 	history = {
-		owner = DRV
-		add_core_of = DRV
-		# add_core_of = VIN
-		# add_core_of = VIC
-		victory_points = {
-			1185 5
-		}
+		owner = MAN
+		# add_claim_by = MAN
+		# add_core_of = SOR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			radar_station = 1
+			air_base = 2
 		}
-		# set_state_flag = GDP_category_rural
+		victory_points = {
+			7801 5
+		}
+		victory_points = {
+			7672 5
+		}
+		set_resistance = 0
+		set_compliance = 100
+		# set_variable = { china_state_ref = 52 }
+		# set_variable = { china_region_ref = 6 }
 	}
 
 	provinces = {
-		1185 19085 19087
+		1802 1842 4246 4725 4779 4829 7616 7672 7748 7801 10655 10722 12654 12678 19455 
 	}
-	manpower = 2536794
+	manpower = 236674
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }

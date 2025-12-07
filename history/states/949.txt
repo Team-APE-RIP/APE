@@ -2,53 +2,34 @@ state = {
 	id = 949
 	name = "STATE_949"
 	resources = {
-		steel = 20.000
+		oil = 12
+		rubber = 8
 	}
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = ZZZ # INS
+		# add_core_of = INS
 		buildings = {
-			schools = 3
-			hospitals = 1
-			barracks = 1
-			offices = 3
-			infrastructure = 6
-			radar_station = 2
-			nuclear_reactor = 1
-			thermoelectric_plant = 3
-			hydroelectric_plant = 1
-			dockyard = 2
-			air_base = 10
-			6732 = {
-				naval_base = 8
-			}
+			infrastructure = 4
+			prisons = 1
 		}
-		victory_points = { # Boston
-			6732 30
+		victory_points = {
+			15660 5
 		}
-		victory_points = { # Worcester
-			715 10
+		victory_points = {
+			19207 5
 		}
-		victory_points = { # Springfield
-			3710 5
+		victory_points = {
+			19363 10
 		}
-		victory_points = { # Pittsfield
-			908 3
-		}
-		victory_points = { # Quincy
-			3906 3
-		}
-		victory_points = { # New Bedford
-			905 5
-		}
+
 	}
 
 	provinces = {
-		715 718 905 908 3710 3906 6732 17302
+		4406 15660 19207 19363
 	}
-	manpower = 5249000
+	manpower = 4077055
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	state_category = rural
 	local_supplies = 0.000
 }

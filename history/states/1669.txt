@@ -1,27 +1,17 @@
 state = {
 	id = 1669
 	name = "STATE_1669"
-	resources = {
-		tungsten = 10.000
-	}
-
 	history = {
-		owner = ZZZ # BOL
+		owner = CTB
+		add_core_of = CTB
 		buildings = {
-			infrastructure = 1
-			barracks = 1
+			infrastructure = 3
 		}
-		# add_core_of = BOL
-		victory_points = {
-			15336 8
-		}
-		# set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		10952 15335 15336 15338 17487 17488 17543
+        514 3514
 	}
-	manpower = 280900
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

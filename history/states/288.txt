@@ -2,41 +2,30 @@ state = {
 	id = 288
 	name = "STATE_288"
 	resources = {
-		rubber = 4.000
-		tungsten = 4.000
+		oil = 8.000
 	}
 
 	history = {
-		owner = ZZZ # BUR
-		# add_core_of = BUR
+		owner = CHI # GAN
+		# add_core_of = GAN
 		victory_points = {
-			1330 30
+			5025 1
 		}
 		victory_points = {
-			19118 1
+			19490 3
 		}
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			offices = 1
-			dockyard = 1
-			radar_station = 1
-			air_base = 1
-			synthetic_refinery = 1
-			barracks = 1
-			prisons = 1
-			schools = 1
-			19118 = {
-				naval_base = 4
-			}
+			infrastructure = 2
 		}
+		# set_variable = { china_state_ref = 40 }
+		# set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {
-		1330 10154 10267 12197 19118
+		5025 11735 16840 19518 19520 19490
 	}
-	manpower = 2628725
+	manpower = 1884596
 	buildings_max_level_factor = 1.000
-	state_category = large_town
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -1,18 +1,42 @@
 state = {
 	id = 2849
 	name = "STATE_2849"
+	resources = {
+		steel = 14
+	}
+
 	history = {
-		owner = FRA
-        add_core_of = FRA
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
-			infrastructure = 3
+			schools = 1
+			offices = 1
+			hospitals = 1
+			prisons = 1
+			barracks = 1
+			infrastructure = 5
+			thermoelectric_plant = 2
+			air_base = 4
 		}
+		victory_points = {
+			11913 41
+		}
+		victory_points = {
+			19892 4
+		}
+		victory_points = {
+			19895 4
+		}
+		# set_variable = { china_state_ref = 0 }
+		# set_variable = { china_region_ref = 0 }
+		# set_variable = { china_city_ref = 1 }
 	}
+
 	provinces = {
-        3506 3681
+		11913 19872 19895
 	}
-	manpower = 87721
+	manpower = 3481988
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = city
 	local_supplies = 0.000
 }

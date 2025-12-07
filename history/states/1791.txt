@@ -1,28 +1,28 @@
 state = {
 	id = 1791
 	name = "STATE_1791"
-	manpower = 144001
 
-	state_category = rural
+	resources = {
+		tungsten = 6
+	}
 
 	history = {
-		owner = ZZZ # SWE
-		# add_core_of = SWE
-		victory_points = { 11215 3 }
-		victory_points = { 11327 1 }
+		owner = ZZZ # SAF
+		# add_core_of = SAF
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
-			11215 = {
-				naval_base = 8
-				coastal_bunker = 3
-			}
-			thermoelectric_plant = 1
-			prisons = 1
 			barracks = 1
+			infrastructure = 2
+			1580 = {
+				bunker = 3
+			}
 		}
+		victory_points = { 1580 1 }
 	}
+
 	provinces = {
-		11327 11215
+		1580 13653 13654 13656 13660 13667 13668 13669 13673
 	}
+	manpower = 113287
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

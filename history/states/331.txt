@@ -1,39 +1,29 @@
 state = {
 	id = 331
 	name = "STATE_331"
-	manpower = 452716
-
-	state_category = small_island
+	resources = {
+		oil = 12
+	}
 
 	history = {
-		owner = ZZZ # CAN
+		owner = ZZZ # ALB
+		victory_points = { 3884 3 }
+		victory_points = { 14446 1 }
 		buildings = {
 			infrastructure = 4
-			radar_station = 3
-			air_base = 5
-			12505 = {
-				naval_base = 3
+			3884 = {
+				naval_base = 2
 			}
-			thermoelectric_plant = 1
-			prisons = 1
-			barracks = 1
-			offices = 1
 		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = CAN
-		victory_points = { # St. John
-			12505 10 # provincial capital
-		}
-		victory_points = { # Gander
-			7758 1
-		}
-		victory_points = { # Corner Brook
-			7788 1
-		}
-		# set_state_flag = GDP_regions_newfoundland
+		# add_core_of = ALB
+
+
 	}
 
 	provinces = {
-		7758 7788 12505 12680 12698
+		3884 11767 14446 3448
 	}
+	manpower = 497958
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

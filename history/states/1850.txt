@@ -1,26 +1,33 @@
 state = {
 	id = 1850
 	name = "STATE_1850"
-	manpower = 1398506
 
-	state_category = rural
+	state_category = pastoral
+
+	resources = {
+		oil = 16
+	}
 
 	history = {
-		owner = TAW
-		add_core_of = TAW
-		# set_state_flag = state_renamings
+		owner = ZZZ # BKU
+		# add_core_of = KUR
+		# add_core_of = BKU
+		# add_claim_by = IRQ
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 1
-			schools = 1
+			infrastructure = 3
+			anti_air_building = 1
+			radar_station = 1
 		}
-		victory_points = { 7214 10 }
-		# set_variable = { china_state_ref = 37 }
-		# set_variable = { china_region_ref = 4 }
-		# set_state_flag = GDP_regions_formosa
+		victory_points = { 3916 7 }
+		victory_points = { 16296 4 }
+		victory_points = { 15764 3 }
+
+
 	}
 
 	provinces = {
-		7214 15892 15889
+		14692 3916 15764 16291 16296
 	}
+	manpower = 336788
+	buildings_max_level_factor = 1.000
 }

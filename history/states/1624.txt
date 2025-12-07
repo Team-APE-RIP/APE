@@ -3,20 +3,23 @@ state = {
 	name = "STATE_1624"
 
 	history = {
-		owner = ZZZ # PAR
-		# add_core_of = PAR
-		# add_core_of = BOL
+		owner = ZZZ # CHL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# set_state_flag = state_renamings
+		# add_core_of = CHL
+		victory_points = {
+			14816 1
+		}
+
+
 	}
 
 	provinces = {
-		15356
+		14815 14816 14817
 	}
-	manpower = 2905
+	manpower = 103974
 	buildings_max_level_factor = 1.000
-	state_category = wasteland
+	state_category = pastoral
 	local_supplies = 0.000
 }

@@ -2,17 +2,16 @@ state = {
 	id = 2649
 	name = "STATE_2649"
 	history = {
-		owner = KCJ
-		add_core_of = KCJ
-		add_core_of = KCD
+		owner = ITF
+        add_core_of = ITF
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 	provinces = {
-	    4359 19131
+        910 14651
 	}
-	manpower = 1087721
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

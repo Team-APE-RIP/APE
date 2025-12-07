@@ -1,28 +1,27 @@
 state = {
 	id = 301
 	name = "STATE_301"
-	manpower = 163478
-
-	state_category = rural
 
 	history = {
-		owner = ZZZ # PAR
-		# add_core_of = PAR
-		victory_points = { 15265 7 }
-		buildings = {
-			infrastructure = 3
-			air_base = 3
-			barracks = 1
-			schools = 1
-			offices = 1
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
+		victory_points = {
+			6499 1
 		}
-		# set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 5
+			schools = 1
+		}
 
-		# set_state_flag = PAR_bush_war_state
+
 	}
 
 	provinces = {
-		15266 15265
+		6499 15814
 	}
-
+	manpower = 287876
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

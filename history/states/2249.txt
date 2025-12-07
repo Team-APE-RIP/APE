@@ -1,25 +1,17 @@
 state = {
 	id = 2249
 	name = "STATE_2249"
-
-	resources = {
-		rubber = 12
-	}
-
 	history = {
-		owner = KCD
-		add_core_of = KCD
+		owner = ITA
+        add_core_of = ITA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		# set_state_flag = GDP_category_rural
-		victory_points = { 1324 5 }
 	}
-
 	provinces = {
-		1324 12475 4639
+        15192
 	}
-	manpower = 452039
+	manpower = 87721
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

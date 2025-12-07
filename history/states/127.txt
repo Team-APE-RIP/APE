@@ -1,35 +1,20 @@
 state = {
 	id = 127
-	name = "STATE_127" # Sussex
-	manpower = 2230825
-	state_category = city
+	name = "STATE_127"
 
 	history = {
-		owner = ZZZ # ENG
-
-		victory_points = {
-			16330 10
-		}
-		victory_points = {
-			16329 6
-		}
-
+		owner = ZZZ # PRU
 		buildings = {
-			infrastructure = 5
-			thermoelectric_plant = 2
-			dockyard = 1
-			barracks = 2
-			offices = 1
-			schools = 2
-			prisons = 1
-			hospitals = 2
-			anti_air_building = 2
-			air_base = 3
+			infrastructure = 1
 		}
-		# add_core_of = ENG
+		# add_core_of = PRU
 	}
 
 	provinces = {
-		507 11446 16329 16330
+		2212 2226 8160 15470 15477 15482 15573 17446
 	}
+	manpower = 90223
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
 }

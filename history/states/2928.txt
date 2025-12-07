@@ -2,19 +2,16 @@ state = {
 	id = 2928
 	name = "STATE_2928"
 	history = {
-		owner = ITB
-        add_core_of = ITB
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		victory_points = { 13585 5 }
-		victory_points = { 13586 1 }
-		victory_points = { 14637 7 }
 	}
 	provinces = {
-        14637 13586 13585
+		7693 4823 4751
 	}
-	manpower = 87721
+	manpower = 1026811
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

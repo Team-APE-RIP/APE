@@ -1,31 +1,26 @@
-state = { #Population Done
+state = {
 	id = 61
 	name = "STATE_61"
-	manpower = 1051694
-
-
-	state_category = city
 
 	history = {
-		owner = MLB
-		add_core_of = MLB
-		victory_points = { 321 10 }
-		victory_points = { 11305 3 }
-		victory_points = { 293 3 }
-		victory_points = { 3258 2 }
+		owner = ZZZ # GER
+		# add_core_of = GER
+		victory_points = {
+			21 5
+		}
 		buildings = {
-			offices = 1
-			barracks = 1
 			infrastructure = 5
-			thermoelectric_plant = 2
-			321 = {
+			offices = 1
+			air_base = 1
+			21 = {
 				naval_base = 6
+				coastal_bunker = 4
 			}
 		}
-		# add_core_of = GER
 	}
 
-	provinces = {
-		321 11305 
-	}
+	provinces = { 21 }
+	manpower = 34126
+	buildings_max_level_factor = 1.000
+	state_category = enclave
 }

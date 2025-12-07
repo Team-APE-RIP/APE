@@ -2,21 +2,28 @@ state = {
 	id = 1394
 	name = "STATE_1394"
 
-	manpower = 342044
-	state_category = pastoral
+	resources = {
+		oil = 12
+	}
 
 	history = {
-		owner = ZZZ # GGN
-		# add_core_of = GGN
-		# add_core_of = POL
-		victory_points = { 491 1 }
-		buildings = {
-			infrastructure = 4
+		owner = ZZZ # GUL
+		# add_core_of = UAE
+		# add_core_of = GUL
+		victory_points = {
+			10904 1
 		}
-		# set_state_flag = universal_renamings
+		buildings = {
+			infrastructure = 3
+		}
+
 	}
 
 	provinces = {
-		491 11427
+		10904
 	}
+	manpower = 24707
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

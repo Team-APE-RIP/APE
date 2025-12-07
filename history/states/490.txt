@@ -3,17 +3,18 @@ state = {
 	name = "STATE_490"
 
 	history = {
-		owner = ZZZ # PRU
+		owner = IRL
+		add_core_of = IRL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# add_core_of = PRU
+		# add_core_of = IRE
 	}
 
 	provinces = {
-		15465 15466 15576
+		11238 18610
 	}
-	manpower = 129003
+	manpower = 59217
 	buildings_max_level_factor = 1.000
 	state_category = wasteland
 	local_supplies = 0.000

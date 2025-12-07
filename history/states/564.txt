@@ -1,46 +1,34 @@
 state = {
 	id = 564
 	name = "STATE_564"
-	resources = {
-		steel = 18.000
-		chromium = 17.000
-		tungsten = 12.000
-		oil = 3.000
-	}
 
 	history = {
-		owner = ZZZ # BRY
+		owner = ZZZ # FIJ
+		# add_core_of = FIJ
 		buildings = {
-			infrastructure = 2
-			thermoelectric_plant = 1
+			infrastructure = 3
 			offices = 1
-			schools = 1
+			barracks = 2
+			radar_station = 5
+			air_base = 4
+			4286 = {
+				naval_base = 3
+			}
 		}
-		# add_core_of = BRY
+		add_extra_state_shared_building_slots = 1
 		victory_points = {
-			14459 10
-		}
-		victory_points = {
-			8551 1
-		}
-		victory_points = {
-			4766 1
-		}
-		victory_points = {
-			1762 1
+			4286 5
 		}
 		victory_points = {
-			10528 1
+			7302 1
 		}
-		# set_state_flag = GDP_category_town
-		#Lack of GDP compared to others in the category
 	}
 
 	provinces = {
-		1762 1810 4766 4837 5808 7038 7751 7816 7835 7962 8549 8551 8624 8671 10528 10543 10658 13176 14458 14459
+		3428 4286 7302 12159
 	}
-	manpower = 602617
+	manpower = 180000
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = small_island
 	local_supplies = 0.000
 }

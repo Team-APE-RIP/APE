@@ -1,32 +1,24 @@
 state = {
 	id = 257
 	name = "STATE_257"
-	resources = {
-		power = 2.000
-	}
 
 	history = {
-		owner = ZZZ # OST
+		owner = IRN
+		add_core_of = IRN
 		victory_points = {
-			11234 5
-		}
-		victory_points = {
-			9242 1
+			385 1
 		}
 		buildings = {
-			infrastructure = 4
-			offices = 1
+			infrastructure = 3
 		}
-		# add_core_of = OST
-		# set_state_flag = GDP_regions_luki
-		# set_state_flag = universal_renamings
+		# add_core_of = IRE
 	}
 
 	provinces = {
-		207 248 320 9242 9254 9331 11234 11304 18255 18288
+		385 18599
 	}
-	manpower = 227384
+	manpower = 185450
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

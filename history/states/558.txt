@@ -1,26 +1,33 @@
 state = {
 	id = 558
 	name = "STATE_558"
-	resources = {
-		rubber = 3.000
-	}
 
 	history = {
-		owner = ZZZ # CAO
-		# add_core_of = CAO
+		owner = ZZZ # TUR
 		victory_points = {
-			14118 1
+			8435 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			barracks = 1
+			8435 = {
+				naval_base = 1
+			}
+			6550 = {
+				naval_base = 1
+			}
 		}
+		# add_core_of = TUR
+		# add_core_of = GRE
+
+
 	}
 
 	provinces = {
-		3619 4938 4972 5028 14118 14120 14168 14543 15905 17964
+		4171 6550 8435 15579 16263
 	}
-	manpower = 1801760
+	manpower = 154308
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = small_island
 	local_supplies = 0.000
 }

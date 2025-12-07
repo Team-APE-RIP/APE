@@ -1,27 +1,38 @@
 state = {
 	id = 2568
 	name = "STATE_2568"
+	resources = {
+		steel = 1.000
+	}
+
 	history = {
-		owner = CHI
-		# add_core_of = ZZZ
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			hydroelectric_plant = 2
+			offices = 1
+			hospitals = 1
+			schools = 1
 		}
-        victory_points = {
-            12156 1
-        }
-        victory_points = {
-            5007 3
-        }
-        victory_points = {
-            16864 1
-        }
+		# add_core_of = FRS
+		# add_claim_by = FFR
+		victory_points = {
+			3771 2
+		}
+		victory_points = {
+			620 10
+		}
+		victory_points = {
+			3751 1
+		}
 	}
+
 	provinces = {
-		12156 16836 5007 16864 19515
+		620 625 
 	}
-	manpower = 1026811
+	manpower = 736323
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

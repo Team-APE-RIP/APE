@@ -1,25 +1,31 @@
 state = {
 	id = 1688
 	name = "STATE_1688"
-
-	history = {
-		owner = ZZZ # PRU
-		buildings = {
-			schools = 1
-			prisons = 2
-			infrastructure = 2
-		}
-		# add_core_of = PRU
-		victory_points = {
-			15505 6
-		}
-	}
-
 	provinces = {
-		2162 15481 15486 15505 15572
+		4245
 	}
-	manpower = 546662
+	resources = {
+		steel = 13
+	}
+	history = {
+		owner = ZZZ # AZH
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 2
+			air_base = 3
+			offices = 2
+			prisons = 1
+			barracks = 1
+			hospitals = 1
+			schools = 1
+		}
+		# add_core_of = AZH
+		# add_claim_by = IND
+		victory_points = { 4245 50 }
+
+
+	}
+	manpower = 6052152
 	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	state_category = city
 }

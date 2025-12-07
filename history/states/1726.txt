@@ -1,21 +1,33 @@
-state = {
+state = { #Population Done
 	id = 1726
 	name = "STATE_1726"
+	manpower = 53199
+
+	resources = {
+		oil = 16
+	}
+
+	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # CRO
-		# add_core_of = CRO
+		owner = ZZZ # SUR
+		victory_points = { 153 1 }
 		buildings = {
 			infrastructure = 3
+			thermoelectric_plant = 1
+			barracks = 1
+			radar_station = 3
+			air_base = 6
+			153 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}
 		}
-		# set_state_flag = GDP_regions_bosnia
-		# set_state_flag = GDP_category_rural
+
+		# add_core_of = SUR
 	}
 
 	provinces = {
-		982 11741 14665 14681 953
+		153
 	}
-	manpower = 140520
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
 }

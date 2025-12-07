@@ -1,32 +1,45 @@
 state = {
 	id = 1256
 	name = "STATE_1256"
-	resources = {
-		oil = 75.000
-	}
 
 	history = {
-		owner = ZZZ # VEN
-		buildings = {
-			offices = 1
-			barracks = 3
-			prisons = 3
-			thermoelectric_plant = 1
-			infrastructure = 3
-		}
-		add_extra_state_shared_building_slots = 2
-		# add_core_of = VEN
+		owner = BEL
+		add_core_of = BEL
 		victory_points = {
-			10761 10
+			3516 8
 		}
-		# set_state_flag = GDP_regions_sucre
+		victory_points = {
+			9536 8
+		}
+		victory_points = {
+			11519 10
+		}
+		victory_points = {
+			13081 15
+		}
+		victory_points = {
+			6537 6
+		}
+		buildings = {
+			offices = 2
+			barracks = 2
+			schools = 2
+			prisons = 1
+			hospitals = 1
+			radar_station = 2
+			thermoelectric_plant = 3
+			infrastructure = 5
+			air_base = 1
+		}
+		# add_core_of = BRG
+
 	}
 
 	provinces = {
-		8080 10761 14437 17394
+		11519 13081 3516
 	}
-	manpower = 440087
+	manpower = 3825624
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = city
 	local_supplies = 0.000
 }

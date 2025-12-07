@@ -1,45 +1,33 @@
 state = {
 	id = 995
 	name = "STATE_995"
-	resources = {
-		tungsten = 14.000
-	}
 
 	history = {
-		owner = EPA
-		add_core_of = EPA
-		victory_points = {
-			11825 10
-		}
-		victory_points = {
-			11854 8
-		}
-		victory_points = {
-			9872 4
-		}
-		victory_points = {
-			3820 3
-		}
-		victory_points = {
-			738 2
-		}
-		victory_points = {
-			9870 1
-		}
-		# add_core_of = IBR
+		owner = ZZZ # UPH
 		buildings = {
-			barracks = 1
-			infrastructure = 5
+			infrastructure = 4
 			thermoelectric_plant = 1
+			barracks = 1
+			air_base = 1
+			schools = 1 
+			prisons = 1
+			4241 = {
+				naval_base = 4
+			}
 		}
-		# set_state_flag = GDP_category_large_town
+		victory_points = { 7445 3 }
+		victory_points = { 4241 20 }
+		# add_core_of = UPH
+		# add_core_of = PHI
+		# add_core_of = SPH
+
 	}
 
 	provinces = {
-		11825 918 6936 4024
+		1407 4241 7445 10328 14734 14735 19380
 	}
-	manpower = 1193925
+	manpower = 1004821
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = large_town
 	local_supplies = 0.000
 }

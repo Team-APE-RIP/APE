@@ -3,44 +3,34 @@ state = {
 	name = "STATE_2196"
 
 	history = {
-		owner = ZZZ # KYR
+		owner = ZZZ # USA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			schools = 1
-			barracks = 1
+			infrastructure = 4
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
 		}
-		victory_points = {
-			18622 10
+		# add_core_of = USA
+		victory_points = { # Omaha
+			12586 15
 		}
-		victory_points = {
-			10488 10
+		victory_points = { # Lincoln
+			10676 5
 		}
-		victory_points = {
-			10530 8
+		victory_points = { # Grand Island
+			7852 3
 		}
-		victory_points = {
-			13256 10
+		victory_points = { # North Platte
+			4760 1
 		}
-		victory_points = {
-			18643 5
+		victory_points = { # Scottsbluff
+			4749 1
 		}
-		victory_points = {
-			18668 6
-		}
-		victory_points = {
-			18617 2
-		}
-		# add_core_of = UZB
-		# set_state_flag = GDP_category_town
-		# set_state_flag = state_renamings
 	}
 
 	provinces = {
-		18668 10187 18694 18643 18617 18622 13256 10530 10488
+		1683 3613 3855 4749 7840 7852 12516 12586 3708 4760 4830 10606 10676
 	}
-	manpower = 2795206
+	manpower = 1527890
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	state_category = town
 }

@@ -1,37 +1,35 @@
 state = {
 	id = 454
 	name = "STATE_454"
+	resources = {
+		oil = 4
+	}
 
 	history = {
-		owner = ZZZ # IME
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
-			infrastructure = 4
-			dockyard = 1
-			barracks = 1
-			offices = 1
-			thermoelectric_plant = 1
-			4206 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		victory_points = {
-			1201 15
-		}
-		victory_points = {
-			4206 10
-		}
-		victory_points = {
-			18585 1
-		}
-		# add_core_of = IME
-		# set_state_flag = universal_renamings
+        victory_points = {
+            12767 3
+        }
+        victory_points = {
+            19718 1
+        }
+		add_extra_state_shared_building_slots = 1
+		# set_demilitarized_zone = yes
+
+		# set_variable = { china_state_ref = 17 }
+		# set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {
-		1201 4206 18585
+		1367 10132 2045 12767 19718 19682 
 	}
-	manpower = 886528
-	buildings_max_level_factor = 1.000
-	state_category = large_town
+	manpower = 5738247
+	buildings_max_level_factor = 2.000
+	state_category = pastoral
 	local_supplies = 0.000
 }

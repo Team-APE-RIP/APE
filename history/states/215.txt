@@ -2,42 +2,39 @@ state = {
 	id = 215
 	name = "STATE_215"
 	resources = {
-		steel = 18.000
+		rubber = 44
+		oil = 26
 	}
 
 	history = {
-		owner = ZZZ # FIN
-		victory_points = {
-			9195 3
-		}
-		victory_points = {
-			9045 1
-		}
-		victory_points = {
-			3121 1
-		}
+		owner = ZZZ # SHO
 		buildings = {
 			infrastructure = 4
-			barracks = 2
-			hospitals = 1
-			anti_air_building = 2
-			11212 = { bunker = 3 }
-			11175 = { bunker = 3 }
-			6021 = { bunker = 3 }
-			94 = { bunker = 3 }
+			radar_station = 2
+			10297 = {
+				naval_base = 4
+				coastal_bunker = 3
+			}
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+			prisons = 1
+			air_base = 4
 		}
-		add_extra_state_shared_building_slots = 1
-		# add_core_of = FIN
-		# set_state_flag = GDP_regions_karelia
-		# set_state_flag = universal_renamings
-		# set_state_flag = GDP_category_rural
+		victory_points = {
+			10297 5
+		}
+		victory_points = { 14696 15 }
+		# add_core_of = SHO
+		# add_core_of = MLY
+
 	}
 
 	provinces = {
-		3 15 86 94 170 176 3008 3078 3121 3189 6021 6029 6090 6096 6159 9045 9055 9162 9195 11045 11094 11175 11212 18443
+		4412 10297 19103 14696 19341
 	}
-	manpower = 105698
+	manpower = 1180413
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 	local_supplies = 0.000
 }

@@ -3,38 +3,26 @@ state = {
 	name = "STATE_1794"
 
 	history = {
-		owner = ZZZ # SWE
-		# add_core_of = SWE
-		victory_points = {
-			11082 2
-		}
-		victory_points = {
-			11188 5
-		}
-		victory_points = {
-			9109 1
-		}
+		owner = ZZZ # ITA
+		victory_points = { 1106 2 }
+		victory_points = { 10203 1 }
 		buildings = {
-			infrastructure = 5
-			11082 = {
-				naval_base = 1
-				coastal_bunker = 1
+			barracks = 2
+			radar_station = 3
+			infrastructure = 4
+			1106 = {
+				naval_base = 5
 			}
-			18359 = {
-				bunker = 1
-			}
-			hospitals = 2
-			barracks = 1
-			offices = 1
-			thermoelectric_plant = 1
 		}
+		# add_core_of = GRE
+		# add_core_of = ITA
+
 	}
 
 	provinces = {
-		9109 11082 11188 13097 13098 18359
+		1106 10203
 	}
-	manpower = 228354
+	manpower = 116610
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = small_island
 }
