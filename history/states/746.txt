@@ -8,7 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # ENG
+		owner = BTA
+		add_core_of = BTA
 		victory_points = { 9484 7 }
 		victory_points = {
 			3463 3
@@ -23,7 +24,7 @@ state = {
 		# add_core_of = ENG
 	}
 	provinces = {
-		3422 3463 9484 16324
+		3422 16324
 	}
 	manpower = 879502
 	buildings_max_level_factor = 2.000

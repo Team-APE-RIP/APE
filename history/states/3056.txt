@@ -1,0 +1,18 @@
+state = {
+	id = 3056
+	name = "STATE_3056"
+	history = {
+		owner = BTA
+		add_core_of = BTA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        311
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

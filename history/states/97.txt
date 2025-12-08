@@ -3,7 +3,8 @@ state = {
 	name = "STATE_97"
 
 	history = {
-		owner = ZZZ # ENG
+		owner = BTA
+		add_core_of = BTA
 		buildings = {
 			infrastructure = 4
 		}
@@ -16,7 +17,7 @@ state = {
 	}
 
 	provinces = {
-		11361 16338 3274 311 16361 253
+		16338
 	}
 	manpower = 473661
 	buildings_max_level_factor = 1.000

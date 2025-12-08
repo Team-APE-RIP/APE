@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2562"
 
 	history = {
-		owner = ZZZ # ENG
+		owner = BTA
+		add_core_of = BTA
 		buildings = {
 			infrastructure = 7
 			thermoelectric_plant = 4

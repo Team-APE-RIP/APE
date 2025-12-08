@@ -7,7 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # ENG
+		owner = BTA
+		add_core_of = BTA
 		victory_points = { 11279 15 }
 		victory_points = { 9268 10 }
 		victory_points = { 16335 3 }

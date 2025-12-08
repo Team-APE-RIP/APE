@@ -2,10 +2,12 @@ state = {
 	id = 2437
 	name = "STATE_2437"
 	provinces = {
-		16326 16328 6489 9458 16327
+		16326 16328 6489 9458
 	}
 	history = {
-		owner = ZZZ # ENG
+		owner = BTA
+		add_core_of = BTA
+		add_core_of = BTA
 		buildings = {
 			infrastructure = 6
 			thermoelectric_plant = 3

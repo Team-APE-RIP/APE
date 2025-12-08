@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # ENG
+		owner = BTA
+		add_core_of = BTA
 		buildings = {
 			barracks = 1
 			schools = 1
