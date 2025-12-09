@@ -237,7 +237,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1393;7259;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
 11106;13012;impassable;-1;3325;2559;3326;2559;;WIF name placement
 1002;13047;impassable;-1;3325;2559;3326;2559;;Wake-Marshalls thing
-6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
 591;18177;sea;6973;-1;-1;-1;-1;;adriatic islands
 13278;14660;sea;6973;-1;-1;-1;-1;;adriatic islands
 13278;18003;sea;6973;-1;-1;-1;-1;;adriatic islands
@@ -436,7 +435,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11833;15192;sea;5579;-1;-1;-1;-1;;elba link
 3864;13241;sea;7452;-1;-1;-1;-1;;euboea nw
 18138;3326;sea;20015;-1;-1;-1;-1;;BMN
-6300;16374;sea;2942;-1;-1;-1;-1;;firth of forth
 10219;12151;sea;5414;-1;-1;-1;-1;;flores-south maluku
 11804;13580;impassable;-1;3325;2559;3326;2559;;france name placement
 10035;12010;sea;5873;-1;-1;-1;-1;;ganges delta

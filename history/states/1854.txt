@@ -20,16 +20,13 @@ state = {
 			9392 = {
 				naval_base = 1
 			}
-			16352 = {
-				naval_base = 4
-			}
 		}
 		# add_core_of = ENG
 
 	}
 
 	provinces = {
-		9392 16352 16374
+		9392
 	}
 	manpower = 897770
 	buildings_max_level_factor = 1.000

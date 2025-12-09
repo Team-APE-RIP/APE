@@ -12,3 +12,15 @@ music = {
 	    modifier = { factor = 0 }
 	}
 }
+music = {
+    song =  "APEMainTheme_3" # Chanson du Peuple - France
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}
+music = {
+    song =  "APEMainTheme_4" # Llamas contra Sombras - ibérico
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}

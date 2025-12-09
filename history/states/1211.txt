@@ -22,7 +22,7 @@ state = {
 		# add_core_of = ENG
 	}
 	provinces = {
-		6237 11382 16358
+		6237 16358
 	}
 	manpower = 1698085
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,21 @@
+state = {
+	id = 3091
+	name = "STATE_3091"
+	history = {
+		owner = BTA
+		add_core_of = BTA
+		buildings = {
+			infrastructure = 3
+			16352 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces = {
+        16352
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

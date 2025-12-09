@@ -8,6 +8,8 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup51 = 100
 }
+#fuckParadox
+set_variable = { APEMainThemeID = 4 } # APEMainTheme - Llamas contra Sombras
 declare_war_on = {
     target = PGS
     type = revivalWar_IPDPGS_wargoal_focus

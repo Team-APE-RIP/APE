@@ -8,3 +8,5 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup48 = 100
 }
+#fuckParadox
+set_variable = { APEMainThemeID = 4 } # APEMainTheme - Llamas contra Sombras
