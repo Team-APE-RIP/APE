@@ -1,0 +1,60 @@
+APE_refresh_decisions = {
+    set_variable = { ROOT.APE_category_num = -1 }
+	set_variable = { ROOT.APE_decision_num = 0 }
+    for_each_loop = {
+	    array = ROOT.APE_category
+		value = value
+		index = index
+		if = {
+			limit = {
+			    check_variable = {
+				    value = 1
+				}
+			}
+			add_to_variable = {
+			    ROOT.APE_category_num = 1
+			}
+		}
+		set_variable = {
+		    ROOT.APE_category_y^index = ROOT.APE_category_num
+		}
+		multiply_variable = {
+		    ROOT.APE_category_y^index = 50
+		}
+		meta_effect = {
+			text = {
+				add_to_variable = {
+		            ROOT.APE_decision_num = ROOT.APE_decision_[GetAPEDecisionCategoryIndex]^num
+		        }
+			}
+			GetAPEDecisionCategoryIndex = "[?index]"
+		}
+		set_variable = {
+		    ROOT.APE_decision_height = 40
+		}
+		multiply_variable = {
+		    ROOT.APE_decision_height = ROOT.APE_decision_num
+		}
+		add_to_variable = {
+		    ROOT.APE_category_y^index = ROOT.APE_decision_height
+		}
+		set_variable = { ROOT.APE_category_y_1^index = ROOT.APE_category_y^index }
+		set_variable = { ROOT.APE_category_y_2^index = ROOT.APE_category_y^index }
+		set_variable = { ROOT.APE_category_y_3^index = ROOT.APE_category_y^index }
+		set_variable = { ROOT.APE_category_y_4^index = ROOT.APE_category_y^index }
+		add_to_variable = {
+		    ROOT.APE_category_y_1^index = 58
+		}
+		add_to_variable = {
+		    ROOT.APE_category_y_2^index = 8
+		}
+		add_to_variable = {
+		    ROOT.APE_category_y_3^index = 16
+		}
+		add_to_variable = {
+		    ROOT.APE_category_y_4^index = 26
+		}
+	}
+	clear_variable = ROOT.APE_decision_num
+	clear_variable = ROOT.APE_category_num
+}

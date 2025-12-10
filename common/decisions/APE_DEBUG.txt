@@ -30,7 +30,46 @@ DEBUG_FOCUS_decisions = {
 		complete_effect = {hidden_effect = {clr_country_flag = QFK_completed_QFK_01_FS_05 mark_focus_tree_layout_dirty = yes}}
 	}
 	
-	TESTAAAA = { icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no complete_effect = {set_variable={AAAA=-2147483648.99999}}}
+	TEST_ini = {
+	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
+		complete_effect = {
+		    clear_array = ROOT.APE_category
+	        add_to_array = {
+		        ROOT.APE_category = 1
+		    }
+			add_to_array = {
+		        ROOT.APE_category = 1
+		    }
+			APE_refresh_decisions = yes
+		}
+	}
+	TEST_1 = {
+	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
+		complete_effect = {
+	        add_to_array = {
+		        ROOT.APE_decision_category_0 = 1
+		    }
+			APE_refresh_decisions = yes
+		}
+	}
+	TEST_2 = {
+	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
+		complete_effect = {
+	        add_to_array = {
+		        ROOT.APE_decision_category_0 = 2
+		    }
+			APE_refresh_decisions = yes
+		}
+	}
+	TEST_3 = {
+	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
+		complete_effect = {
+	        add_to_array = {
+		        ROOT.APE_decision_category_1 = 1
+		    }
+			APE_refresh_decisions = yes
+		}
+	}
 }
 
 DEBUG_EVENT_decisions = {

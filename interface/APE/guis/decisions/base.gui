@@ -1,0 +1,185 @@
+guiTypes = {
+    containerWindowType = {
+        name = "decision_view"
+        position = { x = 0 y = 0 }
+        size = { width = 550 height = 800 }
+		clipping = yes
+		Orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window2_1b_border"
+		}
+		iconType = {
+			name ="APE_production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}	
+		instantTextboxType = {
+			name = "APE_decisionview_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "DECISIONVIEW_TITLE"
+			maxWidth = 440
+			maxHeight = 20
+			format = left	
+		}			
+		buttonType = {
+			name = "APE_decision_close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		containerWindowType = {
+			name = "APE_decision_grid_container"
+			position = {x=5 y=37}
+			size = {width=-1 height=-10 }
+			Orientation = upper_left
+			verticalScrollbar = "right_vertical_slider"
+			vertical_scroll_step = 41
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+			    gridboxtype = {
+					name = "APE_decision_category_grid_0"
+					position = { x = 9 y = 58 }
+					size = { width = 502 height = 100%% }
+					slotsize = { width=502 height=40 }
+					max_slots_horizontal = 1
+				}
+				buttonType = {
+					name = "APE_decision_icon_header_bg_0"
+					position = {x=5 y=8}
+					spriteType = "GFX_category_header_bg"
+					clicksound = decisions_ui_tab
+				}
+	    		iconType = {
+					name = "APE_decision_category_icon_0"
+					position = {x=19 y=16}
+					spriteType = "GFX_decision_category_generic"
+				}
+				instantTextboxType = {
+					name = "APE_decision_category_name_text_0"
+					position = { x = 83 y = 26 }
+					textureFile = ""
+	    			font = "hoi_20b"
+					borderSize = { x = 0 y = 0 }
+					text = "APE_DECISION_TITLE_0"
+					maxWidth = 365
+					maxHeight = 40
+					format = center
+		    		fixedsize=yes
+				}
+				buttonType = {
+					name = "APE_decision_category_track_decisions_checkbox_0"
+					position = { x = 456 y = 26 }
+					quadTextureSprite = "GFX_checkbox_small5"
+					clicksound = decisions_ui_button
+					frame = 2
+				}
+				gridboxtype = {
+					name = "APE_decision_category_grid_1"
+					position = { x = 9 y = 58 }
+					size = { width = 502 height = 100%% }
+					slotsize = { width=502 height=40 }
+					max_slots_horizontal = 1
+				}
+				buttonType = {
+					name = "APE_decision_icon_header_bg_1"
+					position = {x=5 y=8}
+					spriteType = "GFX_category_header_bg"
+					clicksound = decisions_ui_tab
+				}
+	    		iconType = {
+					name = "APE_decision_category_icon_1"
+					position = {x=19 y=16}
+					spriteType = "GFX_decision_category_generic"
+				}
+				instantTextboxType = {
+					name = "APE_decision_category_name_text_1"
+					position = { x = 83 y = 26 }
+					textureFile = ""
+	    			font = "hoi_20b"
+					borderSize = { x = 0 y = 0 }
+					text = "APE_DECISION_TITLE_1"
+					maxWidth = 365
+					maxHeight = 40
+					format = center
+		    		fixedsize=yes
+				}
+				buttonType = {
+					name = "APE_decision_category_track_decisions_checkbox_1"
+					position = { x = 456 y = 26 }
+					quadTextureSprite = "GFX_checkbox_small5"
+					clicksound = decisions_ui_button
+					frame = 2
+				}
+		}
+    }
+	containerWindowType = {
+		name = "APE_decision_item"
+		position = { x=0 y=0 }
+		size = { width=100% height=41 }
+		clipping = no
+		iconType = {
+			name = "APE_decision_btn_bg"
+			position = {x=0 y=0}
+			spriteType = "GFX_decision_item_bg"
+		}
+		iconType = {
+			name = "APE_decision_icon"
+			position = {x=30 y=19}
+			spriteType = "GFX_decision_unknown"
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "APE_decision_name_text"
+			position = { x = 63 y = 2 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "APE_DECISION_TEXT_[?APE_decision_value]"
+			maxWidth = 330
+			maxHeight = 32
+			format = left
+			vertical_alignment = center
+		}
+		instantTextboxType = {
+			name = "APE_decision_cost_and_timer_text"
+			position = { x = 112 y = 9 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "APE_DECISION_COST_[?APE_decision_value]"
+			maxWidth = 320
+			maxHeight = 32
+			format = right
+		}
+		buttonType = {
+			name = "APE_decision_track_decision_checkbox"
+			position = { x = 437 y = 7 }
+			quadTextureSprite = "GFX_checkbox_small4"
+			clicksound = decisions_ui_button
+			frame = 2
+		}
+		buttonType = {
+			name = "APE_decision_btn_select"
+			position = {x=465 y=6}
+			spriteType = "GFX_decision_select_icon_strip"
+			clicksound = decisions_ui_checkbox
+			frame = 2
+		}
+	}
+}
