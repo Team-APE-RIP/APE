@@ -5,8 +5,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # IBR
-		# add_core_of = IBR
+		owner = BTA
+		add_core_of = EPA
 		victory_points = { 15113 2 }
 		buildings = {
 			infrastructure = 5

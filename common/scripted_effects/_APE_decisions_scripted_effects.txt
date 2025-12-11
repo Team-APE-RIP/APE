@@ -5,9 +5,12 @@ APE_refresh_decisions = {
 	    array = ROOT.APE_category
 		value = value
 		index = index
+		set_variable = {
+		    category_index = index
+		}
 		if = {
 			limit = {
-			    check_variable = {
+			    check_temp_variable = {
 				    value = 1
 				}
 			}
@@ -16,18 +19,10 @@ APE_refresh_decisions = {
 			}
 		}
 		set_variable = {
-		    ROOT.APE_category_y^index = ROOT.APE_category_num
+		    ROOT.APE_category_y^category_index = ROOT.APE_category_num
 		}
 		multiply_variable = {
-		    ROOT.APE_category_y^index = 50
-		}
-		meta_effect = {
-			text = {
-				add_to_variable = {
-		            ROOT.APE_decision_num = ROOT.APE_decision_[GetAPEDecisionCategoryIndex]^num
-		        }
-			}
-			GetAPEDecisionCategoryIndex = "[?index]"
+		    ROOT.APE_category_y^category_index = 58
 		}
 		set_variable = {
 		    ROOT.APE_decision_height = 40
@@ -36,23 +31,56 @@ APE_refresh_decisions = {
 		    ROOT.APE_decision_height = ROOT.APE_decision_num
 		}
 		add_to_variable = {
-		    ROOT.APE_category_y^index = ROOT.APE_decision_height
+		    ROOT.APE_category_y^category_index = ROOT.APE_decision_height
 		}
-		set_variable = { ROOT.APE_category_y_1^index = ROOT.APE_category_y^index }
-		set_variable = { ROOT.APE_category_y_2^index = ROOT.APE_category_y^index }
-		set_variable = { ROOT.APE_category_y_3^index = ROOT.APE_category_y^index }
-		set_variable = { ROOT.APE_category_y_4^index = ROOT.APE_category_y^index }
+		set_variable = { ROOT.APE_category_y_1^category_index = ROOT.APE_category_y^category_index }
+		set_variable = { ROOT.APE_category_y_2^category_index = ROOT.APE_category_y^category_index }
+		set_variable = { ROOT.APE_category_y_3^category_index = ROOT.APE_category_y^category_index }
+		set_variable = { ROOT.APE_category_y_4^category_index = ROOT.APE_category_y^category_index }
+		set_variable = { ROOT.APE_category_y_5^category_index = ROOT.APE_category_y^category_index }
 		add_to_variable = {
-		    ROOT.APE_category_y_1^index = 58
-		}
-		add_to_variable = {
-		    ROOT.APE_category_y_2^index = 8
+		    ROOT.APE_category_y_2^category_index = 8
 		}
 		add_to_variable = {
-		    ROOT.APE_category_y_3^index = 16
+		    ROOT.APE_category_y_3^category_index = 16
 		}
 		add_to_variable = {
-		    ROOT.APE_category_y_4^index = 26
+		    ROOT.APE_category_y_4^category_index = 26
+		}
+		add_to_variable = {
+		    ROOT.APE_category_y_5^category_index = 25
+		}
+		if = {
+		    limit = {
+			    check_variable = {
+				    APE_decision_show^category_index = 1
+				}
+			}
+			add_to_variable = {
+		        ROOT.APE_decision_num = ROOT.APE_decision_category_@var:category_index^num
+		    }
+		}
+		set_variable = {
+		    ROOT.decision_bottom = ROOT.APE_category_y_4^category_index
+		}
+		set_variable = {
+		    ROOT.APE_decision_height = 40
+		}
+		multiply_variable = {
+		    ROOT.APE_decision_height = ROOT.APE_decision_category_@var:category_index^num
+		}
+		if = {
+		    limit = {
+			    check_variable = {
+				    APE_decision_show^category_index = 1
+				}
+			}
+		    add_to_variable = {
+		        ROOT.decision_bottom = ROOT.APE_decision_height
+		    }
+		}
+		add_to_variable = {
+		    ROOT.decision_bottom = -8
 		}
 	}
 	clear_variable = ROOT.APE_decision_num

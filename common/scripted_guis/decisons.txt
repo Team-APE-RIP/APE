@@ -3,8 +3,57 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "decision_view"
 		visible = {
+		    has_country_flag = SHOW_APE_DECISIONS
 		}
 		triggers = {
+		    APE_decision_btn_bg_0_visible = {
+			    check_variable = {
+				    ROOT.APE_category^0 = 1
+				}
+				check_variable = {
+					APE_decision_show^0 = 1
+				}
+			}
+		    APE_decision_icon_0_visible = {
+			    check_variable = {
+				    ROOT.APE_category^0 = 1
+				}
+				check_variable = {
+					APE_decision_show^0 = 1
+				}
+			}
+		    APE_decision_name_text_0_visible = {
+			    check_variable = {
+				    ROOT.APE_category^0 = 1
+				}
+				check_variable = {
+					APE_decision_show^0 = 1
+				}
+			}
+		    APE_decision_cost_and_timer_text_0_visible = {
+			    check_variable = {
+				    ROOT.APE_category^0 = 1
+				}
+				check_variable = {
+					APE_decision_show^0 = 1
+				}
+			}
+		    APE_decision_track_decision_checkbox_0_visible = {
+			    check_variable = {
+				    ROOT.APE_category^0 = 1
+				}
+				check_variable = {
+					APE_decision_show^0 = 1
+				}
+			}
+		    APE_decision_btn_select_0_visible = {
+			    check_variable = {
+				    ROOT.APE_category^0 = 1
+				}
+				check_variable = {
+					APE_decision_show^0 = 1
+				}
+			}
 		    APE_decision_category_grid_0_visible = {
 			    check_variable = {
 				    ROOT.APE_category^0 = 1
@@ -33,6 +82,54 @@ scripted_gui = {
 			APE_decision_category_category_collapse_btn_0_visible = {
 			    check_variable = {
 				    ROOT.APE_category^0 = 1
+				}
+			}
+			APE_decision_btn_bg_1_visible = {
+			    check_variable = {
+				    ROOT.APE_category^1 = 1
+				}
+				check_variable = {
+					APE_decision_show^1 = 1
+				}
+			}
+		    APE_decision_icon_1_visible = {
+			    check_variable = {
+				    ROOT.APE_category^1 = 1
+				}
+				check_variable = {
+					APE_decision_show^1 = 1
+				}
+			}
+		    APE_decision_name_text_1_visible = {
+			    check_variable = {
+				    ROOT.APE_category^1 = 1
+				}
+				check_variable = {
+					APE_decision_show^1 = 1
+				}
+			}
+		    APE_decision_cost_and_timer_text_1_visible = {
+			    check_variable = {
+				    ROOT.APE_category^1 = 1
+				}
+				check_variable = {
+					APE_decision_show^1 = 1
+				}
+			}
+		    APE_decision_track_decision_checkbox_1_visible = {
+			    check_variable = {
+				    ROOT.APE_category^1 = 1
+				}
+				check_variable = {
+					APE_decision_show^1 = 1
+				}
+			}
+		    APE_decision_btn_select_1_visible = {
+			    check_variable = {
+				    ROOT.APE_category^1 = 1
+				}
+				check_variable = {
+					APE_decision_show^1 = 1
 				}
 			}
 		    APE_decision_category_grid_1_visible = {
@@ -67,9 +164,66 @@ scripted_gui = {
 			}
 		}
 		effects = {
+		    APE_decision_close_button_click = {
+			    clr_country_flag = SHOW_APE_DECISIONS
+			}
+		    APE_decision_icon_header_bg_0_click = {
+			    if = {
+				    limit = {
+					    check_variable = {
+						    APE_decision_show^0 = 2
+						}
+					}
+					set_variable = {
+				        APE_decision_show^0 = 1
+				    }
+				}
+				else = {
+			        set_variable = {
+				        APE_decision_show^0 = 2
+				    }
+				}
+				APE_refresh_decisions = yes
+			}
+			APE_decision_icon_header_bg_1_click = {
+			    if = {
+				    limit = {
+					    check_variable = {
+						    APE_decision_show^1 = 2
+						}
+					}
+					set_variable = {
+				        APE_decision_show^1 = 1
+				    }
+				}
+				else = {
+			        set_variable = {
+				        APE_decision_show^1 = 2
+				    }
+				}
+				APE_refresh_decisions = yes
+			}
 		}
 		properties = {
-		    APE_decision_category_grid_0 = {
+		    APE_decision_bottom = {
+			    y = ROOT.decision_bottom
+			}
+		    APE_decision_btn_bg_0 = {
+			    y = ROOT.APE_category_y_1^0
+			}
+		    APE_decision_icon_0 = {
+			    y = ROOT.APE_category_y_1^0
+			}
+		    APE_decision_name_text_0 = {
+			    y = ROOT.APE_category_y_1^0
+			}
+		    APE_decision_cost_and_timer_text_0 = {
+			    y = ROOT.APE_category_y_1^0
+			}
+		    APE_decision_track_decision_checkbox_0 = {
+			    y = ROOT.APE_category_y_1^0
+			}
+		    APE_decision_btn_select_0 = {
 			    y = ROOT.APE_category_y_1^0
 			}
 			APE_decision_icon_header_bg_0 = {
@@ -84,10 +238,26 @@ scripted_gui = {
 			APE_decision_category_track_decisions_checkbox_0 = {
 			    y = ROOT.APE_category_y_4^0
 			}
-			APE_decision_category_category_collapse_btn_0 = {
-			    y = ROOT.APE_category_y_4^0
+			APE_decision_category_collapse_btn_0 = {
+			    y = ROOT.APE_category_y_5^0
+				frame = APE_decision_show^0
 			}
-			APE_decision_category_grid_1 = {
+			APE_decision_btn_bg_1 = {
+			    y = ROOT.APE_category_y_1^1
+			}
+		    APE_decision_icon_1 = {
+			    y = ROOT.APE_category_y_1^1
+			}
+		    APE_decision_name_text_1 = {
+			    y = ROOT.APE_category_y_1^1
+			}
+		    APE_decision_cost_and_timer_text_1 = {
+			    y = ROOT.APE_category_y_1^1
+			}
+		    APE_decision_track_decision_checkbox_1 = {
+			    y = ROOT.APE_category_y_1^1
+			}
+		    APE_decision_btn_select_1 = {
 			    y = ROOT.APE_category_y_1^1
 			}
 			APE_decision_icon_header_bg_1 = {
@@ -102,21 +272,22 @@ scripted_gui = {
 			APE_decision_category_track_decisions_checkbox_1 = {
 			    y = ROOT.APE_category_y_4^1
 			}
-			APE_decision_category_category_collapse_btn_1 = {
-			    y = ROOT.APE_category_y_4^1
+			APE_decision_category_collapse_btn_1 = {
+			    y = ROOT.APE_category_y_5^1
+				frame = APE_decision_show^1
 			}
 		}
 		dynamic_lists = {
 			APE_decision_category_grid_0 = {
 				array = ROOT.APE_decision_category_0
-				entry_container = APE_decision_item
+				entry_container = APE_decision_item_0
 				change_scope = no
 				value = APE_decision_value
 				index = APE_decision_index
 			}
 			APE_decision_category_grid_1 = {
 				array = ROOT.APE_decision_category_1
-				entry_container = APE_decision_item
+				entry_container = APE_decision_item_1
 				change_scope = no
 				value = APE_decision_value
 				index = APE_decision_index

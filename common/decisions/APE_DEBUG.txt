@@ -33,12 +33,20 @@ DEBUG_FOCUS_decisions = {
 	TEST_ini = {
 	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
 		complete_effect = {
+		    set_country_flag = SHOW_APE_DECISIONS
 		    clear_array = ROOT.APE_category
+			clear_array = ROOT.APE_decision_show
 	        add_to_array = {
 		        ROOT.APE_category = 1
 		    }
 			add_to_array = {
 		        ROOT.APE_category = 1
+		    }
+			add_to_array = {
+		        ROOT.APE_decision_show = 1
+		    }
+			add_to_array = {
+		        ROOT.APE_decision_show = 1
 		    }
 			APE_refresh_decisions = yes
 		}
