@@ -78,6 +78,71 @@ DEBUG_FOCUS_decisions = {
 			APE_refresh_decisions = yes
 		}
 	}
+	pa_ini = {
+	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
+		complete_effect = {
+		    clear_array = ROOT.starship_slot
+			clear_array = ROOT.starship_modules_0
+			clear_array = ROOT.starship_modules_1
+			clear_array = ROOT.starship_modules_2
+			clear_array = ROOT.starship_modules_3
+			clear_array = ROOT.starship_modules_4
+			clear_array = ROOT.starship_modules_5
+			clear_array = ROOT.starship_modules_6
+	        add_to_array = {
+		        ROOT.starship_slot = 2
+		    }
+	        add_to_array = {
+		        ROOT.starship_slot = 1
+		    }
+	        add_to_array = {
+		        ROOT.starship_slot = 2
+		    }
+	        add_to_array = {
+		        ROOT.starship_slot = 2
+		    }
+	        add_to_array = {
+		        ROOT.starship_slot = 1
+		    }
+	        add_to_array = {
+		        ROOT.starship_slot = 2
+		    }
+	        add_to_array = {
+		        ROOT.starship_slot = 1
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_0 = 10000000
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_0 = 20000000
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_0 = 30000000
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_0 = 150000000
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_2 = 9000
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_2 = 81000
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_3 = 40
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_3 = 910
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_5 = 0.02
+		    }
+			add_to_array = {
+		        ROOT.starship_modules_5 = 0.19
+		    }
+			set_country_flag = SHOW_SSD
+		}
+	}
 }
 
 DEBUG_EVENT_decisions = {

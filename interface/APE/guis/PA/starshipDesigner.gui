@@ -1,0 +1,617 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "starshipDesignerView"
+		position = { x=0 y=0}
+		size = { width = 1097 height = 542 }
+		moveable = yes
+		fade_time = 500
+		fade_type = linear
+		orientation = CENTER
+		origo = center
+		show_sound = "ui_ship_designer_panel_appear"
+		clipping = no
+		background = {
+			name = "Background"
+			spriteType ="GFX_ship_designer_popup_bg"
+		}
+		instantTextboxType = {
+			name = "starshipDesigner_title"
+			position = { x = 335 y = 6 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "STARSHIP_DESIGNER_TITLE"
+			maxWidth = 400
+			maxHeight = 20
+			format = centre
+		}
+		containerWindowType = {
+			name = "starship_slots"
+			position = { x=13 y=146 }
+			size = { width=512 height= 350}
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+			gridboxtype = {
+				name = "starship_slot_grid"
+				position = { x = 0 y = 300 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 73 height = 20 }
+				max_slots_horizontal = 7
+				format = "UPPER_LEFT"
+			}
+		}
+		containerWindowType = {
+			name = "starshipDesigner_info"
+			position = { x=536 y=13}
+			size = { width=100% height=100%% }
+
+			instantTextboxType = {
+					name = "base_stats_label"
+					position = { x = 14 y = 34 }
+					font = "hoi4_typewriter22"
+					text = "DESIGNER_BASE_STATS_LABEL"
+					maxWidth = 165
+					maxHeight = 20
+					format = left
+					fixedsize = yes
+				}
+
+			containerWindowType = {
+				name = "base_stats"
+				position = { x = 10 y = 55 }
+				size = { width = 171 height = 224 }
+				clipping = yes
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				verticalScrollbar = "right_vertical_slider"
+
+				gridboxtype = {
+					name = "stats_grid"
+					position = { x = 5 y = 0 }
+					size = { width = 155 height = 100%% }
+					slotsize = { width = 155 height = 20 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
+				}
+			}
+
+			instantTextboxType = {
+					name = "combat_stats_label"
+					position = { x = 187 y = 34 }
+					font = "hoi4_typewriter22"
+					text = "DESIGNER_COMBAT_STATS_LABEL"
+					maxWidth = 165
+					maxHeight = 20
+					format = left
+					fixedsize = yes
+				}
+
+			containerWindowType = {
+				name = "combat_stats"
+				position = { x = 183 y = 55 }
+				size = { width = 174 height = 224 }
+				clipping = yes
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				verticalScrollbar = "right_vertical_slider"
+
+				gridboxtype = {
+					name = "stats_grid"
+					position = { x = 5 y = 0 }
+					size = { width = 155 height = 100%% }
+					slotsize = { width = 155 height = 20 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
+				}
+			}
+
+			instantTextboxType = {
+				name = "misc_stats_label"
+				position = { x = 362 y = 34 }
+				font = "hoi4_typewriter22"
+				text = "FE_MISC_STATS"
+				maxWidth = 165
+				maxHeight = 20
+				format = left
+				fixedsize = yes
+			}
+
+			containerWindowType = {
+				name = "misc_stats"
+				position = { x = 356 y = 55 }
+				size = { width = 172 height = 224 }
+				clipping = yes
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				verticalScrollbar = "right_vertical_slider"
+
+				gridboxtype = {
+					name = "stats_grid"
+					position = { x = 5 y = 0 }
+					size = { width = 155 height = 100%% }
+					slotsize = { width = 155 height = 20 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
+				}
+			}
+
+			instantTextboxType = {
+				name = "combat_adjuster_header_label"
+				position = { x = 30 y = 313 }
+				font = "hoi_18mbs"
+				text = "PRODUCTION_ADJUSTERS_LABEL"
+				maxWidth = 140
+				maxHeight = 20
+				format = left
+			}
+
+			containerWindowType = {
+				name = "adjuster_stats"
+				position = { x = 15 y = 340 }
+				size = { width = 515 height = 139 }
+				clipping = yes
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 63
+				smooth_scrolling = yes
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+				
+				gridboxtype = {
+					name = "stats_grid"
+					position = { x = 0 y = 0 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 100 height = 63 }
+					max_slots_horizontal = 5
+					format = "UPPER_LEFT"
+				}
+			}
+		}
+		
+		ButtonType = {
+			name = "reset_button"
+			position = { x=10 y=502 }
+			quadTextureSprite ="GFX_button_reset_123x34"
+			buttonText = "EQUIPMENT_DESIGNER_RESET"
+			pdx_tooltip = "EQUIPMENT_DESIGNER_RESET_DESC"
+			buttonFont = "hoi_18mbs"
+			clicksound = "ui_ship_designer_reset"
+		}
+
+		ButtonType = {
+			name = "save_button"
+			position = { x=400 y=502 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "EQUIPMENT_DESIGNER_SAVE"
+			buttonFont = "hoi_18mbs"
+			clicksound = "ui_ship_designer_save"
+		}
+
+		
+		
+		containerWindowType = {
+			name = "starship_name_bg"
+			size = { width = 272 height = 30 }
+			position = { x = 15 y = 51 }
+
+			background = {
+				name = "name_bg"
+				quadTextureSprite = "GFX_generic_background"
+				position = { x = 15 y = 0 }
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "starship_name"
+				position = { x = 50 y = 6 }
+				font = "hoi_18mbs"
+				text = "SSN_[?ROOT.starshipDesignerSSID]"
+				maxWidth = 1400
+				maxHeight = 20
+				format = left
+			}
+		}
+
+		iconType = {
+			name = "equipment_template_icon"
+			spriteType = "GFX_division_template_icon"
+			position = { x = 35 y = 51 }
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -44 y = 6 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	containerWindowType = {
+		name = "starship_slot_entry"
+		position = { x=0 y=0 }
+		size = { width=76 height=47 } # Size of icn_module_slot_frame. Important for centering btn_module_slot.
+		iconType = {
+			name = "icn_module_slot_frame"
+			position = { x=0 y=0 }
+			spriteType = "GFX_equipment_module_bg"
+		}
+		buttonType = {
+			name = "btn_starship_slot"
+			position = { x=0 y=0 }
+			spriteType = "GFX_locked_icon"
+			Orientation = "CENTER"
+			centerPosition = yes
+			clicksound = "ui_ship_designer_company_icon"
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_entry"
+		size = { width=244 height=66 }
+		
+		buttonType = {
+		    name = "btn_starshipDesignerModuleEntry"
+			spriteType ="GFX_SSDEBG"
+			clicksound = "ui_ship_designer_role_entry"
+			position = { x=0 y=0 }
+		}
+
+		iconType = {
+			name ="module_icon"
+			spriteType = "GFX_technology_medium"
+			position = { x=6 y=12 }
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "module_name"
+			position = { x=85 y=10 }
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_NAME_[?starship_modules_value]"
+			maxWidth = 155
+			maxHeight = 22
+			multiline = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container0"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_0"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container1"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_1"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container2"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_2"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container3"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_3"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container4"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_4"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container5"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_5"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "starshipDesignerModule_selector_container6"
+		position = { x=2 y=40 }
+		size = { width=538 height=464 }
+		verticalScrollbar = "right_vertical_slider"
+		scroll_wheel_factor = 40
+		smooth_scrolling = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_1b_border"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icn_module_slot_frame"
+			position = { x=17 y=14 }
+			spriteType = "GFX_equipment_module_bg"
+		}	
+		iconType = {
+			name = "starshipDesignerModule_icon_module_slot"
+			position = { x=17 y=18 }
+			spriteType = "GFX_locked_icon"
+		}
+		instantTextboxType = {
+			name = "starshipDesignerModule_slot_name"
+			position = { x=98 y=20 }
+			maxWidth = 350
+			maxHeight = 22
+			font = "hoi_18mbs"
+			text = "STARSHIP_MODULE_SELECTION_6"
+		}
+		buttonType = {
+			name = "starshipDesignerModule_btn_back"
+			position = { x=388 y=23 }
+			spriteType = "GFX_button_123x34"
+			buttonText = "REGIMENTS_SELECTION_CANCEL"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+		gridBoxType = {
+			name = "starshipDesignerModules"
+			position = { x=17 y=70 }
+			size = { width=510 height=10 }
+			slotsize = { width = 247 height = 69 }
+			max_slots_horizontal = 2
+			format = UPPER_LEFT
+		}
+	}
+}

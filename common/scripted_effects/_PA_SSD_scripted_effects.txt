@@ -1,0 +1,21 @@
+calculate_SSD = {
+    clear_variable = ROOT.starshipDesignerSSID
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^0 }
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^1 }
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^2 }
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^3 }
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^4 }
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^5 }
+    add_to_variable = { ROOT.starshipDesignerSSID = ROOT.starshipDesignerModuleSetDoneArray^6 }
+}
+reset_SSD = {
+    clear_variable = ROOT.starshipDesignerSSID
+	clear_variable = ROOT.starshipDesignerModuleSetDoneArray^0 
+    clear_variable = ROOT.starshipDesignerModuleSetDoneArray^1
+    clear_variable = ROOT.starshipDesignerModuleSetDoneArray^2
+    clear_variable = ROOT.starshipDesignerModuleSetDoneArray^3
+    clear_variable = ROOT.starshipDesignerModuleSetDoneArray^4
+    clear_variable = ROOT.starshipDesignerModuleSetDoneArray^5
+    clear_variable = ROOT.starshipDesignerModuleSetDoneArray^6
+	clear_array = ROOT.starshipDesignerModuleSetDoneArray
+}

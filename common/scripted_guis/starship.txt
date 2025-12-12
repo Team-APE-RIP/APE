@@ -1,0 +1,195 @@
+scripted_gui = {
+	starshipDesignerView = {
+		context_type = player_context window_name = "starshipDesignerView"
+		visible = { has_country_flag = SHOW_SSD }
+		triggers = { }
+		effects = {
+		    btn_starship_slot_click = {
+			    if = { limit = { check_variable = { starship_slot_value = 2 } } set_variable = { ROOT.starshipDesignerModuleSetting = starship_slot_index } }
+			}
+			close_button_click = { clr_country_flag = SHOW_SSD }
+			reset_button_click = { reset_SSD = yes }
+			save_button_click = { add_to_array = { ROOT.SSD_array = ROOT.starshipDesignerSSID } reset_SSD = yes }
+		}
+		properties = {
+		    btn_starship_slot = { frame = starship_slot_value image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^starship_slot_index] }
+		}
+		dynamic_lists = {
+		    starship_slot_grid = {
+				array = ROOT.starship_slot
+				entry_container = starship_slot_entry
+				change_scope = no
+				value = starship_slot_value index = starship_slot_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container0 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container0" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 0 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^0 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^0] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_0
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container1 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container1" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 1 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^1 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^1] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_1
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container2 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container2" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 2 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^2 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^2] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_2
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container3 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container3" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 3 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^3 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^3] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_3
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container4 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container4" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 4 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^4 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^4] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_4
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container5 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container5" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 5 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^5 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^5] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_5
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+	starshipDesignerModule_selector_container6 = {
+		context_type = player_context window_name = "starshipDesignerModule_selector_container6" parent_window_name = "starshipDesignerView"
+		visible = { check_variable = { ROOT.starshipDesignerModuleSetting = 6 } }
+		effects = { 
+		    starshipDesignerModule_btn_back_click = { set_variable = { ROOT.starshipDesignerModuleSetting = -1 } } 
+			btn_starshipDesignerModuleEntry_click = { 
+			    set_variable = { ROOT.starshipDesignerModuleSetting = -1 } 
+				set_variable = { ROOT.starshipDesignerModuleSetDoneArray^6 = starship_modules_value }
+				calculate_SSD = yes
+			}
+		}
+		properties = { 
+		starshipDesignerModule_icon_module_slot = { frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?ROOT.starshipDesignerModuleSetDoneArray^6] }
+        module_icon = {	frame = 2 image = GFX_starshipDesignerModule_slotIcn_[?starship_modules_value] }
+		}
+		dynamic_lists = {
+		    starshipDesignerModules = {
+				array = ROOT.starship_modules_6
+				entry_container = starshipDesignerModule_entry
+				change_scope = no
+				value = starship_modules_value index = starship_modules_index
+			}
+		}
+	}
+}
+
