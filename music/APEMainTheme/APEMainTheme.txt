@@ -24,3 +24,9 @@ music = {
 	    modifier = { factor = 0 }
 	}
 }
+music = {
+    song =  "APEMainTheme_5" # Britannia’s Echoes - Britannia
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}

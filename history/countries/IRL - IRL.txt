@@ -8,6 +8,8 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup53 = 100
 }
+#fuckParadox
+set_variable = { APEMainThemeID = 5 } # APEMainTheme - Britannia’s Echoes
 set_autonomy = {
 	target = IRN
 	autonomy_state = autonomy_IRL_IRNAS
