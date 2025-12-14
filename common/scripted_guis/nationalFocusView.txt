@@ -3,16 +3,10 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "nfvT_window"
 		parent_window_name = "nfvT_container"
-		#parent_window_token = national_focus
 		visible = {
 		    always = yes
 		}
 		triggers = {
-		    nfvT_T_bg_0_visible = {
-			    check_variable = {
-				    ROOT.nfvTTitleBgNUM = 0
-				}
-			}
 		}
 		effects = {
 		    nfvT_animeIcon_button_click = {
@@ -40,6 +34,16 @@ scripted_gui = {
 			}
 			nfvT_title_bg = {
 				image = "GFX_nfvT_title_bg_[ROOT.nfvTTitleBgNUM]"
+			}
+		}
+	}
+	nfvT_T_bg_0 = {
+		context_type = player_context
+		window_name = "nfvT_T_bg_0"
+		parent_window_name = "nfvT_T_bg"
+		visible = {
+		    check_variable = {
+				ROOT.nfvTTitleBgNUM = 0
 			}
 		}
 	}
