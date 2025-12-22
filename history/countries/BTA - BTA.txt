@@ -1,12 +1,12 @@
 capital = 2562
 set_politics = {
-	ruling_party = IdeologyGroup16
+	ruling_party = IdeologyGroup54
 	last_election = "2000.1.1"
     #election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	IdeologyGroup16 = 100
+	IdeologyGroup54 = 100
 }
 #fuckParadox
 set_variable = { APEMainThemeID = 5 } # APEMainTheme - Britannia’s Echoes

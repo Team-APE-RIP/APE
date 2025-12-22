@@ -213,6 +213,7 @@ SE_SE_2 = {
         clear_array = ROOT.SE_SE_2_States
 	}
 }
+
 SE_SE_3 = {
 	ROOT = {
 	    every_state = {
@@ -236,5 +237,57 @@ SE_SE_3 = {
 			add_core_of = ROOT
 		}
 		set_cosmetic_tag = cosmeticTagDeutschland
+	}
+}
+
+SE_SE_4 = {
+	ROOT = {
+		746 = { add_core_of = BTB transfer_state_to = BTB }
+		1931 = { add_core_of = BTB transfer_state_to = BTB }
+		2311 = { add_core_of = BTB transfer_state_to = BTB }
+		3051 = { add_core_of = BTB transfer_state_to = BTB }
+		3108 = { add_core_of = BTC transfer_state_to = BTC }
+		2163 = { add_core_of = BTC transfer_state_to = BTC }
+		2284 = { add_core_of = BTC transfer_state_to = BTC }
+		1294 = { add_core_of = BTC transfer_state_to = BTC }
+		1343 = { add_core_of = BTC transfer_state_to = BTC }
+		3074 = { add_core_of = BTC transfer_state_to = BTC }
+	    every_state = {
+			limit = {
+			    region = 3
+			}
+			add_core_of = BTD
+			if = {
+			    limit = {
+			        is_controlled_by = ROOT
+			    }
+			    transfer_state_to = BTD
+			}
+		}
+		set_cosmetic_tag = cosmeticTagBCW_MPC
+		BTB = { 
+		    set_capital = { state = 3051 }
+            declare_war_on = {
+                target = BTA
+                type = BritishCivilWar_wargoal_focus
+            }	
+			add_civil_war_target = BTA
+		}
+		BTC = { 
+		    set_capital = { state = 3108 }
+            declare_war_on = {
+                target = BTA
+                type = BritishCivilWar_wargoal_focus
+            }	
+			add_civil_war_target = BTA
+		}
+		BTD = { 
+		    set_capital = { state = 3091 }
+            declare_war_on = {
+                target = BTA
+                type = BritishCivilWar_wargoal_focus
+            }	
+			add_civil_war_target = BTA
+		}
 	}
 }

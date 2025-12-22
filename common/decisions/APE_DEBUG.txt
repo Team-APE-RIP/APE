@@ -196,4 +196,16 @@ DEBUG_SE_decisions = {
 			set_variable = { global.SE_ID = 3 } APE_SE_SE = yes
 		}
 	}
+
+	APE_SE_T_4 = {
+		icon = GFX_DEBUG_thumbnail
+		available = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			set_variable = { global.SE_ID = 4 } APE_SE_SE = yes
+		}
+	}
 }

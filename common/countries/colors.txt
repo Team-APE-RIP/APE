@@ -35,6 +35,18 @@ BTA = {
 	color = rgb { 248 2 5 }
 	color_ui = rgb { 248 2 5 }
 }
+BTB = {
+	color = rgb { 0 158 212 }
+	color_ui = rgb { 0 158 212 }
+}
+BTC = {
+	color = rgb { 127 1 2 }
+	color_ui = rgb { 127 1 2 }
+}
+BTD = {
+	color = rgb { 2 127 255 }
+	color_ui = rgb { 2 127 255 }
+}
 CHI = {
 	color = rgb { 160 10 30 }
 	color_ui = rgb { 160 10 30 }

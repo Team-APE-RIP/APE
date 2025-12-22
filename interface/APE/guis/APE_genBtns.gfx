@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_closeBtn"
+		texturefile = "gfx/interface/Btns/closeBtn.png"
+	}
+	spriteType = {
+		name = "GFX_dloseBtn"
+		texturefile = "gfx/interface/Btns/dloseBtn.png"
+	}
+}

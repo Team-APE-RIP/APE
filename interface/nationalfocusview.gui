@@ -33,8 +33,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "close_button"
-			position = { x = -45 y = 9 }
-			quadTextureSprite ="GFX_closebutton"
+			position = { x = -45 y = 4 }
+			quadTextureSprite ="GFX_dloseBtn"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
@@ -729,9 +729,9 @@ guiTypes = {
 
 		buttonType = {
 			name = "close"
-			quadTextureSprite = "GFX_closebutton"
+			quadTextureSprite = "GFX_closeBtn"
 			buttonFont = "vic_18"
-			position = { x=-43 y=9 }
+			position = { x=-45 y=4 }
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CLOSE"
@@ -756,13 +756,13 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_focus_start_bg"
 			buttonText = "START_FOCUS"
 			buttonFont = "Biaoyu16"
-			position = { x = 48 y = 198 }
+			position = { x = 54 y = 198 }
 			clicksound = select_focus
 			shortcut = "RETURN"
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 142 y = 160 }
+			position = { x = 148 y = 160 }
 			spriteType = "GFX_goal_unknown"
 			alwaystransparent = yes
 			centerposition = yes
