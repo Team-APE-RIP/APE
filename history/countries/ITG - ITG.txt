@@ -8,3 +8,4 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup46 = 100
 }
+set_variable = { APEMainThemeID = 6 } # APEMainTheme - Litania della Penisola Spezzata

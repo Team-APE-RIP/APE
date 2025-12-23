@@ -23,3 +23,8 @@ music = {
 	file = "5.ogg"
 	volume = 1
 }
+music = {
+	name = "APEMainTheme_6"
+	file = "6.ogg"
+	volume = 1
+}

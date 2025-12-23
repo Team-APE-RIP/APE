@@ -30,3 +30,9 @@ music = {
 	    modifier = { factor = 0 }
 	}
 }
+music = {
+    song =  "APEMainTheme_6" # Litania della Penisola Spezzata - Apennine Peninsula
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}
