@@ -694,7 +694,7 @@ guiTypes = {
 		background = {
 			name = "Background"
 			#SpriteType ="GFX_technology_info_bg"
-			SpriteType = "GFX_tiled_window_thin_border2"
+			SpriteType = "GFX_tiled_SPinckEXwthSCL_bg"
 		}
 		
 		iconType ={
@@ -707,19 +707,19 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "national_focus_detail_view_bg1"
-			position = { x = 5 y = 5 }
-			size = { width = 720 height = 630 }
+			position = { x = 0 y = 0 }
+			size = { width = 100%% height = 100%% }
 			background = {
 				name = "national_focus_detail_view_bg_1"
-				quadTextureSprite = "GFX_tiled_161F4C_bg"
+				quadTextureSprite = "GFX_tiled_161F4Cc_bg"
 				alwaystransparent = yes
 			}
 		}
 
 		containerWindowType = {
 			name = "national_focus_detail_view_bg0"
-			position = { x = 5 y = -80 }
-			size = { width = 720 height = 1440 }
+			position = { x = 7 y = -60 }
+			size = { width = 716 height = 1440 }
 			background = {
 				name = "national_focus_detail_view_bg_0"
 				quadTextureSprite = "GFX_tiled_nfvT_0"
@@ -731,7 +731,7 @@ guiTypes = {
 			name = "close"
 			quadTextureSprite = "GFX_closeBtn"
 			buttonFont = "vic_18"
-			position = { x=-45 y=4 }
+			position = { x=-47 y=24 }
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CLOSE"
@@ -740,7 +740,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 20 y = 3 }
+			position = { x = 22 y = 23 }
 			textureFile = ""
 			font = "MaryRS36"
 			borderSize = {x = 0 y = 0}
@@ -756,13 +756,13 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_focus_start_bg"
 			buttonText = "START_FOCUS"
 			buttonFont = "Biaoyu16"
-			position = { x = 54 y = 198 }
+			position = { x = 56 y = 214 }
 			clicksound = select_focus
 			shortcut = "RETURN"
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 148 y = 160 }
+			position = { x = 150 y = 176 }
 			spriteType = "GFX_goal_unknown"
 			alwaystransparent = yes
 			centerposition = yes
@@ -846,25 +846,25 @@ guiTypes = {
 		
 		iconType = {
 			name = "research_progressbar"
-			spriteType = "GFX_prod_progress_bar3"
-			position = { x=209 y=59 }
+			spriteType = "GFX_nfvD_progress"
+			position = { x=7 y=7 }
 		}
 
 		iconType = {
 			name = "research_progressbar_frame"
 			spriteType = "GFX_production_progressbar_frame2"
-			position = { x=205 y=57 }
+			position = { x=20500 y=57 }
 		}		
 		
 		instantTextboxType = {
 			name = "status"
-			position = { x = 208 y = 60 }
+			position = { x = 7 y = 7 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 170
-			maxHeight = 13
-			format = center
+			maxWidth = 1000
+			maxHeight = 7
+			format = right
 		}
 	}
 	

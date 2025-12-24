@@ -11,4 +11,16 @@ spriteTypes = {
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
 	}
+
+	
+	
+	progressbartype = {
+		name = "GFX_nfvD_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/focusview/ldp2.dds"
+		textureFile2 = "gfx/interface/focusview/ldp1.dds"
+		size = { x = 716 y = 10 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}		
 }

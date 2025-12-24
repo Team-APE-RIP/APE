@@ -1,0 +1,10 @@
+spriteTypes = {   
+	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckEXwthSCL_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckEXwthSCL_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}
