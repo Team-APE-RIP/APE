@@ -10,7 +10,8 @@ state = { #Population Done
 	state_category = metropolis
 
 	history = {
-		owner = ZZZ # GER
+		owner = PLA
+		add_core_of = PLA
 		victory_points = { 9570 25 }
 		victory_points = { 552 5 }
 		victory_points = { 6462 3 }
@@ -33,6 +34,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		552 3438 3485 3545 6534 6595 9570 11517 9535 15841 3572 9497 6512 9457 
+		9570
 	}
 }

@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2884"
 
 	history = {
-		owner = ZZZ # COL
+		owner = PLA
+		add_core_of = PLA
 		buildings = {
 			infrastructure = 2
 			hospitals = 1
@@ -16,7 +17,7 @@ state = {
 	}
 
 	provinces = {
-		9441 3532 6558
+		9441 3532 6558 3460 
 	}
 	manpower = 819171
 	buildings_max_level_factor = 1.000

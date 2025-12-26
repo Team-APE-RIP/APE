@@ -12,7 +12,8 @@ state = { #Population Done
 
 
 	history = {
-		owner = ZZZ # GER
+		owner = PLA
+		add_core_of = PLA
 		# add_core_of = GER
 
 
@@ -29,6 +30,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		537 6236 6390 6309 9334 6334
+		537 6236 6309 9334 6334
 	}
 }

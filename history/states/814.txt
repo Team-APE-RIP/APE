@@ -8,24 +8,14 @@ state = {
 	history = {
 		owner = ZZZ # GER
 		# add_core_of = GER
-		victory_points = {
-			11301 8
-		}
-		victory_points = {
-			11329 2
-		}
 		buildings = {
-			infrastructure = 4
-			thermoelectric_plant = 2
-			air_base = 3
-			missile_silo = 1
-			enrichment_plant = 1
+			infrastructure = 3
 		}
 
 	}
 
 	provinces = {
-		290 318 347 400 3281 3392 11247 11274 11301 11329 11357
+		3392 3281 318
 	}
 	manpower = 985725
 	buildings_max_level_factor = 1.000

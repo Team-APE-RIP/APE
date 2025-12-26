@@ -1,0 +1,28 @@
+state = {
+	id = 3139
+	name = "STATE_3139"
+	history = {
+		owner = PLA
+		add_core_of = PLA
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 2
+			air_base = 3
+			missile_silo = 1
+			enrichment_plant = 1
+		}
+		victory_points = {
+			11301 8
+		}
+		victory_points = {
+			11329 2
+		}
+	}
+	provinces = {
+        11301
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

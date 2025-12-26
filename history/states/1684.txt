@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # GGN
+		owner = PLA
+		add_core_of = PLA
 		# add_core_of = GGN
 		# add_core_of = POL
 		victory_points = {
@@ -42,7 +43,7 @@ state = {
 	}
 
 	provinces = {
-		417 442 466 3410 3434 6522 9427 11398 15811 15812 15815 19173 19177
+		417 442 15815
 	}
 	manpower = 2973001
 	buildings_max_level_factor = 1.000

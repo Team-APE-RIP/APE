@@ -235,6 +235,26 @@ PGS = {
 	color = rgb { 0 102 0 }
 	color_ui = rgb { 0 102 0 }
 }
+PLA = {
+	color = rgb { 150 23 23 }
+	color_ui = rgb { 150 23 23 }
+}
+PLB = {
+	color = rgb { 150 23 23 }
+	color_ui = rgb { 150 23 23 }
+}
+PLC = {
+	color = rgb { 150 23 23 }
+	color_ui = rgb { 150 23 23 }
+}
+PLD = {
+	color = rgb { 150 23 23 }
+	color_ui = rgb { 150 23 23 }
+}
+PLE = {
+	color = rgb { 150 23 23 }
+	color_ui = rgb { 150 23 23 }
+}
 QDN = {
 	color = rgb { 225 60 50 }
 	color_ui = rgb { 225 60 50 }

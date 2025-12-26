@@ -1,0 +1,18 @@
+state = {
+	id = 3124
+	name = "STATE_3124"
+	history = {
+		owner = PLA
+		add_core_of = PLA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        11398 15840 9427 
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

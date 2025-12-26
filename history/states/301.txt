@@ -3,7 +3,8 @@ state = {
 	name = "STATE_301"
 
 	history = {
-		owner = ZZZ # GGN
+		owner = PLA
+		add_core_of = PLA
 		# add_core_of = GGN
 		# add_core_of = POL
 		victory_points = {
@@ -18,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		6499 15814
+		6499 15814 15812 3410
 	}
 	manpower = 287876
 	buildings_max_level_factor = 1.000
