@@ -10,7 +10,8 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = ZZZ # HUN
+		owner = SVK
+		add_core_of = SVK
 		buildings = {
 			infrastructure = 5
 			barracks = 1
@@ -23,6 +24,6 @@ state = { #Population Done
 	}
 
 	provinces = {
-		3716 6561 6573 9537 11679
+		3716  11679
 	}
 }

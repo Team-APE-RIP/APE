@@ -5,11 +5,11 @@ state = {
 		owner = BHM
         add_core_of = BHM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 		}
 	}
 	provinces = {
-        9429 9569 11542 11556
+        11542 
 	}
 	manpower = 87721
 	buildings_max_level_factor = 1.000

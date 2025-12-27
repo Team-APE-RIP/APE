@@ -11,7 +11,8 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = ZZZ # GER
+		owner = CZC
+		add_core_of = CZC
 		# add_core_of = GER
 
 		

@@ -55,6 +55,10 @@ CTB = {
 	color = rgb { 231 70 37 }
 	color_ui = rgb { 231 70 37 }
 }
+CZC = {
+	color = rgb { 206 199 170 }
+	color_ui = rgb { 206 199 170 }
+}
 DMK = {
 	color = rgb { 163 91 125 }
 	color_ui = rgb { 163 91 125 }
@@ -298,6 +302,10 @@ SIC = {
 SMN = {
 	color = rgb { 94 182 227 }
 	color_ui = rgb { 94 182 227 }
+}
+SVK = {
+	color = rgb { 121 114 204 }
+	color_ui = rgb { 121 114 204 }
 }
 SWS = {
 	color = rgb { 218 40 70 }

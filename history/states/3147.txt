@@ -1,0 +1,18 @@
+state = {
+	id = 3147
+	name = "STATE_3147"
+	history = {
+		owner = CZC
+		add_core_of = CZC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        6562 11511 557
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

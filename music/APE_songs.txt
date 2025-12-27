@@ -1,11 +1,11 @@
 
-music_station = "base_music"
+music_station = "APEbase_music"
 
 music = {
 	song = "maintheme"
 	chance = {
 		modifier = {
-			factor = 0.5
+			factor = 0
 		}		
 	}
 }

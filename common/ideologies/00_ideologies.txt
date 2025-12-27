@@ -2145,5 +2145,79 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+	
+	IdeologyGroup58 = { 
+
+		types = {
+		    IdeologyGroup58_IdelogySubtype0 = {}
+			IdeologyGroup58_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup58_1"
+			"FACTION_NAME_IdeologyGroup58_2"
+			"FACTION_NAME_IdeologyGroup58_3"
+			"FACTION_NAME_IdeologyGroup58_4"
+			"FACTION_NAME_IdeologyGroup58_5"
+		}
+
+		color = { 206 199 170 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup59 = { 
+
+		types = {
+		    IdeologyGroup59_IdelogySubtype0 = {}
+			IdeologyGroup59_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup59_1"
+			"FACTION_NAME_IdeologyGroup59_2"
+			"FACTION_NAME_IdeologyGroup59_3"
+			"FACTION_NAME_IdeologyGroup59_4"
+			"FACTION_NAME_IdeologyGroup59_5"
+		}
+
+		color = { 211 2 5 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+            hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+            }
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
 }

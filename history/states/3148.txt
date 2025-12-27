@@ -1,0 +1,18 @@
+state = {
+	id = 3148
+	name = "STATE_3148"
+	history = {
+		owner = SVK
+		add_core_of = SVK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        6561 6573 9537
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

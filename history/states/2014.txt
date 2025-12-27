@@ -7,7 +7,8 @@ state = {
 
 
 	history = {
-		owner = ZZZ # SLO
+		owner = SVK
+		add_core_of = SVK
 		buildings = {
 			infrastructure = 3
 			prisons = 1
