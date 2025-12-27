@@ -5,9 +5,3 @@ music = {
 	volume = 1
 }
 
-music = {
-	name = "music_SE_2"
-	file = "SE/SE_2.ogg"
-	volume = 1
-}
-

@@ -6,6 +6,14 @@ state = {
         add_core_of = NTL
 		buildings = {
 			infrastructure = 3
+			3314 = {
+				naval_base = 10
+				coastal_bunker = 2
+			}
+			68 = {
+				coastal_bunker = 2
+			}
+			dockyard = 3
 		}
 	}
 	provinces = {

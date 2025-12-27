@@ -29,7 +29,7 @@ faction_goal_undo_versailles = {
 	}
 	completed = {
 	}
-	complete_effect = 
+	complete_effect = {
 	}
 	ai_will_do = {
 		base = 1

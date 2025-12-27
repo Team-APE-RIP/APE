@@ -6,6 +6,10 @@ state = {
         add_core_of = ITF
 		buildings = {
 			infrastructure = 3
+			11833 = {
+				naval_base = 4
+			}
+			dockyard = 3
 		}
 	}
 	provinces = {

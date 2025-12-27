@@ -10,10 +10,7 @@ state = { #Population Done
 			infrastructure = 5
 			dockyard = 2
 			thermoelectric_plant = 1
-			11616 = {
-				coastal_bunker = 2
-			}
-			11465 = {
+			20067 = {
 				coastal_bunker = 2
 			}
 		}

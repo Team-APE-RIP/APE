@@ -7,17 +7,6 @@ bookmarks = {
 		default_country = "QDN"
 		default = yes
 		
-		"QDN"={
-			history = "2050_QDN_DESC"
-			ideology = IdeologyGroup1
-			available = yes
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
 		"QFK"={
 			history = "2050_QFK_DESC"
 			ideology = IdeologyGroup9
@@ -27,7 +16,18 @@ bookmarks = {
 				QFK_idea_ConfucianClassics_show
 			}
 			focuses = {
-				
+				QFK_01_FS_01_A_O
+				QFK_01_FS_03_B_O_L_R
+			}
+		}
+		
+		"IPB"={
+			history = "2050_IPB_DESC"
+			ideology = IdeologyGroup49
+			available = yes
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 		

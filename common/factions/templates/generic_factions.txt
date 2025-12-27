@@ -422,7 +422,7 @@ faction_template_european_unity = {
 	manifest = faction_manifest_strength_in_unity
 	can_leader_join_other_factions = yes
 	icon = GFX_faction_logo_generic_13
-	visible = 
+	visible = {
 	}
 	available = {
 	}

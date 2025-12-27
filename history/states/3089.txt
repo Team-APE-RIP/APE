@@ -6,6 +6,9 @@ state = {
 		add_core_of = BTA
 		buildings = {
 			infrastructure = 3
+			16353 = {
+				naval_base = 5
+			}
 		}
 	}
 	provinces = {

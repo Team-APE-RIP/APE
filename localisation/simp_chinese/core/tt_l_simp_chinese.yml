@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+ debug_event_scopes: "ohno妈咪何意味"
  ADD_DYMAMIC_MODIFIER: "获得修正："
  WHICH_GRANTS: "，其效果为：\n"
  WHICH_GRANTS_SL: "，其效果为："
