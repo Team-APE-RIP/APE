@@ -1,5 +1,13 @@
 APE_SE_SE = {
     hidden_effect = {
+		set_variable = { SE_ID = global.SE_ID }
+		clr_country_flag = minimize_SE
+		meta_effect = {
+		    text = {
+			    SE_SE_[GetSEID] = yes
+			}
+			GetSEID = "[?SE_ID]"
+		}
    		every_possible_country = { 
 	 	    add_to_array = { array = THIS.APE_SE_ID value = global.SE_ID }
 			set_variable = { var_SE_ID = global.SE_ID }
@@ -10,14 +18,6 @@ APE_SE_SE = {
 				GetAPESEID = "[?var_SE_ID]"
 			}
 			clear_variable = var_SE_ID
-		}
-		set_variable = { SE_ID = global.SE_ID }
-		clr_country_flag = minimize_SE
-		meta_effect = {
-		    text = {
-			    SE_SE_[GetSEID] = yes
-			}
-			GetSEID = "[?SE_ID]"
 		}
 		clear_variable = SE_ID
 		clear_variable = global.SE_ID 
@@ -226,10 +226,13 @@ SE_SE_3 = {
 				}
 				NOT = {
 				    OR = {
-					    state = 8
-					    state = 28
-					    state = 1812
-					    state = 2779
+					    state = 663
+					    state = 820
+					    state = 1198
+					    state = 1670
+					    state = 1884
+					    state = 2005
+					    state = 2122
 					}
 				}
 			}
@@ -237,6 +240,23 @@ SE_SE_3 = {
 			add_core_of = ROOT
 		}
 		set_cosmetic_tag = cosmeticTagDeutschland
+		set_province_name = {
+   		    id = 6521
+   		    name = DeutschlandNB_VICTORY_POINTS_6521
+		}
+		1168 = {
+		    set_state_name = DeutschlandNB_state
+			set_victory_points = {
+				province = 6521
+				value = 50
+			}
+		}
+		set_capital = { state = 1168 }
+		set_major = yes
+		add_named_threat = {
+   		    threat = 2.5
+    		name = APE_SE_TT_3
+		}
 	}
 }
 
@@ -290,6 +310,50 @@ SE_SE_4 = {
                 type = BritishCivilWar_wargoal_focus
             }	
 			add_civil_war_target = ROOT
+		}
+	}
+}
+
+SE_SE_5 = {
+	ROOT = {
+	    set_technology = {
+            infantry_weapons = 1
+            popup = no
+        }
+	    set_technology = {
+		    MPWH_mechanized_equipment = 1
+            popup = no
+        }
+	    set_technology = {
+		    MPWH_mechanized_equipment_1 = 1
+            popup = no
+        }
+	    set_technology = {
+            ModernPolishWingedHussars = 1
+            # popup = no
+        }
+	}
+}
+
+SE_SE_6 = {
+	ROOT = {
+	    set_cosmetic_tag = cosmeticTagChristosPoland
+		promote_character = {
+  		    character = PLA_Christos
+  		    ideology = IdeologyGroup60_IdelogySubtype1
+		}
+		meta_effect = {
+			text = {
+				set_politics = {
+  				    ruling_party = IdeologyGroup60
+    				elections_allowed = no
+    				last_election = "[GetSE6LLDATE]"
+    				election_frequency = 48
+    				long_name = cosmeticTagChristosPoland_IdeologyGroup60_IdelogySubtype1_party_long
+    				name = cosmeticTagChristosPoland_IdeologyGroup60_IdelogySubtype1_party
+				}
+			}
+			GetSE6LLDATE = "[?global.date.GetDateStringNoHour]"
 		}
 	}
 }

@@ -1,0 +1,45 @@
+technologies = {
+
+	@2000 = 0
+
+	######### Cyber Christ Poland ##########
+	ModernPolishWingedHussars = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		enable_subunits = {
+			ModernPolishWingedHussars
+		}
+	}
+	MPWH_mechanized_equipment = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 2000
+		
+		enable_equipments = {
+			MPWH_mechanized_equipment
+		}
+	}
+	MPWH_mechanized_equipment_1 = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 2001
+		
+		enable_equipments = {
+			MPWH_mechanized_equipment_1
+		}
+	}
+}

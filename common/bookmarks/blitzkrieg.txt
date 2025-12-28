@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "BLITZKRIEG_NAME"
 		desc = "BLITZKRIEG_DESC"
-		date = 2050.1.1.12
+		date = 2050.1.1.13
 		picture = "GFX_select_date_2050"
 		default_country = "QDN"
 		

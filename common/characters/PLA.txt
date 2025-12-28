@@ -1,0 +1,19 @@
+characters = {
+	PLA_Christos = {
+		name = PLA_Christos
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_PLA_Christos
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup60_IdelogySubtype1
+			desc = PLA_Christos_desc
+			traits = { 
+			    PLA_traits_Christos
+				PLA_traits_ChristosLBorn
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}

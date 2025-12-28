@@ -8,3 +8,5 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup0 = 100
 }
+recruit_character = PLA_Christos
+#fuckParadox

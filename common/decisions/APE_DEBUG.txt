@@ -78,6 +78,15 @@ DEBUG_FOCUS_decisions = {
 			APE_refresh_decisions = yes
 		}
 	}
+	TEST_4 = {
+	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
+		complete_effect = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+	}
 	pa_ini = {
 	    icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no
 		complete_effect = {
@@ -149,7 +158,7 @@ DEBUG_EVENT_decisions = {
 }
 DEBUG_SE_decisions = {
 
-    APE_SE_T_clr = {
+    APE_SE_clr = {
 		icon = GFX_DEBUG_thumbnail
 		available = {
 			is_debug = yes
@@ -161,7 +170,7 @@ DEBUG_SE_decisions = {
 		}
 	}
 
-	APE_SE_T_1 = {
+	APE_SE_TT_1 = {
 		icon = GFX_DEBUG_thumbnail
 		available = {
 			is_debug = yes
@@ -173,7 +182,7 @@ DEBUG_SE_decisions = {
 		}
 	}
 	
-	APE_SE_T_2 = {
+	APE_SE_TT_2 = {
 		icon = GFX_DEBUG_thumbnail
 		available = {
 			is_debug = yes
@@ -185,7 +194,7 @@ DEBUG_SE_decisions = {
 		}
 	}
 
-	APE_SE_T_3 = {
+	APE_SE_TT_3 = {
 		icon = GFX_DEBUG_thumbnail
 		available = {
 			is_debug = yes
@@ -197,7 +206,7 @@ DEBUG_SE_decisions = {
 		}
 	}
 
-	APE_SE_T_4 = {
+	APE_SE_TT_4 = {
 		icon = GFX_DEBUG_thumbnail
 		available = {
 			is_debug = yes
@@ -206,6 +215,30 @@ DEBUG_SE_decisions = {
 		fire_only_once = no
 		complete_effect = {
 			set_variable = { global.SE_ID = 4 } APE_SE_SE = yes
+		}
+	}
+	
+	APE_SE_TT_5 = {
+		icon = GFX_DEBUG_thumbnail
+		available = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			set_variable = { global.SE_ID = 5 } APE_SE_SE = yes
+		}
+	}
+	
+	APE_SE_TT_6 = {
+		icon = GFX_DEBUG_thumbnail
+		available = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			set_variable = { global.SE_ID = 6 } APE_SE_SE = yes
 		}
 	}
 }
