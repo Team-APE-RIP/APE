@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = PLA
-		add_core_of = PLA
+		owner = PLD
+		add_core_of = PLD
 		# add_core_of = GGN
 		# add_core_of = POL
 		victory_points = {

@@ -11,8 +11,8 @@ state = { #Population Done
 	state_category = large_city
 
 	history = {
-		owner = PLA
-		add_core_of = PLA
+		owner = PLE
+		add_core_of = PLE
 		# add_core_of = GER
 
 		#victory_points = { 11372 5 }

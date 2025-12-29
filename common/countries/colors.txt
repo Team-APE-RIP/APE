@@ -244,20 +244,20 @@ PLA = {
 	color_ui = rgb { 150 23 23 }
 }
 PLB = {
-	color = rgb { 150 23 23 }
-	color_ui = rgb { 150 23 23 }
+	color = rgb { 112 138 144 }
+	color_ui = rgb { 112 138 144 }
 }
 PLC = {
-	color = rgb { 150 23 23 }
-	color_ui = rgb { 150 23 23 }
+	color = rgb { 192 57 43 }
+	color_ui = rgb { 192 57 43 }
 }
 PLD = {
-	color = rgb { 150 23 23 }
-	color_ui = rgb { 150 23 23 }
+	color = rgb { 148 111 71 }
+	color_ui = rgb { 148 111 71 }
 }
 PLE = {
-	color = rgb { 150 23 23 }
-	color_ui = rgb { 150 23 23 }
+	color = rgb { 70 130 180 }
+	color_ui = rgb { 70 130 180 }
 }
 QDN = {
 	color = rgb { 225 60 50 }

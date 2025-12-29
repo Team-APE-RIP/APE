@@ -12,8 +12,8 @@ state = { #Population Done
 
 
 	history = {
-		owner = PLA
-		add_core_of = PLA
+		owner = PLE
+		add_core_of = PLE
 		# add_core_of = GER
 
 

@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = PLA
-		add_core_of = PLA
+		owner = PLC
+		add_core_of = PLC
 		# add_core_of = GER
 		buildings = {
 			schools = 1

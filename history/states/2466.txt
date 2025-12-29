@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2466"
 
 	history = {
-		owner = PLA
-		add_core_of = PLA
+		owner = PLE
+		add_core_of = PLE
 		buildings = {
 			infrastructure = 2
 			hospitals = 1

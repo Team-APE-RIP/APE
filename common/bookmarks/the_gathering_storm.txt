@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "2050_DESC"
 		date = 2050.1.1.12
 		picture = "GFX_select_date_2050"
-		default_country = "QDN"
+		default_country = "ITA"
 		default = yes
 		
 		"QFK"={
@@ -24,6 +24,16 @@ bookmarks = {
 		"IPB"={
 			history = "2050_IPB_DESC"
 			ideology = IdeologyGroup49
+			available = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"ITA"={
+			history = "2050_ITA_DESC"
+			ideology = IdeologyGroup42
 			available = yes
 			ideas = {
 			}
