@@ -332,11 +332,6 @@ SE_SE_5 = {
             ModernPolishWingedHussars = 1
             # popup = no
         }
-	}
-}
-
-SE_SE_6 = {
-	ROOT = {
 	    set_cosmetic_tag = cosmeticTagChristosPoland
 		promote_character = {
   		    character = PLA_Christos
@@ -355,5 +350,22 @@ SE_SE_6 = {
 			}
 			GetSE6LLDATE = "[?global.date.GetDateStringNoHour]"
 		}
+		every_state = {
+			limit = {
+			    has_state_flag = PolandBCWwPLDsecStateFlag
+			}
+			add_core_of = PLD
+			remove_core_of = ROOT 
+			add_claim_by = ROOT 
+			if = {
+			    limit = {
+			        is_controlled_by = ROOT
+			    }
+			    transfer_state_to = PLD
+			}
+		}
 	}
+}
+
+SE_SE_6 = {
 }

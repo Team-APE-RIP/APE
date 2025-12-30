@@ -6,3 +6,7 @@ cosmeticTagDeutschland = {
     color = rgb { 128 128 128 }
     color_ui = rgb { 128 128 128 }
 }
+cosmeticTagChristosPoland = {
+    color = rgb { 138 94 255 }
+    color_ui = rgb { 138 94 255 }
+}

@@ -11,7 +11,6 @@ state = { #Population Done
 
 		victory_points = { 9508 20 }
 		victory_points = { 9546 7 }
-		victory_points = { 6558 10 }
 		victory_points = { 243 3 }
 		victory_points = { 17 3 }
 		victory_points = { 6401 5 }

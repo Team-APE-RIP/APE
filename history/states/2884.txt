@@ -14,6 +14,7 @@ state = {
 			prisons = 1
 			thermoelectric_plant = 2
 		}
+		victory_points = { 6558 26 }
 	}
 
 	provinces = {

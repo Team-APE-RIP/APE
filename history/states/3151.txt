@@ -2,8 +2,10 @@ state = {
 	id = 3151
 	name = "STATE_3151"
 	history = {
-		owner = PLD
-		add_core_of = PLD
+		owner = PLA
+        add_core_of = PLA
+        add_core_of = PLD
+		set_state_flag = PolandBCWwPLDsecStateFlag
 		buildings = {
 			infrastructure = 3
 		}

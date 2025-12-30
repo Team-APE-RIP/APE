@@ -11,8 +11,10 @@ state = { #Population Done
 	state_category = metropolis
 
 	history = {
-		owner = PLD
-		add_core_of = PLD
+		owner = PLA
+        add_core_of = PLA
+        add_core_of = PLD
+		set_state_flag = PolandBCWwPLDsecStateFlag
 		# add_core_of = GER
 
 		victory_points = { 11467 10 }
