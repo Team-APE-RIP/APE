@@ -1,0 +1,26 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "AAGCZYRL16"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL16_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "AAGCZYRL18"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL18_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "AAGCZYRL24"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL24_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+}

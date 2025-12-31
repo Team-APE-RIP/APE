@@ -2,7 +2,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_green_alert_glow"
-		texturefile = "gfx/interface/green_alert_glow.dds"
+		texturefile = "gfx/interface/alerts/glows/APE_green_alert_glow.png"
 		noOfFrames = 2
 		animation_rate_fps = 0.5
 		looping = yes
@@ -14,7 +14,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_yellow_alert_glow"
-		texturefile = "gfx/interface/yellow_alert_glow.dds"
+		texturefile = "gfx/interface/alerts/glows/APE_yellow_alert_glow.png"
 		noOfFrames = 2
 		animation_rate_fps = 1
 		looping = yes
@@ -26,7 +26,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_btn_yellow_glow"
-		texturefile = "gfx/interface/naviesview/btn_yellow_glow.dds"
+		texturefile = "gfx/interface/naviesview/btn_yellow_glow.png"
 		noOfFrames = 2
 		animation_rate_fps = 1
 		looping = yes
@@ -38,7 +38,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_red_alert_glow"
-		texturefile = "gfx/interface/red_alert_glow.dds"
+		texturefile = "gfx/interface/alerts/glows/APE_red_alert_glow.dds"
 		noOfFrames = 2
 		animation_rate_fps = 1
 		looping = yes
@@ -74,13 +74,18 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_global_alert_icons"
-		texturefile = "gfx/interface/alerts/global_alert_icons.dds"
+		texturefile = "gfx/interface/alerts/APE_global_alert_icons.png"
 		noOfFrames = 70
 	}
 
 	spriteType = {
+		name = "GFX_global_alert_BG"
+		texturefile = "gfx/interface/alerts/BG.png"
+	}
+
+	spriteType = {
 		name = "GFX_global_alert_icons_no_backgrounds"
-		texturefile = "gfx/interface/alerts/global_alert_icons_no_backgrounds.dds"
+		texturefile = "gfx/interface/alerts/APE_global_alert_icons.png"
 		noOfFrames = 70
 	}
 

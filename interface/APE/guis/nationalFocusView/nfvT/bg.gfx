@@ -9,4 +9,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
 
+	SpriteType = {
+		name = "GFX_focusviewbgl"
+		texturefile = "gfx/interface/focusview/bgl.png"
+	}
+
 }

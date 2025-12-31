@@ -3,29 +3,38 @@ guiTypes = {
 	containerWindowType = {
 		name = "global_alerticon_window"
 		position = { x=0 y=0 }
-		size = { width=43 height=38 }
+		size = { width=46 height=50 }
 		moveable = no
 		Orientation = UPPER_LEFT
+
 		
-		buttonType = {
-			name = "icon"
-			spriteType = "GFX_global_alert_icons"	
-			position = { x = 0 y = 0 }
-			oversound = ui_menu_over
+
+		iconType = {
+			name ="alert_BG"
+			spriteType = "GFX_global_alert_BG"	
+			position = { x = 0 y = -4 }
+			alwaystransparent = yes
 		}
 
 		iconType = {
 			name ="red_alert_glow"
 			spriteType = "GFX_red_alert_glow"	
-			position = { x =0 y = 0 }
+			position = { x =0 y = -4 }
 			alwaystransparent = yes
 		}			
 
 		iconType = {
 			name ="yellow_alert_glow"
 			spriteType = "GFX_yellow_alert_glow"	
-			position = { x =0 y = 0 }
+			position = { x =0 y = -4 }
 			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "icon"
+			spriteType = "GFX_global_alert_icons"	
+			position = { x = 3 y = 3 }
+			oversound = ui_menu_over
 		}
 
 		#iconType = {

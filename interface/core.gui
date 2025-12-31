@@ -75,7 +75,7 @@ guiTypes = {
 		name = "ToolTip"
 		#textureFile = "gfx\\interface\\transparency.tga"
 		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
-		font = "cg_16b"
+		font = "AAGCZYRL16"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
 		maxWidth = 400 #600 #320
@@ -605,13 +605,11 @@ guiTypes = {
         horizontal = yes
         orientation = lower_left
         origo = lower_left
-
         background = {
             name = "Background"    
             quadTextureSprite = "GFX_scroll_track_horisontal_2"
             position = { x=-2 y = 20000 }    
         }
-        
         slider = {
             name = "Slider"    
             quadTextureSprite = "GFX_scroll_drager_2"
@@ -619,26 +617,45 @@ guiTypes = {
 			size = { width = 14 height = 7 } 
 			clipping = yes         
         }
-
-        #track = {
-        #    name = "Track"
-        #    quadTextureSprite = "GFX_scroll_track_horisontal_2"
-        #    position = { x=0 y = 3 }
-        #   alwaystransparent = yes
-        #}    
-
-        #decreaseButton = {
-            #name = "Decrease"
-            #quadTextureSprite = "GFX_scroll_left_2"
-            #position = { x=3 y = 1 }
-        #}
-        
-        #increaseButton = {
-           # name = "Increase"
-           # quadTextureSprite = "GFX_scroll_right_2"
-           # position = { x=-19 y = -17 }
-       # }
     }
+	scrollbarType = {
+		name = "standardtext_slider_air"	
+		slider = "listboxSliderButton2"
+		track= "listboxTrackButton2"
+		leftbutton = "downButton2"
+		rightbutton = "upButton2"
+		size = {x =12 y =12 }
+		position = {x= 0 y =0}
+		priority = 100			
+		borderSize = {x = 12 y = 12}	
+		maxValue =1
+		minValue =0
+		stepSize =8
+		startValue = 0
+		horizontal = 0
+		guiButtonType = {
+			name = "listboxSliderButton2"	
+			quadTextureSprite = "GFX_1_air"
+			position = { x=9000 y =0}
+		}
+		guiButtonType = {
+			name = "listboxTrackButton2"
+			quadTextureSprite = "GFX_1_air"
+			position = { x=9000 y =12}		
+		}	
+		guiButtonType = {
+			parent = "listboxSliderButton2"
+			name = "upButton2"
+			quadTextureSprite = "GFX_1_air"
+			position = { x=9000 y =0}	
+		}	
+		guiButtonType = {
+			parent = "listboxSliderButton2"
+			name = "downButton2"
+			quadTextureSprite = "GFX_1_air"
+			position = { x=9000 y =120}	
+		}
+	}
 }
 
 default_clicksound = "click_default"

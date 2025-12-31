@@ -756,33 +756,33 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_focus_start_bg"
 			buttonText = "START_FOCUS"
 			buttonFont = "Biaoyu16"
-			position = { x = 56 y = 214 }
+			position = { x = 36 y = 214 }
 			clicksound = select_focus
 			shortcut = "RETURN"
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 150 y = 176 }
+			position = { x = 130 y = 176 }
 			spriteType = "GFX_goal_unknown"
-			alwaystransparent = yes
+			#alwaystransparent = yes
 			centerposition = yes
 		}
 		iconType = {
 			name = "prerequisites_bg"
-			position = { x = 205 y = 192 }
+			position = { x = 20500 y = 192 }
 			spriteType = "GFX_generic_bg_307x113"
 			alwaystransparent = yes
 		}		
 		instantTextboxType = {
 			name = "prerequisites"
-			position = { x = 215 y = 200 }
+			position = { x = 260 y = 87 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "AAGCZYRL16"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 287
-			maxHeight = 100
-			scrollbarType = standardtext_slider
+			maxWidth = 185
+			maxHeight = 186
+			scrollbarType = standardtext_slider_air
 		}
 
 
@@ -815,13 +815,13 @@ guiTypes = {
 
 		iconType = {
 			name = "reward_bg"
-			position = { x = 84 y = 363 }
+			position = { x = 84000 y = 363 }
 			spriteType = "GFX_unit_list_header"
 		}		
 		
 		instantTextboxType = {
 			name = "reward_label"
-			position = { x = 34 y = 370 }
+			position = { x = 34000 y = 370 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -833,13 +833,13 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "reward"
-			position = { x = 50 y = 397 }
+			position = { x = 460 y = 87 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "AAGCZYRL16"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 455
-			maxHeight = 138
+			maxWidth = 245
+			maxHeight = 186
 			scrollbarType = standardtext_slider
 #			format = center
 		}
@@ -865,6 +865,19 @@ guiTypes = {
 			maxWidth = 1000
 			maxHeight = 7
 			format = right
+		}
+		containerWindowType = {
+			name = "PEXLBG"
+			position = { x=246 y=73 }
+			size = { width = 473 height = 190 }
+			clipping = yes
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_focusviewbgl"
+				alwaystransparent = yes
+			}
+			
 		}
 	}
 	
