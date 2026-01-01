@@ -6,7 +6,7 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	
-	cursor_offset = { -5 -4 }
+	cursor_offset = { -5 -11 }
 
 	corneredTileSpriteType = {
 		name = "gfx_transparency_white"

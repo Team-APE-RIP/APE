@@ -20,7 +20,7 @@ guiTypes = {
 		}
         buttonType = {
 			name = "nfvT_animeIcon_button"
-			position = { x = -380 y = 92 }
+			position = { x = -380 y = 9200 }
             orientation = "UPPER_RIGHT"
             origo = "UPPER_RIGHT"
 			quadTextureSprite = "GFX_checkbox_small4"

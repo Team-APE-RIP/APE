@@ -294,6 +294,10 @@ SE_SE_4 = {
                 type = BritishCivilWar_wargoal_focus
             }	
 			add_civil_war_target = ROOT
+			add_named_threat = {
+   		        threat = 3
+    		    name = APE_SE_TT_4
+		    }
 		}
 		BTC = { 
 		    set_capital = { state = 3108 }

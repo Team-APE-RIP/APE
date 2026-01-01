@@ -8,28 +8,26 @@ guiTypes = {
 		orientation="UPPER_LEFT"
 		
 		# Console list of entries
-		listBoxType = 
-		{
+		listBoxType = {
 			name ="console_list"
 			background = "GFX_console_win_bg"
-			position = { x=0 y=7 }
+			position = { x=0 y=0 }
 			orientation = "UPPER_LEFT"
 			priority = 100
 			size = { x=468 y=322 }
 			borderSize = { x=0 y=0 }
 			offset = { x=0 y=70 }
 			scrollbartype = "standardlistbox_slider"
-			alwaystransparent = yes
 		}
 		
 		# Text edit box
 		editBoxType = {
-			position = { x = 0 y = 410  }
+			position = { x = 11 y = 370  }
 			name = "console_edit"
-			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
-			font = "Arial12"
-			borderSize = { x=4 y=4 }	
-			size = { x=500 y=40 }
+			textureFile = "gfx\\interface\\air.dds"
+			font = "AAGCZYRL24"
+			borderSize = { x=2 y=2 }	
+			size = { x=477 y=29 }
 			text = " "
 			orientation = "UPPER_LEFT"
 			instantTextBoxType = no
@@ -51,9 +49,9 @@ guiTypes = {
 			position = { x=10 y=70 }
 			name = "console_text"
 			#textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
-			font = "Arial12"
+			font = "AAGCZYRL16"
 			borderSize = { x=8 y=1 }
-			maxWidth = 500
+			maxWidth = 470
 			maxHeight = 16
 			fixedsize = yes
 			orientation = "UPPER_LEFT"
@@ -74,9 +72,9 @@ guiTypes = {
 	textBoxType={
 		name = "ToolTip"
 		#textureFile = "gfx\\interface\\transparency.tga"
-		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
+		textureFile = "gfx\\interface\\bg\\tiled_SPinckEXwthSCLP_bg.dds"
 		font = "AAGCZYRL16"
-		borderSize = { x=18 y=18 }
+		borderSize = { x=11 y=11 }
 		position = { x= 560 y=10 }
 		maxWidth = 400 #600 #320
 		maxHeight = 256
@@ -109,7 +107,7 @@ guiTypes = {
 		#textureFile = "gfx\\interface\\transparency.tga"
 		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
 		#textureFile = ""
-		font = "Main_14_eu"
+		font = "AAGCZYRL16"
 		borderSize = { x=32 y=32 }
 		position = { x=0 y=0 }
 		maxWidth = 128

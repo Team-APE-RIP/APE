@@ -46,8 +46,8 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "find_view"
-			position = { x=-344 y=4 }
-			size = { width=385 height=300 }
+			position = { x=-466 y=1 }
+			size = { width=333 height=42 }
 			Orientation = upper_right
 			clipping = no
 			
@@ -62,16 +62,20 @@ guiTypes = {
 			iconType ={
 				name ="find_editbox_bg"
 				spriteType = "GFX_FOCUS_FILTER_FIND_BG"
-				position = {x=1 y=1}
+				position = {x=0 y=0}
 				tooltip = "FOCUS_SEARCH_TOOLTIP"
 			}
 			
 			editBoxType = {
 				name = "to_find_text"
-				position = { x=41 y=14 }
-				size = { x=150 y=25 }
-				font = "hoi_16mbs"
-				text = ""
+				position = { x=34 y=6 }
+				font = "AAGCZYRL24"
+			    borderSize = { x=2 y=2 }	
+			    size = { x=292 y=29 }
+			    text = " "
+			    orientation = "UPPER_LEFT"
+			    instantTextBoxType = no
+			    cursor = { x = 0 y = 8 }
 				tooltip = "FOCUS_SEARCH_TOOLTIP"
 			}
 			
@@ -88,12 +92,12 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "type_to_search_text"
-				position = { x = 40 y = 12 }
-				font = "hoi_18mbs"
-				borderSize = {x = 0 y = 0}
+				position = { x = 34 y = 6 }
+				font = "AAGCZYRL24"
+				borderSize = {x = 2 y = 2}
 				text = "FOCUS_SEARCH_TYPE_TEXT"
-				maxWidth = 160
-				maxHeight = 100
+				maxWidth = 292
+				maxHeight = 29
 				format = left
 			}
 			
@@ -111,13 +115,13 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "zoom_slider_container"
-			position = {x=-233 y=6}	
+			position = {x=-233 y=4}	
 			Orientation = UPPER_RIGHT
 			size = {width=244 height=37}
 			
 			buttonType = {
 				name = "zoom_out"
-				position = { x = 35 y = 0 }
+				position = { x = 40 y = 0 }
 				quadTextureSprite = "GFX_focus_zoom_in"
 				centerposition = yes
 				Orientation = CENTER
@@ -756,13 +760,13 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_focus_start_bg"
 			buttonText = "START_FOCUS"
 			buttonFont = "Biaoyu16"
-			position = { x = 36 y = 214 }
+			position = { x = 36 y = 217 }
 			clicksound = select_focus
 			shortcut = "RETURN"
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 130 y = 176 }
+			position = { x = 130 y = 179 }
 			spriteType = "GFX_goal_unknown"
 			#alwaystransparent = yes
 			centerposition = yes
@@ -775,7 +779,7 @@ guiTypes = {
 		}		
 		instantTextboxType = {
 			name = "prerequisites"
-			position = { x = 260 y = 87 }
+			position = { x = 260 y = 90 }
 			textureFile = ""
 			font = "AAGCZYRL16"
 			borderSize = {x = 0 y = 0}
@@ -788,29 +792,29 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "statsarea"
-			position = { x=20 y=270 }
-			size = { width = 97%% height = 98%% }
+			position = { x=11 y=272 }
+			size = { width = 708 height = 357 }
 			horizontalScrollbar = "bottom_horizontal_slider"
 			verticalScrollbar = "right_vertical_slider"
-			margin = { top = 4 left = 13 bottom = 0 right = 5}
 			clipping = yes
 			
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_paper_bg2"
+				quadTextureSprite ="GFX_tiled_SPinckEXwthSCLP_bg"
 			}
 			
 		}
 		instantTextboxType = {
 			name = "desc"
-			position = { x = 34 y = 250 }
+			position = { x = 22 y = 283 }
 			textureFile = ""
-			font = "hoi_18mbs"
-			borderSize = {x = 5 y = 0}
+			font = "AAGCZYRL18"
+			borderSize = {x = 0 y = 0}
 			text = "Description"
-			maxWidth = 485
-			maxHeight = 70
-			format = center
+			maxWidth = 686
+			maxHeight = 335
+			format = left
+			scrollbarType = standardtext_slider_air
 		}
 
 		iconType = {
@@ -833,15 +837,15 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "reward"
-			position = { x = 460 y = 87 }
+			position = { x = 460 y = 90 }
 			textureFile = ""
 			font = "AAGCZYRL16"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 245
 			maxHeight = 186
-			scrollbarType = standardtext_slider
-#			format = center
+			scrollbarType = standardtext_slider_air
+			format = left
 		}
 		
 		iconType = {
@@ -868,7 +872,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "PEXLBG"
-			position = { x=246 y=73 }
+			position = { x=246 y=76 }
 			size = { width = 473 height = 190 }
 			clipping = yes
 			
