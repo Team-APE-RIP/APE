@@ -894,7 +894,7 @@ spriteTypes = {
 		name = "GFX_FOCUS_FILTER_FIND_BG"
 		textureFile = "gfx/interface/focusview/filter/find_editbox.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_FOCUS_ICON_SET_HISTORICAL_KEY_FOCUS"
 		textureFile = "gfx/interface/focusview/filter/GER_historical_key_focus.dds"

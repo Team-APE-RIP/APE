@@ -103,9 +103,8 @@ guiTypes = {
 			
 			buttonType = {
 				name = "clear_search"
-				position = { x = 185 y = 21 }
+				position = { x = 299 y = 8 }
 				quadTextureSprite = "GFX_focus_clear_text"
-				centerposition = yes
 			}
 		}
 
@@ -337,13 +336,13 @@ guiTypes = {
 				
 				background = {
 					name = "Background"
-					quadTextureSprite ="GFX_focus_tooltip"
+					quadTextureSprite ="GFX_tiled_SPinckEXwthSCLP_bg"
 				}
 				
 				instantTextboxType = {
 					name = "tooltip_text"
 					position = { x = 13 y = 13 }
-					font = "cg_16b"
+					font = "AAGCZYRL16"
 					text = "Hello world!"
 					maxWidth = 345
 					maxHeight = 20
