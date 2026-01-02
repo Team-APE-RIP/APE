@@ -8,3 +8,5 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup61 = 100
 }
+#fuckParadox
+set_variable = { APEMainThemeID = 7 } # APEMainTheme - Szept w Eterze

@@ -4,26 +4,12 @@ bookmarks = {
 		desc = "2050_DESC"
 		date = 2050.1.1.12
 		picture = "GFX_select_date_2050"
-		default_country = "ITA"
+		default_country = "BTA"
 		default = yes
 		
-		"QFK"={
-			history = "2050_QFK_DESC"
-			ideology = IdeologyGroup9
-			available = yes
-			ideas = {
-				QFK_idea_TheDoctrineOfTheMean_show
-				QFK_idea_ConfucianClassics_show
-			}
-			focuses = {
-				QFK_01_FS_01_A_O
-				QFK_01_FS_03_B_O_L_R
-			}
-		}
-		
-		"IPB"={
-			history = "2050_IPB_DESC"
-			ideology = IdeologyGroup49
+		"BTA"={
+			history = "2050_BTA_DESC"
+			ideology = IdeologyGroup54
 			available = yes
 			ideas = {
 			}
@@ -31,9 +17,9 @@ bookmarks = {
 			}
 		}
 		
-		"ITA"={
-			history = "2050_ITA_DESC"
-			ideology = IdeologyGroup42
+		"IRL"={
+			history = "2050_IRL_DESC"
+			ideology = IdeologyGroup53
 			available = yes
 			ideas = {
 			}

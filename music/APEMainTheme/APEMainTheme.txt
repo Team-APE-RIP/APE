@@ -36,3 +36,9 @@ music = {
 	    modifier = { factor = 0 }
 	}
 }
+music = {
+    song =  "APEMainTheme_7" # Szept w Eterze - Poland
+	chance = {
+	    modifier = { factor = 0 }
+	}
+}
