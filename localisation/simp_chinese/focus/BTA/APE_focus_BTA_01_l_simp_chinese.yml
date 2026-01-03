@@ -1,0 +1,58 @@
+﻿l_simp_chinese: 
+ # 注意此为BTA_01国策本地化 请勿在此填写无关内容 
+ # 国策的ID为 TAG_FOCUSTREEID_PROJECT_ID 
+ 
+ 
+ 
+ # BTA 01
+ BTA_01_FS_00: ""
+ BTA_01_FS_00_desc: ""
+
+ BTA_01_FS_02_L: ""
+ BTA_01_FS_02_L_desc: ""
+
+ BTA_01_FS_02_R: ""
+ BTA_01_FS_02_R_desc: ""
+
+ BTA_01_FS_03: ""
+ BTA_01_FS_03_desc: ""
+
+ BTA_01_FS_04_L: ""
+ BTA_01_FS_04_L_desc: ""
+
+ BTA_01_FS_04_R: ""
+ BTA_01_FS_04_R_desc: ""
+
+ BTA_01_FS_05_LO: ""
+ BTA_01_FS_05_LO_desc: ""
+
+ BTA_01_FS_05_RO: ""
+ BTA_01_FS_05_RO_desc: ""
+
+ BTA_01_FS_05_L: ""
+ BTA_01_FS_05_L_desc: ""
+
+ BTA_01_FS_05_R: ""
+ BTA_01_FS_05_R_desc: ""
+
+ BTA_01_FS_07_L: ""
+ BTA_01_FS_07_L_desc: ""
+
+ BTA_01_FS_07_R: ""
+ BTA_01_FS_07_R_desc: ""
+
+ BTA_01_FS_08_LO: ""
+ BTA_01_FS_08_LO_desc: ""
+
+ BTA_01_FS_08_RO: ""
+ BTA_01_FS_08_RO_desc: ""
+
+ BTA_01_FS_08: ""
+ BTA_01_FS_08_desc: ""
+
+ BTA_01_FS_10_L: ""
+ BTA_01_FS_10_L_desc: ""
+
+ BTA_01_FS_10_R: ""
+ BTA_01_FS_10_R_desc: ""
+

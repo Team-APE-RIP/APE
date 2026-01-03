@@ -1,0 +1,88 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_00"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_00.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_02_L"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_02_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_02_R"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_02_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_03"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_03.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_04_L"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_04_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_04_R"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_04_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_05_LO"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_05_LO.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_05_RO"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_05_RO.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_05_L"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_05_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_05_R"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_05_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_07_L"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_07_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_07_R"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_07_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_08_LO"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_08_LO.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_08_RO"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_08_RO.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_08"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_08.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_10_L"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_10_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTA_01_FS_10_R"
+        texturefile = "gfx/icons/goals/BTA/BTA_01_FS_10_R.png"
+        transparencecheck = yes
+    }
+}
+

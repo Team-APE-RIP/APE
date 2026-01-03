@@ -1,0 +1,236 @@
+#!gfx:interface\APE\icons\goals\BTA\01_goals.gfx
+#!gfx:interface\APE\icons\goals\BTA\01_goals_anime.gfx
+focus_tree = {
+	id = BTA_01
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BTA
+		}
+	}
+	shared_focus = BTA_01_FS_00
+	default = no
+    continuous_focus_position = { x = 200 y = 200 }
+	initial_show_position = { x = 0 y = 0 }
+}
+    shared_focus = {
+		id = BTA_01_FS_00
+		icon = GFX_focus_goals_BTA_01_FS_00
+		dynamic = yes 
+		cost = 20
+		x = 21
+		y = 2
+		allow_branch = {
+		}
+		completion_reward = {
+		}
+	}
+	shared_focus = {
+		id = BTA_01_FS_02_L
+		icon = GFX_focus_goals_BTA_01_FS_02_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_00
+		}
+		x = -5
+		y = 2
+		relative_position_id = BTA_01_FS_00
+	}
+	shared_focus = {
+		id = BTA_01_FS_02_R
+		icon = GFX_focus_goals_BTA_01_FS_02_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_00
+		}
+		x = 5
+		y = 2
+		relative_position_id = BTA_01_FS_00
+	}
+	shared_focus = {
+		id = BTA_01_FS_03
+		icon = GFX_focus_goals_BTA_01_FS_03
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_00
+		}
+		x = 0
+		y = 3
+		relative_position_id = BTA_01_FS_00
+	}
+	shared_focus = {
+		id = BTA_01_FS_04_L
+		icon = GFX_focus_goals_BTA_01_FS_04_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_02_L
+		}
+		x = -1
+		y = 2
+		relative_position_id = BTA_01_FS_02_L
+	}
+	shared_focus = {
+		id = BTA_01_FS_04_R
+		icon = GFX_focus_goals_BTA_01_FS_04_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_02_R
+		}
+		x = 1
+		y = 2
+		relative_position_id = BTA_01_FS_02_R
+	}
+	shared_focus = {
+		id = BTA_01_FS_05_LO
+		icon = GFX_focus_goals_BTA_01_FS_05_LO
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_04_L
+		}
+		x = 0
+		y = 1
+		relative_position_id = BTA_01_FS_04_L
+	}
+	shared_focus = {
+		id = BTA_01_FS_05_RO
+		icon = GFX_focus_goals_BTA_01_FS_05_RO
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_04_R
+		}
+		x = 0
+		y = 1
+		relative_position_id = BTA_01_FS_04_R
+	}
+	shared_focus = {
+		id = BTA_01_FS_05_L
+		icon = GFX_focus_goals_BTA_01_FS_05_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_03
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTA_01_FS_03
+	}
+	shared_focus = {
+		id = BTA_01_FS_05_R
+		icon = GFX_focus_goals_BTA_01_FS_05_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_03
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTA_01_FS_03
+	}
+	shared_focus = {
+		id = BTA_01_FS_07_L
+		icon = GFX_focus_goals_BTA_01_FS_07_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_04_L
+		}
+		prerequisite = {
+			focus = BTA_01_FS_05_L
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTA_01_FS_05_L
+	}
+	shared_focus = {
+		id = BTA_01_FS_07_R
+		icon = GFX_focus_goals_BTA_01_FS_07_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_04_R
+		}
+		prerequisite = {
+			focus = BTA_01_FS_05_R
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTA_01_FS_05_R
+	}
+	shared_focus = {
+		id = BTA_01_FS_08_LO
+		icon = GFX_focus_goals_BTA_01_FS_08_LO
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_07_L
+		}
+		x = 0
+		y = 1
+		relative_position_id = BTA_01_FS_07_L
+	}
+	shared_focus = {
+		id = BTA_01_FS_08_RO
+		icon = GFX_focus_goals_BTA_01_FS_08_RO
+		dynamic = yes 
+		text_icon = noIcon_style
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_07_R
+		}
+		x = 0
+		y = 1
+		relative_position_id = BTA_01_FS_07_R
+	}
+	shared_focus = {
+		id = BTA_01_FS_08
+		icon = GFX_focus_goals_BTA_01_FS_08
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_03
+		}
+		x = 0
+		y = 5
+		relative_position_id = BTA_01_FS_03
+	}
+	shared_focus = {
+		id = BTA_01_FS_10_L
+		icon = GFX_focus_goals_BTA_01_FS_10_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_07_L
+		}
+		prerequisite = {
+			focus = BTA_01_FS_08
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTA_01_FS_08
+	}
+	shared_focus = {
+		id = BTA_01_FS_10_R
+		icon = GFX_focus_goals_BTA_01_FS_10_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTA_01_FS_07_R
+		}
+		prerequisite = {
+			focus = BTA_01_FS_08
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTA_01_FS_08
+	}
