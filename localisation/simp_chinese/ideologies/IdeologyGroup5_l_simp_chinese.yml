@@ -3,7 +3,7 @@
  IdeologyGroup5: "中华皇权独裁主义"
  IdeologyGroup5_noun: "$IdeologyGroup5$"
  IdeologyGroup5_desc: "$IdeologyGroup5$政体"
- IdeologyGroup5_drift: "意识形态向$IdeologyGroup5$变化力度"
+ IdeologyGroup5_drift: "£IG5_texticon 意识形态向$IdeologyGroup5$变化力度"
  IdeologyGroup5_IdelogySubtype0: ""
  IdeologyGroup5_IdelogySubtype0_desc: ""
  IdeologyGroup5_IdelogySubtype1: "程朱理学"

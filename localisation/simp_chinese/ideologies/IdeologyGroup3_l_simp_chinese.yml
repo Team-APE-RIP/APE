@@ -3,7 +3,7 @@
  IdeologyGroup3: "无政府爱丽丝教主义"
  IdeologyGroup3_noun: "$IdeologyGroup3$"
  IdeologyGroup3_desc: "$IdeologyGroup3$政体"
- IdeologyGroup3_drift: "意识形态向$IdeologyGroup3$变化力度"
+ IdeologyGroup3_drift: "£IG3_texticon 意识形态向$IdeologyGroup3$变化力度"
  IdeologyGroup3_IdelogySubtype0: ""
  IdeologyGroup3_IdelogySubtype0_desc: ""
  IdeologyGroup3_IdelogySubtype1: "世俗化爱丽丝教信仰"

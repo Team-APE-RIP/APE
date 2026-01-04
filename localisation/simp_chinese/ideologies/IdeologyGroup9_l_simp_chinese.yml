@@ -3,7 +3,7 @@
  IdeologyGroup9: "儒学唯心主义"
  IdeologyGroup9_noun: "$IdeologyGroup9$"
  IdeologyGroup9_desc: "$IdeologyGroup9$政体"
- IdeologyGroup9_drift: "意识形态向$IdeologyGroup9$变化力度"
+ IdeologyGroup9_drift: "£IG9_texticon 意识形态向$IdeologyGroup9$变化力度"
  IdeologyGroup9_IdelogySubtype0: ""
  IdeologyGroup9_IdelogySubtype0_desc: ""
  IdeologyGroup9_IdelogySubtype1: "孔子思想"

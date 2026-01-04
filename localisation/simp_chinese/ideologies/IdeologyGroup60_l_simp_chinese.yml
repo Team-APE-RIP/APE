@@ -3,7 +3,7 @@
  IdeologyGroup60: "科学基督救世主义"
  IdeologyGroup60_noun: "$IdeologyGroup60$"
  IdeologyGroup60_desc: "$IdeologyGroup60$政体"
- IdeologyGroup60_drift: "意识形态向$IdeologyGroup60$变化力度"
+ IdeologyGroup60_drift: "£IG60_texticon 意识形态向$IdeologyGroup60$变化力度"
  IdeologyGroup60_IdelogySubtype0: ""
  IdeologyGroup60_IdelogySubtype0_desc: ""
  IdeologyGroup60_IdelogySubtype1: "赛博基督救赎主义"

@@ -775,6 +775,19 @@ guiTypes = {
 			position = { x = 20500 y = 192 }
 			spriteType = "GFX_generic_bg_307x113"
 			alwaystransparent = yes
+		}
+		containerWindowType = {
+			name = "PEXLBG"
+			position = { x=246 y=76 }
+			size = { width = 473 height = 190 }
+			clipping = yes
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_focusviewbgl"
+				alwaystransparent = yes
+			}
+			
 		}		
 		instantTextboxType = {
 			name = "prerequisites"
@@ -868,19 +881,6 @@ guiTypes = {
 			maxWidth = 1000
 			maxHeight = 7
 			format = right
-		}
-		containerWindowType = {
-			name = "PEXLBG"
-			position = { x=246 y=76 }
-			size = { width = 473 height = 190 }
-			clipping = yes
-			
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_focusviewbgl"
-				alwaystransparent = yes
-			}
-			
 		}
 	}
 	

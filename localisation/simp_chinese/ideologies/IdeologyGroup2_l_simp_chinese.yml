@@ -3,7 +3,7 @@
  IdeologyGroup2: "自由意志社会主义"
  IdeologyGroup2_noun: "$IdeologyGroup2$"
  IdeologyGroup2_desc: "$IdeologyGroup2$政体"
- IdeologyGroup2_drift: "意识形态向$IdeologyGroup2$变化力度"
+ IdeologyGroup2_drift: "£IG2_texticon 意识形态向$IdeologyGroup2$变化力度"
  IdeologyGroup2_IdelogySubtype0: ""
  IdeologyGroup2_IdelogySubtype0_desc: ""
  IdeologyGroup2_IdelogySubtype1: "学生议会联邦派"

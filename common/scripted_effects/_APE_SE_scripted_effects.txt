@@ -315,6 +315,7 @@ SE_SE_4 = {
             }	
 			add_civil_war_target = ROOT
 		}
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 

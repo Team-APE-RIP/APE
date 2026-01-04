@@ -18,9 +18,21 @@ focus_tree = {
 		id = BTA_01_FS_00
 		icon = GFX_focus_goals_BTA_01_FS_00
 		dynamic = yes 
-		cost = 20
+		cost = 5
 		x = 21
 		y = 2
+		offset = {
+			trigger = {
+				NOT = { has_cosmetic_tag = cosmeticTagBCW_MPC }
+			}
+			y = 2
+		}
+		offset = {
+			trigger = {
+				NOT = { has_completed_focus = BTA_01_FS_02_R }
+			}
+			y = 2
+		}
 		allow_branch = {
 		}
 		completion_reward = {
@@ -36,6 +48,12 @@ focus_tree = {
 		}
 		x = -5
 		y = 2
+		offset = {
+			trigger = {
+				NOT = { has_completed_focus = BTA_01_FS_02_R }
+			}
+			x = 3
+		}
 		relative_position_id = BTA_01_FS_00
 	}
 	shared_focus = {
@@ -48,7 +66,16 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
+		offset = {
+			trigger = {
+				NOT = { has_completed_focus = BTA_01_FS_02_R }
+			}
+			x = -3
+		}
 		relative_position_id = BTA_01_FS_00
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_03
@@ -61,6 +88,9 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = BTA_01_FS_00
+		allow_branch = {
+		    has_completed_focus = BTA_01_FS_02_R
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_04_L
@@ -72,7 +102,16 @@ focus_tree = {
 		}
 		x = -1
 		y = 2
+		offset = {
+			trigger = {
+				NOT = { has_completed_focus = BTA_01_FS_02_R }
+			}
+			x = 1
+		}
 		relative_position_id = BTA_01_FS_02_L
+		allow_branch = {
+		    has_cosmetic_tag = cosmeticTagBCW_MPC
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_04_R
@@ -84,7 +123,16 @@ focus_tree = {
 		}
 		x = 1
 		y = 2
+		offset = {
+			trigger = {
+				NOT = { has_completed_focus = BTA_01_FS_02_R }
+			}
+			x = -1
+		}
 		relative_position_id = BTA_01_FS_02_R
+		allow_branch = {
+		    has_cosmetic_tag = cosmeticTagBCW_MPC
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_05_LO
@@ -202,6 +250,12 @@ focus_tree = {
 		}
 		x = 0
 		y = 5
+		offset = {
+			trigger = {
+				NOT = { has_cosmetic_tag = cosmeticTagBCW_MPC }
+			}
+			y = -1
+		}
 		relative_position_id = BTA_01_FS_03
 	}
 	shared_focus = {

@@ -3,7 +3,7 @@
  IdeologyGroup1: "共享主义"
  IdeologyGroup1_noun: "$IdeologyGroup1$"
  IdeologyGroup1_desc: "$IdeologyGroup1$政体"
- IdeologyGroup1_drift: "意识形态向$IdeologyGroup1$变化力度"
+ IdeologyGroup1_drift: "£IG1_texticon 意识形态向$IdeologyGroup1$变化力度"
  IdeologyGroup1_IdelogySubtype0: ""
  IdeologyGroup1_IdelogySubtype0_desc: ""
  IdeologyGroup1_IdelogySubtype1: "王瑶澄思想"

@@ -3,7 +3,7 @@
  IdeologyGroup6: "中华封建专制主义"
  IdeologyGroup6_noun: "$IdeologyGroup6$"
  IdeologyGroup6_desc: "$IdeologyGroup6$政体"
- IdeologyGroup6_drift: "意识形态向$IdeologyGroup6$变化力度"
+ IdeologyGroup6_drift: "£IG6_texticon 意识形态向$IdeologyGroup6$变化力度"
  IdeologyGroup6_IdelogySubtype0: ""
  IdeologyGroup6_IdelogySubtype0_desc: ""
  IdeologyGroup6_IdelogySubtype1: "佛教信仰"
