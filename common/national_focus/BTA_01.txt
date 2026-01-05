@@ -31,7 +31,7 @@ focus_tree = {
 			trigger = {
 				NOT = { has_completed_focus = BTA_01_FS_02_R }
 			}
-			y = 2
+			y = 3
 		}
 		allow_branch = {
 		}
@@ -250,13 +250,11 @@ focus_tree = {
 		}
 		x = 0
 		y = 5
-		offset = {
-			trigger = {
-				NOT = { has_cosmetic_tag = cosmeticTagBCW_MPC }
-			}
-			y = -1
-		}
 		relative_position_id = BTA_01_FS_03
+		allow_branch = {
+		    has_cosmetic_tag = cosmeticTagBCW_MPC
+			has_completed_focus = BTA_01_FS_02_R
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_10_L

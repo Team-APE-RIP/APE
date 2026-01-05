@@ -4,7 +4,7 @@ guiTypes = {
 		name ="frontend_background"
 		position = { x=0 y =0 }	
 		size = { 
-			width = 1920 
+			width = 2560
 			height = 1440 
 			min = { width = 100% height = 100% }
 			max = { width = 100% height = 10000 }
@@ -28,14 +28,14 @@ guiTypes = {
 		
 		buttonType =
 		{
-			position = { x = -230 y = 0 }
+			position = { x = -23000 y = 0 }
 			name ="dlc_button"
 			spriteType = "GFX_frontend_banner_dlc018"
 		}
 		
 		iconType = {
 			name = "glowup"
-			position = { x = -50 y = -21 }
+			position = { x = -500000 y = -21 }
 			spriteType = "GFX_spirit_glow"
 			scale = 0.8
 			#hide = yes
@@ -44,7 +44,7 @@ guiTypes = {
 		buttonType = {
 			name = "owned_tick"
 			spriteType = "GFX_BPT_area_defense_setting_tick"
-			position = { x = -6 y = 1 }
+			position = { x = -600000 y = 1 }
 			Orientation = center_left
 			scale = 0.56
 			alwaysTransparent = yes
@@ -54,7 +54,7 @@ guiTypes = {
 		buttonType = {
 			name = "enabled_tick"
 			spriteType = "GFX_general_check"
-			position = { x = 28 y = 24 }
+			position = { x = 280000 y = 24 }
 			Orientation = center_left
 			alwaysTransparent = yes
 		}
@@ -67,7 +67,7 @@ guiTypes = {
 		
 		buttonType =
 		{
-			position = { x = -230 y = 0 }
+			position = { x = -23000 y = 0 }
 			name ="dlc_button"
 			spriteType = "GFX_frontend_banner_dlc018"
 		}
@@ -75,7 +75,7 @@ guiTypes = {
 		buttonType = {
 			name = "owned_tick"
 			spriteType = "GFX_BPT_area_defense_setting_tick"
-			position = { x = -6 y = 1 }
+			position = { x = -60000 y = 1 }
 			Orientation = center_left
 			scale = 0.56
 			alwaysTransparent = yes
@@ -85,7 +85,7 @@ guiTypes = {
 		buttonType = {
 			name = "enabled_tick"
 			spriteType = "GFX_general_check"
-			position = { x = 28 y = 24 }
+			position = { x = 28000 y = 24 }
 			Orientation = center_left
 			alwaysTransparent = yes
 		}
@@ -95,7 +95,7 @@ guiTypes = {
 	### MAIN MENU PANEL (DLC Ownership) 
 	containerWindowType = {
 		name  ="mainmenu_dlc_ownership"
-		position = { x=5 y =0 }
+		position = { x=50000 y =0 }
 		size = { width = 370 height = 583}
 		Orientation = lower_left
 		origo = lower_left
@@ -285,7 +285,7 @@ guiTypes = {
 
 		positionType = {
 			name = "subscription_size"
-			position = { x = 320 y = 575 }
+			position = { x = 320 y = 450 }
 		}
 				
 		background = {
@@ -335,7 +335,7 @@ guiTypes = {
 
 		positionType = {
 			name = "version_label_subscription_position"
-			position = { x = 35 y = 539 }
+			position = { x = 35 y = 411 }
 		}
 		
 		
@@ -409,13 +409,13 @@ guiTypes = {
 
 		iconType = {
 			name = "subscription_divider"
-			position = { x = 4 y = 336 }
+			position = { x = 40000 y = 336 }
 			spriteType = "GFX_main_lobby_divider"
 		}
 
 		containerWindowType = {
 			name = "subscription_widget"
-			position = { x = 16 y = 352 }
+			position = { x = 16000 y = 352 }
 			size = { width = 288 height = 108 }
 
 			ButtonType = {
@@ -430,7 +430,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "subscription_widget_subscribed"
-			position = { x = 16 y = 352 }
+			position = { x = 16000 y = 352 }
 			size = { width = 288 height = 108 }
 
 			ButtonType = {
@@ -464,7 +464,7 @@ guiTypes = {
 
 		positionType = {
 			name = "subscription_position_without_social_gui"
-			position = { x = 0 y = 239 }
+			position = { x = 0 y = 175 }
 		}
 		
 		containerWindowType = {
