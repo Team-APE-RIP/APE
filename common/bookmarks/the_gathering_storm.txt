@@ -17,22 +17,22 @@ bookmarks = {
 			}
 		}
 		
-		"IRL"={
-			history = "2050_IRL_DESC"
-			ideology = IdeologyGroup53
-			available = yes
-			ideas = {
-			}
-			focuses = {
-			}
-		}
+		#"IRL"={
+		#	history = "2050_IRL_DESC"
+		#	ideology = IdeologyGroup53
+		#	available = yes
+		#	ideas = {
+		#	}
+		#	focuses = {
+		#	}
+		#}
 		
 		
 		
 
-		"---"={
-			history = "2050_OTHER_DESC"
-		}
+		#"---"={
+		#	history = "2050_OTHER_DESC"
+		#}
 
 
 		# minors from DLC ####

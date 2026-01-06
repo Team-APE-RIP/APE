@@ -246,7 +246,10 @@ focus_tree = {
 		dynamic = yes 
 		cost = 20
 		prerequisite = {
-			focus = BTA_01_FS_03
+			focus = BTA_01_FS_05_L
+		}
+		prerequisite = {
+			focus = BTA_01_FS_05_R
 		}
 		x = 0
 		y = 5

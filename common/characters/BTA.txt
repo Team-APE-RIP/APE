@@ -1,0 +1,19 @@
+characters = {
+	BTA_ReginaldBlackwell = {
+		name = BTA_ReginaldBlackwell
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_BTA_ReginaldBlackwell
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup54_IdelogySubtype1
+			desc = BTA_ReginaldBlackwell_desc
+			traits = {
+                BTA_traits_DieHardTraditionalist
+                BTA_traits_RuthlessBureaucrat
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}
