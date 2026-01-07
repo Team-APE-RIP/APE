@@ -165,7 +165,7 @@ spriteTypes = {
 
 	spriteType = { 
 		name = "GFX_no_combat_leader"
-		texturefile = "gfx/leaders/leader_unknown.dds"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
 		legacy_lazy_load = no
 		generate_mip_maps = yes
 	}
