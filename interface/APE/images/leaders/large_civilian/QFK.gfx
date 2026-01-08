@@ -5,6 +5,7 @@ spriteTypes = {
 	# spriteType = {
 		# name = GFX_portrait_large_civilian_<TAG>_<NAME>
 		# texturefile = "gfx/images/leaders/large_civilian/<TAG>/<TAG>_<NAME>.png"
+		# legacy_lazy_load = no
 	# }
 
 	## QFK ##
@@ -12,6 +13,7 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_large_civilian_QFK_KongYouren
 		texturefile = "gfx/images/leaders/large_civilian/QFK/QFK_KongYouren.png"
+		legacy_lazy_load = no
 	}
 
 }

@@ -1,0 +1,33 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_focus_goals_ZZZ_01_BM_air"
+        texturefile = "gfx/icons/goals/ZZZ/ZZZ_01_BM_air.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_ZZZ_01_BM_BGBTA"
+        texturefile = "gfx/icons/goals/ZZZ/ZZZ_01_BM_BGBTA.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_ZZZ_01_BM_BTA"
+        texturefile = "gfx/icons/goals/ZZZ/ZZZ_01_BM_BTA.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_ZZZ_01_BM_BTB"
+        texturefile = "gfx/icons/goals/ZZZ/ZZZ_01_BM_BTB.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_ZZZ_01_BM_BTC"
+        texturefile = "gfx/icons/goals/ZZZ/ZZZ_01_BM_BTC.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_ZZZ_01_BM_BTD"
+        texturefile = "gfx/icons/goals/ZZZ/ZZZ_01_BM_BTD.png"
+        transparencecheck = yes
+    }
+}
+

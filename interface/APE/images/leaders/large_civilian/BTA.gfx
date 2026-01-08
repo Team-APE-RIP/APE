@@ -5,6 +5,7 @@ spriteTypes = {
 	# spriteType = {
 		# name = GFX_portrait_large_civilian_<TAG>_<NAME>
 		# texturefile = "gfx/images/leaders/large_civilian/<TAG>/<TAG>_<NAME>.png"
+		# legacy_lazy_load = no
 	# }
 
 	## BTA ##
@@ -12,6 +13,7 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_large_civilian_BTA_ReginaldBlackwell
 		texturefile = "gfx/images/leaders/large_civilian/BTA/BTA_ReginaldBlackwell.png"
+		legacy_lazy_load = no
 	}
 
 }

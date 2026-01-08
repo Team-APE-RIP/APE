@@ -620,7 +620,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
-		size = { width=1225 height=717 }
+		size = { width=1280 height=700 }
+		position = { x = 0 y = -10 }
 		Orientation = center
 		origo = center
 		clipping = no
@@ -628,19 +629,29 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 12000 }
 			textureFile = ""
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_COUNTRY"
-			maxWidth = 1225
+			maxWidth = 1280
 			maxHeight = 30
 			format = centre
 		}
 
 		background = {
-			name = "single_player_country_bg"
+			name = "single_player_country_bg1"
 			quadTextureSprite ="GFX_country_selection_bg"
+		}
+
+		background = {
+			name = "single_player_country_bg2"
+			quadTextureSprite ="GFX_tiled_SPinckEXwthSCL_bg"
+		}
+
+		background = {
+			name = "single_player_country_bg3"
+			quadTextureSprite ="GFX_tiled_161F4Cc_bg"
 		}
 
 		ButtonType = {
@@ -738,7 +749,7 @@ guiTypes = {
 				position = { x = 0 y = -5 }
 				font = "AAGCZYRL16"
 				borderSize = {x = 0 y = 0}
-				text = "LEADER"
+				text = "APELEADER"
 				maxWidth = 340
 				format = left
 			}
@@ -818,7 +829,7 @@ guiTypes = {
 				position = { x = 0 y = 35 }
 				font = "AAGCZYRL16"
 				borderSize = {x = 0 y = 0}
-				text = "RULING_PARTY"
+				text = "APEPARTY"
 				maxWidth = 340
 				format = left
 			}
@@ -836,7 +847,7 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 289 y = 44100 }
+			position = { x = 260 y = 460 }
 			#scale=0.696
 			#rotation=-0.04
 		}
@@ -860,7 +871,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 451 y = 475 }
+			position = { x = 0 y = 0 }
 
 			iconType ={
 				name ="pol_faction_icon"
@@ -887,16 +898,16 @@ guiTypes = {
 
 			containerWindowType = {
 				name ="focus"
-				position = { x = 9 y = 85 }
+				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100 }
 
 				gridboxType = {
 					name ="focus_grid"
-					position = { x = 17 y = 8 }
+					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100 }
-					slotsize = { width = 105 height = 100 }
-					max_slots = { x = 4 y = 1 }
-					add_horizontal = yes
+					slotsize = { width = 0 height = 0 }
+					max_slots = { x = 100 y = 1 }
+					add_horizontal = no
 					format = "UPPER_LEFT"
 				}
 			}

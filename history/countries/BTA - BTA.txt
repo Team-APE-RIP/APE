@@ -7,9 +7,10 @@ set_politics = {
 }
 set_popularities = {
 	IdeologyGroup2 = 1
-	IdeologyGroup4 = 15
+	IdeologyGroup4 = 14
+	IdeologyGroup7 = 6
 	IdeologyGroup11 = 2
-	IdeologyGroup16 = 16
+	IdeologyGroup16 = 14
 	IdeologyGroup18 = 7
 	IdeologyGroup19 = 1
 	IdeologyGroup21 = 1
@@ -21,8 +22,8 @@ set_popularities = {
 	IdeologyGroup42 = 1
 	IdeologyGroup54 = 21
 	IdeologyGroup55 = 5
-	IdeologyGroup56 = 10
-	IdeologyGroup57 = 11
+	IdeologyGroup56 = 9
+	IdeologyGroup57 = 9
 	IdeologyGroup59 = 1
 }
 recruit_character = BTA_ReginaldBlackwell
