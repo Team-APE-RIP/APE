@@ -7,11 +7,11 @@ set_politics = {
 }
 set_popularities = {
 	IdeologyGroup2 = 1
-	IdeologyGroup4 = 14
+	IdeologyGroup4 = 13
 	IdeologyGroup7 = 6
 	IdeologyGroup11 = 2
-	IdeologyGroup16 = 14
-	IdeologyGroup18 = 7
+	IdeologyGroup16 = 13
+	IdeologyGroup18 = 6
 	IdeologyGroup19 = 1
 	IdeologyGroup21 = 1
 	IdeologyGroup23 = 1
@@ -22,10 +22,12 @@ set_popularities = {
 	IdeologyGroup42 = 1
 	IdeologyGroup54 = 21
 	IdeologyGroup55 = 5
-	IdeologyGroup56 = 9
-	IdeologyGroup57 = 9
+	IdeologyGroup56 = 8
+	IdeologyGroup57 = 8
 	IdeologyGroup59 = 1
+	IdeologyGroup62 = 5
 }
 recruit_character = BTA_ReginaldBlackwell
+recruit_character = BTA_KingWilliamVMounbattenWindsor
 #fuckParadox
 set_variable = { APEMainThemeID = 5 } # APEMainTheme - Britannia’s Echoes

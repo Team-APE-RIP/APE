@@ -24,4 +24,16 @@ leader_traits = {
 		}
 	}
 	
+	BTA_traits_KingWilliamV = {
+		random = no
+		
+		stability_factor = 0.05
+		IdeologyGroup16_drift = 0.001
+		IdeologyGroup62_drift = 0.001
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

@@ -3,14 +3,14 @@
  # 国策的ID为 TAG_FOCUSTREEID_PROJECT_ID 
  
  # ZZZ 01
- ZZZ_01_BM_air: ""
+ ZZZ_01_BM_air: "$tt_air$"
  ZZZ_01_BM_air_desc: ""
 
- ZZZ_01_BM_BGBTA: ""
+ ZZZ_01_BM_BGBTA: "$2050_NAME$"
  ZZZ_01_BM_BGBTA_desc: ""
 
- ZZZ_01_BM_BTA: "§Y$cosmeticTagBCW_MPC$§!"
- ZZZ_01_BM_BTA_desc: "$BTA_IdeologyGroup54_party$\n\n§Y$BTA_ReginaldBlackwell$§!\n\n\n\n\n£portrait_large_civilian_BTA_ReginaldBlackwell \n\n\n\n\n------------------------------------------------------\n£GFX_36air_texticon 我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。"
+ ZZZ_01_BM_BTA: "§H$cosmeticTagBCW_MPC$§!"
+ ZZZ_01_BM_BTA_desc: "$BTA_IdeologyGroup54_party$\n\n§H$BTA_ReginaldBlackwell$§!\n\n\n\n\n£portrait_large_civilian_BTA_ReginaldBlackwell \n\n\n\n\n------------------------------------------------------\n£GFX_36air_texticon 我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。"
 
  ZZZ_01_BM_BTB: "§Y$BTB_IdeologyGroup55$§!\n"
  ZZZ_01_BM_BTB_desc: ""

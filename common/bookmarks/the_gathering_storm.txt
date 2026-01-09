@@ -11,9 +11,12 @@ bookmarks = {
 			history = "2050_BTA_DESC"
 			ideology = IdeologyGroup54
 			available = yes
+			new_content = yes
+			override_leader_portrait = BTA_KingWilliamVMounbattenWindsor
 			ideas = {
 			}
 			focuses = {
+			    ZZZ_01_BM_BGBTA
 			    ZZZ_01_BM_BTA
 				ZZZ_01_BM_BTB
 				ZZZ_01_BM_BTC

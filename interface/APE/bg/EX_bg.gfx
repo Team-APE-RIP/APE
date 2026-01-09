@@ -8,6 +8,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckEXLMini_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckEXL_bg.dds"
+		borderSize = { x=15 y=15 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
 		name = "GFX_tiled_SPinckEXwthSCL_bg"
 		size= { x=190 y=190 }
 		textureFile = "gfx/interface/bg/tiled_SPinckEXwthSCL_bg.dds"
@@ -20,6 +28,14 @@ spriteTypes = {
 		size= { x=190 y=190 }
 		textureFile = "gfx/interface/bg/tiled_SPinckEXwthSCLP_bg.dds"
 		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckEXwthSCLPMini_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckEXwthSCLP_bg.dds"
+		borderSize = { x=15 y=15 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}

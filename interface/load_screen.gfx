@@ -49,6 +49,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+
+	SpriteType = {
+        name = "GFX_32air_texticon"
+        texturefile = "gfx/fonts/AAGCZY/32air.dds"
+		legacy_lazy_load = no
+	}
 	SpriteType = {
         name = "GFX_36air_texticon"
         texturefile = "gfx/fonts/AAGCZY/36air.dds"

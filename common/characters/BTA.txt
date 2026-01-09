@@ -16,4 +16,20 @@ characters = {
 			expire = "2099.12.31.23"
 		}     
 	}
+	BTA_KingWilliamVMounbattenWindsor = {
+		name = BTA_KingWilliamVMounbattenWindsor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_BTA_KingWilliamVMounbattenWindsor
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup62_IdelogySubtype1
+			desc = BTA_KingWilliamVMounbattenWindsor_desc
+			traits = {
+			    BTA_traits_KingWilliamV
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
 }

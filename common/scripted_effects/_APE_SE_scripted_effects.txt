@@ -347,13 +347,13 @@ SE_SE_5 = {
 				set_politics = {
   				    ruling_party = IdeologyGroup60
     				elections_allowed = no
-    				last_election = "[GetSE6LLDATE]"
+    				last_election = "[GetSE5LLDATE]"
     				election_frequency = 48
     				long_name = cosmeticTagChristosPoland_IdeologyGroup60_IdelogySubtype1_party_long
     				name = cosmeticTagChristosPoland_IdeologyGroup60_IdelogySubtype1_party
 				}
 			}
-			GetSE6LLDATE = "[?global.date.GetDateStringNoHour]"
+			GetSE5LLDATE = "[?global.date.GetDateStringNoHour]"
 		}
 		every_state = {
 			limit = {
@@ -373,4 +373,19 @@ SE_SE_5 = {
 }
 
 SE_SE_6 = {
+    ROOT = {
+	    meta_effect = {
+			text = {
+				set_politics = {
+  				    ruling_party = IdeologyGroup62
+    				elections_allowed = no
+    				last_election = "[GetSE6LLDATE]"
+    				election_frequency = 48
+    				long_name = BTA_IdeologyGroup62_party_long
+    				name = BTA_IdeologyGroup62_party
+				}
+			}
+			GetSE6LLDATE = "[?global.date.GetDateStringNoHour]"
+		}
+	}
 }
