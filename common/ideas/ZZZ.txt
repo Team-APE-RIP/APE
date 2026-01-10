@@ -1,0 +1,47 @@
+ideas = {
+
+	country = {
+		ZZZ_idea_BMair = {
+			picture = ZZZ_idea_BMair
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_BMBGBTA = {
+			picture = ZZZ_idea_BMBGBTA
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_BMBTA = {
+			picture = ZZZ_idea_BMBTA
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_BMBTB = {
+			picture = ZZZ_idea_BMBTB
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_BMBTC = {
+			picture = ZZZ_idea_BMBTC
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_BMBTD = {
+			picture = ZZZ_idea_BMBTD
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+	}
+}

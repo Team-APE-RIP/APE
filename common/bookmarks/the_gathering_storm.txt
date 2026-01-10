@@ -14,13 +14,16 @@ bookmarks = {
 			new_content = yes
 			override_leader_portrait = BTA_KingWilliamVMounbattenWindsor
 			ideas = {
+			    ZZZ_idea_BMBGBTA
+			    ZZZ_idea_BMBTA
+			    ZZZ_idea_BMBTB
+			    ZZZ_idea_BMBTC
+			    ZZZ_idea_BMBTD
 			}
 			focuses = {
-			    ZZZ_01_BM_BGBTA
-			    ZZZ_01_BM_BTA
-				ZZZ_01_BM_BTB
-				ZZZ_01_BM_BTC
-				ZZZ_01_BM_BTD
+			    BTA_01_FS_00
+				QFK_01_FS_03_B_O_L_R
+				BTA_01_FS_00
 			}
 		}
 		

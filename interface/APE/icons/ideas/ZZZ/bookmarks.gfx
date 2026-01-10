@@ -1,0 +1,33 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_BMair"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMair.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_BMBGBTA"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMBGBTA.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_BMBTA"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMBTA.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_BMBTB"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMBTB.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_BMBTC"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMBTC.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_BMBTD"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMBTD.png"
+        transparencecheck = yes
+    }
+}
+

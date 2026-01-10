@@ -43,41 +43,37 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "spirit_idea_entry"
-		size = { width=60 height=68 }
+		size = { width=123 height=123 }
 		clipping = no
 
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
-			orientation = "CENTER"
-			centerPosition = yes
+			orientation = "UPPER_LEFT"
 		}
 	}
 
 	containerWindowType = {
 		name = "spirit_idea_entry_small"
-		size = { width=33 height=37 }
+		size = { width=123 height=123 }
 		clipping = no
 
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
-			orientation = "CENTER"
-			centerposition = yes
-			scale = 0.55
+			orientation = "UPPER_LEFT"
 		}
 	}
 
 	containerWindowType = {
 		name = "spirit_modifier_entry"
-		size = { width=60 height=68 }
+		size = { width=123 height=123 }
 		clipping = no
 
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
-			orientation = "CENTER"
-			centerPosition = yes
+			orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
@@ -91,15 +87,13 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "spirit_modifier_entry_small"
-		size = { width=33 height=37 }
+		size = { width=123 height=123 }
 		clipping = no
 
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
-			orientation = "CENTER"
-			centerPosition = yes
-			scale = 0.55
+			orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
@@ -698,31 +692,36 @@ guiTypes = {
 
 			containerWindowType = {
 				name ="ideas"
-				position = { x = 91 y = -1 }
-				size = { width = 100%% height = 70 }
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 123 }
 
 				gridboxType = {
 					name ="ideas_grid"
 					position = { x = 0 y = 0 }
-					size = { width = 100% height = 70 }
-					slotsize = { width = 60 height = 66 }
-					max_slots = { x = 3 y = 1 }
-					add_horizontal = yes
+					size = { width = 100% height = 123 }
+					slotsize = { width = 0 height = 0 }
+					max_slots = { x = 100 y = 1 }
+					add_horizontal = NO
 					format = "UPPER_LEFT"
 				}
 			}
 
 			containerWindowType = {
 				name ="focus"
-				position = { x = 640 y = 340 }
-				size = { width = 100% height = 100 }
+				position = { x = 190 y = 447 }
+				size = { width = 702 height = 201 }
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_SPinckEXL_bg"
+				}
+				clipping = no
 
 				gridboxType = {
 					name ="focus_grid"
-					position = { x = -112 y = -81 }
-					size = { width = 100% height = 100 }
-					slotsize = { width = 0 height = 0 }
-					max_slots = { x = 100 y = 1 }
+					position = { x = 15 y = 60 }
+					size = { width = 100% height = 162 }
+					slotsize = { width = 224 height = 123 }
+					max_slots = { x = 3 y = 1 }
 					add_horizontal = no
 					format = "UPPER_LEFT"
 				}
@@ -731,7 +730,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = -158 y = -52 }
+			position = { x = -158 y = -12 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "BACK"
 			buttonFont = "hoi_18mbs"
@@ -743,7 +742,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = 10 y = -52 }
+			position = { x = 10 y = -12 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "hoi_18mbs"
