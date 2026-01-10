@@ -621,6 +621,30 @@ guiTypes = {
 		clipping = no
 		moveable = no
 
+		ButtonType = {
+			name = "back_button"
+			position = { x = -176 y = -14}
+			quadTextureSprite ="GFX_bookmarkbtnleft"
+			buttonText = "BMBACK"
+			buttonFont = "AAGCZYRL18"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
+		}
+
+		ButtonType = {
+			name = "select_button"
+			position = { x = -15 y = -14 }
+			quadTextureSprite ="GFX_bookmarkbtnright"
+			buttonText = "BMSELECT"
+			buttonFont = "AAGCZYRL18"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_default
+			oversound = ui_menu_over
+			shortcut = "RETURN"
+		}
+
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 0 y = 12000 }
@@ -632,20 +656,27 @@ guiTypes = {
 			maxHeight = 30
 			format = centre
 		}
+		containerWindowType = {
+		    name ="gamesetup_interesting_countries_window_bg"
+			size = { width = 100% height = 100% }
+			
+			background = {
+				name = "single_player_country_bg1"
+				quadTextureSprite ="GFX_country_selection_bg"
+				alwaystransparent = yes
+			}
 
-		background = {
-			name = "single_player_country_bg1"
-			quadTextureSprite ="GFX_country_selection_bg"
-		}
+			background = {
+				name = "single_player_country_bg2"
+				quadTextureSprite ="GFX_tiled_SPinckEXwthSCL_bg"
+				alwaystransparent = yes
+			}
 
-		background = {
-			name = "single_player_country_bg2"
-			quadTextureSprite ="GFX_tiled_SPinckEXwthSCL_bg"
-		}
-
-		background = {
-			name = "single_player_country_bg3"
-			quadTextureSprite ="GFX_tiled_161F4Cc_bg"
+			background = {
+				name = "single_player_country_bg3"
+				quadTextureSprite ="GFX_tiled_161F4Cc_bg"
+				alwaystransparent = yes
+			}
 		}
 
 		containerWindowType = {
@@ -665,7 +696,7 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 19 y = 455 }
+			position = { x = 19 y = 456 }
 			#scale=0.696
 			#rotation=-0.04
 		}
@@ -673,7 +704,7 @@ guiTypes = {
 		iconType = {
 			name ="minor_portrait_overlay"
 			spriteType = "GFX_country_selection_entry"
-			position = { x= 11 y = 447 }
+			position = { x= 11 y = 448 }
 			frame = 2
 		}
 
@@ -707,8 +738,20 @@ guiTypes = {
 			}
 
 			containerWindowType = {
+				name ="ideasBG"
+				position = { x = 184 y = 448 }
+				size = { width = 201 height = 201 }
+				clipping = no
+				background = {
+					name = bg
+					quadTextureSprite = GFX_tiled_SPinckEXL_bg
+					alwaystransparent = yes
+				}
+			}
+
+			containerWindowType = {
 				name ="focus"
-				position = { x = 190 y = 447 }
+				position = { x = 382 y = 448 }
 				size = { width = 702 height = 201 }
 				background = {
 					name = "bg"
@@ -726,30 +769,51 @@ guiTypes = {
 					format = "UPPER_LEFT"
 				}
 			}
-		}
 
-		ButtonType = {
-			name = "back_button"
-			position = { x = -158 y = -12 }
-			quadTextureSprite ="GFX_button_148x34"
-			buttonText = "BACK"
-			buttonFont = "hoi_18mbs"
-			Orientation = "CENTER_DOWN"
-			clicksound = click_close
-			oversound = ui_menu_over
-			shortcut = "ESCAPE"
-		}
+			containerWindowType = {
+				name ="focusTitle"
+				position = { x = 382 y = 456 }
+				size = { width = 702 height = 201 }
+				containerWindowType = {
+				    name ="focusTitleBg"
+				    position = { x = 256 y = -100 }
+				    size = { width = 190 height = 134 }
+				    background = {
+					    name = "bg"
+					    quadTextureSprite = "GFX_tiled_SPinckEXLDMini_bg"
+					    alwaystransparent = yes
+				    }
+				}
+				clipping = yes
+				background = {
+					name = bg
+					quadTextureSprite = GFX_tiled_air_bg
+					alwaystransparent = yes
+				}
+				instantTextBoxType = {
+					name = "title"
+					position = { x = 0 y = 0 }
+					textureFile = ""
+					font = "AAGCZYRL24"
+					borderSize = {x = 0 y = 0}
+					text = "GICWFOCUSVIEW"
+					maxWidth = 702
+					maxHeight = 30
+					format = centre
+				}
+			}
 
-		ButtonType = {
-			name = "select_button"
-			position = { x = 10 y = -12 }
-			quadTextureSprite ="GFX_button_148x34"
-			buttonText = "FE_SELECT_COUNTRY"
-			buttonFont = "hoi_18mbs"
-			Orientation = "CENTER_DOWN"
-			clicksound = click_default
-			oversound = ui_menu_over
-			shortcut = "RETURN"
+			containerWindowType = {
+				name ="othBG"
+				position = { x = 1080 y = 448 }
+				size = { width = 188 height = 201 }
+				clipping = no
+				background = {
+					name = bg
+					quadTextureSprite = GFX_tiled_SPinckEXL_bg
+					alwaystransparent = yes
+				}
+			}
 		}
 
 		containerWindowType = {

@@ -1,6 +1,9 @@
 ﻿l_simp_chinese:
  BM_HISTORY_TITLE: "历史简介"
  COUNTRY_SELECTION_CHARACTER_DESC: "$NAME|Y$\n$TRAITS_DESC|$"
+ GICWFOCUSVIEW: "国 策 展 示"
+ BMBACK: "返回菜单"
+ BMSELECT: "确认选择"
  APELEADER: "掌权人物"
  APEPARTY: "主导派系"
  2050_NAME: "不列颠尼亚，风雨飘摇"

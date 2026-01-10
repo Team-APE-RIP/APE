@@ -43,5 +43,33 @@ ideas = {
 			}
 			removal_cost = -1
 		}
+		ZZZ_idea_SHOW1 = {
+			picture = ZZZ_idea_SHOW1
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_SHOW2 = {
+			picture = ZZZ_idea_SHOW2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_SHOW3 = {
+			picture = ZZZ_idea_SHOW3
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		ZZZ_idea_SHOW4 = {
+			picture = ZZZ_idea_SHOW4
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
 	}
 }

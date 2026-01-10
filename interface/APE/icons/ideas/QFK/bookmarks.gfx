@@ -1,0 +1,13 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_QFK_idea_TheDoctrineOfTheMean_bookmark"
+        texturefile = "gfx/icons/ideas/QFK/QFK_idea_TheDoctrineOfTheMean_bookmark.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_QFK_idea_ConfucianClassics_bookmark"
+        texturefile = "gfx/icons/ideas/QFK/QFK_idea_ConfucianClassics_bookmark.png"
+        transparencecheck = yes
+    }
+}
+

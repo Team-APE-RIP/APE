@@ -19,6 +19,10 @@ bookmarks = {
 			    ZZZ_idea_BMBTB
 			    ZZZ_idea_BMBTC
 			    ZZZ_idea_BMBTD
+				ZZZ_idea_SHOW1
+				ZZZ_idea_SHOW2
+				ZZZ_idea_SHOW3
+				ZZZ_idea_SHOW4
 			}
 			focuses = {
 			    BTA_01_FS_00

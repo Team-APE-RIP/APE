@@ -18,6 +18,23 @@ ideas = {
 		}
 	}
 	country = {
+		QFK_idea_TheDoctrineOfTheMean_bookmark = {
+			picture = QFK_idea_TheDoctrineOfTheMean_bookmark # 中庸之道 bookmark
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = QFK_idea_TheDoctrineOfTheMean_show_tt
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
 		QFK_idea_TheDoctrineOfTheMean = {
 			picture = QFK_idea_TheDoctrineOfTheMean # 中庸之道
 			allowed = {
@@ -37,6 +54,23 @@ ideas = {
 	country = {
 		QFK_idea_ConfucianClassics_show = {
 			picture = QFK_idea_ConfucianClassics # 儒教圣经 展示
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = QFK_idea_ConfucianClassics_show_tt
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
+		QFK_idea_ConfucianClassics_bookmark = {
+			picture = QFK_idea_ConfucianClassics_bookmark # 儒教圣经 bookmark
 			allowed = {
 				always = no
 			}

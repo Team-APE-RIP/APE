@@ -29,5 +29,25 @@ spriteTypes = {
         texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMBTD.png"
         transparencecheck = yes
     }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_SHOW1"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_SHOW1.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_SHOW2"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_SHOW2.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_SHOW3"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_SHOW3.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_ZZZ_idea_SHOW4"
+        texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_SHOW4.png"
+        transparencecheck = yes
+    }
 }
 

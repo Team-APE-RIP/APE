@@ -301,6 +301,7 @@ guiTypes = {
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
+			shortcut = "1"
 		}
 
 		ButtonType = {
@@ -311,6 +312,7 @@ guiTypes = {
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "2"
 		}
 
 		@warn_icon_x = 280
@@ -347,6 +349,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "3"
 		}
 		
 		buttonType = {
@@ -357,6 +360,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "4"
 		}
 		
 		iconType = {
@@ -376,6 +380,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "5"
 		}
 
 		ButtonType = {
@@ -386,6 +391,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "6"
 		}
 		
 		ButtonType = {
@@ -394,6 +400,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
+			shortcut = "n"
 		}
 
 		ButtonType = {
@@ -404,6 +411,7 @@ guiTypes = {
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "ESCAPE"
 			
 		}
 
