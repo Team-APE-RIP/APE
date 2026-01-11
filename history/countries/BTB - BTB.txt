@@ -8,5 +8,6 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup55 = 100
 }
+recruit_character = BTB_AltriaPendragon
 #fuckParadox
 set_variable = { APEMainThemeID = 5 } # APEMainTheme - Britannia’s Echoes

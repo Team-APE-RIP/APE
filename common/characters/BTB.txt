@@ -1,0 +1,17 @@
+characters = {
+	BTB_AltriaPendragon = {
+		name = BTB_AltriaPendragon
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_BTB_AltriaPendragon
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup55_IdelogySubtype1
+			desc = BTB_AltriaPendragon_desc
+			traits = {
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}
