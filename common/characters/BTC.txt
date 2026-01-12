@@ -1,0 +1,17 @@
+characters = {
+	BTC_MaryHargreaves = {
+		name = BTC_MaryHargreaves
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_BTC_MaryHargreaves
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup56_IdelogySubtype1
+			desc = BTC_MaryHargreaves_desc
+			traits = {
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}
