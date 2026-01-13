@@ -1,0 +1,17 @@
+characters = {
+	BTD_CatrionaStewart = {
+		name = BTD_CatrionaStewart
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_BTD_CatrionaStewart
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup57_IdelogySubtype1
+			desc = BTD_CatrionaStewart_desc
+			traits = {
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}

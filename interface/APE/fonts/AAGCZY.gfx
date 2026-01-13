@@ -1,5 +1,21 @@
 bitmapfonts = {
 	bitmapfont = {
+		name = "AAGCZYRL12"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL12_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "AAGCZYRL14"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL14_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
 		name = "AAGCZYRL16"
 		fontfiles = { 
 			"gfx/fonts/AAGCZY/AAGCZYRL16_0"	
@@ -16,9 +32,35 @@ bitmapfonts = {
 		border_color = 0x00000000
 	}
 	bitmapfont = {
+		name = "AAGCZYRL20"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL20_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
 		name = "AAGCZYRL24"
 		fontfiles = { 
 			"gfx/fonts/AAGCZY/AAGCZYRL24_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "AAGCZYRL32"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL32_0"	
+			"gfx/fonts/AAGCZY/AAGCZYRL32_1"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "AAGCZYRL36"
+		fontfiles = { 
+			"gfx/fonts/AAGCZY/AAGCZYRL36_0"	
+			"gfx/fonts/AAGCZY/AAGCZYRL36_1"	
 		}
 	    color = 0xffffffff
 		border_color = 0x00000000

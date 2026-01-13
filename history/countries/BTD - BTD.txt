@@ -8,5 +8,6 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup57 = 100
 }
+recruit_character = BTD_CatrionaStewart
 #fuckParadox
 set_variable = { APEMainThemeID = 5 } # APEMainTheme - Britannia’s Echoes
