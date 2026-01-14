@@ -1,0 +1,6 @@
+differentIdeologiesDiplomaticRelation = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}

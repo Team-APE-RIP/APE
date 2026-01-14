@@ -1,0 +1,5 @@
+opinion_modifiers = {
+    BTC_traits_UnyieldingIdealistMaryHargreaves_diplomatic_opinion_modifier = {
+        value = -30
+    }
+}

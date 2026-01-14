@@ -10,6 +10,8 @@ characters = {
 			ideology = IdeologyGroup56_IdelogySubtype1
 			desc = BTC_MaryHargreaves_desc
 			traits = {
+			    BTC_traits_RevolutionaryAgitatorMaryHargreaves
+				BTC_traits_UnyieldingIdealistMaryHargreaves
 		    }
 			expire = "2099.12.31.23"
 		}     

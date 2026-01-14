@@ -9,11 +9,11 @@
  ZZZ_idea_BMBTA: "§H$cosmeticTagBCW_MPC$§!\n§W$BTA_IdeologyGroup54_party$§!"
  ZZZ_idea_BMBTA_desc: "我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。\n§W--------------§!\n§H$BTA_ReginaldBlackwell$§!\n§H$BTA_traits_ChairmanBlackwell$§!\n§W  - $MODIFIER_STABILITY_FACTOR$：§!§G+5.00%§!\n§W  - $MODIFIER_DRIFT_DEFENCE_FACTOR$：§!§G+20.00%§!                              £portrait_large_civilian_BTA_ReginaldBlackwell \n§W  - $IdeologyGroup7_drift$：§!§G+0.01§!\n§H$BTA_traits_DieHardTraditionalistChairman$§!\n§W  - $MODIFIER_RESEARCH_SPEED_FACTOR$：§!§R-30.00%§!\n§W--------------§!\n$BTA_ReginaldBlackwell_desc$"
 
- ZZZ_idea_BMBTB: "§Y$BTB_IdeologyGroup55$§!"
+ ZZZ_idea_BMBTB: "§Y$BTB_IdeologyGroup55$§!\n§W$BTB_IdeologyGroup55_party$§!"
  ZZZ_idea_BMBTB_desc: ""
 
- ZZZ_idea_BMBTC: "§Y$BTC_IdeologyGroup56$§!"
+ ZZZ_idea_BMBTC: "§Y$BTC_IdeologyGroup56$§!\n§W$BTC_IdeologyGroup56_party$§!"
  ZZZ_idea_BMBTC_desc: ""
 
- ZZZ_idea_BMBTD: "§Y$BTD_IdeologyGroup57$§!"
+ ZZZ_idea_BMBTD: "§Y$BTD_IdeologyGroup57$§!\n§W$BTD_IdeologyGroup57_party$§!"
  ZZZ_idea_BMBTD_desc: ""

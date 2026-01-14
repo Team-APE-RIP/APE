@@ -306,6 +306,19 @@ SE_SE_4 = {
                 type = BritishCivilWar_wargoal_focus
             }	
 			add_civil_war_target = ROOT
+			every_possible_country = {
+			    limit = {
+				    NOT = {
+					    tag = BTC
+					}
+				}
+				BTC = {
+				    add_opinion_modifier = {
+				        target = THIS
+				        modifier = BTC_traits_UnyieldingIdealistMaryHargreaves_diplomatic_opinion_modifier
+				    }
+				}
+			}
 		}
 		BTD = { 
 		    set_capital = { state = 3091 }

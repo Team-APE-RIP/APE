@@ -1,0 +1,25 @@
+leader_traits = {
+
+	BTC_traits_RevolutionaryAgitatorMaryHargreaves = {
+		random = no
+		
+		IdeologyGroup56_drift = 0.01
+		stability_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	BTC_traits_UnyieldingIdealistMaryHargreaves = {
+		random = no
+		
+		war_support_factor = 0.1
+		differentIdeologiesDiplomaticRelation = -30
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}
