@@ -10,6 +10,8 @@ characters = {
 			ideology = IdeologyGroup57_IdelogySubtype1
 			desc = BTD_CatrionaStewart_desc
 			traits = {
+			    BTD_traits_ClanUnifier
+				BTD_traits_HighlandDefender
 		    }
 			expire = "2099.12.31.23"
 		}     

@@ -3,8 +3,8 @@ leader_traits = {
 	BTC_traits_RevolutionaryAgitatorMaryHargreaves = {
 		random = no
 		
-		IdeologyGroup56_drift = 0.01
 		stability_factor = -0.05
+		IdeologyGroup56_drift = 0.01
 
 		ai_will_do = {
 			factor = 1

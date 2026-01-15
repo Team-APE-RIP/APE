@@ -286,6 +286,39 @@ SE_SE_4 = {
 			    transfer_state_to = BTD
 			}
 		}
+		every_state = {
+			limit = {
+			    NOT = { region = 1 }
+				is_core_of = ROOT
+			}
+			add_to_array = { ROOT.coreStateIDwoR1 = THIS }
+			if = {
+			    limit = {
+				    OR = {
+					    region = 2
+				        region = 3
+				        region = 4
+				        region = 16
+					}
+				}
+				remove_core_of = ROOT add_claim_by = ROOT 
+			}
+		}
+		every_possible_country = {
+		    limit = { NOT = { tag = BTA } }
+			for_each_loop = {
+			    array = ROOT.coreStateIDwoR1
+			    value = v
+				if = {
+				    limit = { 
+				        v = {
+					        is_core_of = THIS
+					    }
+					}
+					v = { remove_core_of = ROOT add_claim_by = ROOT }
+				}
+		    }
+		}
 		set_cosmetic_tag = cosmeticTagBCW_MPC
 		BTB = { 
 		    set_capital = { state = 3051 }
@@ -312,11 +345,9 @@ SE_SE_4 = {
 					    tag = BTC
 					}
 				}
-				BTC = {
-				    add_opinion_modifier = {
-				        target = THIS
-				        modifier = BTC_traits_UnyieldingIdealistMaryHargreaves_diplomatic_opinion_modifier
-				    }
+				reverse_add_opinion_modifier = {
+				    target = BTC
+				    modifier = BTC_traits_UnyieldingIdealistMaryHargreaves_diplomatic_opinion_modifier
 				}
 			}
 		}
