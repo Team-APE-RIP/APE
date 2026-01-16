@@ -10,6 +10,8 @@ characters = {
 			ideology = IdeologyGroup55_IdelogySubtype1
 			desc = BTB_AltriaPendragon_desc
 			traits = {
+			    BTB_traits_InspirationalSovereignAltriaPendragon
+				BTB_traits_KnightlyPurity
 		    }
 			expire = "2099.12.31.23"
 		}     
