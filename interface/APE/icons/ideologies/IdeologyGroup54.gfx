@@ -1,0 +1,9 @@
+spriteTypes = {
+    frameAnimatedSpriteType = {
+        name = "GFX_ideology_IdeologyGroup54_IdelogySubtype1"
+        texturefile = "gfx/icons/ideologies/IdeologyGroup54_IdelogySubtype1.png"
+        noOfFrames = 120
+        animation_rate_fps = 24
+		looping = yes play_on_show = yes pause_on_loop = 0 transparencecheck = yes
+    }
+}
