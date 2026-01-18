@@ -3,8 +3,8 @@
  ZZZ_idea_BMair: "$tt_air$"
  ZZZ_idea_BMair_desc: ""
  # BTA
- ZZZ_idea_BMBGBTA: "$2050_NAME$"
- ZZZ_idea_BMBGBTA_desc: ""
+ ZZZ_idea_BMBGBTA: "$2050_AA_NAME$"
+ ZZZ_idea_BMBGBTA_desc: "$2050_AA_DESC$"
 
  ZZZ_idea_BMBTA: "§H$cosmeticTagBCW_MPC$§!\n§W$BTA_IdeologyGroup54_party$§!"
  ZZZ_idea_BMBTA_desc: "我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。\n§W--------------§!\n§H$BTA_ReginaldBlackwell$§!\n§H$BTA_traits_ChairmanBlackwell$§!\n§W  - $MODIFIER_STABILITY_FACTOR$：§!§G+5.00%§!\n§W  - $MODIFIER_DRIFT_DEFENCE_FACTOR$：§!§G+20.00%§!                              £portrait_large_civilian_BTA_ReginaldBlackwell \n§W  - $IdeologyGroup7_drift$：§!§G+0.01§!\n§H$BTA_traits_DieHardTraditionalistChairman$§!\n§W  - $MODIFIER_RESEARCH_SPEED_FACTOR$：§!§R-30.00%§!\n§W--------------§!\n$BTA_ReginaldBlackwell_desc$"

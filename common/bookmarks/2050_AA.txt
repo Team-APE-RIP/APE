@@ -1,0 +1,59 @@
+bookmarks = {
+	bookmark = {
+		name = "2050_AA_NAME"
+		desc = "2050_AA_DESC"
+		date = 2050.1.1.12
+		picture = "GFX_bookmark_2050_AA"
+		default_country = "BTA"
+		default = yes
+		
+		"BTA"={
+			history = "2050_BTA_DESC"
+			ideology = IdeologyGroup54
+			available = yes
+			new_content = yes
+			override_leader_portrait = BTA_KingWilliamVMounbattenWindsor
+			ideas = {
+			    ZZZ_idea_BMBGBTA
+			    ZZZ_idea_BMBTA
+			    ZZZ_idea_BMBTB
+			    ZZZ_idea_BMBTC
+			    ZZZ_idea_BMBTD
+				ZZZ_idea_SHOW1
+				ZZZ_idea_SHOW2
+				ZZZ_idea_SHOW3
+				ZZZ_idea_SHOW4
+			}
+			focuses = {
+			    BTA_01_FS_00
+				QFK_01_FS_03_B_O_L_R
+				BTA_01_FS_00
+			}
+		}
+		
+		#"IRL"={
+		#	history = "2050_IRL_DESC"
+		#	ideology = IdeologyGroup53
+		#	available = yes
+		#	ideas = {
+		#	}
+		#	focuses = {
+		#	}
+		#}
+		
+		
+		
+
+		#"---"={
+		#	history = "2050_OTHER_DESC"
+		#}
+
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

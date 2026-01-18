@@ -1,0 +1,68 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_bookmark_2050_AA"
+        texturefile = "gfx/images/bookmarks/2050_AA.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_bookmark_2050_AB"
+        texturefile = "gfx/images/bookmarks/2050_AB.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_bookmark_2050_AC"
+        texturefile = "gfx/images/bookmarks/2050_AC.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_bookmark_2050_AD"
+        texturefile = "gfx/images/bookmarks/2050_AD.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_bookmark_2050_AE"
+        texturefile = "gfx/images/bookmarks/2050_AE.png"
+        transparencecheck = yes
+    }
+	### BTN
+	
+
+        spriteType = {
+                name = "GFX_APE_bookmark_entry_bg"
+                texturefile = "gfx/interface/bookmark_entry_bg.dds"
+                noOfFrames = 2
+                effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+                transparencecheck = yes
+        }
+		
+		
+
+	SpriteType = {
+		name = "GFX_APE_country_selection_entry_shine"
+		texturefile = "gfx/interface/APE_country_selection_entry.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 2
+		animation = {
+			animationmaskfile = "gfx/interface/APE_country_selection_entry.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 3.0				# in seconds
+			animationdelay = 0.1			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "pulsing"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_APE_country_selection_entry"
+		texturefile = "gfx/interface/APE_country_selection_entry.dds"
+		noOfFrames = 2		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
+	}
+}
+

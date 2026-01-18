@@ -10,27 +10,28 @@ guiTypes = {
 	containerWindowType = {
 		name = "bookmark_entry"
 		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
+		size = { width=890 height=219}
 		clipping = no
-		fade_time = 500
+		fade_time = 6000
 		fade_type = linear
 
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_bookmark_entry_bg"
+			quadTextureSprite = "GFX_APE_bookmark_entry_bg"
 			clicksound = click_checkbox
 		}
 
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
-			position = { x = 27 y = 28 }
+			position = { x = 7 y = 8 }
 			alwaystransparent = yes
+			scale = 0.67
 		}
 
 		instantTextBoxType = {
 			name = "date"
-			position = { x = 22 y = 147 }
+			position = { x = 22 y = 14700 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_DATE"
@@ -138,14 +139,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "country"
-			quadTextureSprite = "GFX_country_selection_entry"
+			quadTextureSprite = "GFX_APE_country_selection_entry"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
 		
 		buttonType = {
 			name = "country_shine"
-			quadTextureSprite = "GFX_country_selection_entry_shine"
+			quadTextureSprite = "GFX_APE_country_selection_entry_shine"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
@@ -517,15 +518,40 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_scenario_window"
-		size = { width = 579 height = 512 }
-		clipping = no
-		orientation = center
+		size = { width=1280 height=660 }
+		position = { x = 0 y = -30 }
+		Orientation = center
 		origo = center
-		moveable = yes
+		clipping = no
+		moveable = no
+
+		ButtonType = {
+			name = "back_button"
+			position = { x = -176 y = -14}
+			quadTextureSprite ="GFX_bookmarkbtnleft"
+			buttonText = "BMBACK"
+			buttonFont = "AAGCZYRL18"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
+		}
+
+		ButtonType = {
+			name = "select_button"
+			position = { x = -15 y = -14 }
+			quadTextureSprite ="GFX_bookmarkbtnright"
+			buttonText = "BMSELECT"
+			buttonFont = "AAGCZYRL18"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_default
+			oversound = ui_menu_over
+			shortcut = "RETURN"
+		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 120 y = 14 }
+			position = { x = 12000 y = 14 }
 			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
@@ -534,31 +560,78 @@ guiTypes = {
 			maxHeight = 30
 			format = center
 		}
+		containerWindowType = {
+		    name ="gamesetup_interesting_countries_window_bg"
+			size = { width = 100% height = 100% }
+			
+			background = {
+				name = "single_player_country_bg1"
+				quadTextureSprite ="GFX_country_selection_bg"
+				alwaystransparent = yes
+			}
 
-		background = {
-			name = "single_player_date_bg"
-			quadTextureSprite ="GFX_select_date_bg"
+			background = {
+				name = "single_player_country_bg2"
+				quadTextureSprite ="GFX_tiled_SPinckEXwthSCL_bg"
+				alwaystransparent = yes
+			}
+
+			background = {
+				name = "single_player_country_bg3"
+				quadTextureSprite ="GFX_tiled_161F4Cc_bg"
+				alwaystransparent = yes
+			}
+		}
+
+		
+
+		containerWindowType = {
+			name ="BM_bgW1"
+			position = { x = -10 y = 10 }
+			orientation = upper_right
+			origo = upper_right
+			background = {
+				name = "bg1"
+				quadTextureSprite ="GFX_tiled_SPinckEXwthSCLP_bg"
+			}
+			size = {
+				width = 408
+				height = 640
+			}
 		}
 
 		containerWindowType = {
 			name ="bookmarks"
-			position = { x = 43 y = 55 }
-			size = { width = -10 height = 120}
+			position = { x = 11 y = 7 }
+			size = { width = 100% height = 646}
+			clipping = yes
+			background = {
+				quadTextureSprite = GFX_tiled_air_bg
+				name = bg
+			}
+			drag_scroll = { left middle }
+			verticalScrollbar = "bottom_horizontal_slider_air"
+			horizontalScrollbar = "bottom_horizontal_slider_air"
+			smooth_scrolling = YES
 
 			gridboxType = {
 				name ="bookmarks_grid"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = 3 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 260 height = 0 }
+				slotsize = { width = 890 height = 212 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				#max_slots_vertical = 1
+				max_slots = {
+					x = 1
+					y = 64
+				}
 				format = "UPPER_LEFT"
 			}
 		}
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 110 y = 274 }
+			position = { x = 11000 y = 274 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
@@ -568,47 +641,26 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			name = "bookmark_title"
-			position = { x = 25 y = 305 }
-			font = "hoi4_typewriter22"
+			name = "bookmark_desc"
+			position = { x = -407 y = 46 }
+			font = "AAGCZYRL16"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 340
-			maxHeight = 30
+			maxWidth = 386
+			maxHeight = 596
 			format = left
+			scrollbarType = standardtext_slider_air
+			orientation = upper_right
 		}
 
 		instantTextBoxType = {
-			name = "bookmark_desc"
-			position = { x = 25 y = 330 }
-			font = "hoi4_typewriter16"
+			name = "bookmark_title"
+			position = { x = -407 y = 17 }
+			font = "AAGCZYRL32"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 540
-			maxHeight = 30
-			format = left
-		}
-
-		ButtonType = {
-			name = "back_button"
-			position = { x = 30 y = -57 }
-			quadTextureSprite ="GFX_button_221x34"
-			buttonText = "BACK"
-			buttonFont = "hoi_18mbs"
-			Orientation = "LOWER_LEFT"
-			clicksound = click_close
-			oversound = ui_menu_over
-			shortcut = "ESCAPE"
-		}
-
-		ButtonType = {
-			name = "select_button"
-			position = { x = -252 y = -57 }
-			quadTextureSprite ="GFX_button_221x34"
-			buttonText = "FE_SELECT_SCENARIO"
-			buttonFont = "hoi_18mbs"
-			Orientation = "LOWER_RIGHT"
-			clicksound = click_ok
-			oversound = ui_menu_over
-			shortcut = "RETURN"
+			maxWidth = 10000
+			maxHeight = 60
+			format = LEFT
+			orientation = upper_right
 		}
 	}
 
@@ -894,7 +946,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 11 y = 119 }
+				position = { x = 11 y = 120 }
 				textureFile = ""
 				font = "AAGCZYRL16"
 				borderSize = {x = 0 y = 0 }
