@@ -153,14 +153,16 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 0 y = 171 }
+			position = { x = 8 y = 156 }
 			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 176
-			maxHeight = 24
+			maxWidth = 160
+			maxHeight = 54
 			fixedsize = yes
+			vertical_alignment = center
 			format = center
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = YES
 		}
 	}
 
@@ -933,6 +935,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "info"
 			position = { x = 0 y = 500 }
+			
 
 			instantTextBoxType = {
 				name = "leader_label"
@@ -946,13 +949,17 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 11 y = 120 }
+				position = { x = 18 y = 106 }
 				textureFile = ""
 				font = "AAGCZYRL16"
 				borderSize = {x = 0 y = 0 }
-				text = ""
-				maxWidth = 174
+				text = "1"
+				maxWidth = 160
+				maxHeight = 48
+				vertical_alignment = center
 				format = center
+			    Orientation = CENTER
+				alwaystransparent = YES
 			}
 
 			instantTextBoxType = {
