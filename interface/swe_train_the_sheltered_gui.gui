@@ -28,7 +28,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="SWE_train_the_sheltered_manpower_desc"
 			position = { x = 18 y = -15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SWE_train_the_sheltered_short_desc"
 			format = left
 			maxWidth = 470
@@ -39,7 +39,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="SWE_train_the_sheltered_manpower_cap"
 			position = { x = 18 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SWE_train_the_sheltered_manpower_max"
 			format = center
 			maxWidth = 470

@@ -16,7 +16,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = {x=20 y=18}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 270
 			maxHeight = 25
 			format = center
@@ -71,7 +71,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "summary"
 			position = {x=98 y=257}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0/100"
 			maxWidth = 70
 			maxHeight = 25
@@ -113,7 +113,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_name"
 			position = {x=65 y=13}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 124
 			maxHeight = 23
 			format = left
@@ -132,7 +132,7 @@ guiTypes = {
 		editBoxType = {
 			position = {x=225 y=13}
 			name = "number_box"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x=0 y=0}	
 			size = {x=40 y=40}
 			text = "0"

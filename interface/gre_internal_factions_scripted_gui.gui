@@ -26,7 +26,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="monarchists_name_text"
 			position = { x = @FACTION_NAMES_X y = 55 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_monarchists_name_text"
 			format = left
 			maxHeight = 24
@@ -41,7 +41,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="republicans_name_text"
 			position = { x = @FACTION_NAMES_X y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_republicans_name_text"
 			format = left
 			maxHeight = 24
@@ -56,7 +56,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="communists_name_text"
 			position = { x = @FACTION_NAMES_X y = 145 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_communists_name_text"
 			format = left
 			maxHeight = 24
@@ -71,7 +71,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="fascists_name_text"
 			position = { x = @FACTION_NAMES_X y = 190 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_fascists_name_text"
 			format = left
 			maxHeight = 24
@@ -81,7 +81,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="attitude_header"
 			position = { x = @ATTITUDE_TEXT_X y = @HEADERS_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_ui_attitude_header"
 			format = center
 			maxHeight = 24
@@ -91,7 +91,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_monarchists_attitude_status"
 			position = { x = @ATTITUDE_TEXT_X y = 55 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_monarchists_attitude_status_amount"
 			format = center
 			maxwidth = 110
@@ -100,7 +100,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_republicans_attitude_status"
 			position = { x = @ATTITUDE_TEXT_X y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_republicans_attitude_status_amount"
 			format = center
 			maxwidth = 110
@@ -109,7 +109,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_communists_attitude_status"
 			position = { x = @ATTITUDE_TEXT_X y = 145 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_communists_attitude_status_amount"
 			format = center
 			maxwidth = 110
@@ -118,7 +118,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_fascists_attitude_status"
 			position = { x = @ATTITUDE_TEXT_X y = 190 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_fascists_attitude_status_amount"
 			format = center
 			maxwidth = 110
@@ -144,7 +144,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_monarchists_stability_status"
 			position = { x = @STABILITY_TEXT_X y = 55 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_monarchists_stability_status_amount"
 			format = center
 			maxwidth = 110
@@ -153,7 +153,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_republicans_stability_status"
 			position = { x = @STABILITY_TEXT_X y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_republicans_stability_status_amount"
 			format = center
 			maxwidth = 110
@@ -162,7 +162,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_communists_stability_status"
 			position = { x = @STABILITY_TEXT_X y = 145 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_communists_stability_status_amount"
 			format = center
 			maxwidth = 110
@@ -171,7 +171,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_fascists_stability_status"
 			position = { x = @STABILITY_TEXT_X y = 190 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_fascists_stability_status_amount"
 			format = center
 			maxwidth = 110
@@ -197,7 +197,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_monarchists_manpower_status"
 			position = { x = @MANPOWER_TEXT_X y = 55 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_monarchists_manpower_status_amount"
 			format = center
 			maxwidth = 120
@@ -206,7 +206,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_republicans_manpower_status"
 			position = { x = @MANPOWER_TEXT_X y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_republicans_manpower_status_amount"
 			format = center
 			maxwidth = 120
@@ -215,7 +215,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_communists_manpower_status"
 			position = { x = @MANPOWER_TEXT_X y = 145 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_communists_manpower_status_amount"
 			format = center
 			maxwidth = 120
@@ -224,7 +224,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="GRE_fascists_manpower_status"
 			position = { x = @MANPOWER_TEXT_X y = 190 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "GRE_fascists_manpower_status_amount"
 			format = center
 			maxwidth = 120

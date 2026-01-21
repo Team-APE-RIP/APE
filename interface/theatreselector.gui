@@ -23,7 +23,7 @@ guiTypes = {
 		editBoxType = {
 			name = "name"
 			position = { x = 62 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x = 180 y = 20 }
 			text = "Theater group 1"
 		}
@@ -38,7 +38,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "reinforcement_priority"
 			position = { x = 8 y = 44 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 170
 			maxHeight = 23
 			fixedsize = yes
@@ -113,7 +113,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "armies_count_box"
 			position = { x = 10 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 28
 			maxHeight = 23
 			fixedsize = yes
@@ -194,7 +194,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "ship_count_box"
 			position = { x = 6 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 36
 			maxHeight = 23
 			fixedsize = yes
@@ -237,7 +237,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "armies_count_box"
 			position = { x = 256 y = 46 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 40
 			maxHeight = 32
 			fixedsize = yes
@@ -247,7 +247,7 @@ guiTypes = {
 		editBoxType = {
 			name = "name_box"
 			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=145 y=32 }
 			text = "NEW_THEATER_GROUP"
 		}
@@ -288,7 +288,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "attack_combat_count"
 			position = { x = 235 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 32
 			maxHeight = 32
 			fixedsize = yes
@@ -315,7 +315,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "defence_combat_count"
 			position = { x = 263 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 32
 			maxHeight = 32
 			fixedsize = yes
@@ -363,7 +363,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "ship_count_box"
 			position = { x = 256 y = 46 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "999"
 			maxWidth = 40
 			maxHeight = 32
@@ -374,7 +374,7 @@ guiTypes = {
 		editBoxType = {
 			name = "theater_name_box"
 			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=170 y=32 }
 			text = "NEW_THEATER_GROUP"
 		}
@@ -440,7 +440,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "ship_count_box"
 			position = { x = 256 y = 46 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "999"
 			maxWidth = 40
 			maxHeight = 32
@@ -451,7 +451,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "theater_name_box"
 			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			alwaystransparent = yes
 			text = "RESERVE_NAVY_THEATER_GROUP_NAME"
 		}
@@ -496,7 +496,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="text"
 			position = { x = 10 y = 8 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "100%"
 			format = centre
 			maxWidth = 280
@@ -562,7 +562,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="name"
 			position = { x = 118 y = 14 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "100%"
 			format = left
 			maxWidth = 155
@@ -802,7 +802,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "split_off_count"
 			position = { x = 260 y = 4 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 36
 			maxHeight = 23
 			fixedsize = yes
@@ -858,7 +858,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "split_off_count"
 			position = { x = 260 y = 4 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 36
 			maxHeight = 23
 			fixedsize = yes
@@ -888,7 +888,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "theater_name_box"
 			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 170
 			maxHeight = 32
 			text = "UNASSIGNED_AIR_WINGS"
@@ -958,7 +958,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "air_wing_count_box"
 			position = { x = 6 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 36
 			maxHeight = 23
 			fixedsize = yes
@@ -984,7 +984,7 @@ guiTypes = {
 		editBoxType = {
 			name = "theatre_name_box"
 			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=170 y=32 }
 			text = "NEW_THEATER_GROUP"
 		}
@@ -1033,7 +1033,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "air_wing_count_box"
 			position = { x = 256 y = 46 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "999"
 			maxWidth = 40
 			maxHeight = 32
@@ -1108,7 +1108,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "air_wing_count_box"
 			position = { x = 6 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 36
 			maxHeight = 23
 			fixedsize = yes

@@ -101,7 +101,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "region_name"
 			position = {x=0 y=2}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 538
 			maxHeight = 23
@@ -112,7 +112,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tooltip_container_top"
 			position = {x=10 y=151}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 525
 			maxHeight = 80
@@ -122,7 +122,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tooltip_container_bottom"
 			position = {x=10 y=255}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 525
 			maxHeight = 100
@@ -132,7 +132,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "our_label"
 			position = {x=-238 y=151}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "AIR_STRATEGIC_OUR_TEXT"
 			maxWidth = 538
 			maxHeight = 23
@@ -143,7 +143,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "enemy_label"
 			position = {x=235 y=151}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "AIR_STRATEGIC_ENEMY_TEXT"
 			maxWidth = 538
 			maxHeight = 23
@@ -527,7 +527,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "max_value"
 				position = { x = 439 y = 25 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0.0"
 				maxWidth = 30
 				maxHeight = 30
@@ -536,7 +536,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "avg_value"
 				position = { x = 439 y = 89 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0.0"
 				maxWidth = 30
 				maxHeight = 30
@@ -545,7 +545,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "min_value"
 				position = { x = 439 y = 157 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0.0"
 				maxWidth = 30
 				maxHeight = 30
@@ -554,7 +554,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "min_x_value"
 				position = { x = 54 y = 175 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0"
 				maxWidth = 30
 				maxHeight = 30
@@ -564,7 +564,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "max_x_value"
 				position = { x = 404 y = 175 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "30"
 				maxWidth = 30
 				maxHeight = 30
@@ -574,7 +574,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "x_axis_type"
 				position = { x = 155 y = 175 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LINECHART_DETAILS_DAYS"
 				maxWidth = 180
 				maxHeight = 30
@@ -1270,7 +1270,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "our_fighters_count"
 				position = { x = 40 y = 52 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LINECHART_DETAILS_DAYS"
 				maxWidth = 180
 				maxHeight = 30
@@ -1302,7 +1302,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "enemy_fighters_count"
 				position = { x = 330 y = 52 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LINECHART_DETAILS_DAYS"
 				maxWidth = 180
 				maxHeight = 30
@@ -1342,7 +1342,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "our_bombers_count"
 				position = { x = 40 y = 175 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LINECHART_DETAILS_DAYS"
 				maxWidth = 180
 				maxHeight = 30
@@ -1381,7 +1381,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "enemy_bombers_count"
 				position = { x = 330 y = 175 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LINECHART_DETAILS_DAYS"
 				maxWidth = 180
 				maxHeight = 30

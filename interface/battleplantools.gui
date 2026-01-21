@@ -29,7 +29,7 @@ guiTypes = {
 			name = "operation_name"
 			position = {x=-22 y=8}
 			size = {x=380 y=23}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			#maxWidth = 300
 			#maxHeight = 20
@@ -218,7 +218,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = {x=-22 y=8}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "BATTLE_PLANS"
 				maxWidth = 346
 				maxHeight = 23
@@ -229,7 +229,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "hint"
 				position = {x=172 y=8}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "?"
 				maxWidth = 347
 				maxHeight = 23
@@ -256,7 +256,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "garrison_order_headline"
 					position = {x=5 y=6}
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "GARRISON_ORDER_CONF"
 					maxWidth = 340
 					maxHeight = 23
@@ -402,7 +402,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=13 y=8}
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "EXECUTION"
 					maxWidth = 346
 					maxHeight = 23
@@ -469,7 +469,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=13 y=8}
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "COHESION"
 					maxWidth = 346
 					maxHeight = 23

@@ -109,7 +109,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=135 y=14}
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "name"
 			maxWidth = 420
 			maxHeight = 25
@@ -370,7 +370,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "outcome"
 			position = {x=142 y=60}
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "WINNER"
 			maxWidth = 420
 			maxHeight = 25
@@ -393,7 +393,7 @@ guiTypes = {
 			name = "dismiss_button"
 			position = { x = -60 y = -58 }
 			quadTextureSprite ="GFX_button_reset_123x34"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			buttonText = BUTTON_DISMISS
 			shortcut = "RETURN"
 			Orientation = "CENTER_DOWN"

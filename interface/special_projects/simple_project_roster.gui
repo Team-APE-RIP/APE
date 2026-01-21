@@ -85,7 +85,7 @@ guiTypes = {
 			name = "project_name"
 			position = { x = 105 y = 40 }
 			alwaystransparent = yes
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 280
 			maxHeight = 18
@@ -97,7 +97,7 @@ guiTypes = {
 			name = "project_name_specific"
 			position = { x = 105 y = 30 }
 			alwaystransparent = yes
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 280
 			maxHeight = 18
@@ -109,7 +109,7 @@ guiTypes = {
 			name = "project_name_default"
 			position = { x = 105 y = 50 }
 			alwaystransparent = yes
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 280
 			maxHeight = 18
@@ -195,7 +195,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "phase_name"
 						position = { x = 0 y = 34 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						text = "ESTABLISHING_PROJECT_STATE"
 						maxWidth = 160
 						maxHeight = 18
@@ -205,7 +205,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "establishing_phase_time_text"
 						position = { x = 0 y = 54 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 160
 						maxHeight = 18
 						format = center
@@ -232,7 +232,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "phase_name"
 						position = { x = 0 y = 34 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						text = "INITIAL_RESEARCH_STATE"
 						maxWidth = 160
 						maxHeight = 18
@@ -242,7 +242,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "initial_research_phase_time_text"
 						position = { x = 0 y = 54 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 160
 						maxHeight = 18
 						format = center
@@ -268,7 +268,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "phase_name"
 						position = { x = 0 y = 34 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						text = "PROTOTYPE_STATE"
 						maxWidth = 160
 						maxHeight = 18
@@ -278,7 +278,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "prototyping_phase_time_text"
 						position = { x = 0 y = 54 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 160
 						maxHeight = 18
 						format = center
@@ -287,7 +287,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "number_of_iterations_text"
 						position = { x = 0 y = 70 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 160
 						maxHeight = 18
 						format = center

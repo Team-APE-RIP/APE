@@ -34,7 +34,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="poster_left_text"
 			position = { x = @TEXT_LEFT_X y = @TEXTS_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SOV_poster_left_text"
 			format = center
 			maxWidth = 150
@@ -51,7 +51,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="poster_center_text"
 			position = { x = @TEXT_CENTER_X y = @TEXTS_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SOV_poster_center_text"
 			format = center
 			maxWidth = 150
@@ -68,7 +68,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="poster_right_text"
 			position = { x = @TEXT_RIGHT_X y = @TEXTS_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SOV_poster_right_text"
 			format = center
 			maxWidth = 150

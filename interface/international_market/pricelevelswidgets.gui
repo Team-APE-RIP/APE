@@ -30,7 +30,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "price_label"
 			position = { x = 62 y = 0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "INTERNATIONAL_MARKET_PRICE_LEVEL_LABEL"
 			maxWidth = 100
 			maxHeight = 32

@@ -38,7 +38,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "instruction"
 				position = { x = 0 y = 50 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "INDUSTRIAL_ORG_POLICY_WINDOW_INSTRUCTION"
 				maxWidth = 500
 				maxHeight = 20
@@ -110,7 +110,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "attach_cost"
 			position = { x = 440 y = 40 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 80
 			maxHeight = 66

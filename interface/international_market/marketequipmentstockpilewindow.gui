@@ -14,7 +14,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_221x34"
 			position = { x=155 y=10 }
 			buttonText = "INTERNATIONAL_MARKET_ADD_EQUIPMENT_TO_STOCKPILE"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			pdx_tooltip = "INTERNATIONAL_MARKET_ADD_TO_STOCKPILE_BUTTON_TOOLTIP"
 		}
 
@@ -207,7 +207,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 42 y = 6 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Maus"
 			maxWidth = 308
 			maxHeight = 19
@@ -308,7 +308,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cic_cost"
 			position = { x = 40 y = 70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "XXXX"
 			maxWidth = 160
 			maxHeight = 30

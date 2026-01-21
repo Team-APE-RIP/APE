@@ -96,7 +96,7 @@ guiTypes = {
 				position = { x = 380 y = 13 }
 				quadTextureSprite = "GFX_diplo_filter_entry"
 				frame = 2
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				buttonText = "OPEN_SCIENTIST_ROSTER_BUTTON"
 				Orientation = "UPPER_LEFT"
 			}
@@ -106,7 +106,7 @@ guiTypes = {
 				position = { x = 240 y = 13 }
 				quadTextureSprite = "GFX_diplo_filter_entry"
 				frame = 2
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				buttonText = "OPEN_HISTORY_ROSTER_BUTTON"
 				Orientation = "UPPER_LEFT"
 			}
@@ -114,7 +114,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "owned_facilities"
 				position = { x = 30 y = 20 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				fixedsize = yes
 				maxWidth = 290
 				maxHeight = 18
@@ -126,7 +126,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "owned_facilities_amount"
 				position = { x = 150 y = 20 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				fixedsize = yes
 				maxWidth = 290
 				maxHeight = 18
@@ -262,7 +262,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "research_speed_text"
 					position = { x = 16 y = 17 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					fixedsize = yes
 					maxWidth = 40
 					maxHeight = 18
@@ -379,7 +379,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "status_info_text"
 			position = { x = 330 y = 80 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 250
 			maxHeight = 38
@@ -430,7 +430,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "resource_usage"
 				position = { x = 0 y = 65 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "SPECIAL_PROJECT_RESOURCE_USAGE_NONE"
 				maxWidth = 220
 				maxHeight = 10

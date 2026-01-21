@@ -74,7 +74,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "warning_text"
 			position = {x=16 y=133}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 250
 			maxHeight = 75
 			format = left
@@ -145,7 +145,7 @@ guiTypes = {
 			name = "remove_planes_1"
 			position = {x=16 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "hoi_18mbs"		
+			font = "AAGCZYRL18"		
 			clicksound = click_default
 		}
 
@@ -153,7 +153,7 @@ guiTypes = {
 			name = "remove_planes_2"
 			position = {x=75 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "hoi_18mbs"			
+			font = "AAGCZYRL18"			
 			clicksound = click_default
 		}
 
@@ -161,7 +161,7 @@ guiTypes = {
 			name = "add_planes_1"
 			position = {x=144 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "hoi_18mbs"		
+			font = "AAGCZYRL18"		
 			clicksound = click_default
 		}
 			
@@ -169,7 +169,7 @@ guiTypes = {
 			name = "add_planes_2"
 			position = {x=203 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "hoi_18mbs"		
+			font = "AAGCZYRL18"		
 			clicksound = click_default
 		}
 	}
@@ -336,7 +336,7 @@ guiTypes = {
 		#	instantTextboxType = {
 		#		name = "count"
 		#		position = {x=7 y=3}
-		#		font = "hoi_18mbs"
+		#		font = "AAGCZYRL18"
 		#		maxWidth = 450
 		#		maxHeight = 23
 		#		format = left
@@ -359,7 +359,7 @@ guiTypes = {
 		#	instantTextboxType = {
 		#		name = "wing_name"
 		#		position = {x=175 y=4}
-		#		font = "hoi_18mbs"
+		#		font = "AAGCZYRL18"
 		#		maxWidth = 450
 		#		maxHeight = 23
 		#		format = left
@@ -432,7 +432,7 @@ guiTypes = {
 		#	instantTextboxType = {
 		#		name = "count"
 		#		position = {x=7 y=3}
-		#		font = "hoi_18mbs"
+		#		font = "AAGCZYRL18"
 		#		maxWidth = 450
 		#		maxHeight = 23
 		#		format = left
@@ -455,7 +455,7 @@ guiTypes = {
 		#	instantTextboxType = {
 		#		name = "wing_name"
 		#		position = {x=175 y=4}
-		#		font = "hoi_18mbs"
+		#		font = "AAGCZYRL18"
 		#		maxWidth = 450
 		#		maxHeight = 23
 		#		format = left
@@ -545,7 +545,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower_left"
 			position = { x = 148 y = 460 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -567,7 +567,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_plane_count"
 			position = { x = 675 y = 469 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "WIP"
 			maxWidth = 60
 			maxHeight = 20
@@ -589,7 +589,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower_right"
 			position = { x = 795 y = 469 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -673,7 +673,7 @@ guiTypes = {
 			name = "manpower_text"
 			position = { x = 65 y = 25 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 160
@@ -704,7 +704,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "airwing_count"
 			position = {x=4 y=0}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 30
 			maxHeight = 23
 			format = left
@@ -776,7 +776,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=-195 y=49}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 450
 			maxHeight = 23
 			format = right
@@ -881,7 +881,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=-94 y=49}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 450
 			maxHeight = 23
 			format = right

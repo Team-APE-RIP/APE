@@ -58,7 +58,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "admiral_name"
 				position = {x=2 y=0}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 200
 				maxHeight = 23
 				format = left
@@ -92,7 +92,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "admiral_skill_text"
 						position = {x=10 y=9}
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 200
 						maxHeight = 23
 						format = left
@@ -109,7 +109,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "stat_attack_text"
 						position = {x=34 y=22}
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 200
 						maxHeight = 23
 						format = left
@@ -125,7 +125,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "stat_defense_text"
 						position = {x=54 y=22}
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 200
 						maxHeight = 23
 						format = left
@@ -141,7 +141,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "stat_coordination_text"
 						position = {x=74 y=22}
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 200
 						maxHeight = 23
 						format = left
@@ -157,7 +157,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "stat_maneuvering_text"
 						position = {x=94 y=22}
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						maxWidth = 200
 						maxHeight = 23
 						format = left
@@ -185,7 +185,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "experience_gained"
 			position = {x=260 y=82}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "9999.99"
 			maxWidth = 200
 			maxHeight = 23

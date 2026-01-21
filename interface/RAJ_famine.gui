@@ -28,7 +28,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="RAJ_famine_main_desc"
 			position = { x = 18 y = 0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "RAJ_famine_scripted_timeframe_reveal"
 			format = center
 			maxWidth = 470
@@ -39,7 +39,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="RAJ_famine_spread_risk_gui"
 			position = { x = 18 y = 90 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "RAJ_famine_risk_scripted_gui_desc"
 			format = center
 			maxWidth = 470

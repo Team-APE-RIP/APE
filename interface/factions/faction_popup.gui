@@ -16,7 +16,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 29 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "Maus"
 			maxWidth = 530
 			maxHeight = 20
@@ -40,7 +40,7 @@ guiTypes = {
 				name = "description"
 				position = { x = 0 y = 0 }
 				borderSize = {x = 10 y = 30}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 470
 				maxHeight = 100
@@ -58,7 +58,7 @@ guiTypes = {
 			name = "diplo_reply"
 			position = { x = 117 y = 200 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "REPLYTEXT"
 			maxWidth = 315

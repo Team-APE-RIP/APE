@@ -139,7 +139,7 @@ guiTypes = {
 				name ="fuhrer_title"
 				orientation = center_down
 				position = { x = -100 y = 20 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = [GetFuhrerGenderedName]
 				format = center
 				maxWidth = 200
@@ -225,7 +225,7 @@ guiTypes = {
 				name ="ascended_advisor_1_trait"
 				orientation = center_down
 				position = { x = @ASCENDED_ADVISOR_TEXT_POS_X y = @ASCENDED_ADVISOR_TEXT_POS_Y }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = [GetAscendedAdvisorTraitName1]
 				format = center
 				maxWidth = 150
@@ -306,7 +306,7 @@ guiTypes = {
 				name ="ascended_advisor_2_trait"
 				orientation = center_down
 				position = { x = @ASCENDED_ADVISOR_TEXT_POS_X y = @ASCENDED_ADVISOR_TEXT_POS_Y }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = [GetAscendedAdvisorTraitName2]
 				format = center
 				maxWidth = 150
@@ -386,7 +386,7 @@ guiTypes = {
 				name ="ascended_advisor_3_trait"
 				orientation = center_down
 				position = { x = @ASCENDED_ADVISOR_TEXT_POS_X y = @ASCENDED_ADVISOR_TEXT_POS_Y }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = [GetAscendedAdvisorTraitName3]
 				format = center
 				maxWidth = 150

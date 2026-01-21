@@ -52,7 +52,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "total_ships"
 			position = { x=80 y=70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 		 	maxWidth = 120
 			maxHeight = 20
@@ -68,7 +68,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower"
 			position = { x=220 y=70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 		 	maxWidth = 120
 			maxHeight = 20
@@ -103,7 +103,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "archetype_name"
 			position = { x = 12 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 170
@@ -145,7 +145,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 25 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "USS Enterprise"
 			maxWidth = 220
 			maxHeight = 20
@@ -156,7 +156,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 233 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "10"
 			maxWidth = 35
 			maxHeight = 20
@@ -218,7 +218,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "total_planes"
 			position = { x = 70 y = 70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 		 	maxWidth = 60
 			maxHeight = 20
@@ -234,7 +234,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower"
 			position = { x = 160 y = 70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 		 	maxWidth = 50
 			maxHeight = 20
@@ -250,7 +250,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_ratio"
 			position = { x = 241 y = 70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -285,7 +285,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "archetype_name"
 			position = { x = 12 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 170
@@ -334,7 +334,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 25 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "USS Enterprise"
 			maxWidth = 220
 			maxHeight = 20
@@ -345,7 +345,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 233 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "10"
 			maxWidth = 35
 			maxHeight = 20

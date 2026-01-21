@@ -567,7 +567,7 @@ guiTypes = {
 					name = "accessibility_visual_alerts_label"
 					position = { x = 65 y = 100 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_VISUAL_ALERTS"
 					maxWidth = 258
@@ -591,7 +591,7 @@ guiTypes = {
 					name = "accessibility_large_fonts_label"
 					position = { x = 65 y = 140 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_CHAT_LARGE_FONTS"
 					maxWidth = 258
@@ -615,7 +615,7 @@ guiTypes = {
 					name = "accessibility_tts_label"
 					position = { x = 65 y = 180 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_TTS"
 					maxWidth = 258
@@ -639,7 +639,7 @@ guiTypes = {
 					name = "accessibility_stt_label"
 					position = { x = 65 y = 220 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_STT"
 					maxWidth = 258
@@ -663,7 +663,7 @@ guiTypes = {
 					name = "accessibility_stt_shortcut_label"
 					position = { x = 65 y = 260 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_USE_STT_SHORTCUT"
 					maxWidth = 258
@@ -687,7 +687,7 @@ guiTypes = {
 					name = "accessibility_stt_shortcut_editbox_label"
 					position = { x = 65 y = 300 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_USE_STT_SHORTCUT"
 					maxWidth = 258
@@ -1187,7 +1187,7 @@ guiTypes = {
 				name = "settings_tab_1"
 				position = { x = 25 y = 68 }
 				quadTextureSprite ="GFX_button_94x31"	
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "SM_GAME"				
 				clicksound = click_checkbox
 				oversound = ui_menu_over
@@ -1197,7 +1197,7 @@ guiTypes = {
 				name = "settings_tab_2"
 				position = { x = 135 y = 68 }
 				quadTextureSprite ="GFX_button_94x31"	
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text =	 "SM_VIDEO"					
 				clicksound = click_checkbox
 				oversound = ui_menu_over
@@ -1207,7 +1207,7 @@ guiTypes = {
 				name = "settings_tab_3"
 				position = { x = 245 y = 68 }
 				quadTextureSprite ="GFX_button_94x31"	
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "SM_AUDIO"					
 				clicksound = click_checkbox
 				oversound = ui_menu_over
@@ -1244,7 +1244,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = { x = 40 y = 51 }
 					name = "mastervolume_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -1316,7 +1316,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 91 }
 					name = "effectvolume_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -1387,7 +1387,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 131 }
 					name = "musicvolume_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -1460,7 +1460,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 171 }
 					name = "ambient_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -1529,7 +1529,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 211 }
 					name = "voicevolume_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -1592,7 +1592,7 @@ guiTypes = {
 					position = { x = 100 y = 280 }
 					quadTextureSprite ="GFX_button_261x34_2"
 					buttonText = "MUSICPLAYER_OPEN_PLAYER"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					clicksound = click_default
 				}
 			}
@@ -1617,7 +1617,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 21 }
 					name = "scrollspeed_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 172
 					maxHeight = 18
@@ -1678,7 +1678,7 @@ guiTypes = {
 					name = "corner_scrolling_enabled"
 					position = { x = 65 y = 54 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SM_CORNER_SCROLL"
 					maxWidth = 258
@@ -1707,7 +1707,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 89 }
 					name = "zoomspeed_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 172
 					maxHeight = 18
@@ -1772,7 +1772,7 @@ guiTypes = {
 					name = "accessibility_visual_alerts_label"
 					position = { x = 65 y = 124 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_VISUAL_ALERTS"
 					maxWidth = 258
@@ -1796,7 +1796,7 @@ guiTypes = {
 					name = "accessibility_large_fonts_label"
 					position = { x = 65 y = 160 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_CHAT_LARGE_FONTS"
 					maxWidth = 258
@@ -1820,7 +1820,7 @@ guiTypes = {
 					name = "accessibility_tts_label"
 					position = { x = 65 y = 196 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_TTS"
 					maxWidth = 258
@@ -1844,7 +1844,7 @@ guiTypes = {
 					name = "accessibility_stt_label"
 					position = { x = 65 y = 232 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_STT"
 					maxWidth = 258
@@ -1868,7 +1868,7 @@ guiTypes = {
 					name = "accessibility_stt_shortcut_label"
 					position = { x = 65 y = 268 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_USE_STT_SHORTCUT"
 					maxWidth = 258
@@ -1892,7 +1892,7 @@ guiTypes = {
 					name = "accessibility_stt_shortcut_editbox_label"
 					position = { x = 65 y = 304 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_USE_STT_SHORTCUT"
 					maxWidth = 258
@@ -1926,7 +1926,7 @@ guiTypes = {
 					name = "accessibility_ingameclock_label"
 					position = { x = 65 y = 336 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SETTINGS_ACCESSIBILITY_IN_GAME_CLOCK"
 					maxWidth = 258
@@ -1966,7 +1966,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 21 }
 					name = "mode_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -1979,7 +1979,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 21 }
 					name = "mode_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2015,7 +2015,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 53 }
 					name = "resolution_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2028,7 +2028,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 54 }
 					name = "resolution_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2063,7 +2063,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 87 }
 					name = "refreshrate_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2076,7 +2076,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 87 }
 					name = "refreshrate_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2112,7 +2112,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 121 }
 					name = "multisample_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2124,7 +2124,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 121 }
 					name = "multisample_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2156,7 +2156,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 155 }
 					name = "gamma_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2219,7 +2219,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 189 }
 					name = "tex_quality_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2231,7 +2231,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 189 }
 					name = "tex_quality_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2264,7 +2264,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 223 }
 					name = "ui_scaling_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2276,7 +2276,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 223 }
 					name = "ui_scaling_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2309,7 +2309,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 340 y = 253 }
 					name = "shadows_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 70
 					maxHeight = 18
@@ -2330,7 +2330,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 200 y = 253 }
 					name = "trees_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 70
 					maxHeight = 18
@@ -2351,7 +2351,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 60 y = 253 }
 					name = "vsync_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2372,7 +2372,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 200 y = 283 }
 					name = "weather_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2393,7 +2393,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 200 y = 313 }
 					name = "water_refl_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2414,7 +2414,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 60 y = 313 }
 					name = "cities_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2435,7 +2435,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 340 y = 313 }
 					name = "units_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2456,7 +2456,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 340 y = 283 }
 					name = "buildings_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2477,7 +2477,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 60 y = 283 }
 					name = "rivers_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 130
 					maxHeight = 18
@@ -2498,7 +2498,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 60 y = 343 }
 					name = "hq_shaders_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 175
 					maxHeight = 18
@@ -2520,7 +2520,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 273 y = 343 }
 					name = "full_map_res_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 175
 					maxHeight = 18
@@ -2549,7 +2549,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 40 y = 21 }
 					name = "autosave_label"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 210
 					maxHeight = 18
@@ -2562,7 +2562,7 @@ guiTypes = {
 				instantTextBoxType={
 					position = {x = 278 y = 21 }
 					name = "autosave_value"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
 					maxHeight = 18
@@ -2591,7 +2591,7 @@ guiTypes = {
 					name = "autosave_tocloud_title"
 					position = { x = 74 y = 55 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "AUTOSAVE_TOCLOUD"
 					maxWidth = 158
@@ -2613,7 +2613,7 @@ guiTypes = {
 					name = "allow_hotjoin_title"
 					position = { x = 274 y = 54 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "FE_HOTJOIN_LABEL"
 					maxWidth = 300
@@ -2635,7 +2635,7 @@ guiTypes = {
 					name = "career_cloud_title"
 					position = { x = 74 y = 88 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "SAVE_CAREER_TO_CLOUD"
 					maxWidth = 300
@@ -2656,7 +2656,7 @@ guiTypes = {
 					name = "allow_coop_title"
 					position = { x = 74 y = 125 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "FE_COOP_LABEL"
 					maxWidth = 300
@@ -2678,7 +2678,7 @@ guiTypes = {
 					name = "nato_counters_title"
 					position = { x = 274 y = 125 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "NATO_COUNTERS"
 					maxWidth = 300
@@ -2699,7 +2699,7 @@ guiTypes = {
 					name = "pause_on_popup_title"
 					position = { x = 74 y = 199 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "PAUSE_ON_POPUPS"
 					maxWidth = 300
@@ -2721,7 +2721,7 @@ guiTypes = {
 					name = "always_show_regions_title"
 					position = { x = 74 y = 310 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "ALWAYS_SHOW_REGIONS"
 					maxWidth = 300
@@ -2743,7 +2743,7 @@ guiTypes = {
 					name = "lock_map_tooltip_title"
 					position = { x = 74 y = 161 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "LOCK_MAP_TOOLTIP"
 					maxWidth = 300
@@ -2766,7 +2766,7 @@ guiTypes = {
 				#	name = "hints_active_title"
 				#	position = { x = 274 y = 69 }
 				#	textureFile = ""
-				#	font = "hoi_18mbs"
+				#	font = "AAGCZYRL18"
 				#	borderSize = {x = 0 y =0}
 				#	text = "HINTS_ACTIVE"
 				#	maxWidth = 152
@@ -2787,7 +2787,7 @@ guiTypes = {
 					name = "external_browser_title"
 					position = { x = 74 y = 236 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "EXTERNAL_BROWSER"
 					maxWidth = 300
@@ -2808,7 +2808,7 @@ guiTypes = {
 					name = "home_wiki_title"
 					position = { x = 74 y = 273 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y =0}
 					text = "HOME_WIKI"
 					maxWidth = 300
@@ -2831,7 +2831,7 @@ guiTypes = {
 					position = { x = 324 y = 470 }
 					quadTextureSprite ="GFX_button_123x34"
 					buttonText = "SM_APPLY"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					clicksound = click_default
 				}
 
@@ -2841,7 +2841,7 @@ guiTypes = {
 				position = { x = 34 y = 470 }
 				quadTextureSprite ="GFX_button_123x34"	
 				buttonText = "BACK"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_close
 				shortcut = "ESCAPE"
 			}

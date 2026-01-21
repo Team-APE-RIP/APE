@@ -190,10 +190,10 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "hoi_18mbs"
 		fontfiles = { 
-			"gfx/fonts/chinese/hoi_18mbs_1of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_2of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_3of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_4of4EX"	
+			#"gfx/fonts/chinese/hoi_18mbs_1of4EX"	
+			#"gfx/fonts/chinese/hoi_18mbs_2of4EX"	
+			#"gfx/fonts/chinese/hoi_18mbs_3of4EX"	
+			#"gfx/fonts/chinese/hoi_18mbs_4of4EX"	
 		}
 	languages = { "l_simp_chinese" } 
 	}
@@ -278,10 +278,11 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "hoi_24header"
 		fontfiles = { 
-			"gfx/fonts/chinese/hoi_24header_1of4"	
-			"gfx/fonts/chinese/hoi_24header_2of4"	
-			"gfx/fonts/chinese/hoi_24header_3of4"	
-			"gfx/fonts/chinese/hoi_24header_4of4"	
+			#"gfx/fonts/AAGCZY/AAGCZYRL24_0"
+			#"gfx/fonts/chinese/hoi_24header_1of4"	
+			#"gfx/fonts/chinese/hoi_24header_2of4"	
+			#"gfx/fonts/chinese/hoi_24header_3of4"	
+			#"gfx/fonts/chinese/hoi_24header_4of4"	
 		}
 	languages = { "l_simp_chinese" } 
 	}

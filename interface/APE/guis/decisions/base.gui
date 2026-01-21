@@ -70,7 +70,7 @@ guiTypes = {
 				name = "APE_decision_category_collapse_btn_0"
 				position = { x=484 y=25 }
 				quadTextureSprite = "GFX_conveyor_collapse_btn"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 				alwaystransparent = yes
 				frame = 1
@@ -116,7 +116,7 @@ guiTypes = {
 				name = "APE_decision_category_collapse_btn_1"
 				position = { x=484 y=25 }
 				quadTextureSprite = "GFX_conveyor_collapse_btn"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 				alwaystransparent = yes
 				frame = 1

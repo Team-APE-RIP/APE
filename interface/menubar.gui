@@ -301,7 +301,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "country_score_label"
 			position = { x = 23 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SCORE"
 			maxWidth = 285
 			maxHeight = 20
@@ -311,7 +311,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "country_score"
 			position = { x = 23 y = 120 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 285
 			maxHeight = 20
 			fixedsize = yes
@@ -320,7 +320,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "country_score_pos"
 			position = { x = 23 y = 150 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 285
 			maxHeight = 20
 			fixedsize = yes
@@ -347,7 +347,7 @@ guiTypes = {
 				name = "leader_label"
 				position = { x = 0 y = 0 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -358,7 +358,7 @@ guiTypes = {
 				name = "leader"
 				position = { x = 0 y = 17 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -369,7 +369,7 @@ guiTypes = {
 				name = "ideology_label"
 				position = { x = 0 y = 44 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -380,7 +380,7 @@ guiTypes = {
 				name = "ideology"
 				position = { x = 0 y = 61 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -391,7 +391,7 @@ guiTypes = {
 				name = "government_label"
 				position = { x = 0 y = 88 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -402,7 +402,7 @@ guiTypes = {
 				name = "government"
 				position = { x = 0 y = 105 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -413,7 +413,7 @@ guiTypes = {
 				name = "party_label"
 				position = { x = 0 y = 136 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -424,7 +424,7 @@ guiTypes = {
 				name = "party"
 				position = { x = 0 y = 153 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -511,7 +511,7 @@ guiTypes = {
 				position = { x = 60 y = 25 }
 				size = { x = 260 y = 28 }
 				spriteType = "GFX_profile_button_filter_long"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				buttonText = "LEDGER_COUNTRY"
 				borderSize = { x = 32 y = -4 }
 				format = left
@@ -522,7 +522,7 @@ guiTypes = {
 				name = "faction_icon"
 				position = { x = 330 y = 25 }
 				spriteType = "GFX_profile_button_filter"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				buttonText = "FACTION"
 				borderSize = { x = 0 y = -4 }
 				format = center
@@ -814,7 +814,7 @@ guiTypes = {
 		iconType =
 			{
 			name ="messagesettings_bg"
-			spriteType = "GFX_tiled_window"
+			spriteType = "GFX_tiled_SPinckEXwthSCLPMini_bg"
 			position = { x= -170 y = 53 }
 			Orientation = "UPPER_LEFT"
 		}

@@ -35,7 +35,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "selected_division_count"
 				position = {x=45 y=13}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 130
 				maxHeight = 23
 				format = left
@@ -56,7 +56,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "transport_weight"
 				position = {x=225 y=14}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 62
 				maxHeight = 23
 				format = center
@@ -334,7 +334,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "current_manpower"
 			position = { x = 50 y = 369 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20

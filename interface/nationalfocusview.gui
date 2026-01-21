@@ -82,7 +82,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "found_text"
 				position = { x = -15500 y = 12 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 150
@@ -264,7 +264,7 @@ guiTypes = {
 							name = "continuous_focus_progress"
 							position = { x = 20 y = 10 }
 							textureFile = ""
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							borderSize = { x = 0 y = 0 }
 							text = ""
 							maxWidth = 360
@@ -839,7 +839,7 @@ guiTypes = {
 			name = "reward_label"
 			position = { x = 34000 y = 370 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "FOCUS_REWARD"
 			maxWidth = 485
@@ -926,7 +926,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 30 y = 12 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 450
@@ -977,7 +977,7 @@ guiTypes = {
 			name = "desc"
 			position = { x = 34 y = 250 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
@@ -995,7 +995,7 @@ guiTypes = {
 			name = "reward_label"
 			position = { x = 34 y = 370 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "FOCUS_REWARD"
 			maxWidth = 485

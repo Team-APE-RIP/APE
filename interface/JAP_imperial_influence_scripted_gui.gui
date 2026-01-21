@@ -122,7 +122,7 @@ guiTypes = {
 				name ="emperor_title"
 				orientation = center_down
 				position = { x = -100 y = 20 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = JAP_imperial_influence_ruler_title
 				format = center
 				maxWidth = 200
@@ -188,7 +188,7 @@ guiTypes = {
 				name ="army_faction_name"
 				orientation = center_down
 				position = { x = @IMPERIAL_FACTION_TEXT_POS_X y = @IMPERIAL_FACTION_NAME_POS_X }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = "JAP_army_faction"
 				format = center
 				maxWidth = 150
@@ -335,7 +335,7 @@ guiTypes = {
 				name ="naval_faction_name"
 				orientation = center_down
 				position = { x = @IMPERIAL_FACTION_TEXT_POS_X y = @IMPERIAL_FACTION_NAME_POS_X }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = "JAP_naval_faction"
 				format = center
 				maxWidth = @IMPERIAL_FACTION_CONTAINER_WIDTH
@@ -481,7 +481,7 @@ guiTypes = {
 				name ="zaibatsu_faction_name"
 				orientation = center_down
 				position = { x = @IMPERIAL_FACTION_TEXT_POS_X y = @IMPERIAL_FACTION_NAME_POS_X }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = "JAP_zaibatsu_faction"
 				format = center
 				maxWidth = 150
@@ -627,7 +627,7 @@ guiTypes = {
 				name ="government_faction_name"
 				orientation = center_down
 				position = { x = @IMPERIAL_FACTION_TEXT_POS_X y = @IMPERIAL_FACTION_NAME_POS_X }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				context_aware_text = "JAP_government_faction"
 				format = center
 				maxWidth = @IMPERIAL_FACTION_CONTAINER_WIDTH

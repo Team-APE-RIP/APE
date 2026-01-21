@@ -47,7 +47,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="paranoia_text"
 			position = { x = @PARANOIA_TEXT_X y = @PARANOIA_TEXT_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SOV_paranoia_value_text"
 			format = center
 			maxWidth = 400

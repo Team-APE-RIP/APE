@@ -29,7 +29,7 @@ guiTypes = {
 		instantTextBoxType = { 
 			name ="we_level_text"
 			position = { x = 10 y = 16 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "war_escalation_text"
 			format = left
 			maxHeight = 24

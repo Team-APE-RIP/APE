@@ -85,7 +85,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower"
 			position = { x = 50 y = 369  }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -115,7 +115,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_ratio"
 			position = { x = 690 y = 8 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -227,7 +227,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ace_name"
 			position = {x=225 y=370}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 250
 			maxHeight = 23
@@ -260,7 +260,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "equipment_name"
 				position = { x = 85 y = -15 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "name"	
 				fixedsize = yes	
@@ -318,7 +318,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=7 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 450
 			maxHeight = 23
 			format = left
@@ -328,7 +328,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=90 y=5}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 185
 			maxHeight = 23
 			fixedsize = yes

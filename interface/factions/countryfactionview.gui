@@ -79,7 +79,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 120 y = 60 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				maxWidth = 300
 				maxHeight = 20
 				fixedsize = yes
@@ -89,7 +89,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "manifest_name"
 				position = { x = 120 y =100 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 250
 				maxHeight = 20
 				format = left
@@ -104,7 +104,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "power_projection_value"
 				position = { x = -180 y = 132 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 150
 				maxHeight = 20
 				format = right
@@ -133,7 +133,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "faction_initiative_value"
 					position = { x = 30 y = 3 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "42"
 					maxWidth = 40
 					maxHeight = 20
@@ -150,7 +150,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = 15 y = 22 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "FACTION_INFLUENCE_TITLE"
 				maxWidth = 300
 				maxHeight = 20
@@ -303,7 +303,7 @@ guiTypes = {
 							instantTextboxType = {
 								name = "label"
 								position = { x = 20 y = 10 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								text = "FACTION_GOALS_TITLE"
 								maxWidth = 200
 								maxHeight = 20
@@ -336,7 +336,7 @@ guiTypes = {
 								name = "short_term_header"
 
 								position = { x = 50 y = 0 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								text = "SHORT_TERM"
 								maxWidth = 130
 								maxHeight = 20
@@ -356,7 +356,7 @@ guiTypes = {
 								name = "medium_term_header"
 
 								position = { x = 220 y = 0 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								text = "MEDIUM_TERM"
 								maxWidth = 100
 								maxHeight = 20
@@ -375,7 +375,7 @@ guiTypes = {
 								name = "long_term_header"
 
 								position = { x = 380 y = 0 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								text = "LONG_TERM"
 								maxWidth = 100
 								maxHeight = 20
@@ -450,7 +450,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = 20 y = 10 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							text = "FACTION_RULES_TITLE"
 							maxWidth = 200
 							maxHeight = 20
@@ -524,7 +524,7 @@ guiTypes = {
 							position = { x = 52 y = 2 }
 							quadTextureSprite = "GFX_button_221x34"
 							frame = 1
-							buttonFont = "hoi_18mbs"
+							buttonFont = "AAGCZYRL18"
 							buttonText = "FACTION_RESEARCH_BUTTON"
 							Orientation = "UPPER_LEFT"
 						}
@@ -532,7 +532,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "oppertunities"
 							position = { x=285 y=10 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							maxWidth = 145
 							maxHeight = 20
 							fixedsize = yes
@@ -557,7 +557,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "research_sharing_value"
 							position = { x=437 y=10 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							maxWidth = 60
 							maxHeight = 20
 							format = center
@@ -581,7 +581,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "research_sharing_value"
 							position = { x=56 y=10 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							maxWidth = 400
 							maxHeight = 20
 							format = left
@@ -625,7 +625,7 @@ guiTypes = {
 							position = { x = 380 y = 0 }
 							quadTextureSprite = "GFX_diplo_filter_entry"
 							frame = 2
-							buttonFont = "hoi_18mbs"
+							buttonFont = "AAGCZYRL18"
 							buttonText = "OPEN_SCIENTIST_ROSTER_BUTTON"
 							Orientation = "UPPER_LEFT"
 						}
@@ -662,7 +662,7 @@ guiTypes = {
 					instantTextboxType = {
 						position = { x = 50 y = 20 }
 						name = "hidden_text"
-						font = "hoi_24header"
+						font = "AAGCZYRL24"
 						maxWidth = 400
 						maxHeight = 20
 						format = center
@@ -679,7 +679,7 @@ guiTypes = {
 					instantTextboxType = {
 						position = { x = 50 y = 120 }
 						name = "explain_text"
-						font = "hoi_24header"
+						font = "AAGCZYRL24"
 						maxWidth = 400
 						maxHeight = 20
 						format = center
@@ -743,7 +743,7 @@ guiTypes = {
 							instantTextboxType = {
 								name = "label"
 								position = { x=50 y=10 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								maxWidth = 200
 								maxHeight = 20
 								format = left
@@ -778,7 +778,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "faction_manpowerpool_value"
 							position = { x = 96 y = 44 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							text = "42"
 							maxWidth = 70
 							maxHeight = 20
@@ -819,7 +819,7 @@ guiTypes = {
 							instantTextboxType = {
 								name = "faction_theater_label"
 								position = { x=50 y=10 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								maxWidth = 200
 								maxHeight = 20
 								format = left
@@ -838,7 +838,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "faction_theater_amount_text"
 							position = { x = 260 y = 54 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							maxWidth = 240
 							maxHeight = 20
 							format = left
@@ -879,7 +879,7 @@ guiTypes = {
 							instantTextboxType = {
 								name = "label"
 								position = { x=50 y=10 }
-								font = "hoi_18mbs"
+								font = "AAGCZYRL18"
 								maxWidth = 200
 								maxHeight = 20
 								format = left
@@ -971,7 +971,7 @@ guiTypes = {
 					instantTextboxType = {
 						position = { x = 50 y = 20 }
 						name = "hidden_text"
-						font = "hoi_24header"
+						font = "AAGCZYRL24"
 						maxWidth = 400
 						maxHeight = 20
 						format = center
@@ -989,7 +989,7 @@ guiTypes = {
 					instantTextboxType = {
 						position = { x = 50 y = 120 }
 						name = "explain_text"
-						font = "hoi_24header"
+						font = "AAGCZYRL24"
 						maxWidth = 400
 						maxHeight = 20
 						format = center
@@ -1038,7 +1038,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = 50 y = 10 }
-							font = "hoi_18mbs"
+							font = "AAGCZYRL18"
 							text = "FACTION_INTELLIGENCE_TAB"
 							maxWidth = 200
 							maxHeight = 20
@@ -1051,7 +1051,7 @@ guiTypes = {
 							position = { x = 200 y = 2 }
 							quadTextureSprite = "GFX_button_221x34"
 							frame = 1
-							buttonFont = "hoi_18mbs"
+							buttonFont = "AAGCZYRL18"
 							buttonText = "FACTION_INTEL_OPEN_AGENCY_WINDOW"
 							Orientation = "UPPER_LEFT"
 						}
@@ -1102,7 +1102,7 @@ guiTypes = {
 						instantTextboxType = {
 							position = { x = 50 y = 20 }
 							name = "hidden_text"
-							font = "hoi_24header"
+							font = "AAGCZYRL24"
 							maxWidth = 400
 							maxHeight = 20
 							format = center
@@ -1366,7 +1366,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "label"
 			position = { x = 40 y = 20 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			text = "GOAL_NAME"
 			maxWidth = 100
@@ -1427,7 +1427,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = 40 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				fixedsize = yes
 				text = "GOAL_NAME"
 				maxWidth = 110
@@ -1647,7 +1647,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "category_title"
 			position = { x = 55 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			text = ""
 			maxWidth = 500
@@ -1820,7 +1820,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "category_title"
 				position = { x = 20 y = 15 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				fixedsize = yes
 				text = ""
 				maxWidth = 500
@@ -1920,7 +1920,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "category_title"
 			position = { x = 20 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			text = ""
 			maxWidth = 500
@@ -1954,7 +1954,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "group_name"
 			position = { x = 48 y = 20 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			text = ""
 			maxWidth = 500
@@ -2095,7 +2095,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "power_projection_value"
 			position = { x = 372 y = 11 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "FPP"
 			maxWidth = 80
 		}
@@ -2184,7 +2184,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 110 y = 17 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "REQUEST_FACTION_MANPOWER"
 			maxWidth = 300
 			maxHeight = 25
@@ -2194,7 +2194,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "description"
 			position = { x = 32 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "REQUEST_FACTION_MANPOWER_DESC"
 			maxWidth = 470
 			maxHeight = 300
@@ -2316,7 +2316,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 29 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "FACTION_RULE_CONFRIMATION"
 			maxWidth = 530
 			maxHeight = 20
@@ -2326,7 +2326,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "description"
 			position = { x = 32 y = 120 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 470
 			maxHeight = 300
@@ -2464,7 +2464,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "research_speed_text"
 					position = { x = 12 y = 12 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					fixedsize = yes
 					maxWidth = 40
 					maxHeight = 18
@@ -2598,7 +2598,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "status_info_text"
 			position = { x = 330 y = 80 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			maxWidth = 250
 			maxHeight = 38
@@ -2711,7 +2711,7 @@ guiTypes = {
 			position = { x = 65 y = 7 }
 			quadTextureSprite = "GFX_diplo_filter_entry"
 			frame = 2
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			buttonText = "ADD_FACILITY_BUTTON"
 			Orientation = "UPPER_LEFT"
 		}
@@ -2793,7 +2793,7 @@ containerWindowType = {
 			instantTextboxType = {
 				name = "theater_name"
 				position = { x = 144 y = 0 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "FACTION_SUPREME_COMMANDER_TITLE"
 				maxWidth = 200
 				maxHeight = 20
@@ -2988,7 +2988,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "header_text"
 			position = { x = 24 y = 10 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "AGENCY_BRANCHES"
 			maxWidth = 400
 			format = left
@@ -3084,7 +3084,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "operative_name"
 			position = { x = 70 y = 70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "FACTION_INTEL_NO_ADVISOR"
 			format = left
 			maxWidth = 300

@@ -290,7 +290,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "fleet_color_label"
 			position = { x=60 y=404 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "USE_FLEET_COLOR"
 		}
 

@@ -10,7 +10,7 @@ guiTypes = {
 	instantTextBoxType = {
 		name ="GER_monroe_doctrine_countries_in_the_doctrine_text"
 		position = { x = 110 y = 20 }
-		font = "hoi_18mbs"
+		font = "AAGCZYRL18"
 		text = "GER_monroe_doctrine_countries_in_the_doctrine"
 		format = center
 		maxHeight = 24

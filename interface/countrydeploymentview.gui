@@ -14,7 +14,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_tiled_SPinckEXwthSCLPMini_bg"
 		}
 
 		iconType ={
@@ -132,7 +132,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "special_forces_cap"
 			position = { x = 104 y = 63 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 80
 			maxHeight = 20
@@ -200,7 +200,7 @@ guiTypes = {
 			name = "open_designer_button"
 			position = { x = 188 y = 56 }
 			quadTextureSprite ="GFX_division_designer_button"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			buttonText = "DEPLOYMENT_DESIGNER"
 			clicksound = click_default
 		}
@@ -322,7 +322,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 65 y = 25 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 160
@@ -402,7 +402,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 102 y = 20 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 198
 			maxHeight = 20
@@ -422,7 +422,7 @@ guiTypes = {
 			name = "template_cap"
 			position = { x = 95 y = 48 }
 			text = "10/10"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 60
 			maxHeight = 20
@@ -686,7 +686,7 @@ guiTypes = {
 			name = "conveyor_collapse_btn"
 			position = { x=481 y=4 }
 			quadTextureSprite = "GFX_conveyor_collapse_btn"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_default
 			frame = 1
 		}
@@ -719,7 +719,7 @@ guiTypes = {
 			name = "priority_up_btn"
 			position = { x=11 y=4 }
 			quadTextureSprite = "GFX_change_conveyor_order_btn"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_default
 			frame = 1
 		}
@@ -728,7 +728,7 @@ guiTypes = {
 			name = "priority_down_btn"
 			position = { x=36 y=4 }
 			quadTextureSprite = "GFX_change_conveyor_order_btn"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_default
 			frame = 2
 		}
@@ -806,7 +806,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "empty"
 					position = { x = 10 y = 130 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}
 					maxWidth = 210
 					maxHeight = 60
@@ -962,7 +962,7 @@ guiTypes = {
 			name = "deploy_location_button"
 			position = { x=91 y=46 }
 			quadTextureSprite = "GFX_conveyor_location_btn"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_default
 		}
 
@@ -1043,7 +1043,7 @@ guiTypes = {
 			position = { x = 315 y = 50 }
 			quadTextureSprite ="GFX_military_deployment_add_line_btn"
 			buttonText = "ADD_CONVEYOR_LINE_BUTTON_LABEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_default
 		}
 

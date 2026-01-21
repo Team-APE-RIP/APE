@@ -16,7 +16,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = {x=0 y=30}
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "INTERNATIONAL_MARKET_ADD_EQUIPMENT_TO_STOCKPILE"
 			maxWidth = 530
 			maxHeight = 20
@@ -85,7 +85,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "total_cic_cost"
 			position = { x = 25 y = -108 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "XXXX"
 			maxWidth = 160
 			maxHeight = 30
@@ -196,7 +196,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 6 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Maus"
 			maxWidth = 308
 			maxHeight = 19
@@ -254,7 +254,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cic_cost"
 			position = { x = 340 y = 40 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "XXXX"
 			maxWidth = 160
 			maxHeight = 30
@@ -272,7 +272,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "convoy_cost"
 			position = { x = 420 y = 40 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "XXX"
 			maxWidth = 160
 			maxHeight = 30
@@ -329,7 +329,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_header"
 			position = {x=10 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_EQUIPMENT
 			maxWidth = 160
 			maxHeight = 32
@@ -339,7 +339,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "storage_header"
 			position = {x=130 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_IN_STORAGE
 			maxWidth = 160
 			maxHeight = 32
@@ -349,7 +349,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "producing_header"
 			position = {x=222 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_PRODUCING
 			maxWidth = 160
 			maxHeight = 32
@@ -397,7 +397,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=8 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 165
 			maxHeight = 32
 			fixedsize = yes
@@ -415,7 +415,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "in_pool"
 			position = {x=177 y=33}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 60
 			maxHeight = 32

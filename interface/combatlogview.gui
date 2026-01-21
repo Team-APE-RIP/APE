@@ -41,7 +41,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 0 y = 16 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 670
 			maxHeight = 35
 			fixedsize = yes
@@ -94,7 +94,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "period_desc"
 			position = { x = 30 y = 6 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 280
 			maxHeight = 25
 			format = center
@@ -149,7 +149,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "min_log_months"
 			position = { x = 38 y = 24 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "1"
 			maxWidth = 35
 			maxHeight = 18
@@ -159,7 +159,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "max_log_months"
 			position = { x = 267 y = 24 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "12"
 			maxWidth = 35
 			maxHeight = 18
@@ -176,7 +176,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_losses_in_manpower"
 			position = { x = 55 y = 57 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 280
 			maxHeight = 25
 			format = left
@@ -185,7 +185,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_combats_won_factor"
 			position = { x = 340 y = 57 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 280
 			maxHeight = 25
 			format = center
@@ -196,21 +196,21 @@ guiTypes = {
 			quadTextureSprite = "GFX_battle_log_tab"
 			position = { x=5 y=85 }
 			buttonText = "COMBAT_LOG_TAB_COMBAT"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 		}
 		buttonType = {
 			name = "equipment_tab_button"
 			quadTextureSprite = "GFX_battle_log_tab"
 			position = { x=215 y=85 }
 			buttonText = "COMBAT_LOG_TAB_EQUIPMENT"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 		}
 		buttonType = {
 			name = "template_tab_button"
 			quadTextureSprite = "GFX_battle_log_tab"
 			position = { x=425 y=85 }
 			buttonText = "COMBAT_LOG_TAB_TEMPLATE"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 		}
 
 	}
@@ -279,7 +279,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "empty_msg"
 			position = { x = 30 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 590
 			maxHeight = 25
 			format = center
@@ -315,7 +315,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_equipment_lost"
 			position = { x = 30 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 280
 			maxHeight = 25
 			format = center
@@ -324,7 +324,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_lost_in_combat"
 			position = { x = @combat_title_column y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -333,7 +333,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_recovered"
 			position = { x = @recovered_title_column y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			format = center
@@ -342,7 +342,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_lost_by_attrition"
 			position = { x = @attrition_title_column y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			format = center
@@ -351,7 +351,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_equipment_lost_in_combat"
 			position = { x = @combat_title_column y = 45 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -359,7 +359,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_equipment_recovered_in_combat"
 			position = { x = @recovered_title_column y = 45 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -367,7 +367,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_equipment_lost_by_attrition"
 			position = { x = @attrition_title_column y = 45 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -416,7 +416,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "empty_msg"
 					position = { x = 5 y = 100 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 590
 					maxHeight = 25
 					format = center
@@ -445,7 +445,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "title_enemy_equipment_lost"
 					position = { x = 5 y = 7 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 280
 					maxHeight = 25
 					format = center
@@ -454,7 +454,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "num_enemy_equipment_lost"
 					position = { x = @combat_column y = 7 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 130
 					maxHeight = 25
 					format = center
@@ -473,7 +473,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "empty_msg"
 					position = { x = 5 y = 100 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 590
 					maxHeight = 25
 					format = center
@@ -517,7 +517,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_templates"
 			position = { x = 32 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 210
 			maxHeight = 25
 			format = center
@@ -526,7 +526,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_combats_won"
 			position = { x = 325 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			format = center
@@ -535,7 +535,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title_combats_total"
 			position = { x = 460 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			format = center
@@ -555,7 +555,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "empty_msg"
 			position = { x = 30 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 590
 			maxHeight = 25
 			format = center
@@ -581,7 +581,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "eq_name"
 			position = { x = 110 y = 11 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 180
 			maxHeight = 25
 			format = left
@@ -591,7 +591,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_loss_in_combat"
 			position = { x = @combat_column y = 14 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -622,7 +622,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "eq_name"
 			position = { x = 110 y = 11 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 150
 			maxHeight = 25
 			format = left
@@ -632,7 +632,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_loss_in_combat"
 			position = { x = @combat_column y = 14 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -640,7 +640,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_loss_recovered"
 			position = { x = @recovered_column y = 14 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -648,7 +648,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_loss_by_attrition"
 			position = { x = @attrition_column y = 14 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 130
 			maxHeight = 25
 			format = center
@@ -678,7 +678,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "template_name"
 			position = { x = 50 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 270
 			maxHeight = 25
 			format = left
@@ -687,7 +687,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_won"
 			position = { x = 305 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			format = center
@@ -695,7 +695,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num_fought_in"
 			position = { x = 438 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			format = center
@@ -747,7 +747,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_battle_log_battle_button"
 			position = { x=139 y=5 }
 			buttonText = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			format = left;
 			borderSize = { x=10 y=0 }
 		}
@@ -779,7 +779,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "date"
 			position = { x = 300 y = 7 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 25
 			format = right
@@ -787,7 +787,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "atk_lost_manpower"
 			position = { x = 105 y = 30 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = left
@@ -796,7 +796,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "def_lost_manpower"
 			position = { x = 305 y = 30 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = right
@@ -805,7 +805,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "atk_lost_armor_eq"
 			position = { x = 105 y = 48 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = left
@@ -814,7 +814,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "def_lost_armor_eq"
 			position = { x = 305 y = 48 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = right
@@ -823,7 +823,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "atk_lost_air_eq"
 			position = { x = 105 y = 66 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = left
@@ -832,7 +832,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "def_lost_air_eq"
 			position = { x = 305 y = 66 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = right
@@ -841,7 +841,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "atk_lost_other_eq"
 			position = { x = 105 y = 84 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = left
@@ -850,7 +850,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "def_lost_other_eq"
 			position = { x = 305 y = 84 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = right

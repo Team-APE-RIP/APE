@@ -11,7 +11,7 @@ guiTypes = {
 		# for debug purpose
 		#background = {
 		#	name = "bg_bottom_bar"
-		#	spriteType = "GFX_tiled_window"
+		#	spriteType = "GFX_tiled_SPinckEXwthSCLPMini_bg"
 		#}
 
 		#buttonType = {
@@ -558,7 +558,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "operative_skill_level"
 			position = {x=196 y=43}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 30
 			maxHeight = 23
 			format = center

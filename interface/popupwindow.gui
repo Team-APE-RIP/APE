@@ -28,7 +28,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 132 y = 30 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 320
@@ -96,7 +96,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 125 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 325
@@ -116,7 +116,7 @@ guiTypes = {
 			position = { x=77 y =265}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_DECLINE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "ESCAPE"
 		}
 
@@ -125,7 +125,7 @@ guiTypes = {
 			position = { x=386 y =265}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_ACCEPT"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -159,7 +159,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 132 y = 30 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "Title"
 			maxWidth = 320
 			maxHeight = 24
@@ -197,7 +197,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 95 y = 90 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Long text here!"
 			maxWidth = 525
 			format = left
@@ -256,7 +256,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "min_amount"
 				position = { x = -40 y = -2 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0"
 				maxWidth = 35
 				maxHeight = 18
@@ -266,7 +266,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "max_amount"
 				position = { x = 299 y = -2 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "2.44K"
 				maxWidth = 50
 				maxHeight = 18
@@ -276,7 +276,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "slider_description"
 				position = { x = -45 y = -37 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "DIPLOMACY_NUMBER_FOREIGN_MANPOWER_SENT"
 				maxWidth = 500
 				format = left
@@ -294,7 +294,7 @@ guiTypes = {
 			position = { x=77 y =271}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_DECLINE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "ESCAPE"
 		}
 
@@ -303,7 +303,7 @@ guiTypes = {
 			position = { x=386 y =271}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_ACCEPT"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -354,7 +354,7 @@ guiTypes = {
 			name = "count"
 			position = { x = 124 y = 28 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 40
@@ -441,7 +441,7 @@ guiTypes = {
 		editBoxType = {
 			name = "value_box"
 			position = {x=220 y=40}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = {x=50 y=20}
 			only_numbers = yes
 		}
@@ -484,7 +484,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount_in_pool"
 			position = {x=402 y=42}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 80
 			maxHeight = 32
 			format = right
@@ -495,7 +495,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_speed"
 			position = {x=400 y=10}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 120
 			maxHeight = 32
 			format = center
@@ -511,7 +511,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "equipment_name"
 				position = {x=0 y=0}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 32
 				fixedsize = yes
@@ -590,7 +590,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_name"
 			position = {x=2 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			fixedsize = yes
@@ -608,7 +608,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "value_box"
 			position = {x=220 y=40}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 50
 			maxHeight = 20
 			format = center
@@ -618,7 +618,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_description"
 			position = {x=307 y=39}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			format = center
@@ -629,7 +629,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_state"
 			position = {x=250 y=10}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			format = center
@@ -667,7 +667,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 132 y = 30 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 320
@@ -717,7 +717,7 @@ guiTypes = {
 			position = { x=230 y =431 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_CONFIRM"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -785,7 +785,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 72 y = 29 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			format = center
@@ -835,7 +835,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "tech_name"
 			position = { x = 70 y = 170 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Tech name"
 			maxWidth = 360
 			maxHeight = 24
@@ -855,7 +855,7 @@ guiTypes = {
 		#	name = "stat_name"
 		#	position = { x = 155 y = 190 }
 		#	textureFile = ""
-		#	font = "hoi_18mbs"
+		#	font = "AAGCZYRL18"
 		#	borderSize = {x = 0 y = 0}
 		#	text = "Stat Name"
 		#	maxWidth = 380
@@ -866,7 +866,7 @@ guiTypes = {
 		#	name = "stat_amount"
 		#	position = { x = 379 y = 190 }
 		#	textureFile = ""
-		#	font = "hoi_18mbs"
+		#	font = "AAGCZYRL18"
 		#	borderSize = {x = 0 y = 0}
 		#	text = "Stat Amount!"
 		#	maxWidth = 380
@@ -877,7 +877,7 @@ guiTypes = {
 		#	name = "stat_remaining"
 		#	position = { x = 119 y = 245 }
 		#	textureFile = ""
-		#	font = "hoi_18mbs"
+		#	font = "AAGCZYRL18"
 		#	borderSize = {x = 0 y = 0}
 		#	text = "additional stats amount"
 		#	maxWidth = 380
@@ -895,7 +895,7 @@ guiTypes = {
 			position = { x=40 y = 203}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_DETAILS"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 		}
 
 		buttonType = {
@@ -903,7 +903,7 @@ guiTypes = {
 			position = { x=340 y =203}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -948,7 +948,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 72 y = 29 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			format = center
@@ -976,7 +976,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 20 y = 140 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 460
 			maxHeight = 56
 			format = center
@@ -996,7 +996,7 @@ guiTypes = {
 			centerposition = yes
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -1031,7 +1031,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 110 y = 36 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 280
@@ -1088,7 +1088,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 27 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 438
@@ -1108,7 +1108,7 @@ guiTypes = {
 			position = { x=180 y =265}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 		}
 	}
@@ -1164,7 +1164,7 @@ guiTypes = {
 			name = "reward"
 			position = { x = 44 y = 125 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 394
@@ -1185,7 +1185,7 @@ guiTypes = {
 			position = { x=180 y =320}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "ESCAPE"
 		}
 	}
@@ -1198,7 +1198,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "equipment_name"
 			position = { x = 0 y = 8 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 150
@@ -1216,7 +1216,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "equipment_amount"
 			position = { x = 0 y = 80 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 150
@@ -1233,7 +1233,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "equipment_name"
 			position = { x = 0 y = 8 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 150
@@ -1253,7 +1253,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "equipment_amount"
 			position = { x = 0 y = 80 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 150
@@ -1291,7 +1291,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 123 y = 32 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 280
@@ -1331,7 +1331,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 68 y = 82 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 395
@@ -1360,7 +1360,7 @@ guiTypes = {
 			position = { x=205 y =265}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 		}
 	}
@@ -1394,7 +1394,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 123 y = 32 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 280
@@ -1434,7 +1434,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 68 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 377
@@ -1463,7 +1463,7 @@ guiTypes = {
 			position = { x=205 y =375}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 		}
 	}
@@ -1497,7 +1497,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 123 y = 32 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 280
@@ -1537,7 +1537,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 68 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 395
@@ -1566,7 +1566,7 @@ guiTypes = {
 			position = { x=205 y =265}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 		}
 	}
@@ -1590,7 +1590,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -1604,7 +1604,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 24 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 430
@@ -1653,7 +1653,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -1667,7 +1667,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 430
@@ -1688,7 +1688,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 100 y = 202 }
 			name = "release_puppet_label"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 130
 			maxHeight = 18
@@ -1708,7 +1708,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 100 y = 238 }
 			name = "play_as_label"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 130
 			maxHeight = 18
@@ -1728,7 +1728,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 100 y = 274 }
 			name = "retain_cores_label"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 200
 			maxHeight = 18
@@ -1787,7 +1787,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 20 y = 70 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 360
@@ -1845,7 +1845,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 98 y = 29 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			format = center
@@ -1863,7 +1863,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "focus_name"
 			position = { x = 70 y = 165 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Focus name"
 			maxWidth = 360
 			maxHeight = 100
@@ -1882,7 +1882,7 @@ guiTypes = {
 			position = { x=40 y = 203}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_DETAILS"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 		}
 
 		buttonType = {
@@ -1890,7 +1890,7 @@ guiTypes = {
 			position = { x=340 y =203}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -1931,7 +1931,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 30 y = 105 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 410
@@ -1960,7 +1960,7 @@ guiTypes = {
 			position = { x=185 y =320}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -2000,7 +2000,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 60 y = 105 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 460
@@ -2014,7 +2014,7 @@ guiTypes = {
 			position = { x=230 y =231}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -2054,7 +2054,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 60 y = 105 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 460
@@ -2068,7 +2068,7 @@ guiTypes = {
 			position = { x=160 y = 350}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -2078,7 +2078,7 @@ guiTypes = {
 			position = { x=300 y = 350}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "MULTIPLAYER_RESYC"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -2105,7 +2105,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 132 y = 30 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = { x = 0 y = 0 }
 			text = "Title"
 			maxWidth = 320
@@ -2118,7 +2118,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 125 y = 90 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 325
@@ -2132,7 +2132,7 @@ guiTypes = {
 			position = { x=77 y =231}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_DECLINE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "ESCAPE"
 		}
 
@@ -2141,7 +2141,7 @@ guiTypes = {
 			position = { x=386 y =231}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_ACCEPT"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -2181,7 +2181,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 20 y = 105 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 460
@@ -2195,7 +2195,7 @@ guiTypes = {
 			position = { x=54 y =200}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "SAVE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_ok
 		}
 
@@ -2204,7 +2204,7 @@ guiTypes = {
 			position = { x=314 y =200}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "QUIT"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_ok
 		}
 	}
@@ -2238,7 +2238,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 123 y = 32 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 280
@@ -2277,7 +2277,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 68 y = 82 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 395
@@ -2306,7 +2306,7 @@ guiTypes = {
 			position = { x=205 y =265}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 		}
 	}
@@ -2340,7 +2340,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 132 y = 30 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 320
@@ -2371,7 +2371,7 @@ guiTypes = {
 				position = { x=77 y =13}
 				quadTextureSprite ="GFX_button_123x34"
 				buttonText = "FE_DECLINE"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				shortcut = "ESCAPE"
 			}
 
@@ -2380,7 +2380,7 @@ guiTypes = {
 				position = { x=386 y =13}
 				quadTextureSprite ="GFX_button_123x34"
 				buttonText = "FE_ACCEPT"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				shortcut = "RETURN"
 				clicksound = click_ok
 			}
@@ -2415,7 +2415,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 132 y = 30 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 320
@@ -2446,7 +2446,7 @@ guiTypes = {
 				position = { x=77 y =13}
 				quadTextureSprite ="GFX_button_123x34"
 				buttonText = "DIPLOMACY_CANCEL"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				shortcut = "ESCAPE"
 			}
 
@@ -2455,7 +2455,7 @@ guiTypes = {
 				position = { x=386 y =13}
 				quadTextureSprite ="GFX_button_123x34"
 				buttonText = "SEND"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				shortcut = "RETURN"
 				clicksound = click_ok
 			}
@@ -2502,7 +2502,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 72 y = 29 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			format = center
@@ -2516,7 +2516,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 50 y = 119 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 400
@@ -2582,7 +2582,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -2596,7 +2596,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 24 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 430
@@ -2618,7 +2618,7 @@ guiTypes = {
 			name = "update_variants_description"
 			position = { x=84 y=200 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 335
@@ -2682,7 +2682,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 60 y = 105 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 460
@@ -2711,7 +2711,7 @@ guiTypes = {
 			position = { x=300 y =231}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -2721,7 +2721,7 @@ guiTypes = {
 			position = { x=160 y =231}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "DETAILS"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}

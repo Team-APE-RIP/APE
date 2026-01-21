@@ -18,7 +18,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -43,7 +43,7 @@ guiTypes = {
 		editBoxType = {
 			name = "name"
 			position = { x = 94 y = 205 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=277 y=40 }
 		}
 		
@@ -51,7 +51,7 @@ guiTypes = {
 			name = "overwrite_existing"
 			position = { x = 23 y = 246 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "OVERWRITE_EXISTING"
 			maxWidth = 430
@@ -93,7 +93,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 176 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 430
@@ -106,7 +106,7 @@ guiTypes = {
 			name = "body_2"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "CHOOSE_EXISTING_FOLDER"
 			maxWidth = 430
@@ -134,7 +134,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "text"
 				position = { x = 4 y = 10 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 256
 				maxHeight = 18
 				alwaystransparent = no
@@ -213,7 +213,7 @@ guiTypes = {
 		editBoxType = {
 			name = "name"
 			position = { x = 44 y = 125 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=392 y=40 }
 		}
 		
@@ -221,7 +221,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -235,7 +235,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 430
 			maxHeight = 128
@@ -277,7 +277,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 24 y = -2 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 184
 			maxHeight = 36
 			fixedsize = yes
@@ -306,7 +306,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -320,7 +320,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 430
 			maxHeight = 128
@@ -379,7 +379,7 @@ guiTypes = {
 		editBoxType = {
 			name = "name"
 			position = { x = 44 y = 165 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=392 y=40 }
 		}
 		
@@ -387,7 +387,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -401,7 +401,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 430
 			maxHeight = 128
@@ -461,7 +461,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			maxWidth = 450
 			maxHeight = 40
@@ -474,7 +474,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 430
 			maxHeight = 128
@@ -530,7 +530,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 10 y = 16 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
 			maxWidth = 450
@@ -555,7 +555,7 @@ guiTypes = {
 		editBoxType = {
 			name = "name"
 			position = { x = 44 y = 245 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = { x=392 y=40 }
 		}
 		
@@ -583,7 +583,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 23 y = 176 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 430
 			maxHeight = 40
@@ -595,7 +595,7 @@ guiTypes = {
 			name = "body_2"
 			position = { x = 23 y = 90 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "CHOOSE_EXISTING_FOLDER"
 			maxWidth = 430
@@ -623,7 +623,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "text"
 				position = { x = 48 y = 10 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 180
 				maxHeight = 18
 				alwaystransparent = yes

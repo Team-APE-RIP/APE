@@ -164,7 +164,7 @@ guiTypes = {
 					name = "limited_research_bonus_text"
 					position = { x = 50 y = 110 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}
 					text = "LIMITED_RESEARCH_BONUS"
 					maxWidth = 130
@@ -177,7 +177,7 @@ guiTypes = {
 					name = "limited_research_bonus_value"
 					position = { x = 215 y = 110 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -195,7 +195,7 @@ guiTypes = {
 					name = "research_speed_text"
 					position = { x = 295 y = 110 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}
 					text = "RESEARCH_SPEED"
 					maxWidth = 125
@@ -208,7 +208,7 @@ guiTypes = {
 					name = "research_speed_value"
 					position = { x = 455 y = 110 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -318,7 +318,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 57 y = 12 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 400
 			maxHeight = 30
@@ -329,7 +329,7 @@ guiTypes = {
 			name = "year"
 			position = { x = 57 y = 60 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 50
 			maxHeight = 22
@@ -340,7 +340,7 @@ guiTypes = {
 			name = "eta"
 			position = { x = 335 y = 12 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 125
 			maxHeight = 20

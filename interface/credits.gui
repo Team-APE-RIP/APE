@@ -6,7 +6,7 @@ guiTypes = {
 	instantTextBoxType = {
 		name = "CreditsText"
 		textureFile = ""
-		font = "hoi_18mbs"
+		font = "AAGCZYRL18"
 		borderSize = {x = 0 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
@@ -20,7 +20,7 @@ guiTypes = {
 	instantTextBoxType = {
 		name = "CreditsTextBold"
 		textureFile = ""
-		font = "hoi_24header"
+		font = "AAGCZYRL24"
 		borderSize = {x = 0 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""

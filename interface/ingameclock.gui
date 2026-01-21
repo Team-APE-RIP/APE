@@ -33,7 +33,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="time_text"
 			position = { x = 40 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "13:37"
 			format = center
 			maxWidth = 70

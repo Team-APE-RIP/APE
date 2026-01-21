@@ -55,7 +55,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "country_name"
 				position = { x = 245 y = 3 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Germanian"
 				maxWidth = 195
 				fixedsize = yes
@@ -72,7 +72,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "faction_name"
 					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "faction"
 					maxWidth = 173
 					maxHeight = 20
@@ -202,7 +202,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tab_intel_ledger"
 				position = { x=15 y=70 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 			}
 
 			buttonType = {
@@ -210,7 +210,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tab_intel_ledger"
 				position = { x=275 y= 70 }
 				buttonText = "DIPLOMACY_INFO_TAB"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 			}
 
 			#------------------------- END TAB BUTTONS ----------------------------
@@ -321,7 +321,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "national_focus_label"
 						position = { x = 146 y = 23 }
-						font = "hoi_18mbs"
+						font = "AAGCZYRL18"
 						text = "POLITICS_ACTIVE_GOAL"
 						maxWidth = 200
 						maxHeight = 20
@@ -415,7 +415,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "spirit_title"
 					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					borderSize = {x = 0 y = 0}
 					text = "FE_COUNTRY_SPIRIT"
 					maxWidth = 240
@@ -519,7 +519,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "window_header_text"
 					position = { x = 32 y = 17 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "DIPLOMACY_INTELLIGENCE"
 					maxWidth = 200
 					maxHeight = 20
@@ -542,7 +542,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_military_forces"
 					position = { x = 16 y = 108 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -565,7 +565,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_navy_forces"
 					position = { x = 16 y = 198 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -588,7 +588,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_airforce"
 					position = { x = 16 y = 289 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -611,7 +611,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_civil_industry_size"
 					position = { x = 130 y = 289 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -634,7 +634,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_military_industry_size"
 					position = { x = 130 y = 108 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -657,7 +657,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_naval_industry_size"
 					position = { x = 130 y = 198 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -680,7 +680,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_convoy_size"
 					position = { x = 16 y = 379 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -703,7 +703,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "estimated_manpower_size"
 					position = { x = 130 y = 379 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "?"
 					maxWidth = 100
 					maxHeight = 20
@@ -773,7 +773,7 @@ guiTypes = {
 				name = "player_name"
 				position = { x = 35 y = 4 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = "Player"
 				maxWidth = 175
@@ -844,7 +844,7 @@ guiTypes = {
 				buttonType = {
 					name = "sort_alphabetical"
 					quadTextureSprite ="GFX_sort_button_202x29"
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "COUNTRYLIST_LABEL"
 					position = { x= 10 y = 2 }
 				}
@@ -935,7 +935,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 24 y = 5 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 180
 			maxHeight = 20
@@ -960,7 +960,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 8 y = 4 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = { x = 0 y = 0 }
 			text = "Maus"
 			maxWidth = 190
@@ -1092,7 +1092,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 70 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "category"
 			maxWidth = 160
 			maxHeight = 20
@@ -1156,7 +1156,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 29 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "Maus"
 			maxWidth = 530
 			maxHeight = 20
@@ -1166,7 +1166,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "description"
 			position = { x = 31 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Maus"
 			maxWidth = 470
 			maxHeight = 300
@@ -1183,7 +1183,7 @@ guiTypes = {
 			name = "diplo_reply"
 			position = { x = 117 y = 200 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "REPLYTEXT"
 			maxWidth = 315
@@ -1240,7 +1240,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 29 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "Maus"
 			maxWidth = 530
 			maxHeight = 20
@@ -1250,7 +1250,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "description"
 			position = { x = 31 y = 100 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Maus"
 			maxWidth = 470
 			maxHeight = 300
@@ -1267,7 +1267,7 @@ guiTypes = {
 			name = "diplo_reply"
 			position = { x = 117 y = 310 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "REPLYTEXT"
 			maxWidth = 315
@@ -1343,7 +1343,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -1379,7 +1379,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="threat_value"
 					position = { x=43 y=4 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "50%"
 					format = center
 					maxWidth = 55
@@ -1437,7 +1437,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "active_threats_title"
 				position = { x = 32 y = 322 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "POTENTIAL_ENEMIES"
 				maxWidth = 220
 				maxHeight = 30
@@ -1475,7 +1475,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "call_allies_textbox"
 				position = { x = 380 y = 432 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = DIPLOMACY_CALL_ALL_ALLIES
 				maxWidth = 100
 				maxHeight = 20
@@ -1545,7 +1545,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 23 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -1612,7 +1612,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "wargoal_name"
 				position = { x = 30 y = 125 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "DIPLOMACY_NO_WARGOAL"
 				maxWidth = 470
 				maxHeight = 20
@@ -1661,7 +1661,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 30 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -1679,14 +1679,14 @@ guiTypes = {
 				position = { x=132 y=103 }
 				size = { x=261 y=34 }
 				spriteType = "GFX_button_261x34"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				shortcut = "ESCAPE"
 			}
 
 			instantTextboxType = {
 				name = "cancel_diplo_action_text"
 				position = { x = 132 y = 108 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 261
 				maxHeight = 34
@@ -1697,7 +1697,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 40 y = 90 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 470
 				maxHeight = 300
@@ -1707,7 +1707,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "select_state_note"
 				position = { x = 295 y = 164 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "COUP_START_STATE"
 				maxWidth = 185
 				maxHeight = 300
@@ -1819,7 +1819,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -1845,7 +1845,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="threat_value"
 					position = { x=43 y=4 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "50%"
 					format = center
 					maxWidth = 55
@@ -1891,7 +1891,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 22 y = 14 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 480
 				maxHeight = 300
@@ -1928,7 +1928,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "wargoal_name"
 				position = { x = 30 y = 98 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "DIPLOMACY_NO_WARGOAL"
 				maxWidth = 470
 				maxHeight = 20
@@ -1940,7 +1940,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "wargoal_warning"
 				position = { x = 30 y = 81 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "DIPLOMACY_NO_WARGOAL"
 				maxWidth = 470
 				maxHeight = 20
@@ -1989,7 +1989,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -2009,7 +2009,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x = 117 y = 200 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLYTEXT"
 				maxWidth = 315
@@ -2041,7 +2041,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "active_threats_title"
 				position = { x = 40 y = 179 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "ACTIVE_THREATS"
 				maxWidth = 270
 				maxHeight = 20
@@ -2088,7 +2088,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -2151,7 +2151,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -2161,7 +2161,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 10 y = 100 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 330
 				maxHeight = 300
@@ -2171,7 +2171,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "they_get_text_box"
 				position = { x = 370 y = 100 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "THEY_WILL_RECEIVE"
 				maxWidth = 170
 				maxHeight = 300
@@ -2189,7 +2189,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x = 107 y = 320 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLYTEXT"
 				maxWidth = 315
@@ -2286,7 +2286,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = {x=0 y=30}
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = ""
 				maxWidth = 530
 				maxHeight = 20
@@ -2303,7 +2303,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x=110 y=505 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLY_NOT_NEEDED"
 				maxWidth = 315
@@ -2377,7 +2377,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_lease_info_header"
 				position = {x=15 y=82}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 190
 				maxHeight = 20
 				fixedsize = yes
@@ -2387,7 +2387,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_lease_info"
 				position = {x=220 y=82}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 230
 				maxHeight = 20
 				format = center
@@ -2402,7 +2402,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "num_convoys"
 				position = {x=70 y=100}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 100
 				maxHeight = 20
 				format = left
@@ -2419,7 +2419,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "autonomy_score_gain"
 				position = {x=70 y=510}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 100
 				maxHeight = 20
 				format = left
@@ -2484,7 +2484,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = {x=0 y=30}
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = ""
 				maxWidth = 530
 				maxHeight = 20
@@ -2501,7 +2501,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x=110 y=505 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLYTEXT"
 				maxWidth = 315
@@ -2575,7 +2575,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_lease_info_header"
 				position = {x=15 y=82}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 190
 				maxHeight = 20
 				fixedsize = yes
@@ -2585,7 +2585,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_lease_info"
 				position = {x=220 y=82}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 250
 				maxHeight = 20
 				format = center
@@ -2600,7 +2600,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "num_convoys"
 				position = {x=70 y=100}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 100
 				maxHeight = 20
 				format = left
@@ -2616,7 +2616,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "autonomy_score_gain"
 				position = {x=40 y=508}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 30
 				maxHeight = 20
 				format = right
@@ -2640,7 +2640,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 30 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -2650,7 +2650,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 20 y = 97 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 470
 				maxHeight = 300
@@ -2719,7 +2719,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 30 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -2729,7 +2729,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 20 y = 88 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 490
 				maxHeight = 300
@@ -2768,7 +2768,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x = 117 y = 261 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLYTEXT"
 				maxWidth = 315
@@ -2824,7 +2824,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 30 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -2834,7 +2834,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 20 y = 88 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 490
 				maxHeight = 300
@@ -2844,7 +2844,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "truce_break_warning"
 				position = { x = 20 y = 110 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = ""
 				maxWidth = 490
 				maxHeight = 300
@@ -2882,7 +2882,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x = 117 y = 261 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLYTEXT"
 				maxWidth = 315
@@ -2938,7 +2938,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = -3 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				maxWidth = 530
 				maxHeight = 20
 				format = center
@@ -2954,7 +2954,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "time_text"
 				position = { x = 110 y = 93 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 100
 				maxHeight = 50
 			}
@@ -2970,7 +2970,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ask_for_air_volunteers"
 				position = { x = 370 y = 93 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "AIR_VOLUNTEERS"
 				maxWidth = 150
 				maxHeight = 50
@@ -2993,7 +2993,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "empty"
 					position = { x = 15 y = 30 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 470
 					maxHeight = 200
 					format = center
@@ -3010,7 +3010,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 28 y = -270 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 470
 				maxHeight = 300
 				format = center
@@ -3056,7 +3056,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = -3 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				maxWidth = 530
 				maxHeight = 20
 				format = center
@@ -3079,7 +3079,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "empty"
 					position = { x = 15 y = 30 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 470
 					maxHeight = 200
 					format = center
@@ -3096,7 +3096,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 28 y = -270 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 470
 				maxHeight = 300
 				format = center
@@ -3142,7 +3142,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 29 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -3152,7 +3152,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 32 y = 120 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 470
 				maxHeight = 300
@@ -3273,7 +3273,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 30 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -3289,7 +3289,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 40 y = 90 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 470
 				maxHeight = 300
@@ -3357,7 +3357,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 0 y = 30 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 530
 				maxHeight = 20
@@ -3373,7 +3373,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 40 y = 90 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 470
 				maxHeight = 300
@@ -3554,7 +3554,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 122 y = 16 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "Maus"
 				maxWidth = 260
 				maxHeight = 10
@@ -3571,7 +3571,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 293 y = 101 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Maus"
 				maxWidth = 150
 				maxHeight = 10
@@ -3589,7 +3589,7 @@ guiTypes = {
 				name = "diplo_reply"
 				position = { x = 90 y = 559 }
 				textureFile = ""
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				borderSize = {x = 0 y = 0}
 				text = "REPLYTEXT"
 				maxWidth = 315
@@ -3779,7 +3779,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -5 y = 4 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20
@@ -3837,7 +3837,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_header"
 			position = {x=10 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_EQUIPMENT
 			maxWidth = 160
 			maxHeight = 32
@@ -3847,7 +3847,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "storage_header"
 			position = {x=130 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_IN_STORAGE
 			maxWidth = 160
 			maxHeight = 32
@@ -3857,7 +3857,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "producing_header"
 			position = {x=222 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_PRODUCING
 			maxWidth = 160
 			maxHeight = 32
@@ -3867,7 +3867,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "no_equipment"
 			position = {x=80 y=70}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_NO_EQUIPMENT_CATEGORY
 			maxWidth = 200
 			maxHeight = 20
@@ -3930,7 +3930,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_header"
 			position = {x=10 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_HEADER_EQUIPMENT
 			maxWidth = 160
 			maxHeight = 32
@@ -3940,7 +3940,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "our_production_header"
 			position = {x=185 y=47}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "DIPLOMACY_LEND_LEASE_PRODUCTION"
 			maxWidth = 160
 			maxHeight = 32
@@ -3950,7 +3950,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "no_equipment"
 			position = {x=80 y=70}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = DIPLOMACY_LEND_LEASE_NO_EQUIPMENT_CATEGORY
 			maxWidth = 200
 			maxHeight = 20
@@ -4007,7 +4007,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_name"
 			position = {x=8 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			fixedsize = yes
@@ -4067,7 +4067,7 @@ guiTypes = {
 		editBoxType = {
 			name = "value_box"
 			position = {x=220 y=40}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = {x=50 y=20}
 			only_numbers = yes
 		}
@@ -4098,7 +4098,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_description"
 			position = {x=307 y=39}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			format = center
@@ -4109,7 +4109,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_state"
 			position = {x=250 y=10}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			format = center
@@ -4166,7 +4166,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=8 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 165
 			maxHeight = 32
 			fixedsize = yes
@@ -4184,7 +4184,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "in_pool"
 			position = {x=177 y=33}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 60
 			maxHeight = 32
@@ -4273,7 +4273,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_name"
 			position = {x=8 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			fixedsize = yes
@@ -4291,7 +4291,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "value_box"
 			position = {x=220 y=40}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 50
 			maxHeight = 20
 			format = center
@@ -4301,7 +4301,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_description"
 			position = {x=282 y=39}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 180
 			maxHeight = 32
 			format = center
@@ -4312,7 +4312,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_state"
 			position = {x=250 y=10}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			format = center
@@ -4359,7 +4359,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_name"
 			position = {x=8 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			fixedsize = yes
@@ -4370,7 +4370,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "deal_state"
 			position = {x=250 y=10}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			format = center
@@ -4433,7 +4433,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=5 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 32
 			fixedsize = yes
@@ -4450,7 +4450,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "in_pool"
 			position = {x=177 y=33}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 60
 			maxHeight = 32
@@ -4541,7 +4541,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20
@@ -4563,7 +4563,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20
@@ -4586,7 +4586,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20
@@ -4609,7 +4609,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20
@@ -4675,7 +4675,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 4 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20
@@ -4698,7 +4698,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 3 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 400
 			maxHeight = 20
@@ -4723,7 +4723,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "description"
 				position = { x = 13 y = 9 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 470
 				maxHeight = 19
 				fixedsize = yes
@@ -4743,7 +4743,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "division_count"
 				position = { x=15 y=13 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 28
 				maxHeight = 23
 				fixedsize = yes
@@ -4771,7 +4771,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_skill"
 				position = { x=40 y=5 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 30
 				maxHeight = 23
 				format = center
@@ -4799,7 +4799,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_name"
 				position = { x = 106 y = 16 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 180
 				maxHeight = 19
 				fixedsize = yes
@@ -4881,7 +4881,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 6 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Maus"
 			maxWidth = 290
 			maxHeight = 20
@@ -4914,7 +4914,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_cost"
 			position = { x = 15 y = 61 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "cost 9001"
 			maxWidth = 160
 			maxHeight = 30
@@ -4973,7 +4973,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 28 y = 6 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 290
@@ -5009,7 +5009,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "naval_production_cost"
 			position = { x = 21 y = 61 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "cost 9001"
 			maxWidth = 160
 			maxHeight = 30
@@ -5032,7 +5032,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "invasion"
 			maxWidth = 200
 			maxHeight = 20

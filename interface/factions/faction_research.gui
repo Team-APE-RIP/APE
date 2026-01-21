@@ -48,7 +48,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite = "GFX_tiled_window"
+				quadTextureSprite = "GFX_tiled_SPinckEXwthSCLPMini_bg"
 				position = { x = 0 y = 0 }
 			} 
 			

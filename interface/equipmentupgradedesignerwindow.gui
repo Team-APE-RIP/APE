@@ -42,7 +42,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "experience"
 			position = { x = -243 y = -46 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "DESIGNER_ARMY_EXPERIENCE"
 			maxWidth = 70
 			maxHeight = 20
@@ -83,7 +83,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "change_design_team_label"
 				position = { x = 115 y = 10 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "INDUSTRIAL_ORG_LIST_WINDOW_TITLE"
 				maxWidth = 160
 				maxHeight = 20
@@ -124,7 +124,7 @@ guiTypes = {
 			position = { x=-61 y=80 }
 			quadTextureSprite = "GFX_diplo_filter_entry"
 			frame = 2
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			buttonText = "SELECT_3D_MODEL"
 			Orientation = "CENTER_UP"
 		}
@@ -132,7 +132,7 @@ guiTypes = {
 		editBoxType = {
 			name = "variant_name"
 			position = { x = 125 y = 49 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 8 y = 4}
 			size = { x=300 y=32 }
 			text = "variant"			
@@ -144,7 +144,7 @@ guiTypes = {
 			position = { x=-142 y=-55 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "DESIGNER_ARMY_SAVE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_default
 		}
@@ -157,7 +157,7 @@ guiTypes = {
 			
 			background = {
 				name = "Background"		
-				spriteType ="GFX_tiled_window"
+				spriteType ="GFX_tiled_SPinckEXwthSCLPMini_bg"
 				position = { x=0 y=0 }
 			}
 			
@@ -232,7 +232,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -248,7 +248,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -276,7 +276,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -298,7 +298,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -326,7 +326,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -348,7 +348,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -376,7 +376,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -398,7 +398,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -426,7 +426,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -448,7 +448,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -476,7 +476,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -498,7 +498,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -526,7 +526,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -548,7 +548,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -576,7 +576,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -598,7 +598,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -625,7 +625,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -647,7 +647,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -697,7 +697,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -713,7 +713,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -741,7 +741,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -763,7 +763,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -791,7 +791,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -813,7 +813,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -841,7 +841,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -863,7 +863,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -891,7 +891,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -913,7 +913,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -941,7 +941,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -963,7 +963,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -991,7 +991,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1013,7 +1013,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1041,7 +1041,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1063,7 +1063,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1091,7 +1091,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1113,7 +1113,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1141,7 +1141,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1163,7 +1163,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1191,7 +1191,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1213,7 +1213,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1241,7 +1241,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1263,7 +1263,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1315,7 +1315,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1331,7 +1331,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1359,7 +1359,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1381,7 +1381,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1409,7 +1409,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1431,7 +1431,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1459,7 +1459,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1481,7 +1481,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1509,7 +1509,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1531,7 +1531,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1559,7 +1559,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1581,7 +1581,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1609,7 +1609,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1631,7 +1631,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1659,7 +1659,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1681,7 +1681,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1709,7 +1709,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1731,7 +1731,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1759,7 +1759,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1781,7 +1781,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1809,7 +1809,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1831,7 +1831,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1859,7 +1859,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1881,7 +1881,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1909,7 +1909,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1931,7 +1931,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}
@@ -1960,7 +1960,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 160
 				maxHeight = 20
 				format = centre
@@ -1982,7 +1982,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "level"
 				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 20
 				maxHeight = 20
 			}

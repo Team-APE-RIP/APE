@@ -9,7 +9,7 @@ guiTypes = {
 			name = "title"
 			position = { x = -105 y = 26 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 210
@@ -69,7 +69,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 21 y = 76 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			maxWidth = 308

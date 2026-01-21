@@ -153,7 +153,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "combat_adjuster_header_label"
 				position = { x = 30 y = 313 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "PRODUCTION_ADJUSTERS_LABEL"
 				maxWidth = 140
 				maxHeight = 20
@@ -191,7 +191,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_reset_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_RESET"
 			pdx_tooltip = "EQUIPMENT_DESIGNER_RESET_DESC"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_ship_designer_reset"
 		}
 
@@ -200,7 +200,7 @@ guiTypes = {
 			position = { x=400 y=502 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_SAVE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_ship_designer_save"
 		}
 
@@ -220,7 +220,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "starship_name"
 				position = { x = 50 y = 6 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "SSN_[?ROOT.starshipDesignerSSID]"
 				maxWidth = 1400
 				maxHeight = 20
@@ -283,7 +283,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "module_name"
 			position = { x=85 y=10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_NAME_[?starship_modules_value]"
 			maxWidth = 155
 			maxHeight = 22
@@ -318,7 +318,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_0"
 		}
 		buttonType = {
@@ -326,7 +326,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {
@@ -364,7 +364,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_1"
 		}
 		buttonType = {
@@ -372,7 +372,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {
@@ -410,7 +410,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_2"
 		}
 		buttonType = {
@@ -418,7 +418,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {
@@ -456,7 +456,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_3"
 		}
 		buttonType = {
@@ -464,7 +464,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {
@@ -502,7 +502,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_4"
 		}
 		buttonType = {
@@ -510,7 +510,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {
@@ -548,7 +548,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_5"
 		}
 		buttonType = {
@@ -556,7 +556,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {
@@ -594,7 +594,7 @@ guiTypes = {
 			position = { x=98 y=20 }
 			maxWidth = 350
 			maxHeight = 22
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "STARSHIP_MODULE_SELECTION_6"
 		}
 		buttonType = {
@@ -602,7 +602,7 @@ guiTypes = {
 			position = { x=388 y=23 }
 			spriteType = "GFX_button_123x34"
 			buttonText = "REGIMENTS_SELECTION_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 		}
 		gridBoxType = {

@@ -18,7 +18,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="senate_support_header"
 			position = { x = @SENATE_TEXT_X y = @HEADERS_Y }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "USA_congress_senate_support_header"
 			format = center
 			maxHeight = 24
@@ -27,7 +27,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="status_senate"
 			position = { x = @SENATE_TEXT_X y = @STATUS_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "USA_congress_senate_support_amount"
 			format = center
 		}
@@ -41,7 +41,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="status_house"
 			position = { x= @HOUSE_TEXT_X y = @STATUS_Y }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "USA_congress_house_support_amount"
 			format = center
 			fixedsize = yes
@@ -51,7 +51,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="house_support_header"
 			position = { x= @HOUSE_TEXT_X y = @HEADERS_Y }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "USA_congress_house_support_header"
 			format = center
 			maxHeight = 24

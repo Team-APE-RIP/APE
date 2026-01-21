@@ -1189,7 +1189,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="name"
 			position = { x=0 y=0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			format = right
 			maxWidth = 160
@@ -1226,7 +1226,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="name"
 			position = { x=-4 y=0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			format = right
 			maxWidth = 140
@@ -1238,7 +1238,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="shortcut"
 			position = { x=7 y=1 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Hi!"
 			format = left
 			maxWidth = 140

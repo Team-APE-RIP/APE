@@ -57,7 +57,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "region_name"
 			position = {x=42 y=8 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = "-------------------------------"
 			maxWidth = 356
 			maxHeight = 40
@@ -74,7 +74,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ship_text"
 			position = {x=47 y=194}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "123"
 			fixedsize = yes
 			maxWidth = 80
@@ -93,7 +93,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "convoys_text"
 			position = {x=47 y=156}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0"
 			fixedsize = yes
 			maxWidth = 80
@@ -112,7 +112,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "plane_text"
 			position = {x=138 y=194}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "20%"
 			fixedsize = yes
 			maxWidth = 100
@@ -131,7 +131,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "mine_text"
 			position = {x=138 y=156}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "15%"
 			fixedsize = yes
 			maxWidth = 100
@@ -151,7 +151,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "enemy_ship_text"
 			position = {x=304 y=194}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "24-100"
 			fixedsize = yes
 			maxWidth = 80
@@ -170,7 +170,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "enemy_convoys_text"
 			position = {x=304 y=156}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0"
 			fixedsize = yes
 			maxWidth = 80
@@ -189,7 +189,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "enemy_plane_text"
 			position = {x=193 y=194}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "20%"
 			fixedsize = yes
 			maxWidth = 100
@@ -208,7 +208,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "enemy_mine_text"
 			position = {x=193 y=156}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "5%"
 			fixedsize = yes
 			maxWidth = 100
@@ -311,7 +311,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "naval_access_text"
 				position = {x=21 y=-5}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "NAVAL_ACCESS"
 				fixedsize = yes
 				maxWidth = 100

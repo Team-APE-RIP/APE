@@ -46,7 +46,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "missing_grand_doctrine_header"
 					position = { x = -200 y = 330 }
-					font = "hoi_24header"
+					font = "AAGCZYRL24"
 					text = NO_GRAND_DOCTRINE_ASSIGNED
 					maxWidth = 400
 					maxHeight = 100
@@ -116,7 +116,7 @@ guiTypes = {
 					name = "grand_doctrine_name"
 					orientation = center
 					position = { x=-200 y= 8}
-					font = "hoi_24header"
+					font = "AAGCZYRL24"
 					maxWidth = 400
 					maxHeight = 30
 					format = center
@@ -228,7 +228,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "doctrine_name"
 			position = { x = 72 y = 8 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 125
 			maxHeight = 55
 			Orientation = "UPPER_LEFT"
@@ -429,7 +429,7 @@ guiTypes = {
 				maxWidth = 260
 				maxHeight = 52
 				orientation = center_up
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				fixedsize = yes
 				format = center
 				vertical_alignment = center
@@ -690,7 +690,7 @@ guiTypes = {
 			position = { x=-61 y=-55 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_SAVE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_tank_designer_save"
 			orientation = center_down
 		}

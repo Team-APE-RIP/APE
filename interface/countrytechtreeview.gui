@@ -5743,7 +5743,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_resources"
 			position = { x= 5 y= 12 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			pdx_tooltip = "PRODUCTION_RESOURCE_DESC"
@@ -5846,7 +5846,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_resources"
 			position = { x= 5 y= 12 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 140
 			maxHeight = 25
 			pdx_tooltip = "PRODUCTION_RESOURCE_DESC"

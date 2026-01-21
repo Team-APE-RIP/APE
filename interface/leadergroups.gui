@@ -173,7 +173,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "divisions_count"
 			position = {x=0 y=75}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 80
 			maxHeight = 23
 			format = centre
@@ -428,7 +428,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "divisions_count"
 			position = {x=4 y=75}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 80
 			maxHeight = 23
 			format = centre

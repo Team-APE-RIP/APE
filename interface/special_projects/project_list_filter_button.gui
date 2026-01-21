@@ -21,7 +21,7 @@ guiTypes = {
 			maxWidth = 25
 			format = right
 			Orientation = "UPPER_LEFT"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			fixedsize = yes
 			alwaystransparent = yes
 		}

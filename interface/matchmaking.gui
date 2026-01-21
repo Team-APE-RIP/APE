@@ -148,7 +148,7 @@ guiTypes = {
 				maxWidth = 512
 				maxHeight = 32	
 				format = center
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				text = "MATCHMAKING_SERVERS_DOSEARCH"	
 			}
 			
@@ -366,7 +366,7 @@ guiTypes = {
 			name = "servers_tab_title"
 			position = { x = 45 y = 73}
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 4 y = 4}	
 			text = "MATCHMAKING_SERVERS"
 			maxWidth = 127
@@ -378,7 +378,7 @@ guiTypes = {
 			name = "community_tab_title"
 			position = { x = 834 y = 73}
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 4 y = 4}	
 			text = "MATCHMAKING_COMMUNITY"
 			maxWidth = 127

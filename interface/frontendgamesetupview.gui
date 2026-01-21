@@ -703,7 +703,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 0 y = 12000 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_COUNTRY"
 			maxWidth = 1280
@@ -1323,7 +1323,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x=30 y=51 }
 			name = "hotjoin_label"
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 220
 			maxHeight = 16
 			text = "FE_HOTJOIN_LABEL"
@@ -1341,7 +1341,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x=30 y=19 }
 			name = "coop_label"
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 300
 			maxHeight = 16
 			text = "FE_COOP_LABEL"
@@ -1408,7 +1408,7 @@ guiTypes = {
 			instantTextBoxType={
 				position = {x = 40 y = 15 }
 				name = "include_interesting_majors_text"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 370
 				maxHeight = 16
 				text = "FE_INTERESTING_MAJORS"
@@ -1427,7 +1427,7 @@ guiTypes = {
 			instantTextBoxType={
 				position = {x = 40 y = 45 }
 				name = "include_interesting_minors_text"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 370
 				maxHeight = 16
 				text = "FE_INTERESTING_MINORS"
@@ -1446,7 +1446,7 @@ guiTypes = {
 			instantTextBoxType={
 				position = {x = 40 y = 75 }
 				name = "include_other_countries_text"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 370
 				maxHeight = 16
 				text = "FE_OTHER_COUNTRIES"
@@ -1474,7 +1474,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_LEFT"
 				buttonText = "RANDOMIZE_COUNTRY_BACK"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 			}
 
@@ -1495,7 +1495,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "RANDOMIZE_COUNTRY_PICK"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 			}
 		}
@@ -1575,7 +1575,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_LEFT"
 				buttonText = "SM_APPLY"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 			}
 
@@ -1585,7 +1585,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_REVERT"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 			}
 
@@ -1595,7 +1595,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_LOAD"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 			}
 
@@ -1605,7 +1605,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_SAVE"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 			}
 		}
@@ -1624,7 +1624,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "group_name"
 			position = { x = 42 y = 7 }
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 524
 			maxHeight = 24
 			format = left
@@ -1675,7 +1675,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "custom_difficulty_name"
 			position = { x = 37 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 270
 			maxHeight = 18
 			format = left
@@ -1797,7 +1797,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "game_rule_name"
 			position = { x = 37 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 270
 			maxHeight = 18
 			format = left
@@ -1822,7 +1822,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "name_textbox"
 					position = { x = 15 y = 6 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					fixedsize = yes
 					format = left
 					alwaystransparent = yes
@@ -1928,7 +1928,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 9 y = 12 }
 			name = "difficulty_text"
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 348
 			maxHeight = 16
@@ -2044,7 +2044,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 30 y = 103 }
 			name = "ironman_text"
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 370
 			maxHeight = 16
 			text = "FE_IRONMAN"
@@ -2063,7 +2063,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 30 y = 148 }
 			name = "historical_text"
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			maxWidth = 370
 			maxHeight = 16
 			text = "FE_HISTORICAL"
@@ -2156,7 +2156,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "date"
 					position = { x = -184 y = 65 }
-					font = "hoi_24header"
+					font = "AAGCZYRL24"
 					borderSize = {x = 4 y = 4}
 					text = "Pikku Saippuakauppias Itkee!!"
 					maxWidth = 360
@@ -2167,7 +2167,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "name"
 					position = { x = -184 y = 85 }
-					font = "hoi_24header"
+					font = "AAGCZYRL24"
 					borderSize = {x = 4 y = 4}
 					text = "Pikku Saippuakauppias Itkee!!"
 					maxWidth = 360

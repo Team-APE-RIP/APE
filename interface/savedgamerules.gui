@@ -301,7 +301,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 17 y = 17 }
 			name = "name"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 224
 			maxHeight = 18
 			format = left
@@ -312,7 +312,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 50 y = 24 }
 			name = "date"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 217
 			maxHeight = 18
 			format = left

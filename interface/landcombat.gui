@@ -104,7 +104,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tactics_name"
 			position = { x = 14 y = 6 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 280
 			maxHeight = 20
 			format = left
@@ -122,7 +122,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tactics_chance"
 			position = { x = 315 y = 30 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 50
 			maxHeight = 20
 			format = left
@@ -144,7 +144,7 @@ guiTypes = {
 			name = "command_power_cost"
 			position = { x = 255 y = 35 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 100
 			maxHeight = 20
 			format = centre
@@ -273,7 +273,7 @@ guiTypes = {
 			name = "current_phase"
 			position = { x = 0 y = 42 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 358
 			maxHeight = 20
 			format = centre
@@ -285,7 +285,7 @@ guiTypes = {
 			name = "preferred_tactic_desc_text"
 			text = "PREFERRED_TACTIC_DESC"
 			position = { x=20 y=66}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 340
 			maxHeight = 20
 			format = left
@@ -442,7 +442,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "attacker_leader_name"
 			position = { x=22 y=233 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 190
 			maxHeight = 14
 			format = left
@@ -454,7 +454,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "defender_leader_name"
 			position = { x=-212 y=233 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 190
 			maxHeight = 14
 			format = right
@@ -518,7 +518,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "attacker_army_width"
 			position = { x=47 y=284 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 180
 			maxHeight = 14
 			format = center
@@ -529,7 +529,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "defender_army_width"
 			position = { x=-232 y=284 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 180
 			maxHeight = 14
 			format = center
@@ -607,7 +607,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "combat_width"
 			position = { x = 242 y = 277 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 85
 			maxHeight = 23
 			format = centre
@@ -651,7 +651,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "attacker_committed_label"
 				position = { x = 60 y = 9 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 165
 				maxHeight = 20
 				format = center
@@ -687,7 +687,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "attacker_reserves_label"
 				position = { x = 27 y = 194 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 245
 				maxHeight = 20
 				format = center
@@ -757,7 +757,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "defender_committed_label"
 				position = { x = 58 y = 8 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 165
 				maxHeight = 20
 				format = center
@@ -793,7 +793,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "defender_reserves_label"
 				position = { x = 10 y = 194 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 245
 				maxHeight = 20
 				format = center

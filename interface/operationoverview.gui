@@ -110,7 +110,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "flag_name"
 					position = { x = 50 y = 0 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 110
 					maxHeight = 20
 					#format = right
@@ -120,7 +120,7 @@ guiTypes = {
 				buttonType = {
 					name = "btn_location"
 					position = {x= 8 y=35}
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					clicksound = click_close
 					quadTextureSprite ="GFX_button_148x34"
 				}

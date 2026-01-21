@@ -1,0 +1,58 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_FEMV1Btn"
+		texturefile = "gfx/interface/Btns/FEMV1Btn.png"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+    spriteType = {
+		name = "GFX_FEMV2Btn"
+		texturefile = "gfx/interface/Btns/FEMV2Btn.png"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+    spriteType = {
+		name = "GFX_FEMV3Btn"
+		texturefile = "gfx/interface/Btns/FEMV3Btn.png"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+    spriteType = {
+		name = "GFX_FEMV4Btn"
+		texturefile = "gfx/interface/Btns/FEMV4Btn.png"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+    spriteType = {
+		name = "GFX_FEMV5Btn"
+		texturefile = "gfx/interface/Btns/FEMV5Btn.png"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+    spriteType = {
+		name = "GFX_FEMVEBtn"
+		texturefile = "gfx/interface/Btns/FEMVEBtn.png"
+        transparencecheck = yes
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+	# BM BTN
+	spriteType = {
+		name = "GFX_bookmarkbtnleft"
+		texturefile = "gfx/interface/bookmarkbtnleft.png"
+		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
+		transparencecheck = yes			
+	}
+	
+	spriteType = {
+		name = "GFX_bookmarkbtnright"
+		texturefile = "gfx/interface/bookmarkbtnright.png"
+		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"			
+		transparencecheck = yes	
+	}
+}

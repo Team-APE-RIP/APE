@@ -40,7 +40,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "country_filter_text"
 				position = { x = 14 y = 13 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = { x = 0 y = 0 }
 				text = "CAREER_PROFILE_ALL_COUNTRIES"
 				maxWidth = 244
@@ -55,7 +55,7 @@ guiTypes = {
 				name = "country_filter_button"
 				position = { x = 222 y = 24 }
 				quadTextureSprite = "GFX_btn_expand_isolated"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_default
 				alwaystransparent = yes
 				frame = 2

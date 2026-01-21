@@ -95,7 +95,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "points"
 				position = { x = 120 y = 25 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "POINTS"
 				maxWidth = 150
 				maxHeight = 20
@@ -615,7 +615,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "modifier_text"
 			position = { x = 0 y = 0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "MODIFIER"
 			maxWidth = 250
 			maxHeight = 20
@@ -698,7 +698,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "bonus_text"
 			position = { x = 0 y = 0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "MODIFIER"
 			maxWidth = 250
 			maxHeight = 20
@@ -728,7 +728,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_name"
 			position = { x = 20 y = 10 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "name"
 			maxWidth = 230
 			maxHeight = 10
@@ -752,7 +752,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "flavor_fact"
 			position = { x = 20 y = 70 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Researched : it was a tuesday"
 			maxWidth = 230
 			maxHeight = 10

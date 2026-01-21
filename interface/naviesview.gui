@@ -157,7 +157,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "taskforces_selected"
 			position = {x=22 y=7}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 400
 			maxHeight = 23
 			format = left
@@ -817,7 +817,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=30 y=5}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 160
 			maxHeight = 30
 			format = left
@@ -847,7 +847,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=30 y=5}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			format = left
 		}
 	}
@@ -875,7 +875,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=35 y=5}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 30
 			fixedsize = yes
@@ -927,7 +927,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "taskforce_count"
 			position = {x=318 y=10}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 90
 			maxHeight = 23
 			format = center
@@ -1002,14 +1002,14 @@ guiTypes = {
 			spriteType = "GFX_select_all_armylist_btn"
 			position = { x=354 y=142 }
 			clicksound = click_default
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "SELECT_ALL"
 		}
 
 		instantTextboxType = {
 			name = "active_in_regions"
 			position = {x=16 y=140}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 172
 			maxHeight = 23
 			format = left
@@ -1125,7 +1125,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "skill_text"
 			position = {x=196 y=51}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -1655,7 +1655,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ship_name"
 			position = {x=184 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 272
 			maxHeight = 23
 			fixedsize = yes
@@ -1898,7 +1898,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			spriteType = "GFX_tiled_window"
+			spriteType = "GFX_tiled_SPinckEXwthSCLPMini_bg"
 		}
 
 		iconType = {
@@ -2033,7 +2033,7 @@ guiTypes = {
 			editBoxType = {
 				name = "template_name"
 				position = { x = 45 y = 5 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				size = { x=268 y=20 }
 				text = "TEMPLATE_NAME"
 			}
@@ -2187,7 +2187,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ship_name"
 			position = {x=160 y=12}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 300
 			maxHeight = 23
 			fixedsize = yes
@@ -2220,7 +2220,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ship_name"
 			position = {x=120 y=4}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 300
 			maxHeight = 23
 			format = left
@@ -2257,7 +2257,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "label"
 			position = { x=0 y=0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Template entry"
 			maxWidth = 268
 		}
@@ -2285,7 +2285,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ship_name"
 			position = {x=196 y=12}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 220
 			maxHeight = 23
 			format = left

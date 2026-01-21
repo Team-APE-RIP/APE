@@ -46,7 +46,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "unavailable_name"
 				position = { x = 56 y = 12 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				borderSize = {x = 0 y = 0}
 				text = "NEW_FACTION_WINDOW_SHOW_UNAVAILABLE_CHECKBOX"
 				maxWidth = 150
@@ -104,7 +104,7 @@ guiTypes = {
 				name = "create_faction_button"
 				position = { x = 305 y = 0 }
 				quadTextureSprite = "GFX_factions_button_collect_extra_long"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				text = "FACTION_SETUP_WINDOW_TITLE"
 			}
 		}
@@ -494,7 +494,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_factions_button_collect_extra_long"
 				position = { x=150 y=-50 }
 				buttonText = "FACTION_SETUP_CREATE_FACTION_BUTTON"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				Orientation = "LOWER_LEFT"
 			}
 		}
@@ -719,7 +719,7 @@ guiTypes = {
 			position = { x=188 y =510 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = FACTION_INVITE_BUTTON
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			shortcut = "RETURN"
 			clicksound = click_ok
 		}
@@ -864,7 +864,7 @@ guiTypes = {
                 instantTextboxType = {
                         name = "title"
                         position = { x = 0 y = 23 }
-                        font = "hoi_24header"
+                        font = "AAGCZYRL24"
                         text = DIPLOMACY_CREATE_FACTION_TITLE
                         maxWidth = 530
                         maxHeight = 20
@@ -896,7 +896,7 @@ guiTypes = {
                 editBoxType = {
                         position = {x=162 y=243}
                         name = "faction_name"
-                        font = "hoi_18mbs"
+                        font = "AAGCZYRL18"
                         borderSize = {x=10 y=10}
                         size = {x=200 y=45}
                 }
@@ -905,7 +905,7 @@ guiTypes = {
                         name = "type_faction_name_prompt"
                         position = { x = 117 y = 220 }
                         textureFile = ""
-                        font = "hoi_18mbs"
+                        font = "AAGCZYRL18"
                         borderSize = {x = 0 y = 0}
                         text = TYPE_FACTION_NAME
                         maxWidth = 300
@@ -917,7 +917,7 @@ guiTypes = {
                         name = "faction_name_status"
                         position = { x = 117 y = 294 }
                         textureFile = ""
-                        font = "hoi_18mbs"
+                        font = "AAGCZYRL18"
                         borderSize = {x = 0 y = 0}
                         text = "FACTION_NAME_IS_AVALIABLE"
                         maxWidth = 300

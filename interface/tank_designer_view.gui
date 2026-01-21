@@ -27,7 +27,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "experience"
 			position = { x = 295 y = 510 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 70
 			maxHeight = 20
 			format = centre
@@ -171,7 +171,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "name"
 					position = { x = 91 y = 3 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 90
 					maxHeight = 20
 					format = center
@@ -181,7 +181,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "level"
 					position = { x = 122 y = 18 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 28
 					maxHeight = 30
 					format = center
@@ -213,7 +213,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "name"
 					position = { x = 37 y = 3 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 90
 					maxHeight = 20
 					format = center
@@ -223,7 +223,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "level"
 					position = { x = 68 y = 18 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 29
 					maxHeight = 30
 					format = center
@@ -254,7 +254,7 @@ guiTypes = {
 			name = "save_to_file_button"
 			position = { x=18 y=380 }
 			quadTextureSprite ="GFX_preset_button_save"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_ship_designer_save"
 			pdx_tooltip = "SAVE_AS_PRESET_TOOLTIP"
 		}
@@ -263,7 +263,7 @@ guiTypes = {
 			name = "historical_design_button"
 			position = { x=18 y=412 }
 			quadTextureSprite ="GFX_preset_button_open"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			#clicksound = "ui_tank_designer_save"
 			pdx_tooltip = "OPEN_PRESETS_TOOLTIP"
 		}
@@ -457,7 +457,7 @@ guiTypes = {
 			
 			background = {
 				name = "Background"		
-				spriteType ="GFX_tiled_window"
+				spriteType ="GFX_tiled_SPinckEXwthSCLPMini_bg"
 				position = { x=-16 y=0 }
 			}
 
@@ -525,7 +525,7 @@ guiTypes = {
 			
 			background = {
 				name = "Background"		
-				spriteType ="GFX_tiled_window"
+				spriteType ="GFX_tiled_SPinckEXwthSCLPMini_bg"
 				position = { x=-16 y=0 }
 			}
 
@@ -585,7 +585,7 @@ guiTypes = {
 			
 			background = {
 				name = "Background"		
-				spriteType ="GFX_tiled_window"
+				spriteType ="GFX_tiled_SPinckEXwthSCLPMini_bg"
 				position = { x=-16 y=0 }
 			}
 			
@@ -593,7 +593,7 @@ guiTypes = {
 				name = "import_preset_button"
 				position = { x=34 y=408 }
 				quadTextureSprite ="GFX_preset_button_import"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = "ui_ship_designer_save"
 				pdx_tooltip = "IMPORT_PRESET_TOOLTIP"
 			}
@@ -602,7 +602,7 @@ guiTypes = {
 				name = "export_preset_folder_button"
 				position = { x=2 y=408 }
 				quadTextureSprite ="GFX_preset_button_export"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = "ui_ship_designer_save"
 				pdx_tooltip = "EXPORT_PRESET_FOLDER_TOOLTIP"
 			}
@@ -673,7 +673,7 @@ guiTypes = {
 					name = "show_all_button"
 					position = { x=12 y=6 }
 					quadTextureSprite ="GFX_diplo_filter_entry"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					pdx_tooltip = "SHOW_ALL_CUSTOM_DESIGNS_TOOLTIP"
 					text = "BUTTON_SHOW_ALL_DESIGNS"
 					frame = 2
@@ -730,7 +730,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_reset_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_RESET"
 			pdx_tooltip = "EQUIPMENT_DESIGNER_RESET_DESC"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_tank_designer_reset"
 		}
 
@@ -786,7 +786,7 @@ guiTypes = {
 			position = { x=400 y=502 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_SAVE"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_tank_designer_save"
 		}
 		
@@ -813,7 +813,7 @@ guiTypes = {
 			editBoxType = {
 				name = "name"
 				position = { x = 35 y = 5 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				size = { x=178 y=20 }
 			}
 			
@@ -867,7 +867,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "position_version"
 			position = { x = 212 y = 65 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text_color_code = g
 			maxWidth = 71
 			maxHeight = 18
@@ -913,7 +913,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "role_text"
 				position = { x = 48 y = 10 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 210
 				maxHeight = 18
 				alwaystransparent = yes
@@ -989,7 +989,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_resources"
 			position = { x= 548 y= 510 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 90
 			maxHeight = 25
 			pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_RESOURCE_DESC"
@@ -999,7 +999,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "refit_cost"
 			position = { x= 650 y=510 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 25
 			format = center
@@ -1009,7 +1009,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_value"
 			position = { x= 850 y=510 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 210
 			maxHeight = 25
 			#pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_COST_DESC"
@@ -1050,7 +1050,7 @@ guiTypes = {
 				position = { x=98 y=23 }
 				maxWidth = 350
 				maxHeight = 22
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "SHIP_DESIGNER_MODULE_SELECTION"
 			}
 			
@@ -1059,7 +1059,7 @@ guiTypes = {
 				position = { x=390 y=23 }
 				spriteType = "GFX_button_123x34"
 				buttonText = "REGIMENTS_SELECTION_CANCEL"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				clicksound = click_close
 			}
 
@@ -1401,7 +1401,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 44 y = 5 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 38
 			fixedsize = yes
@@ -1450,7 +1450,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 14 y = -4 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 300
 			maxHeight = 38
 			fixedsize = yes
@@ -1469,7 +1469,7 @@ guiTypes = {
 			name = "export_to_clipboard_button"
 			position = { x=5 y=43 }
 			quadTextureSprite ="GFX_preset_button_export"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_ship_designer_save"
 			pdx_tooltip = "EXPORT_PRESET_TOOLTIP"
 		}
@@ -1478,7 +1478,7 @@ guiTypes = {
 			name = "designer_note_button"
 			position = { x=35 y=43 }
 			quadTextureSprite ="GFX_edit_designer_notes_button"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_ship_designer_save"
 			pdx_tooltip = "DESIGNER_NOTE_TOOLTIP"
 		}
@@ -1487,7 +1487,7 @@ guiTypes = {
 			name = "bin_button"
 			position = { x=304 y=43 }
 			quadTextureSprite ="GFX_NV_btn_delete"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = "ui_ship_designer_save"
 			pdx_tooltip = "DELETE_PRESET_TOOLTIP"
 		}
@@ -1509,7 +1509,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = -2}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 83
 			maxHeight = 34
 			fixedsize = yes

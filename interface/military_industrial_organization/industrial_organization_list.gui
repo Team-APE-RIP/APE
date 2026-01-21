@@ -216,7 +216,7 @@ guiTypes = {
 			position = { x = 10 y = 40 }
 			format = center
 			alwaystransparent = yes
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Something something no MIO"
 			fixedsize = yes
 			maxWidth = 500
@@ -237,7 +237,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 125 y = 15 }
 			alwaystransparent = yes
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "MIO name"
 			fixedsize = yes
 			maxWidth = 200
@@ -276,7 +276,7 @@ guiTypes = {
 				name = "task_capacity"
 				position = { x = 20 y = 6 }
 				alwaystransparent = no
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "1 / 1"
 				fixedsize = yes
 				maxWidth = 50
@@ -335,7 +335,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "assign_cost"
 			position = { x = 340 y = 15 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "INDUSTRIAL_ORG_PP_COST"
 			fixedsize = yes
 			maxWidth = 150

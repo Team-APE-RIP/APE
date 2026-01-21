@@ -125,7 +125,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "equipment_type_label"
 				position = { x = 30 y = 0 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LOGISTICS_EQUIPMENT_TYPE_LABEL"
 				maxWidth = 125
 				maxHeight = 20
@@ -143,7 +143,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "status_label"
 				position = { x = 183 y = 0 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LOGISTICS_STATUS_LABEL"
 				maxWidth = 70
 				maxHeight = 20
@@ -175,7 +175,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "resources_label"
 				position = { x = 405 y = 0 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LOGISTICS_RESOURCES_LABEL"
 				maxWidth = 100
 				maxHeight = 20
@@ -216,7 +216,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "label"
 				position = { x = 60 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "LOGISTICS_FUEL_PRIORITIZATION"
 				maxWidth = 300
 				maxHeight = 20
@@ -703,7 +703,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_variant"
 			position = { x = 89 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "PRODUCTION_OUTPUT"
 			maxWidth = 200
 			maxHeight = 20
@@ -724,7 +724,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "max_value"
 			position = { x = 316 y = 78 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0.0"
 			maxWidth = 60
 			maxHeight = 30
@@ -734,7 +734,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "avg_value"
 			position = { x = 316 y = 142 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0.0"
 			maxWidth = 60
 			maxHeight = 30
@@ -744,7 +744,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "min_value"
 			position = { x = 316 y = 210 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0.0"
 			maxWidth = 60
 			maxHeight = 30
@@ -754,7 +754,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "min_x_value"
 			position = { x = 79 y = 233 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0"
 			maxWidth = 30
 			maxHeight = 30
@@ -763,7 +763,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "max_x_value"
 			position = { x = 278 y = 233 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "30"
 			maxWidth = 30
 			maxHeight = 30
@@ -773,7 +773,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "x_axis_type"
 			position = { x = 104 y = 233 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "LINECHART_DETAILS_DAYS"
 			maxWidth = 180
 			maxHeight = 30
@@ -959,7 +959,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "equipment_variant"
 			position = { x = 89 y = 13 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "PRODUCTION_OUTPUT"
 			maxWidth = 200
 			maxHeight = 20
@@ -980,7 +980,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "max_value"
 			position = { x = 310 y = 104 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0.0"
 			maxWidth = 90
 			maxHeight = 30
@@ -990,7 +990,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "min_value"
 			position = { x = 310 y = 245 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0.0"
 			maxWidth = 90
 			maxHeight = 30
@@ -1000,7 +1000,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "min_x_value"
 			position = { x = 79 y = 263 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "0"
 			maxWidth = 30
 			maxHeight = 30
@@ -1009,7 +1009,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "max_x_value"
 			position = { x = 278 y = 263 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "30"
 			maxWidth = 30
 			maxHeight = 30
@@ -1019,7 +1019,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "x_axis_type"
 			position = { x = 104 y = 263 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "LINECHART_DETAILS_DAYS"
 			maxWidth = 180
 			maxHeight = 30
@@ -1519,7 +1519,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 35 y = 7 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "name"
 			maxWidth = 154
 			maxHeight = 20

@@ -252,9 +252,9 @@ spriteTypes = {
 	
 	corneredTileSpriteType = {
 		name = "GFX_tiled_window"
-		size= { x=192 y=192 }
-		textureFile = "gfx//interface//tiles//tiled_window.dds"
-		borderSize = { x=64 y=64 }
+		size= { x=0 y=0 }
+		textureFile = "gfx/interface/air.dds"
+		borderSize = { x=0 y=0 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}

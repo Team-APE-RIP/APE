@@ -62,7 +62,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "civ_convoy_allocation"
 				position = { x = 20 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Allocated: Placeholder 999"
 				maxWidth = 180
 				maxHeight = 18
@@ -73,7 +73,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "cic_bank_value"
 				position = { x = 210 y = 7 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Bank: Placeholder 999"
 				maxWidth = 320
 				maxHeight = 18
@@ -124,7 +124,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_Access_&_buy_equipment"
 			position = { x=15 y=80 }
 			buttonText = "INTERNATIONAL_MARKET_BUY_EQUIPMENT_TAB"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 		}
 
 		buttonType = {
@@ -132,7 +132,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_Add_equipment_to_markete"
 			position = { x=275 y=80 }
 			buttonText = "INTERNATIONAL_MARKET_SELL_EQUIPMENT_TAB"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 		}
 
 		#------------------------- END TAB BUTTONS ----------------------------
@@ -317,7 +317,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_button_221x34"
 				position = { x=150 y=-50 }
 				buttonText = "INTERNATIONAL_MARKET_OPEN_DIPLO_VIEW"
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				Orientation = "LOWER_LEFT"
 			}
 		}
@@ -346,7 +346,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "contract_header"
 			position = { x = 45 y = 6 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Country Name"
 			maxWidth = 250
 			maxHeight = 19

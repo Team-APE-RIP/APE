@@ -79,7 +79,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "agency_name"
 				position = { x = 110 y = 10 }
-				font = "hoi_24header"
+				font = "AAGCZYRL24"
 				format = left
 				maxWidth = 340
                 maxHeight = 24
@@ -142,7 +142,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "spymaster_button_name"
 					position = { x = -5 y = 57 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					text = "BECOME_SPY_MASTER_BUTTON"
 					maxWidth = 160
 					maxHeight = 29
@@ -179,7 +179,7 @@ guiTypes = {
 				name = "creation_button"
 				position = { x = 10 y =41 }
 				quadTextureSprite ="GFX_create_agency_bg"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				Orientation = "LOWER_LEFT"
 				buttonText = "CREATE_AGENCY_BUTTON"
 				clicksound = click_default
@@ -227,7 +227,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "creation_progressbar_factories"
 					position = { x = -255 y = 40 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 117
 					format = left
 					text = "15"
@@ -236,7 +236,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "creation_progressbar_days"
 					position = { x = -60 y = 40 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 155
 					format = right
 					text = "180 days"
@@ -334,7 +334,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "total_operative_text"
 				position = { x = 30 y = 88 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "10 (-1)"
 				maxWidth = 60
 				maxHeight = 20
@@ -351,7 +351,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "arrested_operative_text"
 				position = { x = 117 y = 88 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0"
 				maxWidth = 40
 				maxHeight = 20
@@ -369,7 +369,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "dead_operative_text"
 				position = { x = 184 y = 88 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "0"
 				maxWidth = 40
 				maxHeight = 20
@@ -483,7 +483,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "progressbar_days"
 					position = { x = 280 y = 5 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 240
 					format = left
 					text = "STATUS_NO_AGENCY_NO_OPERATIVE"
@@ -586,14 +586,14 @@ guiTypes = {
 			instantTextboxType = {
 				name = "agency_crypto_defense_level"
 				position = { x = 45 y = 18 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "Defense Level: 10"
 			}
 
 			instantTextboxType = {
 				name = "agency_decrypt_strength"
 				position = { x = 400 y = 16 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "500"
 				maxWidth = 100
 				format = right
@@ -914,7 +914,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "upgrade_duration_title"
 			position = { x = 146 y = 54 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 800
 			text = "OPERATIONS"
 			format = center
@@ -964,7 +964,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "upgrade_branch_name"
 			position = { x = 10 y = 8 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			format = left
 			maxWidth = 900	
@@ -1051,7 +1051,7 @@ guiTypes = {
 		instantTextboxType = { 
 			name = "num_factories"
 			position = { x = 163 y = 50 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "12"
 			maxWidth = 40
 			maxHeight = 20
@@ -1323,7 +1323,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 60 y = 9 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Country Name"
 			maxWidth = 200
 			multiline = no
@@ -1355,7 +1355,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "cryptology_state"
 				position = { x = 5 y = 9 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "50%"
 				format = center
 				maxWidth = 230

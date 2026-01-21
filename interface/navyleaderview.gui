@@ -12,7 +12,7 @@ guiTypes = {
 		# for debug purpose
 		#background = {
 		#	name = "bg_bottom_bar"
-		#	spriteType = "GFX_tiled_window"
+		#	spriteType = "GFX_tiled_SPinckEXwthSCLPMini_bg"
 		#}
 
 		containerWindowType = {

@@ -38,7 +38,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cic_cost"
 			position = { x = 280 y = 205 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "XXXX"
 			maxWidth = 100
 			maxHeight = 30
@@ -122,7 +122,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "variant_name"
 			position = { x = 150 y = 53 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "Beautiful Variant Name"
 			maxWidth = 250
 			maxHeight = 32
@@ -136,7 +136,7 @@ guiTypes = {
 			position = { x=-142 y=-55 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "EDIT_MARKET_CONFIRM"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_default
 		}

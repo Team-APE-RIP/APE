@@ -391,7 +391,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=122 y=3}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 450
 			maxHeight = 23
 			format = left
@@ -694,7 +694,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "strategic_priorities_label"
 			position = { x = 15 y = 7 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 380
 			maxHeight = 23
 			text = "AIR_STRATEGIC_PRIORITIES"
@@ -754,7 +754,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=350 y=13}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 450
 			maxHeight = 23
 			format = left
@@ -840,7 +840,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "select_wing"
 			position = {x=26 y=12}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 45
 			maxHeight = 23
 			format = center
@@ -852,7 +852,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "select_wing_desc"
 			position = {x=200 y=12}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 23
 			format = center
@@ -903,7 +903,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "strategic_priorities_label"
 			position = { x = 15 y = 7 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 380
 			maxHeight = 23
 			text = "AIR_STRATEGIC_PRIORITIES"
@@ -1429,7 +1429,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "strategic_priorities_label"
 					position = { x = 15 y = 7 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 380
 					maxHeight = 23
 					text = "AIR_STRATEGIC_PRIORITIES"
@@ -1483,7 +1483,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "wings_count"
 				position = {x=47 y=13}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 150
 				maxHeight = 23
 				format = left
@@ -1772,7 +1772,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=36 y=5}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			format = left
 			maxWidth = 140
 			alwaystransparent = yes

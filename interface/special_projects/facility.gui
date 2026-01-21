@@ -234,7 +234,7 @@ guiTypes = {
 					name = "back_button"
 					position = { x = 0 y = 0 }
 					quadTextureSprite = "GFX_occupation_release_button"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					buttonText = "ONGOING_PROJECT_BACK_TO_AVAILABLE"
 					Orientation = "UPPER_LEFT"
 				}
@@ -243,7 +243,7 @@ guiTypes = {
 					name = "start_research_button"
 					position = { x = 160 y = 0 }
 					quadTextureSprite = "GFX_occupation_release_button"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					buttonText = "ONGOING_PROJECT_START_RESEARCH"
 					Orientation = "UPPER_LEFT"
 					clicksound = ui_special_project_started_sound
@@ -287,7 +287,7 @@ guiTypes = {
 					name = "output_button"
 					position = { x = -170 y = 120 }
 					quadTextureSprite = "GFX_diplo_filter_entry"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					buttonText = PROJET_OUTPUT_BUTTON
 					Orientation = "UPPER_LEFT"
 				}
@@ -296,7 +296,7 @@ guiTypes = {
 					name = "rewards_button"
 					position = { x = -30 y = 120 }
 					quadTextureSprite = "GFX_diplo_filter_entry"
-					buttonFont = "hoi_18mbs"
+					buttonFont = "AAGCZYRL18"
 					buttonText = PROJET_REWARD_BUTTON
 					Orientation = "UPPER_LEFT"
 				}
@@ -322,7 +322,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "phase_name_text"
 					position = { x = -45 y = 75 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 150
 					maxHeight = 60
 					multiline = yes
@@ -333,7 +333,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "stop_time_text"
 					position = { x = -45 y = 50 }
-					font = "hoi_18mbs"
+					font = "AAGCZYRL18"
 					maxWidth = 150
 					maxHeight = 60
 					multiline = yes
@@ -436,7 +436,7 @@ guiTypes = {
 				position = { x = 195 y = 280 }
 				quadTextureSprite = "GFX_button_123x34"
 				frame = 1
-				buttonFont = "hoi_18mbs"
+				buttonFont = "AAGCZYRL18"
 				buttonText = "ONGOING_PROJECT_CONFIRM_OPTION"
 			}
 		}
@@ -473,7 +473,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost_amount"
 			position = { x = 24 y = 0 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 200
 			maxHeight = 19
 			multiline = no
@@ -553,7 +553,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "scientist_info"
 			position = { x = 180 y = 96 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "PROGRAM_VIEW_REQUIRE_SCIENTIST"
 			maxWidth = 200
 			maxHeight = 19
@@ -614,7 +614,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "research_speed_text"
 				position = { x = 30 y = 2 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				fixedsize = yes
 				maxWidth = 40
 				maxHeight = 18
@@ -640,7 +640,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "option_name"
 			position = { x = 25 y = 25 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 120
 			maxHeight = 50
 			format = center

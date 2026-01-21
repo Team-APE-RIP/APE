@@ -111,7 +111,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "achievement_desc"
 			position = { x = 112 y = 30 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "desc"	
 			maxWidth = 450

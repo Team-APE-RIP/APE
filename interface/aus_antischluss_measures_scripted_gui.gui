@@ -11,7 +11,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="antischluss_risk_text"
 			position = { x = 110 y = 20 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = "AUS_antischluss_risk_text"
 			format = center
 			maxHeight = 24

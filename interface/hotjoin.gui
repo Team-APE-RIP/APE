@@ -33,7 +33,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 13 y = 15}
 			format = left
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 148
 			maxHeight = 32
@@ -84,7 +84,7 @@ guiTypes = {
 				name = "confirm_button"
 				position = { x = 5 y = 8 }
 				quadTextureSprite ="GFX_button_221x34"			
-				buttonfont = "hoi_18mbs"
+				buttonfont = "AAGCZYRL18"
 				buttontext = "HOTJOIN_CONFIRM"
 			}
 		}

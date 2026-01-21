@@ -56,7 +56,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 100 y = 30 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				maxWidth = 230
 				maxHeight = 40
 				fixedsize = yes
@@ -143,7 +143,7 @@ guiTypes = {
 				name = "title"
 				position = { x = 20 y = 20 }
 				maxWidth = 260
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "title"
 				format = center
 				multiline = no
@@ -245,7 +245,7 @@ guiTypes = {
 				name = "title"
 				position = { x = 20 y = 20 }
 				maxWidth = 260
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "title"
 				format = center
 				multiline = no

@@ -2343,7 +2343,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="civilian_factory_count"
 				position = { x= 36 y = 8 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "999"
 				format = left
 				maxWidth = 60
@@ -2361,7 +2361,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="military_factory_count"
 				position = { x= 36 y = 33 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "999"
 				format = left
 				maxWidth = 60
@@ -2378,7 +2378,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="dockyard_count"
 				position = { x= 36 y = 58 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "999"
 				format = left
 				maxWidth = 60
@@ -2394,7 +2394,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="infra_count"
 				position = { x= 102 y = 8 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "999"
 				format = left
 				maxWidth = 60
@@ -2411,7 +2411,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="refinery_count"
 				position = { x= 102 y = 33 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "999"
 				format = left
 				maxWidth = 60
@@ -2428,7 +2428,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="silo_count"
 				position = { x= 102 y = 58 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "999"
 				format = left
 				maxWidth = 60
@@ -2655,7 +2655,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="cost"
 				position = { x= 0 y = 6 }
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = "9999"
 				format = CENTER
 				maxWidth = 100

@@ -170,7 +170,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 80 y = 295 }
 			name = "public_label"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 130
 			maxHeight = 18
@@ -190,7 +190,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 210 y = 295 }
 			name = "private_label"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 130
 			maxHeight = 18
@@ -210,7 +210,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x = 340 y = 295 }
 			name = "friends_only_label"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 130
 			maxHeight = 18
@@ -257,7 +257,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "info_desc"
 			position = { x=115 y =90}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			text = ""
 			maxWidth = 250
 			maxHeight = 190
@@ -300,7 +300,7 @@ guiTypes = {
 			name = "Title"
 			position = { x = 87 y = 30 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			borderSize = {x = 0 y = 0}
 			text = "MATCHMAKING_SERVER_CONNECT_TITLE"	
 			maxWidth = 320
@@ -314,7 +314,7 @@ guiTypes = {
 			name = "edit_title"
 			position = { x = 64 y = 91 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 4 y = 4}
 			text = "MATCHMAKING_SERVER_CONNECT_ADDRESS"	
 			maxWidth = 500
@@ -332,7 +332,7 @@ guiTypes = {
 		editBoxType = {
 			position = { x = 41 y = 116 }
 			name = "address"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 8 y = 4}	
 			size = { x=415 y=32 }
 			text = ""	
@@ -345,7 +345,7 @@ guiTypes = {
 			name = "password_title"
 			position = { x = 64 y = 181 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 4 y = 4}
 			text = "MATCHMAKING_SERVER_PASSWORD"	
 			maxWidth = 500
@@ -363,7 +363,7 @@ guiTypes = {
 		editBoxType = {
 			position = { x = 41 y = 206 }
 			name = "password"
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 8 y = 4}	
 			size = { x=415 y=32 }
 			text = ""	
@@ -382,7 +382,7 @@ guiTypes = {
 			position = { x=303 y =270}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "JOIN_BUTTON"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_ok
 			oversound = ui_menu_over
 			shortcut = "RETURN"
@@ -393,7 +393,7 @@ guiTypes = {
 			position = { x=77 y =270}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "FE_CANCEL"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"

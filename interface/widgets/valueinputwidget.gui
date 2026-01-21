@@ -20,7 +20,7 @@ guiTypes = {
 		editBoxType = {
 			name = "value_edit_box"
 			position = {x=32 y=2}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			size = {x=50 y=20}
 			only_numbers = yes
 		}

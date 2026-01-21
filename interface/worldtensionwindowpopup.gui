@@ -17,7 +17,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "window_name"
 			position = {x=20 y=28}
-			font = "hoi_24header"
+			font = "AAGCZYRL24"
 			text = THREAT_WINDOW_NAME
 			maxWidth = 500
 			maxHeight = 23
@@ -113,7 +113,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "no_surces_info"
 				position = {x=0 y=50}
-				font = "hoi_18mbs"
+				font = "AAGCZYRL18"
 				text = NO_THREAT_SOURCES_WINDOW
 				maxWidth = 500
 				maxHeight = 100

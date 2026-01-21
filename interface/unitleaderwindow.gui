@@ -147,7 +147,7 @@ guiTypes = {
 			name = "no_leader_button"
 			position = { x = -250 y = -32 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			buttonText = "UNASSIGN"
 			pdx_tooltip = "UNASSIGN"
@@ -157,7 +157,7 @@ guiTypes = {
 			name = "new_leader_button"
 			position = { x = -535 y = -32 }
 			quadTextureSprite = "GFX_button_261x34"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			buttonText = "UNIT_LEADER_NEW_LEADER"
 		}
@@ -166,7 +166,7 @@ guiTypes = {
 			name = "show_divisional_commanders_button"
 			position = { x = -535 y = -31 }
 			quadTextureSprite = "GFX_button_261x34"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			buttonText = "UNIT_LEADER_NEW_LEADER_DIVC"
 		}
@@ -186,7 +186,7 @@ guiTypes = {
 			name = "show_assigned_text"
 			position = { x = 325 y = 10 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "SHOW_ACTIVE"
 			maxWidth = 140
@@ -283,7 +283,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "divisions_count"
 			position = {x=424 y=17}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 85
 			maxHeight = 23
 			format = centre
@@ -551,7 +551,7 @@ guiTypes = {
 			name = "no_leader_button"
 			position = { x = -250 y = -32 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			buttonText = "UNASSIGN"
 			pdx_tooltip = "UNASSIGN"
@@ -562,7 +562,7 @@ guiTypes = {
 			name = "new_leader_button"
 			position = { x = -535 y = -32 }
 			quadTextureSprite = "GFX_button_261x34"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			buttonText = "UNIT_LEADER_NEW_LEADER"
 			clicksound = click_default
@@ -583,7 +583,7 @@ guiTypes = {
 			name = "show_assigned_text"
 			position = { x = 380 y = 10 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = "SHOW_ACTIVE"
 			maxWidth = 100
@@ -656,7 +656,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "divisions_count"
 			position = {x=424 y=17}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 85
 			maxHeight = 23
 			format = centre
@@ -891,7 +891,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "resume_mission_txt"
 			position = {x=150 y=564 }
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			format = left
 			text = "OPERATIVE_RESUME_MISSION_AFTER_OPERATION_CHECKBOX_LABEL"
 			pdx_tooltip = "OPERATIVE_RESUME_MISSION_AFTER_OPERATION_TOOLTIP"
@@ -1178,7 +1178,7 @@ guiTypes = {
 		#	name = "no_leader_button"
 		#	position = { x = -250 y = -32 }
 		#	quadTextureSprite ="GFX_button_221x34"
-		#	buttonFont = "hoi_18mbs"
+		#	buttonFont = "AAGCZYRL18"
 		#	Orientation = "LOWER_RIGHT"
 		#	buttonText = "UNASSIGN"
 		#	pdx_tooltip = "UNASSIGN"
@@ -1188,7 +1188,7 @@ guiTypes = {
 		#	name = "new_leader_button"
 		#	position = { x = -535 y = -32 }
 		#	quadTextureSprite = "GFX_button_261x34"
-		#	buttonFont = "hoi_18mbs"
+		#	buttonFont = "AAGCZYRL18"
 		#	Orientation = "LOWER_RIGHT"
 		#	buttonText = "UNIT_LEADER_NEW_LEADER"
 		#}
@@ -1552,7 +1552,7 @@ guiTypes = {
 			name = "no_leader_button"
 			position = { x = -250 y = -32 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "AAGCZYRL18"
 			Orientation = "LOWER_RIGHT"
 			buttonText = "UNASSIGN"
 			pdx_tooltip = "UNASSIGN"
@@ -1593,7 +1593,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=35 y=5}
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			maxWidth = 300
 			maxHeight = 30
 			fixedsize = yes

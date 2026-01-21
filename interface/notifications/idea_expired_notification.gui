@@ -9,7 +9,7 @@ guiTypes = {
 			name = "title"
 			position = { x = -105 y = 26 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			text = IDEA_EXPIRED_HEADER
 			maxWidth = 210
@@ -46,7 +46,7 @@ guiTypes = {
 			name = "message"
 			position = { x = 21 y = 76 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "AAGCZYRL18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 308
 			maxHeight = 110
