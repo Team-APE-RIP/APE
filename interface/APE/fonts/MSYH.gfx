@@ -1,0 +1,21 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "MSYH18"
+		fontfiles = {
+			"gfx/fonts/MSYH/MSYH18_0"
+			"gfx/fonts/MSYH/MSYH18_1"
+		}
+		color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "MSYH24"
+		fontfiles = {
+			"gfx/fonts/MSYH/MSYH24_0"
+			"gfx/fonts/MSYH/MSYH24_1"
+			"gfx/fonts/MSYH/MSYH24_2"
+		}
+		color = 0xffffffff
+		border_color = 0x00000000
+	}
+}

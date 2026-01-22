@@ -6,7 +6,7 @@ guiTypes = {
 	instantTextBoxType = {
 		name = "CreditsText"
 		textureFile = ""
-		font = "AAGCZYRL18"
+		font = "MSYH18"
 		borderSize = {x = 0 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
@@ -20,7 +20,7 @@ guiTypes = {
 	instantTextBoxType = {
 		name = "CreditsTextBold"
 		textureFile = ""
-		font = "AAGCZYRL24"
+		font = "MSYH24"
 		borderSize = {x = 0 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
@@ -44,14 +44,14 @@ guiTypes = {
 	windowType = {
 	name ="CreditsWindow"
 	backGround=""
-	position = { x=-210 y =-180}	
-	size = { x=420 y =500}
+	position = { x=-210 y =0}	
+	size = { x=420 y =100%}
 	moveable = 0
 	dontRender = ""
 	horizontalBorder= ""
 	verticalBorder= ""
 	fullscreen=no
-	Orientation = "CENTER"
+	Orientation = "CENTER_UPPER"
 
 		iconType =
 		{

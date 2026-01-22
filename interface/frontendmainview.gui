@@ -282,6 +282,9 @@ guiTypes = {
 		size = { width = 320 height = 450 }
 		Orientation = CENTER
 		Origo = center		
+		
+		fade_time = 4000
+		fade_type = linear
 
 		positionType = {
 			name = "subscription_size"
@@ -322,6 +325,19 @@ guiTypes = {
 			name = "single_player_button_warn"
 			position = { x = @warn_icon_x y = 22000 }
 			spriteType = "GFX_missing_dlc_warning_sign"
+		}
+
+		instantTextBoxType = {
+
+			name ="APE_version_label"
+			position = { x = 119 y = 597 }
+			textureFile = ""
+			font = "AAGCZYRL12"
+			borderSize = {x = 0 y = 0}
+			text = "APEVERSION"	
+			format = centre
+			maxWidth = 250
+			maxHeight = 20	
 		}
 
 		instantTextBoxType = {
@@ -413,11 +429,13 @@ guiTypes = {
 			position = { x = -76 y = -86 }
 			quadTextureSprite ="GFX_FEMVEBtn"
 			buttonFont = "AAGCZYRL32"	
-			text = "FE_EXIT1"			
+			text = ""			
 			clicksound = click_default
 			oversound = ui_menu_over
-			shortcut = "ESCAPE"
+			shortcut = "ESCAPE+e"
 			Orientation = CENTER
+			pdx_tooltip = "FE_EXIT1"
+			pdx_tooltip_delayed = "FE_EXIT2"
 		}
 
 		iconType = {
