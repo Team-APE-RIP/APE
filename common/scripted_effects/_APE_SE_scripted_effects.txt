@@ -326,7 +326,6 @@ SE_SE_4 = {
                 target = ROOT
                 type = BritishCivilWar_wargoal_focus
             }	
-			add_civil_war_target = ROOT
 			add_named_threat = {
    		        threat = 3
     		    name = APE_SE_TT_4
@@ -337,8 +336,7 @@ SE_SE_4 = {
             declare_war_on = {
                 target = ROOT
                 type = BritishCivilWar_wargoal_focus
-            }	
-			add_civil_war_target = ROOT
+            }
 			every_possible_country = {
 			    limit = {
 				    NOT = {
@@ -357,8 +355,10 @@ SE_SE_4 = {
                 target = ROOT
                 type = BritishCivilWar_wargoal_focus
             }	
-			add_civil_war_target = ROOT
 		}
+		add_civil_war_target = BTB
+		add_civil_war_target = BTC
+		add_civil_war_target = BTD
 		mark_focus_tree_layout_dirty = yes
 	}
 }

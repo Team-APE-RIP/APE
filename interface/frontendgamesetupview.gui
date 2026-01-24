@@ -521,7 +521,7 @@ guiTypes = {
 	containerWindowType = {
 		name ="gamesetup_scenario_window"
 		size = { width=1280 height=660 }
-		position = { x = 0 y = -30 }
+		position = { x = 0 y = -16 }
 		Orientation = center
 		origo = center
 		clipping = no
@@ -669,7 +669,7 @@ guiTypes = {
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
 		size = { width=1280 height=660 }
-		position = { x = 0 y = -30 }
+		position = { x = 0 y = -16 }
 		Orientation = center
 		origo = center
 		clipping = no

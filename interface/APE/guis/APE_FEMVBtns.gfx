@@ -44,15 +44,28 @@ spriteTypes = {
 	# BM BTN
 	spriteType = {
 		name = "GFX_bookmarkbtnleft"
-		texturefile = "gfx/interface/bookmarkbtnleft.png"
+		texturefile = "gfx/interface/Btns/bookmarkbtnleft.png"
 		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
-		transparencecheck = yes			
+		transparencecheck = yes		
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"	
 	}
 	
 	spriteType = {
 		name = "GFX_bookmarkbtnright"
-		texturefile = "gfx/interface/bookmarkbtnright.png"
+		texturefile = "gfx/interface/Btns/bookmarkbtnright.png"
 		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"			
 		transparencecheck = yes	
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_SPbtnright"
+		texturefile = "gfx/interface/Btns/SPbtnright.png"
+		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"			
+		transparencecheck = yes	
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonfocusstartnfv.lua"
 	}
 }
