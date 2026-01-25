@@ -17,3 +17,12 @@ GDM = {
 	    IdeologyGroup16= 100
     }
 }
+set_autonomy = {
+	target = GRL
+	autonomy_state = autonomy_DMK_GRLA
+}
+GRL = {
+    set_popularities = {
+	    IdeologyGroup16= 100
+    }
+}

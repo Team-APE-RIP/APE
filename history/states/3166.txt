@@ -1,0 +1,19 @@
+state = {
+	id = 3166
+	name = "STATE_3166"
+	history = {
+		owner = ZZZ
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+		}
+	}
+	provinces = {
+        16837
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
+	local_supplies = 0.000
+}

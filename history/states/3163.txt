@@ -1,0 +1,19 @@
+state = {
+	id = 3163
+	name = "STATE_3163"
+	history = {
+		owner = GRL
+		add_core_of = GRL
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces = {
+        16832
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
+	local_supplies = 0.000
+}

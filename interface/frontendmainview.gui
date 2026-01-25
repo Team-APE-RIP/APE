@@ -262,6 +262,21 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+
+		containerWindowType = {
+			name ="SP_bgW1"
+			position = { x = -10 y = 10 }
+			orientation = upper_right
+			origo = upper_right
+			background = {
+				name = "bg1"
+				quadTextureSprite ="GFX_tiled_SPinckEXwthSCLP_bg"
+			}
+			size = {
+				width = 408
+				height = 640
+			}
+		}
 		
 		ButtonType = {
 			name = "sp_continue_button"

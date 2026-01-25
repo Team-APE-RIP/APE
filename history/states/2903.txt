@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2903"
 
 	history = {
-		owner = ZZZ # USA
+		owner = GRL
+		add_core_of = GRL
 		# add_core_of = USA
 		# add_core_of = GRN
 		add_extra_state_shared_building_slots = 1
@@ -17,7 +18,7 @@ state = {
 			}
 		}
 		victory_points = { # Nuuk
-			10245 3
+			10245 15
 		}
 		victory_points = { # Ilulissat
 			16858 1
@@ -34,7 +35,7 @@ state = {
 	}
 
 	provinces = {
-		10245 10636 12512 13058 13066 16830 16831 16832 16837 16838 16858
+		10245
 	}
 	manpower = 28700
 	buildings_max_level_factor = 1.000

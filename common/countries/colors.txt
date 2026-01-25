@@ -95,6 +95,10 @@ GDM = {
 	color = rgb { 91 67 84 }
 	color_ui = rgb { 91 67 84 }
 }
+GRL = {
+	color = rgb { 250 120 127 }
+	color_ui = rgb { 250 120 127 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }

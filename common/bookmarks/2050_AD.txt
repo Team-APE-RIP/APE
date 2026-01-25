@@ -4,10 +4,12 @@ bookmarks = {
 		desc = "2050_AD_DESC"
 		date = 2050.1.1.12
 		picture = "GFX_bookmark_2050_AD"
-		default_country = "---"
+		default_country = "ZZZ"
 		
-		"---"={
-			history = "2050_OTHER_DESC"
+		"ZZZ"={
+			history = "2050_ZZZ_DESC"
+			ideology = IdeologyGroup0
+			available = yes
 		}
 
 
