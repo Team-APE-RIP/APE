@@ -3,12 +3,13 @@ state = { #Population Done
 	name = "STATE_2385"
 	manpower = 179029
 
-	state_category = small_island
+	state_category = pastoral
 
 	history = {
-		owner = ZZZ # ICE
+		owner = ILA
+		add_core_of = ILA
 		victory_points = {
-			12674 10
+			12674 15
 		}
 		victory_points = {
 			4861 1
@@ -25,17 +26,10 @@ state = { #Population Done
 				coastal_bunker = 3
 				bunker = 1
 			}
-			12689 = {
-				naval_base = 1
-				coastal_bunker = 2
-			}
-			4861 = {
-				coastal_bunker = 2
-			}
 		}
 		# add_core_of = ICE
 	}
 	provinces = {
-		4861 12674 12689
+		12674
 	}
 }

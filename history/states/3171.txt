@@ -1,0 +1,18 @@
+state = {
+	id = 3171
+	name = "STATE_3171"
+	history = {
+		owner = ILA
+		add_core_of = ILA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9471
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

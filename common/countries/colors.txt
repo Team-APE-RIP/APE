@@ -87,6 +87,10 @@ FAH = {
 	color = rgb { 28 59 115 }
 	color_ui = rgb { 28 59 115 }
 }
+FOR = {
+	color = rgb { 168 128 248 }
+	color_ui = rgb { 168 128 248 }
+}
 FRA = {
 	color = rgb { 0 38 84 }
 	color_ui = rgb { 0 38 84 }
@@ -118,6 +122,10 @@ HHZ = {
 HOK = {
 	color = rgb { 66 65 84 }
 	color_ui = rgb { 66 65 84 }
+}
+ILA = {
+	color = rgb { 165 36 199 }
+	color_ui = rgb { 165 36 199 }
 }
 IPA = {
 	color = rgb { 162 89 63 }

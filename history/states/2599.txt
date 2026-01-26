@@ -6,7 +6,8 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = ZZZ # FAR
+		owner = FOR
+		add_core_of = FOR
 		buildings = {
 			infrastructure = 3
 			barracks = 1

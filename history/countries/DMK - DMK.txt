@@ -26,3 +26,12 @@ GRL = {
 	    IdeologyGroup16= 100
     }
 }
+set_autonomy = {
+	target = FOR
+	autonomy_state = autonomy_DMK_FORA
+}
+FOR = {
+    set_popularities = {
+	    IdeologyGroup16= 100
+    }
+}
