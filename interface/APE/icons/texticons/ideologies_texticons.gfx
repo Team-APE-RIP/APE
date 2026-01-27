@@ -1,502 +1,502 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_IG0_texticon"
-		texturefile = "gfx/texticons/ideologies/0.png"
+		texturefile = "gfx/icons/texticons/ideologies/0.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG1_texticon"
-		texturefile = "gfx/texticons/ideologies/1.png"
+		texturefile = "gfx/icons/texticons/ideologies/1.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG2_texticon"
-		texturefile = "gfx/texticons/ideologies/2.png"
+		texturefile = "gfx/icons/texticons/ideologies/2.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG3_texticon"
-		texturefile = "gfx/texticons/ideologies/3.png"
+		texturefile = "gfx/icons/texticons/ideologies/3.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG4_texticon"
-		texturefile = "gfx/texticons/ideologies/4.png"
+		texturefile = "gfx/icons/texticons/ideologies/4.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG5_texticon"
-		texturefile = "gfx/texticons/ideologies/5.png"
+		texturefile = "gfx/icons/texticons/ideologies/5.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG6_texticon"
-		texturefile = "gfx/texticons/ideologies/6.png"
+		texturefile = "gfx/icons/texticons/ideologies/6.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG7_texticon"
-		texturefile = "gfx/texticons/ideologies/7.png"
+		texturefile = "gfx/icons/texticons/ideologies/7.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG8_texticon"
-		texturefile = "gfx/texticons/ideologies/8.png"
+		texturefile = "gfx/icons/texticons/ideologies/8.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG9_texticon"
-		texturefile = "gfx/texticons/ideologies/9.png"
+		texturefile = "gfx/icons/texticons/ideologies/9.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG10_texticon"
-		texturefile = "gfx/texticons/ideologies/10.png"
+		texturefile = "gfx/icons/texticons/ideologies/10.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG11_texticon"
-		texturefile = "gfx/texticons/ideologies/11.png"
+		texturefile = "gfx/icons/texticons/ideologies/11.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG12_texticon"
-		texturefile = "gfx/texticons/ideologies/12.png"
+		texturefile = "gfx/icons/texticons/ideologies/12.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG13_texticon"
-		texturefile = "gfx/texticons/ideologies/13.png"
+		texturefile = "gfx/icons/texticons/ideologies/13.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG14_texticon"
-		texturefile = "gfx/texticons/ideologies/14.png"
+		texturefile = "gfx/icons/texticons/ideologies/14.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG15_texticon"
-		texturefile = "gfx/texticons/ideologies/15.png"
+		texturefile = "gfx/icons/texticons/ideologies/15.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG16_texticon"
-		texturefile = "gfx/texticons/ideologies/16.png"
+		texturefile = "gfx/icons/texticons/ideologies/16.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG17_texticon"
-		texturefile = "gfx/texticons/ideologies/17.png"
+		texturefile = "gfx/icons/texticons/ideologies/17.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG18_texticon"
-		texturefile = "gfx/texticons/ideologies/18.png"
+		texturefile = "gfx/icons/texticons/ideologies/18.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG19_texticon"
-		texturefile = "gfx/texticons/ideologies/19.png"
+		texturefile = "gfx/icons/texticons/ideologies/19.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG20_texticon"
-		texturefile = "gfx/texticons/ideologies/20.png"
+		texturefile = "gfx/icons/texticons/ideologies/20.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG21_texticon"
-		texturefile = "gfx/texticons/ideologies/21.png"
+		texturefile = "gfx/icons/texticons/ideologies/21.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG22_texticon"
-		texturefile = "gfx/texticons/ideologies/22.png"
+		texturefile = "gfx/icons/texticons/ideologies/22.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG23_texticon"
-		texturefile = "gfx/texticons/ideologies/23.png"
+		texturefile = "gfx/icons/texticons/ideologies/23.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG24_texticon"
-		texturefile = "gfx/texticons/ideologies/24.png"
+		texturefile = "gfx/icons/texticons/ideologies/24.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG25_texticon"
-		texturefile = "gfx/texticons/ideologies/25.png"
+		texturefile = "gfx/icons/texticons/ideologies/25.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG26_texticon"
-		texturefile = "gfx/texticons/ideologies/26.png"
+		texturefile = "gfx/icons/texticons/ideologies/26.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG27_texticon"
-		texturefile = "gfx/texticons/ideologies/27.png"
+		texturefile = "gfx/icons/texticons/ideologies/27.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG28_texticon"
-		texturefile = "gfx/texticons/ideologies/28.png"
+		texturefile = "gfx/icons/texticons/ideologies/28.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG29_texticon"
-		texturefile = "gfx/texticons/ideologies/29.png"
+		texturefile = "gfx/icons/texticons/ideologies/29.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG30_texticon"
-		texturefile = "gfx/texticons/ideologies/30.png"
+		texturefile = "gfx/icons/texticons/ideologies/30.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG31_texticon"
-		texturefile = "gfx/texticons/ideologies/31.png"
+		texturefile = "gfx/icons/texticons/ideologies/31.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG32_texticon"
-		texturefile = "gfx/texticons/ideologies/32.png"
+		texturefile = "gfx/icons/texticons/ideologies/32.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG33_texticon"
-		texturefile = "gfx/texticons/ideologies/33.png"
+		texturefile = "gfx/icons/texticons/ideologies/33.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG34_texticon"
-		texturefile = "gfx/texticons/ideologies/34.png"
+		texturefile = "gfx/icons/texticons/ideologies/34.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG35_texticon"
-		texturefile = "gfx/texticons/ideologies/35.png"
+		texturefile = "gfx/icons/texticons/ideologies/35.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG36_texticon"
-		texturefile = "gfx/texticons/ideologies/36.png"
+		texturefile = "gfx/icons/texticons/ideologies/36.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG37_texticon"
-		texturefile = "gfx/texticons/ideologies/37.png"
+		texturefile = "gfx/icons/texticons/ideologies/37.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG38_texticon"
-		texturefile = "gfx/texticons/ideologies/38.png"
+		texturefile = "gfx/icons/texticons/ideologies/38.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG39_texticon"
-		texturefile = "gfx/texticons/ideologies/39.png"
+		texturefile = "gfx/icons/texticons/ideologies/39.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG40_texticon"
-		texturefile = "gfx/texticons/ideologies/40.png"
+		texturefile = "gfx/icons/texticons/ideologies/40.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG41_texticon"
-		texturefile = "gfx/texticons/ideologies/41.png"
+		texturefile = "gfx/icons/texticons/ideologies/41.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG42_texticon"
-		texturefile = "gfx/texticons/ideologies/42.png"
+		texturefile = "gfx/icons/texticons/ideologies/42.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG43_texticon"
-		texturefile = "gfx/texticons/ideologies/43.png"
+		texturefile = "gfx/icons/texticons/ideologies/43.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG44_texticon"
-		texturefile = "gfx/texticons/ideologies/44.png"
+		texturefile = "gfx/icons/texticons/ideologies/44.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG45_texticon"
-		texturefile = "gfx/texticons/ideologies/45.png"
+		texturefile = "gfx/icons/texticons/ideologies/45.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG46_texticon"
-		texturefile = "gfx/texticons/ideologies/46.png"
+		texturefile = "gfx/icons/texticons/ideologies/46.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG47_texticon"
-		texturefile = "gfx/texticons/ideologies/47.png"
+		texturefile = "gfx/icons/texticons/ideologies/47.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG48_texticon"
-		texturefile = "gfx/texticons/ideologies/48.png"
+		texturefile = "gfx/icons/texticons/ideologies/48.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG49_texticon"
-		texturefile = "gfx/texticons/ideologies/49.png"
+		texturefile = "gfx/icons/texticons/ideologies/49.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG50_texticon"
-		texturefile = "gfx/texticons/ideologies/50.png"
+		texturefile = "gfx/icons/texticons/ideologies/50.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG51_texticon"
-		texturefile = "gfx/texticons/ideologies/51.png"
+		texturefile = "gfx/icons/texticons/ideologies/51.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG52_texticon"
-		texturefile = "gfx/texticons/ideologies/52.png"
+		texturefile = "gfx/icons/texticons/ideologies/52.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG53_texticon"
-		texturefile = "gfx/texticons/ideologies/53.png"
+		texturefile = "gfx/icons/texticons/ideologies/53.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG54_texticon"
-		texturefile = "gfx/texticons/ideologies/54.png"
+		texturefile = "gfx/icons/texticons/ideologies/54.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG55_texticon"
-		texturefile = "gfx/texticons/ideologies/55.png"
+		texturefile = "gfx/icons/texticons/ideologies/55.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG56_texticon"
-		texturefile = "gfx/texticons/ideologies/56.png"
+		texturefile = "gfx/icons/texticons/ideologies/56.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG57_texticon"
-		texturefile = "gfx/texticons/ideologies/57.png"
+		texturefile = "gfx/icons/texticons/ideologies/57.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG58_texticon"
-		texturefile = "gfx/texticons/ideologies/58.png"
+		texturefile = "gfx/icons/texticons/ideologies/58.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG59_texticon"
-		texturefile = "gfx/texticons/ideologies/59.png"
+		texturefile = "gfx/icons/texticons/ideologies/59.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG60_texticon"
-		texturefile = "gfx/texticons/ideologies/60.png"
+		texturefile = "gfx/icons/texticons/ideologies/60.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG61_texticon"
-		texturefile = "gfx/texticons/ideologies/61.png"
+		texturefile = "gfx/icons/texticons/ideologies/61.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG62_texticon"
-		texturefile = "gfx/texticons/ideologies/62.png"
+		texturefile = "gfx/icons/texticons/ideologies/62.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG63_texticon"
-		texturefile = "gfx/texticons/ideologies/63.png"
+		texturefile = "gfx/icons/texticons/ideologies/63.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG64_texticon"
-		texturefile = "gfx/texticons/ideologies/64.png"
+		texturefile = "gfx/icons/texticons/ideologies/64.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG65_texticon"
-		texturefile = "gfx/texticons/ideologies/65.png"
+		texturefile = "gfx/icons/texticons/ideologies/65.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG66_texticon"
-		texturefile = "gfx/texticons/ideologies/66.png"
+		texturefile = "gfx/icons/texticons/ideologies/66.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG67_texticon"
-		texturefile = "gfx/texticons/ideologies/67.png"
+		texturefile = "gfx/icons/texticons/ideologies/67.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG68_texticon"
-		texturefile = "gfx/texticons/ideologies/68.png"
+		texturefile = "gfx/icons/texticons/ideologies/68.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG69_texticon"
-		texturefile = "gfx/texticons/ideologies/69.png"
+		texturefile = "gfx/icons/texticons/ideologies/69.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG70_texticon"
-		texturefile = "gfx/texticons/ideologies/70.png"
+		texturefile = "gfx/icons/texticons/ideologies/70.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG71_texticon"
-		texturefile = "gfx/texticons/ideologies/71.png"
+		texturefile = "gfx/icons/texticons/ideologies/71.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG72_texticon"
-		texturefile = "gfx/texticons/ideologies/72.png"
+		texturefile = "gfx/icons/texticons/ideologies/72.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG73_texticon"
-		texturefile = "gfx/texticons/ideologies/73.png"
+		texturefile = "gfx/icons/texticons/ideologies/73.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG74_texticon"
-		texturefile = "gfx/texticons/ideologies/74.png"
+		texturefile = "gfx/icons/texticons/ideologies/74.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG75_texticon"
-		texturefile = "gfx/texticons/ideologies/75.png"
+		texturefile = "gfx/icons/texticons/ideologies/75.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG76_texticon"
-		texturefile = "gfx/texticons/ideologies/76.png"
+		texturefile = "gfx/icons/texticons/ideologies/76.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG77_texticon"
-		texturefile = "gfx/texticons/ideologies/77.png"
+		texturefile = "gfx/icons/texticons/ideologies/77.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG78_texticon"
-		texturefile = "gfx/texticons/ideologies/78.png"
+		texturefile = "gfx/icons/texticons/ideologies/78.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG79_texticon"
-		texturefile = "gfx/texticons/ideologies/79.png"
+		texturefile = "gfx/icons/texticons/ideologies/79.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG80_texticon"
-		texturefile = "gfx/texticons/ideologies/80.png"
+		texturefile = "gfx/icons/texticons/ideologies/80.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG81_texticon"
-		texturefile = "gfx/texticons/ideologies/81.png"
+		texturefile = "gfx/icons/texticons/ideologies/81.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG82_texticon"
-		texturefile = "gfx/texticons/ideologies/82.png"
+		texturefile = "gfx/icons/texticons/ideologies/82.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG83_texticon"
-		texturefile = "gfx/texticons/ideologies/83.png"
+		texturefile = "gfx/icons/texticons/ideologies/83.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG84_texticon"
-		texturefile = "gfx/texticons/ideologies/84.png"
+		texturefile = "gfx/icons/texticons/ideologies/84.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG85_texticon"
-		texturefile = "gfx/texticons/ideologies/85.png"
+		texturefile = "gfx/icons/texticons/ideologies/85.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG86_texticon"
-		texturefile = "gfx/texticons/ideologies/86.png"
+		texturefile = "gfx/icons/texticons/ideologies/86.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG87_texticon"
-		texturefile = "gfx/texticons/ideologies/87.png"
+		texturefile = "gfx/icons/texticons/ideologies/87.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG88_texticon"
-		texturefile = "gfx/texticons/ideologies/88.png"
+		texturefile = "gfx/icons/texticons/ideologies/88.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG89_texticon"
-		texturefile = "gfx/texticons/ideologies/89.png"
+		texturefile = "gfx/icons/texticons/ideologies/89.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG90_texticon"
-		texturefile = "gfx/texticons/ideologies/90.png"
+		texturefile = "gfx/icons/texticons/ideologies/90.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG91_texticon"
-		texturefile = "gfx/texticons/ideologies/91.png"
+		texturefile = "gfx/icons/texticons/ideologies/91.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG92_texticon"
-		texturefile = "gfx/texticons/ideologies/92.png"
+		texturefile = "gfx/icons/texticons/ideologies/92.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG93_texticon"
-		texturefile = "gfx/texticons/ideologies/93.png"
+		texturefile = "gfx/icons/texticons/ideologies/93.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG94_texticon"
-		texturefile = "gfx/texticons/ideologies/94.png"
+		texturefile = "gfx/icons/texticons/ideologies/94.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG95_texticon"
-		texturefile = "gfx/texticons/ideologies/95.png"
+		texturefile = "gfx/icons/texticons/ideologies/95.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG96_texticon"
-		texturefile = "gfx/texticons/ideologies/96.png"
+		texturefile = "gfx/icons/texticons/ideologies/96.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG97_texticon"
-		texturefile = "gfx/texticons/ideologies/97.png"
+		texturefile = "gfx/icons/texticons/ideologies/97.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG98_texticon"
-		texturefile = "gfx/texticons/ideologies/98.png"
+		texturefile = "gfx/icons/texticons/ideologies/98.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_IG99_texticon"
-		texturefile = "gfx/texticons/ideologies/99.png"
+		texturefile = "gfx/icons/texticons/ideologies/99.png"
 		legacy_lazy_load = no
 	}
 }

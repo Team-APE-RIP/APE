@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_cn_naval_battery_texticon"
-		texturefile = "gfx/texticons/cn_naval_battery_texticon.dds"
+		texturefile = "gfx/icons/texticons/cn_naval_battery_texticon.dds"
 		legacy_lazy_load = no
 	}
 }
@@ -11,7 +11,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_cn_attacker_speed_texticon"
-		texturefile = "gfx/texticons/cn_attacker_speed_texticon.dds"
+		texturefile = "gfx/icons/texticons/cn_attacker_speed_texticon.dds"
 		legacy_lazy_load = no
 	}
 }

@@ -5,7 +5,7 @@ def generate_gfx_content(max_num: int, ext: str) -> str:
     for i in range(max_num + 1):
         lines.append("\tspriteType = {")
         lines.append(f'\t\tname = "GFX_IG{i}_texticon"')
-        lines.append(f'\t\ttexturefile = "gfx/texticons/ideologies/{i}{ext}"')
+        lines.append(f'\t\ttexturefile = "gfx/icons/texticons/ideologies/{i}{ext}"')
         lines.append("\t\tlegacy_lazy_load = no")
         lines.append("\t}")
     lines.append("}")

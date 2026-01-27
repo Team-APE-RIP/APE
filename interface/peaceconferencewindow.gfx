@@ -129,7 +129,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_peace_conf_icons"
-		texturefile = "gfx/texticons/peace_conf_icons.dds"
+		texturefile = "gfx/icons/texticons/peace_conf_icons.dds"
 		noOfFrames = 3
 	}
 

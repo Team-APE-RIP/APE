@@ -5,379 +5,379 @@ spriteTypes = {
 
 	spriteType = { 
 		name = "GFX_0"
-		texturefile = "gfx/keyicons/0.dds"
+		texturefile = "gfx/icons/keyicons/0.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_1"
-		texturefile = "gfx/keyicons/1.dds"
+		texturefile = "gfx/icons/keyicons/1.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_2"
-		texturefile = "gfx/keyicons/2.dds"
+		texturefile = "gfx/icons/keyicons/2.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_3"
-		texturefile = "gfx/keyicons/3.dds"
+		texturefile = "gfx/icons/keyicons/3.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_4"
-		texturefile = "gfx/keyicons/4.dds"
+		texturefile = "gfx/icons/keyicons/4.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_5"
-		texturefile = "gfx/keyicons/5.dds"
+		texturefile = "gfx/icons/keyicons/5.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_6"
-		texturefile = "gfx/keyicons/6.dds"
+		texturefile = "gfx/icons/keyicons/6.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_7"
-		texturefile = "gfx/keyicons/7.dds"
+		texturefile = "gfx/icons/keyicons/7.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_8"
-		texturefile = "gfx/keyicons/8.dds"
+		texturefile = "gfx/icons/keyicons/8.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_9"
-		texturefile = "gfx/keyicons/9.dds"
+		texturefile = "gfx/icons/keyicons/9.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_a"
-		texturefile = "gfx/keyicons/a.dds"
+		texturefile = "gfx/icons/keyicons/a.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_b"
-		texturefile = "gfx/keyicons/b.dds"
+		texturefile = "gfx/icons/keyicons/b.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_c"
-		texturefile = "gfx/keyicons/c.dds"
+		texturefile = "gfx/icons/keyicons/c.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_d"
-		texturefile = "gfx/keyicons/d.dds"
+		texturefile = "gfx/icons/keyicons/d.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_e"
-		texturefile = "gfx/keyicons/e.dds"
+		texturefile = "gfx/icons/keyicons/e.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_f"
-		texturefile = "gfx/keyicons/f.dds"
+		texturefile = "gfx/icons/keyicons/f.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_g"
-		texturefile = "gfx/keyicons/g.dds"
+		texturefile = "gfx/icons/keyicons/g.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_h"
-		texturefile = "gfx/keyicons/h.dds"
+		texturefile = "gfx/icons/keyicons/h.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_i"
-		texturefile = "gfx/keyicons/i.dds"
+		texturefile = "gfx/icons/keyicons/i.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_j"
-		texturefile = "gfx/keyicons/j.dds"
+		texturefile = "gfx/icons/keyicons/j.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_k"
-		texturefile = "gfx/keyicons/k.dds"
+		texturefile = "gfx/icons/keyicons/k.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_l"
-		texturefile = "gfx/keyicons/l.dds"
+		texturefile = "gfx/icons/keyicons/l.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_m"
-		texturefile = "gfx/keyicons/m.dds"
+		texturefile = "gfx/icons/keyicons/m.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_n"
-		texturefile = "gfx/keyicons/n.dds"
+		texturefile = "gfx/icons/keyicons/n.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_o"
-		texturefile = "gfx/keyicons/o.dds"
+		texturefile = "gfx/icons/keyicons/o.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_p"
-		texturefile = "gfx/keyicons/p.dds"
+		texturefile = "gfx/icons/keyicons/p.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_q"
-		texturefile = "gfx/keyicons/q.dds"
+		texturefile = "gfx/icons/keyicons/q.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_r"
-		texturefile = "gfx/keyicons/r.dds"
+		texturefile = "gfx/icons/keyicons/r.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_s"
-		texturefile = "gfx/keyicons/s.dds"
+		texturefile = "gfx/icons/keyicons/s.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_t"
-		texturefile = "gfx/keyicons/t.dds"
+		texturefile = "gfx/icons/keyicons/t.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_u"
-		texturefile = "gfx/keyicons/u.dds"
+		texturefile = "gfx/icons/keyicons/u.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_v"
-		texturefile = "gfx/keyicons/v.dds"
+		texturefile = "gfx/icons/keyicons/v.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_w"
-		texturefile = "gfx/keyicons/w.dds"
+		texturefile = "gfx/icons/keyicons/w.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_x"
-		texturefile = "gfx/keyicons/x.dds"
+		texturefile = "gfx/icons/keyicons/x.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_y"
-		texturefile = "gfx/keyicons/y.dds"
+		texturefile = "gfx/icons/keyicons/y.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_z"
-		texturefile = "gfx/keyicons/z.dds"
+		texturefile = "gfx/icons/keyicons/z.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_F1"
-		texturefile = "gfx/keyicons/f1.dds"
+		texturefile = "gfx/icons/keyicons/f1.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F2"
-		texturefile = "gfx/keyicons/f2.dds"
+		texturefile = "gfx/icons/keyicons/f2.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F3"
-		texturefile = "gfx/keyicons/f3.dds"
+		texturefile = "gfx/icons/keyicons/f3.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F4"
-		texturefile = "gfx/keyicons/f4.dds"
+		texturefile = "gfx/icons/keyicons/f4.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F5"
-		texturefile = "gfx/keyicons/f5.dds"
+		texturefile = "gfx/icons/keyicons/f5.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F6"
-		texturefile = "gfx/keyicons/f6.dds"
+		texturefile = "gfx/icons/keyicons/f6.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F7"
-		texturefile = "gfx/keyicons/f7.dds"
+		texturefile = "gfx/icons/keyicons/f7.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F8"
-		texturefile = "gfx/keyicons/f8.dds"
+		texturefile = "gfx/icons/keyicons/f8.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F9"
-		texturefile = "gfx/keyicons/f9.dds"
+		texturefile = "gfx/icons/keyicons/f9.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = { 
 		name = "GFX_F10"
-		texturefile = "gfx/keyicons/f10.dds"
+		texturefile = "gfx/icons/keyicons/f10.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_back"
-		texturefile = "gfx/keyicons/back.dds"
+		texturefile = "gfx/icons/keyicons/back.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_end"
-		texturefile = "gfx/keyicons/end.dds"
+		texturefile = "gfx/icons/keyicons/end.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_home"
-		texturefile = "gfx/keyicons/end.dds"
+		texturefile = "gfx/icons/keyicons/end.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_PAGE_UP"
-		texturefile = "gfx/keyicons/pgup.dds"
+		texturefile = "gfx/icons/keyicons/pgup.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_PAGE_DOWN"
-		texturefile = "gfx/keyicons/pgdn.dds"
+		texturefile = "gfx/icons/keyicons/pgdn.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_ESCAPE"
-		texturefile = "gfx/keyicons/esc.dds"
+		texturefile = "gfx/icons/keyicons/esc.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_shift"
-		texturefile = "gfx/keyicons/shift.dds"
+		texturefile = "gfx/icons/keyicons/shift.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_ctrl"
-		texturefile = "gfx/keyicons/ctrl.dds"
+		texturefile = "gfx/icons/keyicons/ctrl.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_alt"
-		texturefile = "gfx/keyicons/alt.dds"
+		texturefile = "gfx/icons/keyicons/alt.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_tab"
-		texturefile = "gfx/keyicons/tab.dds"
+		texturefile = "gfx/icons/keyicons/tab.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_SPACE"
-		texturefile = "gfx/keyicons/space.dds"
+		texturefile = "gfx/icons/keyicons/space.dds"
 		legacy_lazy_load = no
 	}	
 
 	spriteType = { 
 		name = "GFX_RETURN"
-		texturefile = "gfx/keyicons/enter.dds"
+		texturefile = "gfx/icons/keyicons/enter.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_KP_PLUS"
-		texturefile = "gfx/keyicons/plus.dds"
+		texturefile = "gfx/icons/keyicons/plus.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_KP_MINUS"
-		texturefile = "gfx/keyicons/minus.dds"
+		texturefile = "gfx/icons/keyicons/minus.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_DEL"
-		texturefile = "gfx/keyicons/del.dds"
+		texturefile = "gfx/icons/keyicons/del.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_COMMA"
-		texturefile = "gfx/keyicons/comma.dds"
+		texturefile = "gfx/icons/keyicons/comma.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = { 
 		name = "GFX_PERIOD"
-		texturefile = "gfx/keyicons/dot.dds"
+		texturefile = "gfx/icons/keyicons/dot.dds"
 		legacy_lazy_load = no
 	}
 }
