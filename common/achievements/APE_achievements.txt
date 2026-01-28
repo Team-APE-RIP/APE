@@ -1,0 +1,11 @@
+unique_id = ape
+custom_achievement_ape1 = {
+    possible = {
+		is_ironman = yes
+        game_rules_allow_achievements = yes
+    }
+ 
+    happened = {
+        date > 2049.12.31
+    } 
+}

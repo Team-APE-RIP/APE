@@ -1148,19 +1148,42 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "menu_settings_ingame"
-			position = { x= -240 y = -200 }	
-			show_position = { x= -150 y = -450 }
-			hide_position = { x= -150 y = 10 }
-			size = { width=480 height = 600 }
-			Orientation = center
-			moveable = yes
-			fade_time = 500
+			size = { width=1280 height=660 }
+		    position = { x = 0 y = -16 }
+		    Orientation = center
+		    origo = center
+		    clipping = no
+		    moveable = no
+			fade_time = 2500
 			fade_type = linear
+
+			buttonType = {
+				name = "ApplyButton"
+				position = { x = -15 y = -14 }
+			    quadTextureSprite ="GFX_bookmarkbtnright"
+				buttonText = "SM_APPLY"
+				buttonFont = "AAGCZYRL18"
+			    Orientation = "CENTER_DOWN"
+			    clicksound = click_default
+			    oversound = ui_menu_over
+			    shortcut = "RETURN"
+			}
+			buttonType = {
+				name = "BackButton"
+				position = { x = -176 y = -14}
+			    quadTextureSprite ="GFX_bookmarkbtnleft"
+				buttonText = "BACK"
+				buttonFont = "AAGCZYRL18"
+			    Orientation = "CENTER_DOWN"
+			    clicksound = click_close
+			    oversound = ui_menu_over
+			    shortcut = "ESCAPE"
+			}
 
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_settings_popup_bg"
-				position = { x= 0 y = 0 }
+				position = { x= 10000 y = 0 }
 			}
 			
 			instantTextBoxType={
@@ -1179,6 +1202,14 @@ guiTypes = {
 				name = "tabs_bg"
 				quadTextureSprite ="GFX_diplo_popup_bottom"
 				position = { x = -7 y = 53 }
+				Orientation = "UPPER_LEFT"
+				#alwaystransparent = yes
+			}			
+
+			iconType = {
+				name = "msi_bg"
+				quadTextureSprite ="GFX_msi_bg"
+				position = { x = 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}			
@@ -1217,7 +1248,7 @@ guiTypes = {
 				name = "settings_tab_4"
 				position = { x = 355 y = 68 }
 				quadTextureSprite ="GFX_button_94x31"	
-				font = "hoi_16mbs"
+				font = "AAGCZYRL16"
 				text = "SETTINGS_ACCESSIBILITY"	
 				clicksound = click_checkbox
 				oversound = ui_menu_over
@@ -2824,26 +2855,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					clicksound = click_checkbox
 				}	
-			}
-			
-			buttonType = {
-					name = "ApplyButton"
-					position = { x = 324 y = 470 }
-					quadTextureSprite ="GFX_button_123x34"
-					buttonText = "SM_APPLY"
-					buttonFont = "AAGCZYRL18"
-					clicksound = click_default
-				}
-
-
-			buttonType = {
-				name = "BackButton"
-				position = { x = 34 y = 470 }
-				quadTextureSprite ="GFX_button_123x34"	
-				buttonText = "BACK"
-				buttonFont = "AAGCZYRL18"
-				clicksound = click_close
-				shortcut = "ESCAPE"
 			}
 		}	
 }

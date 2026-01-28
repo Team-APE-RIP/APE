@@ -71,4 +71,8 @@ spriteTypes = {
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
+	spriteType = {
+		name = "GFX_msi_bg"
+		textureFile = "gfx/interface/bg/msi_bg.dds"
+	}
 }

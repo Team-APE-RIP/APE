@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "2050_AC_NAME"
 		desc = "2050_AC_DESC"
-		date = 2050.1.1.12
+		date = 2050.1.1.1
 		picture = "GFX_bookmark_2050_AC"
 		default_country = "ZZZ"
 		
