@@ -278,6 +278,31 @@ guiTypes = {
 			}
 		}
 		
+        instantTextBoxType = {
+			name = "mod_desc"
+			position = { x = -407 y = 80 }
+			font = "AAGCZYRL16"
+			text = "APE_RIP_DESC"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 386
+			maxHeight = 596
+			format = left
+			scrollbarType = standardtext_slider_air
+			orientation = upper_right
+		}
+
+		instantTextBoxType = {
+			name = "mod_title"
+			position = { x = -407 y = 17 }
+			font = "AAGCZYRL32"
+			text = "APE_RIP"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 386
+			maxHeight = 60
+			format = LEFT
+			orientation = upper_right
+		}
+
 		ButtonType = {
 			name = "sp_continue_button"
 			position = { x = 16000 y = 18 }
