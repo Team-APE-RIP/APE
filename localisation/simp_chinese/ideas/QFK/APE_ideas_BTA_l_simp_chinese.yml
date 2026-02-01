@@ -1,0 +1,8 @@
+﻿l_simp_chinese: 
+ BTA_idea_EmergencyMartial: "国家紧急状态"
+ BTA_idea_EmergencyMartial_show: "$BTA_idea_EmergencyMartial$"
+ BTA_idea_EmergencyMartial_bookmark: "$BTA_idea_EmergencyMartial$"
+ BTA_EmergencyMartial_dynamic_modifiers: "$BTA_idea_EmergencyMartial$"
+ BTA_idea_EmergencyMartial_tt: "$BTA_idea_EmergencyMartial_tt_1$"
+ BTA_idea_EmergencyMartial_show_tt: "$MODIFIER_POLITICAL_POWER_COST$：§R-0.25§!\n$MODIFIER_STABILITY_FACTOR$：§G+5.00%§!"
+ BTA_idea_EmergencyMartial_tt_1: "$MODIFIER_POLITICAL_POWER_COST$：[?BTA.EmergencyMartial_politicalPowerCost|2-=]\n$MODIFIER_STABILITY_FACTOR$：[?BTA.EmergencyMartial_stabilityFactor|%2+=]"

@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+		BTA_idea_EmergencyMartial_show = {
+			picture = BTA_idea_EmergencyMartial # 国家紧急状态 展示
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = BTA_idea_EmergencyMartial_show_tt
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
+		BTA_idea_EmergencyMartial_bookmark = {
+			picture = BTA_idea_EmergencyMartial_bookmark # 国家紧急状态 bookmark
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = BTA_idea_EmergencyMartial_show_tt
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
+		BTA_idea_EmergencyMartial = {
+			picture = BTA_idea_EmergencyMartial # 国家紧急状态
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = BTA_idea_EmergencyMartial_tt
+			}
+			rule = {
+			}
+		}
+	}
+}

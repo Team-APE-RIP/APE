@@ -36,6 +36,10 @@ focus_tree = {
 		allow_branch = {
 		}
 		completion_reward = {
+			add_to_variable = { BTA.EmergencyMartial_politicalPowerCost = 0.25 }
+			add_to_variable = { BTA.EmergencyMartial_stabilityFactor = 0.05 }
+			custom_effect_tooltip = "BTA_01_FS_00_TT"
+			force_update_dynamic_modifier = yes
 		}
 	}
 	shared_focus = {
@@ -55,6 +59,9 @@ focus_tree = {
 			x = 3
 		}
 		relative_position_id = BTA_01_FS_00
+		completion_reward = {
+			country_event = BTA_report.1
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_02_R

@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+		effect = {
+			BTA = {
+				swap_ideas = { remove_idea = BTA_idea_EmergencyMartial_show add_idea = BTA_idea_EmergencyMartial }
+			}
+		}
+	}
+}

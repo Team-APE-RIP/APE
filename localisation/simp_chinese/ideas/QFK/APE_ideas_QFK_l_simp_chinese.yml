@@ -1,6 +1,7 @@
 ﻿l_simp_chinese: 
  QFK_idea_TheDoctrineOfTheMean: "中庸之道"
  QFK_idea_TheDoctrineOfTheMean_show: "$QFK_idea_TheDoctrineOfTheMean$"
+ QFK_idea_TheDoctrineOfTheMean_bookmark: "$QFK_idea_TheDoctrineOfTheMean$"
  QFK_TheDoctrineOfTheMean_dynamic_modifiers: "$QFK_idea_TheDoctrineOfTheMean$"
  QFK_idea_TheDoctrineOfTheMean_tt: "$QFK_idea_TheDoctrineOfTheMean_tt_1$[GetQFK_idea_TheDoctrineOfTheMean_tt_2]"
  DIFFERENTFAITHS: "异信仰者"
@@ -18,6 +19,7 @@
  QFK_idea_TheDoctrineOfTheMean_tt_2_B_QFK_01_FS_03_A_O_R_TT: "\n    $IN_TERRITORY$$DAILY$$COSTT$[?QFK.TheDoctrineOfTheMean_2_pp|Y2]$POLITICAL_POWERS$\n    $CONDUCT$§Y$QFK_01_FS_03_A_O_R$§!：\n        $BASE_COST$：§Y0.01§! $EVERY_STATE$\n        - $QFK_01_FS_04_B_O_L$：§G-50%§!\n        $BECAUSE_CONTROLLED$[?QFK.num_controlled_states_SHOW|Y0]$STATE_NUM$。"
  QFK_idea_ConfucianClassics: "儒教圣经"
  QFK_idea_ConfucianClassics_show: "$QFK_idea_ConfucianClassics$"
+ QFK_idea_ConfucianClassics_bookmark: "$QFK_idea_ConfucianClassics$"
  QFK_ConfucianClassics_dynamic_modifiers: "$QFK_idea_ConfucianClassics$"
  QFK_idea_ConfucianClassics_show_tt: "$MODIFIER_DRIFT_DEFENCE_FACTOR$：§G+30.00%§!\n$MODIFIER_RESEARCH_SPEED_FACTOR$：§R-30.00%§!"
  QFK_idea_ConfucianClassics_tt: "$MODIFIER_DRIFT_DEFENCE_FACTOR$：[?QFK.ConfucianClassics_defence|%2+=]\n    $BASE_VALUE$[?QFK.ConfucianClassics_defence_base|%2Y=][GetQFK_01_FS_04_B_O_L_ConfucianClassics]\n$MODIFIER_RESEARCH_SPEED_FACTOR$：[?QFK.ConfucianClassics_research|%2+=]\n    $BASE_VALUE$[?QFK.ConfucianClassics_research_base|%2Y=][GetQFK_01_FS_04_B_O_L_ConfucianClassics]"

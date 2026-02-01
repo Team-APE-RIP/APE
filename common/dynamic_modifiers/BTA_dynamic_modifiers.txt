@@ -1,0 +1,6 @@
+BTA_EmergencyMartial_dynamic_modifiers = {
+    enable = { always = yes }
+    remove_trigger = { always = no }
+	stability_factor = BTA.EmergencyMartial_stabilityFactor
+	political_power_cost = BTA.EmergencyMartial_politicalPowerCost
+}
