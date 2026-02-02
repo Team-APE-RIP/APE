@@ -47,10 +47,10 @@ NDefines_Graphics.NGraphics.RESISTANCE_MAP_ICON_DISTANCE_CUTOFF = 1300
 NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 200
 NDefines_Graphics.NGraphics.CAPITAL_ICON_CUTOFF = 900
 
-NDefines_Graphics.NGraphics.SUN_DIFFUSE_COLOR = {0.14, 0.0, 1.0}
+NDefines_Graphics.NGraphics.SUN_DIFFUSE_COLOR = {0.15, 0.15, 0.8}
 NDefines_Graphics.NGraphics.SUN_INTENSITY = 1.0
-NDefines_Graphics.NGraphics.MOON_DIFFUSE_COLOR = {0.58, 0.5, 1.0}
-NDefines_Graphics.NGraphics.MOON_INTENSITY = 2.5
+NDefines_Graphics.NGraphics.MOON_DIFFUSE_COLOR = {1.0, 0.23, 0.41}
+NDefines_Graphics.NGraphics.MOON_INTENSITY = 2.0
 
 NDefines_Graphics.NGraphics.TRADE_ROUTE_RESOURCE_EXPORT_COLOR = { 0.5, 0.5, 1.0, 0.75 }
 NDefines_Graphics.NGraphics.TRADE_ROUTE_RESOURCE_IMPORT_COLOR = { 0.5, 0.5, 1.0, 0.75 }

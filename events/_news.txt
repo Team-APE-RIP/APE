@@ -4,7 +4,7 @@ add_namespace = newsEvents
 
 news_event = {
 	id = newsEvents.1
-	title = newsEvents.1.t
+	title = newsEvents.1.title
 	desc = newsEvents.1.desc
 	picture = GFX_event_newsEvents_1
 	is_triggered_only = yes

@@ -98,6 +98,36 @@ focus_tree = {
 		allow_branch = {
 		    has_completed_focus = BTA_01_FS_02_R
 		}
+		completion_reward = {
+			if = {
+				limit = { has_character = BTA_KingWilliamVMounbattenWindsor }
+			    BTA_KingWilliamVMounbattenWindsor = {
+					hidden_effect = {
+				        retire = YES
+			            BTA = { 
+					        kill_ideology_leader = IdeologyGroup62
+				        }
+					}
+			    }
+				hidden_effect = {
+					news_event = newsEvents.1 
+				}
+				effect_tooltip = {
+					news_event = tooltipEvents.1
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						NOT = {
+							has_character = BTA_KingWilliamVMounbattenWindsor
+						}
+					}
+					custom_effect_tooltip = "BTA_01_FS_03_TT1"
+				}
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 	shared_focus = {
 		id = BTA_01_FS_04_L

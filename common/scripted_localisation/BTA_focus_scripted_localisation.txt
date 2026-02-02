@@ -1,0 +1,24 @@
+defined_text = {
+	name = BTA_01_FS_05_L_LOC
+	text = {
+		trigger = {
+			BTA = { NOT = { has_character = BTA_KingWilliamVMounbattenWindsor } }
+		}
+		localization_key = "BTA_01_FS_05_L_LOC1"
+	}
+	text = {
+		localization_key = "BTA_01_FS_05_L_LOC0"
+	}
+}
+defined_text = {
+	name = BTA_01_FS_05_R_LOC
+	text = {
+		trigger = {
+			BTA = { NOT = { has_character = BTA_KingWilliamVMounbattenWindsor } }
+		}
+		localization_key = "BTA_01_FS_05_R_LOC1"
+	}
+	text = {
+		localization_key = "BTA_01_FS_05_R_LOC0"
+	}
+}

@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "GFX_dloseBtn"
 		texturefile = "gfx/interface/Btns/dloseBtn.png"
 	}
+	spriteType = {
+		name = "GFX_lloseBtn"
+		texturefile = "gfx/interface/Btns/lloseBtn.png"
+	}
 }

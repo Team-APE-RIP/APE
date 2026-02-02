@@ -1,0 +1,19 @@
+add_namespace = tooltipEvents
+
+
+
+news_event = {
+	id = tooltipEvents.1
+	title = tooltipEvents.1.title
+	desc = tooltipEvents.1.desc
+	picture = GFX_event_tooltipEvents_1
+	is_triggered_only = yes
+	fire_only_once = no
+    hidden = no
+	major = yes
+    immediate = {
+    }
+	option = {
+		name = "tooltipEvents.1.a"
+	}
+}
