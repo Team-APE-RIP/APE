@@ -1,0 +1,25 @@
+scripted_gui = {
+	political_secondLeader_window = {
+		context_type = player_context
+		window_name = "political_secondLeader_window"
+		parent_window_name = "political_secondLeader_view"
+		visible = {
+		    always = yes
+		}
+		triggers = {
+			PSW_leader_frame_visible = { has_country_flag = PSWLeaderFmHsClkd }
+		    PSW_leader_frame_shine_visible = { NOT = { has_country_flag = PSWLeaderFmHsClkd } }
+			PSW_secondLeader1_image_visible = { check_variable = { ROOT.secondLeaderFrame = 1 } }
+			PSW_secondLeader1_frame_visible = { OR = { has_country_flag = PSWDSeLeaderFmHsClkd NOT = { has_country_flag = PSWLeaderFmHsClkd } } check_variable = { ROOT.secondLeaderFrame = 1 } }
+		    PSW_secondLeader1_frame_shine_visible = { has_country_flag = PSWLeaderFmHsClkd NOT = { has_country_flag = PSWDSeLeaderFmHsClkd } check_variable = { ROOT.secondLeaderFrame = 1 } }
+			PSW_secondLeader1_name_visible = { check_variable = { ROOT.secondLeaderFrame = 1 } }
+		}
+		effects = {
+		    PSW_leader_frame_shine_click = { set_country_flag = PSWLeaderFmHsClkd }
+		    PSW_secondLeader1_frame_shine_click = { set_country_flag = PSWDSeLeaderFmHsClkd }
+		}
+		properties = {
+		    PSW_secondLeader1_image = { image = "[secondLeaderImage]" }
+		}
+	}
+}

@@ -1,0 +1,62 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "political_secondLeader_window"
+		position = { x=0 y=0}
+		size = { width = 1 height = 1 }
+		moveable = no
+		clipping = no
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_air_bg"
+		}
+
+		iconType = {
+			name = "PSW_leader_frame"
+			spriteType = "GFX_APE_country_selection_entry"
+			position = { x = 220 y = 53 }
+			frame = 2
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "PSW_leader_frame_shine"
+			quadTextureSprite = "GFX_APE_country_selection_entry_shine"
+			position = { x = 220 y = 53 }
+		}
+		
+		iconType = {
+			name = "PSW_secondLeader1_image"
+			position = { x = 52 y = 61 }
+			pdx_tooltip = "PSW_secondLeader_text"
+			pdx_tooltip_delayed = "PSW_secondLeader_desc"
+		}
+		
+		iconType = {
+			name = "PSW_secondLeader1_frame"
+			spriteType = "GFX_APE_country_selection_entry"
+			position = { x = 44 y = 53 }
+			frame = 2
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "PSW_secondLeader1_frame_shine"
+			quadTextureSprite = "GFX_APE_country_selection_entry_shine"
+			position = { x = 44 y = 53 }
+		}
+		
+		instantTextboxType = {
+			name = "PSW_secondLeader1_name"
+			position = { x = 51 y = 211 }
+			font = "AAGCZYRL16"
+			text = "PSW_secondLeader_name"
+			maxWidth = 160
+			maxHeight = 48
+			vertical_alignment = center
+			format = center
+			pdx_tooltip = "PSW_secondLeader_text"
+			pdx_tooltip_delayed = "PSW_secondLeader_desc"
+		}
+	}
+}

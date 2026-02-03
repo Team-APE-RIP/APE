@@ -21,5 +21,11 @@ spriteTypes = {
 		texturefile = "gfx/images/leaders/large_civilian/BTA/BTA_KingWilliamVMounbattenWindsor.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = GFX_portrait_large_civilian_BTA_KingWilliamVMounbattenWindsorDeath
+		texturefile = "gfx/images/leaders/large_civilian/BTA/BTA_KingWilliamVMounbattenWindsorDeath.png"
+		legacy_lazy_load = no
+	}
 
 }

@@ -3,11 +3,11 @@ guiTypes = {
 	containerWindowType = {
 		name = "countrypoliticsview"
 		position = { x=-606 y=78}	
-		show_position = { x=-6 y =78 }
+		show_position = { x=-7 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=727 height=10000 }
+		size = { width=623 height=10000 }
 		show_sound = menu_open_window		
 		background = { name = "Background" quadTextureSprite ="GFX_tiled_SPinckEXwthSCLD_bg" position = { x = -7 y = 0 }}
 		background = { name = "Bg" quadTextureSprite ="GFX_tiled_161F4Cc_bg" position = { x = -7 y = 0 }}
@@ -254,7 +254,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "national_spirit"
-			position = { x = 81 y = 153 }
+			position = { x = 81 y = 553 }
 			size = { width = 360 height = 50 }
 			clipping = no			
 			instantTextboxType = {
@@ -296,19 +296,25 @@ guiTypes = {
 
 		iconType = {
 			name = "leader"
-			position = { x = 18 y = 58 }
+			position = { x = 228 y = 61 }
 			spriteType = "GFX_leader_unknown"
 		}
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_country_selection_entry"
-			position = { x= 10 y = 50 }
+			position = { x= 99999 y = 53 }
 			frame = 2		
 			alwaystransparent = yes
 		}
+		containerWindowType = {
+			name = "political_secondLeader_view"
+			position = { x= 0 y = 0 }
+			size = { width=1 height=1 }
+			clipping = no
+		}
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 17 y = 208 }
+			position = { x = 227 y = 211 }
 			font = "AAGCZYRL16"
 			text = "leader_name"
 			maxWidth = 160
@@ -318,11 +324,11 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 320 y = 180 }
+			position = { x= 396 y = 53 }
 			size = { width=100 height=100 }
 			iconType ={
 				name ="pie_bg"
-				spriteType = "GFX_politics_pie_bg"
+				spriteType = "GFX_political_pie_bg"
 				position = { x= 0 y = 0 }
 				alwaystransparent = yes
 			}
@@ -336,14 +342,14 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 327 y = 187 }
+			position = { x= 403 y = 60 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
 		iconType ={
 			name ="pie_over"
-			spriteType = "GFX_politics_pie_over"
-			position = { x= 320 y = 180 }
+			spriteType = "GFX_political_pie_over"
+			position = { x= 396 y = 53 }
 			alwaystransparent = yes
 		}
 		containerWindowType = {

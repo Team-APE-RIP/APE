@@ -111,9 +111,15 @@ focus_tree = {
 			    }
 				hidden_effect = {
 					news_event = newsEvents.1 
+				    remove_dynamic_modifier = {
+					    modifier = BTA_KingWilliamVMounbattenWindsor_dynamic_modifiers
+				    }
 				}
 				effect_tooltip = {
 					news_event = tooltipEvents.1
+				}
+				set_variable = {
+					ROOT.secondLeader = 2
 				}
 			}
 			else = {

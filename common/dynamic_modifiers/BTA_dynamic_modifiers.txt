@@ -4,3 +4,10 @@ BTA_EmergencyMartial_dynamic_modifiers = {
 	stability_factor = BTA.EmergencyMartial_stabilityFactor
 	political_power_cost = BTA.EmergencyMartial_politicalPowerCost
 }
+BTA_KingWilliamVMounbattenWindsor_dynamic_modifiers = {
+    enable = { always = yes }
+    remove_trigger = { always = no }
+	stability_factor = BTA.KingWilliamVMounbattenWindsor_stabilityFactor
+	IdeologyGroup16_drift = BTA.KingWilliamVMounbattenWindsor_IdeologyGroup16Drift
+	IdeologyGroup62_drift = BTA.KingWilliamVMounbattenWindsor_IdeologyGroup62Drift
+}

@@ -1,0 +1,5 @@
+﻿l_simp_chinese: 
+ BTA_KingWilliamVMounbattenWindsor_override_instant: "§H$BTA_KingWilliamVMounbattenWindsor$§!\n§H$BTA_traits_KingWilliamV$§!\n  - $MODIFIER_STABILITY_FACTOR$：§G+5.00%§!\n  - $IdeologyGroup16_drift$：§G+0.00§!\n  - $IdeologyGroup62_drift$：§G+0.00§!"
+ BTA_KingWilliamVMounbattenWindsor_override_delayed: "§L$BTA_KingWilliamVMounbattenWindsor_desc$§!"
+ BTA_KingWilliamVMounbattenWindsorDeath_override_instant: "§H$BTA_KingWilliamVMounbattenWindsor$§!\n§L（1982—2050年）§!"
+ BTA_KingWilliamVMounbattenWindsorDeath_override_delayed: "§L$BTA_KingWilliamVMounbattenWindsor_desc$§!"

@@ -27,13 +27,13 @@ spriteTypes = {
 	### BTN
 	
 
-        spriteType = {
-                name = "GFX_APE_bookmark_entry_bg"
-                texturefile = "gfx/interface/bookmark_entry_bg.dds"
-                noOfFrames = 2
-                effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-                transparencecheck = yes
-        }
+    spriteType = {
+        name = "GFX_APE_bookmark_entry_bg"
+        texturefile = "gfx/interface/bookmark_entry_bg.dds"
+        noOfFrames = 2
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+        transparencecheck = yes
+    }
 		
 		
 
@@ -55,6 +55,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
+        #transparencecheck = yes
 	}
 	
 	
@@ -62,7 +63,8 @@ spriteTypes = {
 		name = "GFX_APE_country_selection_entry"
 		texturefile = "gfx/interface/APE_country_selection_entry.dds"
 		noOfFrames = 2		
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
+        transparencecheck = yes	
 	}
 }
 

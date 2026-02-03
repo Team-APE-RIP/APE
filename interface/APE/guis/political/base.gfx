@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_political_pie_bg"
+		texturefile = "gfx/interface/political/pie_bg.png"
+	}
+    spriteType = {
+		name = "GFX_political_pie_over"
+		texturefile = "gfx/interface/political/pie_over.png"
+	}
+}
