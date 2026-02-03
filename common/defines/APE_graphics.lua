@@ -117,11 +117,11 @@ NDefines_Graphics.NFrontend.SOCIALVIEW_CONTEXT_MENU_MARGIN = 2
 
 
 
-NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_CAM_DISTANCE = 100				--group moving and still units
-NDefines_Graphics.NGraphics.MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 325.0		--group into states
-NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 400		--group units into air regions
-NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_AREA_HUGE = 220					--size limit for air region grouping
-NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100							--size limit for state grouping
+NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_CAM_DISTANCE = 100
+NDefines_Graphics.NGraphics.MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 325.0
+NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 400
+NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_AREA_HUGE = 220
+NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100
 NDefines_Graphics.NGraphics.MAPICON_GROUP_STRATEGIC_SIZE = 1000
 NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_SPLIT_SELECTED_LIMIT = 10
 NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 200
@@ -158,3 +158,5 @@ NDefines_Graphics.NGraphics.STRATEGIC_NAVY_COLOR_MISSION = {0.65, 0.65, 0.0, 1}
 NDefines_Graphics.NGraphics.STRATEGIC_NAVY_COLOR_NEUTRAL = {130.0/255, 130.0/255, 130.0/255, 1}
 
 NDefines_Graphics.NGraphics.ROOT_FRONT_OFFSET = 2
+
+NDefines_Graphics.NGraphics.SUN_LATITUDE = 0

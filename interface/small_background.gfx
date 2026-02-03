@@ -1,0 +1,11 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_load_1_small"
+		texturefile = "gfx/loadingscreens/load_1_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_loading_screen_border_small"
+		texturefile = "gfx/loadingscreens/loading_screen_border_small.dds"
+	}
+}
