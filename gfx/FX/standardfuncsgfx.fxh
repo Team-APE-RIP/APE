@@ -358,7 +358,7 @@ PixelShader =
 	float DayNightFactor( float3 vGlobeNormal, float vMin, float vMax )
 	{
 		float vDot = dot( vGlobeNormal, DayNight_Hour_SunDir.yzw );
-		return saturate ( 1.0 );
+		return smoothstep( vMax, vMin, vDot );
 	}
 
 
@@ -390,7 +390,8 @@ PixelShader =
 		//return vec3( DayNightFactor( vGlobeNormal ) );
 
 	    // lerp between day and night
-		return lerp( vDayColor, NightifyColor(vDayColor, vBlend), DayNightFactor( vGlobeNormal ) * NIGHT_OPACITY );
+		// Force night darkness (1.0f) but keep lights off via DayNightFactor returning 0 elsewhere
+		return lerp( vDayColor, NightifyColor(vDayColor, vBlend), 1.0f * NIGHT_OPACITY );
 	}
 
 	// Darken the color by the night opacity
@@ -408,9 +409,13 @@ PixelShader =
 		float vNightFactor = DayNightFactor( vGlobeNormal );
 
 	    // lerp between day and night
-		float3 Result = lerp( vDayColor, NightifyColor(vDayColor , 0.0f), vNightFactor * NIGHT_OPACITY );
+		// Force night darkness for the base color
+		float3 Result = lerp( vDayColor, NightifyColor(vDayColor , 0.0f), 1.0f * NIGHT_OPACITY );
+		
+        // Use REAL night factor for lights (lights on at night, off at day)
+        float cityNight = pow(saturate(vNightFactor), 3.0f);
+        Result += vCityLightMask * float3(2.0f, 2.0f, 0.3f) * cityNight * (1.0f - vFogFactor * vFogFactor);
 
-		Result += vCityLightMask * float3(2.0f, 2.0f, 0.3f) * vNightFactor * (1.0f - vFogFactor * vFogFactor);
 
 		return Result;
 	}
@@ -678,11 +683,12 @@ PixelShader =
 
 	float3 ComposeLight(LightingProperties aProperties, float3 aDiffuseLight, float3 aSpecularLight )
 	{
-		float vDayNight = DayNightFactor( CalcGlobeNormal( aProperties._WorldSpacePos.xz ) );
+		// Force Night Ambient for Ocean/Map
+		float vDayNight = 1.0f; 
 
 		float3 vAmbientColor = AmbientLight(aProperties._Normal, vDayNight);
 		float3 diffuse = ((vAmbientColor + aDiffuseLight) * aProperties._Diffuse) * HdrRange;
-		float3 specular = 0.0 * aSpecularLight;
+		float3 specular = aSpecularLight;
 
 		return diffuse + specular;
 	}
@@ -695,7 +701,8 @@ PixelShader =
 
 	float3 ComposeLightSnow(LightingProperties aProperties, float3 aDiffuseLight, float3 aSpecularLight, float vSnowFactor )
 	{
-		float vDayNight = DayNightFactor( CalcGlobeNormal( aProperties._WorldSpacePos.xz ) );
+		// Force Night Ambient
+		float vDayNight = 1.0f;
 		float3 vAmbientColor = AmbientLight(aProperties._Normal, vDayNight);
 	#ifdef LOW_END_GFX
 		return (((vAmbientColor + aDiffuseLight) * aProperties._Diffuse) * HdrRange) + aSpecularLight;
@@ -707,7 +714,8 @@ PixelShader =
 
 	float3 ComposeLightMesh(LightingProperties aProperties, float3 aDiffuseLight, float3 aSpecularLight, float vSnowFactor )
 	{
-		float vDayNight = DayNightFactor( CalcGlobeNormal( aProperties._WorldSpacePos.xz ) );
+		// Force Night Ambient
+		float vDayNight = 1.0f;
 
 		float3 DayAmbientColors[6];
 		DayAmbientColors[0] = AmbientPosX;
@@ -842,19 +850,22 @@ PixelShader =
 		vCh = vInit;
 
 		const float PulseSpeedMult = 3.5f;
-		float FX = tex2D( gbTex2, uv ).b;
-		vStrength *= lerp( lerp( 0.45f, 1.0f, 1.0f - FX ), 1.0f, ( sin( vGlobalTime * PulseSpeedMult ) + 1.0f ) / 2 );
+		float2 FX_Alpha = tex2D( gbTex2, uv ).bg;
+		vStrength *= lerp( lerp( 0.45f, 1.0f, 1.0f - FX_Alpha.r ), 1.0f, ( sin( vGlobalTime * PulseSpeedMult ) + 1.0f ) / 2 );
 
-		float vFullWidth = 5.25f / 255.0f;//lerp( 5.25f, 0.01f, FX ) / 255.f;
-		float vGradientWidth = 0.5f / 255.0f;//lerp( 0.5f, 0.1f, FX ) / 255.f;
+		float vFullWidth = 5.25f / 255.0f;//lerp( 5.25f, 0.01f, FX_Alpha.r ) / 255.f;
+		float vGradientWidth = 0.5f / 255.0f;//lerp( 0.5f, 0.1f, FX_Alpha.r ) / 255.f;
 
 		// Grab multisampled border color
 		float4 vGBDist = gradient_border_multisample_alpha( tex2D( gbTex, uv ), gbTex, uv );
 
 		float Alpha = vGBDist.a;
+		// Aggressively boost alpha to expand borders and close gaps
+		// Alpha = saturate(pow(Alpha, 0.1f)); 
+		float AlphaColor = saturate(Alpha * 2.5f);
 
 		// Check how much color and how much outline there is
-		float vColorOpacity = Levels( Alpha, 0.0f, vOutlineCutoff );
+		float vColorOpacity = Levels( AlphaColor, 0.0f, vOutlineCutoff );
 		float vOutline = 1.0f - Levels( Alpha, vOutlineCutoff, 1.0f );
 		float vOldOutline = vOutline;
 		vOutline *= floor(vColorOpacity);
@@ -866,7 +877,7 @@ PixelShader =
 
 		// Now when vOutline > 0 then vColorOpacity = 0, and other way around.
 		// Never both values will be > 0.
-		vColorOpacity *= floor(vOldOutline);
+		// vColorOpacity *= floor(vOldOutline); // REMOVED to allow fill to overlap with outline (closes gaps)
 	
 
 		float vThick = smoothstep( 0.f, 1.f, Levels( Alpha, vOutlineCutoff - vFullWidth, vOutlineCutoff - vFullWidth + vGradientWidth ) ) ;
@@ -877,14 +888,10 @@ PixelShader =
 
 		vCh = lerp( vCh, vGBDist.rgb, max( vMaxGradient, vThick )* vStrength);
 
-		// Compensate the brightness since the 2nd layer is now black (not white) although it's alpha is 0
-		vCh *= 1.15f;
-		vCh = min( vCh, float3( 1, 1, 1 ) );
-
 		// Make the outline edge darker
 		vCh = lerp( vCh, vCh * .5, vThick );
 
-		return max( vMaxGradient, vThick );
+		return max( vMaxGradient, vThick ) * 0.4;
 	}
 
 	void gradient_border_apply( inout float3 vColor, float3 vNormal, float2 vUV, 
@@ -914,12 +921,12 @@ PixelShader =
 		
 		float vAlpha1 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh1, vNormal, vUV, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.x, GB_STRENGTH_CH1 );
 		// Now mix, the resultat with background
-		float TranspA = 1.0f - tex2D( TexCh2, vUV ).g;		
+		float TranspA = tex2D( TexCh2, vUV ).g;		
 		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspA );
 		
 		
 		float vAlpha2 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh2, vNormal, vUV2, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.y, (1.0 - vAlpha1 * GB_STRENGTH_CH1 * GB_FIRST_LAYER_PRIORITY) * GB_STRENGTH_CH2 );
-		float TranspB = 1.0f - tex2D( TexCh2, vUV2 ).g;
+		float TranspB = tex2D( TexCh2, vUV2 ).g;
 		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspB );
 		
 	//vColor = GetOverlay( vColor, ToLinear(vGradMix), 0.80);
@@ -1253,4 +1260,3 @@ PixelShader =
 	]]
 
 }
-
