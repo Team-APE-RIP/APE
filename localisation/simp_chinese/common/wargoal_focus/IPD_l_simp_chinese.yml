@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ revivalWar_IPDPGS_wargoal_focus: "复兴葡萄牙"
+ revivalWar_IPDPGS_wargoal_focus_desc: "从$TARGET|Y$手中夺取葡萄牙领土。"
+ revivalWar_IPDPGS_wargoal_focus_short_desc: "设定此战争目标可以在战争胜利后吞并属于$TARGET|Y$的葡萄牙领土。"
+ revivalWar_IPDPGS_war: "$ORDER$$FIRST$推翻$SECOND$复兴葡萄牙之战"

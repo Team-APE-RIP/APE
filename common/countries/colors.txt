@@ -363,6 +363,10 @@ YUN = {
 	color = rgb { 165 255 225 }
 	color_ui = rgb { 165 255 225 }
 }
+ZZY = {
+	color = rgb { 45 45 45 }
+	color_ui = rgb { 45 45 45 }
+}
 ZZZ = {
 	color = rgb { 50 50 50 }
 	color_ui = rgb { 50 50 50 }

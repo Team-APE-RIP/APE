@@ -1,5 +1,0 @@
-﻿l_simp_chinese:
- BritishCivilWar_wargoal_focus: "推翻$TARGET|Y$"
- BritishCivilWar_wargoal_focus_desc: "推翻$TARGET|Y$。"
- BritishCivilWar_wargoal_focus_short_desc: "设定此战争目标可以在战争胜利后推翻$TARGET|Y$。"
- BritishCivilWar_war: "不列颠内战"

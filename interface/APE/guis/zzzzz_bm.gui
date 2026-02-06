@@ -1,0 +1,43 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "bookmark_window"
+		position = { x=0 y=0}
+		size = { width = 100%% height = 100%% }
+		moveable = no
+		fade_time = 10
+		fade_type = linear
+		Orientation = center
+		origo = center
+		clipping = no
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_000000_bg"
+		}
+		instantTextboxType = {
+			name = "bookmark_window_title"
+			position = { x = -640 y = -57 }
+			textureFile = ""
+			font = "AAGCZYRL36"
+			borderSize = {x = 0 y = 0}
+			text = "[BOOKMARK_WINDOW_TITLE]"
+			maxWidth = 1280
+			maxHeight = 200
+			format = centre
+		    Orientation = center
+		}
+		ButtonType = {
+			name = "back_interesting_btn"
+			position = { x=-18 y=21 }
+			quadTextureSprite ="GFX_lloseBtn"
+		    Orientation = center
+		}
+		ButtonType = {
+			name = "exit_interesting_btn"
+			position = { x=-18 y=21000 }
+			quadTextureSprite ="GFX_lloseBtn"
+		    Orientation = center
+			shortcut = "2+0+5+0"
+		}
+	}
+}

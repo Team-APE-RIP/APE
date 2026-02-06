@@ -56,3 +56,9 @@ MNC = {
 	    IdeologyGroup16= 100
     }
 }
+create_faction_from_template = {
+   template = faction_template_OTDU
+   name = OTDU_faction
+   icon = GFX_faction_logo_OTDU
+   color = { 0 38 84 }
+}

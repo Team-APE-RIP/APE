@@ -1,0 +1,13 @@
+﻿l_simp_chinese: 
+ 
+ # BTA 01
+ BTA_01_FS_00_TT: "§Y$BTA_idea_EmergencyMartial$§!$SWAP_IDEAS_MODIFY$    $MODIFIER_POLITICAL_POWER_COST$：§R+0.25§!\n    $MODIFIER_STABILITY_FACTOR$：§G+5.00%§!"
+ 
+ BTA_01_FS_05_L_LOC0: "？？？"
+ BTA_01_FS_05_L_LOC1: "紧急召开议会"
+ 
+ 
+ BTA_01_FS_05_R_LOC0: "？？？"
+ BTA_01_FS_05_R_LOC1: "控制军政要员"
+ 
+ BTA_01_FS_03_TT1: "§R$BTA_KingWilliamVMounbattenWindsor$已经死了。§!"

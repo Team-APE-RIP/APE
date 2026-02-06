@@ -1,8 +1,0 @@
-﻿l_simp_chinese:
- 
- BEL: "比利时"
- BEL_DEF: "$BEL$"
- BEL_ADJ: "$BEL$"
- BEL_autonomy_FRA_BELA: "低地$autonomy_FRA_BELA$"
- BEL_autonomy_FRA_BELA_DEF: "$BEL_autonomy_FRA_BELA$"
- BEL_autonomy_FRA_BELA_ADJ: "$OVERLORDADJ$辖$BEL_autonomy_FRA_BELA$"

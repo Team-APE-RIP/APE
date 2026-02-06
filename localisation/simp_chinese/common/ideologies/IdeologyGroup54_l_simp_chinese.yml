@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ 
+ IdeologyGroup54: "君主立宪威权主义"
+ IdeologyGroup54_noun: "$IdeologyGroup54$"
+ IdeologyGroup54_desc: "$IdeologyGroup54$政体"
+ IdeologyGroup54_drift: "£IG54_texticon 意识形态向$IdeologyGroup54$变化力度"
+ IdeologyGroup54_IdelogySubtype0: ""
+ IdeologyGroup54_IdelogySubtype0_desc: ""
+ IdeologyGroup54_IdelogySubtype1: "威权军管传统派"
+ IdeologyGroup54_IdelogySubtype1_desc: "妈的没文案不会写"
+ 
+ BTA_IdeologyGroup54_party: "王国军政委员会"
+ BTA_IdeologyGroup54_party_long: "大不列颠王国军政委员会"

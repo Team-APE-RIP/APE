@@ -38,7 +38,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_red_alert_glow"
-		texturefile = "gfx/interface/alerts/glows/APE_red_alert_glow.dds"
+		texturefile = "gfx/interface/alerts/glows/APE_red_alert_glow.png"
 		noOfFrames = 2
 		animation_rate_fps = 1
 		looping = yes

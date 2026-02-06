@@ -1,0 +1,19 @@
+scripted_gui = {
+	bookmark_window = {
+		context_type = player_context
+		window_name = "bookmark_window"
+		visible = {
+		    NOT = { is_in_array = { global.INTCOUNTRIES = ROOT } } NOT = { has_global_flag = clsBmIW }
+		}
+		effects = {
+		    back_interesting_btn_click = {
+			    if = { limit = { has_variable = global.INTCOUNTRIES^0 } var:global.INTCOUNTRIES^0 = { change_tag_from = ROOT } }
+				else_if = { limit = { tag = ZZZ } ZZY = { change_tag_from = ZZZ } ZZZ = { annex_country = { target = ZZY transfer_troops = yes } } }
+			    else = { ZZZ = { annex_country = { target = ROOT transfer_troops = yes } } }
+			}
+			exit_interesting_btn_click = {
+			    if = { limit = { has_global_flag = clsBmIW } clr_global_flag = clsBmIW } else = { set_global_flag = clsBmIW }
+			}
+		}
+	}
+}

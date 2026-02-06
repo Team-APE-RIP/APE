@@ -1,0 +1,17 @@
+faction_template_OTDU = {
+	name = OTDU_faction
+	icon = GFX_faction_logo_OTDU
+	# manifest = 
+	can_leader_join_other_factions = yes
+	visible = {
+		always = no  
+	}
+
+	goals = {
+	}
+
+	default_rules = {
+	}	
+	
+}
+

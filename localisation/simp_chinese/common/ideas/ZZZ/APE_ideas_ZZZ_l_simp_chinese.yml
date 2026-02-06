@@ -1,0 +1,19 @@
+﻿l_simp_chinese: 
+ # Bookmark #
+ ZZZ_idea_BMair: "$tt_air$"
+ ZZZ_idea_BMair_desc: ""
+ # BTA
+ ZZZ_idea_BMBGBTA: "$2050_AA_NAME$"
+ ZZZ_idea_BMBGBTA_desc: "$2050_AA_DESC$"
+
+ ZZZ_idea_BMBTA: "§H$cosmeticTagBCW_MPC$§!\n§W$BTA_IdeologyGroup54_party$§!"
+ ZZZ_idea_BMBTA_desc: "我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。\n§W--------------§!\n§H$BTA_ReginaldBlackwell$§!\n§H$BTA_traits_ChairmanBlackwell$§!\n§W  - $MODIFIER_STABILITY_FACTOR$：§!§G+5.00%§!\n§W  - $MODIFIER_DRIFT_DEFENCE_FACTOR$：§!§G+20.00%§!                              £portrait_large_civilian_BTA_ReginaldBlackwell \n§W  - $IdeologyGroup7_drift$：§!§G+0.01§!\n§H$BTA_traits_DieHardTraditionalistChairman$§!\n§W  - $MODIFIER_RESEARCH_SPEED_FACTOR$：§!§R-30.00%§!\n§W--------------§!\n$BTA_ReginaldBlackwell_desc$"
+
+ ZZZ_idea_BMBTB: "§Y$BTB_IdeologyGroup55$§!\n§W$BTB_IdeologyGroup55_party$§!"
+ ZZZ_idea_BMBTB_desc: "我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。\n§W--------------§!\n§H$BTB_AltriaPendragon$§!\n§H$BTB_traits_InspirationalSovereignAltriaPendragon$§!\n§W  - $MODIFIER_CONSCRIPTION_TOTAL_FACTOR$：§!§G10.00%§!\n§W  - $MODIFIER_ARMY_ORG_REGAIN$：§!§G+30.00%§!                                        £portrait_large_civilian_BTB_AltriaPendragon \n§W  - $MODIFIER_WAR_SUPPORT_FACTOR$：§!§G+15.00%§!\n§H$BTB_traits_KnightlyPurity$§!\n§W  - $MODIFIER_EQUIPMENT_CAPTURE_FACTOR$：§!§R-100.00%§!\n§W--------------§!\n$BTB_AltriaPendragon_desc$"
+
+ ZZZ_idea_BMBTC: "§Y$BTC_IdeologyGroup56$§!\n§W$BTC_IdeologyGroup56_party$§!"
+ ZZZ_idea_BMBTC_desc: "我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。\n§W--------------§!\n§H$BTC_MaryHargreaves$§!\n§H$BTC_traits_RevolutionaryAgitatorMaryHargreaves$§!\n§W  - $MODIFIER_STABILITY_FACTOR$：§!§R-5.00%§!\n§W  - $IdeologyGroup56_drift$：§!§G+0.01§!                  £portrait_large_civilian_BTC_MaryHargreaves \n§H$BTC_traits_UnyieldingIdealistMaryHargreaves$§!\n§W  - $MODIFIER_WAR_SUPPORT_FACTOR$：§!§G+10.00%§!\n§W  - $differentIdeologiesDiplomaticRelation$：§!§R-30.00§!\n§W--------------§!\n$BTC_MaryHargreaves_desc$"
+
+ ZZZ_idea_BMBTD: "§Y$BTD_IdeologyGroup57$§!\n§W$BTD_IdeologyGroup57_party$§!"
+ ZZZ_idea_BMBTD_desc: "我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本我是文本。\n§W--------------§!\n§H$BTD_CatrionaStewart$§!\n§H$BTD_traits_ClanUnifier$§!\n§W  - $MODIFIER_POLITICAL_POWER_FACTOR$：§!§R-30.00%§!\n§W  - $MODIFIER_STABILITY_FACTOR$：§!§G+15.00%§!                                                    £portrait_large_civilian_BTD_CatrionaStewart \n§H$BTD_traits_HighlandDefender$§!\n§W  - $MODIFIERS_ARMY_CORE_DEFENCE_FACTOR$：§!§G+15.00%§!\n§W  - $MODIFIER_RESISTANCE_DECAY_ON_OUR_OCCUPIED_STATES$：§!§G-50.00§!\n§W--------------§!\n$BTD_CatrionaStewart_desc$"

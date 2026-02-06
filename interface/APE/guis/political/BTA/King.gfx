@@ -1,0 +1,12 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_political_BTA_KingFrameBtn"
+		texturefile = "gfx/interface/political/BTA/KingFrameBtn.png"
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_BTA_KingFrameBtnBg"
+		texturefile = "gfx/interface/political/BTA/KingFrameBtnBg.png"
+        transparencecheck = yes
+	}
+}

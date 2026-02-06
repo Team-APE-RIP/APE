@@ -14,7 +14,7 @@ guiTypes = {
 			position = { x=0 y=0 }
 			orientation = "UPPER_LEFT"
 			priority = 100
-			size = { x=468 y=322 }
+			size = { x=468 y=292 }
 			borderSize = { x=0 y=0 }
 			offset = { x=0 y=70 }
 			scrollbartype = "standardlistbox_slider"

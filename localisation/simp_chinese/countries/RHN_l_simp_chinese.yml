@@ -1,8 +1,0 @@
-﻿l_simp_chinese:
- 
- RHN: "莱茵兰"
- RHN_DEF: "$RHN$"
- RHN_ADJ: "$RHN$"
- RHN_autonomy_FRA_RHNA: "东部$autonomy_FRA_RHNA$"
- RHN_autonomy_FRA_RHNA_DEF: "$RHN_autonomy_FRA_RHNA$"
- RHN_autonomy_FRA_RHNA_ADJ: "$OVERLORDADJ$辖$RHN_autonomy_FRA_RHNA$"

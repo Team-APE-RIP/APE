@@ -1,0 +1,31 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "political_BTA_KingFrame_window"
+		position = { x=14 y=53 }
+		size = { width = 1 height = 1 }
+		moveable = no
+		clipping = no
+		background = {
+			name = "Background"
+			spriteType ="GFX_political_BTA_KingFrameBtnBg"
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "political_BTA_KingFrameBtn"
+			quadTextureSprite = "GFX_political_BTA_KingFrameBtn"
+			position = { x = 0 y = 0 }
+		}
+		
+		instantTextboxType = {
+			name = "political_BTA_KingFrameText"
+			position = { x = 12 y = 20 }
+			font = "AAGCZYRL20"
+			text = "POLITICAL_BTA_KINGFRAMETEXT"
+			maxWidth = 20
+			maxHeight = 60
+			format = center
+		}
+	}
+}
