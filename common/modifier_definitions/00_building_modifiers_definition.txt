@@ -1,0 +1,31 @@
+BuildingStateDirectOutput = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = state
+}
+BuildingStateIndirectOutput = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = state
+}
+BuildingOutput = {
+	color_type = good
+	value_type = number
+	precision = 4
+	category = country
+	category = state
+}
+TagBuildingOutput = {
+	color_type = good
+	value_type = number
+	precision = 4
+	category = country
+}
+RealBuildingOutput = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}

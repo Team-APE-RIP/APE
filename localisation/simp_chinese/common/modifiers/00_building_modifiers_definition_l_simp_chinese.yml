@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ BuildingStateDirectOutput: "直接产值"
+ BuildingStateIndirectOutput: "间接产值"
+ BuildingOutput: "产值"
+ TagBuildingOutput: "总产值"
+ BuildingOutput_dynamic_modifiers: "地区产值计算"
+ TagBuildingOutput_dynamic_modifiers: "势力产值计算"

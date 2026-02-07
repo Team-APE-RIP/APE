@@ -170,9 +170,6 @@
  landmark_berlin_volkshalle: "人民大厅"
  landmark_berlin_volkshalle_plural: "$landmark_berlin_volkshalle$"
  landmark_berlin_volkshalle_desc: "人民大厅象征着我们民族不可战胜的精神，以及他们征服世界的自豪意志。它将向全世界展示，通过征服的力量，一切皆有可能，祖国甚至可以使最不可能的任务成为可能。"
- landmark_germania: "世界之都日耳曼尼亚"
- landmark_germania_plural: "$landmark_germania$"
- landmark_germania_desc: "新柏林的大楼"
  BUILDING_TERRAIN_MAX_LEVEL: "$TERRAIN|H$的最大等级：$MAXLEVEL|H$"
  BUILDING_TERRAIN_BASE_MAX_LEVEL: "基础：$MAXLEVEL|H$"
  BUILDING_SPEED_FACTOR: "§0条件建造速度系数：§!$VALUE|Y2$"
@@ -186,3 +183,7 @@
  hydroelectric_plant_plural:0 "水电站"
  hydroelectric_plant_desc:0 "此建筑可为所属地区提供£power_texticon §Y电力§!。\n电气化可以为地区提供额外建筑槽位。\n\n电力产出："
  KD_Large_Hydro_Electrical_Plant: "大型水电站奖益"
+ 
+ real_factory: "工厂"
+ real_factory_plural: "工厂"
+ real_factory_desc: "此建筑可为所属地区提供生产商品，建造新建筑的产值，或在有需要的情况下进行军备生产。"

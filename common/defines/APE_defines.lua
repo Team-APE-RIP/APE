@@ -7,6 +7,7 @@ NDefines.NGame.HANDS_OFF_START_TAG = "ZZZ"
 NDefines.NGame.OIL_RESOURCE= "power"
 NDefines.NGame.FUEL_RESOURCE = "power"
 NDefines.NGame.ENERGY_RESOURCE = "power"
+NDefines.NGame.GAME_SPEED_SECONDS = { 5.0, 2.5, 1.0, 0.5, 0.2 }
 NDefines.NGeography.MEDITERRANEAN_SEA_REGIONS = { 29, 68, 69, 169, 230, 264 }
 NDefines.NGame.MISSION_REMOVE_FROM_INTERFACE_DEFAULT = 7
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.0

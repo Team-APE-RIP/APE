@@ -1,0 +1,12 @@
+BuildingOutput_dynamic_modifiers = {
+    icon = GFX_idea_unknown
+    enable = { always = yes }
+    remove_trigger = { always = no }
+	BuildingOutput = mtth:BuildingOutput_mtth
+}
+TagBuildingOutput_dynamic_modifiers = {
+    icon = GFX_idea_unknown
+    enable = { always = yes }
+    remove_trigger = { always = no }
+	TagBuildingOutput = mtth:TagBuildingOutput_mtth
+}
