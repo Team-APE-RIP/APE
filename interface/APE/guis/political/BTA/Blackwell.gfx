@@ -1,0 +1,12 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_political_BTA_BlackwellFrameBtn"
+		texturefile = "gfx/interface/political/BTA/BlackwellFrameBtn.png"
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_BTA_BlackwellFrameBtnOver"
+		texturefile = "gfx/interface/political/BTA/BlackwellFrameBtnOver.png"
+        transparencecheck = yes
+	}
+}

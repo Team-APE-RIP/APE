@@ -6,31 +6,71 @@ on_actions = {
 			}
 			every_possible_country = {
 			    add_dynamic_modifier = { modifier = TagBuildingOutput_dynamic_modifiers }
+			}
+			every_possible_country = {
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsModifierValueRound = THIS.modifier@TagBuildingOutput
+				}
+				round_variable = THIS.industrialComplexOffsiteBuildngsModifierValueRound
 			    add_offsite_building = {
 				    type = industrial_complex
-				    level = modifier@TagBuildingOutput
+				    level = THIS.industrialComplexOffsiteBuildngsModifierValueRound
 			    }
-				set_variable = {
-			        industrialComplexOffsiteBuildngsB = modifier@TagBuildingOutput
-			    }
+				add_to_array = {
+				    THIS.industrialComplexOffsiteBuildngs = THIS.industrialComplexOffsiteBuildngsModifierValueRound
+				}
+				clear_variable = THIS.industrialComplexOffsiteBuildngsModifierValueRound
 			}
 		}
 	}
-	on_daily = {
+	on_daily_ZZZ = {
 	    effect = {
-			add_offsite_building = {
-				type = industrial_complex
-				level = modifier@TagBuildingOutput
-			}
-	        multiply_variable = {
-		        industrialComplexOffsiteBuildngsB = -1
-		    }
-			add_offsite_building = {
-				type = industrial_complex
-				level = industrialComplexOffsiteBuildngsB
-			}
-			set_variable = {
-			    industrialComplexOffsiteBuildngsB = modifier@TagBuildingOutput
+			every_possible_country = {
+			    set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsModifierValueRound = THIS.modifier@TagBuildingOutput
+				}
+				round_variable = THIS.industrialComplexOffsiteBuildngsModifierValueRound
+				add_to_array = {
+				    THIS.industrialComplexOffsiteBuildngs = THIS.industrialComplexOffsiteBuildngsModifierValueRound
+				}
+				clear_variable = THIS.industrialComplexOffsiteBuildngsModifierValueRound
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsNum = THIS.industrialComplexOffsiteBuildngs^num
+				}
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsA = THIS.industrialComplexOffsiteBuildngsNum
+				}
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsB = THIS.industrialComplexOffsiteBuildngsNum
+				}
+				clear_variable = THIS.industrialComplexOffsiteBuildngsNum
+				subtract_from_variable = {
+				    THIS.industrialComplexOffsiteBuildngsA = 2
+				}
+				subtract_from_variable = {
+				    THIS.industrialComplexOffsiteBuildngsB = 1
+				}
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsValueA = THIS.industrialComplexOffsiteBuildngs^@var:THIS.industrialComplexOffsiteBuildngsA
+				}
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsValueB = THIS.industrialComplexOffsiteBuildngs^@var:THIS.industrialComplexOffsiteBuildngsB
+				}
+				clear_variable = THIS.industrialComplexOffsiteBuildngsA
+				clear_variable = THIS.industrialComplexOffsiteBuildngsB
+				set_variable = {
+				    THIS.industrialComplexOffsiteBuildngsSubtractValue = THIS.industrialComplexOffsiteBuildngsValueB
+				}
+				subtract_from_variable = {
+				    THIS.industrialComplexOffsiteBuildngsSubtractValue = THIS.industrialComplexOffsiteBuildngsValueA
+				}
+				clear_variable = THIS.industrialComplexOffsiteBuildngsValueA
+				clear_variable = THIS.industrialComplexOffsiteBuildngsValueB
+				add_offsite_building = {
+				    type = industrial_complex
+				    level = THIS.industrialComplexOffsiteBuildngsSubtractValue
+			    }
+				clear_variable = THIS.industrialComplexOffsiteBuildngsSubtractValue
 			}
 		}
 	}

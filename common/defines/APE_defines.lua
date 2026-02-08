@@ -1,5 +1,5 @@
 NDefines.NGame.START_DATE = "2050.1.1.1"
-NDefines.NGame.END_DATE = "2100.12.31.1"
+NDefines.NGame.END_DATE = "2100.12.31.24"
 NDefines.NGame.SAVE_VERSION = 30
 NDefines.NGame.MAX_SCRIPTED_LOC_RECURSION = 60
 NDefines.NGame.MAX_EFFECT_ITERATION = 15000
@@ -7,7 +7,7 @@ NDefines.NGame.HANDS_OFF_START_TAG = "ZZZ"
 NDefines.NGame.OIL_RESOURCE= "power"
 NDefines.NGame.FUEL_RESOURCE = "power"
 NDefines.NGame.ENERGY_RESOURCE = "power"
-NDefines.NGame.GAME_SPEED_SECONDS = { 5.0, 2.5, 1.0, 0.5, 0.2 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 5.0, 2.5, 1.0, 0.5, 0.0 }
 NDefines.NGeography.MEDITERRANEAN_SEA_REGIONS = { 29, 68, 69, 169, 230, 264 }
 NDefines.NGame.MISSION_REMOVE_FROM_INTERFACE_DEFAULT = 7
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.0
