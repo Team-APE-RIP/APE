@@ -11,6 +11,22 @@ scripted_gui = {
 		    political_BTA_KingFrameBtn_click_enabled = { check_variable = { ROOT.secondLeader = 1 } }
 		}
 		effects = {
+		    political_BTA_KingFrameBtn_click = { if = { limit = { has_country_flag = SHOWPOLITICALBTAKINGMAINWINDOW } clr_country_flag = SHOWPOLITICALBTAKINGMAINWINDOW } else = { set_country_flag = SHOWPOLITICALBTAKINGMAINWINDOW } }
+		}
+		properties = {
+		}
+	}
+	political_BTA_King_window = {
+		context_type = player_context
+		window_name = "political_BTA_King_window"
+		parent_window_name = "politics_over_view"
+		visible = {
+		    has_country_flag = SHOWPOLITICALBTAKINGMAINWINDOW
+			check_variable = { ROOT.secondLeader = 1 }
+		}
+		triggers = {
+		}
+		effects = {
 		}
 		properties = {
 		}
@@ -21,6 +37,22 @@ scripted_gui = {
 		parent_window_name = "political_secondLeader_window_inner"
 		visible = {
 		    has_country_flag = BTA_ReginaldBlackwell_IG54VS4
+		}
+		triggers = {
+		}
+		effects = {
+		    political_BTA_BlackwellFrameBtn_click = { if = { limit = { has_country_flag = SHOWPOLITICALBTABLACKWELLMAINWINDOW } clr_country_flag = SHOWPOLITICALBTABLACKWELLMAINWINDOW } else = { set_country_flag = SHOWPOLITICALBTABLACKWELLMAINWINDOW } }
+		}
+		properties = {
+		}
+	}
+	political_BTA_Blackwell_window = {
+		context_type = player_context
+		window_name = "political_BTA_Blackwell_window"
+		parent_window_name = "politics_over_view"
+		visible = {
+		    has_country_flag = SHOWPOLITICALBTABLACKWELLMAINWINDOW
+			has_country_flag = BTA_ReginaldBlackwell_IG54VS4
 		}
 		triggers = {
 		}

@@ -54,7 +54,7 @@ scripted_gui = {
 				round_temp_variable = temp_political_pie_religion_frame
 			}
 		}
-		effects = { political_pie_religion_btn_click = { if = { limit = { has_country_flag = SHOWPOLITICALPIERELIGIONMAINWINDOW } clr_country_flag = SHOWPOLITICALPIERELIGIONMAINWINDOW } else = { set_country_flag = SHOWPOLITICALPIERELIGIONMAINWINDOW } } }
+		effects = { political_pie_religion_btn_click = { if = { limit = { has_country_flag = SHOWPOLITICALRELIGIONMAINWINDOW } clr_country_flag = SHOWPOLITICALRELIGIONMAINWINDOW } else = { set_country_flag = SHOWPOLITICALRELIGIONMAINWINDOW } } }
 		properties = { political_pie_religion = { image = "GFX_political_pie_religion_[?political_pie_religion_index]" frame = temp_political_pie_religion_frame } }
 		dynamic_lists = { political_pie_religion_grid = { array = ROOT.political_pie_religion_array entry_container = political_pie_religion_entry change_scope = no value = political_pie_religion_value index = political_pie_religion_index } }
 	}

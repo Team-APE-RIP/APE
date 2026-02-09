@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "political_BTA_KingFrame_window"
-		position = { x=14 y=53 }
+		position = { x=7 y=53 }
 		size = { width = 1 height = 1 }
 		moveable = no
 		clipping = no
@@ -10,14 +10,12 @@ guiTypes = {
 			name = "Background"
 			spriteType ="GFX_political_BTA_KingFrameBtnBg"
 			alwaystransparent = yes
-		}
-		
+		}		
 		buttonType = {
 			name = "political_BTA_KingFrameBtn"
 			quadTextureSprite = "GFX_political_BTA_KingFrameBtn"
 			position = { x = 0 y = 0 }
-		}
-		
+		}		
 		instantTextboxType = {
 			name = "political_BTA_KingFrameText"
 			position = { x = 12 y = 20 }
@@ -26,6 +24,42 @@ guiTypes = {
 			maxWidth = 20
 			maxHeight = 60
 			format = center
+		}
+	}
+	containerWindowType = {
+		name = "political_BTA_King_window"
+		size = { width=1280 height=640 }
+		position = { x = 0 y = -40 }
+		Orientation = center
+		origo = center
+		clipping = yes
+		moveable = yes
+		fade_time = 10000
+		fade_type = linear
+		background = {
+		    name = "bg1"
+			quadTextureSprite ="GFX_tiled_air_bg"
+			alwaystransparent = yes
+		}
+		background = {
+		    name = "bg2"
+			quadTextureSprite ="GFX_Air_1280X560"
+			position = { x = 0 y = 80 }
+		}
+		containerWindowType = {
+		    name ="bgs"
+			size = { width = 1280 height = 560 }
+            position = { x = 0 y = 80 }
+			background = {
+				name = "bg1"
+				quadTextureSprite ="GFX_tiled_SPinckEXwthSCL_bg"
+			    alwaystransparent = yes
+			}
+			background = {
+				name = "bg2"
+				quadTextureSprite ="GFX_tiled_161F4Cc_bg"
+			    alwaystransparent = yes
+			}
 		}
 	}
 }

@@ -22,4 +22,18 @@ scripted_gui = {
 		    PSW_secondLeader1_image = { image = "[secondLeaderImage]" }
 		}
 	}
+	political_religion_window = {
+		context_type = player_context
+		window_name = "political_religion_window"
+		parent_window_name = "politics_over_view"
+		visible = {
+		    has_country_flag = SHOWPOLITICALRELIGIONMAINWINDOW
+		}
+		triggers = {
+		}
+		effects = {
+		}
+		properties = {
+		}
+	}
 }

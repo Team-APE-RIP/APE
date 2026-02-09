@@ -1,26 +1,6 @@
 guiTypes = {
-
 	containerWindowType = {
-		name = "political_BTA_BlackwellFrame_window"
-		position = { x=7 y=53 }
-		size = { width = 1 height = 1 }
-		moveable = no
-		clipping = no
-		
-		buttonType = {
-			name = "political_BTA_BlackwellFrameBtn"
-			quadTextureSprite = "GFX_political_BTA_BlackwellFrameBtn"
-			position = { x = 0 y = 0 }
-		}
-		iconType = {
-			name = "political_BTA_BlackwellFrameBtnOver"
-			spriteType ="GFX_political_BTA_BlackwellFrameBtnOver"
-			alwaystransparent = yes
-			position = { x = 0 y = 0 }
-		}
-	}
-	containerWindowType = {
-		name = "political_BTA_Blackwell_window"
+		name = "political_religion_window"
 		size = { width=1280 height=640 }
 		position = { x = 0 y = -40 }
 		Orientation = center

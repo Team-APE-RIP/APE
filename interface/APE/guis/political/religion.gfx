@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_Air_1280X560"
+		texturefile = "gfx/interface/political/Air_1280X560.png"
+	}
+}
