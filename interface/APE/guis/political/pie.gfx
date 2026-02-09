@@ -1,0 +1,167 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_political_pie_btn"
+		texturefile = "gfx/interface/political/pie_btn.png"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_0"
+		textureFile1 = "gfx/interface/political/pie/religion/0.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_1"
+		textureFile1 = "gfx/interface/political/pie/religion/1.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_2"
+		textureFile1 = "gfx/interface/political/pie/religion/2.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_3"
+		textureFile1 = "gfx/interface/political/pie/religion/3.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_4"
+		textureFile1 = "gfx/interface/political/pie/religion/4.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_5"
+		textureFile1 = "gfx/interface/political/pie/religion/5.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_6"
+		textureFile1 = "gfx/interface/political/pie/religion/6.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_7"
+		textureFile1 = "gfx/interface/political/pie/religion/7.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_8"
+		textureFile1 = "gfx/interface/political/pie/religion/8.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_9"
+		textureFile1 = "gfx/interface/political/pie/religion/9.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_10"
+		textureFile1 = "gfx/interface/political/pie/religion/10.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_11"
+		textureFile1 = "gfx/interface/political/pie/religion/11.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_12"
+		textureFile1 = "gfx/interface/political/pie/religion/12.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_13"
+		textureFile1 = "gfx/interface/political/pie/religion/13.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_14"
+		textureFile1 = "gfx/interface/political/pie/religion/14.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_15"
+		textureFile1 = "gfx/interface/political/pie/religion/15.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_16"
+		textureFile1 = "gfx/interface/political/pie/religion/16.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_17"
+		textureFile1 = "gfx/interface/political/pie/religion/17.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_18"
+		textureFile1 = "gfx/interface/political/pie/religion/18.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_political_pie_religion_19"
+		textureFile1 = "gfx/interface/political/pie/religion/19.png"
+		textureFile2 = "gfx/interface/political/pie/religion/_empty.png"
+		size = { x = 102 y = 102 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
+}

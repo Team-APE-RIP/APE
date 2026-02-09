@@ -35,6 +35,11 @@ add_ideas = BTA_idea_EmergencyMartial_show
 set_variable = { BTA.EmergencyMartial_stabilityFactor = 0.05 }
 set_variable = { BTA.EmergencyMartial_politicalPowerCost = 0.25 }
 add_dynamic_modifier = { modifier = BTA_EmergencyMartial_dynamic_modifiers }
+set_country_flag = USEPIERELIGION
+add_to_array = { ROOT.political_pie_religion_array = 27 }
+add_to_array = { ROOT.political_pie_religion_array = 13 }
+add_to_array = { ROOT.political_pie_religion_array = 77 }
+add_to_array = { ROOT.political_pie_religion_array = 54 }
 set_country_flag = BTA_ReginaldBlackwell_IG54VS4
 set_variable = { ROOT.secondLeaderFrame = 1 }
 set_variable = { ROOT.secondLeader = 1 }

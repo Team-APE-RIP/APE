@@ -338,6 +338,12 @@ guiTypes = {
 				spriteType = "GFX_political_chart"
 				position = { x = 148 y = 7 }
 			}
+		    containerWindowType = {
+			    name = "political_pie_view"
+			    position = { x= 0 y = 0 }
+			    size = { width=1 height=1 }
+			    clipping = no
+		    }
 		}
 		iconType ={
 			name ="pol_faction_icon"
