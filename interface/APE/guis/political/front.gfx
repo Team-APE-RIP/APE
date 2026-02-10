@@ -1,0 +1,37 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_political_frontBtns_A"
+		texturefile = "gfx/interface/political/frontBtns/A.png"
+		effectFile = "gfx/FX/buttonstate_nodownordisableeffect.lua"
+		noOfFrames = 1
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_frontBtns_B"
+		texturefile = "gfx/interface/political/frontBtns/B.png"
+		effectFile = "gfx/FX/buttonstate_nodownordisableeffect.lua"
+		noOfFrames = 1
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_frontBtns_C"
+		texturefile = "gfx/interface/political/frontBtns/C.png"
+		effectFile = "gfx/FX/buttonstate_nodownordisableeffect.lua"
+		noOfFrames = 3
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_frontBtns_D"
+		texturefile = "gfx/interface/political/frontBtns/D.png"
+		effectFile = "gfx/FX/buttonstate_nodownordisableeffect.lua"
+		noOfFrames = 1
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_frontBtns_E"
+		texturefile = "gfx/interface/political/frontBtns/E.png"
+		effectFile = "gfx/FX/buttonstate_nodownordisableeffect.lua"
+		noOfFrames = 1
+        transparencecheck = yes
+	}
+}

@@ -363,72 +363,41 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "ruling_party_info"
-			position = { x = 0 y = 300 }
+			position = { x = 7 y = 53 }
 			size = { width = 255 height = 60 }
 			clipping = no
-			instantTextboxType = {
-				name = "ideology"
-				position = { x = 9 y = 8 }
-				font = "AAGCZYRL18"
-				text = "ideology"
-				maxWidth = 155
-				maxHeight = 20
-			}
-			instantTextboxType = {
-				name = "elections"
-				position = { x = 9 y = 29 }
-				font = "hoi_16mbs"
-				text = "elections"
-				maxWidth = 155
-				maxHeight = 32
-				vertical_alignment = center
-			}
+			instantTextboxType = { name = "ideology" position = { x = 9 y = 8000 } font = "AAGCZYRL18" text = "ideology" maxWidth = 155 maxHeight = 20 } instantTextboxType = { name = "elections" position = { x = 9 y = 29000 } font = "hoi_16mbs" text = "elections" maxWidth = 155 maxHeight = 32 vertical_alignment = center }
 			containerWindowType = {
 				name = "faction"
-				position = { x = 110 y = -10}
-				size = { width = 175 height = 20 }
-				clipping = no
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				clipping = no	
+				buttonType = {
+					name = "view_factions_button"
+					quadTextureSprite = "GFX_political_frontBtns_B"
+					position = { x = 0 y = 0}
+					pdx_tooltip = "VIEW_FACTION"
+				}				
+				iconType = { name = "view_faction_icon" spriteType = "GFX_relation_faction" position = { x = 192 y = 20000} alwaystransparent = yes }	
 				containerWindowType = {
 					name = "no_faction"
 					size = { width = 100%% height = 100% }
 					buttonType = {
 						name = "new_faction_button"
-						quadTextureSprite = "GFX_factions_button"
-						position = { x = 0 y = -12 }
+						quadTextureSprite = "GFX_political_frontBtns_C"
+						position = { x = 0 y = 0 }
 						buttonFont = "hoi_16mbs"
 						buttonText = ""
-						frame = 2
+						frame = 1
 					}
-					instantTextboxType = {
-						name = "view_factions_text"
-						position = { x = 53 y = 5 }
-						font = "AAGCZYRL18"
-						text = "CREATE_FACTION"
-						maxWidth = 143
-						maxHeight = 20
-						fixedsize = yes
-						format = left
-						alwaystransparent = yes
-					}
+					instantTextboxType = { name = "view_factions_text" position = { x = 53 y = 11115 } font = "AAGCZYRL18" text = "CREATE_FACTION" maxWidth = 143 maxHeight = 20 fixedsize = yes format = left alwaystransparent = yes }
 					iconType = {
 						name = "create_faction_icon"
 						spriteType = "GFX_tension_war_list_major"
-						position = { x = 12 y = 0}
+						position = { x = 540 y = 139 }
 						alwaystransparent = yes
 					}														
-				}	
-				buttonType = {
-					name = "view_factions_button"
-					quadTextureSprite = "GFX_icon_button_32x32"
-					position = { x = 190 y = 0}
-					pdx_tooltip = "VIEW_FACTION"
-				}				
-				iconType = {
-					name = "view_faction_icon"
-					spriteType = "GFX_relation_faction"
-					position = { x = 192 y = 2}
-					alwaystransparent = yes
-				}	
+				}
 				containerWindowType = {
 					name = "original_in_faction"
 					size = { width = 100%% height = 100% }
@@ -453,8 +422,8 @@ guiTypes = {
 					size = { width = 100%% height = 100% }
 					buttonType = {
 						name = "open_faction_button"
-						quadTextureSprite = "GFX_factions_button"
-						position = { x = -9 y = -13 }
+						quadTextureSprite = "GFX_political_frontBtns_C"
+						position = { x = 0 y = 0 }
 						buttonFont = "hoi_16mbs"
 						Orientation = "UPPER_LEFT"
 						frame = 1
@@ -462,23 +431,10 @@ guiTypes = {
 					iconType = {
 						name = "faction_icon"
 						spriteType = "GFX_faction_logo_generic_democratic"
-						position = { x = 3 y = -1}
+						position = { x = 540 y = 139}
 						alwaystransparent = yes
 					}
-					positionType = {
-						name = "faction_name_position" #position y will be - half the height to keep it centered
-						position = { x = 40 y = 14  }
-					}
-					instantTextboxType = {
-						name = "faction_name" 
-						font = "AAGCZYRL18"
-						text = ""
-						maxWidth = 138
-						maxHeight = 40
-						fixedsize = yes
-						format = left
-						alwaystransparent = yes
-					}
+					positionType = { name = "faction_name_position" position = { x = 40 y = 11114  } } instantTextboxType = { name = "faction_name"  font = "AAGCZYRL18" text = "" maxWidth = 138 maxHeight = 40 fixedsize = yes format = left alwaystransparent = yes }
 				}
 			}
 			containerWindowType = {
@@ -527,6 +483,32 @@ guiTypes = {
 				}
 			}			
 		}
+		buttonType = {
+			name = "manage_occupied_button"
+			position = { x = 7 y = 53 }
+			quadTextureSprite = "GFX_political_frontBtns_E"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+		}		
+		containerWindowType = {
+			name = "subjects_button_container" 
+			position = { x = 0 y = 0 }
+			buttonType = {
+				name = "show_subjects_button"
+				position = { x = 7 y = 53 }
+				quadTextureSprite = "GFX_political_frontBtns_D"
+				buttonFont = "hoi_16mbs"
+			}
+			instantTextboxType = { name = "show_subjects_button_text" position = { x = 32000 y = 8 } font = "hoi_16mbs" text = "MANAGE_SUBJECTS" Orientation = "UPPER_LEFT" maxWidth = 130 alwaystransparent = yes format = center } iconType = { name = "icon_manage_subjects" spriteType = "GFX_icon_manage_subjects" position = { x = 20000 y = 1 } alwaystransparent = yes }
+		}
+		buttonType = {
+			name = "show_exiles_collaborations_button"
+			position = { x = 7 y = 53 }
+			quadTextureSprite = "GFX_political_frontBtns_A"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
 		
 		containerWindowType = {
 			name = "ideas"
@@ -554,108 +536,7 @@ guiTypes = {
 			}
 		}
 
-		iconType ={
-			name ="tutorial_glow"
-			spriteType = "GFX_tutorial_politics_icon_glow"
-			position = { x= 12 y = 383 }
-			Orientation = "UPPER_LEFT"
-			hide = yes
-		}	
-
-		iconType ={
-			name ="politics_bottom"
-			spriteType = "GFX_main_screens_bottom"
-			position = { x = -2 y = 383 }
-			Orientation = "UPPER_LEFT"
-			scale = 1.02
-		}
-
-		iconType = {
-			name = "rules"
-			spriteType = "GFX_rules_sum_icon"
-			position = { x = 460 y = 70000 }
-		}
-
-		buttonType = {
-			name = "manage_occupied_button"
-			position = { x = 10 y = 390 }
-			quadTextureSprite = "GFX_government_button"
-			buttonFont = "hoi_16mbs"
-			Orientation = "UPPER_LEFT"
-		}
-
-		instantTextboxType = {
-			name = "manage_occupied_button_text"
-			position = { x = 48 y = 398 }
-			font = "hoi_16mbs"
-			text = "MANAGE_OCCUPIED_TERRITORIES"
-			maxWidth = 122
-			alwaystransparent = yes
-		}
-		
-		containerWindowType = {
-			name = "subjects_button_container"
-			position = { x = 367 y = 390 }
-
-			buttonType = {
-				name = "show_subjects_button"
-				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_government_button"
-				buttonFont = "hoi_16mbs"
-				Orientation = "UPPER_RIGHT"
-			}
-
-			instantTextboxType = {
-				name = "show_subjects_button_text"
-				position = { x = 32 y = 8 }
-				font = "hoi_16mbs"
-				text = "MANAGE_SUBJECTS"
-				Orientation = "UPPER_LEFT"
-				maxWidth = 130
-				alwaystransparent = yes
-				format = center
-			}
-
-			iconType = {
-				name = "icon_manage_subjects"
-				spriteType = "GFX_icon_manage_subjects"
-				position = { x = 2 y = 1 }
-				alwaystransparent = yes
-			}
-		}
-		
-		buttonType = {
-			name = "show_exiles_collaborations_button"
-			position = { x = 190 y = 390 }
-			quadTextureSprite = "GFX_government_button"
-			buttonFont = "hoi_16mbs"
-			Orientation = "UPPER_LEFT"
-			format = right
-		}
-
-		instantTextboxType = {
-			name = "manage_exiled_collaborations_governments"
-			position = { x = 223 y = 398 }
-			font = "hoi_16mbs"
-			maxWidth = 130
-			maxHeight = 20
-			fixedsize = yes
-			text = "MANAGE_EXILED_GOVERNMENTS"
-			alwaystransparent = yes
-			format = center
-		}
-				
-		iconType = {
-			name = "icon_exiled_collaborations_governments"
-			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 192 y = 391 }
-		}
-
-		iconType = {
-			name = "icon_occupied_territories"
-			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 391 }
-		}
+		iconType ={ name ="tutorial_glow" spriteType = "GFX_tutorial_politics_icon_glow" position = { x= 12 y = 38300 } Orientation = "UPPER_LEFT" hide = yes } iconType ={ name ="politics_bottom" spriteType = "GFX_main_screens_bottom" position = { x = -2 y = 38000 } Orientation = "UPPER_LEFT" scale = 1.02 } iconType = { name = "rules" spriteType = "GFX_rules_sum_icon" position = { x = 460 y = 70000 } } instantTextboxType = { name = "manage_occupied_button_text" position = { x = 48 y = 39800 } font = "hoi_16mbs" text = "MANAGE_OCCUPIED_TERRITORIES" maxWidth = 122 alwaystransparent = yes } instantTextboxType = { name = "manage_exiled_collaborations_governments" position = { x = 223 y = 39800 } font = "hoi_16mbs" maxWidth = 130 maxHeight = 20 fixedsize = yes text = "MANAGE_EXILED_GOVERNMENTS" alwaystransparent = yes format = center }	iconType = { name = "icon_exiled_collaborations_governments" spriteType = "GFX_icon_exiled_governments" position = { x = 192 y = 39100 }} iconType = { name = "icon_occupied_territories" spriteType = "GFX_icon_occupied_territories" position = { x = 12 y = 39100 } }
 
 		containerWindowType = {
 			name = "politics_over_view"
