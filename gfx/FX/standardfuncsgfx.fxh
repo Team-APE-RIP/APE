@@ -220,7 +220,8 @@ PixelShader =
 
 	float3 ApplyDistanceFog( float3 vColor, float vFogFactor )
 	{
-		return lerp( vColor, FOG_COLOR, vFogFactor );
+		// Darken the fog to match the global night style
+		return lerp( vColor, FOG_COLOR * 0.1f, vFogFactor );
 	}
 
 	float3 ApplyDistanceFog( float3 vColor, float3 vPos )
@@ -358,7 +359,7 @@ PixelShader =
 	float DayNightFactor( float3 vGlobeNormal, float vMin, float vMax )
 	{
 		float vDot = dot( vGlobeNormal, DayNight_Hour_SunDir.yzw );
-		return smoothstep( vMax, vMin, vDot );
+		return saturate( ( vDot - vMin ) / ( vMax - vMin ) ) * vFoWOpacity_FoWTime_SnowMudFade_MaxGameSpeed.w;
 	}
 
 
@@ -390,14 +391,13 @@ PixelShader =
 		//return vec3( DayNightFactor( vGlobeNormal ) );
 
 	    // lerp between day and night
-		// Force night darkness (1.0f) but keep lights off via DayNightFactor returning 0 elsewhere
-		return lerp( vDayColor, NightifyColor(vDayColor, vBlend), 1.0f * NIGHT_OPACITY );
+		return lerp( vDayColor, NightifyColor(vDayColor, vBlend), DayNightFactor( vGlobeNormal ) * NIGHT_OPACITY );
 	}
 
 	// Darken the color by the night opacity
 	float3 DayNight( float3 vDayColor, float3 vGlobeNormal )
 	{	
-		return DayNightWithBlend(vDayColor, vGlobeNormal, 1.0f);
+		return DayNightWithBlend(vDayColor, vGlobeNormal, 0.0f);
 	}
 
 	float3 DayNightCityMask( float3 vDayColor, float3 vGlobeNormal, float vCityLightMask, float vFogFactor )
@@ -409,13 +409,9 @@ PixelShader =
 		float vNightFactor = DayNightFactor( vGlobeNormal );
 
 	    // lerp between day and night
-		// Force night darkness for the base color
-		float3 Result = lerp( vDayColor, NightifyColor(vDayColor , 0.0f), 1.0f * NIGHT_OPACITY );
-		
-        // Use REAL night factor for lights (lights on at night, off at day)
-        float cityNight = pow(saturate(vNightFactor), 3.0f);
-        Result += vCityLightMask * float3(2.0f, 2.0f, 0.3f) * cityNight * (1.0f - vFogFactor * vFogFactor);
+		float3 Result = lerp( vDayColor, NightifyColor(vDayColor , 0.0f), vNightFactor * NIGHT_OPACITY );
 
+		Result += vCityLightMask * float3(2.0f, 2.0f, 0.3f) * vNightFactor * (1.0f - vFogFactor * vFogFactor);
 
 		return Result;
 	}
@@ -684,7 +680,7 @@ PixelShader =
 	float3 ComposeLight(LightingProperties aProperties, float3 aDiffuseLight, float3 aSpecularLight )
 	{
 		// Force Night Ambient for Ocean/Map
-		float vDayNight = 1.0f; 
+		float vDayNight = 0.0f; 
 
 		float3 vAmbientColor = AmbientLight(aProperties._Normal, vDayNight);
 		float3 diffuse = ((vAmbientColor + aDiffuseLight) * aProperties._Diffuse) * HdrRange;
@@ -917,17 +913,27 @@ PixelShader =
 		float2 vUV2 = float2( vUV.x, vUV.y + 0.5f );
 
 		// Calculate color and transparency of both channels
-		float3 vGradMix;
+		float3 vGradMix1 = vColor;
+		float3 vGradMix2 = vColor;
 		
-		float vAlpha1 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh1, vNormal, vUV, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.x, GB_STRENGTH_CH1 );
+		float vAlpha1 = gradient_border_process_channel( vGradMix1, vColor, vGBCamDistCh1, vNormal, vUV, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.x, GB_STRENGTH_CH1 );
+		float vAlpha2 = gradient_border_process_channel( vGradMix2, vColor, vGBCamDistCh2, vNormal, vUV2, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.y, GB_STRENGTH_CH2 );
+
 		// Now mix, the resultat with background
 		float TranspA = tex2D( TexCh2, vUV ).g;		
-		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspA );
-		
-		
-		float vAlpha2 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh2, vNormal, vUV2, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.y, (1.0 - vAlpha1 * GB_STRENGTH_CH1 * GB_FIRST_LAYER_PRIORITY) * GB_STRENGTH_CH2 );
 		float TranspB = tex2D( TexCh2, vUV2 ).g;
-		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspB );
+
+		float FadeFactor = ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) );
+		
+		// Fix: Take the one with higher opacity to ensure consistency
+		if ( vAlpha1 * GB_STRENGTH_CH1 * TranspA > vAlpha2 * GB_STRENGTH_CH2 * TranspB )
+		{
+			vColor = lerp( vColor, vGradMix1, FadeFactor * TranspA );
+		}
+		else
+		{
+			vColor = lerp( vColor, vGradMix2, FadeFactor * TranspB );
+		}
 		
 	//vColor = GetOverlay( vColor, ToLinear(vGradMix), 0.80);
 
@@ -989,12 +995,7 @@ PixelShader =
 	
 	void secondary_color_mask( inout float3 vColor, float3 vNormal, float2 vUV, in sampler2D TexMaskSampler, inout float vBloomAlpha )
 	{
-		float4 vColorMask = tex2D( TexMaskSampler, vUV ).rgba;
-
-		float vOccupationMask = CalculateOccupationMask( vUV );
-		vOccupationMask *= vColorMask.a;
-		vBloomAlpha = vBloomAlpha * ( 1.0f - vOccupationMask );
-		vColor = lerp( vColor, vColorMask.rgb, vOccupationMask );
+		// Completely disabled to remove strategic area grey mask
 	}
 	
 	void dominance_fx_apply(inout float3 Color, float3 Normal, float2 UV, in sampler2D Texture1, in sampler2D Texture2, in sampler2D Texture3, float2 OutlineCutoff, float2 CameraDistOverride, float OutlineMult)
