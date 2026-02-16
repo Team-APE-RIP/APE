@@ -31,6 +31,8 @@ recruit_character = BTA_ReginaldBlackwell
 recruit_character = BTA_KingWilliamVMounbattenWindsor
 #fuckParadox
 set_variable = { APEMainThemeID = 5 } # APEMainTheme - Britannia’s Echoes
+add_ideas = { ministerSlot1_empty ministerSlot2_empty ministerSlot3_empty ministerSlot4_empty ministerSlot5_empty ministerSlot6_empty ministerSlot7_empty ministerSlot8_empty ministerSlot9_empty } # empty
+add_ideas = { ideaShow0 ideaShow1 ideaShow2 ideaShow3 ideaShow4 ideaShow5 ideaShow6 ideaShow7 ideaShow8 ideaShow9 } # TEST
 add_ideas = BTA_idea_EmergencyMartial_show
 set_variable = { BTA.EmergencyMartial_stabilityFactor = 0.05 }
 set_variable = { BTA.EmergencyMartial_politicalPowerCost = 0.25 }
@@ -58,6 +60,7 @@ add_to_array = { ROOT.political_pie_religion_array = 5 }
 add_to_array = { ROOT.political_pie_religion_array = 5 }
 add_to_array = { ROOT.political_pie_religion_array = 5 }
 ############################
+set_variable = { ROOT.politicalGoalsBtnImage = 1 }
 set_country_flag = BTA_ReginaldBlackwell_IG54VS4
 set_variable = { ROOT.secondLeaderFrame = 1 }
 set_variable = { ROOT.secondLeader = 1 }

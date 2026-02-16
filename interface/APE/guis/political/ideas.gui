@@ -1,0 +1,34 @@
+guiTypes = {
+	containerWindowType = {
+		name = "political_ideas_window"
+		position = { x=0 y=0 }
+		size = { width = 1 height = 1 }
+		moveable = no
+		clipping = no
+		gridboxtype = {
+			name = "political_ideas_name_grid"
+			position = { x = 37 y = 0 }
+			size = { width = 1 height = 1 }
+			slotsize = { width = 176 height = 201 }
+			max_slots = { x = 3 y = 101 }
+			format = "UPPER_LEFT"
+		}
+	}
+	containerWindowType = {
+		name = "political_ideas_name_entry"
+		position = { x=0 y=0 }
+		size = { width = 176 height = 201 }
+		moveable = no
+		clipping = no
+		instantTextboxType = {
+			name = "political_ideas_name"
+			format = center
+			position = { x = 7 y = 158 }
+			text = "ministerSlot[?political_ideas_name_value]"
+			maxWidth = 160
+			maxHeight = 48
+			vertical_alignment = center
+			format = center
+		}			
+	}
+}

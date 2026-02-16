@@ -242,7 +242,7 @@ spriteTypes = {
 					
 	spriteType = {
 		name = "GFX_select_advisor"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {

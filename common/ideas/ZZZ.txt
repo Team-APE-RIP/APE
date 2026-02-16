@@ -1,6 +1,16 @@
 ideas = {
 
 	country = {
+		ideaShow0 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow1 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow2 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow3 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow4 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow5 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow6 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow7 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow8 = { picture = show allowed = { always = no } removal_cost = 1 }
+		ideaShow9 = { picture = show allowed = { always = no } removal_cost = 1 }
 		ZZZ_idea_BMair = {
 			picture = ZZZ_idea_BMair
 			allowed = {

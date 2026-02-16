@@ -1,0 +1,15 @@
+guiTypes = {
+	containerWindowType = {
+		name = "political_goalsBtn_window"
+		position = { x = 0 y = 0 }
+		size = { width = 1 height = 1 }
+		moveable = no
+		clipping = no
+		iconType = {
+			name = "political_goalsBtn"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_political_goalsBtn1"
+			alwaystransparent = yes
+		}
+	}
+}

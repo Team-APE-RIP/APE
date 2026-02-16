@@ -1,5 +1,10 @@
 spriteTypes = {
     SpriteType = {
+        name = "GFX_idea_show"
+        texturefile = "gfx/icons/ideas/ZZZ/show.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
         name = "GFX_idea_ZZZ_idea_BMair"
         texturefile = "gfx/icons/ideas/ZZZ/ZZZ_idea_BMair.png"
         transparencecheck = yes

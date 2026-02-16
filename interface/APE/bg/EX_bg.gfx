@@ -1,9 +1,49 @@
 spriteTypes = {   
+	spriteType = {
+		name = "GFX_msi_bg"
+		textureFile = "gfx/interface/bg/msi_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_SPinckEXwthSCLPDR161F4C"
+		textureFile = "gfx/interface/bg/SPinckEXwthSCLPDR161F4C.dds"
+	}
 	corneredTileSpriteType = {
 		name = "GFX_tiled_air_bg"
 		size= { x=190 y=190 }
 		textureFile = "gfx/interface/bg/tiled_air_bg.dds"
 		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckOver_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckOver_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckOverULMini_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckOverUL_bg.dds"
+		borderSize = { x=15 y=15 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckOverUL_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckOverUL_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_SPinckOverMini_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_SPinckOver_bg.dds"
+		borderSize = { x=15 y=15 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
@@ -78,9 +118,5 @@ spriteTypes = {
 		borderSize = { x=64 y=64 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
-	spriteType = {
-		name = "GFX_msi_bg"
-		textureFile = "gfx/interface/bg/msi_bg.dds"
 	}
 }

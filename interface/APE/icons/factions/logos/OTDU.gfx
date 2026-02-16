@@ -2,11 +2,13 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_faction_logo_OTDU"
 		texturefile = "gfx/icons/factions/logos/OTDU/b.png"
+        transparencecheck = yes
 		noOfFrames = 2
 	}
     spriteType = {
 		name = "GFX_faction_logo_OTDU_miniature"
 		texturefile = "gfx/icons/factions/logos/OTDU/m.png"
+        transparencecheck = yes
 	}
 }
 

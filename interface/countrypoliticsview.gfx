@@ -277,27 +277,27 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_slot_high_command"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_air_chief"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_navy_chief"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_army_chief"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_slot_theorist"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {
@@ -327,7 +327,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_slot_political_advisor"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+		textureFile = "gfx/images/leaders/leader_unknown.dds"
 	}
 
 	spriteType = {

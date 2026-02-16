@@ -9,3 +9,19 @@ set_popularities = {
 	IdeologyGroup0 = 100
 }
 every_possible_country = { set_variable = { global.nfvT_animeIconFrame = 2 } mark_focus_tree_layout_dirty = yes } # Anime focus icon
+add_ideas = { ideaShow0 ideaShow1 ideaShow2 ideaShow3 ideaShow4 ideaShow5 ideaShow6 ideaShow7 ideaShow8 ideaShow9 }
+add_to_array = { global.political_ideas = 1 }
+add_to_array = { global.political_ideas = 2 }
+add_to_array = { global.political_ideas = 3 }
+add_to_array = { global.political_ideas = 4 }
+add_to_array = { global.political_ideas = 5 }
+add_to_array = { global.political_ideas = 6 }
+add_to_array = { global.political_ideas = 7 }
+add_to_array = { global.political_ideas = 8 }
+add_to_array = { global.political_ideas = 9 }
+add_to_array = { global.political_ideas = 10 }
+add_to_array = { global.political_ideas = 11 }
+add_to_array = { global.political_ideas = 12 }
+add_to_array = { global.political_ideas = 13 }
+add_to_array = { global.political_ideas = 14 }
+add_to_array = { global.political_ideas = 15 }

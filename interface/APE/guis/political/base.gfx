@@ -7,4 +7,52 @@ spriteTypes = {
 		name = "GFX_political_pie_over"
 		texturefile = "gfx/interface/political/pie_over.png"
 	}
+    spriteType = {
+		name = "GFX_political_goalsBtn"
+		texturefile = "gfx/interface/political/goalsBtn.png"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot1_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot2_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot3_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot4_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot5_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot6_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot7_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot8_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ministerSlot9_empty"
+		texturefile = "gfx/images/leaders/leader_unknown.dds"
+	}
+	progressbartype = {
+		name = "GFX_political_activegoal_progress"
+		textureFile1 = "gfx/interface/political/progressFocusB.png"
+		textureFile2 = "gfx/interface/political/progressFocusA.png"
+		size = { x = 238 y = 187 }
+		effectFile = "gfx/FX/progress_radial.lua"
+        transparencecheck = yes
+	}
 }

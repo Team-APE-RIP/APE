@@ -1,0 +1,83 @@
+ideas = {
+    ministerSlot1 = {
+	    ministerSlot1_empty = {
+		    name = ministerSlot1_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot2 = {
+	    ministerSlot2_empty = {
+		    name = ministerSlot2_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot3 = {
+	    ministerSlot3_empty = {
+		    name = ministerSlot3_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot4 = {
+	    ministerSlot4_empty = {
+		    name = ministerSlot4_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot5 = {
+	    ministerSlot5_empty = {
+		    name = ministerSlot5_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot6 = {
+	    ministerSlot6_empty = {
+		    name = ministerSlot6_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot7 = {
+	    ministerSlot7_empty = {
+		    name = ministerSlot7_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot8 = {
+	    ministerSlot8_empty = {
+		    name = ministerSlot8_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+    ministerSlot9 = {
+	    ministerSlot9_empty = {
+		    name = ministerSlot9_empty
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+}

@@ -20,8 +20,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "country_view_advisor_entry"
-		position = { x = 0 y = -47 }
-		size = { width = 53 height = 53 }
+		position = { x = 0 y = 0 }
+		size = { width = 176 height = 201 }
 		clipping = no
 
 		iconType = {
@@ -34,14 +34,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "button"
-			position = { x = 0 y = 47 }
-			spriteType = "GFX_add_pol_idea_button"
+			position = { x = 8 y = 8 }
+			spriteType = "GFX_idea_ministerSlot1_empty"
 			no_clicksound = yes
 		}
 
 		iconType = {
 			name = "idea_traits"
-			position = { x = 43 y = 93 }
+			position = { x = 43 y = 93000 }
 			spriteType = "GFX_idea_traits_strip"
 			centerposition = yes
 			alwaystransparent = yes
@@ -50,12 +50,21 @@ guiTypes = {
 
 		iconType = {
 			name = "advisor_type_icon"
-			position = { x = 43 y = 93 }
+			position = { x = 43 y = 93000 }
 			spriteType = "GFX_chief_and_theorist_strip"
 			centerposition = yes
 			alwaystransparent = yes
 			frame = 6
 		}
+		
+		iconType = {
+			name = "idea_frame"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_APE_country_selection_entry"
+			alwaystransparent = yes
+			frame = 2
+		}
+		
 	}
 	
 	containerWindowType = {
