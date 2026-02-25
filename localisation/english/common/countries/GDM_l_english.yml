@@ -1,0 +1,8 @@
+﻿l_english:
+
+ GDM: "German Denmark"
+ GDM_DEF: "$GDM$"
+ GDM_ADJ: "German-Danish"
+ GDM_autonomy_DMK_GDMA: "Danish $autonomy_DMK_GDMA$"
+ GDM_autonomy_DMK_GDMA_DEF: "$GDM_autonomy_DMK_GDMA$"
+ GDM_autonomy_DMK_GDMA_ADJ: "$OVERLORDADJ$ $GDM_autonomy_DMK_GDMA$"

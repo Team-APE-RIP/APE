@@ -1,0 +1,8 @@
+﻿l_english:
+
+ RHN: "Rhineland"
+ RHN_DEF: "$RHN$"
+ RHN_ADJ: "$RHN$"
+ RHN_autonomy_FRA_RHNA: "Eastern Countries $autonomy_FRA_RHNA$"
+ RHN_autonomy_FRA_RHNA_DEF: "$RHN_autonomy_FRA_RHNA$"
+ RHN_autonomy_FRA_RHNA_ADJ: "$OVERLORDADJ$ $RHN_autonomy_FRA_RHNA$"

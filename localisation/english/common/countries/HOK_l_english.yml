@@ -1,0 +1,8 @@
+﻿l_english:
+
+ HOK: "Hong Kong"
+ HOK_DEF: "$HOK$"
+ HOK_ADJ: "Hong Kong"
+ HOK_autonomy_NAL_HOKA: "Hong Kong $autonomy_NAL_HOKA$"
+ HOK_autonomy_NAL_HOKA_DEF: "$HOK_autonomy_NAL_HOKA$"
+ HOK_autonomy_NAL_HOKA_ADJ: "$OVERLORDADJ$ $HOK_autonomy_NAL_HOKA$"

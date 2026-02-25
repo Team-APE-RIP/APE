@@ -1,0 +1,8 @@
+﻿l_english:
+
+ ADR: "Andorra"
+ ADR_DEF: "$ADR$"
+ ADR_ADJ: "Andorran"
+ ADR_autonomy_FRA_ADRT: "Principality of Andorra"
+ ADR_autonomy_FRA_ADRT_DEF: "$ADR_autonomy_FRA_ADRT$"
+ ADR_autonomy_FRA_ADRT_ADJ: "Andorran"

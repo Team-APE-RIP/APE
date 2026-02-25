@@ -1,0 +1,8 @@
+﻿l_english:
+
+ GRL: "Greenland"
+ GRL_DEF: "$GRL$"
+ GRL_ADJ: "Greenlandic"
+ GRL_autonomy_DMK_GRLA: "Greenland $autonomy_DMK_GRLA$"
+ GRL_autonomy_DMK_GRLA_DEF: "$GRL_autonomy_DMK_GRLA$"
+ GRL_autonomy_DMK_GRLA_ADJ: "$OVERLORDADJ$ $GRL_autonomy_DMK_GRLA$"

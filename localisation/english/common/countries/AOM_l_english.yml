@@ -1,0 +1,8 @@
+﻿l_english:
+
+ AOM: "Macau"
+ AOM_DEF: "$AOM$"
+ AOM_ADJ: "Macanese"
+ AOM_autonomy_WZS_WZSZA: "Macau $autonomy_WZS_WZSZA$"
+ AOM_autonomy_WZS_WZSZA_DEF: "$AOM_autonomy_WZS_WZSZA$"
+ AOM_autonomy_WZS_WZSZA_ADJ: "$OVERLORDADJ$ $AOM_autonomy_WZS_WZSZA$"

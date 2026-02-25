@@ -1,0 +1,8 @@
+﻿l_english:
+
+ FOR: "Faroe Islands"
+ FOR_DEF: "$FOR$"
+ FOR_ADJ: "Faroese"
+ FOR_autonomy_DMK_FORA: "Faroe Islands $autonomy_DMK_FORA$"
+ FOR_autonomy_DMK_FORA_DEF: "$FOR_autonomy_DMK_FORA$"
+ FOR_autonomy_DMK_FORA_ADJ: "$OVERLORDADJ$ $FOR_autonomy_DMK_FORA$"

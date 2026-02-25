@@ -1,0 +1,8 @@
+﻿l_english:
+
+ SHT: "Shantou"
+ SHT_DEF: "$SHT$"
+ SHT_ADJ: "$SHT$"
+ SHT_autonomy_NAL_SHTA: "Shantou $autonomy_NAL_SHTA$"
+ SHT_autonomy_NAL_SHTA_DEF: "$SHT_autonomy_NAL_SHTA$"
+ SHT_autonomy_NAL_SHTA_ADJ: "$OVERLORDADJ$ $SHT_autonomy_NAL_SHTA$"

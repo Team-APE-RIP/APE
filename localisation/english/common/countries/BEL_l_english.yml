@@ -1,0 +1,8 @@
+﻿l_english:
+
+ BEL: "Belgium"
+ BEL_DEF: "$BEL$"
+ BEL_ADJ: "Belgian"
+ BEL_autonomy_FRA_BELA: "Lowlands $autonomy_FRA_BELA$"
+ BEL_autonomy_FRA_BELA_DEF: "$BEL_autonomy_FRA_BELA$"
+ BEL_autonomy_FRA_BELA_ADJ: "$OVERLORDADJ$ $BEL_autonomy_FRA_BELA$"

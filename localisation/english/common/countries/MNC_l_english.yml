@@ -1,0 +1,8 @@
+﻿l_english:
+
+ MNC: "Monaco"
+ MNC_DEF: "$MNC$"
+ MNC_ADJ: "Monegasque"
+ MNC_autonomy_FRA_MNCP: "Principality of Monaco"
+ MNC_autonomy_FRA_MNCP_DEF: "$MNC_autonomy_FRA_MNCP$"
+ MNC_autonomy_FRA_MNCP_ADJ: "Monegasque"

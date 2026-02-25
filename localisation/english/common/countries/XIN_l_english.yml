@@ -1,0 +1,8 @@
+﻿l_english:
+
+ XIN: "Xinjiang"
+ XIN_DEF: "$XIN$"
+ XIN_ADJ: "$XIN$"
+ XIN_autonomy_CHI_XINMR: "Greater Northwest $autonomy_CHI_XINMR$"
+ XIN_autonomy_CHI_XINMR_DEF: "$XIN_autonomy_CHI_XINMR$"
+ XIN_autonomy_CHI_XINMR_ADJ: "$OVERLORDADJ$ $XIN_autonomy_CHI_XINMR$"
