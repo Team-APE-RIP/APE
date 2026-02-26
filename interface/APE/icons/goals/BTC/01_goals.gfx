@@ -1,0 +1,82 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_00"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_00.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_02_A"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_02_A.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_02_B"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_02_B.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_04_A"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_04_A.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_04_B"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_04_B.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_04_C"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_04_C.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_06_A"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_06_A.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_06_B"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_06_B.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_06_C"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_06_C.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_06_D"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_06_D.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_08_A"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_08_A.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_08_B"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_08_B.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_08_C"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_08_C.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_08_D"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_08_D.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_08_E"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_08_E.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTC_01_FS_10"
+        texturefile = "gfx/icons/goals/BTC/BTC_01_FS_10.png"
+        transparencecheck = yes
+    }
+}

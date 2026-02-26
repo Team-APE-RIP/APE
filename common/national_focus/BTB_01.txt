@@ -1,0 +1,194 @@
+#!gfx:interface\APE\icons\goals\BTB\01_goals.gfx
+#!gfx:interface\APE\icons\goals\BTB\01_goals_anime.gfx
+focus_tree = {
+	id = BTB_01
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BTB
+		}
+	}
+	shared_focus = BTB_01_FS_00
+	default = no
+    continuous_focus_position = { x = 200 y = 200 }
+	initial_show_position = { x = 0 y = 0 }
+}
+    shared_focus = {
+		id = BTB_01_FS_00
+		icon = GFX_focus_goals_BTB_01_FS_00
+		dynamic = yes 
+		cost = 5
+		x = 21
+		y = 2
+		allow_branch = {
+		}
+	}
+	shared_focus = {
+		id = BTB_01_FS_02
+		icon = GFX_focus_goals_BTB_01_FS_02
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_00
+		}
+		x = 0
+		y = 2
+		relative_position_id = BTB_01_FS_00
+	}
+	shared_focus = {
+		id = BTB_01_FS_04_L
+		icon = GFX_focus_goals_BTB_01_FS_04_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_02
+		}
+		x = -4
+		y = 2
+		relative_position_id = BTB_01_FS_02
+	}
+	shared_focus = {
+		id = BTB_01_FS_04_C
+		icon = GFX_focus_goals_BTB_01_FS_04_C
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_02
+		}
+		x = 0
+		y = 2
+		relative_position_id = BTB_01_FS_02
+	}
+	shared_focus = {
+		id = BTB_01_FS_04_R
+		icon = GFX_focus_goals_BTB_01_FS_04_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_02
+		}
+		x = 4
+		y = 2
+		relative_position_id = BTB_01_FS_02
+	}
+	shared_focus = {
+		id = BTB_01_FS_06_L_L
+		icon = GFX_focus_goals_BTB_01_FS_06_L_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_04_L
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTB_01_FS_04_L
+	}
+	shared_focus = {
+		id = BTB_01_FS_06_L_R
+		icon = GFX_focus_goals_BTB_01_FS_06_L_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_04_L
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTB_01_FS_04_L
+	}
+	shared_focus = {
+		id = BTB_01_FS_06_R_L
+		icon = GFX_focus_goals_BTB_01_FS_06_R_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_04_R
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTB_01_FS_04_R
+	}
+	shared_focus = {
+		id = BTB_01_FS_06_R_R
+		icon = GFX_focus_goals_BTB_01_FS_06_R_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_04_R
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTB_01_FS_04_R
+	}
+	shared_focus = {
+		id = BTB_01_FS_08_L
+		icon = GFX_focus_goals_BTB_01_FS_08_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_06_L_L
+		}
+		prerequisite = {
+			focus = BTB_01_FS_06_L_R
+		}
+		x = 0
+		y = 4
+		relative_position_id = BTB_01_FS_04_L
+	}
+	shared_focus = {
+		id = BTB_01_FS_08_C
+		icon = GFX_focus_goals_BTB_01_FS_08_C
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_04_C
+		}
+		x = 0
+		y = 4
+		relative_position_id = BTB_01_FS_04_C
+	}
+	shared_focus = {
+		id = BTB_01_FS_08_R
+		icon = GFX_focus_goals_BTB_01_FS_08_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_06_R_L
+		}
+		prerequisite = {
+			focus = BTB_01_FS_06_R_R
+		}
+		x = 0
+		y = 4
+		relative_position_id = BTB_01_FS_04_R
+	}
+	shared_focus = {
+		id = BTB_01_FS_10_L
+		icon = GFX_focus_goals_BTB_01_FS_10_L
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_08_L
+		}
+		prerequisite = {
+			focus = BTB_01_FS_08_C
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTB_01_FS_08_C
+	}
+	shared_focus = {
+		id = BTB_01_FS_10_R
+		icon = GFX_focus_goals_BTB_01_FS_10_R
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTB_01_FS_08_C
+		}
+		prerequisite = {
+			focus = BTB_01_FS_08_R
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTB_01_FS_08_C
+	}

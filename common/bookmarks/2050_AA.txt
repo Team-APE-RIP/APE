@@ -55,6 +55,9 @@ bookmarks = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 			add_to_array = { global.INTCOUNTRIES = BTA }
+			add_to_array = { global.INTCOUNTRIES = BTB }
+			add_to_array = { global.INTCOUNTRIES = BTC }
+			add_to_array = { global.INTCOUNTRIES = BTD }
 		}
 	}
 }

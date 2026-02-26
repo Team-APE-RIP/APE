@@ -1,7 +1,7 @@
 #!gfx:interface\APE\icons\goals\BTD\01_goals.gfx
 #!gfx:interface\APE\icons\goals\BTD\01_goals_anime.gfx
 focus_tree = {
-	id = BTA_01
+	id = BTD_01
 	country = {
 		factor = 0
 		modifier = {

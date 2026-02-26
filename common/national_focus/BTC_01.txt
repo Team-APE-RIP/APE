@@ -1,0 +1,230 @@
+#!gfx:interface\APE\icons\goals\BTC\01_goals.gfx
+#!gfx:interface\APE\icons\goals\BTC\01_goals_anime.gfx
+focus_tree = {
+	id = BTC_01
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BTC
+		}
+	}
+	shared_focus = BTC_01_FS_00
+	default = no
+    continuous_focus_position = { x = 200 y = 200 }
+	initial_show_position = { x = 0 y = 0 }
+}
+    shared_focus = {
+		id = BTC_01_FS_00
+		icon = GFX_focus_goals_BTC_01_FS_00
+		dynamic = yes 
+		cost = 5
+		x = 21
+		y = 2
+		allow_branch = {
+		}
+	}
+	shared_focus = {
+		id = BTC_01_FS_02_A
+		icon = GFX_focus_goals_BTC_01_FS_02_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_00
+		}
+		x = -2
+		y = 2
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_02_B
+		icon = GFX_focus_goals_BTC_01_FS_02_B
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_00
+		}
+		x = 2
+		y = 2
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_04_A
+		icon = GFX_focus_goals_BTC_01_FS_04_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_02_A
+		}
+		x = -4
+		y = 4
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_04_B
+		icon = GFX_focus_goals_BTC_01_FS_04_B
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_02_A
+		}
+		prerequisite = {
+			focus = BTC_01_FS_02_B
+		}
+		x = 0
+		y = 4
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_04_C
+		icon = GFX_focus_goals_BTC_01_FS_04_C
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_02_B
+		}
+		x = 4
+		y = 4
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_06_A
+		icon = GFX_focus_goals_BTC_01_FS_06_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_04_A
+		}
+		x = -6
+		y = 6
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_06_B
+		icon = GFX_focus_goals_BTC_01_FS_06_B
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_04_A
+		}
+		prerequisite = {
+			focus = BTC_01_FS_04_B
+		}
+		x = -2
+		y = 6
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_06_C
+		icon = GFX_focus_goals_BTC_01_FS_06_C
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_04_B
+		}
+		prerequisite = {
+			focus = BTC_01_FS_04_C
+		}
+		x = 2
+		y = 6
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_06_D
+		icon = GFX_focus_goals_BTC_01_FS_06_D
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_04_C
+		}
+		x = 6
+		y = 6
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_08_A
+		icon = GFX_focus_goals_BTC_01_FS_08_A
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_06_A
+		}
+		x = -8
+		y = 8
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_08_B
+		icon = GFX_focus_goals_BTC_01_FS_08_B
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_06_A
+		}
+		x = -4
+		y = 8
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_08_C
+		icon = GFX_focus_goals_BTC_01_FS_08_C
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_06_B
+		}
+		prerequisite = {
+			focus = BTC_01_FS_06_C
+		}
+		x = 0
+		y = 8
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_08_D
+		icon = GFX_focus_goals_BTC_01_FS_08_D
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_06_D
+		}
+		x = 4
+		y = 8
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_08_E
+		icon = GFX_focus_goals_BTC_01_FS_08_E
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_06_D
+		}
+		x = 8
+		y = 8
+		relative_position_id = BTC_01_FS_00
+	}
+	shared_focus = {
+		id = BTC_01_FS_10
+		icon = GFX_focus_goals_BTC_01_FS_10
+		dynamic = yes 
+		cost = 20
+		prerequisite = {
+			focus = BTC_01_FS_08_A
+		}
+		prerequisite = {
+			focus = BTC_01_FS_08_B
+		}
+		prerequisite = {
+			focus = BTC_01_FS_08_C
+		}
+		prerequisite = {
+			focus = BTC_01_FS_08_D
+		}
+		prerequisite = {
+			focus = BTC_01_FS_08_E
+		}
+		x = 0
+		y = 10
+		relative_position_id = BTC_01_FS_00
+	}

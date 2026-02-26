@@ -1,0 +1,72 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_00"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_00.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_02"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_02.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_04_L"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_04_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_04_C"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_04_C.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_04_R"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_04_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_06_L_L"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_06_L_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_06_L_R"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_06_L_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_06_R_L"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_06_R_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_06_R_R"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_06_R_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_08_L"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_08_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_08_C"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_08_C.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_08_R"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_08_R.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_10_L"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_10_L.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_focus_goals_BTB_01_FS_10_R"
+        texturefile = "gfx/icons/goals/BTB/BTB_01_FS_10_R.png"
+        transparencecheck = yes
+    }
+}
