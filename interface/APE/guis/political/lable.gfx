@@ -1,0 +1,19 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_political_lable_bg"
+		texturefile = "gfx/interface/political/lable_bg.png"
+        transparencecheck = yes
+	}
+    spriteType = {
+		name = "GFX_political_lable_left"
+		texturefile = "gfx/interface/political/lable_left.png"
+        transparencecheck = yes
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_political_lable_right"
+		texturefile = "gfx/interface/political/lable_right.png"
+        transparencecheck = yes
+		noOfFrames = 2
+	}
+}

@@ -1,0 +1,21 @@
+guiTypes = {
+	containerWindowType = {
+		name = "political_laws_window"
+		position = { x=7 y=0 }
+		size = { width = 588 height = 100% }
+		moveable = no
+		clipping = no
+		background = {
+		    name = bg
+			quadTextureSprite = "GFX_tiled_161F4C_bg"
+		}
+		gridboxtype = {
+			name = "political_laws_grid"
+			position = { x = 37 y = 0 }
+			size = { width = 1 height = 1 }
+			slotsize = { width = 0 height = 0 }
+			max_slots = { x = 1 y = 101 }
+			format = "UPPER_LEFT"
+		}
+	}
+}

@@ -51,11 +51,34 @@ scripted_gui = {
 			}
 		}
 	}
+	political_lable_window = {
+		context_type = player_context
+		window_name = "political_lable_window"
+		parent_window_name = "political_lable_view"
+		visible = { always = yes }
+		effects = {
+			political_lable_left_click = { set_variable = { ROOT.politicalwindowshowlableframe = 0 } } 
+			political_lable_right_click = { set_variable = { ROOT.politicalwindowshowlableframe = 1 } }
+		}
+		triggers = {
+			political_lable_left_click_enabled = { set_temp_variable = { temp_politicalwindowshowlableframe = 1 } if = { limit = { check_variable = { ROOT.politicalwindowshowlableframe = 1 } } add_to_temp_variable = { temp_politicalwindowshowlableframe = ROOT.politicalwindowshowlableframe } } }
+		}
+		properties = {
+			political_lable_left = { frame = temp_politicalwindowshowlableframe }
+			political_lable_right = { frame = temp_politicalwindowshowlableframe }
+		}
+	}
 	political_ideas_window = {
 		context_type = player_context
 		window_name = "political_ideas_window"
 		parent_window_name = "political_ideas_view"
 		visible = {always = yes}
 		dynamic_lists = { political_ideas_name_grid = { array = global.political_ideas entry_container = political_ideas_name_entry change_scope = no value = political_ideas_name_value index = political_ideas_name_index } }
+	}
+	political_laws_window = {
+		context_type = player_context
+		window_name = "political_laws_window"
+		parent_window_name = "political_laws_view"
+		visible = { check_variable = { ROOT.politicalwindowshowlableframe = 1 } }
 	}
 }

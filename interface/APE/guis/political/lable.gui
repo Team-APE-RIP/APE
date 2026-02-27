@@ -1,0 +1,30 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "political_lable_window"
+		position = { x=0 y=46 }
+		size = { width = 1 height = 1 }
+		moveable = no
+		clipping = no
+		iconType = {
+			name = "political_lable_bg"
+			spriteType ="GFX_political_lable_bg"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+		
+		buttonType = {
+			name = "political_lable_left"
+			quadTextureSprite = "GFX_political_lable_left"
+			position = { x = 0 y = 0 }
+			frame = 1
+		}
+		
+		buttonType = {
+			name = "political_lable_right"
+			quadTextureSprite = "GFX_political_lable_right"
+			position = { x = 0 y = 0 }
+			frame = 1
+		}
+	}
+}
